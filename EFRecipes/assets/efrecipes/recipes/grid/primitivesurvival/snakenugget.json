@@ -1,0 +1,42 @@
+[
+  {
+    "ingredientPattern": "SM",
+	recipeGroup: 1,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:snakemeat-raw",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "snakenugget-raw" }
+   },
+{
+    "ingredientPattern": "SM",
+	recipeGroup: 3,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:snakemeat-raw",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "snakenugget-raw" }
+   },
+]

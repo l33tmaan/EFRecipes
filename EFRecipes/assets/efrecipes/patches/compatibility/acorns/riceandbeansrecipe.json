@@ -1,0 +1,16 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": { type: "item", code: "efrecipes:acornportion",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]}, 
+    "file": "game:recipes/cooking/riceandbeans.json",
+    dependsOn: [{ "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/9/validStacks/-",
+    "value": { type: "item", code: "efrecipes:acornportion",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]}, 
+    "file": "game:recipes/cooking/riceandbeans.json",
+    dependsOn: [{ "modid": "acorns" }]
+  },
+]

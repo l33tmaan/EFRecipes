@@ -1,0 +1,22 @@
+[
+  {
+    "file": "game:blocktypes/plant/seaweed.json",
+    "op": "add",
+    "path": "/drops/0",
+    "value": {
+      "type": "block",
+      "code": "seaweed-{part}"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/grindingProps",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "efrecipes:driedseaweed-mash"
+      }
+    },
+    "file": "blocktypes/plant/seaweed.json"
+  }
+]

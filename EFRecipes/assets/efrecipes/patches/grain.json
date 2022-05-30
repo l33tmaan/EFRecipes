@@ -1,0 +1,74 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-sunflower",
+    "value": {
+      "nutritionPropsWhenInMeal": {
+        "satiety": 240,
+        "foodcategory": "Grain"
+      },
+      "juiceableProperties": {
+        "litresPerItem": 0.078125,
+        "liquidStack": {
+          "type": "item",
+          "code": "efrecipes:foodoilportion-sunflower",
+          "stacksize": 1
+        },
+        "pressedStack": {
+          "type": "item",
+          "code": "game:pressedmash-sunflower",
+          "stacksize": 1
+        }
+      }
+    },
+    "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-flax/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.078125,
+      "liquidStack": {
+        "type": "item",
+        "code": "efrecipes:foodoilportion-flax",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-flax",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-rice/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.078125,
+      "liquidStack": {
+        "type": "item",
+        "code": "efrecipes:foodoilportion-rice",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-rice",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "move",
+    "path": "/temp",
+    "frompath": "/attributesByType/*",
+    "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "move",
+    "path": "/attributesByType/*",
+    "frompath": "/temp",
+    "file": "game:itemtypes/food/grain.json"
+  },
+]

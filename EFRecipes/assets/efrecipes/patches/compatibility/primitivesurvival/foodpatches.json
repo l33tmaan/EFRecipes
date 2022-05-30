@@ -1,0 +1,229 @@
+[
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/breadedball.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/breadedball.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishdumpling.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishdumpling.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishdumpling.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishdumpling.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+    "file": "efrecipes:recipes/kneading/acorns/acornfishstuffedpepper.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "efrecipes:recipes/kneading/acorns/acornfishstuffedpepper.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "efrecipes:recipes/kneading/acorns/acornfishstuffedpepper.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "efrecipes:recipes/kneading/acorns/acornfishstuffedpepper.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "efrecipes:recipes/kneading/acorns/acornfishstuffedpepper.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "efrecipes:recipes/kneading/acorns/acornfishstuffedpepper.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-syruppartbaked",
+    "value": {
+			"crabmeat": { "base": "primitivesurvival:item/crab/crabmeat-partbaked" },
+			"snakemeat": { "base": "primitivesurvival:item/snake/snakemeat-partbaked" },
+    },
+    "file": "efrecipes:itemtypes/acorns/mixing/acornstuffedpepper.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-syrupcooked",
+    "value": {
+			"crabmeat": { "base": "primitivesurvival:item/crab/crabmeat-cooked" },
+			"snakemeat": { "base": "primitivesurvival:item/snake/snakemeat-cooked" },
+    },
+    "file": "efrecipes:itemtypes/acorns/mixing/acornstuffedpepper.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-syrupcharred",
+    "value": {
+			"crabmeat": { "base": "primitivesurvival:item/crab/crabmeat-charred" },
+			"snakemeat": { "base": "primitivesurvival:item/snake/snakemeat-charred" },
+    },
+    "file": "efrecipes:itemtypes/acorns/mixing/acornstuffedpepper.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-partbaked",
+    "value": {
+			"crabmeat": { "base": "primitivesurvival:item/crab/crabmeat-partbaked" },
+			"snakemeat": { "base": "primitivesurvival:item/snake/snakemeat-partbaked" },
+    },
+    "file": "efrecipes:itemtypes/acorns/mixing/acornstuffedpepper.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-cooked",
+    "value": {
+			"crabmeat": { "base": "primitivesurvival:item/crab/crabmeat-cooked" },
+			"snakemeat": { "base": "primitivesurvival:item/snake/snakemeat-cooked" },
+    },
+    "file": "efrecipes:itemtypes/acorns/mixing/acornstuffedpepper.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-charred",
+    "value": {
+			"crabmeat": { "base": "primitivesurvival:item/crab/crabmeat-charred" },
+			"snakemeat": { "base": "primitivesurvival:item/snake/snakemeat-charred" },
+    },
+    "file": "efrecipes:itemtypes/acorns/mixing/acornstuffedpepper.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-oiled",
+    "value": {
+			"crabmeat": { "base": "primitivesurvival:item/crab/crabmeat-raw" },
+			"snakemeat": { "base": "primitivesurvival:item/snake/snakemeat-raw" },
+    },
+    "file": "efrecipes:itemtypes/acorns/mixing/acornstuffedpepper.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-raw",
+    "value": {
+			"crabmeat": { "base": "primitivesurvival:item/crab/crabmeat-raw" },
+			"snakemeat": { "base": "primitivesurvival:item/snake/snakemeat-raw" },
+    },
+    "file": "efrecipes:itemtypes/acorns/mixing/acornstuffedpepper.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns"  }]
+  },
+]

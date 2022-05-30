@@ -1,0 +1,64 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.5,
+      "startScaleY": 1.0,
+      "endScaleY": 0.8,
+      "resultCode": "efrecipes:wilddryfruit-{fruit}"
+    },
+    "file": "wildcraft:itemtypes/food/fruit.json"
+  },
+  {
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "op": "add",
+    "path": "/attributes/onDisplayTransformByType",
+    "value": {
+    "*-strawberry": {
+        "translation": { "x": -0.05, "y": -0.255, "z": 0.15 },
+        "rotation": { "x": 90, "y": 0, "z": 90 },
+        "scale": 0.65
+      },
+    "*-raspberry": {
+        "translation": { "x": 0.05, "y": -0.21, "z": -0.05 },
+        "scale": 0.55
+      },
+    "*-honeysuckle": {
+        "translation": { "x": 0.05, "y": -0.12, "z": -0.05 },
+        "scale": 0.75
+      },
+    "*-gooseberry": {
+        "translation": { "x": 0.1, "y": -0.235, "z": -0.05 },
+        "rotation": { "x": 0, "y": 0, "z": -45 },
+        "scale": 0.55
+      },
+    "*-elderberry": {
+        "translation": { "x": -0.05, "y": -0.295, "z": 0.15 },
+        "rotation": { "x": 0, "y": 0, "z": 120 },
+        "scale": 0.75
+      },
+      "*-dogrose": {
+        "translation": { "x": 0, "y": -0.165, "z": 0.0 },
+        "scale": 0.67
+      },
+    "*-cloudberry": {
+        "translation": { "x": 0, "y": -0.1, "z": 0.05 },
+        "rotation": { "x": -90, "y": -90, "z": -90 },
+        "scale": 0.75
+      },
+   "*-brambleberry": {
+        "translation": { "x": 0.175, "y": -0.28, "z": 0.075 },
+        "rotation": { "x": 90, "y": 0, "z": 0 },
+        "scale": 0.67
+      },
+    "@*-(huckleberry|snowberry)": {
+        "translation": { "x": -0.05, "y": -0.25, "z": 0.15 },
+        "rotation": { "x": 0, "y": 0, "z": 90 },
+        "scale": 0.75
+      }
+    },
+  }
+]

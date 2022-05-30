@@ -1,0 +1,30 @@
+{
+	ingredientPattern: "WFE",
+	ingredients: {
+		"W": { 
+			type: "block", 
+			code: "game:woodbucket"
+		},
+		"F": { 
+			type: "item", 
+			code: "game:flour-*", 
+			allowedVariants: ["flax", "rice", "rye", "spelt"],
+			name: "type"
+		},
+		"E": { 
+			type: "item", 
+			code: "game:salt", 
+			name: "salt"
+		}
+	},
+	width: 3,
+	height: 1,
+	shapeless: true,
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "waterportion" },
+			requiresQuantity: 1
+		}
+	},
+	output: { type: "item", code: "hardtack-{type}-raw"  }
+}

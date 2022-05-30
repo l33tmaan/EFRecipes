@@ -1,0 +1,122 @@
+[
+  {
+	ingredientPattern: "R,M",
+	recipeGroup: 1,
+	ingredients: {
+		"R": { 
+			type: "item", 
+			code: "game:stone-*"
+		},
+		"M": { 
+			type: "item", 
+			code: "primitivesurvival:fishfillet-raw", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "fishsmash",
+	output: { type: "item", code: "fishnugget-smashed"  }
+  },
+  {
+    "ingredientPattern": "SM",
+	recipeGroup: 2,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "fishnugget-smashed",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "fishnugget-raw" }
+   },
+{
+    "ingredientPattern": "SM",
+	recipeGroup: 3,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "fishnugget-smashed",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "fishnugget-raw" }
+   },
+  {
+	ingredientPattern: "H,M",
+	recipeGroup: 4,
+	ingredients: {
+		"H": { 
+			type: "item", 
+			code: "game:hammer-*",
+			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "primitivesurvival:fishfillet-raw", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "fishsmash",
+	output: { type: "item", code: "fishnugget-smashed"  }
+  },
+  {
+	"enabled":  false,
+	ingredientPattern: "H,M",
+	recipeGroup: 5,
+	ingredients: {
+		"H": { 
+			type: "item", 
+			code: "acorns:mallet",
+			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "primitivesurvival:fishfillet-raw", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "fishsmash",
+	output: { type: "item", code: "fishnugget-smashed"  }
+  },
+  {
+	ingredientPattern: "R,M",
+	recipeGroup: 6,
+	ingredients: {
+		"R": { 
+			type: "item", 
+			code: "rollingpin-*",
+       			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "primitivesurvival:fishfillet-raw", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "fishsmash",
+	output: { type: "item", code: "fishnugget-smashed"  }
+  },
+]

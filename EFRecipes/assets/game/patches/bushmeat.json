@@ -1,0 +1,229 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+      "*-raw": {
+        "satiety": 180,
+        "foodcategory": "Protein"
+      },
+      "*-cured": {
+        "satiety": 135,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/class",
+    "value": "TransFix",
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/meathookable",
+    "value": true,
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/meatHookTransform",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/transitionablePropsByType/*-raw/1",
+    "value": {
+      "type": "Cure",
+      "freshHours": {
+        "avg": 350
+      },
+      "transitionHours": {
+        "avg": 6
+      },
+      "transitionedStack": {
+        "type": "item",
+        "code": "efrecipes:agedmeat-bushmeat-normal"
+      },
+      "transitionRatio": 1
+    },
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType",
+    "value": {
+      "*-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "bushmeat-partbaked"
+      },
+      "*-partbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "bushmeat-cooked",
+        "initialCode": "bushmeat-raw"
+      },
+      "*-cooked": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "bushmeat-charred",
+        "initialCode": "bushmeat-partbaked"
+      },
+      "*-charred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "bushmeat-cooked"
+      }
+    },
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onDisplayTransform",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/combustiblePropsByType/bushmeat-raw/smeltedStack/code",
+    "value": "bushmeat-charred",
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-charred",
+    "value": {
+      "satiety": 110,
+      "foodcategory": "Protein"
+    },
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-partbaked",
+    "value": {
+      "satiety": 115,
+      "foodcategory": "Protein"
+    },
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/transitionablePropsByType/*-charred",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 420
+        },
+        "transitionHours": {
+          "avg": 60
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/transitionablePropsByType/*-partbaked",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 36
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states/1",
+    "value": "partbaked",
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/2",
+    "value": "cooked",
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/3",
+    "value": "charred",
+    "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "*-raw": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling"
+      },
+      "*-cured": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling"
+      }
+    },
+    "file": "itemtypes/food/bushmeat.json"
+  }
+]

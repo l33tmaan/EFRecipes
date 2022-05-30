@@ -1,0 +1,198 @@
+[  
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "game:vegetable-*",
+	allowedVariants: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava", "bellpepper"],
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "choppedvegetable-{type}" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "game:pickledvegetable-*",
+	    allowedVariants: ["carrot", "onion", "turnip", "parsnip", "pumpkin"],
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "choppedvegetable-pickled{type}" }
+   },
+
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "game:vegetable-*",
+	    allowedVariants: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava", "bellpepper"],
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "choppedvegetable-{type}" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "game:pickledvegetable-*",
+	    allowedVariants: ["carrot", "onion", "turnip", "parsnip", "pumpkin"],
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "choppedvegetable-pickled{type}" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "game:cattailroot",
+	name: "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "choppedvegetable-cattailroot" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "game:cattailroot",
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "choppedvegetable-cattailroot" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "game:papyrusroot",
+	name: "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "choppedvegetable-papyrusroot" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "game:papyrusroot",
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "choppedvegetable-papyrusroot" }
+   },
+
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "game:rawcassava-dried",
+	name: "type"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "choppedvegetable-cassavadried" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "game:rawcassava-dried",
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "choppedvegetable-cassavadried" }
+   }
+]

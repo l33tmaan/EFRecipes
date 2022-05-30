@@ -1,0 +1,16 @@
+﻿[
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/wildgozinakisyrup.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/wildherbgozinakisyrup.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+]

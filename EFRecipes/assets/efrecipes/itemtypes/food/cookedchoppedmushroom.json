@@ -1,0 +1,195 @@
+﻿{
+	code: "cookedchoppedmushroom",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "type", loadFromProperties: "block/mushroom" },
+		{ code: "state", states: ["partbaked", "perfect", "charred" ] }
+	],
+	shape: { base: "item/food/veggies/chopped/cooked/mushroom/{type}"},
+	texturesByType: {
+		"*-partbaked": {
+			"cap": {base: "item/food/veggie/partbaked/kingbolete/cap"},
+			"stipe": {base: "item/food/veggie/partbaked/kingbolete/stipe"},
+			"pores": {base: "item/food/veggie/partbaked/kingbolete/pores"},
+			"capfield": {base: "item/food/veggie/partbaked/fieldmushroom/cap"},
+			"stipefield": {base: "item/food/veggie/partbaked/fieldmushroom/stipe"},
+			"poresfield": {base: "item/food/veggie/partbaked/fieldmushroom/pores"},
+    		"capfly": {base: "item/food/veggie/partbaked/flyagaric/cap"},
+    		"stipefly": {base: "item/food/veggie/partbaked/flyagaric/stipe"},
+    		"poresfly": {base: "item/food/veggie/partbaked/flyagaric/pores"},
+		},
+		"*-perfect": {
+			"cap": {base: "item/food/veggie/perfect/kingbolete/cap"},
+			"stipe": {base: "item/food/veggie/perfect/kingbolete/stipe"},
+			"pores": {base: "item/food/veggie/perfect/kingbolete/pores"},
+			"capfield": {base: "item/food/veggie/perfect/fieldmushroom/cap"},
+			"stipefield": {base: "item/food/veggie/perfect/fieldmushroom/stipe"},
+			"poresfield": {base: "item/food/veggie/perfect/fieldmushroom/pores"},
+    		"capfly": {base: "item/food/veggie/perfect/flyagaric/cap"},
+    		"stipefly": {base: "item/food/veggie/perfect/flyagaric/stipe"},
+    		"poresfly": {base: "item/food/veggie/perfect/flyagaric/pores"},
+		},
+		"*-charred": {
+			"cap": {base: "item/food/veggie/charred/kingbolete/cap"},
+			"stipe": {base: "item/food/veggie/charred/kingbolete/stipe"},
+			"pores": {base: "item/food/veggie/charred/kingbolete/pores"},
+			"capfield": {base: "item/food/veggie/charred/fieldmushroom/cap"},
+			"stipefield": {base: "item/food/veggie/charred/fieldmushroom/stipe"},
+			"poresfield": {base: "item/food/veggie/charred/fieldmushroom/pores"},
+    		"capfly": {base: "item/food/veggie/charred/flyagaric/cap"},
+    		"stipefly": {base: "item/food/veggie/charred/flyagaric/stipe"},
+    		"poresfly": {base: "item/food/veggie/charred/flyagaric/pores"},
+		},
+	},
+	attributesByType: {
+		"*-partbaked": {
+			"handbook": { "groupBy": [ "cookedchoppedmushroom-*" ] },
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 0.9,
+				resultCode: "efrecipes:cookedchoppedmushroom-{type}-perfect",
+				initialCode: "efrecipes:choppedmushroom-{type}"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.325, z: 0 },
+				scale: 0.35 
+			}
+		},
+		"*-perfect": {
+			"handbook": { "groupBy": [ "cookedchoppedmushroom-*" ] },
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 0.9,
+				endScaleY: 0.8,
+				resultCode: "efrecipes:cookedchoppedmushroom-{type}-charred",
+				initialCode: "efrecipes:cookedchoppedmushroom-{type}-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.325, z: 0 },
+				scale: 0.35 
+			}
+		},
+		"*-flyagaric-charred": {
+			"handbook": { "groupBy": [ "cookedchoppedmushroom-*" ] },
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 0.8,
+				endScaleY: 0.7,
+				initialCode: "efrecipes:cookedchoppedmushroom-flyagaric-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.325, z: 0 },
+				scale: 0.35 
+			}
+		},
+	},
+	combustiblePropsByType: {
+		"*-partbaked": {
+			meltingPoint: 150,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "cookedchoppedmushroom-{type}-charred" },
+			requiresContainer: false
+		},
+		"*-perfect": {
+			meltingPoint: 150,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "cookedchoppedmushroom-{type}-charred" },
+			requiresContainer: false
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "efrecipes": ["*"] },
+	nutritionPropsByType: {
+		"*-tinderhoof-*": null,
+
+		"*-earthball-partbaked": { saturation: 105, health: -3, foodcategory: "Vegetable" },
+		"*-deathcap-partbaked": { saturation: 105, health: -19.75, foodcategory: "Vegetable" },
+		"*-elfinsaddle-partbaked": { saturation: 105, health: -2.625, foodcategory: "Vegetable" },
+		"*-jackolantern-partbaked": { saturation: 105, health: -2.25, foodcategory: "Vegetable" },
+		"*-devilsbolete-partbaked": { saturation: 105, health: -3.75, foodcategory: "Vegetable" },
+		"*-flyagaric-partbaked": { saturation: 105, health: -2.45, foodcategory: "Vegetable" },
+		"*-bitterbolete-partbaked": { saturation: 105, health: -1.125, foodcategory: "Vegetable" },
+		"*-devilstooth-partbaked": { saturation: 105, health: -0.75, foodcategory: "Vegetable" },
+		"*-golddropmilkcap-partbaked": { saturation: 105, health: -0.935, foodcategory: "Vegetable" },
+		"*-partbaked-partbaked": { satiety: 105, foodcategory: "Vegetable" },
+		
+		"*-earthball-perfect": { saturation: 140, health: -2, foodcategory: "Vegetable" },
+		"*-deathcap-perfect": { saturation: 140, health: -12.5, foodcategory: "Vegetable" },
+		"*-elfinsaddle-perfect": { saturation: 140, health: -1.75, foodcategory: "Vegetable" },
+		"*-jackolantern-perfect": { saturation: 140, health: -1.5, foodcategory: "Vegetable" },
+		"*-devilsbolete-perfect": { saturation: 140, health: -2.5, foodcategory: "Vegetable" },
+		"*-flyagaric-perfect": { saturation: 140, health: -1.625, foodcategory: "Vegetable" },
+		"*-bitterbolete-perfect": { saturation: 140, health: -0.75, foodcategory: "Vegetable" },
+		"*-devilstooth-perfect": { saturation: 140, health: -0.5, foodcategory: "Vegetable" },
+		"*-golddropmilkcap-perfect": { saturation: 140, health: -0.625, foodcategory: "Vegetable" },
+		"*-perfect": { satiety: 140, foodcategory: "Vegetable" },
+
+		"*-charred": { satiety: 120, foodcategory: "Vegetable" },
+	},
+	transitionablePropsByType: {
+    	"*-partbaked": [{
+    		type: "Perish",
+    		freshHours: { avg: 216 },
+    		transitionHours: { avg: 36 },
+    		transitionedStack: { type: "item", code: "game:rot" },
+    		transitionRatio: 1
+    	}],
+		"*-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 216 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-charred": [{
+			type: "Perish",
+			freshHours: { avg: 756 },
+			transitionHours: { avg: 60 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	},
+	materialDensity: 600,
+	guiTransformByType: {
+		"*": {
+			translation: { x: 3, y: 4, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 1.8
+		},
+	},
+	fpHandTransformByType: {
+		"*": {
+			translation: { x: 0.05, y: -0.1, z: 0 },
+			rotation: { x: 45, y: 180, z: -17 },
+			origin: { x: 0.5, y: 0.5, z: 0.5 },
+			scale: 1
+		},
+	},
+	tpHandTransformByType: {
+		"*": {
+			translation: { x: -1.73, y: -0.42, z: -2 },
+			rotation: { x: 1, y: -10, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.25
+		},		
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.5
+		},
+	}
+}

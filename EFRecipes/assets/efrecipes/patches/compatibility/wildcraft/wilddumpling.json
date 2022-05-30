@@ -1,0 +1,30 @@
+﻿[
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/wilddumpling.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/wilddumpling.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/wildherbdumpling.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/wildherbdumpling.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+]

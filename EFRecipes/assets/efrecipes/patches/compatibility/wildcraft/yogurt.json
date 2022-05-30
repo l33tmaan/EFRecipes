@@ -1,0 +1,16 @@
+﻿[
+ {
+    "file": "efrecipes:itemtypes/liquid/yogurt.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "yogurt-huckleberry", "yogurt-snowberry", "yogurt-brambleberry", "yogurt-honeysuckle", "yogurt-cloudberry", "yogurt-dogrose", "yogurt-elderberry", "yogurt-gooseberry", "yogurt-strawberry", "yogurt-raspberry",  ],
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/wildyogurtfruit.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+]

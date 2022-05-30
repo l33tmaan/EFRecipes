@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/inContainerTexture",
+    "value": {
+      "base": "game:block/resin"
+    },
+    "file": "itemtypes/resource/resin.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/waterTightContainerProps",
+    "value": {
+      "itemsPerLitre": 10,
+      "texture": {
+        "base": "game:block/resin"
+      },
+      "isopaque": true,
+      "maxStackSize": 32
+    },
+    "file": "itemtypes/resource/resin.json"
+  }
+]

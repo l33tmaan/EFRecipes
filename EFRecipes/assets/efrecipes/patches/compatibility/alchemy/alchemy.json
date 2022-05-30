@@ -1,0 +1,33 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/meathookable",
+    "value": true,
+    "file": "alchemy:itemtypes/flowercutting.json",
+    dependsOn: [{ "modid": "alchemy" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/meatHookTransform",
+    "value": {
+      "translation": {
+        "x": 0.0,
+        "y": -0.55,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "file": "alchemy:itemtypes/flowercutting.json",
+    dependsOn: [{ "modid": "alchemy" }]
+  },
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "op": "replace",
+    "path": "/fpHandTransformByType/*-cabbage/scale",
+    "value": 1.25,
+    "file": "itemtypes/food/pickledvegetable.json"
+  },
+  {
+    "op": "replace",
+    "path": "/groundTransformByType/*-cabbage/scale",
+    "value": 3,
+    "file": "itemtypes/food/pickledvegetable.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransformByType/*-cabbage/scale",
+    "value": 0.5,
+    "file": "itemtypes/food/pickledvegetable.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransformByType/*-cabbage/translation/x",
+    "value": -0.9,
+    "file": "itemtypes/food/pickledvegetable.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransformByType/*-cabbage/translation/z",
+    "value": -1,
+    "file": "itemtypes/food/pickledvegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType",
+    "value": {
+      "*-carrot": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "efrecipes:cookedveggie-pickledcarrot-partbaked"
+      },
+      "*-onion": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "efrecipes:cookedveggie-pickledonion-partbaked"
+      },
+      "*-turnip": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "efrecipes:cookedveggie-pickledturnip-partbaked"
+      },
+      "*-parsnip": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "efrecipes:cookedveggie-pickledparsnip-partbaked"
+      },
+      "*-pumpkin": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "efrecipes:cookedveggie-pickledpumpkin-partbaked"
+      },
+      "*-bellpepper": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "efrecipes:cookedchoppedvegetable-pickledbellpepper-partbaked"
+      }
+    },
+    "file": "itemtypes/food/pickledvegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onDisplayTransformByType",
+    "value": {
+      "*-carrot": {
+        "rotation": {
+          "x": 90,
+          "y": 0,
+          "z": 0
+        },
+        "translation": {
+          "x": 0,
+          "y": -0.45,
+          "z": 0.25
+        },
+        "scale": 1
+      },
+      "*-parsnip": {
+        "rotation": {
+          "x": 90,
+          "y": 0,
+          "z": 0
+        },
+        "translation": {
+          "x": 0,
+          "y": -0.45,
+          "z": 0.25
+        },
+        "scale": 1
+      },
+      "*-turnip": {
+        "rotation": {
+          "x": 90,
+          "y": 0,
+          "z": 0
+        },
+        "translation": {
+          "x": 0,
+          "y": -0.4,
+          "z": 0.25
+        },
+        "scale": 1
+      },
+      "*-bellpepper": {
+        "translation": {
+          "x": 0,
+          "y": -0.125,
+          "z": 0
+        },
+        "scale": 0.75
+      },
+      "*": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 1
+      }
+    },
+    "file": "itemtypes/food/pickledvegetable.json"
+  },
+ {
+    "op": "add",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-carrot": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "efrecipes:cookedveggie-pickledcarrot-charred"
+        },
+        "requiresContainer": false
+      },
+      "*-onion": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "efrecipes:cookedveggie-pickledonion-charred"
+        },
+        "requiresContainer": false
+      },
+      "*-turnip": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "efrecipes:cookedveggie-pickledturnip-charred"
+        },
+        "requiresContainer": false
+      },
+      "*-parsnip": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "efrecipes:cookedveggie-pickledparsnip-charred"
+        },
+        "requiresContainer": false
+      },
+      "*-pumpkin": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "efrecipes:cookedveggie-pickledpumpkin-charred"
+        },
+        "requiresContainer": false
+      },
+      "*-bellpepper": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "Code": "efrecipes:cookedchoppedvegetable-pickledbellpepper-charred"
+        },
+        "requiresContainer": false
+      }
+    },
+    "file": "itemtypes/food/pickledvegetable.json"
+  }
+]

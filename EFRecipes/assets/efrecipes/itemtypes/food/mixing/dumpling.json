@@ -1,0 +1,231 @@
+{
+	code: "dumpling",
+  	class: "ExpandedFood",
+	maxstacksize: 32,
+	variantgroups: [
+		{ code: "type", states: ["raw", "partbaked", "cooked", "charred"]}
+	],
+	attributes: {
+		"handbook": { "exclude":  true },
+		displaycaseable: true,
+		shelvable: true,
+    		"expandedNutritionPropsByType": {
+			"*-raw": {
+      				"game:milkportion" : { saturation: 1.5, foodcategory: "Dairy" },
+					"efrecipes:lard": { saturation: 16, "health":  0.1, foodcategory: "Protein"},
+					"efrecipes:pasteurizedmilk": { saturation: 1.15, "health":  0.1, foodcategory: "Dairy"},
+					"efrecipes:brothportion-bone": { saturation: 1, "health": 0.1, foodcategory: "Protein"},
+					"efrecipes:soymilk-edible": { saturation: 1.125, "health": 0.1, foodcategory: "Dairy"},
+      				"game:flour-rice" : { saturation: 170, foodcategory: "Grain" },
+      				"game:flour-rye" : { saturation: 140, foodcategory: "Grain" },
+      				"game:flour-spelt" : { saturation: 140, foodcategory: "Grain" },
+					"game:flour-cassava": {saturation: 140, foodcategory: "Grain"},
+					"game:flour-amaranth": {saturation: 140, foodcategory: "Grain"},
+					"game:flour-sunflower": {saturation: 140, foodcategory: "Grain"},
+      				"acorns:flour-acorn" : { saturation: 140, foodcategory: "Grain" },
+					"game:egg-chicken-raw": { saturation: 150, foodcategory: "Protein"},
+					"game:salt": {saturation: 10, health: 0.5, foodcategory: "Grain"},
+				},
+			},
+    		renderIngredientsByType: {
+			"*-raw": {
+      				"game:flour-flax" : "efrecipes:shapes/item/food/dumpling/flaxraw.json",
+      				"game:flour-rice" : "efrecipes:shapes/item/food/dumpling/riceraw.json",
+      				"game:flour-rye" : "efrecipes:shapes/item/food/dumpling/ryeraw.json",
+      				"game:flour-spelt" : "efrecipes:shapes/item/food/dumpling/speltraw.json",
+      				"game:flour-cassava" : "efrecipes:shapes/item/food/dumpling/cassavaraw.json",
+      				"game:flour-amaranth" : "efrecipes:shapes/item/food/dumpling/amaranthraw.json",
+      				"game:flour-sunflower" : "efrecipes:shapes/item/food/dumpling/sunflowerraw.json",
+			},
+			"*-partbaked": {
+      				"game:flour-flax" : "efrecipes:shapes/item/food/dumpling/flaxpartbaked.json",
+      				"game:flour-rice" : "efrecipes:shapes/item/food/dumpling/ricepartbaked.json",
+      				"game:flour-rye" : "efrecipes:shapes/item/food/dumpling/ryepartbaked.json",
+      				"game:flour-spelt" : "efrecipes:shapes/item/food/dumpling/speltpartbaked.json",
+      				"game:flour-cassava" : "efrecipes:shapes/item/food/dumpling/cassavapartbaked.json",
+      				"game:flour-amaranth" : "efrecipes:shapes/item/food/dumpling/amaranthpartbaked.json",
+      				"game:flour-sunflower" : "efrecipes:shapes/item/food/dumpling/sunflowerpartbaked.json",
+			},
+			"*-cooked": {
+      				"game:flour-flax" : "efrecipes:shapes/item/food/dumpling/flaxcooked.json",
+      				"game:flour-rice" : "efrecipes:shapes/item/food/dumpling/ricecooked.json",
+      				"game:flour-rye" : "efrecipes:shapes/item/food/dumpling/ryecooked.json",
+      				"game:flour-spelt" : "efrecipes:shapes/item/food/dumpling/speltcooked.json",
+      				"game:flour-cassava" : "efrecipes:shapes/item/food/dumpling/cassavacooked.json",
+      				"game:flour-amaranth" : "efrecipes:shapes/item/food/dumpling/amaranthcooked.json",
+      				"game:flour-sunflower" : "efrecipes:shapes/item/food/dumpling/sunflowercooked.json",
+			},
+			"*-charred": {
+      				"game:flour-flax" : "efrecipes:shapes/item/food/dumpling/flaxcharred.json",
+      				"game:flour-rice" : "efrecipes:shapes/item/food/dumpling/ricecharred.json",
+      				"game:flour-rye" : "efrecipes:shapes/item/food/dumpling/ryecharred.json",
+      				"game:flour-spelt" : "efrecipes:shapes/item/food/dumpling/speltcharred.json",
+      				"game:flour-cassava" : "efrecipes:shapes/item/food/dumpling/cassavacharred.json",
+      				"game:flour-amaranth" : "efrecipes:shapes/item/food/dumpling/amaranthcharred.json",
+      				"game:flour-sunflower" : "efrecipes:shapes/item/food/dumpling/sunflowercharred.json",
+			},
+		},
+		bakingPropertiesByType: {
+			"*-raw": {
+				temp: 160,
+				levelFrom: 0.0,
+				levelTo: 0.25,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "efrecipes:dumpling-partbaked",
+			},
+			"*-partbaked": {
+				temp: 160,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.05,
+				resultCode: "efrecipes:dumpling-cooked",
+				initialCode: "efrecipes:dumpling-raw"
+			},
+			"*-cooked": {
+				temp: 160,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.05,
+				endScaleY: 1.07,
+				resultCode: "efrecipes:dumpling-charred",
+				initialCode: "efrecipes:dumpling-partbaked"
+			},
+			"*-charred": {
+				temp: 160,
+				levelFrom: 0.75,
+				levelTo: 1.0,
+				startScaleY: 1.07,
+				endScaleY: 1.0,
+				initialCode: "efrecipes:dumpling-cooked"
+			},
+		},
+		onDisplayTransform: { 
+			translation: { x: 0.1, y: 0, z: 0 },
+		},
+		satMultByType: {
+			"*-partbaked": 0.5,
+			"*-cooked": 1,
+			"*-charred": 0.75
+		},
+	},
+	shape: { base: "efrecipes:item/food/dumpling/flaxraw" },
+  	textures: {
+    		"flaxraw": {base: "item/food/dumpling/flaxraw" },
+    		"riceraw": {base: "item/food/dumpling/riceraw" },
+    		"speltraw": {base: "item/food/dumpling/speltraw" },
+    		"ryeraw": {base: "item/food/dumpling/ryeraw" },
+    		"cassavaraw": {base: "item/food/dumpling/cassavaraw" },
+    		"amaranthraw": {base: "item/food/dumpling/amaranthraw" },
+    		"sunflowerraw": {base: "item/food/dumpling/sunflowerraw" },
+    		"flaxpartbaked": {base: "item/food/dumpling/flaxpartbaked" },
+    		"ricepartbaked": {base: "item/food/dumpling/ricepartbaked" },
+    		"speltpartbaked": {base: "item/food/dumpling/speltpartbaked" },
+    		"ryepartbaked": {base: "item/food/dumpling/ryepartbaked" },
+    		"cassavapartbaked": {base: "item/food/dumpling/cassavapartbaked" },
+    		"amaranthpartbaked": {base: "item/food/dumpling/amaranthpartbaked" },
+    		"sunflowerpartbaked": {base: "item/food/dumpling/sunflowerpartbaked" },
+    		"flaxcooked": {base: "item/food/dumpling/flaxcooked" },
+    		"ricecooked": {base: "item/food/dumpling/ricecooked" },
+    		"speltcooked": {base: "item/food/dumpling/speltcooked" },
+    		"ryecooked": {base: "item/food/dumpling/ryecooked" },
+    		"cassavacooked": {base: "item/food/dumpling/cassavacooked" },
+    		"amaranthcooked": {base: "item/food/dumpling/amaranthcooked" },
+    		"sunflowercooked": {base: "item/food/dumpling/sunflowercooked" },
+    		"flaxcharred": {base: "item/food/dumpling/flaxcharred" },
+    		"ricecharred": {base: "item/food/dumpling/ricecharred" },
+    		"speltcharred": {base: "item/food/dumpling/speltcharred" },
+    		"ryecharred": {base: "item/food/dumpling/ryecharred" },
+    		"cassavacharred": {base: "item/food/dumpling/cassavacharred" },
+    		"amaranthcharred": {base: "item/food/dumpling/amaranthcharred" },
+    		"sunflowercharred": {base: "item/food/dumpling/sunflowercharred" },
+  	},
+	nutritionPropsByType: {
+		"*-partbaked": { saturation: 270, foodcategory: "Grain"},
+		"*-cooked": { saturation: 300, foodcategory: "Grain"},
+		"*-charred": { saturation: 240, foodcategory: "Grain"},
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "efrecipes": ["*"] },
+	transitionablePropsByType: {
+		"*-raw": [{
+			type: "Perish",
+			freshHours: { avg: 96 },
+			transitionHours: { avg: 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-partbaked": [{
+			type: "Perish",
+			freshHours: { avg: 192 },
+			transitionHours: { avg: 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-cooked": [{
+			type: "Perish",
+			freshHours: { avg: 192 },
+			transitionHours: { avg: 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-charred": [{
+			type: "Perish",
+			freshHours: { avg: 284 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	},
+	combustiblePropsByType: {
+		"*-raw": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "efrecipes:dumpling-charred" },
+			requiresContainer: false
+		},
+		"*-partbaked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "efrecipes:dumpling-charred" },
+			requiresContainer: false
+		},
+		"*-cooked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "efrecipes:dumpling-charred" },
+			requiresContainer: false
+		},
+	},
+	materialDensity: 600,
+	guiTransform: {
+translation: { x: 0, y: 0, z: 0 },
+rotation: { x: -37, y: 142, z: -180 },
+	origin: { x: 0.46, y: 0, z: 0.55 },
+scale: 4.2
+},
+	fpHandTransform: {
+translation: { x: -0.06, y: 0.36, z: 0.23 },
+ rotation: { x: 53, y: 15, z: 11 },
+ origin: { x: 0.5, y: 0.1, z: 0.5 },
+ scale: 1.77
+ },
+	tpHandTransform: {
+translation: { x: 0.1, y: -0.1, z: -0.25 },
+ rotation: { x: -19, y: 61, z: -34 },
+ origin: { x: 0.23, y: 0, z: 0.13 },
+ scale: 0.75
+ },
+	groundTransform: {
+translation: { x: 0, y: 0, z: 0 },
+ rotation: { x: 0, y: 0, z: 0 },
+ origin: { x: 0, y: 0, z: 0 },
+ scale: 4
+},
+}

@@ -1,0 +1,19 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/combustibleProps",
+    "value": {
+      "meltingPoint": 150,
+      "meltingDuration": 5,
+      "smeltedRatio": 100,
+      "smeltingType": "cook",
+      "smeltedStack": {
+        "type": "item",
+        "code": "game:salt",
+        "quantity": 2,
+      },
+      "requiresContainer": true
+    },
+    "file": "itemtypes/liquid/brineportion.json"
+  }
+]

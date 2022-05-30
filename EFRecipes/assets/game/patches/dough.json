@@ -1,0 +1,165 @@
+[
+  {
+    "op": "replace",
+    "path": "/class",
+    "value": "ExpandedDough",
+    "file": "itemtypes/food/dough.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {
+      "game:milkportion": {
+        "saturation": 1.5,
+        "foodcategory": "Dairy"
+      },
+      "game:flour-rice": {
+        "saturation": 170,
+        "foodcategory": "Grain"
+      },
+      "game:flour-rye": {
+        "saturation": 140,
+        "foodcategory": "Grain"
+      },
+      "game:flour-spelt": {
+        "saturation": 140,
+        "foodcategory": "Grain"
+      },
+      "game:flour-cassava": {
+        "saturation": 140,
+        "foodcategory": "Grain"
+      },
+      "game:flour-amaranth": {
+        "saturation": 140,
+        "foodcategory": "Grain"
+      },
+      "game:flour-sunflower": {
+        "saturation": 140,
+        "foodcategory": "Grain"
+      },
+      "efrecipes:lard": {
+        "saturation": 16,
+        "health": 0.01,
+        "foodcategory": "Protein"
+      },
+      "efrecipes:pasteurizedmilk": {
+        "saturation": 1.15,
+        "health": 0.01,
+        "foodcategory": "Dairy"
+      },
+      "efrecipes:brothportion-bone": {
+        "saturation": 1,
+        "health": 0.01,
+        "foodcategory": "Protein"
+      },
+      "efrecipes:soymilk-edible": {
+        "saturation": 1.125,
+        "health": 0.01,
+        "foodcategory": "Dairy"
+      },
+      "efrecipes:foodoilportion-*": {
+        "saturation": 6,
+        "health": 0.01,
+        "foodcategory": "Vegetable"
+      },
+    },
+    "file": "itemtypes/food/dough.json"
+  },
+    {
+        "op": "add",
+        "path": "/attributes/renderIngredientsByType",
+        "value": {
+            "*-spelt": {
+                "game:flour-spelt": "game:shapes/item/food/bread/speltbread-dough.json"
+            },
+            "*-rye": {
+                "game:flour-rye": "game:shapes/item/food/bread/ryebread-dough.json"
+            },
+            "*-flax": {
+                "game:flour-flax": "game:shapes/item/food/bread/flaxbread-dough.json"
+            },
+            "*-rice": {
+                "game:flour-rice": "game:shapes/item/food/bread/ricebread-dough.json"
+            },
+            "*-cassava": {
+                "game:flour-cassava": "game:shapes/item/food/bread/cassavabread-dough.json"
+            },
+            "*-amaranth": {
+                "game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread-dough.json"
+            },
+            "*-sunflower": {
+                "game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread-dough.json"
+            },
+            "*-acornspelt": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornspeltbread-dough.json"
+            },
+            "*-acornrye": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornryebread-dough.json"
+            },
+            "*-acornflax": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornflaxbread-dough.json"
+            },
+            "*-acornrice": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornricebread-dough.json"
+            },
+            "*-acorncassava": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acorncassavabread-dough.json"
+            },
+            "*-acornamaranth": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornamaranthbread-dough.json"
+            },
+            "*-acornsunflower": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread-dough.json"
+            }
+        },
+        "file": "itemtypes/food/dough.json"
+    },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-flax-charred",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-flax-partbaked",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-flax-perfect",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-rice-charred",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-rice-partbaked",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-rice-perfect",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-charred/saturation",
+    "value": 100,
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-partbaked/saturation",
+    "value": 70,
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-perfect/saturation",
+    "value": 160,
+    "file": "itemtypes/food/bread.json"
+  }
+]

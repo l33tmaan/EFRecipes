@@ -1,0 +1,39 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "efrecipes:cookedveggie-cattailroot-partbaked"
+    },
+    "file": "itemtypes/resource/catttailroot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onDisplayTransform",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": -0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": 90,
+        "y": 180,
+        "z": 134
+      },
+      "scale": 0.75
+    },
+    "file": "itemtypes/resource/catttailroot.json"
+  },
+  {
+    "op": "replace",
+    "path": "/combustibleProps/smeltedStack/code",
+    "value": "efrecipes:cookedveggie-cattailroot-charred",
+    "file": "itemtypes/resource/catttailroot.json"
+  }
+]

@@ -1,0 +1,282 @@
+{
+	code: "acornbreadedball",
+  	class: "ExpandedFood",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "state", states: ["raw", "partbaked", "cooked", "charred","syruppartbaked", "syrup", "syrupcharred", "oiled"] },
+	],
+	attributes: {
+		"handbook": { "exclude":  true },
+  		"expandedNutritionProps": {
+			"game:flour-flax": {saturation: 80, foodcategory: "Grain"},
+			"game:flour-rye": {saturation: 150, foodcategory: "Grain"},
+			"game:flour-spelt": {saturation: 150, foodcategory: "Grain"},
+			"game:flour-cassava": {saturation: 150, foodcategory: "Grain"},
+			"game:flour-amaranth": {saturation: 150, foodcategory: "Grain"},
+			"game:flour-sunflower": {saturation: 150, foodcategory: "Grain"},
+			"game:flour-rice": {saturation: 165, foodcategory: "Grain"},
+			"acorns:flour-acorn": {saturation: 150, foodcategory: "Grain"},
+			"efrecipes:breadcrumbs-flax": {saturation: 80, foodcategory: "Grain"},
+			"efrecipes:breadcrumbs-rice": {saturation: 160, foodcategory: "Grain"},
+			"efrecipes:breadcrumbs-spelt": {saturation: 150, foodcategory: "Grain"},
+			"efrecipes:breadcrumbs-rye": {saturation: 150, foodcategory: "Grain"},
+			"efrecipes:breadcrumbs-cassava": {saturation: 150, foodcategory: "Grain"},
+			"efrecipes:breadcrumbs-amaranth": {saturation: 150, foodcategory: "Grain"},
+			"efrecipes:breadcrumbs-sunflower": {saturation: 150, foodcategory: "Grain"},
+			"game:egg-chicken-raw": { saturation: 150, foodcategory: "Protein"},
+			"efrecipes:fishnugget-raw": {saturation: 90, foodcategory: "Protein"},
+    		"efrecipes:foodoilportion-*" : { saturation: 6.4, "health": 0.1, foodcategory: "Fruit" },
+    		"efrecipes:treesyrupportion-*" : { saturation: 9.6, "health": 0.1, foodcategory: "Fruit" },
+    		"efrecipes:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.2, foodcategory: "Fruit" }, 
+      		"efrecipes:fruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
+      		"efrecipes:wildfruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
+    		"efrecipes:lard" : { saturation: 16, "health": 0.1, foodcategory: "Protein" },
+    		"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
+			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Grain"},
+		},
+		onDisplayTransform: { 
+			translation: { x: 0, y: -0.175, z: 0 },
+			rotation: { x: 0, y: 115, z: 0},
+			scale: 0.65 
+		},
+		bakingPropertiesByType: {
+			"*-raw": {
+				temp: 160,
+				levelFrom: 0.0,
+				levelTo: 0.25,
+				startScaleY: 1.0,
+				endScaleY: 1.05,
+				resultCode: "efrecipes:acornbreadedball-partbaked",
+			},
+			"*-oiled": {
+				temp: 160,
+				levelFrom: 0.0,
+				levelTo: 0.25,
+				startScaleY: 1.0,
+				endScaleY: 1.05,
+				resultCode: "efrecipes:acornbreadedball-partbaked",
+			},
+			"*-partbaked": {
+				temp: 160,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.05,
+				endScaleY: 1.10,
+				resultCode: "efrecipes:acornbreadedball-cooked",
+				initialCode: "efrecipes:acornbreadedball-{raw|oiled}",
+			},
+			"*-cooked": {
+				temp: 160,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.10,
+				endScaleY: 1.10,
+				resultCode: "efrecipes:acornbreadedball-charred",
+				initialCode: "efrecipes:acornbreadedball-partbaked",
+			},
+			"*-charred": {
+				temp: 160,
+				levelFrom: 0.75,
+				levelTo: 1.0,
+				startScaleY: 1.10,
+				endScaleY: 1.0,
+				initialCode: "efrecipes:acornbreadedball-cooked",
+			},
+			"*-syruppartbaked": {
+				temp: 160,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.05,
+				endScaleY: 1.10,
+				resultCode: "efrecipes:acornbreadedball-syrup"
+			},
+			"*-syrup": {
+				temp: 160,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.10,
+				endScaleY: 1.10,
+				resultCode: "efrecipes:acornbreadedball-syrupcharred",
+				initialCode: "efrecipes:acornbreadedball-syruppartbaked",
+			},
+			"*-syrupcharred": {
+				temp: 160,
+				levelFrom: 0.75,
+				levelTo: 1.0,
+				startScaleY: 1.10,
+				endScaleY: 1.0,
+				initialCode: "efrecipes:acornbreadedball-syrup",
+			},
+		},
+		satMultByType: {
+			"*-partbaked": 0.5,
+			"*-cooked": 1,
+			"*-charred": 0.75,
+			"*-syruppartbaked": 0.5,
+			"*-syrup": 1,
+			"*-syrupcharred": 0.75
+		},
+	},
+	shapebytype:	{
+		"*-syruppartbaked": {base: "item/food/balls-syrup"},
+		"*-syrup": {base: "item/food/balls-syrup"},
+		"*-syrupcharred": {base: "item/food/balls-syrup"},
+		"*-partbaked": {base: "item/food/balls-cooked"},
+		"*-cooked": {base: "item/food/balls-cooked"},
+		"*-charred": {base: "item/food/balls-cooked"},
+		"*-oiled": {base: "item/food/balls-raw"},
+		"*-raw": {base: "item/food/balls-raw"},
+	},
+	texturesByType: { 
+		"*-syruppartbaked": {
+			"breading-syrup": { base: "efrecipes:item/food/grain/breading/acorn-fish" }, 				
+		},
+		"*-syrup": {
+			"breading-syrup": { base: "efrecipes:item/food/grain/breading/acorn-fish" }, 				
+		},
+		"*-syrupcharred": {
+			"breading-syrup": { base: "efrecipes:item/food/grain/breading/acorn-fish" }, 				
+		},
+		"*-partbaked": {
+			"breading-cooked": { base: "efrecipes:item/food/grain/breading/acorn-partbaked" }, 				
+		},
+		"*-cooked": {
+			"breading-cooked": { base: "efrecipes:item/food/grain/breading/acorn-cooked" }, 				
+		},
+		"*-charred": {
+			"breading-cooked": { base: "efrecipes:item/food/grain/breading/acorn-charred" }, 				
+		},
+		"*-oiled": { 
+			"breading-raw": { base: "efrecipes:item/food/grain/breading/acorn-oiled" },	 				
+		},
+		"*-raw": { 
+			"breading-raw": { base: "efrecipes:item/food/grain/breading/acorn-raw" },	 				
+		},
+	},
+
+	nutritionPropsByType: {
+		"*-partbaked": { satiety: 55, foodcategory: "Grain" },
+		"*-cooked": { satiety: 60, foodcategory: "Grain" },
+		"*-charred": { satiety: 50, foodcategory: "Grain" },
+		"*-syruppartbaked": { satiety: 55, foodcategory: "Grain" },
+		"*-syrup": { satiety: 60, foodcategory: "Grain" },
+		"*-syrupcharred": { satiety: 50, foodcategory: "Grain" },
+
+	},
+
+	creativeinventory: { "general": ["*"], "items": ["*"], "efrecipes": ["*"] },
+	materialDensity: 600,
+	transitionablePropsByType: {
+		"*-raw": [{
+			type: "Perish",
+			freshHours: { avg: 24 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-oiled": [{		
+			type: "Perish",
+			freshHours: { avg: 24 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-charred": [{
+			type: "Perish",
+			freshHours: { avg: 200 },
+			transitionHours: { avg: 144 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-syrupcharred": [{
+			type: "Perish",
+			freshHours: { avg: 200 },
+			transitionHours: { avg: 144 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 100 },
+			transitionHours: { avg: 72 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	},
+	materialDensity: 600,
+	guiTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 180, y: -31, z: 17 },
+			origin: { x: 0.43, y: 0.2, z: 0.4799 },
+			scale: 2
+	},
+	fpHandTransform: {
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0, y: 0, z: 1 },
+			scale: 1.5
+	},
+	tpHandTransformByType: {
+			translation: { x: 0.05, y: -0.05, z: 0.1 },
+			rotation: { x: 0, y: 0, z: -7 },
+			origin: { x: 0.17, y: -0.2, z: 0.15 },
+			scale: 0.4
+	},
+	groundTransformByType: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 180, y: 33, z: -180 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.5
+	},
+	combustiblePropsByType: {
+		"acornbreadedball-raw": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
+			requiresContainer: false
+		},
+		"acornbreadedball-oiled": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
+			requiresContainer: false
+		},
+		"acornbreadedball-partbaked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
+			requiresContainer: false
+		},
+		"acornbreadedball-cooked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
+			requiresContainer: false
+		},
+		"acornbreadedball-syruppartbaked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "acornbreadedball-syrupcharred" },
+			requiresContainer: false
+		},
+		"acornbreadedball-syrup": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "acornbreadedball-syrupcharred" },
+			requiresContainer: false
+
+		},
+	}
+}

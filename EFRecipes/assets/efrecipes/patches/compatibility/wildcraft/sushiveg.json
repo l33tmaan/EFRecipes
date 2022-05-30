@@ -1,0 +1,23 @@
+﻿[
+ {
+    "file": "efrecipes:itemtypes/food/mixing/sushiveg.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "sushiveg-minerslettuce-nooil", "sushiveg-minerslettuce-oil", "sushiveg-minerslettuce-honey", "sushiveg-minerslettuce-peanut",  ],
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/wildsushiveg.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/wildsushiveg.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+]

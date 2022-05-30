@@ -1,0 +1,241 @@
+{
+	code: "fishpemmican",
+	maxstacksize: 64,
+  	class: "ExpandedFood",
+	variantgroups: [
+		{ code: "type", states: ["raw", "partbaked", "cooked", "charred"]}
+	],
+	attributes: {
+		"handbook": { "exclude":  true },
+		displaycaseable: true,
+		shelvable: true,
+    		"expandedNutritionPropsByType": {
+			"*-raw": {
+				"game:fat" : {saturation: 100, foodcategory: "Protein"},
+				"efrecipes:lard" : {saturation: 8, "health":  0.05, foodcategory: "Protein"},
+				"game:fruit-cranberry" : { saturation: 45, foodcategory: "Fruit" },
+				"game:fruit-saguaro" : { saturation: 45, "health": 0.3, foodcategory: "Fruit" },
+				"game:fruit-blueberry" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-redcurrant" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-whitecurrant" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-blackcurrant" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-pineapple" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-cherry" : { saturation: 30, foodcategory: "Fruit" },
+				"game:fruit-lychee" : { saturation: 30, foodcategory: "Fruit" },
+				"game:fruit-breadfruit" : { saturation: 90, foodcategory: "Fruit" },
+				"game:fruit-orange" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-mango" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-pomegranate" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-pinkapple" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-redapple" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-yellowapple" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-pear" : { saturation: 60, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-blueberry" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-blackcurrant" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-redcurrant" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-whitecurrant" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-pineapple" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-cranberry" : { saturation: 40, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-saguaro" : { saturation: 40, "health": 0.3, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-cherry" : { saturation: 30, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-lychee" : { saturation: 30, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-breadfruit" : { saturation: 80, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-pomegranate" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-redapple" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-pinkapple" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-yellowapple" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-orange" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-mango" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-peach" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-pear" : { saturation: 55, foodcategory: "Fruit" },
+				"efrecipes:meatnugget-poultry-cured": {saturation: 95, foodcategory: "Protein"},
+				"efrecipes:meatnugget-redmeat-cured": {saturation: 130, foodcategory: "Protein"},
+				"efrecipes:meatnugget-bushmeat-cured": {saturation: 55, foodcategory: "Protein"},
+				"efrecipes:meatnugget-poultry-raw": {saturation: 120, foodcategory: "Protein"},
+				"efrecipes:meatnugget-redmeat-raw": {saturation: 170, foodcategory: "Protein"},
+				"efrecipes:meatnugget-bushmeat-raw": {saturation: 70, foodcategory: "Protein"},
+				"efrecipes:agedmeat-poultry-raw": {saturation: 170, foodcategory: "Protein"},
+				"efrecipes:agedmeat-redmeat-raw": {saturation: 235, foodcategory: "Protein"},
+				"efrecipes:agedmeat-bushmeat-raw": {saturation: 100, foodcategory: "Protein"},
+				"efrecipes:fishnugget-raw": {saturation: 70, foodcategory: "Protein"},
+				"efrecipes:crabnugget-raw": {saturation: 80, foodcategory: "Protein"},
+				"efrecipes:snakenugget-raw": {saturation: 90, foodcategory: "Protein"},
+				"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
+				"wildcraft:fruit-huckleberry" : { saturation: 90, foodcategory: "Fruit" },
+				"wildcraft:fruit-brambleberry" : { saturation: 120, foodcategory: "Fruit" },
+				"wildcraft:fruit-dogrose" : { saturation: 30, foodcategory: "Fruit" },
+				"wildcraft:fruit-gooseberry" : { saturation: 120, foodcategory: "Fruit" },
+				"wildcraft:fruit-honeysuckle" : { saturation: 120, foodcategory: "Fruit" },
+				"wildcraft:fruit-snowberry" : { saturation: 90, health: -5, foodcategory: "Fruit" },
+				"wildcraft:fruit-elderberry" : { saturation: 90, health: -0.5, foodcategory: "Fruit" },
+				"wildcraft:fruit-strawberry" : { saturation: 120, foodcategory: "Fruit" },
+				"wildcraft:fruit-cloudberry" : { saturation: 180, foodcategory: "Fruit" },
+				"wildcraft:fruit-raspberry" : { saturation: 120, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-huckleberry" : { saturation: 65, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-brambleberry" : { saturation: 90, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-dogrose" : { saturation: 24, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-gooseberry" : { saturation: 90, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-honeysuckle" : { saturation: 90, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-snowberry" : { saturation: 65, health: -5, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-elderberry" : { saturation: 65, health: -0.5, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-strawberry" : { saturation: 90, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-cloudberry" : { saturation: 130, foodcategory: "Fruit" },
+				"efrecipes:dryfruit-raspberry" : { saturation: 90, foodcategory: "Fruit" },
+				},
+			},
+     		renderIngredientsByType: {
+			"*-raw": {
+				"efrecipes:fishnugget-raw": "efrecipes:shapes/item/food/pemmican/fishpemmican-ball.json",
+			},
+			"*-partbaked": {
+				"efrecipes:fishnugget-raw": "efrecipes:shapes/item/food/pemmican/fishpemmican-plain.json",
+			},
+			"*-cooked": {
+				"efrecipes:fishnugget-raw": "efrecipes:shapes/item/food/pemmican/fishpemmican-plain.json",
+			},
+			"*-charred": {
+				"efrecipes:fishnugget-raw": "efrecipes:shapes/item/food/pemmican/fishpemmican-plain.json",
+			},
+		},
+		bakingPropertiesByType: {
+			"*-raw": {
+				temp: 110,
+				levelFrom: 0.0,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "efrecipes:fishpemmican-partbaked",
+			},
+			"*-partbaked": {
+				temp: 110,
+				levelFrom: 0.5,
+				levelTo: 1.0,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "efrecipes:fishpemmican-cooked",
+				initialCode: "efrecipes:fishpemmican-raw"
+			},
+			"*-cooked": {
+				temp: 110,
+				levelFrom: 1.0,
+				levelTo: 1.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "efrecipes:fishpemmican-charred",
+				initialCode: "efrecipes:fishpemmican-partbaked"
+			},
+			"*-charred": {
+				temp: 110,
+				levelFrom: 1.5,
+				levelTo: 2.0,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "efrecipes:fishpemmican-cooked"
+			},
+		},
+		satMultByType: {
+			"*-raw": 0.4,
+			"*-partbaked": 0.5,
+			"*-cooked": 1,
+			"*-charred": 0.75
+		},
+	},
+  	texturesByType: {
+		"*-raw": {
+			fish: { base: "item/food/pemmican/fish/pemmicanfish-ball"},
+		},
+		"*-partbaked": {
+			fish: { base: "item/food/pemmican/fish/pemmicanfish-partbaked"},
+		},
+		"*-cooked": {
+			fish: { base: "item/food/pemmican/fish/pemmicanfish-plain"},
+		},
+		"*-charred": {
+			fish: { base: "item/food/pemmican/fish/pemmicanfish-charred"},
+		},
+  	},
+	shapeByType:{
+		"*-raw": { base: "item/food/pemmican/fishpemmican-ball"},
+		"*-partbaked": { base: "item/food/pemmican/fishpemmican-plain"},
+		"*-cooked": { base: "item/food/pemmican/fishpemmican-plain"},
+		"*-charred": { base: "item/food/pemmican/fishpemmican-plain"},
+	},
+	nutritionPropsByType: {
+		"*-raw": { saturation: 0, foodcategory: "Protein" },
+		"*-partbaked": { saturation: 90, foodcategory: "Protein" },
+		"*-cooked": { saturation: 100, foodcategory: "Protein" },
+		"*-charred": { saturation: 80, foodcategory: "Protein" },
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "efrecipes": ["*"] },
+	materialDensity: 200,
+	fpHandTransform: {
+		translation: { x: 0, y: -0.1, z: 0 },
+		rotation: { x: 180, y: 90, z: 22 }
+	},
+	combustiblePropsByType: {
+		"*-raw": {
+			meltingPoint: 110,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "efrecipes:fishpemmican-charred" },
+			requiresContainer: false
+		},
+		"*-partbaked": {
+			meltingPoint: 110,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "efrecipes:fishpemmican-charred" },
+			requiresContainer: false
+		},
+		"*-cooked": {
+			meltingPoint: 110,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "efrecipes:fishpemmican-charred" },
+			requiresContainer: false
+		},
+	},
+	transitionablePropsByType: {
+		"*-charred": [{
+			type: "Perish",
+			freshHours: { avg: 6320 },
+			transitionHours: { avg: 224 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 3160 },
+			transitionHours: { avg: 112 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	},
+	guiTransform: {
+		translation: { x: 3, y: 0, z: 0 },
+		rotation: { x: -28, y: 203, z: 180 },
+		origin: { x: 0.5, y: 0.07, z: 0.5 },
+		scale: 5
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 1 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.54, y: -0.16, z: -0.4 },
+		rotation: { x: 44, y: -69, z: 2 },
+		origin: { x: 0.5, y: 0.13, z: 0.5 },
+		scale: 1
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.24, z: 0.3 },
+		rotation: { x: 104, y: 0, z: 71 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 2.5
+	}
+}

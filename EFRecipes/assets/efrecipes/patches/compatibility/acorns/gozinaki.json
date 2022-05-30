@@ -1,0 +1,16 @@
+﻿[
+ {
+    "file": "efrecipes:recipes/kneading/acorns/acorngozinaki.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "efrecipes:recipes/kneading/acorns/acorngozinaki.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+]

@@ -1,0 +1,183 @@
+{
+	code: "peanut",
+	maxstacksize: 32,
+	variantgroups: [
+		{
+			code: "type",
+			states: [ "cooked", "skins", "kernels" ]
+		},
+	],
+	shapeByType: {
+		"*-kernels": { base: "item/food/peanut/kernels" },
+		"*-skins": { base: "item/food/peanut/skins" },
+		"*": { base: "game:item/food/legume/peanut" }
+	},
+	attributes: {
+		inContainerTexture: { base: "block/wood/barrel/raw-soybean" },
+		fertilizerPropsByType: {
+			"*-skins": {
+				n: 20,
+				p: 2,
+				k: 0
+			}
+		},
+		nutritionPropsWhenInMeal: {
+			satietyByType: {
+				"*-cooked": 175,
+				"*-kernels": 190,
+			},
+			foodcategory: "Protein",
+			inPieProperties: {
+				texture: "block/food/pie/fill-peanut",
+				partType: 'Filling',
+				allowMixing: true
+			}
+		},
+		bakingProperties: {
+			temp: 175,
+			levelFrom: 0.25,
+			levelTo: 1.0,
+			startScaleY: 1.0,
+			endScaleY: 1.0,
+			initialCode: "game:legume-peanut",
+		},
+	    onDisplayTransform: { 
+			translation: { x: 0, y: -0.25, z: 0 },
+			scale: 0.5 
+		},
+	},
+	texturesByType: {
+		"*": { "peanut": { base: "item/food/peanut/cooked" }, },
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "efrecipes": ["*"] },
+	transitionablePropsByType: {
+		"*-cooked": [
+			{
+				type: "Perish",
+				freshHours: { avg: 8760 },
+				transitionHours: { avg: 876 },
+				transitionedStack: {
+					type: "item",
+					code: "game:rot"
+				},
+				transitionRatio: 0.33
+			}
+		],
+		"*-skins": [
+			{
+				type: "Perish",
+				freshHours: { avg: 17520 },
+				transitionHours: { avg: 1752 },
+				transitionedStack: {
+					type: "item",
+					code: "game:rot"
+				},
+				transitionRatio: 0.33
+			}
+		],
+		"*-kernels": [
+			{
+				type: "Perish",
+				freshHours: { avg: 4380 },
+				transitionHours: { avg: 438 },
+				transitionedStack: {
+					type: "item",
+					code: "game:rot"
+				},
+				transitionRatio: 0.33
+			}
+		],
+
+	},	
+	grindingPropsByType: {
+		"*-kernels": {
+			grindedStack: {
+				type: "item",
+				code: "efrecipes:peanutliquid-paste",
+				"quantity":  5
+			}
+		},
+	},
+	materialDensity: 600,
+	nutritionPropsByType: {
+			"*-cooked": {
+				saturation: 175,
+				foodcategory: "Protein"
+			},
+			"*-kernels": {
+				saturation: 190,
+				foodcategory: "Protein"
+			},
+	},
+	guiTransformByType: {
+			"*": {
+				translation: {
+					x: -1,
+					y: 1,
+					z: 0
+				},
+				rotation: {
+					x: -43,
+					y: 60,
+					z: -180
+				},
+				origin: {
+					x: 0.6,
+					y: 0.1,
+					z: 0.5
+				},
+				scale: 2.01
+			}
+	},
+	fpHandTransformByType: {
+			"*": {
+				rotation: {
+					x: -8,
+					y: -81,
+					z: -27
+				}
+			}
+	},
+	groundTransformByType: {
+			"*": {
+				translation: {
+					x: 0,
+					y: 0,
+					z: 0
+				},
+				rotation: {
+					x: 0,
+					y: 0,
+					z: 0
+				},
+				origin: {
+					x: 0.5,
+					y: 0,
+					z: 0.5
+				},
+				scale: 1.91
+			}
+	},
+	tpHandTransformByType: {
+			"*": {
+				translation: {
+					x: -1.7,
+					y: -0.7,
+					z: -1.1
+				},
+				rotation: {
+					x: 12,
+					y: 26,
+					z: -93
+				},
+				origin: {
+					x: 0.5,
+					y: 0.21,
+					z: 0.48
+				}
+			}
+	},
+	heldTpIdleAnimationByType: {
+			"*": "holdbothhands"
+		}
+	}

@@ -1,0 +1,11 @@
+ {
+	ingredientPattern: "B",
+	ingredients: {
+		"B": { type: "item", code: "game:bread-*-partbaked", name: "type", allowedVariants: ["acornflax", "acornrice", "acornrye", "acornspelt", "acorncassava", "acornamaranth", "acornsunflower"]  }
+	},
+	name: "acornbreadcrumbs",
+	width: 1,
+	height: 1,
+	shapeless: false,
+	output: { type: "item", code: "acornbreadcrumbs-{type}", quantity: 4  }
+}

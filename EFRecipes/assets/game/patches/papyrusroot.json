@@ -1,0 +1,39 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "efrecipes:cookedveggie-papyrusroot-partbaked"
+    },
+    "file": "itemtypes/resource/papyrusroot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onDisplayTransform",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": -0.45,
+        "z": -0.05
+      },
+      "rotation": {
+        "x": 90,
+        "y": 0,
+        "z": 18
+      },
+      "scale": 0.75
+    },
+    "file": "itemtypes/resource/papyrusroot.json"
+  },
+  {
+    "op": "replace",
+    "path": "/combustibleProps/smeltedStack/code",
+    "value": "efrecipes:cookedveggie-papyrusroot-charred",
+    "file": "itemtypes/resource/papyrusroot.json"
+  }
+]

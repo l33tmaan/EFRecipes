@@ -1,0 +1,34 @@
+[
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "efrecipes:peanutliquid-paste",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "efrecipes:foodoilportion-*", quantity: 1 }]}
+	],
+	output: { type: "item", code: "efrecipes:peanutliquid-butter", stackSize: 1 }
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "efrecipes:peanutliquid-paste",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "efrecipes:foodoilportion-*", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "efrecipes:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "efrecipes:fruitsyrupportion-*",  quantity: 1 },]},
+	],
+	output: { type: "item", code: "efrecipes:peanutliquid-butter", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "efrecipes:peanutliquid-paste",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "efrecipes:foodoilportion-*", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:salt",  quantity: 1 }]},
+	],
+	output: { type: "item", code: "efrecipes:peanutliquid-butter", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "efrecipes:peanutliquid-paste",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "efrecipes:foodoilportion-*", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "efrecipes:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "efrecipes:fruitsyrupportion-*",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:salt",  quantity: 1 }]},
+	],
+	output: { type: "item", code: "efrecipes:peanutliquid-butter", stackSize: 1}
+ },
+]

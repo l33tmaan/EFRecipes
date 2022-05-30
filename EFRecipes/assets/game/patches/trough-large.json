@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/14",
+    "value": {
+      "code": "peanutskins",
+      "content": {
+        "type": "item",
+        "code": "efrecipes:peanut-skins"
+      },
+      "quantityPerFillLevel": 2,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/large/legumefill1",
+        "block/wood/trough/large/legumefill1",
+        "block/wood/trough/large/legumefill2",
+        "block/wood/trough/large/legumefill2",
+        "block/wood/trough/large/legumefill3",
+        "block/wood/trough/large/legumefill3",
+        "block/wood/trough/large/legumefill4",
+        "block/wood/trough/large/legumefill4"
+      ],
+      "foodFor": [
+        "pig-*"
+      ],
+      "foodForDesc": "trough-treat-pigs",
+      "textureCode": "contents-peanut"
+    },
+    "file": "blocktypes/wood/trough-large.json"
+  }
+]

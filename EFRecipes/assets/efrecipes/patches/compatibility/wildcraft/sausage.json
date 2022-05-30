@@ -1,0 +1,366 @@
+﻿[
+ {
+   file: "efrecipes:itemtypes/food/wildcraft/mixing/sausagefishherb.json",
+    op: "replace", 
+    path: "/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "efrecipes:itemtypes/food/wildcraft/mixing/sausagecrabherb.json",
+    op: "replace", 
+    path: "/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "efrecipes:itemtypes/food/wildcraft/mixing/sausagesnakeherb.json",
+    op: "replace", 
+    path: "/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "efrecipes:itemtypes/food/wildcraft/mixing/sausageherb.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagefishherb.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagecrabherb.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausagesnakeherb.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "efrecipes:recipes/kneading/wildcraft/herbstuff/sausageherb.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+]

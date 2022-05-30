@@ -1,0 +1,241 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-fish",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "game:fishsauce",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-honey",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "game:honeyportion",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-soybean",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "efrecipes:foodoilportion-soy",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-soyblend",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "efrecipes:soymilk-raw",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-soyslurry",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "efrecipes:soysauce",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/@*-(carrot|cabbage|onion||turnip|pumpkin|bellpepper|cassava|parsnip)",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "efrecipes:vegetablejuiceportion-{fruit}",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/@*-(flax|rice|sunflower|seed|peanut)",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "efrecipes:foodoilportion-{fruit}",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/1",
+    "value": "flax",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/2",
+    "value": "rice",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/3",
+    "value": "sunflower",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/4",
+    "value": "seed",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/5",
+    "value": "honey",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/6",
+    "value": "soybean",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/7",
+    "value": "peanut",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/8",
+    "value": "carrot",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/9",
+    "value": "cabbage",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/10",
+    "value": "onion",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/11",
+    "value": "turnip",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/12",
+    "value": "parsnip",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/13",
+    "value": "pumpkin",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/14",
+    "value": "bellpepper",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/15",
+    "value": "cassava",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/16",
+    "value": "fish",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/17",
+    "value": "soyslurry",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/18",
+    "value": "soyblend",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "move",
+    "path": "/temp",
+    "frompath": "/attributes/juiceablePropertiesByType/*",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "move",
+    "path": "/attributes/juiceablePropertiesByType/*",
+    "frompath": "/temp",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+]

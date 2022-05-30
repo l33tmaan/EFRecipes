@@ -1,0 +1,314 @@
+{
+	code: "sausagecrab",
+  	class: "ExpandedFood",
+	maxstacksize: 32,
+	variantgroups: [
+		{ code: "type", states: ["normal", "cheese" ]},
+		{ code: "state", states: ["raw", "dried", "partbaked", "cooked", "charred", "driedpartbaked", "driedcooked", "driedcharred" ]}
+	],
+	attributes: {
+		"handbook": { "exclude":  true },
+		meathookable: true,
+		meatHookTransform: {
+  			translation: { x: 0.0, y: 0.035, z: 0.0 },
+  			rotation: { x: 0, y: 0, z: 0 },
+  			origin: { x: 0.5, y: 0, z: 0.5 },
+  			scale: .75
+		},
+    	"expandedNutritionProps": {
+			"efrecipes:crabnugget-raw": {saturation: 140, foodcategory: "Protein"},
+			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
+			"game:fat": {saturation: 200, foodcategory: "Protein"},
+			"efrecipes:lard" : {saturation: 8, "health":  0.05, foodcategory: "Protein"},
+			"game:cheese-cheddar-1slice" : { saturation: 240, foodcategory: "Dairy" },
+			"game:cheese-blue-1slice" : {saturation: 200, foodcategory: "Dairy" },
+		},
+    	renderIngredients: {
+				"efrecipes:crabnugget-raw": "efrecipes:shapes/item/food/meat/sausage-poultry.json",
+		},
+    	inPiePropertiesByType: {
+      			"*-raw": { texture: "game:block/food/pie/fill-crab", partType: 'Filling' },
+      			"*-dried": { texture: "game:block/food/pie/fill-crab", partType: 'Filling' },
+    		},
+		bakingPropertiesByType: {
+			"*-raw": {
+				temp: 150,
+				levelFrom: 0.0,
+				levelTo: 0.25,
+				startScaleY: 1,
+				endScaleY: 1,
+				resultCode: "efrecipes:sausagecrab-{type}-partbaked",
+			},
+			"*-partbaked": {
+				temp: 150,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "efrecipes:sausagecrab-{type}-cooked",
+				initialCode: "efrecipes:sausagecrab-{type}-raw"
+			},
+			"*-cooked": {
+				temp: 150,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "efrecipes:sausagecrab-{type}-charred",
+				initialCode: "efrecipes:sausagecrab-{type}-partbaked"
+			},
+			"*-charred": {
+				temp: 150,
+				levelFrom: 0.75,
+				levelTo: 1.0,
+				startScaleY: 1.0,
+				endScaleY: 0.9,
+				initialCode: "efrecipes:sausagecrab-{type}-cooked"
+			},
+			"*-dried": {
+				temp: 150,
+				levelFrom: 0.0,
+				levelTo: 0.25,
+				startScaleY: 1,
+				endScaleY: 1,
+				resultCode: "efrecipes:sausagecrab-{type}-driedpartbaked",
+			},
+			"*-driedpartbaked": {
+				temp: 150,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "efrecipes:sausagecrab-{type}-driedcooked",
+				initialCode: "efrecipes:sausagecrab-{type}-dried"
+			},
+			"*-driedcooked": {
+				temp: 150,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "efrecipes:sausagecrab-{type}-driedcharred",
+				initialCode: "efrecipes:sausagecrab-{type}-driedpartbaked"
+			},
+			"*-driedcharred": {
+				temp: 150,
+				levelFrom: 0.75,
+				levelTo: 1.0,
+				startScaleY: 1.0,
+				endScaleY: 0.9,
+				initialCode: "efrecipes:sausagecrab-{type}-driedcooked"
+			},
+		},
+		satMultByType: {
+			"*-partbaked": 0.5,
+			"*-cooked": 1,
+			"*-charred": 0.75,
+			"*-driedpartbaked": 0.625,
+			"*-driedcooked": 1.25,
+			"*-driedcharred": 0.9375
+		},
+		onDisplayTransform: {
+			translation: { x: 0, y: -0.29, z: 0 },
+			rotation: { x: 90, y: 0, z: 45 },
+			scale: 0.65
+		},
+	},
+	shape: { base: "efrecipes:item/food/meat/sausage-poultry" },
+  	texturesByType: {
+		"*-normal-partbaked": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "primitivesurvival:item/crab/crabmeat-partbaked" },
+		},
+		"*-normal-cooked": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "primitivesurvival:item/crab/crabmeat-cooked" },
+		},
+		"*-normal-charred": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "primitivesurvival:item/crab/crabmeat-charred" },
+		},
+		"*-normal-driedpartbaked": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "primitivesurvival:item/crab/crabmeat-partbaked" },
+		},
+		"*-normal-driedcooked": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "primitivesurvival:item/crab/crabmeat-cooked" },
+		},
+		"*-normal-driedcharred": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "primitivesurvival:item/crab/crabmeat-charred" },
+		},
+		"*-normal-raw": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "primitivesurvival:item/crab/crabmeat-raw" },
+		},
+		"*-normal-dried": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "primitivesurvival:item/crab/crabmeat-raw" },
+		},
+		"*-cheese-partbaked": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "item/food/sausage/crab-cheese-partbaked" },
+		},
+		"*-cheese-cooked": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "item/food/sausage/crab-cheese-cooked" },
+		},
+		"*-cheese-charred": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "item/food/sausage/crab-cheese-charred" },
+		},
+		"*-cheese-driedpartbaked": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "item/food/sausage/crab-cheese-partbaked" },
+		},
+		"*-cheese-driedcooked": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "item/food/sausage/crab-cheese-cooked" },
+		},
+		"*-cheese-driedcharred": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "item/food/sausage/crab-cheese-charred" },
+		},
+		"*-cheese-raw": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "item/food/sausage/crab-cheese" },
+		},
+		"*-cheese-dried": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "item/food/sausage/crab-cheese" },
+		},
+		"*": {
+    			"white1": {base: "game:block/cloth/wool/white1" },
+    			"cured": {base: "primitivesurvival:item/crab/crabmeat-raw" },
+		},
+  	},
+	nutritionPropsByType: {
+		"*-partbaked": { saturation: 90, foodcategory: "Protein"},
+		"*-cooked": { saturation: 100, foodcategory: "Protein"},
+		"*-charred": { saturation: 80, foodcategory: "Protein"},
+		"*-driedpartbaked": { saturation: 115, foodcategory: "Protein"},
+		"*-driedcooked": { saturation: 125, foodcategory: "Protein"},
+		"*-driedcharred": { saturation: 100, foodcategory: "Protein"},
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "efrecipes": ["*"] },
+	transitionablePropsByType: {
+		"*-raw": [
+            		{
+        			type: "Cure",
+        			freshHours: { avg: 350 },
+        			transitionHours: { avg: 6 },
+        			transitionedStack: { type: "item", code: "efrecipes:sausagecrab-{type}-dried" },
+        			transitionRatio: 1
+      			},
+            		{
+        			type: "Perish",
+        			freshHours: { avg: 48 },
+        			transitionHours: { avg: 24 },
+        			transitionedStack: { type: "item", code: "game:rot" },
+        			transitionRatio: 1
+      			},
+		],
+		"*-dried": [{
+			type: "Perish",
+			freshHours: { avg: 48 },
+			transitionHours: { avg: 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-charred": [{
+			type: "Perish",
+			freshHours: { avg: 384 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-driedcharred": [{
+			type: "Perish",
+			freshHours: { avg: 384 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 192 },
+			transitionHours: { avg: 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	},
+	combustiblePropsByType: {
+		"*-raw": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "efrecipes:sausagecrab-{type}-charred" },
+			requiresContainer: false
+		},
+		"*-partbaked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "efrecipes:sausagecrab-{type}-charred" },
+			requiresContainer: false
+		},
+		"*-cooked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "efrecipes:sausagecrab-{type}-charred" },
+			requiresContainer: false
+		},
+		"*-dried": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "efrecipes:sausagecrab-{type}-driedcharred" },
+			requiresContainer: false
+		},
+		"*-driedpartbaked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "efrecipes:sausagecrab-{type}-driedcharred" },
+			requiresContainer: false
+		},
+		"*-driedcooked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "efrecipes:sausagecrab-{type}-driedcharred" },
+			requiresContainer: false
+		},
+	},
+	materialDensity: 600,
+	guiTransform: {
+ translation: { x: -4, y: 0, z: 0 },
+ rotation: { x: -37, y: 150, z: -180 },
+ origin: { x: 0.26, y: 0.24, z: 0.65 },
+ scale: 2
+ },
+	fpHandTransform: {
+ translation: { x: -0.06, y: 0, z: 0.23 },
+ rotation: { x: 15, y: 0, z: 0 },
+ origin: { x: 0.5, y: 0.1, z: 0.5 }
+ },
+	tpHandTransform: {
+ translation: { x: -0.1, y: -0.8, z: -0.6 },
+ rotation: { x: -2, y: 85, z: -11 },
+ origin: { x: 0.23, y: 0, z: 0.13 },
+ scale: 0.5
+ },
+	groundTransform: { translation: { x: 0, y: -0.18, z: 0 },
+ rotation: { x: -90, y: 0, z: 0 }, origin: { x: 0, y: 0, z: 0 },
+ scale: 2 }
+}

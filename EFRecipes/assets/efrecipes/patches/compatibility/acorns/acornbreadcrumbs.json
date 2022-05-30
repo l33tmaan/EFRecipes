@@ -1,0 +1,16 @@
+﻿[
+ {
+   file: "efrecipes:itemtypes/food/acorns/acornbreadcrumbs.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "efrecipes:recipes/grid/acorns/acornbreadcrumbs.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+]

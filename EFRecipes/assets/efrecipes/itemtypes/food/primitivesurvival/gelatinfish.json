@@ -1,0 +1,48 @@
+{
+	code: "gelatinfish",
+	transitionableProps: [{
+    		type: "Perish",
+    		freshHours: { avg: 720 },
+    		transitionHours: { avg: 360 },
+    		transitionedStack: { type: "item", code: "game:rot" },
+    		transitionRatio: 0.25
+  	}],
+	shape: { base: "item/food/gelatinsolid" },
+	textures: { "plain": { base: "game:item/gelatin/fishgelatin" } },
+	nutritionProps: { saturation: 200, health: 4, foodcategory: "Protein" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "efrecipes": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 200,
+	guiTransformByType: {
+		"*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -28, y: 23, z: 180 },
+			origin: { x: 0.5, y: 0.07, z: 0.5 },
+			scale: 4
+		},
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 1 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 4
+		},
+	},
+	tpHandTransformByType: {
+		"*": {
+			translation: { x: -0.54, y: -0.16, z: -0.4 },
+			rotation: { x: 44, y: -69, z: 2 },
+			origin: { x: 0.5, y: 0.13, z: 0.5 },
+			scale: 1
+		},
+	},
+	fpHandTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0.24, z: 0.3 },
+			rotation: { x: 72, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2
+		},
+	}
+}

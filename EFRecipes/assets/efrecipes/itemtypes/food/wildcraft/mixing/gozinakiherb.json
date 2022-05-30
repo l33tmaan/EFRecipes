@@ -1,0 +1,196 @@
+{
+	"enabled": false,
+	code: "gozinakiherb",
+  	class: "ExpandedFood",
+	maxstacksize: 32,
+	variantgroups: [
+		{code: "state", states: ["mashed", "cooked", "syrup"]}
+	],
+	attributes: {
+		"handbook": { "exclude":  true },
+		displaycaseable: true,
+		shelvable: true,
+		expandedNutritionPropsByType: {
+			"*-syrup": {
+			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Fruit"},
+      		"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
+      		"efrecipes:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.2, foodcategory: "Fruit" }, 
+      		"efrecipes:fruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
+      		"efrecipes:wildfruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
+      		"efrecipes:treesyrupportion-*" : { saturation: 9.6, "health": 0.1, foodcategory: "Fruit" },
+			},
+		},
+    	renderIngredientsByType: {
+			"*-cooked": {
+      			"game:legume-peanut" : "efrecipes:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"efrecipes:acornportion" : "efrecipes:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"efrecipes:peanut-cooked" : "efrecipes:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"efrecipes:peanut-kernels" : "efrecipes:shapes/item/food/gozinaki/gozinakicooked.json",
+			},
+			"*-mashed": {
+      			"game:legume-peanut" : "efrecipes:shapes/item/food/gozinaki/gozinakimashed.json",
+      			"efrecipes:acornportion" : "efrecipes:shapes/item/food/gozinaki/gozinakimashed.json",
+      			"efrecipes:peanut-cooked" : "efrecipes:shapes/item/food/gozinaki/gozinakimashed.json",
+      			"efrecipes:peanut-kernels" : "efrecipes:shapes/item/food/gozinaki/gozinakimashed.json",
+			},
+			"*-syrup": {
+      			"game:legume-peanut" : "efrecipes:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"efrecipes:acornportion" : "efrecipes:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"efrecipes:peanut-cooked" : "efrecipes:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"efrecipes:peanut-kernels" : "efrecipes:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"efrecipes:peanutliquid-paste" : "efrecipes:shapes/item/food/gozinaki/overlays/gozinakipeanutbutter.json",
+				"efrecipes:treesyrupportion-birch": "efrecipes:shapes/item/food/gozinaki/overlays/gozinakibirchsyrup.json",
+				"efrecipes:treesyrupportion-maple": "efrecipes:shapes/item/food/gozinaki/overlays/gozinakimaplesyrup.json",
+				"efrecipes:fruitsyrupportion-blueberry": "efrecipes:shapes/item/food/gozinaki/overlays/gozinakiblueberrysyrup.json",
+      			"efrecipes:fruitsyrupportion-cranberry": "efrecipes:shapes/item/food/gozinaki/overlays/gozinakicranberrysyrup.json",
+      			"efrecipes:fruitsyrupportion-redcurrant": "efrecipes:shapes/item/food/gozinaki/overlays/gozinakiredcurrantsyrup.json",
+      			"efrecipes:fruitsyrupportion-blackcurrant": "efrecipes:shapes/item/food/gozinaki/overlays/gozinakiblackcurrantsyrup.json",
+      			"efrecipes:fruitsyrupportion-whitecurrant": "efrecipes:shapes/item/food/gozinaki/overlays/gozinakiwhitecurrantsyrup.json",
+      			"efrecipes:fruitsyrupportion-pineapple": "efrecipes:shapes/item/food/gozinaki/overlays/gozinakipineapplesyrup.json",
+      			"efrecipes:fruitsyrupportion-mix": "efrecipes:shapes/item/food/gozinaki/overlays/gozinakimixsyrup.json",
+      			"efrecipes:fruitsyrupportion-saguaro": "efrecipes:shapes/item/food/gozinaki/overlays/gozinakisaguarosyrup.json",
+			},
+		},
+		onDisplayTransformByType: { 
+			"*-mashed": {
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1.0 
+			},
+			"*-cooked": {
+				translation: { x: 0, y: -0.25, z: 0 },
+				scale: 0.5 
+			},
+			"*-syrup": {
+				translation: { x: 0, y: -0.25, z: 0 },
+				scale: 0.5 
+			},
+		},
+		bakingPropertiesByType: {
+			"*-mashed": {
+				temp: 130,
+				levelFrom: 0.0,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 0.5,
+				resultCode: "efrecipes:gozinakiherb-cooked",
+			},
+			"*-cooked": {
+				temp: 130,
+				levelFrom: 0.5,
+				levelTo: 1.0,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "efrecipes:gozinakiherb-mashed"
+			},
+		},
+	},
+	shapeByType: {
+		"*-mashed": { base: "efrecipes:item/food/gozinaki/gozinakimashed" },
+		"*-cooked": { base: "efrecipes:item/food/gozinaki/gozinakicooked" },
+		"*-syrup": { base: "efrecipes:item/food/gozinaki/gozinakicooked" },
+	},
+  	textures: {
+    	"gozinaki": {base: "efrecipes:item/food/gozinakiherb" },
+		"cranberry" : {base: "efrecipes:item/food/grain/overlays/cranberry" },
+		"blueberry" : {base: "efrecipes:item/food/grain/overlays/blueberry" },
+		"redcurrant" : {base: "efrecipes:item/food/grain/overlays/redcurrant" },
+		"blackcurrant" : {base: "efrecipes:item/food/grain/overlays/blackcurrant" },
+		"whitecurrant" : {base: "efrecipes:item/food/grain/overlays/whitecurrant" },
+		"pineapple" : {base: "efrecipes:item/food/grain/overlays/pineapple" },
+		"weaktannin": { base: "game:block/liquid/weaktannin"},
+		"strongtannin": { base: "game:block/liquid/strongtannin"},
+		"saguaro": { base: "game:item/liquid/saguaro"},
+		"peanutbutter": { base: "item/food/peanut/butter"},
+		"huckleberry" : {base: "efrecipes:item/food/grain/overlays/huckleberry" },
+		"snowberry" : {base: "efrecipes:item/food/grain/overlays/snowberry" },
+		"brambleberry" : {base: "efrecipes:item/food/grain/overlays/brambleberry" },
+		"cloudberry" : {base: "efrecipes:item/food/grain/overlays/cloudberry" },
+		"dogrose" : {base: "efrecipes:item/food/grain/overlays/dogrose" },
+		"elderberry" : {base: "efrecipes:item/food/grain/overlays/elderberry" },
+		"gooseberry" : {base: "efrecipes:item/food/grain/overlays/gooseberry" },
+		"honeysuckle" : {base: "efrecipes:item/food/grain/overlays/honeysuckle" },
+		"strawberry" : {base: "efrecipes:item/food/grain/overlays/strawberry" },
+		"raspberry" : {base: "efrecipes:item/food/grain/overlays/raspberry" },
+  	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "efrecipes": ["*"] },
+	nutritionPropsByType: {
+		"*-cooked": {saturation: 30, health: 0.5, foodcategory: "Fruit" },
+		"*-syrup": {saturation: 30, health: 0.5, foodcategory: "Fruit" },
+	},
+	combustiblePropsByType: {
+		"*-mashed": {
+			meltingPoint: 150,
+			meltingDuration: 15,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "efrecipes:gozinakiherb-cooked" },
+			requiresContainer: false
+		},
+	},
+	transitionablePropsByType: {
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 864 },
+			transitionHours: { avg: 72 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	},
+	materialDensity: 200,
+	guiTransformByType: {
+		"*-mashed": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -28, y: 23, z: 180 },
+			origin: { x: 0.5, y: 0.07, z: 0.5 },
+			scale: 4
+		},
+		"*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -40, y: 40, z: 180 },
+			origin: { x: 0.5, y: 0.07, z: 0.5 },
+			scale: 2
+		},
+	},
+	groundTransformByType: {
+		"*-mashed": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 1 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 4
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 1 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2
+		},
+	},
+	tpHandTransformByType: {
+		"*-mashed": {
+			translation: { x: -0.54, y: -0.16, z: -0.4 },
+			rotation: { x: 44, y: -69, z: 2 },
+			origin: { x: 0.5, y: 0.13, z: 0.5 },
+			scale: 1
+		},
+		"*": {
+			translation: { x: -0.54, y: -0.46, z: -0.9 },
+			rotation: { x: 14, y: 0, z: 0 },
+			origin: { x: 0.3, y: 0.13, z: 0.4 },
+			scale: 0.35
+		},
+	},
+	fpHandTransformByType: {
+		"*-mashed": {
+			translation: { x: 0, y: 0.24, z: 0.3 },
+			rotation: { x: 72, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2
+		},
+		"*": {
+			translation: { x: 0, y: 0.24, z: 0.3 },
+			rotation: { x: 71, y: -3, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 1.1
+		},
+	}
+}

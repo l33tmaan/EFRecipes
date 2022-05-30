@@ -1,0 +1,93 @@
+﻿[
+ {
+   file: "efrecipes:itemtypes/food/primitivesurvival/fishnugget.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/grid/primitivesurvival/fishnugget.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/grid/primitivesurvival/fishnugget.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/grid/primitivesurvival/fishnugget.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/grid/primitivesurvival/fishnugget.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/grid/primitivesurvival/fishnugget.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "efrecipes:recipes/grid/primitivesurvival/fishnugget.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:itemtypes/food/primitivesurvival/crabnugget.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/grid/primitivesurvival/crabnugget.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/grid/primitivesurvival/crabnugget.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:itemtypes/food/primitivesurvival/snakenugget.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/grid/primitivesurvival/snakenugget.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "efrecipes:recipes/grid/primitivesurvival/snakenugget.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+]

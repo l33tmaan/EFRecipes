@@ -1,0 +1,1179 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:vegetablejuiceportion-carrot",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "carrotjuice"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:vegetablejuiceportion-cabbage",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "cabbagejuice"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:vegetablejuiceportion-onion",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "onionjuice"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:vegetablejuiceportion-turnip",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "turnipjuice"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:vegetablejuiceportion-parsnip",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "parsnipjuice"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:vegetablejuiceportion-pumpkin",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "pumpkinjuice"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:vegetablejuiceportion-cassava",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "cassavajuice"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:vegetablejuiceportion-bellpepper",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "bellpepperjuice"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:brothportion-bone",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "bonebroth"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:dumpling-raw"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:acorndumpling-raw"
+    },
+    "file": "recipes/cooking/soup.json",
+    dependsOn: [{ "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-carrot",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledcarrot",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedmushroom-flyagaric",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedmushroom-kingbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-parsnip",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledparsnip",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-turnip",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledturnip",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-onion",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledonion",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pumpkin",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledpumpkin",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-cabbage",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:driedseaweed-edible"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-cassava",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-bellpepper",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-cattailroot",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-papyrusroot",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/8",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:dumpling-raw"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:acorndumpling-raw"
+    },
+    "file": "recipes/cooking/soup.json",
+    dependsOn: [{ "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-carrot",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledcarrot",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedmushroom-flyagaric",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedmushroom-kingbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-parsnip",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledparsnip",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-turnip",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledturnip",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-onion",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledonion",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pumpkin",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledpumpkin",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-cabbage",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:driedseaweed-edible"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-cassava",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-bellpepper",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-cattailroot",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-papyrusroot",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:dumpling-raw"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:acorndumpling-raw"
+    },
+    "file": "recipes/cooking/soup.json",
+    dependsOn: [{ "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-carrot",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledcarrot",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedmushroom-flyagaric",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedmushroom-kingbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-parsnip",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledparsnip",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-turnip",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledturnip",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-onion",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledonion",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pumpkin",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-pickledpumpkin",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-cabbage",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-cassava",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-bellpepper",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:driedseaweed-edible"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-cattailroot",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:choppedvegetable-papyrusroot",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:dumpling-raw"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:acorndumpling-raw"
+    },
+    "file": "recipes/cooking/soup.json",
+    dependsOn: [{ "modid": "acorns" }]
+  },
+   {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "efrecipes:meatnugget-bushmeat-raw",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group6"
+     	 ]
+        }
+  },
+  {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "efrecipes:meatnugget-redmeat-raw",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group6"
+     	 ]
+        }
+  },
+  {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "efrecipes:meatnugget-poultry-raw",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group5"
+     	 ]
+        }
+  },
+   {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "efrecipes:agedmeat-bushmeat-raw",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group6"
+     	 ]
+        }
+  },
+  {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "efrecipes:agedmeat-redmeat-raw",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group6"
+     	 ]
+        }
+  },
+  {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "efrecipes:agedmeat-poultry-raw",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group5"
+     	 ]
+        }
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "egg-chicken-pickled",
+      "shapeElement": "bowl/meat/*"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5",
+    "value": {
+      "code": "breadcrumbs-extra",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "efrecipes:breadcrumbs-*"
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "efrecipes:acornbreadcrumbs-*",
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/soup.json",
+	dependsOn: [{ "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "grain-flax",
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "grain-rice",
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "grain-sunflower",
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6",
+    "value": {
+      "code": "salt",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "salt"
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {"type": "item", "code": "efrecipes:fishnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
+    "file": "recipes/cooking/soup.json",	
+	dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {"type": "item", "code": "efrecipes:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
+    "file": "recipes/cooking/soup.json",	
+	dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {"type": "item", "code": "efrecipes:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
+    "file": "recipes/cooking/soup.json",	
+	dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+]

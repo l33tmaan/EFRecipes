@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*",
+    "value": {
+      "nutritionPropsWhenInMeal": {
+        "satiety": 90,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "itemtypes/food/insect.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*",
+    "value": {
+      "inPieProperties": {
+        "texture": "game:block/food/pie/fill-bugs",
+        "partType": "Filling"
+      }
+    },
+    "file": "itemtypes/food/insect.json"
+  }
+]

@@ -1,0 +1,44 @@
+[
+	{ file: "game:recipes/cooking/meatystew", op: "add",
+		path: "/ingredients/0/validStacks/-", 
+		value: { type: "item", code: "bushmeat-raw",  shapeElement: "bowl/meat stew/*" }
+	},
+	{ file: "game:recipes/cooking/meatystew", op: "add",
+		path: "/ingredients/2/validStacks/-", 
+		value: { type: "item", code: "bushmeat-raw",  shapeElement: "bowl/red meat/*", textureMapping: ["meat", "group2"] }
+	},
+	{ file: "game:recipes/cooking/meatystew", op: "add",
+		path: "/ingredients/3/validStacks/-", 
+		value: { type: "item", code: "bushmeat-raw",  shapeElement: "bowl/red meat 2/*", textureMapping: ["meat", "group2"] }
+	},
+	{ file: "game:recipes/cooking/meatystew", op: "add",
+		path: "/ingredients/0/validStacks/-", 
+		value: { type: "item", code: "bushmeat-cured",  shapeElement: "bowl/meat stew/*" }
+	},
+	{ file: "game:recipes/cooking/meatystew", op: "add",
+		path: "/ingredients/2/validStacks/-", 
+		value: { type: "item", code: "bushmeat-cured",  shapeElement: "bowl/red meat/*", textureMapping: ["meat", "group2"] }
+	},
+	{ file: "game:recipes/cooking/meatystew", op: "add",
+		path: "/ingredients/3/validStacks/-", 
+		value: { type: "item", code: "bushmeat-cured",  shapeElement: "bowl/red meat 2/*", textureMapping: ["meat", "group2"] }
+	},
+
+	{ file: "game:recipes/cooking/soup", op: "add",
+		path: "/ingredients/4/validStacks/-", 
+		value: { type: "item", code: "bushmeat-raw", shapeElement: "bowl/meat/*" }
+	},
+	{ file: "game:recipes/cooking/soup", op: "add",
+		path: "/ingredients/4/validStacks/-", 
+		value: { type: "item", code: "bushmeat-cured", shapeElement: "bowl/meat/*" }
+	},
+
+	{ file: "game:blocktypes/clay/pot", op: "add",
+		path: "/attributesByType/claypot-cooked/textureMapping/bushmeat-raw", 
+		value: ["meat", "group6"]
+	},
+	{ file: "game:blocktypes/clay/pot", op: "add",
+		path: "/attributesByType/claypot-cooked/textureMapping/bushmeat-cured", 
+		value: ["meat", "group6"]
+	},
+]

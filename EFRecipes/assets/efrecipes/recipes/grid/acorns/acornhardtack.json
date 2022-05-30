@@ -1,0 +1,35 @@
+{
+	ingredientPattern: "WFA,E__",
+	ingredients: {
+		"W": { 
+			type: "block", 
+			code: "game:woodbucket"
+		},
+		"F": { 
+			type: "item", 
+			code: "game:flour-*", 
+			allowedVariants: ["flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"],
+			name: "type"
+		},
+		"A": { 
+			type: "item", 
+			code: "acorns:flour-acorn"
+		},
+		"E": { 
+			type: "item", 
+			code: "game:salt", 
+			name: "salt",
+			quantity: 2
+		}
+	},
+	width: 3,
+	height: 2,
+	shapeless: true,
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "waterportion" },
+			requiresQuantity: 2
+		}
+	},
+	output: { type: "item", code: "acornhardtack-{type}-raw", quantity: 2  }
+}

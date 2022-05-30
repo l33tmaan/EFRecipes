@@ -1,0 +1,1564 @@
+[
+  {
+    "op": "remove",
+    "path": "/ingredients/3",
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/3",
+    "value": {
+      "code": "milk-base",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "milkportion"
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:pasteurizedmilkportion"
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:soymilk-edible"
+        }
+      ],
+      "minQuantity": 0,
+        "maxQuantity": 1,
+        "portionSizeLitres": 0.1,
+    },
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4",
+    "value": {
+      "code": "vegetable-extra",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "vegetable-cabbage",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-carrot",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-onion",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-parsnip",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-turnip",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-pumpkin",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-cassava",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-bellpepper",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "mushroom-*",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "legume-soybean",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "pickledvegetable-*",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "pickledlegume-soybean",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-carrot",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group1"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pickledcarrot",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group1"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedmushroom-flyagaric",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group2"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedmushroom-kingbolete",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group3"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedmushroom-fieldmushroom",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group7"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-parsnip",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group4"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pickledparsnip",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group4"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-turnip",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group5"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pickledturnip",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group5"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-onion",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group6"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pickledonion",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group6"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pumpkin",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group8"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pickledpumpkin",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group8"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-cabbage",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group10"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-cassava",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-bellpepper",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "fruit",
+            "group8"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-cattailroot",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-papyrusroot",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5",
+    "value": {
+      "code": "vegetable-base2",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "vegetable-cabbage",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-carrot",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-onion",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-parsnip",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-turnip",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-pumpkin",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-cassava",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-bellpepper",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "mushroom-*",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "legume-soybean",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "pickledvegetable-*",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "pickledlegume-soybean",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-carrot",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group1"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pickledcarrot",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group1"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedmushroom-flyagaric",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group2"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedmushroom-kingbolete",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group3"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedmushroom-fieldmushroom",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group7"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-parsnip",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group4"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pickledparsnip",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group4"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-turnip",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group5"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pickledturnip",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group5"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-onion",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group6"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pickledonion",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group6"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pumpkin",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group8"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-pickledpumpkin",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group8"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-cabbage",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group10"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-cassava",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-bellpepper",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "fruit",
+            "group8"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-cattailroot",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:choppedvegetable-papyrusroot",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6",
+    "value": {
+      "code": "protein-extra",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-bushmeat-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-redmeat-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-poultry-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-bushmeat-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-bushmeat-dried",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-bushmeatcheese-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-bushmeatcheese-dried",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-poultry-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-poultry-dried",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-poultrycheese-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-poultrycheese-dried",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-redmeat-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-redmeat-dried",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-redmeatcheese-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-redmeatcheese-dried",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-bushmeat-cured",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-redmeat-cured",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-poultry-cured",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:agedmeat-bushmeat-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:agedmeat-redmeat-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:agedmeat-poultry-raw",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/7",
+    "value": {
+      "code": "meat-extra",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-bushmeat-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-redmeat-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-poultry-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-bushmeat-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-bushmeat-dried",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-bushmeatcheese-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-bushmeatcheese-dried",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-poultry-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-poultry-dried",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-poultrycheese-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-poultrycheese-dried",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-redmeat-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-redmeat-dried",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-redmeatcheese-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:sausage-redmeatcheese-dried",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-bushmeat-cured",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-redmeat-cured",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:meatnugget-poultry-cured",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:agedmeat-bushmeat-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:agedmeat-redmeat-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:agedmeat-poultry-raw",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/8",
+    "value": {
+      "code": "topping-sauce",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "efrecipes:soysauce",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "fishsauce"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:foodoilportion-flax",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "foodoil"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:foodoilportion-rice",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "foodoil"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:foodoilportion-seed",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "foodoil"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:foodoilportion-soy",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "foodoil"
+          ]
+        },
+        {
+            "type": "item",
+            "code": "efrecipes:foodoilportion-sunflower",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "foodoil"
+            ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:foodoilportion-peanut",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "foodoil"
+	 ]
+        },
+        {
+          "type": "item",
+          "code": "efrecipes:lard",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "lard"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+        "maxQuantity": 1,
+        "portionSizeLitres":  0.1,
+    },
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/9",
+    "value": {
+      "code": "salt",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "salt"
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-poultry-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-poultry-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-poultrycheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-poultrycheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-redmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-redmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-poultry-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-poultry-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-poultrycheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-poultrycheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-redmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-redmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:fishnugget-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "fishfillet-raw"  ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "crabmeat"  ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "snakemeat"  ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefish-normal-raw",  "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefish-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefish-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefish-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrab-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrab-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrab-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrab-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnake-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnake-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnake-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnake-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:fishnugget-raw", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "fishfillet-raw"  ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:crabnugget-raw", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "crabmeat"  ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:snakenugget-raw", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "snakemeat"  ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefish-normal-raw",  "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefish-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefish-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefish-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrab-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrab-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrab-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrab-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnake-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnake-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnake-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnake-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefishherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefishherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefishherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefishherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrabherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrabherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrabherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrabherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnakeherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnakeherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnakeherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnakeherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefishherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefishherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefishherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagefishherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrabherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrabherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrabherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagecrabherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnakeherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnakeherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnakeherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": { "type": "item", "code": "efrecipes:sausagesnakeherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "snakemeat" ] },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "fishsauce",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "fishsauce"
+          ]
+    },
+    "file": "recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+]

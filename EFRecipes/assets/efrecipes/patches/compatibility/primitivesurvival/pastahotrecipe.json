@@ -1,0 +1,415 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "primitivesurvival:fishfillet-raw",  shapeElement: "bowl/fish/*", textureMapping: ["normal", "fishfillet-raw"] },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:fishnugget-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "fishfillet-raw"] },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:crabnugget-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "crabmeat"] },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:snakenugget-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "snakemeat"] },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:fishnugget-smashed",  shapeElement: "bowl/fish/*", textureMapping: ["normal", "fishfillet-raw"] },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefish-normal-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefish-normal-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefish-cheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefish-cheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrab-normal-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrab-normal-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrab-cheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrab-cheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnake-normal-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnake-normal-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnake-cheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnake-cheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefishherb-normal-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefishherb-normal-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefishherb-cheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefishherb-cheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrabherb-normal-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrabherb-normal-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrabherb-cheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrabherb-cheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnakeherb-normal-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnakeherb-normal-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnakeherb-cheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnakeherb-cheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "primitivesurvival:fishfillet-raw",  shapeElement: "bowl/fish/*", textureMapping: ["normal", "fishfillet-raw"] },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:fishnugget-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "fishfillet-raw"] },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:crabnugget-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "crabmeat"] },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:snakenugget-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "snakemeat"] },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:fishnugget-smashed",  shapeElement: "bowl/fish/*", textureMapping: ["normal", "fishfillet-raw"] },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefish-normal-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefish-normal-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefish-cheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefish-cheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrab-normal-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrab-normal-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrab-cheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrab-cheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnake-normal-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnake-normal-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnake-cheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnake-cheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefishherb-normal-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefishherb-normal-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefishherb-cheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagefishherb-cheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrabherb-normal-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrabherb-normal-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrabherb-cheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagecrabherb-cheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "crabmeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnakeherb-normal-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnakeherb-normal-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnakeherb-cheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "efrecipes:sausagesnakeherb-cheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "snakemeat"]  },
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/9/validStacks/-",
+    "value": { type: "item", code: "fishsauce",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "fishsauce"] }, 
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+]

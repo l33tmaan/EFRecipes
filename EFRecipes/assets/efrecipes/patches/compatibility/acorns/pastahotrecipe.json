@@ -1,0 +1,24 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": { type: "item", code: "efrecipes:acornpasta-cut",  shapeElement: "bowl/pasta", textureMapping: ["pasta", "pasta"] }, 
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/10/validStacks/-",
+    "value": { type: "item", code: "efrecipes:acornportion",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]}, 
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "acorns" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/11/validStacks/-",
+    "value": { type: "item", code: "efrecipes:acornportion",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]},
+    "file": "game:recipes/cooking/pastahot.json",
+    dependsOn: [{ "modid": "acorns" }]
+  },
+
+]
