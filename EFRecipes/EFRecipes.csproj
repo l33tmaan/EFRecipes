@@ -5017,6 +5017,9 @@
     <None Update="assets\wildcraft\textures\item\liquid\syrup.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="changelog.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="modinfo.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -5025,10 +5028,6 @@
   <ItemGroup>
     <Folder Include="assets\efrecipes\recipes\simmering\" />
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="if $(Configuration) == Debug (&#xD;&#xA;&#xD;&#xA;:: Clean the debug mod directory. ::&#xD;&#xA;del /f /s /q $(SolutionDir).debug\$(ProjectName) &gt; NUL&#xD;&#xA;rmdir /s /q $(SolutionDir).debug\$(ProjectName)&#xD;&#xA;&#xD;&#xA;:: Rebuild the necessary folders. ::&#xD;&#xA;if not exist $(SolutionDir).debug\$(ProjectName)\ mkdir $(SolutionDir).debug\$(ProjectName)\&#xD;&#xA;&#xD;&#xA;:: Copy all relevant files to debug directory. ::&#xD;&#xA;xcopy &quot;$(TargetDir)&quot; &quot;$(SolutionDir).debug\$(ProjectName)&quot; /y /e /s&#xD;&#xA;&#xD;&#xA;)" />
-  </Target>
 
   <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
