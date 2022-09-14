@@ -1,0 +1,79 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornstuffedpepper.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepperoiled.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpeppersyrup.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpeppersyrup.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpeppersyrup.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/primitivesurvival/acornstuffedpeppersyrup.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/primitivesurvival/acornstuffedpeppersyrup.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/primitivesurvival/acornstuffedpeppersyrup.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+ },
+]

@@ -1,0 +1,24 @@
+[
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:breadedmeatnugget-*-bushmeat-smashed", name: "grain" }]},
+	],
+	output: { type: "item", code: "expandedfoods:breadedmeatnugget-{grain}-bushmeat-oiled", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:breadedmeatnugget-*-poultry-smashed", name: "grain" }]},
+	],
+	output: { type: "item", code: "expandedfoods:breadedmeatnugget-{grain}-poultry-oiled", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:breadedmeatnugget-*-redmeat-smashed", name: "grain" }]},
+	],
+	output: { type: "item", code: "expandedfoods:breadedmeatnugget-{grain}-redmeat-oiled", stackSize: 1}
+ }
+]
+

@@ -1,0 +1,170 @@
+[
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]}
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-noveggie-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-noveggie-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-cabbage", quantity: 1 }, { type: "item", code: "game:pickledvegetable-cabbage", quantity: 1 }]},    
+    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-cabbage-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-cabbage", quantity: 1 }, { type: "item", code: "game:pickledvegetable-cabbage", quantity: 1 }]},  
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-cabbage-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedmushroom-*", quantity: 1, "name": "mushroom" }]}, 
+    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-{mushroom}-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedmushroom-*", quantity: 1, "name": "mushroom" }]}, 
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-{mushroom}-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:legume-soybean", quantity: 1 }, { type: "item", code: "game:pickledlegume-soybean", quantity: 1 }]},  
+    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-soybean-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:legume-soybean", quantity: 1 }, { type: "item", code: "game:pickledlegume-soybean", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-soybean-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-carrot", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledcarrot", quantity: 1 }]},    
+    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-carrot-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-carrot", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledcarrot", quantity: 1 }]},    
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-carrot-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-onion", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledonion", quantity: 1 }]},    
+    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-onion-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-onion", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledonion", quantity: 1 }]},    
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-onion-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-parsnip", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledparsnip", quantity: 1 }]},    
+    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-parsnip-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-parsnip", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledparsnip", quantity: 1 }]},    
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-parsnip-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-turnip", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledturnip", quantity: 1 }]},    
+    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-turnip-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-turnip", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledturnip", quantity: 1 }]},    
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-turnip-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-cassava", quantity: 1 }]},    
+    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-cassava-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-cassava", quantity: 1 }]},  
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-cassava-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-bellpepper", quantity: 1 }]},    
+    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-bellpepper-nooil", stackSize: 1}
+ },
+ {
+  ingredients: [
+    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-bellpepper", quantity: 1 }]},  
+  ],
+  output: { type: "item", code: "expandedfoods:sushiveg-bellpepper-nooil", stackSize: 1}
+ },
+]

@@ -1,0 +1,18 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/acornbreadedballherb.json",
+    op: "add", 
+    path: "/0/ingredients/3/inputs/-", 
+    value: { type: "item", code: "moreanimals:egg-*-boiled", quantity: 1},
+    side: "server",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "moreanimals" }, { "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/acornbreadedballherb.json",
+    op: "add", 
+    path: "/0/ingredients/3/inputs/-", 
+    value: { type: "item", code: "moreanimals:egg-*-pickled", quantity: 1},
+    side: "server",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "moreanimals" }, { "modid": "wildcraft" }]
+ },
+]

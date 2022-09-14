@@ -1,0 +1,38 @@
+[
+{
+	code: "fishsauce",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "game:waterportion",  litres: 1 },
+		{ type: "item", code: "primitivesurvival:psfish-*-raw", quantity: 1, name:"fish", allowedVariants: ["bass", "bluegill"]}
+	],
+	output: { type: "item", code: "fishsauce", litres: 1 }
+},
+{
+	code: "fishsauce",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "game:waterportion",  litres: 2 },
+		{ type: "item", code: "primitivesurvival:psfish-*-raw", quantity: 1, name:"fish", allowedVariants: ["trout", "pike", "arcticchar", "perch", "carp"]}
+	],
+	output: { type: "item", code: "fishsauce", litres: 2 }
+},
+{
+	code: "fishsauce",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "game:waterportion",  litres: 3 },
+		{ type: "item", code: "primitivesurvival:psfish-*-raw", quantity: 1, name:"fish", allowedVariants: ["catfish"]}
+	],
+	output: { type: "item", code: "fishsauce", litres: 3 }
+},
+{
+	code: "fishsauce",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "game:waterportion",  litres: 1 },
+		{ type: "item", code: "primitivesurvival:fishfillet-raw", quantity: 3}
+	],
+	output: { type: "item", code: "fishsauce", litres: 1 }
+}
+]

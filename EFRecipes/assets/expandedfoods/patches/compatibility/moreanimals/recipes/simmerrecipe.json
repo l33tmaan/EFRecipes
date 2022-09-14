@@ -1,0 +1,188 @@
+﻿[
+  {
+    "op": "addeach",
+    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
+	"value": [
+		{
+			Ingredients: [
+				{
+					type: "item",
+					code: "waterportion",
+					quantity: 100
+				},
+				{
+					type: "item",
+					code: "moreanimals:egg-pheasant-raw",
+					quantity: 1,
+				},
+			],
+			Simmering: {
+				meltingPoint: 150,
+				meltingDuration: 100,
+				smeltedRatio: 1,
+				smeltingType: "bake",
+				smeltedStack: {
+					type: "item",
+					code: "moreanimals:egg-pheasant-boiled"
+				},
+				requiresContainer: false
+			}
+		},
+		{
+			Ingredients: [
+				{
+					type: "item",
+					code: "waterportion",
+					quantity: 100
+				},
+				{
+					type: "item",
+					code: "moreanimals:egg-goldenpheasant-raw",
+					quantity: 1,
+				},
+			],
+			Simmering: {
+				meltingPoint: 150,
+				meltingDuration: 100,
+				smeltedRatio: 1,
+				smeltingType: "bake",
+				smeltedStack: {
+					type: "item",
+					code: "moreanimals:egg-goldenpheasant-boiled"
+				},
+				requiresContainer: false
+			}
+		},
+		{
+			Ingredients: [
+				{
+					type: "item",
+					code: "waterportion",
+					quantity: 100
+				},
+				{
+					type: "item",
+					code: "moreanimals:egg-capercaillie-raw",
+					quantity: 1,
+				},
+			],
+			Simmering: {
+				meltingPoint: 150,
+				meltingDuration: 100,
+				smeltedRatio: 1,
+				smeltingType: "bake",
+				smeltedStack: {
+					type: "item",
+					code: "moreanimals:egg-capercaillie-boiled"
+				},
+				requiresContainer: false
+			}
+		},
+	],
+    "file": "aculinaryartillery:blocktypes/saucepan.json",
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
+    "value": 
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "expandedfoods:limeegg-pheasant",
+							quantity: 1,
+							"name": "type"
+						},
+					],
+					Simmering: {
+						meltingPoint: 150,
+						meltingDuration: 100,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "moreanimals:egg-pheasant-boiled"
+						},
+						requiresContainer: false
+					}
+				},
+    "file": "aculinaryartillery:blocktypes/saucepan.json",
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
+    "value": 
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "expandedfoods:limeegg-goldenpheasant",
+							quantity: 1,
+							"name": "type"
+						},
+					],
+					Simmering: {
+						meltingPoint: 150,
+						meltingDuration: 100,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "moreanimals:egg-goldenpheasant-boiled"
+						},
+						requiresContainer: false
+					}
+				},
+    "file": "aculinaryartillery:blocktypes/saucepan.json",
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
+    "value": 
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "expandedfoods:limeegg-capercaillie",
+							quantity: 1,
+							"name": "type"
+						},
+					],
+					Simmering: {
+						meltingPoint: 150,
+						meltingDuration: 100,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "moreanimals:egg-capercaillie-boiled"
+						},
+						requiresContainer: false
+					}
+				},
+    "file": "aculinaryartillery:blocktypes/saucepan.json",
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals" }]
+  },
+]

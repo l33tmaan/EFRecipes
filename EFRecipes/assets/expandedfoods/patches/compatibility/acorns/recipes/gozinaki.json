@@ -1,0 +1,16 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/gozinaki.json",
+    op: "add", 
+    path: "/0/ingredients/1/inputs/-", 
+    value: { type: "item", code: "expandedfoods:acornportion", quantity: 3 },
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/gozinaki.json",
+    op: "add", 
+    path: "/1/ingredients/1/inputs/-", 
+    value: { type: "item", code: "expandedfoods:acornportion", quantity: 3 },
+    dependsOn: [{ "modid": "acorns" }]
+ },
+]

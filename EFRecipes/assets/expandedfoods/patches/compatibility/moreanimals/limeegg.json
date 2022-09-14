@@ -1,0 +1,10 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/limeegg.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "limeegg-pheasant", "limeegg-goldenpheasant", "limeegg-capercaillie"],
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals", "invert": true }]
+ },
+]

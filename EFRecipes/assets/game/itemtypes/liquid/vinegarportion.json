@@ -29,7 +29,7 @@
 	nutritionProps: { satiety: 1.5, health: 0.5, foodcategory: "Fruit" },
 	shape: { base: "game:item/liquid" },
 	texture: { base: "block/liquid/vinegarmod" },
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "efrecipes"], stacks: [ { type: "block", code: "woodbucket", attributes: { ucontents: [ { type:"item", code: "vinegarportion", makefull: true } ] } } ] } ],
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "woodbucket", attributes: { ucontents: [ { type:"item", code: "vinegarportion", makefull: true } ] } } ] } ],
 	maxstacksize: 5000,
 	materialDensity: 200,
 	guiTransform: {

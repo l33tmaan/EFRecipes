@@ -1,0 +1,16 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/breadedball.json",
+    op: "add", 
+    path: "/0/ingredients/2/inputs/-", 
+    value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/breadedball.json",
+    op: "add", 
+    path: "/1/ingredients/2/inputs/-", 
+    value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
+    dependsOn: [{ "modid": "acorns" }]
+ },
+]

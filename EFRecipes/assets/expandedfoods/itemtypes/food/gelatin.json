@@ -1,0 +1,192 @@
+{
+	code: "gelatin",
+	classByType: {
+		"*-liquid": "ItemLiquidPortion",
+	},
+	matterStateByType: {
+		"*-liquid": "liquid",
+	},
+	variantgroups: [
+		{ code: "type", states: ["liquid", "raw", "plain", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "birch", "maple", "soy", "honey", "cassava", "bellpepper", "huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry", "apple", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate"] },
+	],
+	attributes: {
+		"handbook": { "groupBy": [ "gelatin-*" ] },
+		waterTightContainerPropsByType: {
+			"*-liquid": {
+				containable: true,
+				itemsPerLitre: 100,
+				texture: { base: "game:item/gelatin/plain" },
+				allowSpill: true,
+				whenSpilled: {
+					action: "DropContents",
+					stack: { type: "item", code: "expandedfoods:gelatin-liquid" }
+				},
+			}
+		},
+    	inPiePropertiesByType: {
+			"*-soy": { texture: "game:item/gelatin/fishgelatin", partType: 'Filling' },
+			"*-vegetablemix": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-fruitmix": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-saguaro": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-pumpkin": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-parsnip": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-turnip": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-onion": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-cabbage": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-carrot": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-cassava": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-bellpepper": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-blueberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-cranberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-redcurrant": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-blackcurrant": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-whitecurrant": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-pineapple": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-apple": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-cherry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-peach": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-pear": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-orange": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-mango": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-lychee": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-pomegranate": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-birch":  { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-maple": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-honey": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-plain": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-huckleberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-brambleberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-dogrose": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-gooseberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-honeysuckle": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-snowberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-elderberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-strawberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-cloudberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-raspberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+		},
+	},
+	transitionableProps: [{
+    		type: "Perish",
+    		freshHours: { avg: 720 },
+    		transitionHours: { avg: 360 },
+    		transitionedStack: { type: "item", code: "game:rot" },
+    		transitionRatio: 0.25
+  	}],
+	shapeByType: {
+		"*-liquid": { base: "item/food/gelatinliquid" },
+		"*-raw": { base: "item/food/gelatinraw" },
+		"*": { base: "item/food/gelatinsolid" },
+	},
+	texturebyType: {
+		"*-soy": { base: "game:item/gelatin/fishgelatin" },
+		"*-liquid": { base: "game:item/gelatin/plain" },
+		"*": { base: "game:item/gelatin/{type}" },
+	},
+	nutritionPropsByType: {
+		"*-soy": { saturation: 200, health: 3, foodcategory: "Protein" },
+		"*-vegetablemix": { saturation: 230, health: 5, foodcategory: "Vegetable" },
+		"*-fruitmix": { saturation: 230, health: 5, foodcategory: "Fruit" },
+		"*-saguaro": { saturation: 200, health: 4, foodcategory: "Fruit" },
+		"*-pumpkin": { saturation: 200, health: 3, foodcategory: "Vegetable" },
+		"*-parsnip": { saturation: 200, health: 3, foodcategory: "Vegetable" },
+		"*-turnip": { saturation: 200, health: 3, foodcategory: "Vegetable" },
+		"*-onion": { saturation: 200, health: 3, foodcategory: "Vegetable" },
+		"*-cabbage": { saturation: 200, health: 3, foodcategory: "Vegetable" },
+		"*-carrot": { saturation: 200, health: 3, foodcategory: "Vegetable" },
+		"*-cassava": { saturation: 200, health: 3, foodcategory: "Vegetable" },
+		"*-bellpepper": { saturation: 200, health: 3, foodcategory: "Vegetable" },
+		"*-blueberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-cranberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-redcurrant": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-blackcurrant": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-whitecurrant": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-pineapple": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-apple": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-cherry": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-peach": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-pear": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-orange": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-mango": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-breadfruit": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-lychee": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-pomegranate": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-birch": { saturation: 200, health: 4, foodcategory: "Fruit" },
+		"*-maple": { saturation: 200, health: 4, foodcategory: "Fruit" },
+		"*-honey": { saturation: 200, health: 3.5, foodcategory: "Fruit" },
+		"*-plain": { saturation: 150, health: 1, foodcategory: "Protein" },
+		"*-huckleberry": { saturation: 185, health: 3, foodcategory: "Fruit" },
+		"*-snowberry": { saturation: 185, health: 1, foodcategory: "Fruit" },
+		"*-brambleberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-cloudberry": { saturation: 225, health: 3, foodcategory: "Fruit" },
+		"*-dogrose": { saturation: 160, health: 3, foodcategory: "Fruit" },
+		"*-elderberry": { saturation: 185, health: 2, foodcategory: "Fruit" },
+		"*-gooseberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-honeysuckle": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-strawberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-raspberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:gelatin-liquid", makefull: true } ] } } ] } ],
+	maxstacksizeByType: {
+		"*-liquid": 5000,
+		"*": 16, 
+	},
+	materialDensity: 200,
+	guiTransformByType: {
+		"*-liquid": {
+			rotation: { x: 128, y: 40, z: 7 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.4
+		},
+		"*-raw": {
+			translation: { x: 6, y: 0, z: 0 },
+			rotation: { x: -28, y: 23, z: 180 },
+			origin: { x: 0.5, y: 0.07, z: 0.5 },
+			scale: 4,
+		},
+		"*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -28, y: 23, z: 180 },
+			origin: { x: 0.5, y: 0.07, z: 0.5 },
+			scale: 4,
+		},
+	},
+	groundTransformByType: {
+		"*-liquid": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.53 },
+			scale: 1.5
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 1 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 4
+		},
+	},
+	tpHandTransformByType: {
+		"*-liquid": {
+			translation: { x: -1.5, y: -1, z: -1.4 },
+		},
+		"*": {
+			translation: { x: -0.54, y: -0.16, z: -0.4 },
+			rotation: { x: 44, y: -69, z: 2 },
+			origin: { x: 0.5, y: 0.13, z: 0.5 },
+			scale: 1
+		},
+	},
+	fpHandTransformByType: {
+		"*-liquid": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 42, y: 129, z: -30 }
+		},
+		"*": {
+			translation: { x: 0, y: 0.24, z: 0.3 },
+			rotation: { x: 72, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2
+		},
+	}
+}

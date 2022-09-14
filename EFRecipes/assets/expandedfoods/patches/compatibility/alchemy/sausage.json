@@ -1,0 +1,33 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/herbrackable",
+    "value": true,
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    dependsOn: [{ "modid": "alchemy" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/herbRackTransform",
+    "value": {
+      "translation": {
+        "x": 0.01,
+        "y": -0.15,
+        "z": 0.03
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.75
+    },
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    dependsOn: [{ "modid": "alchemy" }]
+  },
+]

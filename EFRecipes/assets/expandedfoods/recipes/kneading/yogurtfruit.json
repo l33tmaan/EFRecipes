@@ -1,0 +1,24 @@
+[
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1, name: "fruit" },]},
+		{inputs: [{ type: "item", code: "expandedfoods:yogurt-plain" }]},
+	],
+	output: { type: "item", code: "expandedfoods:yogurt-{fruit}", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1, name: "tree" },]},
+		{inputs: [{ type: "item", code: "expandedfoods:yogurt-plain" }]},
+	],
+	output: { type: "item", code: "expandedfoods:yogurt-{tree}", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1, name: "tree" },]},
+		{inputs: [{ type: "item", code: "expandedfoods:yogurt-plain" }]},
+	],
+	output: { type: "item", code: "expandedfoods:yogurt-honey", stackSize: 1}
+ }
+]
+

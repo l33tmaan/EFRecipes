@@ -1,0 +1,16 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
+    op: "add", 
+    path: "/0/ingredients/0/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
+    op: "add", 
+    path: "/1/ingredients/0/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+ },
+]

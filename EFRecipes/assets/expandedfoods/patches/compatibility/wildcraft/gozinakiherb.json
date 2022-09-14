@@ -1,0 +1,30 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/wildcraft/mixing/gozinakiherb.json",
+    op: "replace", 
+    path: "/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/gozinakiherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/gozinakiherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/gozinakiherbsyrup.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+]

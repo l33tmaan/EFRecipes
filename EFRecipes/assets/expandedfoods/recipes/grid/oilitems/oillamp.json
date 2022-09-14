@@ -1,0 +1,296 @@
+[ 
+ {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 1,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "game:woodbucket"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+ {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 2,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "expandedfoods:bottle-*-burned"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+  {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 1,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "game:woodbucket"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+ {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 2,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "expandedfoods:bottle-*-burned"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+  {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 1,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "game:woodbucket"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+ {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 2,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "expandedfoods:bottle-*-burned"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+  {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 1,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "game:woodbucket"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+ {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 2,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "expandedfoods:bottle-*-burned"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+  {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 1,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "game:woodbucket"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+ {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 2,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "expandedfoods:bottle-*-burned"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+  {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 1,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "game:woodbucket"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+ {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 2,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "expandedfoods:bottle-*-burned"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+  {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 1,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "game:woodbucket"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:lard" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ },
+ {
+	ingredientPattern: "R,P,B",
+	recipeGroup: 2,
+	ingredients: {
+		"R": { 
+			type: "block", 
+			code: "expandedfoods:bottle-*-burned"
+			},
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "game:bowl-fired" }
+	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "expandedfoods:lard" },
+			requiresLitres: 0.1
+		}
+	},
+	width: 1,
+	height: 3,
+	output: { type: "block", code: "game:oillamp-up"  }
+ }
+]

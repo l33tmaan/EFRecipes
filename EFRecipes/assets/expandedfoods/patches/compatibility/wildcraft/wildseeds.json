@@ -1,0 +1,41 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      juiceableProperties: {
+			litresPerItem: 0.078125,
+			liquidStack: { type: "item", code: "expandedfoods:foodoilportion-seed", stacksize: 1 },
+			pressedStack: { type: "item", code: "game:pressedmash-seed", stacksize: 1 }
+		},
+    },
+    "file": "wildcraft:itemtypes/resources/herbseeds.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      juiceableProperties: {
+			litresPerItem: 0.078125,
+			liquidStack: { type: "item", code: "expandedfoods:foodoilportion-seed", stacksize: 1 },
+			pressedStack: { type: "item", code: "game:pressedmash-seed", stacksize: 1 }
+		},
+    },
+    "file": "wildcraft:itemtypes/resources/seeds.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      juiceableProperties: {
+			litresPerItem: 0.078125,
+			liquidStack: { type: "item", code: "expandedfoods:foodoilportion-seed", stacksize: 1 },
+			pressedStack: { type: "item", code: "game:pressedmash-seed", stacksize: 1 }
+		},
+    },
+    "file": "wildcraft:itemtypes/resources/waterherbseeds.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+]

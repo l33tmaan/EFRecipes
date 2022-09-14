@@ -1,0 +1,16 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/peanutsauce.json",
+    op: "add", 
+    path: "/0/ingredients/2/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 },
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/peanutsauce.json",
+    op: "add", 
+    path: "/1/ingredients/2/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 },
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+]

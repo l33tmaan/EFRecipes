@@ -1,0 +1,30 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/breadedball.json",
+    op: "add", 
+    path: "/0/ingredients/0/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/breadedball.json",
+    op: "add", 
+    path: "/1/ingredients/0/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/breadedball.json",
+    op: "add", 
+    path: "/0/ingredients/3/inputs/-", 
+    value: { type: "item", code: "wildcraft:minerslettuce", quantity: 1 },
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/breadedball.json",
+    op: "add", 
+    path: "/1/ingredients/3/inputs/-", 
+    value: { type: "item", code: "wildcraft:minerslettuce", quantity: 1 },
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+]

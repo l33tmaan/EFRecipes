@@ -1,0 +1,198 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetoiled.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetoiled.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetoiled.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetsyrup.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetsyrup.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetsyrup.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetsyrup.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetsyrup.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetsyrup.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetsyrup.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetsyrup.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetsyrup.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmeatnuggetsyrup.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmeatnuggetsyrup.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmeatnuggetsyrup.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmeatnuggetsyrup.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmeatnuggetsyrup.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmeatnuggetsyrup.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmeatnuggetsyrup.json",
+    op: "replace", 
+    path: "/6/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmeatnuggetsyrup.json",
+    op: "replace", 
+    path: "/7/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmeatnuggetsyrup.json",
+    op: "replace", 
+    path: "/8/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+]

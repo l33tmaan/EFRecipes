@@ -1,0 +1,30 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildpeanutbutter.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildpeanutbutter.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildpeanutsauce.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildpeanutsauce.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+]

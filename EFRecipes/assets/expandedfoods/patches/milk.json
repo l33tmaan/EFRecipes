@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/combustibleProps",
+    "value": {
+      "meltingPoint": 100,
+      "meltingDuration": 5,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:pasteurizedmilkportion"
+      },
+      "requiresContainer": true
+    },
+    "file": "game:itemtypes/liquid/dairy/milkportion.json"
+  }
+]

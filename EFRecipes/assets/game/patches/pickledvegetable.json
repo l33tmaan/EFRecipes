@@ -39,7 +39,7 @@
         "levelTo": 0.25,
         "startScaleY": 1.0,
         "endScaleY": 1.0,
-        "resultCode": "efrecipes:cookedveggie-pickledcarrot-partbaked"
+        "resultCode": "expandedfoods:cookedveggie-pickledcarrot-partbaked"
       },
       "*-onion": {
         "temp": 100,
@@ -47,7 +47,7 @@
         "levelTo": 0.25,
         "startScaleY": 1.0,
         "endScaleY": 1.0,
-        "resultCode": "efrecipes:cookedveggie-pickledonion-partbaked"
+        "resultCode": "expandedfoods:cookedveggie-pickledonion-partbaked"
       },
       "*-turnip": {
         "temp": 100,
@@ -55,7 +55,7 @@
         "levelTo": 0.25,
         "startScaleY": 1.0,
         "endScaleY": 1.0,
-        "resultCode": "efrecipes:cookedveggie-pickledturnip-partbaked"
+        "resultCode": "expandedfoods:cookedveggie-pickledturnip-partbaked"
       },
       "*-parsnip": {
         "temp": 100,
@@ -63,7 +63,7 @@
         "levelTo": 0.25,
         "startScaleY": 1.0,
         "endScaleY": 1.0,
-        "resultCode": "efrecipes:cookedveggie-pickledparsnip-partbaked"
+        "resultCode": "expandedfoods:cookedveggie-pickledparsnip-partbaked"
       },
       "*-pumpkin": {
         "temp": 100,
@@ -71,7 +71,7 @@
         "levelTo": 0.25,
         "startScaleY": 1.0,
         "endScaleY": 1.0,
-        "resultCode": "efrecipes:cookedveggie-pickledpumpkin-partbaked"
+        "resultCode": "expandedfoods:cookedveggie-pickledpumpkin-partbaked"
       },
       "*-bellpepper": {
         "temp": 100,
@@ -79,7 +79,7 @@
         "levelTo": 0.25,
         "startScaleY": 1.0,
         "endScaleY": 1.0,
-        "resultCode": "efrecipes:cookedchoppedvegetable-pickledbellpepper-partbaked"
+        "resultCode": "expandedfoods:cookedchoppedvegetable-pickledbellpepper-partbaked"
       }
     },
     "file": "itemtypes/food/pickledvegetable.json"
@@ -89,43 +89,19 @@
     "path": "/attributes/onDisplayTransformByType",
     "value": {
       "*-carrot": {
-        "rotation": {
-          "x": 90,
-          "y": 0,
-          "z": 0
-        },
-        "translation": {
-          "x": 0,
-          "y": -0.45,
-          "z": 0.25
-        },
-        "scale": 1
+			rotation: { x: 0, y: -45, z: 90 },
+			translation: { x: -0.2, y: -0.225, z: 0 },
+			scale: 1 
       },
       "*-parsnip": {
-        "rotation": {
-          "x": 90,
-          "y": 0,
-          "z": 0
-        },
-        "translation": {
-          "x": 0,
-          "y": -0.45,
-          "z": 0.25
-        },
-        "scale": 1
+			rotation: { x: 0, y: -45, z: 90 },
+			translation: { x: -0.2, y: -0.225, z: 0 },
+			scale: 1 
       },
       "*-turnip": {
-        "rotation": {
-          "x": 90,
-          "y": 0,
-          "z": 0
-        },
-        "translation": {
-          "x": 0,
-          "y": -0.4,
-          "z": 0.25
-        },
-        "scale": 1
+			rotation: { x: 0, y: -45, z: 90 },
+			translation: { x: -0.2, y: -0.225, z: 0 },
+			scale: 1 
       },
       "*-bellpepper": {
         "translation": {
@@ -157,7 +133,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "efrecipes:cookedveggie-pickledcarrot-charred"
+          "code": "expandedfoods:cookedveggie-pickledcarrot-charred"
         },
         "requiresContainer": false
       },
@@ -168,7 +144,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "efrecipes:cookedveggie-pickledonion-charred"
+          "code": "expandedfoods:cookedveggie-pickledonion-charred"
         },
         "requiresContainer": false
       },
@@ -179,7 +155,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "efrecipes:cookedveggie-pickledturnip-charred"
+          "code": "expandedfoods:cookedveggie-pickledturnip-charred"
         },
         "requiresContainer": false
       },
@@ -190,7 +166,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "efrecipes:cookedveggie-pickledparsnip-charred"
+          "code": "expandedfoods:cookedveggie-pickledparsnip-charred"
         },
         "requiresContainer": false
       },
@@ -201,7 +177,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "efrecipes:cookedveggie-pickledpumpkin-charred"
+          "code": "expandedfoods:cookedveggie-pickledpumpkin-charred"
         },
         "requiresContainer": false
       },
@@ -212,7 +188,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "Code": "efrecipes:cookedchoppedvegetable-pickledbellpepper-charred"
+          "Code": "expandedfoods:cookedchoppedvegetable-pickledbellpepper-charred"
         },
         "requiresContainer": false
       }

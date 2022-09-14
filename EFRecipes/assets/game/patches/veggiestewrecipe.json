@@ -1,1104 +1,1950 @@
 [
   {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/11",
-    "value": {
+    "op": "addeach",
+    "path": "/ingredients/0/validStacks/-",
+    "value": [
+    {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-carrot",
+      "code": "expandedfoods:choppedvegetable-carrot",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group1"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/12",
-    "value": {
+    {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledcarrot",
+      "code": "expandedfoods:choppedvegetable-pickledcarrot",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group1"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/13",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedmushroom-flyagaric",
-      "shapeElement": "bowl/vegetable 1/*",
-      "textureMapping": [
-        "vegetable",
-        "group2"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/14",
-    "value": {
-      "type": "item",
-      "code": "efrecipes:choppedmushroom-kingbolete",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedmushroom-fieldmushroom",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/15",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-parsnip",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-flyagaric",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-kingbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkbonnet",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-parsnip",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group4"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/16",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledparsnip",
+      "code": "expandedfoods:choppedvegetable-pickledparsnip",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group4"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/17",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-turnip",
+      "code": "expandedfoods:choppedvegetable-turnip",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group5"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/18",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledturnip",
+      "code": "expandedfoods:choppedvegetable-pickledturnip",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group5"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/19",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-onion",
+      "code": "expandedfoods:choppedvegetable-onion",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group6"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/20",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledonion",
+      "code": "expandedfoods:choppedvegetable-pickledonion",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group6"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/22",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pumpkin",
+      "code": "expandedfoods:choppedvegetable-pumpkin",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/23",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledpumpkin",
+      "code": "expandedfoods:choppedvegetable-pickledpumpkin",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/24",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cabbage",
+      "code": "expandedfoods:choppedvegetable-cabbage",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group10"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:driedseaweed-edible",
+      "code": "expandedfoods:driedseaweed-edible",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group10"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cassava",
+      "code": "expandedfoods:choppedvegetable-cassava",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-bellpepper",
+      "code": "expandedfoods:choppedvegetable-bellpepper",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "fruit",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cattailroot",
+      "code": "expandedfoods:choppedvegetable-cattailroot",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-papyrusroot",
+      "code": "expandedfoods:choppedvegetable-papyrusroot",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
+    ],
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/11",
-    "value": {
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+    {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-carrot",
+      "code": "expandedfoods:choppedvegetable-carrot",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group1"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/12",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledcarrot",
+      "code": "expandedfoods:choppedvegetable-pickledcarrot",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group1"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/13",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedmushroom-flyagaric",
-      "shapeElement": "bowl/vegetable 2/*",
-      "textureMapping": [
-        "vegetable",
-        "group2"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/14",
-    "value": {
-      "type": "item",
-      "code": "efrecipes:choppedmushroom-kingbolete",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedmushroom-fieldmushroom",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/15",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-parsnip",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-flyagaric",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-kingbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkbonnet",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-parsnip",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group4"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/16",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledparsnip",
+      "code": "expandedfoods:choppedvegetable-pickledparsnip",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group4"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/17",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-turnip",
+      "code": "expandedfoods:choppedvegetable-turnip",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group5"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/18",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledturnip",
+      "code": "expandedfoods:choppedvegetable-pickledturnip",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group5"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/19",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-onion",
+      "code": "expandedfoods:choppedvegetable-onion",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group6"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/20",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledonion",
+      "code": "expandedfoods:choppedvegetable-pickledonion",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group6"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/22",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pumpkin",
+      "code": "expandedfoods:choppedvegetable-pumpkin",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/23",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledpumpkin",
+      "code": "expandedfoods:choppedvegetable-pickledpumpkin",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/24",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cabbage",
+      "code": "expandedfoods:choppedvegetable-cabbage",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group10"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:driedseaweed-edible",
+      "code": "expandedfoods:driedseaweed-edible",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group10"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cassava",
+      "code": "expandedfoods:choppedvegetable-cassava",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-bellpepper",
+      "code": "expandedfoods:choppedvegetable-bellpepper",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "fruit",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cattailroot",
+      "code": "expandedfoods:choppedvegetable-cattailroot",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-papyrusroot",
+      "code": "expandedfoods:choppedvegetable-papyrusroot",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
+    ],
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/11",
-    "value": {
-      "type": "item",
-      "code": "efrecipes:dumpling-raw"
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/12",
-    "value": {
-      "type": "item",
-      "code": "efrecipes:acorndumpling-raw"
-    },
-    "file": "recipes/cooking/vegetablestew.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
+    "op": "addeach",
     "path": "/ingredients/2/validStacks/-",
-    "value": {
+    "value": [
+    {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-carrot",
+      "code": "expandedfoods:dumpling-raw"
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-carrot",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group1"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledcarrot",
+      "code": "expandedfoods:choppedvegetable-pickledcarrot",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group1"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedmushroom-flyagaric",
-      "shapeElement": "bowl/vegetable 3/*",
-      "textureMapping": [
-        "vegetable",
-        "group2"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "efrecipes:choppedmushroom-kingbolete",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedmushroom-fieldmushroom",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-parsnip",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-flyagaric",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-kingbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkbonnet",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-parsnip",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group4"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledparsnip",
+      "code": "expandedfoods:choppedvegetable-pickledparsnip",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group4"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-turnip",
+      "code": "expandedfoods:choppedvegetable-turnip",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group5"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledturnip",
+      "code": "expandedfoods:choppedvegetable-pickledturnip",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group5"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-onion",
+      "code": "expandedfoods:choppedvegetable-onion",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group6"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledonion",
+      "code": "expandedfoods:choppedvegetable-pickledonion",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group6"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pumpkin",
+      "code": "expandedfoods:choppedvegetable-pumpkin",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledpumpkin",
+      "code": "expandedfoods:choppedvegetable-pickledpumpkin",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cabbage",
+      "code": "expandedfoods:choppedvegetable-cabbage",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group10"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:driedseaweed-edible",
+      "code": "expandedfoods:driedseaweed-edible",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group10"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cassava",
+      "code": "expandedfoods:choppedvegetable-cassava",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-bellpepper",
+      "code": "expandedfoods:choppedvegetable-bellpepper",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "fruit",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cattailroot",
+      "code": "expandedfoods:choppedvegetable-cattailroot",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+     {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-papyrusroot",
+      "code": "expandedfoods:choppedvegetable-papyrusroot",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
+    ],
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/11",
-    "value": {
-      "type": "item",
-      "code": "efrecipes:dumpling-raw"
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/12",
-    "value": {
-      "type": "item",
-      "code": "efrecipes:acorndumpling-raw"
-    },
-    "file": "recipes/cooking/vegetablestew.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
+    "op": "addeach",
     "path": "/ingredients/3/validStacks/-",
-    "value": {
+    "value": [
+    {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-carrot",
+      "code": "expandedfoods:dumpling-raw"
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-carrot",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group1"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledcarrot",
+      "code": "expandedfoods:choppedvegetable-pickledcarrot",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group1"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedmushroom-flyagaric",
-      "shapeElement": "bowl/vegetable 4/*",
-      "textureMapping": [
-        "vegetable",
-        "group2"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "efrecipes:choppedmushroom-kingbolete",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group3"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedmushroom-fieldmushroom",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group7"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-parsnip",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-flyagaric",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-kingbolete",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkbonnet",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+     {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-parsnip",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group4"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledparsnip",
+      "code": "expandedfoods:choppedvegetable-pickledparsnip",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group4"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+   {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-turnip",
+      "code": "expandedfoods:choppedvegetable-turnip",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group5"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledturnip",
+      "code": "expandedfoods:choppedvegetable-pickledturnip",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group5"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-onion",
+      "code": "expandedfoods:choppedvegetable-onion",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group6"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledonion",
+      "code": "expandedfoods:choppedvegetable-pickledonion",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group6"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pumpkin",
+      "code": "expandedfoods:choppedvegetable-pumpkin",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-pickledpumpkin",
+      "code": "expandedfoods:choppedvegetable-pickledpumpkin",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cabbage",
+      "code": "expandedfoods:choppedvegetable-cabbage",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group10"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:driedseaweed-edible",
+      "code": "expandedfoods:driedseaweed-edible",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group10"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cassava",
+      "code": "expandedfoods:choppedvegetable-cassava",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-bellpepper",
+      "code": "expandedfoods:choppedvegetable-bellpepper",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "fruit",
         "group8"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "efrecipes:choppedvegetable-cattailroot",
+      "code": "expandedfoods:choppedvegetable-cattailroot",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },  
+ {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-papyrusroot",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group11"
       ]
     },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "efrecipes:choppedvegetable-papyrusroot",
-      "shapeElement": "bowl/vegetable 4/*",
-      "textureMapping": [
-        "vegetable",
-        "group11"
-      ]
-    },
+    ],
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
@@ -1109,12 +1955,12 @@
       "validStacks": [
         {
           "type": "item",
-          "code": "efrecipes:soysauce",
+          "code": "expandedfoods:soysauce",
           "shapeElement": "bowl/topping/*"
         },
         {
           "type": "item",
-          "code": "efrecipes:foodoilportion-flax",
+          "code": "expandedfoods:foodoilportion-*",
           "shapeElement": "bowl/topping/*",
 	  "textureMapping": [
 	    "topping",
@@ -1123,52 +1969,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:foodoilportion-rice",
-          "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
-        },
-        {
-          "type": "item",
-          "code": "efrecipes:foodoilportion-seed",
-          "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
-        },
-        {
-          "type": "item",
-          "code": "efrecipes:foodoilportion-soy",
-          "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
-        },
-        {
-            "type": "item",
-            "code": "efrecipes:foodoilportion-sunflower",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "foodoil"
-            ]
-        },
-        {
-          "type": "item",
-          "code": "efrecipes:foodoilportion-peanut",
-          "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
-        },
-        {
-          "type": "item",
-          "code": "efrecipes:lard",
+          "code": "expandedfoods:lard",
           "shapeElement": "bowl/topping/*",
 	  "textureMapping": [
 	    "topping",
@@ -1321,7 +2122,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-blueberry",
+          "code": "expandedfoods:strongwineportion-blueberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1330,7 +2131,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-cranberry",
+          "code": "expandedfoods:strongwineportion-cranberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1339,7 +2140,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-blackcurrant",
+          "code": "expandedfoods:strongwineportion-blackcurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1348,7 +2149,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-redcurrant",
+          "code": "expandedfoods:strongwineportion-redcurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1357,7 +2158,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-whitecurrant",
+          "code": "expandedfoods:strongwineportion-whitecurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1366,7 +2167,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-pineapple",
+          "code": "expandedfoods:strongwineportion-pineapple",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1375,7 +2176,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-saguaro",
+          "code": "expandedfoods:strongwineportion-saguaro",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1384,7 +2185,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-apple",
+          "code": "expandedfoods:strongwineportion-apple",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1393,7 +2194,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-cherry",
+          "code": "expandedfoods:strongwineportion-cherry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1402,7 +2203,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-peach",
+          "code": "expandedfoods:strongwineportion-peach",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1411,7 +2212,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-pear",
+          "code": "expandedfoods:strongwineportion-pear",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1420,7 +2221,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-orange",
+          "code": "expandedfoods:strongwineportion-orange",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1429,7 +2230,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-mango",
+          "code": "expandedfoods:strongwineportion-mango",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1438,7 +2239,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-breadfruit",
+          "code": "expandedfoods:strongwineportion-breadfruit",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1447,7 +2248,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-lychee",
+          "code": "expandedfoods:strongwineportion-lychee",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1456,7 +2257,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongwineportion-pomegranate",
+          "code": "expandedfoods:strongwineportion-pomegranate",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1465,7 +2266,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-blueberry",
+          "code": "expandedfoods:potentwineportion-blueberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1474,7 +2275,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-cranberry",
+          "code": "expandedfoods:potentwineportion-cranberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1483,7 +2284,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-blackcurrant",
+          "code": "expandedfoods:potentwineportion-blackcurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1492,7 +2293,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-redcurrant",
+          "code": "expandedfoods:potentwineportion-redcurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1501,7 +2302,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-whitecurrant",
+          "code": "expandedfoods:potentwineportion-whitecurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1510,7 +2311,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-pineapple",
+          "code": "expandedfoods:potentwineportion-pineapple",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1519,7 +2320,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-saguaro",
+          "code": "expandedfoods:potentwineportion-saguaro",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1528,7 +2329,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-apple",
+          "code": "expandedfoods:potentwineportion-apple",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1537,7 +2338,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-cherry",
+          "code": "expandedfoods:potentwineportion-cherry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1546,7 +2347,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-peach",
+          "code": "expandedfoods:potentwineportion-peach",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1555,7 +2356,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-pear",
+          "code": "expandedfoods:potentwineportion-pear",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1564,7 +2365,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-orange",
+          "code": "expandedfoods:potentwineportion-orange",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1573,7 +2374,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-mango",
+          "code": "expandedfoods:potentwineportion-mango",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1582,7 +2383,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-breadfruit",
+          "code": "expandedfoods:potentwineportion-breadfruit",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1591,7 +2392,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-lychee",
+          "code": "expandedfoods:potentwineportion-lychee",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1600,7 +2401,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentwineportion-pomegranate",
+          "code": "expandedfoods:potentwineportion-pomegranate",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1753,7 +2554,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-blueberry",
+          "code": "expandedfoods:strongspiritportion-blueberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1762,7 +2563,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-cranberry",
+          "code": "expandedfoods:strongspiritportion-cranberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1771,7 +2572,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-blackcurrant",
+          "code": "expandedfoods:strongspiritportion-blackcurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1780,7 +2581,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-redcurrant",
+          "code": "expandedfoods:strongspiritportion-redcurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1789,7 +2590,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-whitecurrant",
+          "code": "expandedfoods:strongspiritportion-whitecurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1798,7 +2599,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-pineapple",
+          "code": "expandedfoods:strongspiritportion-pineapple",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1807,7 +2608,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-saguaro",
+          "code": "expandedfoods:strongspiritportion-saguaro",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1816,7 +2617,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-apple",
+          "code": "expandedfoods:strongspiritportion-apple",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1825,7 +2626,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-cherry",
+          "code": "expandedfoods:strongspiritportion-cherry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1834,7 +2635,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-peach",
+          "code": "expandedfoods:strongspiritportion-peach",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1843,7 +2644,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-pear",
+          "code": "expandedfoods:strongspiritportion-pear",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1852,7 +2653,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-orange",
+          "code": "expandedfoods:strongspiritportion-orange",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1861,7 +2662,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-mango",
+          "code": "expandedfoods:strongspiritportion-mango",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1870,7 +2671,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-breadfruit",
+          "code": "expandedfoods:strongspiritportion-breadfruit",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1879,7 +2680,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-lychee",
+          "code": "expandedfoods:strongspiritportion-lychee",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1888,7 +2689,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:strongspiritportion-pomegranate",
+          "code": "expandedfoods:strongspiritportion-pomegranate",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1897,7 +2698,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-blueberry",
+          "code": "expandedfoods:potentspiritportion-blueberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1906,7 +2707,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-cranberry",
+          "code": "expandedfoods:potentspiritportion-cranberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1915,7 +2716,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-blackcurrant",
+          "code": "expandedfoods:potentspiritportion-blackcurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1924,7 +2725,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-redcurrant",
+          "code": "expandedfoods:potentspiritportion-redcurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1933,7 +2734,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-whitecurrant",
+          "code": "expandedfoods:potentspiritportion-whitecurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1942,7 +2743,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-pineapple",
+          "code": "expandedfoods:potentspiritportion-pineapple",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1951,7 +2752,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-saguaro",
+          "code": "expandedfoods:potentspiritportion-saguaro",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1960,7 +2761,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-apple",
+          "code": "expandedfoods:potentspiritportion-apple",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1969,7 +2770,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-cherry",
+          "code": "expandedfoods:potentspiritportion-cherry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1978,7 +2779,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-peach",
+          "code": "expandedfoods:potentspiritportion-peach",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1987,7 +2788,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-pear",
+          "code": "expandedfoods:potentspiritportion-pear",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -1996,7 +2797,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-orange",
+          "code": "expandedfoods:potentspiritportion-orange",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -2005,7 +2806,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-mango",
+          "code": "expandedfoods:potentspiritportion-mango",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -2014,7 +2815,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-breadfruit",
+          "code": "expandedfoods:potentspiritportion-breadfruit",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -2023,7 +2824,7 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-lychee",
+          "code": "expandedfoods:potentspiritportion-lychee",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -2032,14 +2833,26 @@
         },
         {
           "type": "item",
-          "code": "efrecipes:potentspiritportion-pomegranate",
+          "code": "expandedfoods:potentspiritportion-pomegranate",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
             "pomegranatewine"
           ]
         },
-        {
+      ],
+        "minQuantity": 0,
+        "maxQuantity": 1,
+        "portionSizeLitres": 0.1,
+    },
+    side: "server",
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+ {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+    {
             "type": "item",
             "code": "wildcraft:ciderportion-huckleberry",
             "shapeElement": "bowl/topping/*",
@@ -2048,25 +2861,25 @@
                 "huckleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongwineportion-huckleberry",
+            "code": "expandedfoods:wildstrongwineportion-huckleberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "huckleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildpotentwineportion-huckleberry",
+            "code": "expandedfoods:wildpotentwineportion-huckleberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "huckleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
             "code": "wildcraft:spiritportion-huckleberry",
             "shapeElement": "bowl/topping/*",
@@ -2075,25 +2888,25 @@
                 "huckleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongspiritportion-huckleberry",
+            "code": "expandedfoods:wildstrongspiritportion-huckleberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "huckleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildpotentspiritportion-huckleberry",
+            "code": "expandedfoods:wildpotentspiritportion-huckleberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "huckleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
             "code": "wildcraft:ciderportion-snowberry",
             "shapeElement": "bowl/topping/*",
@@ -2102,25 +2915,25 @@
                 "snowberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongwineportion-snowberry",
+            "code": "expandedfoods:wildstrongwineportion-snowberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "snowberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildpotentwineportion-snowberry",
+            "code": "expandedfoods:wildpotentwineportion-snowberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "snowberrywine"
             ]
         },
-        {
+ {
             "type": "item",
             "code": "wildcraft:spiritportion-snowberry",
             "shapeElement": "bowl/topping/*",
@@ -2129,25 +2942,25 @@
                 "snowberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongspiritportion-snowberry",
+            "code": "expandedfoods:wildstrongspiritportion-snowberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "snowberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildpotentspiritportion-snowberry",
+            "code": "expandedfoods:wildpotentspiritportion-snowberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "snowberrywine"
             ]
         },
-        {
+ {
             "type": "item",
             "code": "wildcraft:ciderportion-brambleberry",
             "shapeElement": "bowl/topping/*",
@@ -2156,25 +2969,25 @@
                 "brambleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongwineportion-brambleberry",
+            "code": "expandedfoods:wildstrongwineportion-brambleberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "brambleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildpotentwineportion-brambleberry",
+            "code": "expandedfoods:wildpotentwineportion-brambleberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "brambleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
             "code": "wildcraft:spiritportion-brambleberry",
             "shapeElement": "bowl/topping/*",
@@ -2183,25 +2996,25 @@
                 "brambleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongspiritportion-brambleberry",
+            "code": "expandedfoods:wildstrongspiritportion-brambleberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "brambleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildpotentspiritportion-brambleberry",
+            "code": "expandedfoods:wildpotentspiritportion-brambleberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "brambleberrywine"
             ]
         },
-        {
+ {
             "type": "item",
             "code": "wildcraft:ciderportion-cloudberry",
             "shapeElement": "bowl/topping/*",
@@ -2210,25 +3023,25 @@
                 "cloudberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongwineportion-cloudberry",
+            "code": "expandedfoods:wildstrongwineportion-cloudberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "cloudberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildpotentwineportion-cloudberry",
+            "code": "expandedfoods:wildpotentwineportion-cloudberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "cloudberrywine"
             ]
         },
-        {
+ {
             "type": "item",
             "code": "wildcraft:spiritportion-cloudberry",
             "shapeElement": "bowl/topping/*",
@@ -2237,25 +3050,25 @@
                 "cloudberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongspiritportion-cloudberry",
+            "code": "expandedfoods:wildstrongspiritportion-cloudberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "cloudberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildpotentspiritportion-cloudberry",
+            "code": "expandedfoods:wildpotentspiritportion-cloudberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "cloudberrywine"
             ]
         },
-        {
+ {
             "type": "item",
             "code": "wildcraft:ciderportion-dogrose",
             "shapeElement": "bowl/topping/*",
@@ -2264,25 +3077,25 @@
                 "dogrosewine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongwineportion-dogrose",
+            "code": "expandedfoods:wildstrongwineportion-dogrose",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "dogrosewine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildpotentwineportion-dogrose",
+            "code": "expandedfoods:wildpotentwineportion-dogrose",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "dogrosewine"
             ]
         },
-        {
+ {
             "type": "item",
             "code": "wildcraft:spiritportion-dogrose",
             "shapeElement": "bowl/topping/*",
@@ -2291,52 +3104,43 @@
                 "dogrosewine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongspiritportion-dogrose",
+            "code": "expandedfoods:wildstrongspiritportion-dogrose",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "dogrosewine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildpotentspiritportion-dogrose",
+            "code": "expandedfoods:wildpotentspiritportion-dogrose",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "dogrosewine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "wildcraft:ciderportion-elderberry",
+            "code": "expandedfoods:wildstrongwineportion-elderberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "elderberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongwineportion-elderberry",
+            "code": "expandedfoods:wildpotentwineportion-elderberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "elderberrywine"
             ]
         },
-        {
-            "type": "item",
-            "code": "efrecipes:wildpotentwineportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-        {
+ {
             "type": "item",
             "code": "wildcraft:spiritportion-elderberry",
             "shapeElement": "bowl/topping/*",
@@ -2345,25 +3149,25 @@
                 "elderberrywine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildstrongspiritportion-elderberry",
+            "code": "expandedfoods:wildstrongspiritportion-elderberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "elderberrywine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildpotentspiritportion-elderberry",
+            "code": "expandedfoods:wildpotentspiritportion-elderberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "elderberrywine"
             ]
         },
-        {
+     {
             "type": "item",
             "code": "wildcraft:ciderportion-gooseberry",
             "shapeElement": "bowl/topping/*",
@@ -2372,25 +3176,25 @@
                 "gooseberrywine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildstrongwineportion-gooseberry",
+            "code": "expandedfoods:wildstrongwineportion-gooseberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "gooseberrywine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildpotentwineportion-gooseberry",
+            "code": "expandedfoods:wildpotentwineportion-gooseberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "gooseberrywine"
             ]
         },
-        {
+     {
             "type": "item",
             "code": "wildcraft:spiritportion-gooseberry",
             "shapeElement": "bowl/topping/*",
@@ -2399,25 +3203,25 @@
                 "gooseberrywine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildstrongspiritportion-gooseberry",
+            "code": "expandedfoods:wildstrongspiritportion-gooseberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "gooseberrywine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildpotentspiritportion-gooseberry",
+            "code": "expandedfoods:wildpotentspiritportion-gooseberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "gooseberrywine"
             ]
         },
-        {
+     {
             "type": "item",
             "code": "wildcraft:ciderportion-honeysuckle",
             "shapeElement": "bowl/topping/*",
@@ -2426,25 +3230,25 @@
                 "honeysucklewine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildstrongwineportion-honeysuckle",
+            "code": "expandedfoods:wildstrongwineportion-honeysuckle",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "honeysucklewine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildpotentwineportion-honeysuckle",
+            "code": "expandedfoods:wildpotentwineportion-honeysuckle",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "honeysucklewine"
             ]
         },
-        {
+     {
             "type": "item",
             "code": "wildcraft:spiritportion-honeysuckle",
             "shapeElement": "bowl/topping/*",
@@ -2453,25 +3257,25 @@
                 "honeysucklewine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildstrongspiritportion-honeysuckle",
+            "code": "expandedfoods:wildstrongspiritportion-honeysuckle",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "honeysucklewine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildpotentspiritportion-honeysuckle",
+            "code": "expandedfoods:wildpotentspiritportion-honeysuckle",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "honeysucklewine"
             ]
         },
-        {
+     {
             "type": "item",
             "code": "wildcraft:ciderportion-strawberry",
             "shapeElement": "bowl/topping/*",
@@ -2480,25 +3284,25 @@
                 "strawberrywine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildstrongwineportion-strawberry",
+            "code": "expandedfoods:wildstrongwineportion-strawberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "strawberrywine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildpotentwineportion-strawberry",
+            "code": "expandedfoods:wildpotentwineportion-strawberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "strawberrywine"
             ]
         },
-        {
+     {
             "type": "item",
             "code": "wildcraft:spiritportion-strawberry",
             "shapeElement": "bowl/topping/*",
@@ -2507,25 +3311,25 @@
                 "strawberrywine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildstrongspiritportion-strawberry",
+            "code": "expandedfoods:wildstrongspiritportion-strawberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "strawberrywine"
             ]
         },
-        {
+     {
             "type": "item",
-            "code": "efrecipes:wildpotentspiritportion-strawberry",
+            "code": "expandedfoods:wildpotentspiritportion-strawberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "strawberrywine"
             ]
         },
-        {
+     {
             "type": "item",
             "code": "wildcraft:ciderportion-raspberry",
             "shapeElement": "bowl/topping/*",
@@ -2534,25 +3338,25 @@
                 "raspberrywine"
             ]
         },
-        {
+ {
             "type": "item",
-            "code": "efrecipes:wildstrongwineportion-raspberry",
+            "code": "expandedfoods:wildstrongwineportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },    
+ {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-raspberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "raspberrywine"
             ]
         },
-        {
-            "type": "item",
-            "code": "efrecipes:wildpotentwineportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-        {
+ {
             "type": "item",
             "code": "wildcraft:spiritportion-raspberry",
             "shapeElement": "bowl/topping/*",
@@ -2560,31 +3364,45 @@
                 "topping",
                 "raspberrywine"
             ]
-        },
-        {
-            "type": "item",
-            "code": "efrecipes:wildstrongspiritportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "efrecipes:wildpotentspiritportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-      ],
-        "minQuantity": 0,
-        "maxQuantity": 1,
-        "portionSizeLitres": 0.1,
     },
-    "file": "recipes/cooking/vegetablestew.json"
+ {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+ {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+    ],
+    side: "server",
+    "file": "recipes/cooking/vegetablestew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "fishsauce",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "fishsauce"
+          ]
+    },
+    side: "server",
+    "file": "recipes/cooking/vegetablestew.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
   },
   {
     "op": "add",
@@ -2594,21 +3412,23 @@
       "validStacks": [
         {
           "type": "item",
-          "code": "efrecipes:breadcrumbs-*"
+          "code": "expandedfoods:breadcrumbs-*"
         }
       ],
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
     "op": "add",
-    "path": "/ingredients/5/validStacks/1",
+    "path": "/ingredients/5/validStacks/-",
     "value": {
       "type": "item",
-      "code": "efrecipes:acornbreadcrumbs-*"
+      "code": "expandedfoods:acornbreadcrumbs-*"
     },
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
@@ -2625,6 +3445,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
@@ -2634,19 +3455,21 @@
       "code": "nuts-extra1",
       "validStacks": [
             { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
-            { "type": "item", "code": "efrecipes:peanut-cooked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },      
-            { "type": "item",  "code": "efrecipes:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "acorns" ] },      
+            { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },      
+            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "acorns" ] },      
 ],
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value":
-        { "type": "item", "code": "efrecipes:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
+        { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json",
     dependsOn: [{ "modid": "acorns" }]
   },
@@ -2657,35 +3480,81 @@
       "code": "nuts-extra1",
       "validStacks": [
             { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
-            { "type": "item", "code": "efrecipes:peanut-cooked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },      
-            { "type": "item",  "code": "efrecipes:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "acorns" ] },      
+            { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },      
+            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "acorns" ] },      
 ],
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
     "op": "add",
-    "path": "/ingredients/8/validStacks/1",
+    "path": "/ingredients/8/validStacks/-",
     "value": 
-        { "type": "item", "code": "efrecipes:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
+        { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
+    side: "server",
     "file": "recipes/cooking/vegetablestew.json",
     dependsOn: [{ "modid": "acorns" }]
   },
- {
+  {
     "op": "add",
-    "path": "/ingredients/4/validStacks/-",
+    "path": "/ingredients/9",
     "value": {
+      "code": "broth",
+      "validStacks": [
+        {
           "type": "item",
-          "code": "fishsauce",
+          "code": "expandedfoods:brothportion-bone",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
-            "fishsauce"
+            "bonebroth"
           ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:brothportion-meat",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "meatbroth"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:brothportion-vegetable",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "vegetablebroth"
+          ]
+        },
+      ],
+      "minQuantity": 0,
+        "maxQuantity": 1,
+        "portionSizeLitres": 1,
     },
-    "file": "recipes/cooking/vegetablestew.json",
+    side: "server",
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "op": "addeach",
+    "path": "/ingredients/9/validStacks/-",
+    "value": [
+        {
+          "type": "item",
+          "code": "expandedfoods:brothportion-fish",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "fishbroth"
+          ]
+        },
+    ],
+    side: "server",
     dependsOn: [{ "modid": "primitivesurvival" }]
-  }
+  },
 ]

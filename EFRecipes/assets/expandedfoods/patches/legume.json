@@ -1,0 +1,51 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType",
+    "value": {
+      "*-soybean": {
+        "juiceableProperties": {
+            "litresPerItem": 0.078125,
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:foodoilportion-soy",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "game:pressedmash-soybean",
+                "stacksize": 1
+            }
+        }
+      },
+      "*-peanut": {
+        "juiceableProperties": {
+            "litresPerItem": 0.078125,
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:foodoilportion-peanut",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "game:pressedmash-peanut",
+                "stacksize": 1
+            },
+        },
+        "bakingProperties":  {
+			temp: 175,
+			levelFrom: 0.0,
+			levelTo: 0.25,
+			startScaleY: 1.0,
+			endScaleY: 1.0,
+			resultCode: "expandedfoods:peanut-cooked",
+		},
+	    onDisplayTransform: { 
+			translation: { x: 0, y: -0.25, z: 0 },
+			scale: 0.5 
+		},
+      }
+    },
+    "file": "game:itemtypes/food/legume.json"
+  }
+]

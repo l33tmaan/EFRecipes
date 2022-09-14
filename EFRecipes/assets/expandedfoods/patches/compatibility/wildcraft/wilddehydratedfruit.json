@@ -1,0 +1,16 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/grid/wildcraft/wilddehydratedfruit.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+]

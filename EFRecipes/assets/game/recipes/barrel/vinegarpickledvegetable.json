@@ -1,0 +1,9 @@
+{
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "vinegarportion",  litres: 0.1, consumelitres: 0.1 },
+		{ type: "item", code: "vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage" ] }
+	],
+	output: { type: "item", code: "pickledvegetable-{vegetable}", stackSize: 1 }
+}

@@ -1,13 +1,13 @@
 [
   {
     "op": "add",
-    "path": "/variantgroups/1/states/1",
+    "path": "/variantgroups/1/states/-",
     "value": "boiled",
     "file": "itemtypes/food/egg.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/1/states/2",
+    "path": "/variantgroups/1/states/-",
     "value": "pickled",
     "file": "itemtypes/food/egg.json"
   },
@@ -114,7 +114,7 @@
         "texture": "game:block/food/pie/fill-egg",
         "partType": "Filling"
       },
-      "*-cured": {
+      "*-boiled": {
         "texture": "game:block/food/pie/fill-egg",
         "partType": "Filling"
       }

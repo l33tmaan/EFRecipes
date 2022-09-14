@@ -1,0 +1,9 @@
+﻿{
+	code: "pickledegg",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "vinegarportion",  litres: 0.1, consumelitres: 0.1 },
+		{ type: "item", code: "moreanimals:egg-*-boiled", quantity: 1, "name": "type" }
+	],
+	output: { type: "item", code: "moreanimals:egg-{type}-pickled", stackSize: 1 }
+}

@@ -1,0 +1,28 @@
+﻿[
+    {
+        "op": "addeach",
+        "path": "/ingredients/4/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "moreanimals:egg-*-raw",
+                "shapeElement": "bowl/egg/*",
+                "texturemapping": [
+                    "egg",
+                    "group6"
+                ],
+            },
+            {
+            "type": "item",
+            "code": "moreanimals:egg-*-pickled",
+            "shapeElement": "bowl/egg/*",
+            "texturemapping": [
+                "egg",
+                "group6"
+                ],
+            },
+        ],
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "moreanimals" }]
+  },
+]

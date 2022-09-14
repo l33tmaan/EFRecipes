@@ -1,0 +1,65 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/wildcraft/mixing/herbalacornbread.json",
+    op: "replace", 
+    path: "/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/herbalacornbread.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/herbalacornbread.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/herbalacornbread.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/herbalacornbread.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/herbalacornbread.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/herbalacornbreadsyrup.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/herbalacornbreadsyrup.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/herbalacornbreadsyrup.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ }
+]

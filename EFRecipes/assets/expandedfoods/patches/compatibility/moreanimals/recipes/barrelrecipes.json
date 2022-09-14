@@ -1,0 +1,10 @@
+﻿[
+ {
+   file: "game:recipes/barrel/moreanimals/limeegg.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals", "invert": true }]
+ },
+]

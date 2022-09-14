@@ -1,0 +1,184 @@
+{
+	
+	code: "snakenugget",
+	maxstacksize: 64,
+	attributes: {
+		"handbook": { "groupBy": [ "snakenugget-*" ] },
+		nutritionPropsWhenInMealByType: { 
+			"snakenugget-raw": {satiety: 240, foodcategory: "Protein"},
+			},
+		bakingPropertiesByType: {
+			"*-raw": {
+				temp: 150,
+				levelFrom: 0.0,
+				levelTo: 0.25,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:snakenugget-partbaked",
+			},
+			"*-partbaked": {
+				temp: 150,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:snakenugget-cooked",
+				initialCode: "expandedfoods:snakenugget-raw"
+			},
+			"*-cooked": {
+				temp: 150,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:snakenugget-charred",
+				initialCode: "expandedfoods:snakenugget-partbaked"
+			},
+			"*-charred": {
+				temp: 150,
+				levelFrom: 0.75,
+				levelTo: 1.0,
+				startScaleY: 1.0,
+				endScaleY: 0.9,
+				initialCode: "expandedfoods:snakenugget-cooked"
+			},
+		},
+		onDisplayTransformByType: { 
+			"*": {
+				translation: { x: 0, y: 0.25, z: 0 },
+				scale: 1.5 
+			},
+		},
+    		inPiePropertiesByType: {
+      			"*-raw": { texture: "game:block/food/pie/fill-snake", partType: 'Filling' },
+    		},
+	},
+	variantgroups: [
+		{ code: "type", states: ["raw", "partbaked", "cooked", "charred",] },
+	],
+	shapebytype:	{
+		"snakenugget-raw": {base: "item/food/meat/poultry-nugget"},
+		"snakenugget-partbaked": {base: "item/food/meat/poultry-cooked"},
+		"snakenugget-cooked":   {base: "item/food/meat/poultry-cooked"},
+		"snakenugget-charred": {base: "item/food/meat/poultry-cooked"},
+	},
+	texturesByType: {
+		"*-partbaked": {
+			"cooked": {base: "primitivesurvival:item/snake/snakemeat-partbaked" },
+		},
+		"*-charred": {
+			"cooked": {base: "primitivesurvival:item/snake/snakemeat-charred" },
+		},
+		"*": {
+
+			"partbaked": {base: "primitivesurvival:item/snake/snakemeat-partbaked" },
+			"cooked": {base: "primitivesurvival:item/snake/snakemeat-cooked" },
+			"charred": {base: "primitivesurvival:item/snake/snakemeat-charred" },
+			"meat": {base: "primitivesurvival:item/snake/snakemeat-raw" },
+			"raw": {base: "primitivesurvival:item/snake/snakemeat-raw" },
+		},
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	nutritionPropsByType: {
+			"snakenugget-partbaked": {satiety: 145, foodcategory: "Protein"},
+			"snakenugget-cooked": {satiety: 160, foodcategory: "Protein"},
+			"snakenugget-charred": {satiety: 130, foodcategory: "Protein"},
+	},
+	transitionablePropsByType: {
+		"*-raw": [{
+			type: "Perish",
+			freshHours: { avg: 18 },
+			transitionHours: { avg: 72 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+			}
+		],
+		"*-partbaked": [{
+			type: "Perish",
+			freshHours: { avg: 60 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-cooked": [{
+			type: "Perish",
+			freshHours: { avg: 60 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-charred": [{
+			type: "Perish",
+			freshHours: { avg: 120 },
+			transitionHours: { avg: 192 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	},
+	materialDensity: 600,
+	guiTransformByType: {
+		"*-partbaked": {
+			rotate: false,
+			translation: { x: 0.0, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 28 },
+			origin: { x: 0.43, y: 0.04, z: 0.53 },
+			scale: 7
+		},
+		"*-cooked": {
+			rotate: false,
+			translation: { x: 0.0, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 28 },
+			origin: { x: 0.43, y: 0.04, z: 0.53 },
+			scale: 7
+		},
+		"*-charred": {
+			rotate: false,
+			translation: { x: 0.0, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 28 },
+			origin: { x: 0.43, y: 0.04, z: 0.53 },
+			scale: 7
+		},
+		"*-raw": {
+			rotate: false,
+			translation: { x: 0.0, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 28 },
+			origin: { x: 0.43, y: 0.04, z: 0.53 },
+			scale: 7
+		}
+	},
+	fpHandTransformByType: {
+		"*": {
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+			rotation: { x: 0, y: -81, z: -35 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 3
+		},
+	},
+	tpHandTransformByType: {
+		"*": {
+			translation: { x: 0.05, y: -0.05, z: 0.1 },
+			rotation: { x: 1, y: 9, z: -11 },
+			origin: { x: 0.21, y: -0.2, z: 0.15 },
+			scale: 1	
+		},
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 180, y: 33, z: -180 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 5
+
+		},
+	},
+	combustiblePropsByType: {
+		"snakenugget-raw": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "snakenugget-charred" },
+			requiresContainer: false
+		},
+	}
+}

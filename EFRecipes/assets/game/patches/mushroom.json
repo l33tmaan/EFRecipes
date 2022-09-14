@@ -1,21 +1,109 @@
 [
   {
     "op": "add",
-    "path": "/attributes/inPiePropertiesByType",
+    "path": "/attributes/bakingProperties",
     "value": {
-      "*-kingbolete-normal-free": {
-        "texture": "game:block/food/pie/fill-mushroombrown",
-        "partType": "Filling"
-      },
-      "*-fieldmushroom-normal-free": {
-        "texture": "game:block/food/pie/fill-mushroomwhite",
-        "partType": "Filling"
-      },
-      "*-flyagaric-normal-free": {
-        "texture": "game:block/food/pie/fill-mushroomred",
-        "partType": "Filling"
-      }
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 0.9,
+      "resultCode": "expandedfoods:cookedmushroom-{mushroom}-partbaked"
     },
     "file": "blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onDisplayTransform",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "file": "blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "expandedfoods:cookedmushroom-{mushroom}-charred"
+        },
+        "requiresContainer": false
+      },
+    },
+    "file": "blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+			"*-blacktrumpet-normal": { texture: "game:block/food/pie/fill-mushroomblack", partType: 'Filling' },
+			"@*-(chanterelle|golddropmilkcap|jackolantern|saffronmilkcap)-normal": { texture: "game:block/food/pie/fill-mushroomyellow", partType: 'Filling' },
+			"@*-(deathcap|livermushroom|puffball)-normal": { texture: "game:block/food/pie/fill-mushroomoffwhite", partType: 'Filling' },
+			"@*-(devilbolete|orangeoakbolete)-normal": { texture: "game:block/food/pie/fill-mushroomorange", partType: 'Filling' },
+			"*-devilstooth-normal": { texture: "game:block/food/pie/fill-mushroomdevilstooth", partType: 'Filling' },
+			"@*-(elfinsaddle|flyagaric|redwinecap|witchhat)-normal": { texture: "game:block/food/pie/fill-mushroomred", partType: 'Filling' },
+			"*-greencrackedrussula-normal": { texture: "game:block/food/pie/fill-mushroomgreen", partType: 'Filling' },
+			"*-indigomilkcap-normal": { texture: "game:block/food/pie/fill-mushroomblue", partType: 'Filling' },
+			"*-lobster-normal": { texture: "game:block/food/pie/fill-mushroomlobster", partType: 'Filling' },
+			"@*-(bitterbolete|blackmushroom|bolete|commonmorel|earthball|kingbolete|sagemushroom)-normal": { texture: "game:block/food/pie/fill-mushroombrown", partType: 'Filling' },
+			"@*-(almondmushroom|fieldmushroom|paddystraw)-normal": { texture: "game:block/food/pie/fill-mushroomwhite", partType: 'Filling' },
+			"*-violetwebcap-normal": { texture: "game:block/food/pie/fill-mushroompurple", partType: 'Filling' },
+    },
+    "file": "blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 0.9,
+      "resultCode": "expandedfoods:cookedmushroom-{mushroom}-partbaked"
+    },
+    "file": "blocktypes/plant/mushroom-side.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "expandedfoods:cookedmushroom-{mushroom}-charred"
+        },
+        "requiresContainer": false
+      },
+    },
+    "file": "blocktypes/plant/mushroom-side.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+			"*-chickenofthewood-normal-north": { texture: "game:block/food/pie/fill-mushroomyellow", partType: 'Filling' },
+			"@*-(beardedtooth|whiteoyster)-normal-north": { texture: "game:block/food/pie/fill-mushroomoffwhite", partType: 'Filling' },
+			"@*-(deerear|funeralbell)-normal-north": { texture: "game:block/food/pie/fill-mushroomorange", partType: 'Filling' },
+			"*-tinderhoof-normal-north": { texture: "game:block/food/pie/fill-mushroomblue", partType: 'Filling' },
+			"@*-(pinkbonnet|pinkoyster)-normal-north": { texture: "game:block/food/pie/fill-mushroompink", partType: 'Filling' },
+			"@*-(dryadsaddle|reishi|shiitake)-normal-north": { texture: "game:block/food/pie/fill-mushroombrown", partType: 'Filling' },
+    },
+    "file": "blocktypes/plant/mushroom-side.json"
   }
 ]

@@ -1,0 +1,156 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-fish",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "game:fishsauce",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-honey",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "game:honeyportion",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-soybean",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:foodoilportion-soy",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-soyblend",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:soymilk-raw",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-soyslurry",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:soysauce",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/@*-(carrot|cabbage|onion||turnip|pumpkin|bellpepper|cassava|parsnip)",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:vegetablejuiceportion-{fruit}",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/@*-(flax|rice|sunflower|seed|peanut)",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:foodoilportion-{fruit}",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/juiceablePropertiesByType/*-olive",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:foodoilportion-olive",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "pressedmash-olive",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "addeach",
+    "path": "/variantgroups/0/states/-",
+    "value": [ "flax", "rice", "sunflower", "seed", "honey", "soybean", "peanut", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bellpepper", "cassava", "fish", "soyslurry", "soyblend", "olive",],
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "move",
+    "path": "/temp",
+    "frompath": "/attributes/juiceablePropertiesByType/*",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "move",
+    "path": "/attributes/juiceablePropertiesByType/*",
+    "frompath": "/temp",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+]

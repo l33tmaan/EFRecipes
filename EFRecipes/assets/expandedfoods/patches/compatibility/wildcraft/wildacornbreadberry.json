@@ -1,0 +1,268 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildacornberrydough.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildacornberrydough.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildacornberrydough.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildacornberrydough.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildacornberrydough.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildacornbreadsyrup.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildacornbreadsyrup.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/wildacornbreadsyrup.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syruppartbaked/fill-huckleberry",
+    value: { base: "wildcraft:block/food/pie/fill-huckleberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syruppartbaked/fill-snowberry",
+    value: { base: "wildcraft:block/food/pie/fill-snowberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syruppartbaked/fill-brambleberry",
+    value: { base: "wildcraft:block/food/pie/fill-brambleberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syruppartbaked/fill-cloudberry",
+    value: { base: "wildcraft:block/food/pie/fill-cloudberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syruppartbaked/fill-dogrose",
+    value: { base: "wildcraft:block/food/pie/fill-dogrose" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syruppartbaked/fill-elderberry",
+    value: { base: "wildcraft:block/food/pie/fill-elderberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syruppartbaked/fill-gooseberry",
+    value: { base: "wildcraft:block/food/pie/fill-gooseberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syruppartbaked/fill-honeysuckle",
+    value: { base: "wildcraft:block/food/pie/fill-honeysuckle" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syruppartbaked/fill-strawberry",
+    value: { base: "wildcraft:block/food/pie/fill-strawberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syruppartbaked/fill-raspberry",
+    value: { base: "wildcraft:block/food/pie/fill-raspberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrup/fill-huckleberry",
+    value: { base: "wildcraft:block/food/pie/fill-huckleberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrup/fill-snowberry",
+    value: { base: "wildcraft:block/food/pie/fill-snowberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrup/fill-brambleberry",
+    value: { base: "wildcraft:block/food/pie/fill-brambleberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrup/fill-cloudberry",
+    value: { base: "wildcraft:block/food/pie/fill-cloudberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrup/fill-dogrose",
+    value: { base: "wildcraft:block/food/pie/fill-dogrose" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrup/fill-elderberry",
+    value: { base: "wildcraft:block/food/pie/fill-elderberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrup/fill-gooseberry",
+    value: { base: "wildcraft:block/food/pie/fill-gooseberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrup/fill-honeysuckle",
+    value: { base: "wildcraft:block/food/pie/fill-honeysuckle" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrup/fill-strawberry",
+    value: { base: "wildcraft:block/food/pie/fill-strawberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrup/fill-raspberry",
+    value: { base: "wildcraft:block/food/pie/fill-raspberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrupcharred/fill-huckleberry",
+    value: { base: "wildcraft:block/food/pie/fill-huckleberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrupcharred/fill-snowberry",
+    value: { base: "wildcraft:block/food/pie/fill-snowberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrupcharred/fill-brambleberry",
+    value: { base: "wildcraft:block/food/pie/fill-brambleberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrupcharred/fill-cloudberry",
+    value: { base: "wildcraft:block/food/pie/fill-cloudberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrupcharred/fill-dogrose",
+    value: { base: "wildcraft:block/food/pie/fill-dogrose" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrupcharred/fill-elderberry",
+    value: { base: "wildcraft:block/food/pie/fill-elderberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrupcharred/fill-gooseberry",
+    value: { base: "wildcraft:block/food/pie/fill-gooseberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrupcharred/fill-honeysuckle",
+    value: { base: "wildcraft:block/food/pie/fill-honeysuckle" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrupcharred/fill-strawberry",
+    value: { base: "wildcraft:block/food/pie/fill-strawberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadberry.json",
+    op: "add", 
+    path: "/texturesByType/*-syrupcharred/fill-raspberry",
+    value: { base: "wildcraft:block/food/pie/fill-raspberry" },
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+]

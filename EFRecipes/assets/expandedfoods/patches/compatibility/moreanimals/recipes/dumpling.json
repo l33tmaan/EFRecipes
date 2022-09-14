@@ -1,0 +1,34 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/dumpling.json",
+    op: "add", 
+    path: "/1/ingredients/1/inputs/-", 
+    value: { type: "item", code: "moreanimals:egg-*-boiled", quantity: 1},
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/dumpling.json",
+    op: "add", 
+    path: "/3/ingredients/1/inputs/-", 
+    value: { type: "item", code: "moreanimals:egg-*-boiled", quantity: 1},
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/dumpling.json",
+    op: "add", 
+    path: "/1/ingredients/1/inputs/-", 
+    value: { type: "item", code: "moreanimals:egg-*-pickled", quantity: 1},
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/dumpling.json",
+    op: "add", 
+    path: "/3/ingredients/1/inputs/-", 
+    value: { type: "item", code: "moreanimals:egg-*-pickled", quantity: 1},
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals" }]
+ },
+]

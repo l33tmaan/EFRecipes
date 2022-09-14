@@ -1,0 +1,841 @@
+{
+	code: "cookedchoppedvegetable",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper", "pickledbellpepper"] },
+		{ code: "state", states: ["partbaked", "perfect", "charred" ] }
+	],
+	shape: { base: "item/food/veggies/chopped/cooked/{type}"},
+	texturesByType: {
+		"*-partbaked": {
+			"cabbage": {base: "item/food/veggie/partbaked/chopped/cabbage"},
+			"carrot": {base: "item/food/veggie/partbaked/carrot"},
+			"pickledcarrot": {base: "item/food/veggie/partbaked/pickledcarrot"},
+			"pumpkin": {base: "item/food/veggie/partbaked/pumpkin"},
+			"pickledpumpkin": {base: "item/food/veggie/partbaked/pumpkin"},
+			"turnip": {base: "item/food/veggie/partbaked/turnip"},
+			"pickledturnip": {base: "item/food/veggie/partbaked/pickledturnip"},
+			"onion": {base: "item/food/veggie/partbaked/onion"},
+			"pickledonion": {base: "item/food/veggie/partbaked/pickledonion"},
+			"parsnip": {base: "item/food/veggie/partbaked/parsnip"},
+			"pickledparsnip": {base: "item/food/veggie/partbaked/pickledparsnip"},
+			"cassava": {base: "item/food/veggie/partbaked/cassava"},
+			"reeds": {base: "item/food/veggie/partbaked/reeds"},
+			"bellpepper": {base: "item/food/veggie/partbaked/bellpepper"},
+			"pickledbellpepper": {base: "item/food/veggie/partbaked/pickledbellpepper"},
+		},
+		"*-perfect": {
+			"cabbage": {base: "item/food/veggie/perfect/chopped/cabbage"},
+			"carrot": {base: "item/food/veggie/perfect/carrot"},
+			"pickledcarrot": {base: "item/food/veggie/perfect/pickledcarrot"},
+			"pumpkin": {base: "item/food/veggie/perfect/pumpkin"},
+			"pickledpumpkin": {base: "item/food/veggie/perfect/pumpkin"},
+			"turnip": {base: "item/food/veggie/perfect/turnip"},
+			"pickledturnip": {base: "item/food/veggie/perfect/pickledturnip"},
+			"onion": {base: "item/food/veggie/perfect/onion"},
+			"pickledonion": {base: "item/food/veggie/perfect/pickledonion"},
+			"parsnip": {base: "item/food/veggie/perfect/parsnip"},
+			"pickledparsnip": {base: "item/food/veggie/perfect/pickledparsnip"},
+			"cassava": {base: "item/food/veggie/perfect/cassava"},
+			"reeds": {base: "game:item/resource/reeds"},
+			"bellpepper": {base: "item/food/veggie/perfect/bellpepper"},
+			"pickledbellpepper": {base: "item/food/veggie/perfect/pickledbellpepper"},
+		},
+		"*-charred": {
+			"cabbage": {base: "item/food/veggie/charred/chopped/cabbage"},
+			"carrot": {base: "item/food/veggie/charred/carrot"},
+			"pickledcarrot": {base: "item/food/veggie/charred/pickledcarrot"},
+			"pumpkin": {base: "item/food/veggie/charred/pumpkin"},
+			"pickledpumpkin": {base: "item/food/veggie/charred/pumpkin"},
+			"turnip": {base: "item/food/veggie/charred/turnip"},
+			"pickledturnip": {base: "item/food/veggie/charred/pickledturnip"},
+			"onion": {base: "item/food/veggie/charred/onion"},
+			"pickledonion": {base: "item/food/veggie/charred/pickledonion"},
+			"parsnip": {base: "item/food/veggie/charred/parsnip"},
+			"pickledparsnip": {base: "item/food/veggie/charred/pickledparsnip"},
+			"cassava": {base: "item/food/veggie/charred/cassava"},
+			"reeds": {base: "item/food/veggie/charred/reeds"},
+			"bellpepper": {base: "item/food/veggie/charred/bellpepper"},
+			"pickledbellpepper": {base: "item/food/veggie/charred/pickledbellpepper"},
+		},
+	},
+	attributesByType: {
+		"*-cabbage-partbaked": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 0.9,
+				resultCode: "expandedfoods:cookedchoppedvegetable-cabbage-perfect",
+				initialCode: "expandedfoods:choppedvegetable-cabbage"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
+			}
+		},
+		"*-partbaked": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 0.9,
+				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-perfect",
+				initialCode: "expandedfoods:choppedvegetable-{type}"
+			},
+		},
+		"*-cabbage-perfect": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 0.9,
+				endScaleY: 0.8,
+				resultCode: "expandedfoods:cookedchoppedvegetable-cabbage-charred",
+				initialCode: "expandedfoods:cookedchoppedvegetable-cabbage-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
+			}
+		},
+		"*-perfect": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 0.9,
+				endScaleY: 0.8,
+				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-charred",
+				initialCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
+			},
+		},
+		"*-cabbage-charred": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 0.8,
+				endScaleY: 0.7,
+				initialCode: "expandedfoods:cookedchoppedvegetable-cabbage-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
+			}
+		},
+		"*-charred": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 0.8,
+				endScaleY: 0.7,
+				initialCode: "expandedfoods:cookedchoppedvegetable-{type}-perfect"
+			},
+		}
+	},
+	combustiblePropsByType: {
+		"*-partbaked": {
+			meltingPoint: 150,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "cookedchoppedvegetable-{type}-charred" },
+			requiresContainer: false
+		},
+		"*-perfect": {
+			meltingPoint: 150,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "cookedchoppedvegetable-{type}-charred" },
+			requiresContainer: false
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	nutritionPropsByType: {
+		"*-cabbage-partbaked": { satiety: 400, foodcategory: "Vegetable" },
+		"*-pumpkin-partbaked": { satiety: 160, foodcategory: "Vegetable" },
+		"*-pickledcarrot-partbaked": { saturation: 105, foodcategory: "Vegetable" },
+		"*-pickledonion-partbaked": { saturation: 105, foodcategory: "Vegetable" },
+		"*-pickledparsnip-partbaked": { saturation: 105, foodcategory: "Vegetable" },
+		"*-pickledturnip-partbaked": { saturation: 105, foodcategory: "Vegetable" },
+		"*-pickledpumpkin-partbaked": { saturation: 105, foodcategory: "Vegetable" },
+		"*-pickledbellpepper-partbaked": { saturation: 105, foodcategory: "Vegetable" },
+		"*-partbaked": { satiety: 130, foodcategory: "Vegetable" },
+
+		"*-cabbage-perfect": { satiety: 510, foodcategory: "Vegetable" },
+		"*-pumpkin-perfect": { satiety: 200, foodcategory: "Vegetable" },
+		"*-pickledcarrot-perfect": { saturation: 140, foodcategory: "Vegetable" },
+		"*-pickledonion-perfect": { saturation: 140, foodcategory: "Vegetable" },
+		"*-pickledparsnip-perfect": { saturation: 140, foodcategory: "Vegetable" },
+		"*-pickledturnip-perfect": { saturation: 140, foodcategory: "Vegetable" },
+		"*-pickledpumpkin-perfect": { saturation: 140, foodcategory: "Vegetable" },
+		"*-pickledbellpepper-perfect": { saturation: 120, foodcategory: "Vegetable" },
+		"*-perfect": { satiety: 170, foodcategory: "Vegetable" },
+
+		"*-cabbage-charred": { satiety: 450, foodcategory: "Vegetable" },
+		"*-pumpkin-charred": { satiety: 180, foodcategory: "Vegetable" },
+		"*-pickledcarrot-charred": { saturation: 120, foodcategory: "Vegetable" },
+		"*-pickledonion-charred": { saturation: 120, foodcategory: "Vegetable" },
+		"*-pickledparsnip-charred": { saturation: 120, foodcategory: "Vegetable" },
+		"*-pickledturnip-charred": { saturation: 120, foodcategory: "Vegetable" },
+		"*-pickledpumpkin-charred": { saturation: 120, foodcategory: "Vegetable" },
+		"*-pickledbellpepper-charred": { saturation: 110, foodcategory: "Vegetable" },
+		"*-charred": { satiety: 150, foodcategory: "Vegetable" },
+	},
+	transitionablePropsByType: {
+    		"*-pumpkin-partbaked": [{
+      			type: "Perish",
+      			freshHours: { avg: 216 },
+      			transitionHours: { avg: 72 },
+      			transitionedStack: { type: "item", code: "game:rot" },
+      			transitionRatio: 1
+    		}],
+    		"*-onion-partbaked": [{
+      			type: "Perish",
+      			freshHours: { avg: 672 },
+      			transitionHours: { avg: 120 },
+      			transitionedStack: { type: "item", code: "game:rot" },
+      			transitionRatio: 1
+    		}],
+    		"*-pickledcarrot-partbaked": [{
+      			type: "Perish",
+      			freshHours: { avg: 1800 },
+      			transitionHours: { avg: 240 },
+      			transitionedStack: { type: "item", code: "game:rot" },
+      			transitionRatio: 1
+    		}],
+    		"*-pickledonion-partbaked": [{
+      			type: "Perish",
+      			freshHours: { avg: 1800 },
+      			transitionHours: { avg: 240 },
+      			transitionedStack: { type: "item", code: "game:rot" },
+      			transitionRatio: 1
+    		}],
+    		"*-pickledparsnip-partbaked": [{
+      			type: "Perish",
+      			freshHours: { avg: 1800 },
+      			transitionHours: { avg: 240 },
+      			transitionedStack: { type: "item", code: "game:rot" },
+      			transitionRatio: 1
+    		}],
+    		"*-pickledturnip-partbaked": [{
+      			type: "Perish",
+      			freshHours: { avg: 1800 },
+      			transitionHours: { avg: 240 },
+      			transitionedStack: { type: "item", code: "game:rot" },
+      			transitionRatio: 1
+    		}],
+    		"*-pickledpumpkin-partbaked": [{
+      			type: "Perish",
+      			freshHours: { avg: 1800 },
+      			transitionHours: { avg: 240 },
+      			transitionedStack: { type: "item", code: "game:rot" },
+      			transitionRatio: 1
+    		}],
+    		"*-pickledbellpepper-partbaked": [{
+      			type: "Perish",
+      			freshHours: { avg: 1800 },
+      			transitionHours: { avg: 240 },
+      			transitionedStack: { type: "item", code: "game:rot" },
+      			transitionRatio: 1
+    		}],
+    		"*-partbaked": [{
+      			type: "Perish",
+      			freshHours: { avg:  504 },
+      			transitionHours: { avg: 96 },
+      			transitionedStack: { type: "item", code: "game:rot" },
+      			transitionRatio: 1
+    		}],
+		"*-pumpkin-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 216 },
+			transitionHours: { avg: 72 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-onion-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 672 },
+			transitionHours: { avg: 120 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledcarrot-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledonion-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledparsnip-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledturnip-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledpumpkin-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledbellpepper-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-perfect": [{
+			type: "Perish",
+			freshHours: { avg:  504 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pumpkin-charred": [{
+			type: "Perish",
+			freshHours: { avg: 756 },
+			transitionHours: { avg: 120 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-onion-charred": [{
+			type: "Perish",
+			freshHours: { avg: 2352 },
+			transitionHours: { avg: 200 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledcarrot-charred": [{
+			type: "Perish",
+			freshHours: { avg: 7300 },
+			transitionHours: { avg: 400 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledonion-charred": [{
+			type: "Perish",
+			freshHours: { avg: 7300 },
+			transitionHours: { avg: 400 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledparsnip-charred": [{
+			type: "Perish",
+			freshHours: { avg: 7300 },
+			transitionHours: { avg: 400 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledturnip-charred": [{
+			type: "Perish",
+			freshHours: { avg: 7300 },
+			transitionHours: { avg: 400 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledpumpkin-charred": [{
+			type: "Perish",
+			freshHours: { avg: 7300 },
+			transitionHours: { avg: 400 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledbellpepper-charred": [{
+			type: "Perish",
+			freshHours: { avg: 7300 },
+			transitionHours: { avg: 400 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-charred": [{
+			type: "Perish",
+			freshHours: { avg:  1764 },
+			transitionHours: { avg: 160 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	},
+	materialDensity: 600,
+	guiTransformByType: {
+		"*-cabbage-*": {
+			translation: { x: 2.5, y: 1, z: 0 },
+			rotation: { x: 137, y: 131, z: 0 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 1.38,
+			"rotate":  true,
+		},
+		"*-carrot-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4,
+			"rotate":  true,
+		},
+		"*-onion-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4,
+			"rotate":  true,
+		},
+		"*-parsnip-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4,
+			"rotate":  true,
+		},
+		"*-turnip-*": {
+			translation: { x: 2, y: 2, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3,
+			"rotate":  true,
+		},
+		"*-pumpkin-*": {
+			translation: { x: 5, y: 1, z: 0 },
+			rotation: { x: 110, y: 169, z: 23 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 3.5,
+			"rotate":  true,
+		},
+		"*-pickledcarrot-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4,
+			"rotate":  true,
+		},
+		"*-pickledonion-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4,
+			"rotate":  true,
+		},
+		"*-pickledparsnip-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4,
+			"rotate":  true,
+		},
+		"*-pickledturnip-*": {
+			translation: { x: 2, y: 2, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3,
+			"rotate":  true,
+		},
+		"*-pickledpumpkin-*": {
+			translation: { x: 5, y: 1, z: 0 },
+			rotation: { x: 110, y: 169, z: 23 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 3.5,
+			"rotate":  true,
+		},
+		"*-pickledbellpepper-*": {
+			translation: { x: -7, y: 5, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 3,
+			"rotate":  true,
+		},
+		"*-cassava-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3,
+			"rotate":  true,
+		},
+		"*-cassavadried-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3,
+			"rotate":  true,
+		},
+		"*-cattailroot-*": {
+			translation: { x: -3.3, y: -3, z: 0 },
+			rotation: { x: 87, y: -28, z: 0 },
+			origin: { x: 0.47, y: 0.43, z: 0.6 },
+			scale: 2.5,
+			"rotate":  true,
+		},
+		"*-papyrusroot-*": {
+			translation: { x: -3.3, y: -3, z: 0 },
+			rotation: { x: 87, y: -28, z: 0 },
+			origin: { x: 0.47, y: 0.43, z: 0.6 },
+			scale: 2.5,
+			"rotate":  true,
+		},
+		"*-bellpepper-*": {
+			translation: { x: -2, y: 0, z: 0 },
+			rotation: { x: -60, y: 29, z: 0 },
+			origin: { x: 0.45, y: 0, z: 0.6 },
+			scale: 2.5,
+			"rotate":  true,
+		},
+		"*": {
+			translation: { x: 3, y: 4, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 1.8,
+			"rotate":  true,
+		},
+	},
+	fpHandTransformByType: {
+		"*-cabbage-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 51, y: 90, z: -30 },
+			scale: 1.25
+		},
+		"*-carrot-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 60, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-onion-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 60, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-parsnip-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 60, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-turnip-*":	{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 60, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pumpkin-*":	{
+			translation: { x: 0, y: 0.22, z: 0 },
+			rotation: { x: 51, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledcarrot-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 60, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledonion-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 60, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledparsnip-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 60, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledturnip-*":	{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 60, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledpumpkin-*":	{
+			translation: { x: 0, y: 0.22, z: 0 },
+			rotation: { x: 51, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledbellpepper-*":	{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-cassava-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 60, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-cassavadried-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 60, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-cattailroot-*": {
+			translation: { x: 0.15, y: -0.2, z: 0 },
+			rotation: { x: 0, y: -90, z: -30 },
+			scale: 1.5
+		},
+		"*-papyrusroot-*": {
+			translation: { x: 0.15, y: -0.2, z: 0 },
+			rotation: { x: 0, y: -90, z: -30 },
+			scale: 1.5
+		},
+		"*-bellpepper-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 75, y: 65, z: -25 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*": {
+			translation: { x: 0.05, y: -0.1, z: 0 },
+			rotation: { x: 45, y: 180, z: -17 },
+			origin: { x: 0.5, y: 0.5, z: 0.5 },
+			scale: 1
+		},
+	},
+	tpHandTransformByType: {
+		"*-cabbage-*": {
+			translation: { x: -0.9, y: -0.14, z: -1 },
+			rotation: { x: 1, y: -1, z: -31 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.5
+		},
+		"*-carrot-*": {
+			translation: { x: -0.65, y: -0.14, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -18 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-onion-*": {
+			translation: { x: -0.65, y: -0.14, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -18 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-parsnip-*": {
+			translation: { x: -0.65, y: -0.14, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -18 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-turnip-*": {
+			translation: { x: -0.65, y: -0.14, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -18 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pumpkin-*": {
+			translation: { x: -0.95, y: -0.25, z: -0.93 },
+			rotation: { x: 56, y: -70, z: -59 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.5
+		},
+		"*-pickledcarrot-*": {
+			translation: { x: -0.65, y: -0.14, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -18 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledonion-*": {
+			translation: { x: -0.65, y: -0.14, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -18 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledparsnip-*": {
+			translation: { x: -0.65, y: -0.14, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -18 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledturnip-*": {
+			translation: { x: -0.65, y: -0.14, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -18 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledpumpkin-*": {
+			translation: { x: -0.95, y: -0.25, z: -0.93 },
+			rotation: { x: 56, y: -70, z: -59 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.5
+		},
+		"*-pickledbellpepper-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-cassava-*": {
+			translation: { x: -0.75, y: -0.14, z: -0.8 },
+			rotation: { x: 0, y: 0, z: -18 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.6
+		},
+		"*-cassavadried-*": {
+			translation: { x: -0.75, y: -0.14, z: -0.8 },
+			rotation: { x: 0, y: 0, z: -18 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.6
+		},
+		"*-cattailroot-*": {
+			translation: { x: -1, y: -0.6, z: -1 },
+			rotation: { x: 180, y: 0, z: 180 },
+			scale: 0.5
+		},
+		"*-papyrusroot-*": {
+			translation: { x: -1, y: -0.6, z: -1 },
+			rotation: { x: 180, y: 0, z: 180 },
+			scale: 0.5
+		},
+		"*-bellpepper-*": {
+			translation: { x: -0.95, y: -0.25, z: -0.93 },
+			rotation: { x: 56, y: -70, z: -59 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.5
+		},
+		"*": {
+			translation: { x: -1.73, y: -0.42, z: -2 },
+			rotation: { x: 1, y: -10, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.25
+		},		
+	},
+	groundTransformByType: {
+		"*-cabbage-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3
+		},
+		"*-carrot-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-onion-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-parsnip-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-turnip-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pumpkin-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3.8
+		},
+		"*-pickledcarrot-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pickledonion-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pickledparsnip-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pickledturnip-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pickledpumpkin-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3.8
+		},
+		"*-pickledbellpepper-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-cassava-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3
+		},
+		"*-cassavadried-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3
+		},
+		"*-cattailroot-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 2.5
+		},
+		"*-papyrusroot-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 2.5
+		},
+		"*-bellpepper-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.5
+		},
+	}
+}

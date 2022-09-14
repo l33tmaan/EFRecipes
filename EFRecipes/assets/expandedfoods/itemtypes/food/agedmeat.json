@@ -1,0 +1,491 @@
+{
+	code: "agedmeat",
+	maxstacksize: 64,
+	attributes: {
+		"handbook": { "groupBy": ["agedmeat-*"] },
+		displaycaseable: true,
+		shelvable: true,
+		meatHookTransformByType: {
+			"*-poultry-normal": {
+				"translation": { "x": 0, "y": 0.175, "z": 0	},
+				"rotation": { "x": -90, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1
+			},
+			"*-bushmeat-normal": {
+				"translation": { "x": 0, "y": 0.2, "z": 0 },
+				"rotation": { "x": 0, "y": -90, "z": 90 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1
+			},
+			"*-redmeat-normal": {
+				"translation": {  "x": 0, "y": 0.175, "z": 0 },
+				"rotation": { "x": -90, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1
+			},
+		},
+		bakingPropertiesByType: {
+			"*-cut": {
+				temp: 150,
+				levelFrom: 0.0,
+				levelTo: 0.25,
+				startScaleY: 1,
+				endScaleY: 1,
+				resultCode: "expandedfoods:agedmeat-{meat}-tenderpartbaked",
+			},
+			"*-tenderpartbaked": {
+				temp: 150,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:agedmeat-{meat}-tender",
+				initialCode: "expandedfoods:agedmeat-{meat}-cut"
+			},
+			"*-tender": {
+				temp: 150,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:agedmeat-{meat}-tendercharred",
+				initialCode: "expandedfoods:agedmeat-{meat}-tenderpartbaked"
+			},
+			"*-tendercharred": {
+				temp: 150,
+				levelFrom: 0.75,
+				levelTo: 1.0,
+				startScaleY: 1.0,
+				endScaleY: 0.9,
+				initialCode: "expandedfoods:agedmeat-{meat}-tender"
+			},
+			"*-raw": {
+				temp: 150,
+				levelFrom: 0.0,
+				levelTo: 0.25,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:agedmeat-{meat}-meatballpartbaked",
+			},
+			"*-meatballpartbaked": {
+				temp: 150,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:agedmeat-{meat}-meatball",
+				initialCode: "expandedfoods:agedmeat-{meat}-raw"
+			},
+			"*-meatball": {
+				temp: 150,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:agedmeat-{meat}-meatballcharred",
+				initialCode: "expandedfoods:agedmeat-{meat}-meatballpartbaked"
+			},
+			"*-meatballcharred": {
+				temp: 150,
+				levelFrom: 0.75,
+				levelTo: 1.0,
+				startScaleY: 1.0,
+				endScaleY: 0.9,
+				initialCode: "expandedfoods:agedmeat-{meat}-meatball"
+			},
+		},
+		onDisplayTransformByType: { 
+			"*-redmeat-cut": {
+				translation: { x: 0.05, y: 0, z: 0.05 },
+				scale: 1 
+			},
+			"*-redmeat-tenderpartbaked": {
+				translation: { x: 0.05, y: 0, z: 0.05 },
+				scale: 1 
+			},
+			"*-redmeat-tender": {
+				translation: { x: 0.05, y: 0, z: 0.05 },
+				scale: 1 
+			},
+			"*-redmeat-tendercharred": {
+				translation: { x: 0.05, y: 0, z: 0.05 },
+				scale: 1 
+			},
+			"*-raw": {
+				translation: { x: 0, y: 0.25, z: 0 },
+				scale: 1.5 
+			},
+			"*-meatballpartbaked": {
+				translation: { x: 0, y: 0.25, z: 0 },
+				scale: 1.5 
+			},
+			"*-meatball": {
+				translation: { x: 0, y: 0.25, z: 0 },
+				scale: 1.5 
+			},
+			"*-meatballcharred": {
+				translation: { x: 0, y: 0.25, z: 0 },
+				scale: 1.5 
+			},
+			"*": {
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			},
+		},
+		nutritionPropsWhenInMealByType: { 
+			"agedmeat-bushmeat-cut": {satiety: 270, foodcategory: "Protein"},
+			"agedmeat-redmeat-cut": {satiety: 525, foodcategory: "Protein"},
+			"agedmeat-poultry-cut": {satiety: 450, foodcategory: "Protein"},
+			"agedmeat-bushmeat-raw": {satiety: 300, foodcategory: "Protein"},
+			"agedmeat-redmeat-raw": {satiety: 575, foodcategory: "Protein"},
+			"agedmeat-poultry-raw": {satiety: 495, foodcategory: "Protein"},
+			},
+
+    		inPiePropertiesByType: {
+      			"*-redmeat-raw": { texture: "game:block/food/pie/fill-redmeat", partType: 'Filling' },
+      			"*-redmeat-cut": { texture: "game:block/food/pie/fill-redmeat", partType: 'Filling' },
+      			"*-bushmeat-raw": { texture: "game:block/food/pie/fill-bushmeat", partType: 'Filling' },
+      			"*-bushmeat-cut": { texture: "game:block/food/pie/fill-bushmeat", partType: 'Filling' },
+      			"*-poultry-raw": { texture: "game:block/food/pie/fill-poultry", partType: 'Filling' },
+      			"*-poultry-cut": { texture: "game:block/food/pie/fill-poultry", partType: 'Filling' },
+    		},
+	},
+	variantgroups: [
+	
+		{ code: "meat", states: ["bushmeat", "poultry", "redmeat"]},	
+		{ code: "type", states: ["normal", "cut", "raw", "tenderpartbaked", "tender", "tendercharred", "meatballpartbaked", "meatball", "meatballcharred" ] },
+	],
+	
+	shapebytype:	{
+		"agedmeat-redmeat-normal": {base: "game:item/food/meat/red"},
+		"agedmeat-redmeat-tenderpartbaked": {base: "game:item/food/meat/red"},
+		"agedmeat-redmeat-tender": {base: "game:item/food/meat/red"},
+		"agedmeat-redmeat-tendercharred": {base: "game:item/food/meat/red"},
+		"agedmeat-redmeat-cutpartbaked": {base: "game:item/food/meat/red"},
+		"agedmeat-redmeat-cut": {base: "game:item/food/meat/red"},
+		"agedmeat-redmeat-cutcharred": {base: "game:item/food/meat/red"},
+		"agedmeat-*-tenderpartbaked": {base: "game:item/food/meat/{meat}"},
+		"agedmeat-*-tender": {base: "game:item/food/meat/{meat}"},
+		"agedmeat-*-tendercharred": {base: "game:item/food/meat/{meat}"},
+		"agedmeat-*-normal": {base: "game:item/food/meat/{meat}"},
+		"agedmeat-*-cut": {base: "game:item/food/meat/{meat}"},
+		"agedmeat-*-raw": {base: "item/food/meat/{meat}-nugget"},
+		"agedmeat-*-meatballpartbaked":   {base: "item/food/meat/{meat}-cooked"},
+		"agedmeat-*-meatball":   {base: "item/food/meat/{meat}-cooked"},
+		"agedmeat-*-meatballcharred":   {base: "item/food/meat/{meat}-cooked"}
+	},
+	texturesByType: {
+		"*-tenderpartbaked": {
+			"meat": {base: "game:item/food/meat/partbaked" },
+		},
+		"*-tender": {
+			"meat": {base: "game:item/food/meat/cooked" },
+		},
+		"*-tendercharred": {
+			"meat": {base: "game:item/food/meat/charred" },
+		},
+		"*-normal": {
+			"meat": {base: "game:item/food/meat/smoked" },
+		},
+		"*-meatballpartbaked": {
+			"cooked": {base: "game:item/food/meat/partbaked" },
+		},
+		"*-meatballcharred": {
+			"cooked": {base: "game:item/food/meat/charred" },
+		},
+		"*": {
+			"cooked": {base: "game:item/food/meat/cooked" },
+			"meat": {base: "game:item/food/meat/raw" },
+			"raw": {base: "game:item/food/meat/raw" },
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	nutritionPropsByType: {
+		"*-bushmeat-tenderpartbaked": { satiety: 160, foodcategory: "Protein" },
+		"*-poultry-tenderpartbaked": { satiety: 270, foodcategory: "Protein" },
+		"*-redmeat-tenderpartbaked": { satiety: 315, foodcategory: "Protein" },
+
+		"*-bushmeat-tender": { satiety: 180, foodcategory: "Protein" },
+		"*-poultry-tender": { satiety: 300, foodcategory: "Protein" },
+		"*-redmeat-tender": { satiety: 350, foodcategory: "Protein" },
+
+		"*-bushmeat-tendercharred": { satiety: 145, foodcategory: "Protein" },
+		"*-poultry-tendercharred": { satiety: 240, foodcategory: "Protein" },
+		"*-redmeat-tendercharred": { satiety: 280, foodcategory: "Protein" },
+
+		"*-bushmeat-meatballpartbaked": { satiety: 180, foodcategory: "Protein" },
+		"*-poultry-meatballpartbaked": { satiety: 300, foodcategory: "Protein" },
+		"*-redmeat-meatballpartbaked": { satiety: 345, foodcategory: "Protein" },
+
+		"*-bushmeat-meatball": { satiety: 200, foodcategory: "Protein" },
+		"*-poultry-meatball": { satiety: 330, foodcategory: "Protein" },
+		"*-redmeat-meatball": { satiety: 385, foodcategory: "Protein" },
+
+		"*-bushmeat-meatballcharred": { satiety: 160, foodcategory: "Protein" },
+		"*-poultry-meatballcharred": { satiety: 265, foodcategory: "Protein" },
+		"*-redmeat-meatballcharred": { satiety: 305, foodcategory: "Protein" },
+
+	},
+	transitionablePropsByType: {
+		"*-normal": [{
+			type: "Perish",
+			freshHours: { avg: 36 },
+			transitionHours: { avg: 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-cut": [{
+			type: "Perish",
+			freshHours: { avg: 36 },
+			transitionHours: { avg: 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-raw": [{
+			type: "Perish",
+			freshHours: { avg: 36 },
+			transitionHours: { avg: 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-tenderpartbaked": [{
+			type: "Perish",
+			freshHours: { avg: 120 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-tender": [{
+			type: "Perish",
+			freshHours: { avg: 120 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-tendercharred": [{
+			type: "Perish",
+			freshHours: { avg: 300 },
+			transitionHours: { avg: 60 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-meatballpartbaked": [{
+			type: "Perish",
+			freshHours: { avg: 120 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-meatball": [{
+			type: "Perish",
+			freshHours: { avg: 120 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		
+		}],
+		"*-meatballcharred": [{
+			type: "Perish",
+			freshHours: { avg: 300 },
+			transitionHours: { avg: 60 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	},
+	materialDensity: 600,
+	guiTransformByType: {
+		"*-meatballpartbaked": {
+			rotate: false,
+			translation: { x: 0.0, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 28 },
+			origin: { x: 0.43, y: 0.04, z: 0.53 },
+			scale: 7
+		},
+		"*-meatball": {
+			rotate: false,
+			translation: { x: 0.0, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 28 },
+			origin: { x: 0.43, y: 0.04, z: 0.53 },
+			scale: 7
+		},
+		"*-meatballcharred": {
+			rotate: false,
+			translation: { x: 0.0, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 28 },
+			origin: { x: 0.43, y: 0.04, z: 0.53 },
+			scale: 7
+		},
+		"*-raw": {
+			rotate: false,
+			translation: { x: 0.0, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 28 },
+			origin: { x: 0.43, y: 0.04, z: 0.53 },
+			scale: 7
+		},
+		"*-redmeat-normal": {
+			rotate: false,
+			translation: { x: 10.5, y: 5, z: 0 },
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.4, y: 0.08, z: 0.5 },
+			scale: 4.72
+		},
+		"*-redmeat-cut": {
+			rotate: false,
+			translation: { x: 10.5, y: 5, z: 0 },
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.4, y: 0.08, z: 0.5 },
+			scale: 4.72
+		},
+		"*-redmeat-tenderpartbaked": {
+			rotate: false,
+			translation: { x: 10.5, y: 5, z: 0 },
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.4, y: 0.08, z: 0.5 },
+			scale: 4.72
+		},
+		"*-redmeat-tender": {
+			rotate: false,
+			translation: { x: 10.5, y: 5, z: 0 },
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.4, y: 0.08, z: 0.5 },
+			scale: 4.72
+		},
+		"*-redmeat-tendercharred": {
+			rotate: false,
+			translation: { x: 10.5, y: 5, z: 0 },
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.4, y: 0.08, z: 0.5 },
+			scale: 4.72
+		},
+		"*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.5, y: 0.04, z: 0.53 },
+			scale: 4.7199
+		}
+	},
+	fpHandTransformByType: {
+		"*-meatballpartbaked": {
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+			rotation: { x: 0, y: -81, z: -35 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 3
+		},
+		"*-meatball": {
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+			rotation: { x: 0, y: -81, z: -35 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 3
+		},
+		"*-meatballcharred": {
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+			rotation: { x: 0, y: -81, z: -35 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 3
+		},
+		"*-raw": {
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+			rotation: { x: 0, y: -81, z: -35 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 3
+		},
+		"*": {
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+			rotation: { x: 40, y: 91, z: 15 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2.5
+		},
+	},
+	tpHandTransformByType: {
+		"*-meatballpartbaked": {
+			translation: { x: 0.05, y: -0.05, z: 0.1 },
+			rotation: { x: 1, y: 9, z: -11 },
+			origin: { x: 0.21, y: -0.2, z: 0.15 },
+			scale: 1	
+		},
+		"*-meatball": {
+			translation: { x: 0.05, y: -0.05, z: 0.1 },
+			rotation: { x: 1, y: 9, z: -11 },
+			origin: { x: 0.21, y: -0.2, z: 0.15 },
+			scale: 1	
+		},
+		"*-meatballcharred": {
+			translation: { x: 0.05, y: -0.05, z: 0.1 },
+			rotation: { x: 1, y: 9, z: -11 },
+			origin: { x: 0.21, y: -0.2, z: 0.15 },
+			scale: 1	
+		},
+		"*-raw": {
+			translation: { x: 0.05, y: -0.05, z: 0.1 },
+			rotation: { x: 1, y: 9, z: -11 },
+			origin: { x: 0.21, y: -0.2, z: 0.15 },
+			scale: 1	
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 5, y: 41, z: -31 },
+			origin: { x: 0.23, y: 0, z: 0.13 },
+			scale: 0.75
+		},
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 180, y: 33, z: -180 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 5
+		},
+	},
+	combustiblePropsByType: {
+		"agedmeat-*-cut": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "agedmeat-{meat}-tendercharred" },
+			requiresContainer: false
+		},
+		"agedmeat-*-tenderpartbaked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "agedmeat-{meat}-tendercharred" },
+			requiresContainer: false
+		},
+		"agedmeat-*-tender": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "agedmeat-{meat}-tendercharred" },
+			requiresContainer: false
+		},
+		"agedmeat-*-raw": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "agedmeat-{meat}-meatballcharred" },
+			requiresContainer: false
+		},
+		"agedmeat-*-meatballpartbaked": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "agedmeat-{meat}-meatballcharred" },
+			requiresContainer: false
+		},
+		"agedmeat-*-meatball": {
+			meltingPoint: 150,
+			meltingDuration: 30,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "agedmeat-{meat}-meatballcharred" },
+			requiresContainer: false
+		},
+	}
+}

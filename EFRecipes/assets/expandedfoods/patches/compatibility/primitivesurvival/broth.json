@@ -1,0 +1,10 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/liquid/broth.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "fish" ],
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+]

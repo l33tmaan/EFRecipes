@@ -1,0 +1,9 @@
+﻿{
+	code: "limeegg",
+	sealHours: 672,
+	ingredients: [
+		{ type: "item", code: "slakedlimeportion",  litres: 0.1, consumelitres: 0.1 },
+		{ type: "item", code: "moreanimals:egg-*-raw", quantity: 1, "name": "type" }
+	],
+	output: { type: "item", code: "expandedfoods:limeegg-{type}", stackSize: 1 }
+}

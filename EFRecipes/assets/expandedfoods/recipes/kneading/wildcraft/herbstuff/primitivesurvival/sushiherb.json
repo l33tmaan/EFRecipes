@@ -1,0 +1,207 @@
+[
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-noveggie-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-noveggie-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-cabbage", quantity: 1 }, { type: "item", code: "game:pickledvegetable-cabbage", quantity: 1 }]},		
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-cabbage-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-cabbage", quantity: 1 }, { type: "item", code: "game:pickledvegetable-cabbage", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}	
+	],
+	output: { type: "item", code: "expandedfoods:sushi-cabbage-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedmushroom-*", quantity: 1, "name": "mushroom" }]},	
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-{mushroom}-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedmushroom-*", quantity: 1, "name": "mushroom" }]},	
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}	
+	],
+	output: { type: "item", code: "expandedfoods:sushi-{mushroom}-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:legume-soybean", quantity: 1 }, { type: "item", code: "game:pickledlegume-soybean", quantity: 1 }]},	
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-soybean-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:legume-soybean", quantity: 1 }, { type: "item", code: "game:pickledlegume-soybean", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-soybean-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-carrot", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledcarrot", quantity: 1 }]},		
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-carrot-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-carrot", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledcarrot", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}		
+	],
+	output: { type: "item", code: "expandedfoods:sushi-carrot-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-onion", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledonion", quantity: 1 }]},		
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-onion-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-onion", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledonion", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}		
+	],
+	output: { type: "item", code: "expandedfoods:sushi-onion-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-parsnip", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledparsnip", quantity: 1 }]},		
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-parsnip-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-parsnip", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledparsnip", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}		
+	],
+	output: { type: "item", code: "expandedfoods:sushi-parsnip-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-turnip", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledturnip", quantity: 1 }]},		
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-turnip-nooil", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-turnip", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-pickledturnip", quantity: 1 }]},	
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}	
+	],
+	output: { type: "item", code: "expandedfoods:sushi-turnip-nooil", stackSize: 1}
+ },
+ {
+	"enabled": false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "wildcraft:minerslettuce", quantity: 1 }, { type: "item", code: "wildcraft:herbs-minerslettuce", quantity: 1 }]},		
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}
+	],
+	output: { type: "item", code: "expandedfoods:sushi-minerslettuce-nooil", stackSize: 1}
+ },
+ {
+	"enabled": false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "wildcraft:minerslettuce", quantity: 1 }, { type: "item", code: "wildcraft:herbs-minerslettuce", quantity: 1 }]},	
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]}	
+	],
+	output: { type: "item", code: "expandedfoods:sushi-minerslettuce-nooil", stackSize: 1}
+ },
+]

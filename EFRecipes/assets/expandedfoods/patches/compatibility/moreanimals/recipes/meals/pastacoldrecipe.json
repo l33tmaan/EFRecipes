@@ -1,0 +1,17 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "moreanimals:egg-*-boiled",
+        "shapeElement": "bowl/egg/*",
+        "texturemapping": [
+            "egg",
+            "group6"
+        ],
+    },
+    "file": "recipes/mixing/pastacold.json",
+    dependsOn: [{ "modid": "moreanimals" }]
+  },
+]

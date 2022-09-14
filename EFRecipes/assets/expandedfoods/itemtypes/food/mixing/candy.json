@@ -1,0 +1,177 @@
+{
+	code: "candy",
+	maxstacksize: 32,
+	variantgroups: [
+		{
+			code: "type",
+			states: [ "peanut", "sunflower", "acorn" ]
+		},
+		{
+			code: "states",
+			states: [ "raw" ]
+		},
+	],
+	class: "ExpandedFood",
+	shape: { base: "item/food/candy/{type}" },
+	attributes: {
+		"handbook": { "exclude":  true },
+	    onDisplayTransform: { 
+			translation: { x: 0, y: -0.25, z: 0 },
+			scale: 0.5 
+		},
+		expandedNutritionPropsByType: {
+			"*": {
+      			"game:grain-sunflower" : { saturation: 0, foodcategory: "Grain" },
+      			"game:acorn-meal" : { saturation: 0, foodcategory: "Protein" },
+      			"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
+      			"game:salt" : { saturation: 0, health: 0.5, foodcategory: "Fruit" },
+      			"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
+      			"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.2, foodcategory: "Fruit" }, 
+      			"expandedfoods:fruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
+      			"expandedfoods:wildfruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
+      			"expandedfoods:treesyrupportion-*" : { saturation: 9.6, "health": 0.1, foodcategory: "Fruit" },
+			},
+		},
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	transitionablePropsByType: {
+		"*": [
+			{
+				type: "Perish",
+				freshHours: { avg: 2190 },
+				transitionHours: { avg: 220 },
+				transitionedStack: {
+					type: "item",
+					code: "game:rot"
+				},
+				transitionRatio: 0.25
+			}
+		],
+	},
+	materialDensity: 600,
+	nutritionPropsByType: {
+			"*-sunflower-raw": {
+				saturation: 200,
+				health: 0.5,
+				foodcategory: "Grain"
+			},
+			"*": {
+				saturation: 200,
+				health: 0.5,
+				foodcategory: "Protein"
+			},
+	},
+	heldTpIdleAnimationByType: {
+			"*": "holdbothhands"
+	},
+	guiTransformByType: {
+			"*-sunflower-*": {
+				translation: {
+					x: -1,
+					y: 3,
+					z: 0
+				},
+				rotation: {
+					x: -43,
+					y: 60,
+					z: -180
+				},
+				origin: {
+					x: 0.6,
+					y: 0.1,
+					z: 0.5
+				},
+				scale: 2.5
+			},
+			"*": {
+				translation: {
+					x: 0,
+					y: 0,
+					z: 0
+				},
+				rotation: {
+					x: 110,
+					y: 144,
+					z: -141
+				},
+				origin: {
+					x: 0.4,
+					y: 0.2,
+					z: 0.5
+				},
+				scale: 2.0
+			}
+	},
+	fpHandTransformByType: {
+			"*": {
+				translation: {
+					x: 0.1,
+					y: -0.2,
+					z: 0
+				},
+				rotation: {
+					x: -8,
+					y: -81,
+					z: -27
+				},
+				scale: 1.5
+			}
+	},
+	groundTransformByType: {
+			"*": {
+				translation: {
+					x: 0,
+					y: 0,
+					z: 0
+				},
+				rotation: {
+					x: 0,
+					y: 0,
+					z: 0
+				},
+				origin: {
+					x: 0.5,
+					y: 0,
+					z: 0.5
+				},
+				scale: 2
+			}
+	},
+	tpHandTransformByType: {
+		"*-sunflower-*": {
+			translation: {
+				x: 0,
+				y: 0,
+				z: 0
+			},
+			rotation: {
+				x: 12,
+				y: 27,
+				z: -92
+			},
+			origin: {
+				x: -0.05,
+				y: 0.2,
+				z: 0.25
+			},
+			"scale":  0.5
+		},
+		"*": {
+			translation: {
+				x: -1.7,
+				y: -0.7,
+				z: -1.1
+			},
+			rotation: {
+				x: 12,
+				y: 26,
+				z: -93
+			},
+			origin: {
+				x: 0.5,
+				y: 0.21,
+				z: 0.48
+			}
+		}
+	},
+}

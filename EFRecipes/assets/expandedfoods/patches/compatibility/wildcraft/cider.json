@@ -1,0 +1,37 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/transitionableProps",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 336
+        },
+        "transitionHours": {
+          "avg": 144
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:vinegarportion"
+        },
+        "transitionRatio": 1
+      },
+      {
+        "type": "Cure",
+        "freshHours": {
+          "avg": 336
+        },
+        "transitionHours": {
+          "avg": 1008
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "expandedfoods:wildstrongwineportion-{fruit}"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "file": "wildcraft:itemtypes/liquid/alcohol/cider.json"
+  }
+]

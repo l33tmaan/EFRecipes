@@ -1,0 +1,9 @@
+{
+	code: "yogurtstarter",
+	sealHours: 24,
+	ingredients: [
+		{ type: "item", code: "game:curdledmilkportion",  litres: 1 },
+		{ type: "item", code: "game:fruit-*", quantity: 4, name:"fruit" }
+	],
+	output: { type: "item", code: "expandedfoods:yogurt-starter", litres: 0.25 }
+}

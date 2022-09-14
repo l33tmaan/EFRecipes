@@ -1,0 +1,23 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acorndoughball.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acorndoughball.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acorndoughball.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+]

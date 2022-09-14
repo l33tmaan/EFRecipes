@@ -1,0 +1,20 @@
+﻿[
+{
+	code: "limeegg",
+	sealHours: 672,
+	ingredients: [
+		{ type: "item", code: "slakedlimeportion",  litres: 0.1, consumelitres: 0.1 },
+		{ type: "item", code: "egg-chicken-raw", quantity: 1, }
+	],
+	output: { type: "item", code: "expandedfoods:limeegg-chicken", stackSize: 1 }
+},
+{
+	code: "limeegg",
+	sealHours: 672,
+	ingredients: [
+		{ type: "item", code: "slakedlimeportion",  litres: 0.1, consumelitres: 0.1 },
+		{ type: "item", code: "expandedfoods:limeegg-*", quantity: 1, "name": "type" }
+	],
+	output: { type: "item", code: "expandedfoods:limeegg-{type}", stackSize: 1 }
+}
+]

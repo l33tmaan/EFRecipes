@@ -1,12 +1,12 @@
 [
   {
     "op": "add",
-    "path": "/attributes/contentConfig/0",
+    "path": "/attributes/contentConfig/-",
     "value": {
       "code": "peanutskins",
       "content": {
         "type": "item",
-        "code": "efrecipes:peanut-skins"
+        "code": "expandedfoods:peanut-skins"
       },
       "quantityPerFillLevel": 1,
       "maxFillLevels": 8,
@@ -29,10 +29,48 @@
   },
   {
     "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "eggshell",
+      "content": {
+        "type": "item",
+        "code": "aculinaryartillery:eggshell"
+      },
+      "quantityPerFillLevel": 1,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill4",
+        "block/wood/trough/small/eggfill4"
+      ],
+      "foodFor": [
+        "chicken-*"
+      ],
+      "textureCode": "contents-egg"
+    },
+    side: "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "add",
     "path": "/textures/contents-peanut",
     "value": {
       "base": "block/wood/trough/small/peanut"
     },
     "file": "blocktypes/wood/trough-small.json"
-  }
+  },
+  {
+    "op": "add",
+    "path": "/textures/contents-egg",
+    "value": {
+      "base": "block/wood/trough/small/egg"
+    },
+    side: "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
 ]

@@ -1,0 +1,16 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/acorns/acornportion.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/acorns/acornportion.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+]
