@@ -3,7 +3,7 @@
 	"enabled":  false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }]},
-		{inputs: [{ type: "item", code: "game:legume-peanut", quantity: 1 },{ type: "item", code: "expandedfoods:peanut-cooked", quantity: 1 },{ type: "item", code: "expandedfoods:peanut-kernels", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:legume-peanut", quantity: 1 },{ type: "item", code: "expandedfoods:peanut-cooked", quantity: 1 },{ type: "item", code: "expandedfoods:peanut-kernels", quantity: 1 }, { type: "item", code: "game:grain-sunflower",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:gozinakiherb-mashed", stackSize: 1}
@@ -12,7 +12,7 @@
 	"enabled":  false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }]},
-		{inputs: [{ type: "item", code: "game:legume-peanut", quantity: 1 }, { type: "item", code: "expandedfoods:peanut-cooked", quantity: 1 },{ type: "item", code: "expandedfoods:peanut-kernels", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:legume-peanut", quantity: 1 }, { type: "item", code: "expandedfoods:peanut-cooked", quantity: 1 },{ type: "item", code: "expandedfoods:peanut-kernels", quantity: 1 }, { type: "item", code: "game:grain-sunflower",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:salt",  quantity: 1 }]}
 	],
