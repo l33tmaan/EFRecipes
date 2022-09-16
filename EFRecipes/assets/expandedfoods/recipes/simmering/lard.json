@@ -1,0 +1,26 @@
+﻿{
+	Ingredients: [
+		{
+			type: "item",
+			code: "waterportion",
+			quantity: 20
+		},
+		{
+			type: "item",
+			code: "game:fat",
+			quantity: 1
+		}
+	],
+	Simmering: {
+		meltingPoint: 400,
+		meltingDuration: 110,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:lard",
+			"quantity":  10
+		},
+		requiresContainer: false
+	}
+}

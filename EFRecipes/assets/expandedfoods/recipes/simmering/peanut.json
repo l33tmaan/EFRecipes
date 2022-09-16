@@ -1,0 +1,27 @@
+﻿[
+{
+	"Ingredients": [
+		{
+			"type": "item",
+			"code": "waterportion",
+			"quantity": 100
+		},
+		{
+			"type": "item",
+			"code": "game:legume-peanut",
+			"quantity": 1
+		}
+	],
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 450,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": {
+			"type": "item",
+			"code": "expandedfoods:peanut-cooked"
+		},
+		"requiresContainer": false
+	}
+},
+]

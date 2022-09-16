@@ -1,508 +1,282 @@
 ﻿[
   {
-    "op": "addeach",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": [
- 	            {
-					Ingredients: [
-						{ type: "item", code: "waterportion",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornpasta-cut", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 15,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornpasta-cooked" },
-						requiresContainer: false
-					}
-				},
-     	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedball-raw", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedball-cooked" },
-						requiresContainer: false
-					}
-				},
-     	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedball-raw", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedball-cooked" },
-						requiresContainer: false
-					}
-				},
-    	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-smashed", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-tender" },
-						requiresContainer: false
-					}
-				},
-     	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-smashed", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-tender" },
-						requiresContainer: false
-					}
-				},
-    	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-smashed", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-tender" },
-						requiresContainer: false
-					}
-				},
-    	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-smashed", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-tender" },
-						requiresContainer: false
-					}
-				},
-    	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-smashed", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-tender" },
-						requiresContainer: false
-					}
-				},
-     	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-smashed", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-tender" },
-						requiresContainer: false
-					}
-				},
-    	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedvegetable-carrot-raw", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-carrot-cooked" },
-						requiresContainer: false
-					}
-				},
-    	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedvegetable-carrot-raw", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-carrot-cooked" },
-						requiresContainer: false
-					}
-				},
-    	        {
-                    Ingredients: [
-                        { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-                        { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-raw", quantity: 1 },
-                    ],
-                    Simmering: {
-                        meltingPoint: 150,
-                        meltingDuration: 10,
-                        smeltedRatio: 1,
-                        smeltingType: "bake",
-                        smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-cooked" },
-                        requiresContainer: false
-                    }
-                },
-    	        {
-                    Ingredients: [
-                        { type: "item", code: "expandedfoods:lard",  quantity: 10 },
-                        { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-raw", quantity: 1 },
-                    ],
-                    Simmering: {
-                        meltingPoint: 150,
-                        meltingDuration: 10,
-                        smeltedRatio: 1,
-                        smeltingType: "bake",
-                        smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-cooked" },
-                        requiresContainer: false
-                    }
-                },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-turnip-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-turnip-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-turnip-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-turnip-cooked" },
-            requiresContainer: false
-          }
-        },
-     	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-parsnip-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-parsnip-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-parsnip-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-parsnip-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pumpkin-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pumpkin-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pumpkin-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pumpkin-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledcarrot-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledcarrot-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledcarrot-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledcarrot-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledonion-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledonion-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledonion-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledonion-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledturnip-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledturnip-cooked" },
-            requiresContainer: false
-          }
-        },
-     	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledturnip-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledturnip-cooked" },
-            requiresContainer: false
-          }
-        },
-     	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledparsnip-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledparsnip-cooked" },
-            requiresContainer: false
-          }
-        },
-     	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledparsnip-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledparsnip-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledpumpkin-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledpumpkin-cooked" },
-            requiresContainer: false
-          }
-        },
-     	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledpumpkin-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledpumpkin-cooked" },
-            requiresContainer: false
-          }
-        },
-     	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-cassava-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-cassava-cooked" },
-            requiresContainer: false
-          }
-        },
-     	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-cassava-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-cassava-cooked" },
-            requiresContainer: false
-          }
-        },
-    	{
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornstuffedpepper-raw", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornstuffedpepper-cooked" },
-						requiresContainer: false
-					}
-				},
-    	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornstuffedpepper-raw", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornstuffedpepper-cooked" },
-						requiresContainer: false
-					}
-				},
-    ],
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedball.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
   },
   {
-    "op": "addeach",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": [
-	            {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedfishnugget-smashed", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedfishnugget-tender" },
-						requiresContainer: false
-					}
-				},
-     	        {
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-						{ type: "item", code: "expandedfoods:acornbreadedfishnugget-smashed", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedfishnugget-tender" },
-						requiresContainer: false
-					}
-				},
-    ],
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedball.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedfishnugget.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }, { "modid": "primitivesurvival", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedfishnugget.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }, { "modid": "primitivesurvival", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedmeatnugget.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/12/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/13/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/14/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/15/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/16/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/17/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/18/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/19/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/20/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornbreadedvegetable.json",
+    op: "add", 
+    path: "/21/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornpasta.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornstuffedpepper.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acornstuffedpepper.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
   },
 ]
