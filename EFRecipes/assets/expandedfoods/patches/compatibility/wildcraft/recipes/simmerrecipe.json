@@ -159,12 +159,4 @@
     side: "server",
     dependsOn: [{ "modid": "wildcraft", "invert":  true }]
   },
-  {
-    "file": "expandedfoods:recipes/simmering/wildcraft/gelatin.json",
-    op: "add", 
-    path: "/20/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "wildcraft", "invert":  true }]
-  },
 ]
