@@ -119,4 +119,12 @@
     side: "server",
     dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
   },
+  {
+    "file": "expandedfoods:recipes/simmering/primitivesurvival/broth.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+  },
 ]
