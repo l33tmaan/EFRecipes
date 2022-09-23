@@ -197,7 +197,7 @@
   creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
   transitionablePropsByType: {
     "*-raw": [{
-        type: "Cure",
+        type: "Dry",
         freshHours: { avg: 350 },
         transitionHours: { avg: 6 },
         transitionedStack: { type: "item", code: "expandedfoods:sausagesnakeherb-{type}-dried" },

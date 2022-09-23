@@ -459,6 +459,9 @@
     <None Update="assets\expandedfoods\patches\compatibility\acorns\yogurtmealrecipe.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\expandedfoods\patches\compatibility\aculinaryartillery\eggliquids.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\expandedfoods\patches\compatibility\alchemy\agedmeat.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -6162,10 +6165,7 @@
     <None Update="assets\exper\textures\item\two.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
-    <None Update="assets\game\itemtypes\liquid\fishsauce.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\itemtypes\liquid\vinegarportion.json">
+    <None Update="assets\expandedfoods\itemtypes\liquid\primitivesurvival\fishsauce.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\game\patches\bread.json">
@@ -6187,9 +6187,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\game\patches\cider.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\clay-oven.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\game\patches\cottagecheeseportion.json">
@@ -6321,7 +6318,7 @@
     <None Update="assets\game\recipes\barrel\fastvinegar.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\game\recipes\barrel\fishsaucebarrel.json">
+    <None Update="assets\game\recipes\barrel\primitivesurvival\fishsauce.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\game\recipes\barrel\limeegg.json">

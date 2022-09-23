@@ -1,0 +1,41 @@
+﻿[
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "value": {
+		satiety: 60,
+		foodcategory: "Protein"
+		},
+    "file": "aculinaryartillery:itemtypes/liquid/eggwhite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+		"@*-(pheasant|goldenpheasant|capercaillie)": {
+			saturation: 500,
+			foodcategory: "Protein"
+		},
+		"*-chicken": {
+			saturation: 340,
+			foodcategory: "Protein"
+		},
+	},
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolk.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+		"@*-(pheasant|goldenpheasant|capercaillie)": {
+			saturation: 560,
+			foodcategory: "Protein"
+		},
+		"*-chicken": {
+			saturation: 400,
+			foodcategory: "Protein"
+		},
+	},
+    "file": "aculinaryartillery:itemtypes/liquid/eggyolkfull.json"
+  },
+]

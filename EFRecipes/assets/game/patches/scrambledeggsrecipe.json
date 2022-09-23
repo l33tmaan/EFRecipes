@@ -1,5 +1,57 @@
 [
   {
+    "op": "replace",
+    "path": "/ingredients/0/minQuantity",
+    "value": 1,
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/0/maxQuantity",
+    "value": 1,
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/portionSizeLitres",
+    "value": 0.2,
+    "file": "game:recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/0/validStacks",
+    "value": [
+      {
+        "type": "item",
+        "code": "aculinaryartillery:eggwhiteportion",
+        "shapeElement": "bowl/egg/*",
+        "textureMapping": [
+          "scrambledegg",
+          "group1"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "aculinaryartillery:eggyolkportion-*",
+        "shapeElement": "bowl/egg/*",
+        "textureMapping": [
+          "scrambledegg",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "aculinaryartillery:eggyolkfullportion-*",
+        "shapeElement": "bowl/egg/*",
+        "textureMapping": [
+          "scrambledegg",
+          "group7"
+        ]
+      }
+    ],
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
     "op": "remove",
     "path": "/ingredients/3",
     "file": "recipes/cooking/scrambledeggs.json"
@@ -1755,7 +1807,7 @@
     "path": "/ingredients/8/validStacks/-",
     "value": {
           "type": "item",
-          "code": "fishsauce",
+          "code": "expandedfoods:fishsauce",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
