@@ -10,15 +10,9 @@
 		nutritionPropsWhenInMeal: { 
 			satietyByType:  { 
 				"*-cloudberry": 155,
-				"*-brambleberry": 105,
+				"@*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": 105,
 				"*-dogrose": 25,
-				"*-gooseberry": 105,
-				"*-honeysuckle": 105,
-				"*-strawberry": 105,
-				"*-raspberry":  105,
-				"*-snowberry": 75,
-				"*-elderberry": 75,
-				"*-huckleberry": 75
+				"@*-(elderberry|huckleberry|snowberry)": 75,
 			},
             "healthByType": {
                 "*-snowberry": -2.5,
@@ -51,12 +45,8 @@
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-cloudberry": { satiety: 105, foodcategory: "Fruit" },
-		"*-brambleberry": { satiety: 70, foodcategory: "Fruit" },
+		"@*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": { satiety: 70, foodcategory: "Fruit" },
 		"*-dogrose": { satiety: 18, foodcategory: "Fruit" },
-		"*-gooseberry": { satiety: 70, foodcategory: "Fruit" },
-		"*-honeysuckle": { satiety: 70, foodcategory: "Fruit" },
-		"*-strawberry": { satiety: 70, foodcategory: "Fruit" },
-		"*-raspberry": { satiety: 70, foodcategory: "Fruit" },
 		"*-snowberry": { satiety: 50, health: -2.5, foodcategory: "Fruit" },
 		"*-elderberry": { satiety: 50, health: -0.25, foodcategory: "Fruit" },
 		"*-huckleberry": { satiety: 50, foodcategory: "Fruit" }
