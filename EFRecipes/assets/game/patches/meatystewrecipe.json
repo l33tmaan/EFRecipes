@@ -3593,6 +3593,24 @@
             "topping",
             "bonebroth"
           ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:brothportion-meat",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "meatbroth"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:brothportion-vegetable",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "vegetablebroth"
+          ]
         }
       ],
       "minQuantity": 0,
@@ -3600,6 +3618,21 @@
         "portionSizeLitres": 1,
     },
     "file": "recipes/cooking/meatystew.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/11/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "expandedfoods:brothportion-fish",
+        "shapeElement": "bowl/topping/*",
+        "textureMapping": [
+            "topping",
+            "fishbroth"
+        ]
+    },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
   },
   {
     "op": "add",
