@@ -1,5 +1,6 @@
 ﻿{
 	code: "hardlard",
+	class: "BlockLardbrick",
 	shape: { base: "item/food/hardlard" },
 	texture: { base: "game:block/fat" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
@@ -14,8 +15,9 @@
 				stack: { type: "item", code: "expandedfoods:hardlard" }
 			}
 		},
+		placeSound: "game:block/snow"
 	},
-	maxstacksize: 128,
+	maxstacksize: 100,
 	combustibleProps: {
 		burnTemperature: 300,
 		burnDuration: 120,
@@ -27,6 +29,11 @@
         transitionedStack: { type: "item", code: "game:rot" },
 		transitionRatio: 0.1
     }],
+	sounds: {
+		place: "game:block/snow",
+		break: "game:block/snow",
+		hit: "game:block/snow",
+	},
 	guiTransform: {
 		origin: { x: 0.5, y: 0.125, z: 0.5 },
 		scale: 2.65
