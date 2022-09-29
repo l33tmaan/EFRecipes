@@ -26,11 +26,17 @@
     materialDensity: 200,
     transitionableProps: [{
             type: "Perish",
-            freshHours: { avg: 4320 },
-            transitionHours: { avg: 4320 },
+            freshHours: { avg: 1440 },
+            transitionHours: { avg: 1440 },
             transitionedStack: { type: "item", code: "game:rot" },
 		    transitionRatio: 0.005
-      }],
+      },{
+    		type: "Dry",
+    		freshHours: { avg: 720 },
+    		transitionHours: { avg: 5760 },
+    		transitionedStack: { type: "item", code: "expandedfoods:hardlard" },
+    		transitionRatio: 0.01
+  	}],
     guiTransform: {
         rotation: { x: 128, y: 40, z: 7 },
         origin: { x: 0.5, y: 0, z: 0.5 },

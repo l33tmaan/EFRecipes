@@ -96,6 +96,9 @@
     <None Update="assets\expandedfoods\itemtypes\food\gelatin.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\expandedfoods\blocktypes\hardlard.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\expandedfoods\itemtypes\food\limeegg.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2724,6 +2727,9 @@
     <None Update="assets\expandedfoods\shapes\item\food\gozinaki\overlays\gozinakiwhitecurrantsyrup.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\expandedfoods\shapes\item\food\hardlard.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\expandedfoods\shapes\item\food\hardtack\hardtack-acorn-baked.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -4612,6 +4618,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\expandedfoods\textures\item\food\grain\overlays\whitecurrant.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\expandedfoods\textures\item\food\hardlard.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\expandedfoods\textures\item\food\hardlardbottle.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\expandedfoods\textures\item\food\limeegg.png">
@@ -6970,6 +6982,11 @@
       <HintPath>..\..\..\..\AppData\Roaming\Vintagestory\Mods\VSSurvivalMod.dll</HintPath>
       <Private>false</Private>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Block Entity\" />
+    <Folder Include="Block\" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>

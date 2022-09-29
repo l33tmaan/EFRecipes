@@ -1,0 +1,48 @@
+﻿{
+	code: "hardlard",
+	shape: { base: "item/food/hardlard" },
+	texture: { base: "game:block/fat" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	attributes: {
+		"inBowlShape": { "base": "game:block/food/meal/liquid" },
+		waterTightContainerProps: {
+			itemsPerLitre: 10,
+			texture: { base: "game:block/fat" },
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: { type: "item", code: "expandedfoods:hardlard" }
+			}
+		},
+	},
+	maxstacksize: 128,
+	combustibleProps: {
+		burnTemperature: 300,
+		burnDuration: 120,
+	},
+    transitionableProps: [{
+        type: "Perish",
+        freshHours: { avg: 1440 },
+        transitionHours: { avg: 1440 },
+        transitionedStack: { type: "item", code: "game:rot" },
+		transitionRatio: 0.1
+    }],
+	guiTransform: {
+		origin: { x: 0.5, y: 0.125, z: 0.5 },
+		scale: 2.65
+	},
+	groundTransform: {
+		scale: 3.25,
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.1, z: 0.5 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: -0.66, y: 0, z: -0.51 },
+		rotation: { x: -77, y: 59, z: -1 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.73
+	}
+}
