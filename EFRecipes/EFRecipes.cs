@@ -9,7 +9,6 @@ namespace EFRecipes
             public override void Start(ICoreAPI api)
             {
                 base.Start(api);
-                api.RegisterBlockClass("BlockLardbrick", typeof(BlockLardbrick));
             }
     }
 }

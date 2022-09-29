@@ -1536,6 +1536,9 @@
     <None Update="assets\expandedfoods\recipes\simmering\wildcraft\gelatin.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\expandedfoods\shapes\block\lardpile.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\expandedfoods\shapes\item\food\balls-cooked.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -6986,6 +6989,7 @@
 
   <ItemGroup>
     <Folder Include="Block Entity\" />
+    <Folder Include="Block\" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>

@@ -1,6 +1,5 @@
 ﻿{
 	code: "hardlard",
-	class: "BlockLardbrick",
 	shape: { base: "item/food/hardlard" },
 	texture: { base: "game:block/fat" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
@@ -17,6 +16,31 @@
 		},
 		placeSound: "game:block/snow"
 	},
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "Stacking",
+				"placeRemoveSound": "game:sounds/block/snow",
+				"stackingModel": "block/lardpile",
+				"tessQuantityElements": 1,
+				"stackingCapacity": 32,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 4,
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.25,
+					"z2": 1
+				},
+				"cbScaleYByLayer": 0.125,
+			}
+		},
+		{ "name": "Unplaceable" },	
+	],
+	blockmaterial: "other",
 	maxstacksize: 100,
 	combustibleProps: {
 		burnTemperature: 300,

@@ -106,20 +106,15 @@
 	output: { type: "block", code: "game:oillamp-up"  }
  },
   {
-	ingredientPattern: "P,B",
-	recipeGroup: 1,
+	ingredientPattern: "P,L,B",
+	recipeGroup: 2,
 	ingredients: {
 		"P": { type: "block", code: "game:peatbrick" },
+		"L": { type: "block", code: "expandedfoods:hardlard", "quantity": 2 },
 		"B": { type: "block", code: "game:bowl-fired" }
 	},
-	attributes: {
-		liquidContainerProps: {
-			requiresContent: { type: "item", code: "expandedfoods:lard" },
-			requiresLitres: 0.2
-		}
-	},
 	width: 1,
-	height: 2,
+	height: 3,
 	output: { type: "block", code: "game:oillamp-up"  }
  },
 ]

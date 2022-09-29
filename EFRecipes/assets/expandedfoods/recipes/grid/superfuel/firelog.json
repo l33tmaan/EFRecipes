@@ -181,14 +181,8 @@
     },
 	"G": { 
       type: "block", 
-      code: "game:woodbucket"
+      code: "expandedfoods:hardlard"
     },			
-  },	
-   attributes: {
-      liquidContainerProps: {
-      requiresContent: { type: "item", code: "expandedfoods:lard" },
-      requiresLitres: 0.1
-		}
   },
   "width": 3,
   "height": 1,
@@ -363,32 +357,4 @@
   "shapeless": true,
   "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
  },
- {
-  "ingredientPattern": "ASG",
-	recipeGroup: 2,
-  "ingredients": {
-    "A": {
-      "type": "item", 
-	  "code": "game:firewood", "quantity": 8
-    },
-    "S": {
-      "type": "item",
-      "code": "game:drygrass", "quantity": 4
-    },
-	"G": { 
-      type: "block", 
-      code: "aculinaryartillery:bottle-*-burned"
-    },			
-  },	
-   attributes: {
-      liquidContainerProps: {
-      requiresContent: { type: "item", code: "expandedfoods:lard" },
-      requiresLitres: 0.1
-		}
-  },
-  "width": 3,
-  "height": 1,
-  "shapeless": true,
-  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
- }
 ]
