@@ -61,12 +61,5 @@
     path: "/8/enabled", 
     value: "false",
     dependsOn: [{ "modid": "hqzlights", "invert": true }]
- },
- {
-   file: "expandedfoods:recipes/grid/braziers/brazier.json",
-    op: "add", 
-    path: "/9/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "hqzlights", "invert": true }]
  }
 ]

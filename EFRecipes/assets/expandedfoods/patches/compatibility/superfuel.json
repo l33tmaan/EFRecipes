@@ -89,12 +89,5 @@
     path: "/12/enabled", 
     value: "false",
     dependsOn: [{ "modid": "superfuel", "invert":  true }]
- },
- {
-   file: "expandedfoods:recipes/grid/superfuel/firelog.json",
-    op: "add", 
-    path: "/13/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "superfuel", "invert":  true }]
- },
+ }
 ]
