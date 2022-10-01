@@ -1,0 +1,395 @@
+﻿[
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "game:bushmeat-raw",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "game:bushmeat-partbaked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "game:bushmeat-partbaked",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "game:bushmeat-cooked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "game:bushmeat-cooked",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "game:bushmeat-charred",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-cut",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-tenderpartbaked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-tenderpartbaked",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-tender",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-tender",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-tendercharred",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-raw",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-meatballpartbaked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-meatballpartbaked",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-meatball",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-meatball",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:agedmeat-bushmeat-meatballcharred",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+
+
+
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-smashed",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-tenderpartbaked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-tenderpartbaked",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-tender",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-tender",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-tendercharred",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-raw",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-cookedpartbaked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-cookedpartbaked",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-cooked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-cooked",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:meatnugget-bushmeat-cookedcharred",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+]
