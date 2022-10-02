@@ -16,7 +16,7 @@
 		resultCode: "expandedfoods:cookedveggie-{type}-partbaked",
 	},
     onDisplayTransformByType: {
-        "@*-(carrot|parsnip|turnip)": { "rotation": { "x": 0, "y": -45, "z": 90}, translation: { x: -0.2, y: -0.225, z: 0 }, scale: 1 },
+        "@*-(carrot|parsnip|turnip)": { "rotation": { "x": 0, "y": 45, "z": 90}, translation: { x: -0.2, y: -0.45, z: 0.2 }, scale: 1 },
         "*": { translation: { x: 0, y: 0, z: 0 }, scale: 1 },
         }
      }
