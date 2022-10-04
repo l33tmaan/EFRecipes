@@ -29,6 +29,8 @@
 				"game:flour-cassava": {saturation: 140, foodcategory: "Grain"},
 				"game:flour-amaranth": {saturation: 140, foodcategory: "Grain"},
 				"game:flour-sunflower": {saturation: 140, foodcategory: "Grain"},
+				"game:flour-birch": {saturation: 140, foodcategory: "Grain"},
+				"game:flour-pine": {saturation: 140, foodcategory: "Grain"},
       			"acorns:flour-acorn" : { saturation: 140, foodcategory: "Grain" },
 				"aculinaryartillery:eggyolkfullportion-chicken": { saturation: 20, foodcategory: "Protein"},
 				"aculinaryartillery:eggyolkfullportion-pheasant": { saturation: 28, foodcategory: "Protein"},
@@ -46,6 +48,8 @@
 				"game:flour-cassava" : "expandedfoods:shapes/item/food/bread/cassavabread-doughball.json",
 				"game:flour-amaranth" : "expandedfoods:shapes/item/food/bread/amaranthbread-doughball.json",
 				"game:flour-sunflower" : "expandedfoods:shapes/item/food/bread/sunflowerbread-doughball.json",
+				"game:flour-birch" : "expandedfoods:shapes/item/food/bread/birchbread-doughball.json",
+				"game:flour-pine" : "expandedfoods:shapes/item/food/bread/pinebread-doughball.json",
 			},
 			"*-partbaked": {
       				"game:flour-flax" : "expandedfoods:shapes/item/food/bread/flaxbread-partbakedball.json",
@@ -55,6 +59,8 @@
 				"game:flour-cassava" : "expandedfoods:shapes/item/food/bread/cassavabread-partbakedball.json",
 				"game:flour-amaranth" : "expandedfoods:shapes/item/food/bread/amaranthbread-partbakedball.json",
 				"game:flour-sunflower" : "expandedfoods:shapes/item/food/bread/sunflowerbread-partbakedball.json",
+				"game:flour-birch" : "expandedfoods:shapes/item/food/bread/birchbread-partbakedball.json",
+				"game:flour-pine" : "expandedfoods:shapes/item/food/bread/pinebread-partbakedball.json",
 			},
 			"*-bread": {
       				"game:flour-flax" : "expandedfoods:shapes/item/food/bread/flaxbread-breadball.json",
@@ -64,6 +70,8 @@
 				"game:flour-cassava" : "expandedfoods:shapes/item/food/bread/cassavabread-breadball.json",
 				"game:flour-amaranth" : "expandedfoods:shapes/item/food/bread/amaranthbread-breadball.json",
 				"game:flour-sunflower" : "expandedfoods:shapes/item/food/bread/sunflowerbread-breadball.json",
+				"game:flour-birch" : "expandedfoods:shapes/item/food/bread/birchbread-breadball.json",
+				"game:flour-pine" : "expandedfoods:shapes/item/food/bread/pinebread-breadball.json",
 			},
 			"*-charred": {
       				"game:flour-flax" : "expandedfoods:shapes/item/food/bread/flaxbread-charredball.json",
@@ -73,6 +81,8 @@
 				"game:flour-cassava" : "expandedfoods:shapes/item/food/bread/cassavabread-charredball.json",
 				"game:flour-amaranth" : "expandedfoods:shapes/item/food/bread/amaranthbread-charredball.json",
 				"game:flour-sunflower" : "expandedfoods:shapes/item/food/bread/sunflowerbread-charredball.json",
+				"game:flour-birch" : "expandedfoods:shapes/item/food/bread/birchbread-charredball.json",
+				"game:flour-pine" : "expandedfoods:shapes/item/food/bread/pinebread-charredball.json",
 			},
 		},
 		bakingPropertiesByType: {
@@ -125,6 +135,8 @@
     		"cassavabread": {base: "game:item/food/grain/cassavabread" },
     		"amaranthbread": {base: "game:item/food/grain/amaranthbread" },
     		"sunflowerbread": {base: "game:item/food/grain/sunflowerbread" },
+    		"birchbread": {base: "game:item/food/grain/birchbread" },
+    		"pinebread": {base: "game:item/food/grain/pinebread" },
     		"flaxbread1": {base: "game:item/food/grain/flaxbread1" },
     		"ricebread1": {base: "game:item/food/grain/ricebread1" },
     		"speltbread1": {base: "game:item/food/grain/speltbread1" },
@@ -132,6 +144,8 @@
     		"cassavabread1": {base: "game:item/food/grain/cassavabread1" },
     		"amaranthbread1": {base: "game:item/food/grain/amaranthbread1" },
     		"sunflowerbread1": {base: "game:item/food/grain/sunflowerbread1" },
+    		"birchbread1": {base: "game:item/food/grain/birchbread1" },
+    		"pinebread1": {base: "game:item/food/grain/pinebread1" },
     		"flaxbread2": {base: "game:item/food/grain/flaxbread2" },
     		"ricebread2": {base: "game:item/food/grain/ricebread2" },
     		"speltbread2": {base: "game:item/food/grain/speltbread2" },
@@ -139,6 +153,8 @@
     		"cassavabread2": {base: "game:item/food/grain/cassavabread2" },
     		"amaranthbread2": {base: "game:item/food/grain/amaranthbread2" },
     		"sunflowerbread2": {base: "game:item/food/grain/sunflowerbread2" },
+    		"birchbread2": {base: "game:item/food/grain/birchbread2" },
+    		"pinebread2": {base: "game:item/food/grain/pinebread2" },
   	},
 	shape: { base: "expandedfoods:item/food/bread/flaxbread-doughball" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
@@ -147,9 +163,7 @@
 		"*-partbaked": { satiety: 145, foodcategory: "Grain" },
 		"*-bread": { satiety: 160, foodcategory: "Grain" },
 		"*-charred": { satiety: 130, foodcategory: "Grain" },
-
 	},
-
 	combustiblePropsByType: {
 		"*-dough": {
 			meltingPoint: 200,
@@ -178,9 +192,7 @@
 	},
 	guiTransform: {
 		translation: { x: -4.5, y: -3.5, z: 0 },
-
 		rotation: { x: 179, y: -127, z: 38 },
-
 		origin: { x: 0.57, y: 0.07, z: 0.5 },
 		scale: 5
 	},
@@ -198,11 +210,8 @@
 	},
 	tpHandTransform: {
 		translation: { x: 0.2, y: 0, z: 0 },
-
 		rotation: { x: 5, y: 31, z: -21 },
-
 		origin: { x: 0.23, y: 0, z: 0.13 },
-
 		scale: 0.7
 	},
 	transitionablePropsByType: {
