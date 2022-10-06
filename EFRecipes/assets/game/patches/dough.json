@@ -37,6 +37,14 @@
         "saturation": 140,
         "foodcategory": "Grain"
       },
+      "game:flour-birch": {
+        "saturation": 140,
+        "foodcategory": "Grain"
+      },
+      "game:flour-pine": {
+        "saturation": 140,
+        "foodcategory": "Grain"
+      },
       "expandedfoods:lard": {
         "saturation": 16,
         "health": 0.01,
@@ -89,6 +97,12 @@
             },
             "*-sunflower": {
                 "game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread-dough.json"
+            },
+            "*-birch": {
+                "game:flour-birch": "game:shapes/item/food/bread/birchbread-dough.json"
+            },
+            "*-pine": {
+                "game:flour-pine": "game:shapes/item/food/bread/pinebread-dough.json"
             },
             "*-acornspelt": {
                 "acorns:flour-acorn": "game:shapes/item/food/bread/acornspeltbread-dough.json"

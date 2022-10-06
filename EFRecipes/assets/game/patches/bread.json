@@ -52,6 +52,22 @@
           "quantity": 4
         }
       },
+      "*-birch-*": {
+    	dependsOn: [{ "modid": "ancienttools" }],
+        "grindedStack": {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-birch",
+          "quantity": 4
+        }
+      },
+      "*-pine-*": {
+    	dependsOn: [{ "modid": "ancienttools" }],
+        "grindedStack": {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-pine",
+          "quantity": 4
+        }
+      },
       "*-acornspelt-*": {
     	dependsOn: [{ "modid": "acorns" }],
         "grindedStack": {
@@ -589,7 +605,9 @@
       			"game:flour-rice": "game:shapes/item/food/bread/ricebread.json",
       			"game:flour-cassava": "game:shapes/item/food/bread/cassavabread.json",
       			"game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread.json",
-      			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json"
+      			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
+      			"game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
+      			"game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
 		},
     },
     "file": "itemtypes/food/bread.json"
@@ -617,7 +635,9 @@
       			"game:flour-rice": "game:shapes/item/food/bread/ricebread.json",
       			"game:flour-cassava": "game:shapes/item/food/bread/cassavabread.json",
       			"game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread.json",
-      			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json"
+      			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
+      			"game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
+      			"game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
 		},
     },
     "file": "itemtypes/food/bread.json"
@@ -644,7 +664,9 @@
       			"game:flour-rice": "game:shapes/item/food/bread/ricebread.json",
       			"game:flour-cassava": "game:shapes/item/food/bread/cassavabread.json",
       			"game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread.json",
-      			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json"
+      			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
+      			"game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
+      			"game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
 		},
     },
     "file": "itemtypes/food/bread.json"

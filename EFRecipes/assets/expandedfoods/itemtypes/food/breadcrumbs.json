@@ -13,7 +13,8 @@
 		},
 	},
 	variantgroups: [
-		{ code: "type", states: ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower" ] },
+		{ code: "type", states: ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower", 
+			"birch", "pine" ] },	  
 	],
 	shape: { base: "item/food/bread/crumbs/breadcrumbs-{type}" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
