@@ -3,7 +3,11 @@
   	class: "ExpandedFood",
 	maxstacksize: 128,
 	variantgroups: [
-		{ code: "type", states: ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower" ] },
+		{
+			code: "type",
+			states: [ "spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower",
+				"birch", "pine" ]
+		},
 		{ code: "state", states: ["raw", "bake1", "bake2", "bake3", "bake4"] },
 	],
 	attributes: {
