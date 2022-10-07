@@ -29,5 +29,16 @@
       "foodcategory": "NoNutrition"
     },
     "file": "game:itemtypes/liquid/vinegarportion.json"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/exclude",
+    "file": "game:itemtypes/liquid/vinegarportion.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook/ignoreCreativeInvStacks",
+    "value": true,
+    "file": "game:itemtypes/liquid/vinegarportion.json"
   }
 ]

@@ -6,15 +6,13 @@
 		{code: "type", states: ["dough", "flat", "cut", "cooked"]},
 	],
 	attributes: {
-		"handbook": { "exclude":  true },
 		displaycaseable: true,
 		shelvable: true,
 		inContainerTexture: { base: "item/food/pasta/ricepasta" },
 		nutritionPropsWhenInMealByType: { 
 			"*-cut": { satiety: 240, foodcategory: "Grain" },
 		},
-
-    		"expandedNutritionPropsByType": {
+    	"expandedNutritionPropsByType": {
 			"*-dough": {
       			"game:flour-rice" : { saturation: 190, foodcategory: "Grain" },
       			"game:flour-rye" : { saturation: 155, foodcategory: "Grain" },
@@ -30,7 +28,7 @@
 				"aculinaryartillery:eggyolkfullportion-capercaillie": { saturation: 28, foodcategory: "Protein"},
 			},
 		},
-    		renderIngredientsByType: {
+    	renderIngredientsByType: {
 			"*-dough": {
       			"game:flour-flax" : "expandedfoods:shapes/item/food/bread/pasta/flax-pastaball.json",
 				"game:flour-rye" : "expandedfoods:shapes/item/food/bread/pasta/rye-pastaball.json",
