@@ -1,0 +1,10 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmeatnugget.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "breadedmeatnugget-birch-*", "breadedmeatnugget-pine-*"],
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+]

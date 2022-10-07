@@ -3,8 +3,9 @@
   	class: "ExpandedFood",
 	maxstacksize: 64,
 	variantgroups: [
-	
-		{ code: "type", states: ["flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"]},
+
+		{ code: "type",	states: [ "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower", 
+				"birch", "pine" ]},
 		{ code: "veggie", states: ["carrot", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},	
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled"] },
 	],

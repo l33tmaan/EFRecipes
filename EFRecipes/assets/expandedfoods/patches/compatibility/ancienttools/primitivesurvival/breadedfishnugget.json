@@ -1,0 +1,10 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/breadedfishnugget.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "breadedfishnugget-birch-*", "breadedfishnugget-pine-*"],
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+]
