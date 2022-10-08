@@ -1470,6 +1470,23 @@
     "file": "game:recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
+ {
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value": [
+        { type: "item", code: "ancienttools:saltedmeat-bushmeat-raw",  shapeElement: "bowl/redmeat/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-bushmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-bushmeat-smashed",  shapeElement: "bowl/redmeat/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "ancienttools:saltedmeat-poultry-raw",  shapeElement: "bowl/poultry/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-poultry-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-poultry-smashed",  shapeElement: "bowl/poultry/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "ancienttools:saltedmeat-redmeat-raw",  shapeElement: "bowl/redmeat/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-redmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-redmeat-smashed",  shapeElement: "bowl/redmeat/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    ],
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "ancienttools" }]
+  },
 
   {
     "op": "add",
@@ -1761,6 +1778,23 @@
     ],
     "file": "game:recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
+  },
+ {
+    "op": "addeach",
+    "path": "/ingredients/7/validStacks/-",
+    "value": [
+        { type: "item", code: "ancienttools:saltedmeat-bushmeat-raw",  shapeElement: "bowl/redmeat 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-bushmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-bushmeat-smashed",  shapeElement: "bowl/redmeat 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "ancienttools:saltedmeat-poultry-raw",  shapeElement: "bowl/poultry 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-poultry-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-poultry-smashed",  shapeElement: "bowl/poultry 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "ancienttools:saltedmeat-redmeat-raw",  shapeElement: "bowl/redmeat 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-redmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:saltedmeatnugget-redmeat-smashed",  shapeElement: "bowl/redmeat 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+    ],
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    dependsOn: [{ "modid": "ancienttools" }]
   },
   {
     "op": "add",
