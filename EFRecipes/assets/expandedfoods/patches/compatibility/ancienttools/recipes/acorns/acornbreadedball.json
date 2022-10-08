@@ -1,0 +1,16 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
+    op: "addeach", 
+    path: "/0/ingredients/3/inputs/-", 
+    value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1},],
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
+    op: "addeach", 
+    path: "/1/ingredients/3/inputs/-", 
+    value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1},],
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
+]

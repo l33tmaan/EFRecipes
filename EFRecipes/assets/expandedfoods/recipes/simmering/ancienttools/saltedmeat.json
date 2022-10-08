@@ -1,0 +1,80 @@
+﻿[
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "game:waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "ancienttools:saltedmeat-redmeat-raw",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "ancienttools:saltedmeat-redmeat-cooked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "game:waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "ancienttools:saltedmeat-bushmeat-raw",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "ancienttools:saltedmeat-bushmeat-cooked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "game:waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "ancienttools:saltedmeat-poultry-raw",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "ancienttools:saltedmeat-poultry-cooked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+]
