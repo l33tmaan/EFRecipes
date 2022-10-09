@@ -109,7 +109,7 @@
 		},
 	},
 	combustiblePropsByType: {
-		"*-partbaked": {
+		"@*-(partbaked|perfect)": {
 			meltingPoint: 150,
 			meltingDuration: 20,
 			smeltedRatio: 1,
@@ -117,14 +117,6 @@
 			smeltedStack: { type: "item", code: "cookedmushroom-{mushroom}-charred" },
 			requiresContainer: false
 		},
-		"*-perfect": {
-			meltingPoint: 150,
-			meltingDuration: 20,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "cookedmushroom-{mushroom}-charred" },
-			requiresContainer: false
-		}
 	},
 	materialDensity: 600,
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
@@ -186,14 +178,7 @@
 		scale: 0.58
 	},
 	transitionablePropsByType: {
-		"*-partbaked": [{
-			type: "Perish",
-			freshHours: { avg: 432 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-perfect": [{
+		"@*-(partbaked|perfect)": [{
 			type: "Perish",
 			freshHours: { avg: 432 },
 			transitionHours: { avg: 72 },

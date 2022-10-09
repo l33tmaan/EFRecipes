@@ -5,7 +5,7 @@
 	attributes: {
 		"handbook": { "groupBy": [ "crabnugget-*" ] },
 		nutritionPropsWhenInMealByType: { 
-			"crabnugget-raw": {satiety: 210, foodcategory: "Protein"},
+			"crabnugget-raw": {satiety: 195, foodcategory: "Protein"},
 			},
 		bakingPropertiesByType: {
 			"*-raw": {
@@ -79,9 +79,9 @@
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
-			"crabnugget-partbaked": {satiety: 125, foodcategory: "Protein"},
-			"crabnugget-cooked": {satiety: 140, foodcategory: "Protein"},
-			"crabnugget-charred": {satiety: 112, foodcategory: "Protein"},
+		"crabnugget-partbaked": {satiety: 100, foodcategory: "Protein"},
+		"crabnugget-cooked": {satiety: 130, foodcategory: "Protein"},
+		"crabnugget-charred": {satiety: 115, foodcategory: "Protein"},
 	},
 	transitionablePropsByType: {
 		"*-raw": [{
@@ -92,14 +92,7 @@
 			transitionRatio: 1
 			}
 		],
-		"*-partbaked": [{
-			type: "Perish",
-			freshHours: { avg: 60 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-cooked": [{
+		"@*-(partbaked|cooked)": [{
 			type: "Perish",
 			freshHours: { avg: 60 },
 			transitionHours: { avg: 96 },
@@ -116,28 +109,7 @@
 	},
 	materialDensity: 600,
 	guiTransformByType: {
-		"*-partbaked": {
-			rotate: false,
-			translation: { x: 0.0, y: 0, z: 0 },
-			rotation: { x: 171, y: -122, z: 28 },
-			origin: { x: 0.43, y: 0.04, z: 0.53 },
-			scale: 7
-		},
-		"*-cooked": {
-			rotate: false,
-			translation: { x: 0.0, y: 0, z: 0 },
-			rotation: { x: 171, y: -122, z: 28 },
-			origin: { x: 0.43, y: 0.04, z: 0.53 },
-			scale: 7
-		},
-		"*-charred": {
-			rotate: false,
-			translation: { x: 0.0, y: 0, z: 0 },
-			rotation: { x: 171, y: -122, z: 28 },
-			origin: { x: 0.43, y: 0.04, z: 0.53 },
-			scale: 7
-		},
-		"*-raw": {
+		"*": {
 			rotate: false,
 			translation: { x: 0.0, y: 0, z: 0 },
 			rotation: { x: 171, y: -122, z: 28 },
@@ -171,7 +143,7 @@
 		},
 	},
 	combustiblePropsByType: {
-		"crabnugget-raw": {
+		"@*-(raw|partbaked|cooked)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,

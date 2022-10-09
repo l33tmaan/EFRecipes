@@ -4,12 +4,9 @@
 	attributes: {
 		"handbook": { "groupBy": [ "meatnugget-*" ] },
 		nutritionPropsWhenInMealByType: { 
-			"meatnugget-bushmeat-raw": {satiety: 210, foodcategory: "Protein"},
-			"meatnugget-redmeat-raw": {satiety: 510, foodcategory: "Protein"},
-			"meatnugget-poultry-raw": {satiety: 360, foodcategory: "Protein"},
-			"meatnugget-bushmeat-smashed": {satiety: 195, foodcategory: "Protein"},
-			"meatnugget-redmeat-smashed": {satiety: 465, foodcategory: "Protein"},
-			"meatnugget-poultry-smashed": {satiety: 330, foodcategory: "Protein"},
+			"@*-bushmeat-(raw|smashed)": {satiety: 195, foodcategory: "Protein"},
+			"@*-redmeat-(raw|smashed)": {satiety: 465, foodcategory: "Protein"},
+			"@*-poultry-(raw|smashed)": {satiety: 330, foodcategory: "Protein"},
 			"meatnugget-bushmeat-cured": {satiety: 165, foodcategory: "Protein"},
 			"meatnugget-redmeat-cured": {satiety: 390, foodcategory: "Protein"},
 			"meatnugget-poultry-cured": {satiety: 285, foodcategory: "Protein"},
@@ -106,14 +103,9 @@
 	],
 	shapebytype:	{
 		"meatnugget-*-smashed": {base: "item/food/meat/{meat}-smash"},
-		"meatnugget-*-raw": {base: "item/food/meat/{meat}-nugget"},
-		"meatnugget-*-tenderpartbaked": {base: "item/food/meat/{meat}-tender"},
-		"meatnugget-*-tender": {base: "item/food/meat/{meat}-tender"},
-		"meatnugget-*-tendercharred": {base: "item/food/meat/{meat}-tender"},
-		"meatnugget-*-cookedpartbaked":   {base: "item/food/meat/{meat}-cooked"},
-		"meatnugget-*-cooked":   {base: "item/food/meat/{meat}-cooked"},
-		"meatnugget-*-cookedcharred":   {base: "item/food/meat/{meat}-cooked"},
-		"meatnugget-*-cured": {base: "item/food/meat/{meat}-nugget"},
+		"@*-(raw|cured)": {base: "item/food/meat/{meat}-nugget"},
+		"@*-(tenderpartbaked|tender|tendercharred)": {base: "item/food/meat/{meat}-tender"},
+		"@*-(cookedpartbaked|cooked|cookedcharred)":   {base: "item/food/meat/{meat}-cooked"},
 	},
 	texturesByType: {
 		"@*-(tenderpartbaked|cookedpartbaked)": {
@@ -138,29 +130,17 @@
 		"*-poultry-cured": { satiety: 190, foodcategory: "Protein" },
 		"*-redmeat-cured": { satiety: 260, foodcategory: "Protein" },
 
-		"*-bushmeat-cookedpartbaked": { satiety: 125, foodcategory: "Protein" },
-		"*-poultry-cookedpartbaked": { satiety: 210, foodcategory: "Protein" },
-		"*-redmeat-cookedpartbaked": { satiety: 300, foodcategory: "Protein" },
+		"@*-bushmeat-(cookedpartbaked|tenderpartbaked)": { satiety: 122, foodcategory: "Protein" },
+		"@*-poultry-(cookedpartbaked|tenderpartbaked)": { satiety: 205, foodcategory: "Protein" },
+		"@*-redmeat-(cookedpartbaked|tenderpartbaked)": { satiety: 290, foodcategory: "Protein" },
 
-		"*-bushmeat-cooked": { satiety: 140, foodcategory: "Protein" },
-		"*-poultry-cooked": { satiety: 240, foodcategory: "Protein" },
-		"*-redmeat-cooked": { satiety: 340, foodcategory: "Protein" },
+		"@*-bushmeat-(cooked|tender)": { satiety: 130, foodcategory: "Protein" },
+		"@*-poultry-(cooked|tender)": { satiety: 220, foodcategory: "Protein" },
+		"@*-redmeat-(cooked|tender)": { satiety: 310, foodcategory: "Protein" },
 
-		"*-bushmeat-cookedcharred": { satiety: 130, foodcategory: "Protein" },
-		"*-poultry-cookedcharred": { satiety: 220, foodcategory: "Protein" },
-		"*-redmeat-cookedcharred": { satiety: 320, foodcategory: "Protein" },
-
-		"*-bushmeat-tenderpartbaked": { satiety: 122, foodcategory: "Protein" },
-		"*-poultry-tenderpartbaked": { satiety: 205, foodcategory: "Protein" },
-		"*-redmeat-tenderpartbaked": { satiety: 290, foodcategory: "Protein" },
-
-		"*-bushmeat-tender": { satiety: 130, foodcategory: "Protein" },
-		"*-poultry-tender": { satiety: 220, foodcategory: "Protein" },
-		"*-redmeat-tender": { satiety: 310, foodcategory: "Protein" },
-
-		"*-bushmeat-tendercharred": { satiety: 125, foodcategory: "Protein" },
-		"*-poultry-tendercharred": { satiety: 210, foodcategory: "Protein" },
-		"*-redmeat-tendercharred": { satiety: 300, foodcategory: "Protein" },
+		"@*-bushmeat-(cookedcharred|tendercharred)": { satiety: 125, foodcategory: "Protein" },
+		"@*-poultry-(cookedcharred|tendercharred)": { satiety: 210, foodcategory: "Protein" },
+		"@*-redmeat-(cookedcharred|tendercharred)": { satiety: 300, foodcategory: "Protein" },
 	},
 	transitionablePropsByType: {
 		"@*-(raw|smashed)": [{

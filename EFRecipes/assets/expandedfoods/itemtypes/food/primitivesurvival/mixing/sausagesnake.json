@@ -12,10 +12,10 @@
   			translation: { x: 0.0, y: 0.035, z: 0.0 },
   			rotation: { x: 0, y: 0, z: 0 },
   			origin: { x: 0.5, y: 0, z: 0.5 },
-  			scale: .75
+  			scale: 0.75
 		},
     	"expandedNutritionProps": {
-			"expandedfoods:snakenugget-raw": {saturation: 160, foodcategory: "Protein"},
+			"expandedfoods:snakenugget-raw": {saturation: 150, foodcategory: "Protein"},
 			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
 			"game:fat": {saturation: 200, foodcategory: "Protein"},
 			"expandedfoods:lard" : {saturation: 8, "health":  0.05, foodcategory: "Protein"},
@@ -23,12 +23,11 @@
 			"game:cheese-blue-1slice" : {saturation: 200, foodcategory: "Dairy" },
 		},
     	renderIngredients: {
-				"expandedfoods:snakenugget-raw": "expandedfoods:shapes/item/food/meat/sausage-poultry.json",
+			"expandedfoods:snakenugget-raw": "expandedfoods:shapes/item/food/meat/sausage-poultry.json",
 		},
     	inPiePropertiesByType: {
-      			"*-raw": { texture: "game:block/food/pie/fill-snake", partType: 'Filling' },
-      			"*-dried": { texture: "game:block/food/pie/fill-snake", partType: 'Filling' },
-    		},
+			"@*-(raw|dried)": { texture: "game:block/food/pie/fill-snake", partType: 'Filling' },
+    	},
 		bakingPropertiesByType: {
 			"*-raw": {
 				temp: 150,
@@ -100,12 +99,9 @@
 			},
 		},
 		satMultByType: {
-			"*-partbaked": 0.5,
-			"*-cooked": 1,
-			"*-charred": 0.75,
-			"*-driedpartbaked": 0.625,
-			"*-driedcooked": 1.25,
-			"*-driedcharred": 0.9375
+			"@*-(partbaked|driedpartbaked)": 0.5,
+			"@*-(cooked|driedcooked)": 1,
+			"@*-(charred|driedcharred)": 0.75,
 		},
 		onDisplayTransform: {
 			translation: { x: 0, y: -0.48, z: 0 },
@@ -188,25 +184,25 @@
 		"*-partbaked": { saturation: 90, foodcategory: "Protein"},
 		"*-cooked": { saturation: 100, foodcategory: "Protein"},
 		"*-charred": { saturation: 80, foodcategory: "Protein"},
-		"*-driedpartbaked": { saturation: 115, foodcategory: "Protein"},
-		"*-driedcooked": { saturation: 125, foodcategory: "Protein"},
-		"*-driedcharred": { saturation: 100, foodcategory: "Protein"},
+		"*-driedpartbaked": { saturation: 90, "health": 0.5, foodcategory: "Protein"},
+		"*-driedcooked": { saturation: 100, "health": 0.5, foodcategory: "Protein"},
+		"*-driedcharred": { saturation: 80, "health": 0.5, foodcategory: "Protein"},
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	transitionablePropsByType: {
 		"*-raw": [{
-        			type: "Dry",
-        			freshHours: { avg: 480 },
-        			transitionHours: { avg: 20 },
-        			transitionedStack: { type: "item", code: "expandedfoods:sausagesnake-{type}-dried" },
-        			transitionRatio: 1
-      			},{
-        			type: "Perish",
-        			freshHours: { avg: 48 },
-        			transitionHours: { avg: 24 },
-        			transitionedStack: { type: "item", code: "game:rot" },
-        			transitionRatio: 1
-      			}],
+        	type: "Dry",
+        	freshHours: { avg: 480 },
+        	transitionHours: { avg: 20 },
+        	transitionedStack: { type: "item", code: "expandedfoods:sausagesnake-{type}-dried" },
+        	transitionRatio: 1
+      	},{
+        	type: "Perish",
+			freshHours: { avg: 48 },
+        	transitionHours: { avg: 24 },
+        	transitionedStack: { type: "item", code: "game:rot" },
+        	transitionRatio: 1
+      	}],
 		"*-dried": [{
 			type: "Perish",
 			freshHours: { avg: 48 },
@@ -214,14 +210,7 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"*-charred": [{
-			type: "Perish",
-			freshHours: { avg: 384 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-driedcharred": [{
+		"@*-(charred|driedcharred)": [{
 			type: "Perish",
 			freshHours: { avg: 384 },
 			transitionHours: { avg: 48 },
@@ -237,7 +226,7 @@
 		}],
 	},
 	combustiblePropsByType: {
-		"*-raw": {
+		"@*-(raw|partbaked|cooked)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
@@ -245,39 +234,7 @@
 			smeltedStack: { type: "item", code: "expandedfoods:sausagesnake-{type}-charred" },
 			requiresContainer: false
 		},
-		"*-partbaked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:sausagesnake-{type}-charred" },
-			requiresContainer: false
-		},
-		"*-cooked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:sausagesnake-{type}-charred" },
-			requiresContainer: false
-		},
-		"*-dried": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:sausagesnake-{type}-driedcharred" },
-			requiresContainer: false
-		},
-		"*-driedpartbaked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:sausagesnake-{type}-driedcharred" },
-			requiresContainer: false
-		},
-		"*-driedcooked": {
+		"@*-(dried|driedpartbaked|driedcooked)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
@@ -288,23 +245,26 @@
 	},
 	materialDensity: 600,
 	guiTransform: {
- translation: { x: -4, y: 0, z: 0 },
- rotation: { x: -37, y: 150, z: -180 },
- origin: { x: 0.26, y: 0.24, z: 0.65 },
- scale: 2
- },
+		translation: { x: -4, y: 0, z: 0 },
+		rotation: { x: -37, y: 150, z: -180 },
+		origin: { x: 0.26, y: 0.24, z: 0.65 },
+		scale: 2
+	},
 	fpHandTransform: {
- translation: { x: -0.06, y: 0, z: 0.23 },
- rotation: { x: 15, y: 0, z: 0 },
- origin: { x: 0.5, y: 0.1, z: 0.5 }
- },
+		translation: { x: -0.06, y: 0, z: 0.23 },
+		rotation: { x: 15, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 }
+	},
 	tpHandTransform: {
- translation: { x: -0.1, y: -0.8, z: -0.6 },
- rotation: { x: -2, y: 85, z: -11 },
- origin: { x: 0.23, y: 0, z: 0.13 },
- scale: 0.5
- },
-	groundTransform: { translation: { x: 0, y: -0.18, z: 0 },
- rotation: { x: -90, y: 0, z: 0 }, origin: { x: 0, y: 0, z: 0 },
- scale: 2 }
+		translation: { x: -0.1, y: -0.8, z: -0.6 },
+		rotation: { x: -2, y: 85, z: -11 },
+		origin: { x: 0.23, y: 0, z: 0.13 },
+		scale: 0.5
+	},
+	groundTransform: {
+		translation: { x: 0, y: -0.18, z: 0 },
+		rotation: { x: -90, y: 0, z: 0 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 2
+	}
 }

@@ -13,10 +13,10 @@
   		translation: { x: 0.0, y: 0.035, z: 0.0 },
   		rotation: { x: 0, y: 0, z: 0 },
   		origin: { x: 0.5, y: 0, z: 0.5 },
-  		scale: .75
+  		scale: 0.75
 	},
     "expandedNutritionProps": {
-        "expandedfoods:snakenugget-raw": {saturation: 90, foodcategory: "Protein"},
+        "expandedfoods:snakenugget-raw": {saturation: 150, foodcategory: "Protein"},
         "game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
         "game:fat": {saturation: 200, foodcategory: "Protein"},
 		"expandedfoods:lard" : {saturation: 8, "health":  0.05, foodcategory: "Protein"},
@@ -27,8 +27,7 @@
         "expandedfoods:snakenugget-raw": "expandedfoods:shapes/item/food/meat/sausage-poultry.json",
     },
     inPiePropertiesByType: {
-        "*-raw": { texture: "game:block/food/pie/fill-snake", partType: 'Filling' },
-        "*-dried": { texture: "game:block/food/pie/fill-snake", partType: 'Filling' },
+        "@*-(raw|dried)": { texture: "game:block/food/pie/fill-snake", partType: 'Filling' },
    },
     bakingPropertiesByType: {
       "*-raw": {
@@ -101,12 +100,9 @@
       },
     },
 	satMultByType: {
-		"*-partbaked": 0.5,
-		"*-cooked": 1,
-		"*-charred": 0.75,
-		"*-driedpartbaked": 0.625,
-		"*-driedcooked": 1.25,
-		"*-driedcharred": 0.9375
+		"@*-(partbaked|driedpartbaked)": 0.5,
+		"@*-(cooked|driedcooked)": 1,
+		"@*-(charred|driedcharred)": 0.75,
 	},
 	onDisplayTransform: {
 		translation: { x: 0, y: -0.48, z: 0 },
@@ -186,12 +182,12 @@
     },
     },
   nutritionPropsByType: {
-    "*-partbaked": { saturation: 90, foodcategory: "Protein"},
-    "*-cooked": { saturation: 100, foodcategory: "Protein"},
-    "*-charred": { saturation: 80, foodcategory: "Protein"},
-    "*-driedpartbaked": { saturation: 115, foodcategory: "Protein"},
-    "*-driedcooked": { saturation: 125, foodcategory: "Protein"},
-    "*-driedcharred": { saturation: 100, foodcategory: "Protein"},
+	"*-partbaked": { saturation: 90, foodcategory: "Protein"},
+	"*-cooked": { saturation: 100, foodcategory: "Protein"},
+	"*-charred": { saturation: 80, foodcategory: "Protein"},
+	"*-driedpartbaked": { saturation: 90, "health": 0.5, foodcategory: "Protein"},
+	"*-driedcooked": { saturation: 100, "health": 0.5, foodcategory: "Protein"},
+	"*-driedcharred": { saturation: 80, "health": 0.5, foodcategory: "Protein"},
   },
   creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
   transitionablePropsByType: {
@@ -215,14 +211,7 @@
       transitionedStack: { type: "item", code: "game:rot" },
       transitionRatio: 1
     }],
-    "*-driedcharred": [{
-      type: "Perish",
-      freshHours: { avg: 384 },
-      transitionHours: { avg: 48 },
-      transitionedStack: { type: "item", code: "game:rot" },
-      transitionRatio: 1
-    }],
-    "*-charred": [{
+    "@*-(driedcharred|charred)": [{
       type: "Perish",
       freshHours: { avg: 384 },
       transitionHours: { avg: 48 },
@@ -238,7 +227,7 @@
     }],
   },
   combustiblePropsByType: {
-    "*-raw": {
+    "@*-(raw|partbaked|cooked)": {
       meltingPoint: 150,
       meltingDuration: 30,
       smeltedRatio: 1,
@@ -246,39 +235,7 @@
       smeltedStack: { type: "item", code: "expandedfoods:sausagesnakeherb-{type}-charred" },
       requiresContainer: false
     },
-    "*-partbaked": {
-      meltingPoint: 150,
-      meltingDuration: 30,
-      smeltedRatio: 1,
-      smeltingType: "cook",
-      smeltedStack: { type: "item", code: "expandedfoods:sausagesnakeherb-{type}-charred" },
-      requiresContainer: false
-    },
-    "*-cooked": {
-      meltingPoint: 150,
-      meltingDuration: 30,
-      smeltedRatio: 1,
-      smeltingType: "cook",
-      smeltedStack: { type: "item", code: "expandedfoods:sausagesnakeherb-{type}-charred" },
-      requiresContainer: false
-    },
-    "*-dried": {
-      meltingPoint: 150,
-      meltingDuration: 30,
-      smeltedRatio: 1,
-      smeltingType: "cook",
-      smeltedStack: { type: "item", code: "expandedfoods:sausagesnakeherb-{type}-driedcharred" },
-      requiresContainer: false
-    },
-    "*-driedpartbaked": {
-      meltingPoint: 150,
-      meltingDuration: 30,
-      smeltedRatio: 1,
-      smeltingType: "cook",
-      smeltedStack: { type: "item", code: "expandedfoods:sausagesnakeherb-{type}-driedcharred" },
-      requiresContainer: false
-    },
-    "*-driedcooked": {
+    "@*-(dried|driedpartbaked|driedcooked)": {
       meltingPoint: 150,
       meltingDuration: 30,
       smeltedRatio: 1,
