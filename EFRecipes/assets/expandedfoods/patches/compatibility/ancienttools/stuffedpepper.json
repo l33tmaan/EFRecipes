@@ -1,0 +1,10 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "stuffedpepper-birch-*", "stuffedpepper-pine-*"],
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+]

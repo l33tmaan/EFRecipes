@@ -1,0 +1,10 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/wildcraft/mixing/herbalacornhardtack.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "herbalacornhardtack-birch-*", "herbalacornhardtack-pine-*"],
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }, { "modid": "acorns"}, { "modid": "wildcraft"}]
+ },
+]
