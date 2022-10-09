@@ -1,0 +1,9 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/ancienttools/saltedmeatnugget.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+]
