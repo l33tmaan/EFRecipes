@@ -157,14 +157,7 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"@*-(tenderpartbaked|cookedpartbaked)": [{
-			type: "Perish",
-			freshHours: { avg: 100 },
-			transitionHours: { avg: 24 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"@*-(tender|cooked)": [{
+		"@*-(tenderpartbaked|cookedpartbaked|tender|cooked)": [{
 			type: "Perish",
 			freshHours: { avg: 120 },
 			transitionHours: { avg: 36 },
@@ -173,8 +166,8 @@
 		}],
 		"@*-(tendercharred|cookedcharred)": [{
 			type: "Perish",
-			freshHours: { avg: 300 },
-			transitionHours: { avg: 60 },
+			freshHours: { avg: 240 },
+			transitionHours: { avg: 72 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],

@@ -86,23 +86,23 @@
 	transitionablePropsByType: {
 		"*-raw": [{
 			type: "Perish",
-			freshHours: { avg: 18 },
-			transitionHours: { avg: 72 },
+			freshHours: { avg: 48 },
+			transitionHours: { avg: 12 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 			}
 		],
 		"@*-(partbaked|cooked)": [{
 			type: "Perish",
-			freshHours: { avg: 60 },
-			transitionHours: { avg: 96 },
+			freshHours: { avg: 120 },
+			transitionHours: { avg: 36 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-charred": [{
 			type: "Perish",
-			freshHours: { avg: 120 },
-			transitionHours: { avg: 192 },
+			freshHours: { avg: 240 },
+			transitionHours: { avg: 72 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
