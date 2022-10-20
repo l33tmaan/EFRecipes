@@ -11,7 +11,7 @@
 			allowSpill: true,
 			whenSpilled: {
 				action: "DropContents",
-				stack: { type: "item", code: "expandedfoods:hardlard" }
+				stack: { type: "block", code: "expandedfoods:hardlard" }
 			}
 		},
 		placeSound: "game:block/snow"

@@ -4,6 +4,7 @@
     op: "add", 
     path: "/enabled", 
     value: "false",
+    "side": "server",
     dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
@@ -11,6 +12,7 @@
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
+    "side": "server",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
@@ -18,6 +20,7 @@
     op: "replace", 
     path: "/1/enabled", 
     value: "true",
+    "side": "server",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
@@ -25,6 +28,7 @@
     op: "replace", 
     path: "/2/enabled", 
     value: "true",
+    "side": "server",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
@@ -32,6 +36,7 @@
     op: "replace", 
     path: "/3/enabled", 
     value: "true",
+    "side": "server",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
@@ -39,6 +44,7 @@
     op: "replace", 
     path: "/4/enabled", 
     value: "true",
+    "side": "server",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
@@ -46,6 +52,7 @@
     op: "replace", 
     path: "/5/enabled", 
     value: "true",
+    "side": "server",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
@@ -53,6 +60,7 @@
     op: "replace", 
     path: "/6/enabled", 
     value: "true",
+    "side": "server",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
@@ -60,6 +68,7 @@
     op: "replace", 
     path: "/7/enabled", 
     value: "true",
+    "side": "server",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
 ]

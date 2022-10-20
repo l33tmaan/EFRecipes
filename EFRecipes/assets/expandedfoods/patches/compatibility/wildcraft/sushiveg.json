@@ -4,6 +4,7 @@
     op: "add", 
     path: "/skipVariants",
     value: [ "sushiveg-minerslettuce-nooil", "sushiveg-minerslettuce-oil", "sushiveg-minerslettuce-honey", "sushiveg-minerslettuce-peanut",  ],
+    "side": "server",
     dependsOn: [{ "modid": "wildcraft", "invert": true }]
  },
  {
@@ -11,6 +12,7 @@
     op: "add", 
     path: "/0/enabled", 
     value: "false",
+    "side": "server",
     dependsOn: [{ "modid": "wildcraft", "invert": true }]
  },
  {
@@ -18,6 +20,7 @@
     op: "add", 
     path: "/1/enabled", 
     value: "false",
+    "side": "server",
     dependsOn: [{ "modid": "wildcraft", "invert": true }]
  },
 ]

@@ -2,6 +2,7 @@
   {
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
@@ -17,18 +18,21 @@
         "foodcategory": "Protein"
       }
     },
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
     "op": "add",
     "path": "/class",
     "value": "TransFix",
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
     "op": "add",
     "path": "/attributes/meathookable",
     "value": true,
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
@@ -52,6 +56,7 @@
       },
       "scale": 1
     },
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
@@ -71,6 +76,7 @@
       },
       "transitionRatio": 1
     },
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
@@ -112,6 +118,7 @@
         "initialCode": "poultry-cooked"
       }
     },
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
@@ -125,12 +132,14 @@
       },
       "scale": 1
     },
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
     "op": "replace",
     "path": "/combustiblePropsByType/poultry-raw/smeltedStack/code",
     "value": "poultry-charred",
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
@@ -140,6 +149,7 @@
       "satiety": 165,
       "foodcategory": "Protein"
     },
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
@@ -149,6 +159,7 @@
       "satiety": 185,
       "foodcategory": "Protein"
     },
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
@@ -170,6 +181,7 @@
         "transitionRatio": 1
       }
     ],
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
@@ -191,24 +203,28 @@
         "transitionRatio": 1
       }
     ],
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
     "op": "replace",
     "path": "/variantgroups/0/states/1",
     "value": "partbaked",
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
     "op": "add",
     "path": "/variantgroups/0/states/2",
     "value": "cooked",
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
     "op": "add",
     "path": "/variantgroups/0/states/3",
     "value": "charred",
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   },
   {
@@ -218,6 +234,7 @@
       "texture": "game:block/food/pie/fill-poultry",
       "partType": "Filling"
     },
+    "side": "server",
     "file": "itemtypes/food/poultry.json"
   }
 ]

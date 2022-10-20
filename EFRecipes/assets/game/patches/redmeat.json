@@ -2,6 +2,7 @@
   {
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -17,18 +18,21 @@
         "foodcategory": "Protein"
       }
     },
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
     "op": "add",
     "path": "/class",
     "value": "TransFix",
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
     "op": "add",
     "path": "/attributes/meathookable",
     "value": true,
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -52,6 +56,7 @@
       },
       "scale": 1
     },
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -71,6 +76,7 @@
       },
       "transitionRatio": 1
     },
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
 
@@ -113,6 +119,7 @@
         "initialCode": "redmeat-cooked"
       }
     },
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -126,12 +133,14 @@
       },
       "scale": 1
     },
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/combustiblePropsByType/redmeat-raw/smeltedStack/code",
     "value": "redmeat-charred",
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -141,6 +150,7 @@
       "satiety": 235,
       "foodcategory": "Protein"
     },
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -150,6 +160,7 @@
       "satiety": 260,
       "foodcategory": "Protein"
     },
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -171,6 +182,7 @@
         "transitionRatio": 1
       }
     ],
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -192,24 +204,28 @@
         "transitionRatio": 1
       }
     ],
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/variantgroups/0/states/1",
     "value": "partbaked",
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
     "op": "add",
     "path": "/variantgroups/0/states/2",
     "value": "cooked",
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
     "op": "add",
     "path": "/variantgroups/0/states/3",
     "value": "charred",
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -220,6 +236,7 @@
         "base": "item/food/meat/charred"
       }
     },
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -230,6 +247,7 @@
         "base": "item/food/meat/partbaked"
       }
     },
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
@@ -239,30 +257,35 @@
       "texture": "game:block/food/pie/fill-redmeat",
       "partType": "Filling"
     },
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/guiTransformByType/*-cured/translation/x",
     "value": 10.5,
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/guiTransformByType/*-cured/translation/y",
     "value": 5,
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/guiTransformByType/*/translation/x",
     "value": 10.5,
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/guiTransformByType/*/translation/y",
     "value": 5,
+    "side": "server",
     "file": "itemtypes/food/redmeat.json"
   }
 ]

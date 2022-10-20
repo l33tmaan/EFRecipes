@@ -4,6 +4,7 @@
     op: "addeach", 
     path: "/1/ingredients/2/inputs/-", 
     value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}],
+    "side": "server",
     dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "wildcraft" }]
  },
  {
@@ -11,6 +12,7 @@
     op: "addeach", 
     path: "/3/ingredients/2/inputs/-", 
     value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}],
+    "side": "server",
     dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "wildcraft" }]
  },
 ]

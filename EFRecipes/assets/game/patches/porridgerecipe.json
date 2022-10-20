@@ -328,6 +328,7 @@
       ]
     },
     ],
+    "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
   {
@@ -659,11 +660,13 @@
       ]
     },
     ],
+    "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
   {
     "op": "remove",
     "path": "/ingredients/3",
+    "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
   {
@@ -1203,6 +1206,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
   {
@@ -1747,6 +1751,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
   {
@@ -1969,6 +1974,7 @@
         "maxQuantity": 1,
         "portionSizeLitres":  0.1
     },
+    "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
  {
@@ -1979,6 +1985,7 @@
           "code": "expandedfoods:fishsauce",
           "shapeElement": "bowl/topping/*"
     },
+    "side": "server",
     "file": "recipes/cooking/porridge.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
   },
@@ -2077,6 +2084,7 @@
           ]
         },
     ],
+    "side": "server",
     "file": "recipes/cooking/porridge.json",
     dependsOn: [{ "modid": "wildcraft" }]
   },
@@ -2093,6 +2101,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
  {
@@ -2100,6 +2109,7 @@
     "path": "/ingredients/7/validStacks/-",
     "value":
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
+    "side": "server",
     "file": "recipes/cooking/porridge.json",
     dependsOn: [{ "modid": "acorns" }]
   },
@@ -2116,6 +2126,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
  {
@@ -2123,6 +2134,7 @@
     "path": "/ingredients/8/validStacks/-",
     "value": 
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
+    "side": "server",
     "file": "recipes/cooking/porridge.json",
     dependsOn: [{ "modid": "acorns" }]
   },

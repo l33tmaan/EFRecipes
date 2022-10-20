@@ -10,6 +10,7 @@
       "endScaleY": 1.0,
       "resultCode": "expandedfoods:cookedveggie-papyrusroot-partbaked"
     },
+    "side": "server",
     "file": "itemtypes/resource/papyrusroot.json"
   },
   {
@@ -28,12 +29,14 @@
       },
       "scale": 0.75
     },
+    "side": "server",
     "file": "itemtypes/resource/papyrusroot.json"
   },
   {
     "op": "replace",
     "path": "/combustibleProps/smeltedStack/code",
     "value": "expandedfoods:cookedveggie-papyrusroot-charred",
+    "side": "server",
     "file": "itemtypes/resource/papyrusroot.json"
   }
 ]

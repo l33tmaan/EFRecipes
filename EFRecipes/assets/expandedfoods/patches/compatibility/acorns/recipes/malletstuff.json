@@ -4,6 +4,7 @@
     op: "add", 
     path: "/0/enabled", 
     value: "false",
+    "side": "server",
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
@@ -11,6 +12,7 @@
     op: "add", 
     path: "/1/enabled", 
     value: "false",
+    "side": "server",
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
@@ -18,6 +20,7 @@
     op: "add", 
     path: "/2/enabled", 
     value: "false",
+    "side": "server",
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
@@ -25,6 +28,7 @@
     op: "add", 
     path: "/enabled", 
     value: "false",
+    "side": "server",
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
 ]

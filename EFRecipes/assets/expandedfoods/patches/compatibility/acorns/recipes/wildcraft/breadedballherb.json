@@ -4,6 +4,7 @@
     op: "add", 
     path: "/0/ingredients/2/inputs/-", 
     value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
+    "side": "server",
     dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
  },
  {

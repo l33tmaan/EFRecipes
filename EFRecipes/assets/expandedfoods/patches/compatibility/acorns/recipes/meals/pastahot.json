@@ -4,6 +4,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornpasta-cut",  shapeElement: "bowl/pasta", textureMapping: ["pasta", "pasta"] }, 
     "file": "game:recipes/cooking/pastahot.json",
+    "side": "server",
     dependsOn: [{ "modid": "acorns" }]
   },
   {
@@ -11,6 +12,7 @@
     "path": "/ingredients/10/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]}, 
     "file": "game:recipes/cooking/pastahot.json",
+    "side": "server",
     dependsOn: [{ "modid": "acorns" }]
   },
   {
@@ -18,6 +20,7 @@
     "path": "/ingredients/11/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]},
     "file": "game:recipes/cooking/pastahot.json",
+    "side": "server",
     dependsOn: [{ "modid": "acorns" }]
   },
 

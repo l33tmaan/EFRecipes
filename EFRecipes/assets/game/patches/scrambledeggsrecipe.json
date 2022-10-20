@@ -3,18 +3,21 @@
     "op": "replace",
     "path": "/ingredients/0/minQuantity",
     "value": 1,
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "replace",
     "path": "/ingredients/0/maxQuantity",
     "value": 1,
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "add",
     "path": "/ingredients/0/portionSizeLitres",
     "value": 0.2,
+    "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json"
   },
   {
@@ -49,11 +52,13 @@
         ]
       }
     ],
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "remove",
     "path": "/ingredients/3",
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
@@ -79,6 +84,7 @@
         "maxQuantity": 1,
         "portionSizeLitres": 0.1,
     },
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
@@ -628,6 +634,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
@@ -1177,6 +1184,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
@@ -1405,6 +1413,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
  {
@@ -1424,6 +1433,7 @@
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     ],
+    "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "wildcraft" }]
   },
@@ -1447,6 +1457,7 @@
         { "type": "item", "code": "expandedfoods:sausagesnake-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnake-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     ],
+    "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
   },
@@ -1467,6 +1478,7 @@
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "snakemeat" ] },
     ],
+    "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
@@ -1484,6 +1496,7 @@
         { type: "item", code: "expandedfoods:saltedmeatnugget-redmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:saltedmeatnugget-redmeat-smashed",  shapeElement: "bowl/redmeat/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     ],
+    "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "ancienttools" }]
   },
@@ -1714,6 +1727,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
  {
@@ -1733,6 +1747,7 @@
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     ],
+    "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "wildcraft" }]
   },
@@ -1756,6 +1771,7 @@
         { "type": "item", "code": "expandedfoods:sausagesnake-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnake-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     ],
+    "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
   },
@@ -1776,6 +1792,7 @@
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "snakemeat" ] },
     ],
+    "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
@@ -1793,6 +1810,7 @@
         { type: "item", code: "expandedfoods:saltedmeatnugget-redmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:saltedmeatnugget-redmeat-smashed",  shapeElement: "bowl/redmeat 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     ],
+    "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "ancienttools" }]
   },
@@ -1834,6 +1852,7 @@
         "maxQuantity": 1,
         "portionSizeLitres":  0.1,
     },
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
  {
@@ -1848,6 +1867,7 @@
             "fishsauce"
           ]
     },
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
   },
@@ -1865,6 +1885,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
+    "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
 ]

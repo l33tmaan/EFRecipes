@@ -14,6 +14,7 @@
         "stacksize": 1
       }
     },
+    "side": "server",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
@@ -31,6 +32,7 @@
         "stacksize": 1
       }
     },
+    "side": "server",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
@@ -48,6 +50,7 @@
         "stacksize": 1
       }
     },
+    "side": "server",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
@@ -65,6 +68,7 @@
         "stacksize": 1
       }
     },
+    "side": "server",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
@@ -82,6 +86,7 @@
         "stacksize": 1
       }
     },
+    "side": "server",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
@@ -99,6 +104,7 @@
         "stacksize": 1
       }
     },
+    "side": "server",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
@@ -116,6 +122,7 @@
         "stacksize": 1
       }
     },
+    "side": "server",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
@@ -133,22 +140,26 @@
         "stacksize": 1
       }
     },
+    "side": "server",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "addeach",
+    "side": "server",
     "path": "/variantgroups/0/states/-",
     "value": [ "flax", "rice", "sunflower", "seed", "honey", "soybean", "peanut", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bellpepper", "cassava", "fish", "soyslurry", "soyblend", "olive",],
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "move",
+    "side": "server",
     "path": "/temp",
     "frompath": "/attributes/juiceablePropertiesByType/*",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "move",
+    "side": "server",
     "path": "/attributes/juiceablePropertiesByType/*",
     "frompath": "/temp",
     "file": "game:itemtypes/resource/pressedmash.json"

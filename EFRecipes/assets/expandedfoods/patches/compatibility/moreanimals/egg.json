@@ -3,22 +3,26 @@
     "op": "add",
     "path": "/variantgroups/1/states/1",
     "value": "boiled",
+    "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "add",
     "path": "/variantgroups/1/states/2",
     "value": "pickled",
+    "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "remove",
     "path": "/texture",
+    "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "remove",
     "path": "/transitionableProps",
+    "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
   {
@@ -36,6 +40,7 @@
         }
       }
     },
+    "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
   {
@@ -75,11 +80,13 @@
         }
       ]
     },
+    "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
+    "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
   {
@@ -95,6 +102,7 @@
         "foodcategory": "Protein"
       }
     },
+    "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
   {
@@ -104,6 +112,7 @@
       "saturation": 215,
       "foodcategory": "Protein"
     },
+    "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
   {
@@ -119,6 +128,7 @@
         "partType": "Filling"
       }
     },
+    "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   }
 ]

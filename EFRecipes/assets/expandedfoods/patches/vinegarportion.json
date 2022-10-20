@@ -18,6 +18,7 @@
         "transitionRatio": 0.005
       }
     ],
+    "side": "server",
     "file": "game:itemtypes/liquid/vinegarportion.json"
   },
   {
@@ -28,17 +29,20 @@
       "health": 0.25,
       "foodcategory": "NoNutrition"
     },
+    "side": "server",
     "file": "game:itemtypes/liquid/vinegarportion.json"
   },
   {
     "op": "remove",
     "path": "/attributes/handbook/exclude",
+    "side": "server",
     "file": "game:itemtypes/liquid/vinegarportion.json"
   },
   {
     "op": "add",
     "path": "/attributes/handbook/ignoreCreativeInvStacks",
     "value": true,
+    "side": "server",
     "file": "game:itemtypes/liquid/vinegarportion.json"
   }
 ]

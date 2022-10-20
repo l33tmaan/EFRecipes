@@ -4,6 +4,7 @@
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
+    "side": "server",
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
@@ -11,6 +12,7 @@
     op: "replace", 
     path: "/1/enabled", 
     value: "true",
+    "side": "server",
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
 ]

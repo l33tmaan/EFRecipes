@@ -3,6 +3,7 @@
     "op": "replace",
     "path": "/class",
     "value": "ExpandedDough",
+    "side": "server",
     "file": "itemtypes/food/dough.json"
   },
   {
@@ -71,6 +72,7 @@
         "foodcategory": "Vegetable"
       },
     },
+    "side": "server",
     "file": "itemtypes/food/dough.json"
   },
     {
@@ -126,53 +128,63 @@
                 "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread-dough.json"
             }
         },
+    "side": "server",
         "file": "itemtypes/food/dough.json"
     },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-flax-charred",
+    "side": "server",
     "file": "itemtypes/food/bread.json"
   },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-flax-partbaked",
+    "side": "server",
     "file": "itemtypes/food/bread.json"
   },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-flax-perfect",
+    "side": "server",
     "file": "itemtypes/food/bread.json"
   },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-rice-charred",
+    "side": "server",
     "file": "itemtypes/food/bread.json"
   },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-rice-partbaked",
+    "side": "server",
     "file": "itemtypes/food/bread.json"
   },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-rice-perfect",
+    "side": "server",
     "file": "itemtypes/food/bread.json"
   },
   {
     "op": "replace",
     "path": "/nutritionPropsByType/*-charred/saturation",
+    "side": "server",
     "value": 100,
     "file": "itemtypes/food/bread.json"
   },
   {
     "op": "replace",
     "path": "/nutritionPropsByType/*-partbaked/saturation",
+    "side": "server",
     "value": 70,
     "file": "itemtypes/food/bread.json"
   },
   {
     "op": "replace",
     "path": "/nutritionPropsByType/*-perfect/saturation",
+    "side": "server",
     "value": 160,
     "file": "itemtypes/food/bread.json"
   }
