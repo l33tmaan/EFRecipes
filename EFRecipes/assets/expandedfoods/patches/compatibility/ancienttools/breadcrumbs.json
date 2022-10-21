@@ -7,4 +7,28 @@
     side: "server",
     dependsOn: [{ "modid": "ancienttools", "invert": true }]
  },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/breadcrumbs.json",
+    op: "add", 
+    path: "/0/enabled",
+    value: false,
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/breadcrumbs.json",
+    op: "add", 
+    path: "/1/enabled",
+    value: false,
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/breadcrumbs.json",
+    op: "add", 
+    path: "/2/enabled",
+    value: false,
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
 ]

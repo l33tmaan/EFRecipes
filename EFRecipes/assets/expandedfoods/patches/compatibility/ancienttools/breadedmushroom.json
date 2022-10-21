@@ -1,0 +1,10 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmushroom.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "breadedmushroom-birch-*", "breadedmushroom-pine-*"],
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+]

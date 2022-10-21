@@ -1,0 +1,34 @@
+﻿[
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/acorns/acornbreadcrumbs.json",
+    op: "replace", 
+    path: "/0/enabled",
+    value: true,
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/acorns/acornbreadcrumbs.json",
+    op: "replace", 
+    path: "/1/enabled",
+    value: true,
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/acorns/acornbreadcrumbs.json",
+    op: "replace", 
+    path: "/2/enabled",
+    value: true,
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:itemtypes/food/acorns/acornbreadcrumbs.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "acornbreadcrumbs-acornbirch", "acornbreadcrumbs-acornpine"],
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+ },
+]

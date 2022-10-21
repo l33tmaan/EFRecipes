@@ -1,0 +1,102 @@
+﻿[
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "expandedfoods:foodoilportion-*",
+			quantity: 10
+		},
+		{
+			type: "item",
+			code: "expandedfoods:stuffedpepper-birch-raw",
+			quantity: 1
+		},
+	],
+	Simmering: {
+		meltingPoint: 150,
+		meltingDuration: 100,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:stuffedpepper-birch-cooked"
+		},
+		requiresContainer: false
+	}
+},
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "expandedfoods:lard",
+			quantity: 10
+		},
+		{
+			type: "item",
+			code: "expandedfoods:stuffedpepper-birch-raw",
+			quantity: 1
+		},
+	],
+	Simmering: {
+		meltingPoint: 150,
+		meltingDuration: 100,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:stuffedpepper-birch-cooked"
+		},
+		requiresContainer: false
+	}
+},
+{
+  Ingredients: [
+    {
+      type: "item",
+      code: "expandedfoods:foodoilportion-*",
+      quantity: 10
+    },
+    {
+      type: "item",
+      code: "expandedfoods:stuffedpepper-pine-raw",
+      quantity: 1
+    },
+  ],
+  Simmering: {
+    meltingPoint: 150,
+    meltingDuration: 100,
+    smeltedRatio: 1,
+    smeltingType: "bake",
+    smeltedStack: {
+      type: "item",
+      code: "expandedfoods:stuffedpepper-pine-cooked"
+    },
+    requiresContainer: false
+  }
+},
+{
+  Ingredients: [
+    {
+      type: "item",
+      code: "expandedfoods:lard",
+      quantity: 10
+    },
+    {
+      type: "item",
+      code: "expandedfoods:stuffedpepper-pine-raw",
+      quantity: 1
+    },
+  ],
+  Simmering: {
+    meltingPoint: 150,
+    meltingDuration: 100,
+    smeltedRatio: 1,
+    smeltingType: "bake",
+    smeltedStack: {
+      type: "item",
+      code: "expandedfoods:stuffedpepper-pine-cooked"
+    },
+    requiresContainer: false
+  }
+},
+]

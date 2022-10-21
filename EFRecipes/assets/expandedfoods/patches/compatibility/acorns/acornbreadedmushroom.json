@@ -1,0 +1,99 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadedmushroom.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmushroom.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmushroom.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmushroom.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmushroom.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmushroomoiled.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmushroomsyrup.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmushroomsyrup.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmushroomsyrup.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmushroomsyrup.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmushroomsyrup.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedmushroomsyrup.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+ },
+
+]

@@ -1,3 +1,4 @@
+[
  {
 	ingredientPattern: "B",
 	ingredients: {
@@ -8,4 +9,27 @@
 	height: 1,
 	shapeless: false,
 	output: { type: "item", code: "acornbreadcrumbs-{type}", quantity: 4  }
+},
+ {
+	ingredientPattern: "B",
+	ingredients: {
+		"B": { type: "item", code: "game:bread-*-cooked", name: "type", allowedVariants: ["acornflax", "acornrice", "acornrye", "acornspelt", "acorncassava", "acornamaranth", "acornsunflower"]  }
+	},
+	name: "acornbreadcrumbs",
+	width: 1,
+	height: 1,
+	shapeless: false,
+	output: { type: "item", code: "acornbreadcrumbs-{type}", quantity: 4  }
+},
+ {
+	ingredientPattern: "B",
+	ingredients: {
+		"B": { type: "item", code: "game:bread-*-charred", name: "type", allowedVariants: ["acornflax", "acornrice", "acornrye", "acornspelt", "acorncassava", "acornamaranth", "acornsunflower"]  }
+	},
+	name: "acornbreadcrumbs",
+	width: 1,
+	height: 1,
+	shapeless: false,
+	output: { type: "item", code: "acornbreadcrumbs-{type}", quantity: 4  }
 }
+]
