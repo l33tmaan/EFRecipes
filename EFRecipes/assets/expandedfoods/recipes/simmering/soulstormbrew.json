@@ -1,0 +1,30 @@
+﻿[
+
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "expandedfoods:soulstormbrew-slop",
+			quantity: 20
+		},
+		{
+			type: "item",
+			code: "game:bonemeal",
+			quantity: 1
+		}
+	],
+	Simmering: {
+		meltingPoint: 250,
+		meltingDuration: 150,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:soulstormbrew-refinedslop",
+			"quantity":  10
+		},
+		requiresContainer: false
+	}
+},
+
+]
