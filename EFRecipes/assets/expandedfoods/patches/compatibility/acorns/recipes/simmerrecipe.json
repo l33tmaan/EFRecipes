@@ -295,4 +295,12 @@
     side: "server",
     dependsOn: [{ "modid": "acorns", "invert":  true }]
   },
+  {
+    "file": "expandedfoods:recipes/simmering/acorns/acorncoffee.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
+  },
 ]

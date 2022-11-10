@@ -1,6 +1,6 @@
 ﻿[
  {
-    "file": "expandedfoods:itemtypes/food/acorns/acornportion.json",
+    "file": "expandedfoods:itemtypes/food/acorns/acorns-roasted.json",
     op: "add", 
     path: "/enabled", 
     value: "false",
@@ -8,17 +8,17 @@
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
-    "file": "expandedfoods:recipes/grid/acorns/acornportion.json",
+    "file": "expandedfoods:itemtypes/food/acorns/acornpowder.json",
     op: "add", 
-    path: "/0/enabled", 
+    path: "/enabled", 
     value: "false",
     "side": "server",
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
-    "file": "expandedfoods:recipes/grid/acorns/acornportion.json",
+    "file": "expandedfoods:itemtypes/liquid/acorns/acorncoffee.json",
     op: "add", 
-    path: "/1/enabled", 
+    path: "/enabled", 
     value: "false",
     "side": "server",
     dependsOn: [{ "modid": "acorns", "invert": true }]
