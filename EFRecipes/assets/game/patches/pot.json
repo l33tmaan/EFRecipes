@@ -2805,4 +2805,13 @@
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
   },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/peanut",
+    "value": {
+      "base": "game:item/food/legume/peanut"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+  },
 ]
