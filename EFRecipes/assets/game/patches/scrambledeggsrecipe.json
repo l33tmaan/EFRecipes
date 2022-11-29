@@ -9,7 +9,7 @@
   {
     "op": "replace",
     "path": "/ingredients/0/maxQuantity",
-    "value": 1,
+    "value": 4,
     "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
@@ -1408,7 +1408,17 @@
             "meatnugget",
             "poultry-raw"
           ]
-        }
+        },
+        {
+            "type": "item",
+            "code": "egg-chicken-boiled",
+            "shapeElement": "bowl/egg2/*"
+        },    
+        {
+            "type": "item",
+            "code": "egg-chicken-pickled",
+            "shapeElement": "bowl/egg2/*"
+        },   
       ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -1722,7 +1732,17 @@
             "meatnugget",
             "poultry-raw"
           ]
-        }
+        },
+        {
+            "type": "item",
+            "code": "egg-chicken-boiled",
+            "shapeElement": "bowl/egg2/*"
+        },    
+        {
+            "type": "item",
+            "code": "egg-chicken-pickled",
+            "shapeElement": "bowl/egg2/*"
+        },   
       ],
       "minQuantity": 0,
       "maxQuantity": 1
