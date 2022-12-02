@@ -3862,6 +3862,17 @@
     "file": "recipes/cooking/meatystew.json",
     dependsOn: [{ "modid": "acorns" }]
   },
+ {
+    "op": "add",
+    "path": "/ingredients/9/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:herbalbreadcrumbs"
+    },
+    "side": "server",
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
   {
     "op": "add",
     "path": "/ingredients/10",

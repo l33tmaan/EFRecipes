@@ -1721,6 +1721,19 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:herbalbreadcrumbs",
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    side: "server",
+    "file": "recipes/cooking/soup.json",
+	dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
     "path": "/ingredients/6",
     "value": {
       "code": "salt",

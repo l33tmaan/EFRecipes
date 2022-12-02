@@ -3429,7 +3429,19 @@
       "code": "expandedfoods:acornbreadcrumbs-*"
     },
     side: "server",
-    "file": "recipes/cooking/vegetablestew.json"
+    "file": "recipes/cooking/vegetablestew.json",
+	dependsOn: [{ "modid": "acorns" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:herbalbreadcrumbs"
+    },
+    side: "server",
+    "file": "recipes/cooking/vegetablestew.json",
+	dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
