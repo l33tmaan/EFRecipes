@@ -328,6 +328,9 @@
 			"fill-raspberry" : {base: "wildcraft:block/food/pie/fill-raspberry" },
 		},
   	},
+	"grindingPropsByType": {
+		"@*-(partbaked|cooked|charred)": { "grindedStack": { "type":  "item", "code": "expandedfoods:herbalacornbreadcrumbs", "quantity": 4 } },
+	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-partbaked": {saturation: 145, foodcategory: "Grain" },

@@ -185,4 +185,12 @@
     "side": "server",
     dependsOn: [{ "modid": "wildcraft" }]
   },
+  {
+    "op": "add",
+    "path": "/ingredients/11/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:herbalacornbreadcrumbs"},
+    "file": "recipes/mixing/salad.json",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+  },
 ]

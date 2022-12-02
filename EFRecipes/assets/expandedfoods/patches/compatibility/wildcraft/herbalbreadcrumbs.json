@@ -1,0 +1,34 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/wildcraft/herbalbreadcrumbs.json",
+    "side": "server",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/grid/wildcraft/herbalbreadcrumbs.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/grid/wildcraft/herbalbreadcrumbs.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/grid/wildcraft/herbalbreadcrumbs.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+ },
+]
