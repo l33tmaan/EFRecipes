@@ -1,0 +1,108 @@
+﻿[
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "expandedfoods:fruitsyrupportion-apple",
+				quantity: 10
+			},
+			{
+				type: "item",
+				code: "game:fruit-pinkapple",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:candiedfruit-apple",
+				"quantity": 1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "expandedfoods:fruitsyrupportion-apple",
+				quantity: 10
+			},
+			{
+				type: "item",
+				code: "game:fruit-redapple",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:candiedfruit-apple",
+				"quantity": 1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "expandedfoods:fruitsyrupportion-apple",
+				quantity: 10
+			},
+			{
+				type: "item",
+				code: "game:fruit-yellowapple",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:candiedfruit-apple",
+				"quantity": 1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "expandedfoods:fruitsyrupportion-*",
+				quantity: 10,
+				"name": "fruit",
+			},
+			{
+				type: "item",
+				code: "game:fruit-*",
+				quantity: 1,
+				"name": "fruit",
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:candiedfruit-{fruit}",
+				"quantity": 1
+			},
+			requiresContainer: false
+		}
+	},
+]

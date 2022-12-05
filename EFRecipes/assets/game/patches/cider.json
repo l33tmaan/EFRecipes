@@ -34,5 +34,23 @@
     ],
     "side": "server",
     "file": "itemtypes/liquid/cider.json"
-  }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "value": {
+        "saturation": 160,
+        "foodcategoryByType": {
+            "*-spelt": "grain", 
+            "*-rice": "grain",             
+            "*-rye": "grain", 
+            "*-amaranth": "grain", 
+            "*-cassava": "grain", 
+            "*-breadfruit": "grain", 
+            "*": "fruit", 
+        },
+    },
+    "side": "server",
+    "file": "itemtypes/liquid/cider.json"
+  },
 ]

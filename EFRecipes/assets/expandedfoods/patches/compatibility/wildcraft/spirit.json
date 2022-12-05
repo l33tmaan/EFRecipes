@@ -34,5 +34,15 @@
     ],
     "side": "server",
     "file": "wildcraft:itemtypes/liquid/alcohol/spirit.json"
-  }
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "value": {
+        "saturation": 160,
+        "foodcategory": "fruit",
+    },
+    "side": "server",
+    "file": "wildcraft:itemtypes/liquid/alcohol/spirit.json"
+  },
 ]
