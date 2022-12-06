@@ -680,14 +680,6 @@
     dependsOn: [{ "modid": "ancienttools", "invert": true }]
   },
   {
-    "file": "expandedfoods:recipes/simmering/ancienttools/breadedvegetable.json",
-    op: "add", 
-    path: "/44/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools", "invert": true }]
-  },
-  {
     "file": "expandedfoods:recipes/simmering/ancienttools/stuffedpepper.json",
     op: "add", 
     path: "/0/enabled", 

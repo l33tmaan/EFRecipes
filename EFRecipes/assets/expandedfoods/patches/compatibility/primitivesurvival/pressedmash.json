@@ -1,0 +1,29 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-fish",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:fishsauce",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "side": "server",
+    "file": "game:itemtypes/resource/pressedmash.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "addeach",
+    "side": "server",
+    "path": "/variantgroups/0/states/-",
+    "value": [ "fish" ],
+    "file": "game:itemtypes/resource/pressedmash.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+]
