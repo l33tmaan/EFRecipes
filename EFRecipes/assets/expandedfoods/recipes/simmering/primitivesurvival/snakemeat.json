@@ -1,0 +1,54 @@
+[
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "primitivesurvival:snakemeat-raw",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "primitivesurvival:snakemeat-partbaked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+			type: "item",
+				code: "waterportion",
+				quantity: 50
+			},
+			{
+				type: "item",
+				code: "primitivesurvival:snakemeat-partbaked",
+				quantity: 1
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 110,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "primitivesurvival:snakemeat-cooked",
+				"quantity":  1
+			},
+			requiresContainer: false
+		}
+	}		
+]
