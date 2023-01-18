@@ -512,4 +512,52 @@
     side: "server",
     dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
   },
+  {
+    "file": "expandedfoods:recipes/simmering/primitivesurvival/crabmeat.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/primitivesurvival/crabmeat.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+  },  
+  {
+    "file": "expandedfoods:recipes/simmering/primitivesurvival/fish.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/primitivesurvival/fish.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/primitivesurvival/snakemeat.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/primitivesurvival/snakemeat.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+  },             
 ]
