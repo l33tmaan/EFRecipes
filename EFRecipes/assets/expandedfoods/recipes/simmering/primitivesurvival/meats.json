@@ -2,13 +2,15 @@
 	{
 		Ingredients: [
 			{
-			type: "item",
+				type: "item",
 				code: "waterportion",
 				quantity: 50
 			},
 			{
 				type: "item",
-				code: "primitivesurvival:fishfillet-raw",
+				code: "primitivesurvival:*-raw",
+				allowedVariants: ["snakemeat", "crabmeat", "fishfillet"],
+				name: "meat",
 				quantity: 1
 			}
 		],
@@ -19,7 +21,7 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "primitivesurvival:fishfillet-partbaked",
+				code: "primitivesurvival:{meat}-partbaked",
 				"quantity":  1
 			},
 			requiresContainer: false
@@ -28,13 +30,15 @@
 	{
 		Ingredients: [
 			{
-			type: "item",
+				type: "item",
 				code: "waterportion",
 				quantity: 50
 			},
 			{
 				type: "item",
-				code: "primitivesurvival:fishfillet-partbaked",
+				code: "primitivesurvival:*-partbaked",
+				allowedVariants: ["snakemeat", "crabmeat", "fishfillet"], 
+				name: "meat",
 				quantity: 1
 			}
 		],
@@ -45,10 +49,10 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "primitivesurvival:fishfillet-cooked",
+				code: "primitivesurvival:{meat}-cooked",
 				"quantity":  1
 			},
 			requiresContainer: false
 		}
-	}	
+	}		
 ]
