@@ -16,8 +16,18 @@
     <None Update="**\*.tt">
 	    <Generator>TextTemplatingFileGenerator</Generator>
 	</None>
+    <None Update="assets\expandedfoods\recipes\simmering\broth.json">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>broth.tt</DependentUpon>
+    </None>
     <None Update="assets\expandedfoods\recipes\simmering\broth.tt">
       <LastGenOutput>broth.json</LastGenOutput>
+    </None>
+    <None Update="assets\expandedfoods\recipes\simmering\primitivesurvival\broth.json">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>broth.tt</DependentUpon>
     </None>
     <None Update="assets\expandedfoods\recipes\simmering\primitivesurvival\broth.tt">
       <LastGenOutput>broth.json</LastGenOutput>

@@ -1,0 +1,10 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ include file="..\..\broth.ttinclude" #>
+<#@ output extension=".json" #>
+[
+<#	
+	WriteBrothBlock("expandedfoods:brothportion-fish", "primitivesurvival:*-partbaked", 1, "fishfillet", "crabmeat");
+
+	WriteMeatBrothBlock("primitivesurvival:snakemeat-partbaked");
+#>
+]

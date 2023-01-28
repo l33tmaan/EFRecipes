@@ -1,4 +1,5 @@
-﻿[
+﻿
+[
 {
 	Ingredients: [
 		{
@@ -9,8 +10,11 @@
 		{
 			type: "item",
 			code: "primitivesurvival:*-partbaked",
-			allowedVariants: ["fishfillet", "crabmeat"],
-			quantity: 2
+			allowedVariants: [ 
+				"fishfillet",
+				"crabmeat",
+			],
+			quantity: 1
 		}
 	],
 	Simmering: {
@@ -36,7 +40,7 @@
 		{
 			type: "item",
 			code: "primitivesurvival:snakemeat-partbaked",
-			quantity: 2
+			quantity: 1
 		}
 	],
 	Simmering: {
