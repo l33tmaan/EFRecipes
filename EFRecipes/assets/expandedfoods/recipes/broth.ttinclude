@@ -7,7 +7,8 @@
   /// <param name="outputCode">Itemcode for the produced broth portion</param>
   /// <param name="code">Code of the allowed solid ingredient. May contain a wildcard.</param>
   /// <param name="quantity">Quantity of solid ingredient needed</param>
-  /// <param name="allowedVariants">Optional array of variants for the <paramref cref="code" /> ingredient. If missing or empty, no <c>allowedVariants: [...]</c> block will be generated.</param>
+  /// <param name="allowedVariants">Optional array of variants for the <paramref cref="code" /> ingredient. 
+  /// If missing or empty, no <c>allowedVariants: [...]</c> block will be generated.</param>
   void WriteBrothBlock(string outputCode, string code, int quantity = 1, params string[] allowedVariants) {
 #>
 {
