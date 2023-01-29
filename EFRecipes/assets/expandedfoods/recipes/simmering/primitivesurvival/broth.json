@@ -1,4 +1,3 @@
-﻿
 [
 {
 	Ingredients: [
@@ -39,7 +38,89 @@
 		},
 		{
 			type: "item",
+			code: "expandedfoods:fishnugget-*partbaked",
+			allowedVariants: [ 
+				"tender",
+				"cooked",
+			],
+			quantity: 1
+		}
+	],
+	Simmering: {
+		meltingPoint: 200,
+		meltingDuration: 110,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:brothportion-fish",
+			"quantity":  50
+		},
+		requiresContainer: false
+	}
+},
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "waterportion",
+			quantity: 100
+		},
+		{
+			type: "item",
+			code: "expandedfoods:crabnugget-partbaked",
+			quantity: 1
+		}
+	],
+	Simmering: {
+		meltingPoint: 200,
+		meltingDuration: 110,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:brothportion-fish",
+			"quantity":  50
+		},
+		requiresContainer: false
+	}
+},
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "waterportion",
+			quantity: 100
+		},
+		{
+			type: "item",
 			code: "primitivesurvival:snakemeat-partbaked",
+			quantity: 1
+		}
+	],
+	Simmering: {
+		meltingPoint: 200,
+		meltingDuration: 110,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:brothportion-meat",
+			"quantity":  50
+		},
+		requiresContainer: false
+	}
+},
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "waterportion",
+			quantity: 100
+		},
+		{
+			type: "item",
+			code: "expandedfoods:snakenugget-partbaked",
 			quantity: 1
 		}
 	],

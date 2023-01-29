@@ -3,8 +3,28 @@
 <#@ output extension=".json" #>
 [
 <#	
-	WriteBrothBlock("expandedfoods:brothportion-fish", "primitivesurvival:*-partbaked", 1, "fishfillet", "crabmeat");
+
+	string[] seafoodVariantsPlain = new[] {
+		"fishfillet",
+		"crabmeat",
+	};
+	string[] fishNuggetVariants = new[] {
+		"tender",
+		"cooked",
+	};
+
+	WriteFishBrothBlock("primitivesurvival:*-partbaked", allowedVariants: seafoodVariantsPlain);		// plain fish & crab broths
+	WriteFishBrothBlock("expandedfoods:fishnugget-*partbaked", allowedVariants: fishNuggetVariants);	// fish nuggets & smashed fish
+
+	WriteFishBrothBlock("expandedfoods:crabnugget-partbaked");
 
 	WriteMeatBrothBlock("primitivesurvival:snakemeat-partbaked");
+	WriteMeatBrothBlock("expandedfoods:snakenugget-partbaked");
+	
 #>
 ]
+<#+
+	void WriteFishBrothBlock(string inputCode, int quantity = 1, params string[] allowedVariants) {
+		WriteBrothBlock("expandedfoods:brothportion-fish", inputCode, quantity, allowedVariants);	
+	}
+#>
