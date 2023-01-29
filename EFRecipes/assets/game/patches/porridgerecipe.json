@@ -1955,6 +1955,24 @@
             "bonebroth"
           ]
         },
+        {
+          "type": "item",
+          "code": "expandedfoods:brothportion-meat",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "meatbroth"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:brothportion-vegetable",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "vegetablebroth"
+          ]
+        },
        {
           "type": "item",
           "code": "expandedfoods:foodoilportion-*",
@@ -1978,13 +1996,24 @@
     "file": "recipes/cooking/porridge.json"
   },
  {
-    "op": "add",
+    "op": "addeach",
     "path": "/ingredients/6/validStacks/-",
-    "value": {
-          "type": "item",
-          "code": "expandedfoods:fishsauce",
-          "shapeElement": "bowl/topping/*"
-    },
+    "value": [
+        {
+            "type": "item",
+            "code": "expandedfoods:fishsauce",
+            "shapeElement": "bowl/topping/*"
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:brothportion-fish",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "fishbroth"
+            ]
+        },
+    ],
     "side": "server",
     "file": "recipes/cooking/porridge.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
