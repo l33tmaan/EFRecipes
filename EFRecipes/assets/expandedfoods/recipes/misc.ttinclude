@@ -1,0 +1,41 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#+
+
+	/// <summary>
+	/// Writes <paramref cref="values" /> out as a single line json array in the form of <c>[ "foo", "bar", ]</c>.
+	/// </summary>	
+	void WriteJsonArray(params string[] values) {
+#>[<#+   
+		foreach	(var entry in values) {
+			#> "<#= entry #>",<#+
+		}
+#> ]<#+
+	}
+
+	/// <summary>
+	/// Writes <paramref cref="key" /> out as a json key (optionally enclosed in quotes) in the form 	
+	/// of <c>foo: </c> or <c>"foo": </c>.
+	/// </summary>	
+	void WriteJsonKey(string key, bool quoted = false) {
+		if (quoted) { #>"<#+}
+		#><#= key #><#+
+		if (quoted) { #>"<#+}
+		#>: <#+
+	}
+
+	/// <summary>
+	/// Writes <paramref cref="variants" /> as <c>allowedVariants: [ "variant1", "variant2", ...],</c> 
+	/// <em>if</em> <paramref cref="variants" /> is not empty.
+	/// </summary>	
+	void WriteAllowedVariants(params string[] variants) {
+		if (variants.Length != 0) {
+			WriteJsonKey("allowedVariants");
+			WriteJsonArray(variants);
+			#>,
+<#+
+		}
+	}
+#>

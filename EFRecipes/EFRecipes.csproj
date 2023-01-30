@@ -2,7 +2,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>9</LangVersion>
+    <PublishRelease>True</PublishRelease>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="publish\**" />
+    <EmbeddedResource Remove="publish\**" />
+    <None Remove="publish\**" />
+  </ItemGroup>
   <ItemGroup>
 	<None Update="**\*.json">
 		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -84,6 +90,9 @@
       <HintPath>$(AppData)\Vintagestory\Mods\VSSurvivalMod.dll</HintPath>
       <Private>false</Private>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
   </ItemGroup>
   <ProjectExtensions><VisualStudio><UserProperties assets_4expandedfoods_4lang_4en_1json__JsonSchema="https://carafe.fm/schema/draft-02/bundle.schema.json" /></VisualStudio></ProjectExtensions>  
 </Project>

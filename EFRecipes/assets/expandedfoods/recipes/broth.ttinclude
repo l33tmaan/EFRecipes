@@ -1,4 +1,5 @@
 ﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ include file="misc.ttinclude "#>
 <#+
 
   /// <summary>
@@ -21,16 +22,8 @@
 		{
 			type: "item",
 			code: "<#= code #>",
-<#+			if (allowedVariants.Length != 0) { #>
-			allowedVariants: [ 
-<#+			foreach (var variant in allowedVariants) {
-#>				"<#= variant #>",
-<#+
-			}
-#>
-			],
-<#+			} 
-#>			quantity: <#= quantity #>
+			<#+	WriteAllowedVariants(allowedVariants); #>
+			quantity: <#= quantity #>
 		}
 	],
 	Simmering: {
