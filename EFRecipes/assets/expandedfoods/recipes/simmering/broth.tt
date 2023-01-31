@@ -1,0 +1,44 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ include file="..\mushrooms.ttinclude "#>
+<#@ include file="..\broth.ttinclude "#>
+<#@ output extension=".json" #>
+[
+<#
+	// bone broth
+	WriteBoneBrothBlock("game:bone");
+
+
+	// veggie broth - whole *or* chopped
+	string[] veggieBases = new[] { 
+		"expandedfoods:cookedveggie-*-partbaked",
+		"expandedfoods:cookedchoppedvegetable-*-partbaked"
+	};
+	foreach (string entry in veggieBases) {
+		WriteVeggieBrothBlock(entry);
+	}
+
+	// veggie broth from mushrooms - whole *or* chopped. Non poisonous only
+	string[] shroomBases = new[] { 
+		"expandedfoods:cookedmushroom-*-partbaked",
+		"expandedfoods:cookedchoppedmushroom-*-partbaked",
+	};
+	string[] mushroomVariants = NonPoisonousMushrooms();
+	foreach (string entry in shroomBases) {
+		WriteVeggieBrothBlock(entry, allowedVariants: mushroomVariants);
+	}
+
+
+	// meat broth from partbaked meats. Whole, smashed or chopped
+	string[] meatBases = new[] {
+		"game:*-partbaked",									// "plain" meat
+		"expandedfoods:meatnugget-*-cookedpartbaked",		// nuggets
+		"expandedfoods:meatnugget-*-tenderpartbaked"		// smashed
+	};
+	string[] meatVariants = new[] { "bushmeat", "redmeat", "poultry" };
+
+	foreach (string entry in meatBases) {
+		WriteMeatBrothBlock(entry, allowedVariants: meatVariants);
+	}
+	
+#>
+]

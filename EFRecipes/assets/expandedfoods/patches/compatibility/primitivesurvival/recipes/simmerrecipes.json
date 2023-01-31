@@ -136,6 +136,30 @@
     dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
   },  
   {
+    "file": "expandedfoods:recipes/simmering/primitivesurvival/broth.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+  },  
+  {
+    "file": "expandedfoods:recipes/simmering/primitivesurvival/broth.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+  },  
+  {
+    "file": "expandedfoods:recipes/simmering/primitivesurvival/broth.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+  },     
+  {
     "file": "expandedfoods:recipes/simmering/primitivesurvival/crabnugget.json",
     op: "add", 
     path: "/0/enabled", 

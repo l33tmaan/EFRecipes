@@ -1,0 +1,68 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#+
+
+	string[] All_Mushrooms = new [] {
+		// copied from survival/pot.json - should have all shrooms
+		"fieldmushroom",
+		"flyagaric",
+		"kingbolete",				
+		"almondmushroom",
+		"beardedtooth",
+		"bitterbolete",
+		"blacktrumpet",
+		"chanterelle",
+		"chickenofthewoods",
+		"commonmorel",
+		"deathcap",
+		"devilstooth",
+		"devilbolete",
+		"dryadsaddle",
+		"earthball",
+		"elfinsaddle",
+		"golddropmilkcap",
+		"greencrackedrussula",
+		"indigomilkcap",
+		"jackolantern",
+		"kingbolete",
+		"lobster",
+		"orangeoakbolete",
+		"paddystraw",
+		"pinkoyster",
+		"puffball",
+		"redwinecap",
+		"saffronmilkcap",
+		"tinderhoof",
+		"violetwebcap",
+		"whiteoyster",				
+		"reishi",
+		"funeralbell",
+		"deerear",
+		"livermushroom",
+		"pinkbonnet",
+		"shiitake",
+		"witchhat"
+	};
+
+	string[] Poisonous_Mushrooms = new [] {
+		"earthball" ,
+		"deathcap",
+		"elfinsaddle",
+		"jackolantern",
+		"devilbolete",
+		"flyagaric",
+		"bitterbolete",
+		"devilstooth",
+		"golddropmilkcap",
+		"funeralbell",
+		"pinkbonnet"
+	};
+
+	public string[] NonPoisonousMushrooms() {
+		var tmp = new List<string>(All_Mushrooms);
+		tmp.RemoveAll(s => Poisonous_Mushrooms.Contains(s));
+		return tmp.ToArray();
+	}
+#>

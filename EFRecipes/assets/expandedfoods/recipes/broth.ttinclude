@@ -1,0 +1,57 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ include file="misc.ttinclude "#>
+<#+
+
+  /// <summary>
+  /// Shared template for any broth simmering portion
+  /// </summary>
+  /// <param name="outputCode">Itemcode for the produced broth portion</param>
+  /// <param name="code">Code of the allowed solid ingredient. May contain a wildcard.</param>
+  /// <param name="quantity">Quantity of solid ingredient needed</param>
+  /// <param name="allowedVariants">Optional array of variants for the <paramref cref="code" /> ingredient. 
+  /// If missing or empty, no <c>allowedVariants: [...]</c> block will be generated.</param>
+  void WriteBrothBlock(string outputCode, string code, int quantity = 1, params string[] allowedVariants) {
+#>
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "waterportion",
+			quantity: 100
+		},
+		{
+			type: "item",
+			code: "<#= code #>",
+			<#+	WriteAllowedVariants(allowedVariants); #>
+			quantity: <#= quantity #>
+		}
+	],
+	Simmering: {
+		meltingPoint: 200,
+		meltingDuration: 110,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "<#= outputCode #>",
+			"quantity":  50
+		},
+		requiresContainer: false
+	}
+},
+<#+
+    }
+
+    void WriteBoneBrothBlock(string ingredientCode, int quantity = 1, params string[] allowedVariants) {
+		WriteBrothBlock("expandedfoods:brothportion-bone", ingredientCode, quantity, allowedVariants);
+	}
+
+    void WriteMeatBrothBlock(string ingredientCode, int quantity = 1, params string[] allowedVariants) {
+		WriteBrothBlock("expandedfoods:brothportion-meat", ingredientCode, quantity, allowedVariants);
+	}
+
+	void WriteVeggieBrothBlock(string ingredientCode, int quantity = 1, params string[] allowedVariants) {
+		WriteBrothBlock("expandedfoods:brothportion-vegetable", ingredientCode, quantity, allowedVariants);
+	}
+
+#>
