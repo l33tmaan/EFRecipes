@@ -28,7 +28,7 @@ namespace EFRecipes.Patches {
 
                 ItemSlot handSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
 
-                if (!handSlot.Empty && handSlot.Itemstack.Item.Code == lzHoneyMash.Value) {
+                if (handSlot?.Empty == false && handSlot.Itemstack?.Item?.Code == lzHoneyMash.Value) {
                     __result = false;
                     return false;
                 }
