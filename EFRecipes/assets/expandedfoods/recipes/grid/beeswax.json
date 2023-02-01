@@ -1,9 +1,11 @@
-﻿ {
-	ingredientPattern: "B",
-	ingredients: {
-		"B": { type: "item", code: "game:pressedmash-honey"  }
+﻿[
+	{
+		ingredientPattern: "B",
+		ingredients: {
+			"B": { type: "item", code: "game:pressedmash-honey", quantity: 1  }
+		},
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:beeswax", quantity: 5 }
 	},
-	width: 1,
-	height: 1,
-	output: { type: "item", code: "game:beeswax", quantity: 4 }
-}
+]

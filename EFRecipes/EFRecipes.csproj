@@ -4,23 +4,23 @@
     <LangVersion>9</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-  <ItemGroup>
     <Compile Remove="publish\**" />
     <EmbeddedResource Remove="publish\**" />
     <None Remove="publish\**" />
   </ItemGroup>    
-	<None Update="**\*.json">
-		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	</None>
-	<None Update="**\*.png">
-		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	</None>
-	<None Update="**\*.ttinclude">
-	  <Generator></Generator>
-	</None>
-    <None Update="**\*.tt">
-	    <Generator>TextTemplatingFileGenerator</Generator>
-	</None>
+  <ItemGroup>
+    <None Update="**\*.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="**\*.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="**\*.ttinclude">
+      <Generator></Generator>
+    </None>
+      <None Update="**\*.tt">
+        <Generator>TextTemplatingFileGenerator</Generator>
+    </None>
     <None Update="assets\expandedfoods\recipes\simmering\broth.tt">
       <LastGenOutput>broth.json</LastGenOutput>
     </None>

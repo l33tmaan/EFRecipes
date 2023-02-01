@@ -1,5 +1,6 @@
 ﻿using ACulinaryArtillery;
 using ACulinaryArtillery.Util;
+using HarmonyLib;
 using System;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
@@ -10,8 +11,13 @@ namespace EFRecipes
 {
     public class EFRecipes : ModSystem
     {
-            public override void Start(ICoreAPI api)
+        Harmony _harmony;
+
+        public override void Start(ICoreAPI api)
 		{
+            _harmony = new Harmony("ExpandedFoods.Patches");
+            _harmony.PatchAll(typeof(EFRecipes).Assembly);
+
 			base.Start(api);
 
 			CookingRecipe.NamingRegistry["compote"] = new acaRecipeNames();
@@ -22,5 +28,10 @@ namespace EFRecipes
             CookingRecipe.NamingRegistry["pastahot"] = new acaRecipeNames();
             CookingRecipe.NamingRegistry["pastacold"] = new acaRecipeNames();
 		}
-	}
+
+        public override void Dispose() {
+            base.Dispose();
+            _harmony.UnpatchAll();
+        }
+    }
 }
