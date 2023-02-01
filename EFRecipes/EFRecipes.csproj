@@ -4,6 +4,11 @@
     <LangVersion>9</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+  <ItemGroup>
+    <Compile Remove="publish\**" />
+    <EmbeddedResource Remove="publish\**" />
+    <None Remove="publish\**" />
+  </ItemGroup>    
 	<None Update="**\*.json">
 		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	</None>
