@@ -13,7 +13,6 @@
 			validStacks: [ 
 				{ type: "item", code: "cheese-cheddar-1slice",  shapeElement: "bowl/cheese" },
 				{ type: "item", code: "cheese-blue-1slice",  shapeElement: "bowl/cheese" },
-				{ type: "item", code: "cottagecheeseportion",  shapeElement: "bowl/cheese" },
 			],
 			minQuantity: 1,
 			maxQuantity: 1,
@@ -24,6 +23,7 @@
 				{ type: "item", code: "milkportion",  shapeElement: "bowl/cheese2" },
 				{ type: "item", code: "expandedfoods:pasteurizedmilkportion",  shapeElement: "bowl/cheese2" },
 				{ type: "item", code: "expandedfoods:soymilk-edible",  shapeElement: "bowl/cheese2" },
+				{ type: "item", code: "cottagecheeseportion",  shapeElement: "bowl/cheese2" },
 			],
 			minQuantity: 1,
 			maxQuantity: 1,
@@ -267,7 +267,6 @@
 			validStacks: [ 
 				{ type: "item", code: "cheese-cheddar-1slice",  shapeElement: "bowl/cheese" },
 				{ type: "item", code: "cheese-blue-1slice",  shapeElement: "bowl/cheese" },
-				{ type: "item", code: "cottagecheeseportion",  shapeElement: "bowl/cheese" },
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
@@ -277,7 +276,6 @@
 			validStacks: [ 
 				{ type: "item", code: "cheese-cheddar-1slice",  shapeElement: "bowl/cheese" },
 				{ type: "item", code: "cheese-blue-1slice",  shapeElement: "bowl/cheese" },
-				{ type: "item", code: "cottagecheeseportion",  shapeElement: "bowl/cheese" },
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
@@ -297,6 +295,7 @@
 				{ type: "item", code: "expandedfoods:soysauce",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "fishsauce"] }, 
 				{ type: "item", code: "expandedfoods:foodoilportion-*",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
 				{ type: "item", code: "expandedfoods:lard",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "lard"] }, 
+				{ type: "item", code: "cottagecheeseportion",  shapeElement: "bowl/cheese" },
 			],
 			minQuantity: 0,
 			maxQuantity: 1,

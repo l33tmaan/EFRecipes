@@ -454,7 +454,6 @@
 			validStacks: [ 
 				{ type: "item", code: "game:cheese-cheddar-1slice",  shapeElement: "bowl/cheese1/*", textureMapping: ["cheesebase", "cheese-cheddar-1slice"] },
 				{ type: "item", code: "game:cheese-blue-1slice",  shapeElement: "bowl/cheese1/*", textureMapping: ["cheesebase", "cheese-blue-1slice"]  },
-				{ type: "item", code: "game:cottagecheeseportion",  shapeElement: "bowl/cheese1/*", textureMapping: ["cheesebase", "cottagecheesemelt"]  },
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
@@ -464,7 +463,6 @@
 			validStacks: [ 
 				{ type: "item", code: "game:cheese-cheddar-1slice",  shapeElement: "bowl/cheese2/*", textureMapping: ["cheesebase", "cheese-cheddar-1slice"]  },
 				{ type: "item", code: "game:cheese-blue-1slice",  shapeElement: "bowl/cheese2/*", textureMapping: ["cheesebase", "cheese-blue-1slice"]  },
-				{ type: "item", code: "game:cottagecheeseportion",  shapeElement: "bowl/cheese2/*", textureMapping: ["cheesebase", "cottagecheesemelt"]  },
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
@@ -524,6 +522,7 @@
 				{ type: "item", code: "expandedfoods:soysauce",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "fishsauce"] }, 
 				{ type: "item", code: "expandedfoods:foodoilportion-*",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
 				{ type: "item", code: "expandedfoods:lard",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "lard"] }, 
+				{ type: "item", code: "game:cottagecheeseportion",  shapeElement: "bowl/cheese1/*", textureMapping: ["cheesebase", "cottagecheesemelt"]  },
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
