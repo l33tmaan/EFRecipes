@@ -143,8 +143,8 @@
     "op": "add",
     "path": "/transitionablePropsByType",
     "value": {
-      "game:pressedmash-honey": null,
-      "game:pressedmash-*": null
+      "*-honey": null,
+      "*": null
     },
     "side": "server",
     "file": "game:itemtypes/resource/pressedmash.json"    
@@ -152,7 +152,7 @@
   {
     "op": "move",
     "fromPath": "/62a0089e-5444-4b79-9481-d36dd4bd748b",
-    "path": "/transitionablePropsByType/game:pressedmash-*",
+    "path": "/transitionablePropsByType/*",
     "side": "server",
     "file": "game:itemtypes/resource/pressedmash.json"    
   },    
