@@ -4,7 +4,7 @@
 	recipeGroup: 1,
 	ingredients: {
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-fired" }
+		"B": { type: "block", code: "game:bowl-fired", "returnedStack": { "type": "block", "code": "game:air" } }
 	},
 	attributes: {
 		liquidContainerProps: {
@@ -21,7 +21,7 @@
 	recipeGroup: 1,
 	ingredients: {
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-fired" }
+		"B": { type: "block", code: "game:bowl-fired", "returnedStack": { "type": "block", "code": "game:air" } }
 	},
 	attributes: {
 		liquidContainerProps: {
@@ -38,7 +38,7 @@
 	recipeGroup: 1,
 	ingredients: {
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-fired" }
+		"B": { type: "block", code: "game:bowl-fired", "returnedStack": { "type": "block", "code": "game:air" } }
 	},
 	attributes: {
 		liquidContainerProps: {
@@ -76,7 +76,7 @@
 			code: "game:woodbucket"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-fired" }
+		"B": { type: "block", code: "game:bowl-fired", "returnedStack": { "type": "block", "code": "game:air" } }
 	},
 	attributes: {
 		liquidContainerProps: {
@@ -93,7 +93,7 @@
 	recipeGroup: 1,
 	ingredients: {
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-fired" }
+		"B": { type: "block", code: "game:bowl-fired", "returnedStack": { "type": "block", "code": "game:air" } }
 	},
 	attributes: {
 		liquidContainerProps: {
