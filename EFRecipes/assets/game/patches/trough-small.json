@@ -419,4 +419,103 @@
     "file": "blocktypes/wood/trough-small.json",
     dependsOn: [{ "modid": "ancienttools"}]
   },
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "acornbreadcrumbs",
+      "content": {
+        "type": "item",
+        "code": "expandedfoods:acornbreadcrumbs-*"
+      },
+      "quantityPerFillLevel": 1,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill4",
+        "block/wood/trough/small/eggfill4"
+      ],
+      "foodFor": [
+        "chicken-*"
+      ],
+      "textureCode": "contents-acorn"
+    },
+    side: "server",
+    "file": "blocktypes/wood/trough-small.json",
+    dependsOn: [{ "modid": "acorns"}]
+  },
+  {
+    "op": "add",
+    "path": "/textures/contents-acorn",
+    "value": {
+      "base": "block/wood/trough/small/acorn"
+    },
+    "file": "blocktypes/wood/trough-small.json",
+    dependsOn: [{ "modid": "acorns"}]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "herbalbreadcrumbs",
+      "content": {
+        "type": "item",
+        "code": "expandedfoods:herbalbreadcrumbs"
+      },
+      "quantityPerFillLevel": 1,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill4",
+        "block/wood/trough/small/eggfill4"
+      ],
+      "foodFor": [
+        "chicken-*"
+      ],
+      "textureCode": "contents-spelt"
+    },
+    side: "server",
+    "file": "blocktypes/wood/trough-small.json",
+    dependsOn: [{ "modid": "wildcraft"}]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "herbalacornbreadcrumbs",
+      "content": {
+        "type": "item",
+        "code": "expandedfoods:herbalacornbreadcrumbs"
+      },
+      "quantityPerFillLevel": 1,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill4",
+        "block/wood/trough/small/eggfill4"
+      ],
+      "foodFor": [
+        "chicken-*"
+      ],
+      "textureCode": "contents-acorn"
+    },
+    side: "server",
+    "file": "blocktypes/wood/trough-small.json",
+    dependsOn: [{ "modid": "wildcraft"}, { "modid": "acorns"}]
+  },
 ]
