@@ -1,0 +1,97 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"ceramic": "game:block/clay/ceramic",
+		"peat": "game:block/soil/peat"
+	},
+	"elements": [
+		{
+			"name": "Bowl 1 floor",
+			"from": [ 6.5, 0.0, 6.5 ], 
+			"to": [ 9.5, 1.0, 9.5 ], 
+			"faces": {
+				"north": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#ceramic", "uv": [ 10.0, 2.0, 13.0, 5.0 ] },
+				"down": { "texture": "#ceramic", "uv": [ 5.0, 5.0, 8.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "N 1",
+					"from": [ -1.0, 0.0, -1.0 ], 
+					"to": [ 4.0, 2.0, 0.0 ], 
+					"faces": {
+						"north": { "texture": "#ceramic", "uv": [ 6.0, 5.0, 11.0, 7.0 ] },
+						"east": { "texture": "#ceramic", "uv": [ 9.0, 6.0, 10.0, 8.0 ] },
+						"south": { "texture": "#ceramic", "uv": [ 4.0, 7.0, 9.0, 9.0 ] },
+						"west": { "texture": "#ceramic", "uv": [ 12.0, 1.0, 13.0, 3.0 ] },
+						"up": { "texture": "#ceramic", "uv": [ 3.0, 12.0, 8.0, 13.0 ] },
+						"down": { "texture": "#ceramic", "uv": [ 2.0, 10.0, 7.0, 11.0 ] }
+					}
+				},
+				{
+					"name": "S 1",
+					"from": [ -1.0, 0.0, 3.0 ], 
+					"to": [ 4.0, 2.0, 4.0 ], 
+					"faces": {
+						"north": { "texture": "#ceramic", "uv": [ 6.0, 10.0, 11.0, 12.0 ] },
+						"east": { "texture": "#ceramic", "uv": [ 6.0, 7.0, 7.0, 9.0 ] },
+						"south": { "texture": "#ceramic", "uv": [ 10.0, 3.0, 15.0, 5.0 ] },
+						"west": { "texture": "#ceramic", "uv": [ 11.0, 5.0, 12.0, 7.0 ] },
+						"up": { "texture": "#ceramic", "uv": [ 7.0, 9.0, 12.0, 10.0 ] },
+						"down": { "texture": "#ceramic", "uv": [ 7.0, 6.0, 12.0, 7.0 ] }
+					}
+				},
+				{
+					"name": "W 1",
+					"from": [ -1.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 2.0, 3.0 ], 
+					"faces": {
+						"north": { "texture": "#ceramic", "uv": [ 1.0, 8.0, 2.0, 10.0 ], "enabled": false },
+						"east": { "texture": "#ceramic", "uv": [ 10.0, 2.0, 13.0, 4.0 ] },
+						"south": { "texture": "#ceramic", "uv": [ 9.0, 1.0, 10.0, 3.0 ], "enabled": false },
+						"west": { "texture": "#ceramic", "uv": [ 4.0, 10.0, 7.0, 12.0 ] },
+						"up": { "texture": "#ceramic", "uv": [ 9.0, 7.0, 10.0, 10.0 ] },
+						"down": { "texture": "#ceramic", "uv": [ 14.0, 12.0, 15.0, 15.0 ] }
+					}
+				},
+				{
+					"name": "E 1",
+					"from": [ 3.0, 0.0, 0.0 ], 
+					"to": [ 4.0, 2.0, 3.0 ], 
+					"faces": {
+						"north": { "texture": "#ceramic", "uv": [ 8.0, 10.0, 9.0, 12.0 ], "enabled": false },
+						"east": { "texture": "#ceramic", "uv": [ 1.0, 6.0, 4.0, 8.0 ] },
+						"south": { "texture": "#ceramic", "uv": [ 13.0, 0.0, 14.0, 2.0 ], "enabled": false },
+						"west": { "texture": "#ceramic", "uv": [ 6.0, 4.0, 9.0, 6.0 ] },
+						"up": { "texture": "#ceramic", "uv": [ 2.0, 4.0, 3.0, 7.0 ] },
+						"down": { "texture": "#ceramic", "uv": [ 1.0, 7.0, 2.0, 10.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Content",
+			"from": [ 6.5, 0.8, 6.5 ], 
+			"to": [ 9.5, 1.9, 9.5 ], 
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 0.8, 8.0 ],
+			"faces": {
+				"north": { "texture": "#peat", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#peat", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#peat", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#peat", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#peat", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+				"down": { "texture": "#peat", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "enabled": false }
+			}
+		}
+	]}
