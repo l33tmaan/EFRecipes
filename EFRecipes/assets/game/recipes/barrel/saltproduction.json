@@ -3,16 +3,16 @@
   code: "water1",
   sealHours: 240,
   ingredients: [
-    { type: "item", code: "waterportion",  litres: 10 }
+    { type: "item", code: "saltwaterportion",  litres: 10 }
   ],
-  output: { type: "item", code: "salt", stackSize: 1 }
+  output: { type: "item", code: "expandedfoods:saltcrystal-dry", stackSize: 1 }
 },
 {
   code: "water2",
-  sealHours: 120,
+  sealHours: 240,
   ingredients: [
-    { type: "item", code: "brineportion",  litres: 10 }
+    { type: "item", code: "brineportion",  litres: 5 }
   ],
-  output: { type: "item", code: "salt", stackSize: 1 }
+  output: { type: "item", code: "expandedfoods:saltcrystal-dry", stackSize: 1 }
 },
 ]
