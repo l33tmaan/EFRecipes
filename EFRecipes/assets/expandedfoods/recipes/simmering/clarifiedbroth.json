@@ -1,0 +1,106 @@
+﻿[
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "expandedfoods:brothportion-bone",
+			quantity: 10
+		},
+		{
+			type: "item",
+			code: "aculinaryartillery:eggwhiteportion",
+			quantity: 10
+		}
+	],
+	Simmering: {
+		meltingPoint: 200,
+		meltingDuration: 110,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:clarifiedbrothportion-bone",
+			"quantity":  10
+		},
+		requiresContainer: false
+	}
+},
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "expandedfoods:brothportion-vegetable",
+			quantity: 10
+		},
+		{
+			type: "item",
+			code: "aculinaryartillery:eggwhiteportion",
+			quantity: 10
+		}
+	],
+	Simmering: {
+		meltingPoint: 200,
+		meltingDuration: 110,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:clarifiedbrothportion-vegetable",
+			"quantity":  10
+		},
+		requiresContainer: false
+	}
+},
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "expandedfoods:brothportion-meat",
+			quantity: 10
+		},
+		{
+			type: "item",
+			code: "aculinaryartillery:eggwhiteportion",
+			quantity: 10
+		}
+	],
+	Simmering: {
+		meltingPoint: 200,
+		meltingDuration: 110,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:clarifiedbrothportion-meat",
+			"quantity":  10
+		},
+		requiresContainer: false
+	}
+},
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "expandedfoods:brothportion-fish",
+			quantity: 10
+		},
+		{
+			type: "item",
+			code: "aculinaryartillery:eggwhiteportion",
+			quantity: 10
+		}
+	],
+	Simmering: {
+		meltingPoint: 200,
+		meltingDuration: 110,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "expandedfoods:clarifiedbrothportion-fish",
+			"quantity":  10
+		},
+		requiresContainer: false
+	}
+},
+]

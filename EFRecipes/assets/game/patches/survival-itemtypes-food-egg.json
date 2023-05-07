@@ -1,29 +1,29 @@
 [
   {
     "op": "add",
-    "path": "/variantgroups/1/states/-",
+    "path": "/variantgroups/1/states/1",
     "value": "boiled",
     "side": "server",
-    "file": "itemtypes/food/egg.json"
+    "file": "game:itemtypes/food/egg.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/1/states/-",
+    "path": "/variantgroups/1/states/2",
     "value": "pickled",
     "side": "server",
-    "file": "itemtypes/food/egg.json"
+    "file": "game:itemtypes/food/egg.json"
   },
   {
     "op": "remove",
     "path": "/texture",
     "side": "server",
-    "file": "itemtypes/food/egg.json"
+    "file": "game:itemtypes/food/egg.json"
   },
   {
     "op": "remove",
     "path": "/transitionableProps",
     "side": "server",
-    "file": "itemtypes/food/egg.json"
+    "file": "game:itemtypes/food/egg.json"
   },
   {
     "op": "add",
@@ -41,7 +41,7 @@
       }
     },
     "side": "server",
-    "file": "itemtypes/food/egg.json"
+    "file": "game:itemtypes/food/egg.json"
   },
   {
     "op": "add",
@@ -81,39 +81,13 @@
       ]
     },
     "side": "server",
-    "file": "itemtypes/food/egg.json"
+    "file": "game:itemtypes/food/egg.json"
   },
   {
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
     "side": "server",
-    "file": "itemtypes/food/egg.json"
-  },
-  {
-    "op": "add",
-    "path": "/attributes/nutritionPropsWhenInMealByType",
-    "value": {
-      "*-pickled": {
-        "saturation": 175,
-        "foodcategory": "Protein"
-      },
-      "*": {
-        "saturation": 200,
-        "foodcategory": "Protein"
-      }
-    },
-    "side": "server",
-    "file": "itemtypes/food/egg.json"
-  },
-  {
-    "op": "add",
-    "path": "/nutritionPropsByType/*-pickled",
-    "value": {
-      "saturation": 140,
-      "foodcategory": "Protein"
-    },
-    "side": "server",
-    "file": "itemtypes/food/egg.json"
+    "file": "game:itemtypes/food/egg.json"
   },
   {
     "op": "add",
@@ -129,14 +103,32 @@
       }
     },
     "side": "server",
-    "file": "itemtypes/food/egg.json"
+    "file": "game:itemtypes/food/egg.json"
   },
   {
     "op": "add",
-    "path": "/classByType",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
-      "*-raw": "EggCrack"
+      "*-pickled": {
+        "saturation": 175,
+        "foodcategory": "Protein"
+      },
+      "*": {
+        "saturation": 200,
+        "foodcategory": "Protein"
+      }
     },
-    "file": "itemtypes/food/egg.json"
-  }
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-pickled",
+    "value": {
+      "saturation": 140,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
 ]
