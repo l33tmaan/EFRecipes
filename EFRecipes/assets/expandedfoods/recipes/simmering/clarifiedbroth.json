@@ -77,30 +77,4 @@
 		requiresContainer: false
 	}
 },
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:brothportion-fish",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "aculinaryartillery:eggwhiteportion",
-			quantity: 10
-		}
-	],
-	Simmering: {
-		meltingPoint: 200,
-		meltingDuration: 110,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:clarifiedbrothportion-fish",
-			"quantity":  10
-		},
-		requiresContainer: false
-	}
-},
 ]
