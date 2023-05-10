@@ -1798,4 +1798,38 @@
     side: "server",
     "file": "recipes/cooking/soup.json"
   },
+  {
+    "op": "add",
+    "path": "/ingredients/7",
+    "value": {
+      "code": "eggyolk",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "aculinaryartillery:eggyolkportion-chicken",
+          "textureMapping": [
+            "topping",
+            "eggyolkchicken"
+          ]
+        },
+      ],
+      "minQuantity": 0,
+        "maxQuantity": 1,
+        "portionSizeLitres": 0.1,
+    },
+    "side": "server",
+    "file": "recipes/cooking/soup.json"
+  },
+ {
+    "op": "addeach",
+    "path": "/ingredients/7/validStacks/-",
+    "value": [
+        {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
+        {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
+        {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "textureMapping": [ "topping", "eggyolkpheasant" ]},
+    ],
+    side: "server",
+    "file": "recipes/cooking/soup.json",	
+	dependsOn: [{ "modid": "moreanimals" }]
+  },
 ]

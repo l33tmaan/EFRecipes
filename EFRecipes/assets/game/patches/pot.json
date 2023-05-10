@@ -2814,4 +2814,43 @@
     side: "server",
     "file": "blocktypes/clay/pot.json",
   },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/eggyolkchicken",
+    "value": {
+      "base": "item/liquid/eggyolk/chicken"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/eggyolkcapercaillie",
+    "value": {
+      "base": "item/liquid/eggyolk/capercaillie"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/eggyolkgoldenpheasant",
+    "value": {
+      "base": "item/liquid/eggyolk/goldenpheasant"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/eggyolkpheasant",
+    "value": {
+      "base": "item/liquid/eggyolk/pheasant"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "moreanimals" }]
+  },
 ]

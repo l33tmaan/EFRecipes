@@ -3616,4 +3616,38 @@
     side: "server",
     dependsOn: [{ "modid": "primitivesurvival" }]
   },
+  {
+    "op": "add",
+    "path": "/ingredients/10",
+    "value": {
+      "code": "eggyolk",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "aculinaryartillery:eggyolkportion-chicken",
+          "textureMapping": [
+            "topping",
+            "eggyolkchicken"
+          ]
+        },
+      ],
+      "minQuantity": 0,
+        "maxQuantity": 1,
+        "portionSizeLitres": 0.1,
+    },
+    "side": "server",
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+ {
+    "op": "addeach",
+    "path": "/ingredients/10/validStacks/-",
+    "value": [
+        {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
+        {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
+        {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "textureMapping": [ "topping", "eggyolkpheasant" ]},
+    ],
+    side: "server",
+    "file": "recipes/cooking/vegetablestew.json",	
+	dependsOn: [{ "modid": "moreanimals" }]
+  },
 ]
