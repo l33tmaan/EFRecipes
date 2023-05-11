@@ -1,0 +1,168 @@
+﻿[
+    {
+        "file": "game:recipes/cooking/soup.json",
+        "op": "addeach",
+        "path": "/ingredients/4/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": ["meatnugget", "fishfillet-raw"]
+            },    
+            {
+                "type": "item",
+                "code": "expandedfoods:crabnugget-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+	            "textureMapping": [
+      		        "meat",
+        	        "crabmeat"
+      	        ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:snakenugget-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+	            "textureMapping": [
+      		        "meat",
+        	        "snakemeat"
+      	        ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-smashed",
+                "shapeElement": "bowl/fish/*",
+                "textureMapping": [ "normal", "fishfillet-raw" ]
+            },
+        ],
+        side: "server",
+        dependsOn: [{ "modid": "primitivesurvival" }]
+    },
+    {
+        "op": "addeach",
+        "path": "/ingredients/4/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "fishfillet-raw"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-dried",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "fishfillet-raw"
+                ]
+            },    
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagecrab-*-raw",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "crabmeat"
+            ]
+        },    
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagecrab-*-dried",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "crabmeat"
+            ]
+        },    
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagesnake-*-raw",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "snakemeat"
+            ]
+        },    
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagesnake-*-dried",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "snakemeat"
+            ]
+        },
+    ],
+    "file": "game:recipes/cooking/soup.json",
+    side: "server",
+    dependsOn: [ { "modid": "primitivesurvival" } ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagefishherb-*-raw",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "fishfillet-raw"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagefishherb-*-dried",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "fishfillet-raw"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagecrabherb-*-raw",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "crabmeat"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagecrabherb-*-dried",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "crabmeat"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagesnakeherb-*-raw",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "snakemeat"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagesnakeherb-*-dried",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "snakemeat"
+            ]
+        },    
+    ],
+    "file": "game:recipes/cooking/soup.json",
+    side: "server",
+    dependsOn: [ { "modid": "primitivesurvival" }, { "modid": "wildcraft" } ]
+  },
+
+]
