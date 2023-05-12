@@ -2203,4 +2203,275 @@
     "file": "recipes/cooking/porridge.json",
     dependsOn: [{ "modid": "acorns" }]
   },
+  {
+    "op": "add",
+    "path": "/ingredients/8",
+    "value": {
+      "code": "nuts-extra1",
+      "validStacks": [
+            { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
+            { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },      
+            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "acorns" ] },      
+],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "side": "server",
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/9",
+    "value": {
+      "code": "meat",
+      "validStacks": [{
+                "type": "item",
+                "code": "expandedfoods:meatnugget-bushmeat-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group8"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:meatnugget-redmeat-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group6"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:meatnugget-poultry-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group5"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:meatnugget-bushmeat-smashed",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group8"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:meatnugget-redmeat-smashed",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group6"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:meatnugget-poultry-smashed",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group5"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:agedmeat-bushmeat-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group8"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:agedmeat-redmeat-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group6"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:agedmeat-poultry-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group5"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-bushmeat-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group8"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-bushmeat-dried",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group8"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-bushmeatcheese-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group8"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-bushmeatcheese-dried",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group8"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-poultry-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group5"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-poultry-dried",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group5"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-poultrycheese-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group5"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-poultrycheese-dried",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group5"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-redmeat-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group6"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-redmeat-dried",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group6"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-redmeatcheese-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group6"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausage-redmeatcheese-dried",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group6"
+                ]
+            }, 
+        ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "side": "server",
+    "file": "recipes/cooking/porridge.json"
+  },
+ {
+    "op": "addeach",
+    "path": "/ingredients/9/validStacks/-",
+    "value": [
+        {"type": "item", "code": "expandedfoods:fishnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
+        {"type": "item", "code": "expandedfoods:fishnugget-smashed", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
+        {"type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
+        {"type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagefish-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
+        {"type": "item", "code": "expandedfoods:sausagefish-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},    
+        {"type": "item", "code": "expandedfoods:sausagecrab-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},    
+        {"type": "item", "code": "expandedfoods:sausagecrab-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget","crabmeat" ]},    
+        {"type": "item", "code": "expandedfoods:sausagesnake-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},    
+        {"type": "item", "code": "expandedfoods:sausagesnake-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
+    ],
+    side: "server",
+    "file": "recipes/cooking/porridge.json",	
+	dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/9/validStacks/-",
+    "value": [
+        {"type": "item", "code": "expandedfoods:sausagefishherb-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
+        {"type": "item", "code": "expandedfoods:sausagefishherb-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
+        {"type": "item", "code": "expandedfoods:sausagecrabherb-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagecrabherb-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},    
+    ],
+    "file": "game:recipes/cooking/porridge.json",
+    side: "server",
+    dependsOn: [ { "modid": "primitivesurvival" }, { "modid": "wildcraft" } ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/9/validStacks/-",
+    "value": [
+        {"type": "item", "code": "expandedfoods:sausageherb-bushmeat-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-bushmeatcheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-bushmeatcheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-poultry-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-poultry-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5"]},
+        {"type": "item", "code": "expandedfoods:sausageherb-poultrycheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-poultrycheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},   
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeat-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "group6" ]},    
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeat-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},    
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeatcheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},    
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeatcheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},    
+    ],
+    "file": "game:recipes/cooking/porridge.json",
+    "side": "server",
+    dependsOn: [ { "modid": "wildcraft" } ]
+  },
 ]

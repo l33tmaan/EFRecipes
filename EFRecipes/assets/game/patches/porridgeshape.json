@@ -2233,5 +2233,394 @@
       ]
     },
     "file": "shapes/block/meal/porridge.json"
-  }
+  },
+  {
+    "op": "add",
+    "path": "/textureSizes",
+    "value": {
+      "meatnugget": [
+        8,
+        8
+      ]
+    },
+    "file": "shapes/block/meal/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/elements/0/children/7",
+    "value": {
+      "name": "meatnugget 1",
+      "from": [
+        0.2,
+        2.3,
+        -0.1
+      ],
+      "to": [
+        0.8,
+        2.7,
+        0.5
+      ],
+      "rotationOrigin": [
+        0.2,
+        2.3,
+        -0.1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#meatnugget",
+          "uv": [
+            4.5,
+            5.0,
+            5.0,
+            5.25
+          ]
+        },
+        "east": {
+          "texture": "#meatnugget",
+          "uv": [
+            3.25,
+            3.0,
+            3.75,
+            3.25
+          ]
+        },
+        "south": {
+          "texture": "#meatnugget",
+          "uv": [
+            3.25,
+            3.75,
+            3.75,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "#meatnugget",
+          "uv": [
+            4.25,
+            4.25,
+            4.75,
+            4.5
+          ]
+        },
+        "up": {
+          "texture": "#meatnugget",
+          "uv": [
+            2.5,
+            4.5,
+            3.0,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "#meatnugget",
+          "uv": [
+            4.75,
+            3.25,
+            5.25,
+            3.75
+          ]
+        }
+      },
+      "children": [
+        {
+          "name": "voxel26",
+          "from": [
+            0.8,
+            0.0,
+            0.4
+          ],
+          "to": [
+            1.2,
+            0.35,
+            0.8
+          ],
+          "rotationOrigin": [
+            0.8,
+            0.0,
+            0.4
+          ],
+          "faces": {
+            "north": {
+              "texture": "#meatnugget",
+              "uv": [
+                5.0,
+                3.5,
+                5.25,
+                3.75
+              ]
+            },
+            "east": {
+              "texture": "#meatnugget",
+              "uv": [
+                3.5,
+                4.5,
+                3.75,
+                4.75
+              ]
+            },
+            "south": {
+              "texture": "#meatnugget",
+              "uv": [
+                4.0,
+                4.75,
+                4.25,
+                5.0
+              ]
+            },
+            "west": {
+              "texture": "#meatnugget",
+              "uv": [
+                2.75,
+                3.5,
+                3.0,
+                3.75
+              ]
+            },
+            "up": {
+              "texture": "#meatnugget",
+              "uv": [
+                4.75,
+                4.75,
+                5.0,
+                5.0
+              ]
+            },
+            "down": {
+              "texture": "#meatnugget",
+              "uv": [
+                3.25,
+                4.0,
+                3.5,
+                4.25
+              ]
+            }
+          }
+        },
+        {
+          "name": "voxel25",
+          "from": [
+            2.1,
+            0.0,
+            2.2
+          ],
+          "to": [
+            2.8,
+            0.5,
+            2.9
+          ],
+          "rotationOrigin": [
+            2.1,
+            0.0,
+            2.2
+          ],
+          "faces": {
+            "north": {
+              "texture": "#meatnugget",
+              "uv": [
+                4.5,
+                4.5,
+                5.0,
+                5.0
+              ]
+            },
+            "east": {
+              "texture": "#meatnugget",
+              "uv": [
+                3.0,
+                4.5,
+                3.5,
+                5.0
+              ]
+            },
+            "south": {
+              "texture": "#meatnugget",
+              "uv": [
+                3.0,
+                3.5,
+                3.5,
+                4.0
+              ]
+            },
+            "west": {
+              "texture": "#meatnugget",
+              "uv": [
+                4.5,
+                5.0,
+                5.0,
+                5.5
+              ]
+            },
+            "up": {
+              "texture": "#meatnugget",
+              "uv": [
+                4.5,
+                4.5,
+                5.0,
+                5.0
+              ]
+            },
+            "down": {
+              "texture": "#meatnugget",
+              "uv": [
+                3.5,
+                3.5,
+                4.0,
+                4.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "voxel24",
+          "from": [
+            2.1,
+            0.0,
+            1.7
+          ],
+          "to": [
+            2.5,
+            0.4,
+            2.1
+          ],
+          "rotationOrigin": [
+            2.1,
+            0.0,
+            1.7
+          ],
+          "faces": {
+            "north": {
+              "texture": "#meatnugget",
+              "uv": [
+                4.5,
+                2.75,
+                4.75,
+                3.0
+              ]
+            },
+            "east": {
+              "texture": "#meatnugget",
+              "uv": [
+                3.0,
+                3.25,
+                3.25,
+                3.5
+              ]
+            },
+            "south": {
+              "texture": "#meatnugget",
+              "uv": [
+                4.25,
+                5.0,
+                4.5,
+                5.25
+              ]
+            },
+            "west": {
+              "texture": "#meatnugget",
+              "uv": [
+                3.25,
+                4.0,
+                3.5,
+                4.25
+              ]
+            },
+            "up": {
+              "texture": "#meatnugget",
+              "uv": [
+                4.75,
+                4.5,
+                5.0,
+                4.75
+              ]
+            },
+            "down": {
+              "texture": "#meatnugget",
+              "uv": [
+                2.75,
+                4.25,
+                3.0,
+                4.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "voxel23",
+          "from": [
+            2.15,
+            0.0,
+            1.2
+          ],
+          "to": [
+            2.65,
+            0.3,
+            1.7
+          ],
+          "rotationOrigin": [
+            2.2,
+            0.0,
+            1.2
+          ],
+          "rotationY": -180.0,
+          "faces": {
+            "north": {
+              "texture": "#meatnugget",
+              "uv": [
+                3.0,
+                3.5,
+                3.5,
+                3.75
+              ]
+            },
+            "east": {
+              "texture": "#meatnugget",
+              "uv": [
+                3.25,
+                4.75,
+                3.75,
+                5.0
+              ]
+            },
+            "south": {
+              "texture": "#meatnugget",
+              "uv": [
+                3.25,
+                3.5,
+                3.75,
+                3.75
+              ]
+            },
+            "west": {
+              "texture": "#meatnugget",
+              "uv": [
+                4.75,
+                2.75,
+                5.25,
+                3.0
+              ]
+            },
+            "up": {
+              "texture": "#meatnugget",
+              "uv": [
+                4.0,
+                4.0,
+                4.5,
+                4.5
+              ]
+            },
+            "down": {
+              "texture": "#meatnugget",
+              "uv": [
+                2.75,
+                4.75,
+                3.25,
+                5.25
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "file": "shapes/block/meal/porridge.json"
+  },
 ]
