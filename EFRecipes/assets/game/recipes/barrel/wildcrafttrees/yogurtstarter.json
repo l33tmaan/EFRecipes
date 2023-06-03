@@ -1,0 +1,15 @@
+﻿{
+	code: "yogurtstarterTREES",
+	sealHours: 24,
+	ingredients: [
+		{ type: "item", code: "game:curdledmilkportion",  litres: 1 },
+		{
+			type: "item",
+			code: "wildcrafttrees:treefruit-*",
+			quantity: 4,
+			name: "fruit",
+			allowedVariants: ["apricot", "citron", "fig", "hawthorn", "purpleplum", "quince", "pomelo"]
+		}
+	],
+	output: { type: "item", code: "expandedfoods:yogurt-starter", litres: 0.25 }
+}

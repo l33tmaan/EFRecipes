@@ -1,0 +1,10 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/wildcrafttrees/wildtreedryfruit.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "wildcrafttrees", "invert": true }]
+ },
+]
