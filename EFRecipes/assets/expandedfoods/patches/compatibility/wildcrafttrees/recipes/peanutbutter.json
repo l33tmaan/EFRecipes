@@ -1,0 +1,18 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/peanutbutter.json",
+    "side": "server",
+    op: "add", 
+    path: "/1/ingredients/2/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildtreefruitsyrupportion-*",  quantity: 1 },
+    dependsOn: [{ "modid": "wildcrafttrees" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/peanutbutter.json",
+    "side": "server",
+    op: "add", 
+    path: "/3/ingredients/2/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildtreefruitsyrupportion-*",  quantity: 1 },
+    dependsOn: [{ "modid": "wildcrafttrees" }]
+ },
+]
