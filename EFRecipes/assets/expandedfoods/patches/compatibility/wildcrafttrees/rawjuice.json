@@ -1,0 +1,55 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/combustibleProps",
+    "value": {
+      "meltingPoint": 150,
+      "meltingDuration": 5,
+      "smeltedRatio": 4,
+      "smeltingType": "cook",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:wildtreefruitsyrupportion-{fruit}"
+      },
+      "requiresContainer": true
+    },
+    "side": "server",
+    "file": "wildcrafttrees:itemtypes/liquid/alcohol/rawjuice.json"
+  },
+  {
+    "op": "add",
+    "path": "/transitionableProps",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 168
+        },
+        "transitionHours": {
+          "avg": 72
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:vinegarportion"
+        },
+        "transitionRatio": 1
+      },
+      {
+        "type": "Cure",
+        "freshHours": {
+          "avg": 168
+        },
+        "transitionHours": {
+          "avg": 336
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "wildcrafttrees:ciderportion-{fruit}"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "side": "server",
+    "file": "wildcrafttrees:itemtypes/liquid/alcohol/rawjuice.json"
+  }
+]

@@ -1,0 +1,29 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/attributes/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.5,
+      "startScaleY": 1.0,
+      "endScaleY": 0.8,
+      "resultCode": "expandedfoods:wildtreedryfruit-{fruit}"
+    },
+    "side": "server",
+    "file": "wildcrafttrees:itemtypes/food/fruit.json"
+  },
+  {
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "server",
+    "op": "add",
+    "path": "/attributes/onDisplayTransformByType",
+    "value": {
+    "*": {
+        "translation": { "x": -0.2, "y": -0.425, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": 90 },
+        "scale": 0.55
+      }
+    },
+  }
+]

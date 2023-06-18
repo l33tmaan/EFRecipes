@@ -1,0 +1,61 @@
+﻿{
+	code: "wildtreestrongspiritportion",
+	class: "TransLiquid",
+	matterState: "liquid",
+	variantgroups: [
+		{ code: "fruit", "loadFromProperties": "wildcrafttrees:block/treefruit" },
+	],
+	skipVariants: ["*-almond","*-cocoa","*-commonhackberry","*-sugarhackberry", "*-hazelnut"],
+	attributes: {
+		handbook: {
+			ignoreCreativeInvStacks: true
+		},
+		distillationProps: {
+			distilledStack: { type: "item", code: "game:alcoholportion" },
+			ratio: 0.5
+		},
+		"inBowlShape": { "base": "game:block/food/meal/liquid" },
+		nutritionPropsWhenInMeal: { satiety: 270, health: 0.5, foodcategory: "NoNutrition" },
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 100,
+	        texture: { base: "wildcrafttree:block/food/pie/fill-{fruit}", "alpha":  120, overlays: ["expandedfoods:item/liquid/syrup"] },
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: { type: "item", code: "expandedfoods:wildtreestrongspiritportion-{fruit}" }
+			},
+			nutritionPropsPerLitre: {
+				saturation: 180,
+				"intoxication": 2.0,
+				"health": 0.5,
+				foodcategory: "NoNutrition"
+			},
+		},
+	},
+	transitionableProps: [{
+    	type: "Cure",
+    	freshHours: { avg: 1344 },
+    	transitionHours: { avg: 4032 },
+    	transitionedStack: { type: "item", code: "wildtreepotentspiritportion-{fruit}" },
+    	transitionRatio: 1
+  	}],
+	shape: { base: "game:item/liquid" },
+	"texture": { "base": "wildcrafttree:block/food/pie/fill-{fruit}", "alpha": 120, overlays: ["expandedfoods:item/liquid/syrup"] },
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:wildtreestrongspiritportion-{fruit}", makefull: true } ] } } ] } ],
+	maxstacksize: 5000,
+	materialDensity: 200,
+	nutritionProps: { saturation: 1.8, health: 0.005, foodcategory: "NoNutrition" },
+	guiTransform: {
+		rotation: { x: 128, y: 40, z: 7 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 42, y: 129, z: -30 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 },
+	},
+}

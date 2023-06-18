@@ -10,15 +10,13 @@ using Vintagestory.GameContent;
 namespace EFRecipes
 {
     public class EFRecipes : ModSystem
-    {
-        Harmony _harmony;
+      {
+        /* Harmony _harmony;
 
         public override void Start(ICoreAPI api)
-		{
+		 {
             _harmony = new Harmony("ExpandedFoods.Patches");
             _harmony.PatchAll(typeof(EFRecipes).Assembly);
-
-			base.Start(api);
 
 			CookingRecipe.NamingRegistry["compote"] = new acaRecipeNames();
             CookingRecipe.NamingRegistry["augratin"] = new acaRecipeNames();
@@ -27,11 +25,11 @@ namespace EFRecipes
             CookingRecipe.NamingRegistry["yogurtmeal"] = new acaRecipeNames();
             CookingRecipe.NamingRegistry["pastahot"] = new acaRecipeNames();
             CookingRecipe.NamingRegistry["pastacold"] = new acaRecipeNames();
-		}
+		} 
 
         public override void Dispose() {
             base.Dispose();
             _harmony.UnpatchAll();
-        }
-    }
+        } */
+    } 
 }
