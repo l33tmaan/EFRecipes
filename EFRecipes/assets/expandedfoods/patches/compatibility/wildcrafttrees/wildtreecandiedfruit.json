@@ -1,0 +1,18 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/wildcrafttrees/wildtreecandiedfruit.json",
+    "side": "server",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcrafttrees" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/simmering/wildcrafttrees/wildtreecandiedfruit.json",
+    "side": "server",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcrafttrees" , "invert": true}]
+ },
+]

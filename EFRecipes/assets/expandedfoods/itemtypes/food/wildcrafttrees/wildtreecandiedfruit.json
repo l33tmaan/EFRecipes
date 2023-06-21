@@ -1,0 +1,75 @@
+﻿{
+	"code": "wildtreecandiedfruit",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "fruit", "loadFromProperties": "wildcrafttrees:block/treefruit" }
+	],
+	skipVariants: ["*-almond","*-cocoa","*-commonhackberry","*-sugarhackberry", "*-hazelnut"],
+	"shape": { "base": "item/food/candy/fruit/wildcrafttrees/{fruit}" },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"materialDensity": 600,
+	"heldTpIdleAnimation":"holdbothhands",
+	"nutritionPropsByType": {
+		"*-hawthorn": { "satiety": 180, "health": 1, "foodcategory": "Fruit" },
+		"*": { "satiety": 200, "health": 1, "foodcategory": "Fruit" }
+	},
+	transitionablePropsByType: {
+		"@*-(hawthorn|fig)": [{
+			type: "Perish",
+			freshHours: { avg: 7200 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { "type": "item", "code": "game:rot" },
+			transitionRatio: 0.25
+		}],
+		"@*-(apricot|purpleplum|quince)": [{
+			type: "Perish",
+			freshHours: { avg: 5400 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { "type": "item", "code": "game:rot" },
+			transitionRatio: 0.25
+		}],
+		"@*-(citron|pomelo)": [{
+			type: "Perish",
+			freshHours: { avg: 9600 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { "type": "item", "code": "game:rot" },
+			transitionRatio: 0.25
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 12 },
+			transitionedStack: { "type": "item", "code": "game:rot" },
+			transitionRatio: 0.25
+		}]
+	},
+	guiTransformByType: {
+		"*": {
+			"translation":  { "x": 0, "y":  0, "z": 0},
+			rotation: { x: 150, y: -74, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2.25
+		},
+	},
+	fpHandTransformByType: {
+		"*": {
+			"translation":  { "x": 0, "y":  -0.05, "z": 0},
+			rotation: { x: 50, y: 105, z: -50 },
+		}
+	},
+	tpHandTransformByType: {
+		"*": {
+			"translation":  { "x": -1.65, "y":  -1.2, "z": -0.75},
+            rotation: { x: -180, y: -25, z: -80 },
+			scale: 0.45
+		}
+	},
+	groundTransformByType: {
+		"*": {
+			"translation":  { "x": 0, "y":  0.02, "z": 0},
+            rotation: { x: 0, y: 0, z: 0 },
+            origin: { x: 0, y: 0, z: 0 },
+			scale: 2.5
+		}
+	},
+}
