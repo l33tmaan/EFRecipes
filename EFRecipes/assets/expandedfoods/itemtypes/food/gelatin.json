@@ -7,7 +7,7 @@
 		"*-liquid": "liquid",
 	},
 	variantgroups: [
-		{ code: "type", states: ["liquid", "raw", "plain", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "birch", "maple", "soy", "honey", "cassava", "bellpepper", "huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry", "apple", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate"] },
+		{ code: "type", states: ["liquid", "raw", "plain", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "birch", "maple", "soy", "honey", "cassava", "bellpepper", "huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry", "apple", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "apricot", "citron", "fig", "hawthorn", "purpleplum", "quince", "pomelo"] },
 	],
 	attributes: {
 		"handbook": { "groupBy": [ "gelatin-*" ] },
@@ -64,6 +64,13 @@
 			"*-strawberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
 			"*-cloudberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
 			"*-raspberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-apricot": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-citron": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-fig": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-hawthorn": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-purpleplum": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-quince": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-pomelo": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
 		},
 	},
 	transitionableProps: [{
@@ -125,6 +132,13 @@
 		"*-honeysuckle": { saturation: 200, health: 3, foodcategory: "Fruit" },
 		"*-strawberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
 		"*-raspberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-apricot": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-citron": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-fig": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-hawthorn": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-purpleplum": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-quince": { saturation: 200, health: 3, foodcategory: "Fruit" },
+		"*-pomelo": { saturation: 200, health: 3, foodcategory: "Fruit" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	maxstacksizeByType: {
