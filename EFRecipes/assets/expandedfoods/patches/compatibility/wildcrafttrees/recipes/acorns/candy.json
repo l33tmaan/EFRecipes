@@ -1,0 +1,18 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/acorns/candy.json",
+    "side": "server",
+    op: "add", 
+    path: "/0/ingredients/1/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildtreefruitsyrupportion-*",  quantity: 10 },
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcrafttrees" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/acorns/candy.json",
+    "side": "server",
+    op: "add", 
+    path: "/1/ingredients/1/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildtreefruitsyrupportion-*",  quantity: 10 },
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcrafttrees" }]
+ },
+]
