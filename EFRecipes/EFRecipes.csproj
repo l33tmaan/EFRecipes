@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <LangVersion>9</LangVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -40,7 +40,8 @@
       <Private>false</Private>
     </Reference>
     <Reference Include="ACulinaryArtillery">
-      <HintPath>..\..\ACulinaryArtillery--l33tFork\bin\Release\net462\ACulinaryArtillery.dll</HintPath>
+      <HintPath>..\..\ACulinaryArtillery--l33tFork\bin\Release\net7.0\ACulinaryArtillery.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="cairo-sharp">
       <HintPath>$(AppData)\Vintagestory\Lib\cairo-sharp.dll</HintPath>
