@@ -9,11 +9,12 @@
 		displaycaseable: true,
 		shelvable: true,
 		expandedNutritionProps: {
-			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Fruit"},
+			"game:salt": { saturation: 10, health: 0.5, foodcategory: "Fruit"},
       		"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
       		"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.2, foodcategory: "Fruit" }, 
       		"expandedfoods:fruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
       		"expandedfoods:wildfruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
+      		"expandedfoods:wildtreefruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
       		"expandedfoods:treesyrupportion-*" : { saturation: 9.6, "health": 0.1, foodcategory: "Fruit" },
 		},
     	renderIngredientsByType: {
@@ -57,6 +58,14 @@
 					"expandedfoods:wildfruitsyrupportion-huckleberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakihuckleberrysyrup.json",
 					"expandedfoods:wildfruitsyrupportion-strawberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakistrawberrysyrup.json",
 					"expandedfoods:wildfruitsyrupportion-snowberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakisnowberrysyrup.json",
+					"expandedfoods:wildtreefruitsyrupportion-apricot": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakiapricotsyrup.json",
+					"expandedfoods:wildtreefruitsyrupportion-citron": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakicitronsyrup.json",
+					"expandedfoods:wildtreefruitsyrupportion-coconut": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakicoconutsyrup.json",
+					"expandedfoods:wildtreefruitsyrupportion-fig": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakifigsyrup.json",
+					"expandedfoods:wildtreefruitsyrupportion-hawthorn": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakihawthornsyrup.json",
+					"expandedfoods:wildtreefruitsyrupportion-pomelo": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakipomelosyrup.json",
+					"expandedfoods:wildtreefruitsyrupportion-purpleplum": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakipurpleplumsyrup.json",
+					"expandedfoods:wildtreefruitsyrupportion-quince": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakiquincesyrup.json",
 			},
 		},
 		onDisplayTransformByType: { 
@@ -67,12 +76,12 @@
 			"*-cooked": {
 				rotation: { "x": 0, "y": 45, "z": 0 },
 				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.75 
+				scale: 0.5 
 			},
 			"*-syrup": {
 				rotation: { "x": 0, "y": 45, "z": 0 },
 				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.75 
+				scale: 0.5 
 			},
 		},
 		bakingPropertiesByType: {
@@ -111,6 +120,24 @@
 		"strongtannin": { base: "game:block/liquid/strongtannin"},
 		"saguaro": { base: "game:block/food/pie/fill-saguaro"},
 		"peanutbutter": { base: "item/food/peanut/butter"},
+		"huckleberry" : {base: "wildcraft:block/food/pie/fill-huckleberry" },
+		"snowberry" : {base: "wildcraft:block/food/pie/fill-snowberry" },
+		"brambleberry" : {base: "wildcraft:block/food/pie/fill-brambleberry" },
+		"cloudberry" : {base: "wildcraft:block/food/pie/fill-cloudberry" },
+		"dogrose" : {base: "wildcraft:block/food/pie/fill-dogrose" },
+		"elderberry" : {base: "wildcraft:block/food/pie/fill-elderberry" },
+		"gooseberry" : {base: "wildcraft:block/food/pie/fill-gooseberry" },
+		"honeysuckle" : {base: "wildcraft:block/food/pie/fill-honeysuckle" },
+		"strawberry" : {base: "wildcraft:block/food/pie/fill-strawberry" },
+		"raspberry" : {base: "wildcraft:block/food/pie/fill-raspberry" },
+		"fill-apricot": { base: "wildcrafttrees:block/food/pie/fill-apricot" },
+		"fill-citron": { base: "wildcrafttrees:block/food/pie/fill-citron" },
+		"fill-coconut": { base: "wildcrafttrees:block/food/pie/fill-coconut" },
+		"fill-fig": { base: "wildcrafttrees:block/food/pie/fill-fig" },
+		"fill-hawthorn": { base: "wildcrafttrees:block/food/pie/fill-hawthorn" },
+		"fill-pomelo": { base: "wildcrafttrees:block/food/pie/fill-pomelo" },
+		"fill-purpleplum": { base: "wildcrafttrees:block/food/pie/fill-purpleplum" },
+		"fill-quince": { base: "wildcrafttrees:block/food/pie/fill-quince" },
   	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
