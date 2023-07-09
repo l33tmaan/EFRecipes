@@ -11,7 +11,7 @@ namespace EFRecipes
 {
     public class EFRecipes : ModSystem
       {
-        /* Harmony _harmony;
+        Harmony _harmony;
 
         public override void Start(ICoreAPI api)
 		 {
@@ -30,6 +30,6 @@ namespace EFRecipes
         public override void Dispose() {
             base.Dispose();
             _harmony.UnpatchAll();
-        } */
+        }
     } 
 }
