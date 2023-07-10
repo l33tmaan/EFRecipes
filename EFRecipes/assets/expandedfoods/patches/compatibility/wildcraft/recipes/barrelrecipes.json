@@ -263,4 +263,12 @@
     value: "false",
     dependsOn: [{ "modid": "wildcraft", "invert": true }]
  },
+ {
+   file: "game:recipes/barrel/wildcraft/yeastwater.json",
+    "side": "server",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
 ]
