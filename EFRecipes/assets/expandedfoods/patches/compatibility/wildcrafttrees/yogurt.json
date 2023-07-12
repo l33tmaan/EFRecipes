@@ -1,0 +1,18 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/liquid/yogurt.json",
+    "side": "server",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "yogurt-apricot", "yogurt-citron", "yogurt-coconut", "yogurt-fig", "yogurt-hawthorn", "yogurt-pomelo", "yogurt-purpleplum", "yogurt-quince", ],
+    dependsOn: [{ "modid": "wildcrafttrees", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcrafttrees/wildtreeyogurtfruit.json",
+    "side": "server",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcrafttrees", "invert": true }]
+ },
+]
