@@ -19,12 +19,12 @@
 				stack: { type: "item", code: "yogurt-{type}" } 
 			},
 			nutritionPropsPerLitreByType: {
-				"@*-(plain|birch|maple|honey|huckleberry|snowberry|strawberry|raspberry|honeysuckle|gooseberry|brambleberry|cloudberry|dogrose|elderberry|apple|blueberry|cranberry|redcurrant|whitecurrant|blackcurrant|saguaro|pineapple|cherry|peach|pear|orange|mango|breadfruit|lychee|pomegranate|apricot|citron|coconut|fig|hawthorn|pomelo|purpleplum|quince)":
+				"@*-(plain|birch|maple|honey|huckleberry|snowberry|strawberry|raspberry|honeysuckle|gooseberry|brambleberry|cloudberry|dogrose|elderberry|apple|blueberry|cranberry|redcurrant|whitecurrant|blackcurrant|saguaro|pineapple|cherry|peach|pear|orange|mango|breadfruit|lychee|pomegranate|apricot|citron|fig|hawthorn|pomelo|purpleplum|quince)":
 				{ saturation: 300, "health": 10, foodcategory: "Dairy" }, 
 			}, 
 		},
 		expandedNutritionPropsByType: {
-			"@*-(plain|birch|maple|honey|huckleberry|snowberry|strawberry|raspberry|honeysuckle|gooseberry|brambleberry|cloudberry|dogrose|elderberry|apple|blueberry|cranberry|redcurrant|whitecurrant|blackcurrant|saguaro|pineapple|cherry|peach|pear|orange|mango|breadfruit|lychee|pomegranate|apricot|citron|coconut|fig|hawthorn|pomelo|purpleplum|quince)": {
+			"@*-(plain|birch|maple|honey|huckleberry|snowberry|strawberry|raspberry|honeysuckle|gooseberry|brambleberry|cloudberry|dogrose|elderberry|apple|blueberry|cranberry|redcurrant|whitecurrant|blackcurrant|saguaro|pineapple|cherry|peach|pear|orange|mango|breadfruit|lychee|pomegranate|apricot|citron|fig|hawthorn|pomelo|purpleplum|quince)": {
 				"expandedfoods:yogurt-starter": { saturation: 3, Health: 0.1, foodcategory: "Dairy" },
 				"expandedfoods:yogurt-ferment": { saturation: 3, Health: 0.1, foodcategory: "Dairy" },
 				"expandedfoods:yogurt-plain": { saturation: 3, Health: 0.1, foodcategory: "Dairy" },
@@ -39,7 +39,7 @@
 		},
 	},
 	variantgroups: [
-		{ code: "type", states: ["starter", "ferment", "plain", "birch", "maple", "honey", "huckleberry", "snowberry", "strawberry", "raspberry", "honeysuckle", "gooseberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "apple", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "apricot", "citron", "coconut", "fig", "hawthorn", "pomelo", "purpleplum", "quince" ] },
+		{ code: "type", states: ["starter", "ferment", "plain", "birch", "maple", "honey", "huckleberry", "snowberry", "strawberry", "raspberry", "honeysuckle", "gooseberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "apple", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "apricot", "citron", "fig", "hawthorn", "pomelo", "purpleplum", "quince" ] },
 	],
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:item/liquid/yogurt/{type}" },
