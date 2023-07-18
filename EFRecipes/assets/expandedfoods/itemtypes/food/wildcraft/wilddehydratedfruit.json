@@ -9,13 +9,16 @@
 		"handbook": { "groupBy": [ "wilddehydratedfruit-*" ] },
 		nutritionPropsWhenInMeal: { 
 			satietyByType:  { 
-				"*-cloudberry": 155,
-				"@*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": 105,
-				"*-dogrose": 25,
-				"@*-(elderberry|huckleberry|snowberry)": 75,
+				"@*-(cloudberry|strawberry)": 120,
+				"@*-(brambleberry|gooseberry|honeysuckle|raspberry|wolfberry)": 100,
+				"*-dogrose": 40,
+				"@*-(bunchberry|crowberry|snowberry)": 60,
+				"*": 80,
 			},
             "healthByType": {
-                "*-snowberry": -2.5,
+				"*-cloudberry": 1,
+                "*-snowberry": -2,
+                "*-wolfberry": -8,
             },
             foodcategory: "Fruit" 
 		},
@@ -32,16 +35,20 @@
 		"*": { base: "item/food/dryfruit/wildcraft/{type}" }
 	},
     textures: {
+        "fill-husktomato": { base: "wildcraft:block/food/pie/fill-husktomato" },
         "all": { base: "wildcraft:items/fruit/{type}" },
     },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
-		"*-cloudberry": { satiety: 105, foodcategory: "Fruit" },
-		"@*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": { satiety: 70, foodcategory: "Fruit" },
+		"*-cloudberry": { satiety: 105, "health":  0.5, foodcategory: "Fruit" },
+		"*-strawberry": { satiety: 90, foodcategory: "Fruit" },
+		"@*-(brambleberry|gooseberry|honeysuckle|raspberry)": { satiety: 70, foodcategory: "Fruit" },
+		"*-wolfberry": { satiety: 50, "health":  -8, foodcategory: "Fruit" },
+		"*-elderberry": { satiety: 50, health: -0.5, foodcategory: "Fruit" },
+		"@*-(bunchberry|crowberry)": { satiety: 35, foodcategory: "Fruit" },
+		"*-snowberry": { satiety: 35, health: -2, foodcategory: "Fruit" },
 		"*-dogrose": { satiety: 18, foodcategory: "Fruit" },
-		"*-snowberry": { satiety: 50, health: -2.5, foodcategory: "Fruit" },
-		"*-elderberry": { satiety: 50, health: -0.25, foodcategory: "Fruit" },
-		"*-huckleberry": { satiety: 50, foodcategory: "Fruit" }
+		"*": { satiety: 50, foodcategory: "Fruit" }
 	},
   "transitionablePropsByType": {
     "*-snowberry": [
@@ -234,6 +241,17 @@
 			rotation: { x: 118, y: 13, z: -2 },
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
+		},
+		"*-husktomato": {
+			rotation: { x: 134, y: -20, z: 1 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2
+		},
+		"*": {
+			"translation":  { "x": 3, "y":  0, "z": 0},
+			rotation: { x: 134, y: -20, z: 1 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2.25
 		},
 	},
 	fpHandTransformByType: {
