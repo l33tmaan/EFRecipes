@@ -2,7 +2,7 @@
 	"code": "wildcandiedfruit",
 	"maxstacksize": 64,
 	"variantgroups": [
-		{ "code": "fruit", "states": [ "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "huckleberry", "raspberry", "snowberry", "strawberry" ] }
+		{ "code": "fruit", "states": [ "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "huckleberry", "raspberry", "snowberry", "strawberry", "husktomato", "blueraspberry", "bunchberry", "crowberry", "wolfberry" ] }
 	],
 	"shape": { "base": "item/food/candy/fruit/wildcraft/{fruit}" },
 	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
@@ -32,6 +32,11 @@
 		"*-snowberry": {
 			"satiety": 160,
 			"health": -1,
+			"foodcategory": "Fruit"
+		},
+		"@*-(bunchberry|crowberry)": {
+			"satiety": 160,
+			"health": 1,
 			"foodcategory": "Fruit"
 		},
 		"*-dogrose": {
@@ -132,17 +137,22 @@
 		]
 	},
 	guiTransformByType: {
-		"@*-(strawberry|raspberry)": {
+		"@*-(raspberry|blueraspberry)": {
+			"translation":  { "x": 0, "y":  0, "z": 0},
+			rotation: { x: 134, y: -76, z: -1 },
+			origin: { x: 0.4, y: 0.2, z: 0.5 },
+			scale: 2.25
+		},
+		"*-strawberry": {
 			"translation":  { "x": 6, "y":  0, "z": 0},
 			rotation: { x: 134, y: -20, z: 1 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 2.5
 		},
 		"*-elderberry": {
-			"translation":  { "x": 3, "y":  0, "z": 0},
-			rotation: { x: 143, y: 30, z: -3 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 3
+			rotation: { x: 134, y: 59, z: 0 },
+			origin: { x: 0.425, y: 0, z: 0.475 },
+			scale: 3.5
 		},
 		"@*-(dogrose|gooseberry)": {
 			"translation":  { "x": 3, "y":  0, "z": 0},
@@ -166,6 +176,17 @@
 			rotation: { x: 118, y: 13, z: -2 },
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
+		},
+		"*-husktomato": {
+			rotation: { x: 134, y: -20, z: 1 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2
+		},
+		"*": {
+			"translation":  { "x": 3, "y":  0, "z": 0},
+			rotation: { x: 134, y: -20, z: 1 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2.25
 		},
 	},
 	fpHandTransformByType: {
