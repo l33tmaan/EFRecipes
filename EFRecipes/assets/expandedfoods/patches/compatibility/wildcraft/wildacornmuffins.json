@@ -143,4 +143,44 @@
     "side": "server",
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
  },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornmuffin.json",
+    op: "add", 
+    path: "/textures/fill-blueraspberry",
+    value: { base: "wildcraft:block/food/pie/fill-blueraspberry" },
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornmuffin.json",
+    op: "add", 
+    path: "/textures/fill-bunchberry",
+    value: { base: "wildcraft:block/food/pie/fill-bunchberry" },
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornmuffin.json",
+    op: "add", 
+    path: "/textures/fill-crowberry",
+    value: { base: "wildcraft:block/food/pie/fill-crowberry" },
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornmuffin.json",
+    op: "add", 
+    path: "/textures/fill-husktomato",
+    value: { base: "wildcraft:block/food/pie/fill-husktomato" },
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/acorns/mixing/acornmuffin.json",
+    op: "add", 
+    path: "/textures/fill-wolfberry",
+    value: { base: "wildcraft:block/food/pie/fill-wolfberry" },
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
+ },
 ]

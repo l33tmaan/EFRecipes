@@ -14,11 +14,34 @@
     "file": "wildcrafttrees:itemtypes/food/fruit.json"
   },
   {
-    "file": "wildcraft:itemtypes/food/fruit.json",
+    "file": "wildcrafttrees:itemtypes/food/fruit.json",
     "side": "server",
     "op": "add",
     "path": "/attributes/onDisplayTransformByType",
     "value": {
+    "*-almond": {
+        "translation": { "x": 0.025, "y": -0.25, "z": -0.025 },
+        "scale": 0.5
+      },
+    "*-hawthorn": {
+        "translation": { "x": -0.2, "y": -0.3, "z": 0.05 },
+        "scale": 0.4
+      },
+    "*-hazelnut": {
+        "translation": { "x": -0.05, "y": -0.275, "z": -0.125 },
+        "rotation": { "x": -90, "y": 0, "z": 45 },
+        "scale": 0.4
+      },
+    "@*-(commonhackberry|sugarhackberry)": {
+        "translation": { "x": 0.1, "y": -0.3, "z": 0.05 },
+        "rotation": { "x": 0, "y": -45, "z": 0 },
+        "scale": 0.4
+      },
+    "@*-(fig|purpleplum|quince)": {
+        "translation": { "x": -0.2, "y": -0.425, "z": 0 },
+        "rotation": { "x": 45, "y": 0, "z": 90 },
+        "scale": 0.55
+      },
     "*": {
         "translation": { "x": -0.2, "y": -0.425, "z": 0 },
         "rotation": { "x": 0, "y": 0, "z": 90 },

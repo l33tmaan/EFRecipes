@@ -1830,6 +1830,61 @@
   },
   {
     "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-blueraspberry",
+    "value": [
+      "topping",
+      "gelatinblueraspberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-bunchberry",
+    "value": [
+      "topping",
+      "gelatinbunchberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-crowberry",
+    "value": [
+      "topping",
+      "gelatincrowberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-husktomato",
+    "value": [
+      "topping",
+      "gelatinhusktomato"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-wolfberry",
+    "value": [
+      "topping",
+      "gelatinwolfberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:yogurt-plain",
     "value": [
       "liquid",
@@ -2114,6 +2169,51 @@
     "path": "/texturesByType/*/gelatinpomegranate",
     "value": {
       "base": "item/gelatin/pomegranate"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinblueraspberry",
+    "value": {
+      "base": "item/gelatin/blueraspberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinbunchberry",
+    "value": {
+      "base": "item/gelatin/bunchberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincrowberry",
+    "value": {
+      "base": "item/gelatin/crowberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinhusktomato",
+    "value": {
+      "base": "item/gelatin/husktomato"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinwolfberry",
+    "value": {
+      "base": "item/gelatin/wolfberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
@@ -2680,6 +2780,111 @@
     "path": "/texturesByType/*/raspberrysyrup",
     "value": {
       "base": "wildcraft:block/food/pie/fill-raspberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-blueraspberry",
+    "value": [
+      "topping",
+      "blueraspberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/blueraspberrysyrup",
+    "value": {
+      "base": "wildcraft:block/food/pie/fill-blueraspberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-bunchberry",
+    "value": [
+      "topping",
+      "bunchberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bunchberrysyrup",
+    "value": {
+      "base": "wildcraft:block/food/pie/fill-bunchberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-crowberry",
+    "value": [
+      "topping",
+      "crowberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/crowberrysyrup",
+    "value": {
+      "base": "wildcraft:block/food/pie/fill-crowberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-husktomato",
+    "value": [
+      "topping",
+      "husktomatosyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/husktomatosyrup",
+    "value": {
+      "base": "wildcraft:block/food/pie/fill-husktomato"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-wolfberry",
+    "value": [
+      "topping",
+      "wolfberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/wolfberrysyrup",
+    "value": {
+      "base": "wildcraft:block/food/pie/fill-wolfberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
