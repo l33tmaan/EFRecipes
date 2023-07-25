@@ -17,7 +17,7 @@
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		nutritionPropsWhenInMealByType: {
 			"@-(slop|refinedslop)": { health: -10, foodcategory: "NoNutrition" },
-			"*-basic": { satiety: -100, health: 1, foodcategory: "NoNutrition" },
+			"*-basic": { satiety: -100, health: 10, foodcategory: "NoNutrition" },
 		},
 		waterTightContainerProps: {
 			containable: true,
@@ -30,7 +30,7 @@
 			},
 			nutritionPropsPerLitreByType: {
 				"@*-(slop|refinedslop)":  { "health": -100, foodcategory: "NoNutrition" },
-				"*-basic":  { saturation: -1000, "health": 10, foodcategory: "NoNutrition" },
+				"*-basic":  { saturation: -1000, "health": 100, foodcategory: "NoNutrition" },
 			},
 		}
 	},
@@ -64,7 +64,7 @@
 	materialDensity: 200,
 	nutritionPropsByType: {
 		"@*-(slop|refinedslop)": { health: -1, foodcategory: "NoNutrition" },
-		"*-basic": { saturation: -10, health: 0.1, foodcategory: "NoNutrition" },
+		"*-basic": { saturation: -10, health: 1, foodcategory: "NoNutrition" },
 	},
 	guiTransform: {
 		rotation: { x: 128, y: 40, z: 7 },
