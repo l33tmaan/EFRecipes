@@ -32,10 +32,10 @@
 		    transitionRatio: 0.005
       },{
     		type: "Dry",
-    		freshHours: { avg: 240 },
-    		transitionHours: { avg: 480 },
+    		freshHours: { avg: 60 },
+    		transitionHours: { avg: 120},
     		transitionedStack: { type: "block", code: "expandedfoods:hardlard" },
-    		transitionRatio: 0.01
+    		transitionRatio: 0.1
   	}],
     guiTransform: {
         rotation: { x: 128, y: 40, z: 7 },

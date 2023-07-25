@@ -1,0 +1,42 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"wolfberry": "item/food/grain/overlays/wolfberry"
+	},
+	"elements": [
+		{
+			"name": "acornbread 3",
+			"from": [ 6.49, -0.01, 4.99 ],
+			"to": [ 9.51, 2.01, 11.01 ],
+			"rotationOrigin": [ 7.99, 0.0, 7.99 ],
+			"faces": {
+				"north": { "texture": "#wolfberry", "uv": [ 4.0, 6.0, 7.0, 8.0 ] },
+				"east": { "texture": "#wolfberry", "uv": [ 8.0, 12.0, 14.0, 14.0 ] },
+				"south": { "texture": "#wolfberry", "uv": [ 12.0, 7.5, 15.0, 9.5 ] },
+				"west": { "texture": "#wolfberry", "uv": [ 9.0, 12.5, 15.0, 14.5 ] },
+				"up": { "texture": "#wolfberry", "uv": [ 6.0, 0.5, 9.0, 6.5 ] },
+				"down": { "texture": "#wolfberry", "uv": [ 2.0, 1.0, 5.0, 7.0 ] }
+			},
+			"children": [
+				{
+					"name": "acornbread 1 top4",
+					"from": [ 0.5, 2.01, 0.5 ],
+					"to": [ 2.52, 2.52, 5.521 ],
+					"faces": {
+						"north": { "texture": "#wolfberry", "uv": [ 8.0, 14.5, 10.0, 15.0 ] },
+						"east": { "texture": "#wolfberry", "uv": [ 6.5, 7.0, 7.0, 12.0 ], "rotation": 90 },
+						"south": { "texture": "#wolfberry", "uv": [ 12.5, 14.0, 14.5, 14.5 ] },
+						"west": { "texture": "#wolfberry", "uv": [ 9.5, 4.0, 10.0, 9.0 ], "rotation": 90 },
+						"up": { "texture": "#wolfberry", "uv": [ 6.0, 10.5, 8.0, 15.5 ] }
+					}
+				}
+			]
+		}
+	]}
