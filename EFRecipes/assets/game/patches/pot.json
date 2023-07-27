@@ -2540,6 +2540,56 @@
   },
   {
     "op": "add",
+    "path": "/texturesByType/*/yogurtblueraspberry",
+    "value": {
+      "base": "item/liquid/yogurt/blueraspberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtbunchberry",
+    "value": {
+      "base": "item/liquid/yogurt/bunchberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcrowberry",
+    "value": {
+      "base": "item/liquid/yogurt/crowberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurthusktomato",
+    "value": {
+      "base": "item/liquid/yogurt/husktomato"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtwolfberry",
+    "value": {
+      "base": "item/liquid/yogurt/wolfberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
     "path": "/texturesByType/*/bugs",
     "value": {
       "base": "block/eatthebugs"
