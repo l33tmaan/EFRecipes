@@ -2224,7 +2224,65 @@
     "path": "/ingredients/9",
     "value": {
       "code": "meat",
-      "validStacks": [{
+      "validStacks": [
+            
+            {
+                "type": "item",
+                "code": "game:bushmeat-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group8"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "game:redmeat-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group6"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "game:poultry-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group5"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "game:bushmeat-cured",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group8"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "game:redmeat-cured",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group6"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "game:poultry-cured",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group5"
+                ]
+            },
+
+
+            {
                 "type": "item",
                 "code": "expandedfoods:meatnugget-bushmeat-raw",
                 "shapeElement": "bowl/meatnugget 1/*",
@@ -2299,6 +2357,33 @@
             {
                 "type": "item",
                 "code": "expandedfoods:agedmeat-poultry-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group5"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:agedmeat-bushmeat-cut",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group8"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:agedmeat-redmeat-cut",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group6"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:agedmeat-poultry-cut",
                 "shapeElement": "bowl/meatnugget 1/*",
                 "textureMapping": [
                     "meatnugget",
@@ -2412,7 +2497,16 @@
                     "meatnugget",
                     "group6"
                 ]
-            }, 
+            },
+            {
+                "type": "item",
+                "code": "game:fish-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "fishfillet-raw"
+                ]
+            },
         ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -2424,8 +2518,11 @@
     "op": "addeach",
     "path": "/ingredients/9/validStacks/-",
     "value": [
+        {"type": "item", "code": "primitivesurvival:fishfillet-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
         {"type": "item", "code": "expandedfoods:fishnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
         {"type": "item", "code": "expandedfoods:fishnugget-smashed", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
+        {"type": "item", "code": "primitivesurvival:crabmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
+        {"type": "item", "code": "primitivesurvival:snakemeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
         {"type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
         {"type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
         {"type": "item", "code": "expandedfoods:sausagefish-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
