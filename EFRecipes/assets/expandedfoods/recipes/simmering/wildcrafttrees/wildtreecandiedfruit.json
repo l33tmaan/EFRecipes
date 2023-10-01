@@ -3,13 +3,13 @@
 		Ingredients: [
 			{
 				type: "item",
-				code: "expandedfoods:wildtreefruitsyrupportion-*",
+				code: "expandedfoods:wildtreefruitsyrupportion-apricot",
 				quantity: 10,
 				"name": "fruit",
 			},
 			{
 				type: "item",
-				code: "wildcrafttrees:treefruit-*",
+				code: "wildcrafttrees:treefruit-apricot",
 				quantity: 1,
 				"name": "fruit",
 			}
@@ -21,7 +21,175 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:wildtreecandiedfruit-{fruit}",
+				code: "expandedfoods:wildtreecandiedfruit-apricot",
+				"quantity": 1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "expandedfoods:wildtreefruitsyrupportion-citron",
+				quantity: 10,
+				"name": "fruit",
+			},
+			{
+				type: "item",
+				code: "wildcrafttrees:treefruit-citron",
+				quantity: 1,
+				"name": "fruit",
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:wildtreecandiedfruit-citron",
+				"quantity": 1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "expandedfoods:wildtreefruitsyrupportion-fig",
+				quantity: 10,
+				"name": "fruit",
+			},
+			{
+				type: "item",
+				code: "wildcrafttrees:treefruit-fig",
+				quantity: 1,
+				"name": "fruit",
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:wildtreecandiedfruit-fig",
+				"quantity": 1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "expandedfoods:wildtreefruitsyrupportion-hawthorn",
+				quantity: 10,
+				"name": "fruit",
+			},
+			{
+				type: "item",
+				code: "wildcrafttrees:treefruit-hawthorn",
+				quantity: 1,
+				"name": "fruit",
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:wildtreecandiedfruit-hawthorn",
+				"quantity": 1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "expandedfoods:wildtreefruitsyrupportion-purpleplum",
+				quantity: 10,
+				"name": "fruit",
+			},
+			{
+				type: "item",
+				code: "wildcrafttrees:treefruit-purpleplum",
+				quantity: 1,
+				"name": "fruit",
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:wildtreecandiedfruit-purpleplum",
+				"quantity": 1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "expandedfoods:wildtreefruitsyrupportion-quince",
+				quantity: 10,
+				"name": "fruit",
+			},
+			{
+				type: "item",
+				code: "wildcrafttrees:treefruit-quince",
+				quantity: 1,
+				"name": "fruit",
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:wildtreecandiedfruit-quince",
+				"quantity": 1
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "expandedfoods:wildtreefruitsyrupportion-pomelo",
+				quantity: 10,
+				"name": "fruit",
+			},
+			{
+				type: "item",
+				code: "wildcrafttrees:treefruit-pomelo",
+				quantity: 1,
+				"name": "fruit",
+			}
+		],
+		Simmering: {
+			meltingPoint: 200,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "expandedfoods:wildtreecandiedfruit-pomelo",
 				"quantity": 1
 			},
 			requiresContainer: false

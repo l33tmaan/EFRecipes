@@ -26,7 +26,13 @@
 				"health": 1,
 				foodcategory: "Fruit"
 			},
-		}
+		},
+		"distillationPropsbytype": {		
+			"*": {
+			"distilledStack": { "type": "item", "code": "wildcraft:spiritportion-{fruit}" },
+			"ratio": 0.1
+			}
+		},
 	},
 	transitionableProps: [{
     		type: "Perish",
