@@ -1,0 +1,61 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"breadfruitO": "item/food/grain/overlays/breadfruit"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 6.0, 0.0, 6.0 ],
+			"to": [ 6.0, 0.0, 6.0 ],
+			"rotationOrigin": [ 6.0, 0.0, 6.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "overlaybase",
+					"from": [ -1.01, -0.01, -3.01 ],
+					"to": [ 5.01, 0.99, 7.01 ],
+					"rotationOrigin": [ -1.01, -0.01, -3.01 ],
+					"faces": {
+						"north": { "texture": "#breadfruitO", "uv": [ 6.0, 4.5, 12.0, 5.5 ] },
+						"east": { "texture": "#breadfruitO", "uv": [ 5.5, 14.0, 15.5, 15.0 ] },
+						"south": { "texture": "#breadfruitO", "uv": [ 9.5, 3.5, 15.5, 4.5 ] },
+						"west": { "texture": "#breadfruitO", "uv": [ 1.0, 6.5, 11.0, 7.5 ] },
+						"down": { "texture": "#breadfruitO", "uv": [ 0.5, 5.5, 6.5, 15.5 ] }
+					},
+					"children": [
+						{
+							"name": "overlayedgeW",
+							"from": [ -0.01, 1.0, 0.0 ],
+							"to": [ 1.0, 2.02, 10.02 ],
+							"rotationOrigin": [ -0.01, 1.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#breadfruitO", "uv": [ 7.5, 8.5, 8.5, 9.5 ] },
+								"south": { "texture": "#breadfruitO", "uv": [ 6.5, 10.0, 7.5, 11.0 ] },
+								"west": { "texture": "#breadfruitO", "uv": [ 1.5, 0.0, 11.5, 1.0 ] },
+								"up": { "texture": "#breadfruitO", "uv": [ 5.5, 2.0, 6.5, 12.0 ] }
+							}
+						},
+						{
+							"name": "overlayedgeE",
+							"from": [ 5.01, 1.0, 0.0 ],
+							"to": [ 6.02, 2.02, 10.02 ],
+							"rotationOrigin": [ 5.01, 1.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#breadfruitO", "uv": [ 6.5, 5.0, 7.5, 6.0 ] },
+								"east": { "texture": "#breadfruitO", "uv": [ 3.5, 7.0, 13.5, 8.0 ] },
+								"south": { "texture": "#breadfruitO", "uv": [ 9.0, 8.0, 10.0, 9.0 ] },
+								"up": { "texture": "#breadfruitO", "uv": [ 14.0, 4.0, 15.0, 14.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

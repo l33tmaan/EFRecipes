@@ -1,0 +1,50 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/fruitbar.json",
+    "side": "server",
+    op: "addeach", 
+    path: "/0/ingredients/1/inputs/-", 
+    value: [{ type: "item", code: "wildcraft:fruit-*",  quantity: 1 }, { type: "item", code: "expandedfoods:wilddryfruit-*",  quantity: 1 }, { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 }, { type: "item", code: "expandedfoods:wildcandiedfruit-*",  quantity: 1 }],
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/fruitbar.json",
+    "side": "server",
+    op: "addeach", 
+    path: "/1/ingredients/1/inputs/-", 
+    value: [{ type: "item", code: "wildcraft:fruit-*",  quantity: 1 }, { type: "item", code: "expandedfoods:wilddryfruit-*",  quantity: 1 }, { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 }, { type: "item", code: "expandedfoods:wildcandiedfruit-*",  quantity: 1 }],
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/fruitbar.json",
+    "side": "server",
+    op: "addeach", 
+    path: "/0/ingredients/2/inputs/-", 
+    value: [{ type: "item", code: "expandedfoods:gelatin-*", allowedVariants: ["blueberry", "cranberry", "blackcurrant", "redcurrant", "whitecurrant", "saguaro", "plain", "birch", "maple", "honey", "pineapple", "apple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "huckleberry", "snowberry", "strawberry", "raspberry", "honeysuckle", "gooseberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "blueraspberry", "bunchberry", "crowberry", "husktomato", "wolfberry", "pumpkin"], quantity: 1 },],
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/fruitbar.json",
+    "side": "server",
+    op: "addeach", 
+    path: "/1/ingredients/2/inputs/-", 
+    value: [{ type: "item", code: "expandedfoods:gelatin-*", allowedVariants: ["blueberry", "cranberry", "blackcurrant", "redcurrant", "whitecurrant", "saguaro", "plain", "birch", "maple", "honey", "pineapple", "apple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "huckleberry", "snowberry", "strawberry", "raspberry", "honeysuckle", "gooseberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "blueraspberry", "bunchberry", "crowberry", "husktomato", "wolfberry", "pumpkin"], quantity: 1 },],
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/fruitbar.json",
+    "side": "server",
+    op: "add", 
+    path: "/0/ingredients/3/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/fruitbar.json",
+    "side": "server",
+    op: "add", 
+    path: "/1/ingredients/3/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
+    dependsOn: [{ "modid": "wildcraft" }]
+ },
+]

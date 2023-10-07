@@ -1,0 +1,61 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"hazelnutO": "item/food/grain/overlays/hazelnut"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 6.0, 0.0, 6.0 ],
+			"to": [ 6.0, 0.0, 6.0 ],
+			"rotationOrigin": [ 6.0, 0.0, 6.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "overlaybase",
+					"from": [ -1.01, -0.01, -3.01 ],
+					"to": [ 5.01, 0.99, 7.01 ],
+					"rotationOrigin": [ -1.01, -0.01, -3.01 ],
+					"faces": {
+						"north": { "texture": "#hazelnutO", "uv": [ 4.0, 2.5, 10.0, 3.5 ] },
+						"east": { "texture": "#hazelnutO", "uv": [ 4.0, 3.0, 14.0, 4.0 ] },
+						"south": { "texture": "#hazelnutO", "uv": [ 4.5, 10.0, 10.5, 11.0 ] },
+						"west": { "texture": "#hazelnutO", "uv": [ 5.0, 4.5, 15.0, 5.5 ] },
+						"down": { "texture": "#hazelnutO", "uv": [ 9.5, 0.0, 15.5, 10.0 ] }
+					},
+					"children": [
+						{
+							"name": "overlayedgeW",
+							"from": [ -0.01, 1.0, 0.0 ],
+							"to": [ 1.0, 2.02, 10.02 ],
+							"rotationOrigin": [ -0.01, 1.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#hazelnutO", "uv": [ 6.0, 10.0, 7.0, 11.0 ] },
+								"south": { "texture": "#hazelnutO", "uv": [ 4.5, 10.5, 5.5, 11.5 ] },
+								"west": { "texture": "#hazelnutO", "uv": [ 1.5, 12.0, 11.5, 13.0 ] },
+								"up": { "texture": "#hazelnutO", "uv": [ 7.5, 0.0, 8.5, 10.0 ] }
+							}
+						},
+						{
+							"name": "overlayedgeE",
+							"from": [ 5.01, 1.0, 0.0 ],
+							"to": [ 6.02, 2.02, 10.02 ],
+							"rotationOrigin": [ 5.01, 1.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#hazelnutO", "uv": [ 5.0, 3.5, 6.0, 4.5 ] },
+								"east": { "texture": "#hazelnutO", "uv": [ 2.0, 2.0, 12.0, 3.0 ] },
+								"south": { "texture": "#hazelnutO", "uv": [ 1.0, 2.0, 2.0, 3.0 ] },
+								"up": { "texture": "#hazelnutO", "uv": [ 14.0, 0.5, 15.0, 10.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}
