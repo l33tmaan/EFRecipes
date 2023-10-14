@@ -5,6 +5,8 @@
 		{ code: "type", loadFromProperties: "block/mushroom" },
 	],
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		nutritionPropsWhenInMeal: {
 			"satiety": 120,
 			"foodcategory": "Vegetable",

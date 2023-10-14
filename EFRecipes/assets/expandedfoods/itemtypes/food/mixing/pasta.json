@@ -9,10 +9,16 @@
 		displaycaseable: true,
 		shelvable: true,
 		inContainerTexture: { base: "item/food/pasta/ricepasta" },
-		nutritionPropsWhenInMealByType: { 
-			"*-cut": { satiety: 240, foodcategory: "Grain" },
+		nutritionPropsWhenInMealByType: {
+			"*-cut": {
+				satiety: 240,
+				foodcategory: "Grain"
+			},
 		},
-    	"expandedNutritionPropsByType": {
+		"onDisplayTransformByType": {
+			"@*-(flat|cut|cooked)": { translation: { x: 0, y: -0.25, z: 0 }, scale: 0.5 },
+		},
+		"expandedNutritionPropsByType": {
 			"*-dough": {
       			"game:flour-rice" : { saturation: 190, foodcategory: "Grain" },
       			"game:flour-rye" : { saturation: 155, foodcategory: "Grain" },

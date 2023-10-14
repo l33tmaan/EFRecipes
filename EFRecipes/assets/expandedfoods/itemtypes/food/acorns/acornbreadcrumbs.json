@@ -2,6 +2,12 @@
 	code: "acornbreadcrumbs",
 	maxstacksize: 128,
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
+		"onDisplayTransform": {
+			"translation": { "x": 0, "y": -0.25, "z": 0 },
+			"scale": 0.5
+		},
 		"handbook": { "groupBy": [ "acornbreadcrumbs-*" ] },
 		nutritionPropsWhenInMeal: { 
 			satietyByType:  { 

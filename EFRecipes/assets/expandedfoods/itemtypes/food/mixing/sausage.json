@@ -7,6 +7,8 @@
 		{ code: "state", states: ["raw", "dried", "partbaked", "cooked", "charred", "driedpartbaked", "driedcooked", "driedcharred" ]}
 	],
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		meathookable: true,
 		meatHookTransform: {
   			translation: { x: 0.0, y: -0.11, z: 0.0 },

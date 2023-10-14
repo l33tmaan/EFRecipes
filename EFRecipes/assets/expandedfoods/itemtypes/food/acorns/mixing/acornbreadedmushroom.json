@@ -6,6 +6,8 @@
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred","syruppartbaked", "syrup", "syrupcharred", "oiled"] },
 	],
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
   		"handbook": { "groupBy": [ "acornbreadedmushroom-*" ] },
 		"expandedNutritionProps": {
 			"game:flour-flax": {saturation: 80, foodcategory: "Grain"},

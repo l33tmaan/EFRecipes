@@ -10,6 +10,8 @@
 		{ code: "type", states: ["liquid", "raw", "plain", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "birch", "maple", "soy", "honey", "cassava", "bellpepper", "huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry", "apple", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "apricot", "citron", "fig", "hawthorn", "purpleplum", "quince", "pomelo", "blueraspberry", "bunchberry", "crowberry", "husktomato", "wolfberry"] },
 	],
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		"handbook": { "groupBy": [ "gelatin-*" ] },
 		waterTightContainerPropsByType: {
 			"*-liquid": {

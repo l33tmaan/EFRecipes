@@ -6,6 +6,8 @@
 	],
 	materialDensityByType: {"*": 600},
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		"handbook": { "groupBy": [ "dryfruit-*" ] },
 		nutritionPropsWhenInMeal: { 
 			satietyByType:  { 
@@ -36,7 +38,7 @@
 			"@*-(redcurrant|whitecurrant|blackcurrant|blueberry|cranberry)": {
 				"translation": {
 				"x": 0.0,
-				"y": -0.09,
+				"y": -0.075,
 				"z": 0.05
 				},
 				"scale": 0.8

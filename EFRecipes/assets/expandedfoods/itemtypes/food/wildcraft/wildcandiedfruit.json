@@ -1,6 +1,17 @@
 ﻿{
 	"code": "wildcandiedfruit",
 	"maxstacksize": 64,
+	"attributes": {
+		displaycaseable: true,
+		shelvable: true,
+		"handbook": { "groupBy": [ "wildcandiedfruit-*" ] },
+		onDisplayTransformByType: {
+			"*": { 
+				translation: { x: 0.0, y: -0.155, z: 0.0 },
+				scale: 0.67
+			},
+		},
+	},
 	"variantgroups": [
 		{ "code": "fruit", "states": [ "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "huckleberry", "raspberry", "snowberry", "strawberry", "husktomato", "blueraspberry", "bunchberry", "crowberry", "wolfberry" ] }
 	],

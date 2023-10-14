@@ -6,6 +6,8 @@
 												"shelled", "wetshell", "blended"] },
 	],
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		inContainerTextureByType: {
 			"*-slurry": { base: "block/wood/barrel/raw-soybean" },
 			"*-cultured": { base: "block/wood/barrel/raw-soybean" },
@@ -57,15 +59,9 @@
 				initialCode: "expandedfoods:soyprep-soaked",
 			},
 		},
-		onDisplayTransformByType: { 
-			"*-soaked": {
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
-			},
-			"*-roasted": {
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
-			},
+		onDisplayTransform: { 
+			translation: { x: 0, y: -0.25, z: 0 },
+			scale: 0.5 
 		},
 	},
 	grindingPropsByType: {

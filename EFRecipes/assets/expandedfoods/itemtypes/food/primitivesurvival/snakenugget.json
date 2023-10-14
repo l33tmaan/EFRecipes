@@ -3,6 +3,8 @@
 	code: "snakenugget",
 	maxstacksize: 64,
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		"handbook": { "groupBy": [ "snakenugget-*" ] },
 		nutritionPropsWhenInMealByType: { 
 			"snakenugget-raw": {satiety: 225, foodcategory: "Protein"},

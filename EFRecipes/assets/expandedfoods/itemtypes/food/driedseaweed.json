@@ -3,37 +3,39 @@
     maxstacksize: 64,
     materialDensity: 200,
     attributes: {
-	nutritionPropsWhenInMeal: { 
-		satietyByType:  { 
-			"*-edible":  30
+		displaycaseable: true,
+		shelvable: true,
+		nutritionPropsWhenInMeal: { 
+			satietyByType:  { 
+				"*-edible":  30
+			},
+			foodcategory: "Vegetable" 
 		},
-		foodcategory: "Vegetable" 
-	},
-	bakingPropertiesByType: {
-		"*-sheet": {
-			temp: 100,
-			levelFrom: 0.0,
-			levelTo: 0.5,
-			startScaleY: 1.0,
-			endScaleY: 1.0,
-			resultCode: "expandedfoods:driedseaweed-edible"
+		bakingPropertiesByType: {
+			"*-sheet": {
+				temp: 100,
+				levelFrom: 0.0,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:driedseaweed-edible"
+			},
+			"*-edible": {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 1.0,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "expandedfoods:driedseaweed-sheet"
+			},
 		},
-		"*-edible": {
-			temp: 100,
-			levelFrom: 0.5,
-			levelTo: 1.0,
-			startScaleY: 1.0,
-			endScaleY: 1.0,
-			initialCode: "expandedfoods:driedseaweed-sheet"
+		onDisplayTransformByType: {
+			"*": { 
+				translation: { x: 0.0, y: -0.05, z: 0.04 },
+				rotation: { x: 0, y: 0, z: 0 },
+				scale: 0.8 
+			},
 		},
-	},
-	onDisplayTransformByType: {
-		"*": { 
-			translation: { x: 0.0, y: -0.05, z: 0.04 },
-			rotation: { x: 0, y: 0, z: 0 },
-			scale: .8 
-		},
-	},
     	inPieProperties: { texture: "game:block/food/pie/fill-seaweed", partType: 'Filling' },
     },
 	nutritionPropsByType: {

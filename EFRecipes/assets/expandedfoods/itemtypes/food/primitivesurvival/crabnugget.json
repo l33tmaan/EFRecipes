@@ -3,6 +3,8 @@
 	code: "crabnugget",
 	maxstacksize: 64,
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		"handbook": { "groupBy": [ "crabnugget-*" ] },
 		nutritionPropsWhenInMealByType: { 
 			"crabnugget-raw": {satiety: 195, foodcategory: "Protein"},

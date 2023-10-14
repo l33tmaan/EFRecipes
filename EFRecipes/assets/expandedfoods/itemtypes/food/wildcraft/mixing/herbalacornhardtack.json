@@ -11,6 +11,8 @@
 		{ code: "state", states: ["raw", "bake1", "bake2", "bake3", "bake4"] },
 	],
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		expandedNutritionProps: {
       		"game:salt" : { saturation: 0, foodcategory: "Grain" },
 			"expandedfoods:brothportion-bone": { saturation: 1, "health": 0.1, foodcategory: "Protein"},

@@ -2,6 +2,8 @@
 	code: "meatnugget",
 	maxstacksize: 64,
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		"handbook": { "groupBy": [ "meatnugget-*" ] },
 		nutritionPropsWhenInMealByType: { 
 			"@*-bushmeat-(raw|smashed)": {satiety: 195, foodcategory: "Protein"},
@@ -82,7 +84,7 @@
 			},
 		},
 		onDisplayTransformByType: { 
-			"@*-(raw|cookedpartbaked|cooked|cookedcharred)": {
+			"@*-(raw|cookedpartbaked|cooked|cookedcharred|cured)": {
 				translation: { x: 0, y: 0.25, z: 0 },
 				scale: 1.5 
 			},

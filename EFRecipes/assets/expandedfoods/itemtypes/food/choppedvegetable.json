@@ -3,9 +3,13 @@
 	maxstacksize: 64,
 	attributesByType: {
 		"*-cassavadried": {
+			displaycaseable: true,
+			shelvable: true,
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 		},
 		"*-cabbage": {
+			displaycaseable: true,
+			shelvable: true,
 			nutritionPropsWhenInMeal: { satiety: 450, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
@@ -23,6 +27,8 @@
     			inPieProperties: { texture: "game:block/food/pie/fill-cabbage", partType: 'Filling' },
 		},
 		"*-pumpkin": {
+			displaycaseable: true,
+			shelvable: true,
 			nutritionPropsWhenInMeal: { satiety: 180, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
@@ -36,6 +42,8 @@
     			inPieProperties: { texture: "game:block/food/pie/fill-pumpkin", partType: 'Filling' },
 		},
 		"*-pickledcarrot": {
+			displaycaseable: true,
+			shelvable: true,
 			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
@@ -49,6 +57,8 @@
     			inPieProperties: { texture: "game:block/food/pie/fill-carrot", partType: 'Filling' },
 		},
 		"*-pickledonion": {
+			displaycaseable: true,
+			shelvable: true,
 			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
@@ -62,6 +72,8 @@
     			inPieProperties: { texture: "game:block/food/pie/fill-onion", partType: 'Filling' },
 		},
 		"*-pickledparsnip": {
+			displaycaseable: true,
+			shelvable: true,
 			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
@@ -75,6 +87,8 @@
     			inPieProperties: { texture: "game:block/food/pie/fill-parsnip", partType: 'Filling' },
 		},
 		"*-pickledturnip": {
+			displaycaseable: true,
+			shelvable: true,
 			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
@@ -88,6 +102,8 @@
     			inPieProperties: { texture: "game:block/food/pie/fill-turnip", partType: 'Filling' },
 		},
 		"*-pickledpumpkin": {
+			displaycaseable: true,
+			shelvable: true,
 			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
@@ -101,6 +117,8 @@
     			inPieProperties: { texture: "game:block/food/pie/fill-pumpkin", partType: 'Filling' },
 		},
 		"*-papyrusroot": {
+			displaycaseable: true,
+			shelvable: true,
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
@@ -114,6 +132,8 @@
     			inPieProperties: { texture: "game:block/food/pie/fill-roots", partType: 'Filling' },
 		},
 		"*-cattailroot": {
+			displaycaseable: true,
+			shelvable: true,
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
@@ -127,6 +147,8 @@
     			inPieProperties: { texture: "game:block/food/pie/fill-roots", partType: 'Filling' },
 		},
 		"*": {
+			displaycaseable: true,
+			shelvable: true,
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {

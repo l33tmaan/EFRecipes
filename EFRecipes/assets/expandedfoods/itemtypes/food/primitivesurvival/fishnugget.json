@@ -3,6 +3,8 @@
 	code: "fishnugget",
 	maxstacksize: 64,
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		"handbook": { "groupBy": [ "fishnugget-*" ] },
 		nutritionPropsWhenInMealByType: { 
 			"@*-(raw|smashed)": {satiety: 155, foodcategory: "Protein"},

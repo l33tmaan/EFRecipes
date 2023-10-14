@@ -13,6 +13,8 @@
 		"*": { base: "game:item/food/legume/peanut" }
 	},
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
 		inContainerTexture: { base: "block/wood/barrel/raw-soybean" },
 		fertilizerPropsByType: {
 			"*-skins": {
@@ -43,6 +45,7 @@
 		},
 	    onDisplayTransform: { 
 			translation: { x: 0, y: -0.25, z: 0 },
+			"rotation": { "x": 0, "y": 45, "z": 0 },
 			scale: 0.5 
 		},
 	},

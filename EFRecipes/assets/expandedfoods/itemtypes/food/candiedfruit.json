@@ -1,6 +1,17 @@
 ﻿{
 	"code": "candiedfruit",
 	"maxstacksize": 64,
+	"attributes": {
+		displaycaseable: true,
+		shelvable: true,
+		"handbook": { "groupBy": [ "candiedfruit-*" ] },
+		onDisplayTransformByType: {
+			"*": { 
+				translation: { x: 0.0, y: -0.155, z: 0.0 },
+				scale: 0.67
+			},
+		},
+	},
 	"variantgroups": [
 		{ "code": "fruit",  "loadFromProperties": "block/fruit", "states": ["apple"] }
 	],

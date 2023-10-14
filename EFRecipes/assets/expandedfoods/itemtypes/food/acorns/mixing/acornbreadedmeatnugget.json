@@ -9,6 +9,8 @@
 		{ code: "state", states: ["smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled"] },
 	],
 	attributes: {
+		displaycaseable: true,
+		shelvable: true,
   		"expandedNutritionProps": {
 			"game:flour-flax": {saturation: 80, foodcategory: "Grain"},
 			"game:flour-rye": {saturation: 150, foodcategory: "Grain"},
