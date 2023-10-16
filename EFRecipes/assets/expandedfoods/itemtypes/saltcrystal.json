@@ -7,7 +7,17 @@
 	shape: { base: "item/saltcrystal" },
 	attributes: {
 		inContainerTexture: { base: "block/wood/barrel/salt" },
-		displaycaseable: true, shelvable: true
+		displaycaseable: true, shelvable: true,
+		bakingPropertiesByType: {
+			"*-damp": {
+				"temp": 120,
+				"levelFrom": 0,
+				"levelTo": 0.25,
+				"startScaleY": 1,
+				"endScaleY": 1,
+				"resultCode":  "expandedfoods:saltcrystal-dry"
+			},
+		},
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	transitionablePropsByType: {
@@ -31,6 +41,16 @@
 				code: "game:salt",
 				"quantity":  1
 			}
+		},
+	},
+	combustiblePropsByType: {
+		"*-damp": {
+			meltingPoint: 120,
+			meltingDuration: 15,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "expandedfoods:saltcrystal-dry" },
+			requiresContainer: false
 		},
 	},
 	materialDensity: 600,

@@ -1,0 +1,11 @@
+[
+	{
+		code: "saltwaterportion",
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 25 },
+			{ type: "item", code: "game:stone-*", quantity: 1, "name": "stone", allowedVariants: [ "halite" ]
+			}
+		],
+		output: { type: "item", code: "game:saltwaterportion", litres: 25 }
+	}
+]
