@@ -1,7 +1,7 @@
 [	
  {
 	ingredientPattern: "H,M",
-    recipeGroup: 6,
+    recipeGroup: 16,
 	ingredients: {
 		"H": { 
 			type: "item", 
@@ -21,7 +21,7 @@
   },
   {
 	ingredientPattern: "H,M",
-    recipeGroup: 6,
+    recipeGroup: 16,
 	ingredients: {
 		"H": { 
 			type: "item", 
@@ -41,7 +41,7 @@
   },
   {
 	ingredientPattern: "H,M",
-    recipeGroup: 6,
+    recipeGroup: 16,
 	ingredients: {
 		"H": { 
 			type: "item", 
@@ -58,5 +58,185 @@
 	height: 2,
 	name: "redmeatsmash",
 	output: { type: "item", code: "meatnugget-redmeat-smashed"  }
-  }
+  },
+ {
+  ingredientPattern: "H,M",
+    recipeGroup: 17,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "game:bushmeat-partbaked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "bushmeatsmash",
+  output: { type: "item", code: "meatnugget-bushmeat-tenderpartbaked"  }
+  },
+  {
+  ingredientPattern: "H,M",
+    recipeGroup: 17,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "game:poultry-partbaked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "poultrysmash",
+  output: { type: "item", code: "meatnugget-poultry-tenderpartbaked"  }
+  },
+  {
+  ingredientPattern: "H,M",
+    recipeGroup: 17,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "game:redmeat-partbaked",
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "redmeatsmash",
+  output: { type: "item", code: "meatnugget-redmeat-tenderpartbaked"  }
+  },
+ {
+  ingredientPattern: "H,M",
+    recipeGroup: 18,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "game:bushmeat-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "bushmeatsmash",
+  output: { type: "item", code: "meatnugget-bushmeat-tender"  }
+  },
+  {
+  ingredientPattern: "H,M",
+    recipeGroup: 18,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "game:poultry-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "poultrysmash",
+  output: { type: "item", code: "meatnugget-poultry-tender"  }
+  },
+  {
+  ingredientPattern: "H,M",
+    recipeGroup: 18,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "game:redmeat-cooked",
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "redmeatsmash",
+  output: { type: "item", code: "meatnugget-redmeat-tender"  }
+  },
+ {
+  ingredientPattern: "H,M",
+    recipeGroup: 19,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "game:bushmeat-charred", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "bushmeatsmash",
+  output: { type: "item", code: "meatnugget-bushmeat-tendercharred"  }
+  },
+  {
+  ingredientPattern: "H,M",
+    recipeGroup: 19,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "game:poultry-charred", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "poultrysmash",
+  output: { type: "item", code: "meatnugget-poultry-tendercharred"  }
+  },
+  {
+  ingredientPattern: "H,M",
+    recipeGroup: 19,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "game:redmeat-charred",
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "redmeatsmash",
+  output: { type: "item", code: "meatnugget-redmeat-tendercharred"  }
+  },
 ]

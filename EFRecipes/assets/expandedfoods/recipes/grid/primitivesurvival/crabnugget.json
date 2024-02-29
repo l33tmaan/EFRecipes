@@ -39,4 +39,124 @@
     "shapeless": true,
     "output": { type: "item", code: "crabnugget-raw" }
    },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 3,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:crabmeat-partbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "crabnugget-partbaked" }
+   },
+{
+    "ingredientPattern": "SM",
+    recipeGroup: 4,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:crabmeat-partbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "crabnugget-partbaked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 5,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:crabmeat-cooked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "crabnugget-cooked" }
+   },
+{
+    "ingredientPattern": "SM",
+    recipeGroup: 6,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:crabmeat-cooked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "crabnugget-cooked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 7,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:crabmeat-charred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "crabnugget-charred" }
+   },
+{
+    "ingredientPattern": "SM",
+    recipeGroup: 8,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:crabmeat-charred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "crabnugget-charred" }
+   },
 ]

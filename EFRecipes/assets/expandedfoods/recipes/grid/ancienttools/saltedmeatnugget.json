@@ -59,66 +59,6 @@
 	name: "redmeatsmash",
 	output: { type: "item", code: "saltedmeatnugget-redmeat-smashed"  }
   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 3,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-bushmeat-smashed",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-bushmeat-raw" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 3,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-redmeat-smashed",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-redmeat-raw" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 3,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-poultry-smashed",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-poultry-raw" }
-   },
  {
 	ingredientPattern: "H,M",
     recipeGroup: 2,
@@ -181,6 +121,66 @@
   },
   {
     "ingredientPattern": "SM",
+    recipeGroup: 3,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-bushmeat-smashed",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-bushmeat-raw" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 3,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-redmeat-smashed",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-redmeat-raw" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 3,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-poultry-smashed",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-poultry-raw" }
+   },
+  {
+    "ingredientPattern": "SM",
     recipeGroup: 4,
     "ingredients": {
       "S": {
@@ -302,4 +302,547 @@
 	name: "redmeatsmash",
 	output: { type: "item", code: "saltedmeatnugget-redmeat-smashed"  }
   },
+  {
+  ingredientPattern: "R,M",
+    recipeGroup: 6,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "game:stone-*",
+      name: "stone",
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-bushmeat-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "bushmeatsmash",
+  output: { type: "item", code: "saltedmeatnugget-bushmeat-tender"  }
+  },
+  {
+  ingredientPattern: "R,M",
+    recipeGroup: 6,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "game:stone-*",
+      name: "stone",
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-poultry-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "poultrysmash",
+  output: { type: "item", code: "saltedmeatnugget-poultry-tender"  }
+  },
+  {
+  ingredientPattern: "R,M",
+    recipeGroup: 6,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "game:stone-*",
+      name: "stone",
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-redmeat-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "redmeatsmash",
+  output: { type: "item", code: "saltedmeatnugget-redmeat-tender"  }
+  },
+ {
+  ingredientPattern: "H,M",
+    recipeGroup: 7,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "game:hammer-*",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-bushmeat-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "bushmeatsmash",
+  output: { type: "item", code: "saltedmeatnugget-bushmeat-tender"  }
+  },
+  {
+  ingredientPattern: "H,M",
+    recipeGroup: 7,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "game:hammer-*",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-poultry-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "poultrysmash",
+  output: { type: "item", code: "saltedmeatnugget-poultry-tender"  }
+  },
+  {
+  ingredientPattern: "H,M",
+    recipeGroup: 7,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "game:hammer-*",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-redmeat-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "redmeatsmash",
+  output: { type: "item", code: "saltedmeatnugget-redmeat-tender"  }
+  },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 8,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-bushmeat-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cookedpartbaked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 8,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-redmeat-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-redmeat-cookedpartbaked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 8,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-poultry-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-poultry-cookedpartbaked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 9,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-bushmeat-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cookedpartbaked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 9,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-redmeat-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-redmeat-cookedpartbaked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 9,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-poultry-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-poultry-cookedpartbaked" }
+   },
+  {
+  ingredientPattern: "R,M",
+    recipeGroup: 10,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "aculinaryartillery:rollingpin-*",
+      name: "rollingpin",
+            isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-bushmeat-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "bushmeatsmash",
+  output: { type: "item", code: "saltedmeatnugget-bushmeat-tender"  }
+  },
+  {
+  ingredientPattern: "R,M",
+    recipeGroup: 10,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "aculinaryartillery:rollingpin-*",
+      name: "rollingpin",
+            isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-poultry-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "poultrysmash",
+  output: { type: "item", code: "saltedmeatnugget-poultry-tender"  }
+  },
+  {
+  ingredientPattern: "R,M",
+    recipeGroup: 10,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "aculinaryartillery:rollingpin-*",
+      name: "rollingpin",
+            isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-redmeat-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "redmeatsmash",
+  output: { type: "item", code: "saltedmeatnugget-redmeat-tender"  }
+  },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 11,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-bushmeat-tender",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cooked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 11,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-redmeat-tender",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-redmeat-cooked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 11,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-poultry-tender",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-poultry-cooked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 12,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-bushmeat-tender",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cooked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 12,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-redmeat-tender",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-redmeat-cooked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 12,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-poultry-tender",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-poultry-cooked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 13,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-bushmeat-tendercharred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cookedcharred" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 13,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-redmeat-tendercharred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-redmeat-cookedcharred" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 13,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-poultry-tendercharred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-poultry-cookedcharred" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 14,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-bushmeat-tendercharred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cookedcharred" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 14,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-redmeat-tendercharred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-redmeat-cookedcharred" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 14,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-poultry-tendercharred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-poultry-cookedcharred" }
+   },
 ]

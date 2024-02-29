@@ -21,7 +21,7 @@
    },
 {
     "ingredientPattern": "SM",
-	recipeGroup: 3,
+	recipeGroup: 2,
     "ingredients": {
       "S": {
         type: "item",
@@ -38,5 +38,125 @@
     "height": 1,
     "shapeless": true,
     "output": { type: "item", code: "snakenugget-raw" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 3,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:snakemeat-partbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "snakenugget-partbaked" }
+   },
+{
+    "ingredientPattern": "SM",
+    recipeGroup: 4,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:snakemeat-partbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "snakenugget-partbaked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 5,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:snakemeat-cooked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "snakenugget-cooked" }
+   },
+{
+    "ingredientPattern": "SM",
+    recipeGroup: 6,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:snakemeat-cooked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "snakenugget-cooked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 7,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:snakemeat-charred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "snakenugget-charred" }
+   },
+{
+    "ingredientPattern": "SM",
+    recipeGroup: 8,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "primitivesurvival:snakemeat-charred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "snakenugget-charred" }
    },
 ]

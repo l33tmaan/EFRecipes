@@ -118,5 +118,362 @@
 	height: 2,
 	name: "fishsmash",
 	output: { type: "item", code: "fishnugget-smashed"  }
+  },  {
+  ingredientPattern: "R,M",
+  recipeGroup: 7,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "game:stone-*"
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-partbaked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tenderpartbaked"  }
+  },
+  {
+    "ingredientPattern": "SM",
+  recipeGroup: 8,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "fishnugget-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "fishnugget-cookedpartbaked" }
+   },
+{
+    "ingredientPattern": "SM",
+  recipeGroup: 9,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "fishnugget-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "fishnugget-cookedpartbaked" }
+   },
+  {
+  ingredientPattern: "H,M",
+  recipeGroup: 10,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "game:hammer-*",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-partbaked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tenderpartbaked"  }
+  },
+  {
+  "enabled":  false,
+  ingredientPattern: "H,M",
+  recipeGroup: 11,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-partbaked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tenderpartbaked"  }
+  },
+  {
+  ingredientPattern: "R,M",
+  recipeGroup: 12,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "aculinaryartillery:rollingpin-*",
+            isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-partbaked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tenderpartbaked"  }
+  },  {
+  ingredientPattern: "R,M",
+  recipeGroup: 13,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "game:stone-*"
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tender"  }
+  },
+  {
+    "ingredientPattern": "SM",
+  recipeGroup: 14,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "fishnugget-tender",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "fishnugget-cooked" }
+   },
+{
+    "ingredientPattern": "SM",
+  recipeGroup: 15,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "fishnugget-tender",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "fishnugget-cooked" }
+   },
+  {
+  ingredientPattern: "H,M",
+  recipeGroup: 16,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "game:hammer-*",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tender"  }
+  },
+  {
+  "enabled":  false,
+  ingredientPattern: "H,M",
+  recipeGroup: 17,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tender"  }
+  },
+  {
+  ingredientPattern: "R,M",
+  recipeGroup: 18,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "aculinaryartillery:rollingpin-*",
+            isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tender"  }
+  },  {
+  ingredientPattern: "R,M",
+  recipeGroup: 19,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "game:stone-*"
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-charred", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tendercharred"  }
+  },
+  {
+    "ingredientPattern": "SM",
+  recipeGroup: 20,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "fishnugget-tendercharred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "fishnugget-cookedcharred" }
+   },
+{
+    "ingredientPattern": "SM",
+  recipeGroup: 21,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "fishnugget-tendercharred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "fishnugget-cookedcharred" }
+   },
+  {
+  ingredientPattern: "H,M",
+  recipeGroup: 22,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "game:hammer-*",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-charred", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tendercharred"  }
+  },
+  {
+  "enabled":  false,
+  ingredientPattern: "H,M",
+  recipeGroup: 23,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "acorns:mallet",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-charred", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tendercharred"  }
+  },
+  {
+  ingredientPattern: "R,M",
+  recipeGroup: 24,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "aculinaryartillery:rollingpin-*",
+            isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "primitivesurvival:fishfillet-charred", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "fishsmash",
+  output: { type: "item", code: "fishnugget-tendercharred"  }
   },
 ]
