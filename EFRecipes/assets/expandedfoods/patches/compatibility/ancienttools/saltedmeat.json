@@ -1,0 +1,491 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/attributesbytype/*",
+    "value": {
+        meathookable: true,
+        "meatHookTransform": {
+            "translation": { "x": 0, "y": 0.385, "z": 0.02 },
+            "rotation": { "x": -90, "y": 90, "z": 0 },
+            "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+            "scale": 1
+        },
+        "bakingPropertiesByType": {
+            "*-raw": {
+                "temp": 150,
+                "levelFrom": 0.0,
+                "levelTo": 0.25,
+                "startScaleY": 1.0,
+                "endScaleY": 1.0,
+                "resultCode": "ancienttools:saltedmeat-{type}-partbaked"
+            },
+            "*-partbaked": {
+                "temp": 150,
+                "levelFrom": 0.25,
+                "levelTo": 0.5,
+                "startScaleY": 1.0,
+                "endScaleY": 1.0,
+                "resultCode": "ancienttools:saltedmeat-{type}-cooked",
+                "initialCode": "ancienttools:saltedmeat-{type}-raw"
+            },
+            "*-cooked": {
+                "temp": 150,
+                "levelFrom": 0.5,
+                "levelTo": 0.75,
+                "startScaleY": 1.0,
+                "endScaleY": 1.0,
+                "resultCode": "ancienttools:saltedmeat-{type}-charred",
+                "initialCode": "ancienttools:saltedmeat-{type}-partbaked"
+            },
+            "*-charred": {
+                "temp": 150,
+                "levelFrom": 0.75,
+                "levelTo": 1.0,
+                "startScaleY": 1.0,
+                "endScaleY": 0.9,
+                "initialCode": "ancienttools:saltedmeat-{type}-cooked"
+            }
+        },
+        "onDisplayTransform": {
+            "translation": { "x": 0.05, "y": 0, "z": 0.05 },
+            "scale": 1
+        },
+        "inPiePropertiesByType": {
+      		"*-redmeat-raw": { texture: "game:block/food/pie/fill-redmeat", partType: 'Filling' },
+      		"*-bushmeat-raw": { texture: "game:block/food/pie/fill-bushmeat", partType: 'Filling' },
+      		"*-poultry-raw": { texture: "game:block/food/pie/fill-poultry", partType: 'Filling' },
+    	},
+		inFirePitProps: {
+			transform: {
+				scale: 0.9,
+				origin: { x: 0.5, y: 0.0625, z: 0.5 },
+				translation: { x: 0.03125, y: 0.3125, z: 0 },
+				rotation: { x: 0, y: 53, z: 90 }
+			},
+			useFirepitModel: "Spit"
+		},
+		onCuringRackProps: {
+			transform: {
+				scale: { x: 0.8, y: 0.8, z: 0.8 },
+				rotation: { x: 0.0, y: 180.0, z: 90.0},
+				translation: { x: 0.175, y: -0.2, z: 0.0 },
+				depthOffset: 0.1,
+				horizontalOffset: 0.05,
+				verticalOffset: 0.0,
+				rotateAround: { x: 0, y: 1, z: 0 }
+			},
+		},
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-redmeat-raw/meathookable",
+    "value": true,
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-redmeat-raw/meatHookTransform",
+    "value": {
+      "translation": { "x": 0, "y": 0.385, "z": 0.02 },
+      "rotation": { "x": -90, "y": 90, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-redmeat-raw/bakingProperties",
+    "value": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "ancienttools:saltedmeat-redmeat-partbaked"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-redmeat-raw/onDisplayTransform",
+    "value": {
+      "translation": { "x": 0.05, "y": 0, "z": 0.05 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-redmeat-cooked/meathookable",
+    "value": true,
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-redmeat-cooked/meatHookTransform",
+    "value": {
+      "translation": { "x": 0, "y": 0.385, "z": 0.02 },
+      "rotation": { "x": -90, "y": 90, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-redmeat-cooked/bakingProperties",
+    "value": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "ancienttools:saltedmeat-redmeat-charred",
+        "initialCode": "ancienttools:saltedmeat-redmeat-partbaked"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-redmeat-cooked/onDisplayTransform",
+    "value": {
+      "translation": { "x": 0.05, "y": 0, "z": 0.05 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-poultry-raw/meathookable",
+    "value": true,
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-poultry-raw/meatHookTransform",
+    "value": {
+      "translation": { "x": 0, "y": 0.385, "z": 0.02 },
+      "rotation": { "x": -90, "y": 90, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-poultry-raw/bakingProperties",
+    "value": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "ancienttools:saltedmeat-poultry-partbaked"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-poultry-raw/onDisplayTransform",
+    "value": {
+      "translation": { "x": 0.05, "y": 0, "z": 0.05 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-bushmeat-raw/meathookable",
+    "value": true,
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-bushmeat-raw/meatHookTransform",
+    "value": {
+      "translation": { "x": 0, "y": 0.385, "z": 0.02 },
+      "rotation": { "x": -90, "y": 90, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-bushmeat-raw/bakingProperties",
+    "value": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "ancienttools:saltedmeat-bushmeat-partbaked"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-bushmeat-raw/onDisplayTransform",
+    "value": {
+      "translation": { "x": 0.05, "y": 0, "z": 0.05 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-cooked/meathookable",
+    "value": true,
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-cooked/meatHookTransform",
+    "value": {
+      "translation": { "x": 0, "y": 0.385, "z": 0.02 },
+      "rotation": { "x": -90, "y": 90, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-cooked/bakingProperties",
+    "value": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "ancienttools:saltedmeat-{type}-charred",
+        "initialCode": "ancienttools:saltedmeat-{type}-partbaked"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesbytype/*-cooked/onDisplayTransform",
+    "value": {
+      "translation": { "x": 0.05, "y": 0, "z": 0.05 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-poultry-charred",
+    "value": {
+      "satiety": 80,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bushmeat-charred",
+    "value": {
+      "satiety": 50,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-redmeat-charred",
+    "value": {
+      "satiety": 110,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-poultry-partbaked",
+    "value": {
+      "satiety": 90,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-bushmeat-partbaked",
+    "value": {
+      "satiety": 55,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-redmeat-partbaked",
+    "value": {
+      "satiety": 125,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/transitionablepropsbytype/*-charred",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 1008
+        },
+        "transitionHours": {
+          "avg": 350
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/transitionablepropsbytype/*-partbaked",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 288
+        },
+        "transitionHours": {
+          "avg": 192
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/1/states/1",
+    "value": "partbaked",
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1/states/2",
+    "value": "cooked",
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1/states/3",
+    "value": "charred",
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesbytype/*-charred",
+    "value": {
+	    "meat": { base: "expandedfoods:item/food/saltedmeat/saltedcharred" }
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesbytype/*-partbaked",
+    "value": {
+	    "meat": { base: "expandedfoods:item/food/saltedmeat/saltedpartbaked" }
+    },
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransformByType/*-redmeat-*/translation/x",
+    "value": 10.5,
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransformByType/*-redmeat-*/translation/y",
+    "value": 5,
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-redmeat-raw/smeltedStack/code",
+    "value": "saltedmeat-redmeat-charred",
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-bushmeat-raw/smeltedStack/code",
+    "value": "saltedmeat-bushmeat-charred",
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-poultry-raw/smeltedStack/code",
+    "value": "saltedmeat-poultry-charred",
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/@*-(partbaked|cooked)",
+    "value": {
+		meltingPoint: 150,
+		meltingDuration: 30,
+		smeltedRatio: 1,
+		smeltingType: "cook",
+		smeltedStack: { type: "item", code: "saltedmeat-{type}-charred" },
+		requiresContainer: false
+	},
+    "side": "server",
+    "file": "ancienttools:itemtypes/food/saltedmeat.json"
+  },
+]
