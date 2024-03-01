@@ -343,4 +343,52 @@
     "side": "server",
     dependsOn: [{ "modid": "ancienttools", "invert": true }]
  },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/saltedmeatnugget.json",
+    op: "replace", 
+    path: "/42/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/saltedmeatnugget.json",
+    op: "replace", 
+    path: "/43/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/saltedmeatnugget.json",
+    op: "replace", 
+    path: "/44/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/saltedmeatnugget.json",
+    op: "replace", 
+    path: "/45/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/saltedmeatnugget.json",
+    op: "replace", 
+    path: "/46/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/ancienttools/saltedmeatnugget.json",
+    op: "replace", 
+    path: "/47/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }]
+ },
 ]

@@ -845,4 +845,130 @@
     "shapeless": true,
     "output": { type: "item", code: "saltedmeatnugget-poultry-cookedcharred" }
    },
+ {
+    "enabled":  false,
+    ingredientPattern: "H,M",
+    recipeGroup: 15,
+    ingredients: {
+        "H": { 
+            type: "item", 
+            code: "acorns:mallet",
+            isTool: true
+        },
+        "M": { 
+            type: "item", 
+            code: "ancienttools:saltedmeat-bushmeat-raw", 
+            name: "meat",
+        },
+    },
+    width: 1,
+    height: 2,
+    name: "bushmeatsmash",
+    output: { type: "item", code: "saltedmeatnugget-bushmeat-smashed"  }
+  },
+  {
+    "enabled":  false,
+    ingredientPattern: "H,M",
+    recipeGroup: 15,
+    ingredients: {
+        "H": { 
+            type: "item", 
+            code: "acorns:mallet",
+            isTool: true
+        },
+        "M": { 
+            type: "item", 
+            code: "ancienttools:saltedmeat-poultry-raw", 
+            name: "meat",
+        },
+    },
+    width: 1,
+    height: 2,
+    name: "poultrysmash",
+    output: { type: "item", code: "saltedmeatnugget-poultry-smashed"  }
+  },
+  {
+    "enabled":  false,
+    ingredientPattern: "H,M",
+    recipeGroup: 15,
+    ingredients: {
+        "H": { 
+            type: "item", 
+            code: "acorns:mallet",
+            isTool: true
+        },
+        "M": { 
+            type: "item", 
+            code: "ancienttools:saltedmeat-redmeat-raw", 
+            name: "meat",
+        },
+    },
+    width: 1,
+    height: 2,
+    name: "redmeatsmash",
+    output: { type: "item", code: "saltedmeatnugget-redmeat-smashed"  }
+  },
+ {
+    "enabled":  false,
+    ingredientPattern: "H,M",
+    recipeGroup: 16,
+    ingredients: {
+        "H": { 
+            type: "item", 
+            code: "acorns:mallet",
+            isTool: true
+        },
+        "M": { 
+            type: "item", 
+            code: "ancienttools:saltedmeat-bushmeat-cooked", 
+            name: "meat",
+        },
+    },
+    width: 1,
+    height: 2,
+    name: "bushmeatsmash",
+    output: { type: "item", code: "saltedmeatnugget-bushmeat-tender"  }
+  },
+  {
+    "enabled":  false,
+    ingredientPattern: "H,M",
+    recipeGroup: 16,
+    ingredients: {
+        "H": { 
+            type: "item", 
+            code: "acorns:mallet",
+            isTool: true
+        },
+        "M": { 
+            type: "item", 
+            code: "ancienttools:saltedmeat-poultry-cooked", 
+            name: "meat",
+        },
+    },
+    width: 1,
+    height: 2,
+    name: "poultrysmash",
+    output: { type: "item", code: "saltedmeatnugget-poultry-tender"  }
+  },
+  {
+    "enabled":  false,
+    ingredientPattern: "H,M",
+    recipeGroup: 16,
+    ingredients: {
+        "H": { 
+            type: "item", 
+            code: "acorns:mallet",
+            isTool: true
+        },
+        "M": { 
+            type: "item", 
+            code: "ancienttools:saltedmeat-redmeat-cooked", 
+            name: "meat",
+        },
+    },
+    width: 1,
+    height: 2,
+    name: "redmeatsmash",
+    output: { type: "item", code: "saltedmeatnugget-redmeat-tender"  }
+  },
 ]
