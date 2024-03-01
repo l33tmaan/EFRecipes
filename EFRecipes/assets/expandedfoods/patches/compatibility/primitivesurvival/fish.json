@@ -199,4 +199,24 @@
     "side": "server",
     dependsOn: [ {"modid": "primitivesurvival"} ]
   },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-salmon*/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.15625,
+        "liquidStack": {
+            "type": "item",
+            "code": "expandedfoods:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json",
+    "side": "server",
+    dependsOn: [ {"modid": "primitivesurvival"} ]
+  },
 ]
