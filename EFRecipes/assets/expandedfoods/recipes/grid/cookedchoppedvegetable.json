@@ -1,0 +1,116 @@
+﻿[  
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "cookedveggie-*-partbaked",
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "cookedchoppedvegetable-{type}-partbaked" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "cookedveggie-*-partbaked",
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "cookedchoppedvegetable-{type}-partbaked" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "cookedveggie-*-perfect",
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "cookedchoppedvegetable-{type}-perfect" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "cookedveggie-*-perfect",
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "cookedchoppedvegetable-{type}-perfect" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 1,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "cookedveggie-*-charred",
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "cookedchoppedvegetable-{type}-charred" }
+   },
+  {
+    "ingredientPattern": "KV",
+    recipeGroup: 2,
+    "ingredients": {
+      "K": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "V": {
+        type: "item",
+        code: "cookedveggie-*-charred",
+        name: "type",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { type: "item", code: "cookedchoppedvegetable-{type}-charred" }
+   },
+]
