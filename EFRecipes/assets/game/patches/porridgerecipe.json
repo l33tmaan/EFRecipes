@@ -2514,6 +2514,96 @@
     "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
+  {
+    "op": "addeach",
+    "path": "/ingredients/9/validStacks/-",
+    "value": [
+        {
+            "type": "item",
+            "code": "ancienttools:saltedmeat-redmeat-raw",
+            "shapeElement": "bowl/meat stew/*",
+            "textureMapping": [
+                "meat",
+                "group2"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "ancienttools:saltedmeat-bushmeat-raw",
+            "shapeElement": "bowl/meat stew/*",
+            "textureMapping": [
+                "meat",
+                "group7"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "ancienttools:saltedmeat-poultry-raw",
+            "shapeElement": "bowl/meat stew/*",
+            "textureMapping": [
+                "meat",
+                "group3"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:saltedmeatnugget-redmeat-raw",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "redmeat-raw"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:saltedmeatnugget-bushmeat-raw",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "bushmeat-raw"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:saltedmeatnugget-poultry-raw",
+            "shapeElement": "bowl/meatnugget 1/*",
+            "textureMapping": [
+                "meatnugget",
+                "poultry-raw"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:saltedmeatnugget-redmeat-smashed",
+            "shapeElement": "bowl/meat stew/*",
+            "textureMapping": [
+                "meat",
+                "group2"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:saltedmeatnugget-bushmeat-smashed",
+            "shapeElement": "bowl/meat stew/*",
+            "textureMapping": [
+                "meat",
+                "group7"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:saltedmeatnugget-poultry-smashed",
+            "shapeElement": "bowl/meat stew/*",
+            "textureMapping": [
+                "meat",
+                "group3"
+            ]
+        },
+    ],
+    "side": "server",
+    "file": "recipes/cooking/porridge.json",	
+    dependsOn: [{ "modid": "ancienttools" }]
+  },
  {
     "op": "addeach",
     "path": "/ingredients/9/validStacks/-",
