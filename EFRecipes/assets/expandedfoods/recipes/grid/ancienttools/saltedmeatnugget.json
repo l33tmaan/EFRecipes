@@ -10,18 +10,364 @@
 		},
 		"M": { 
 			type: "item", 
-			code: "ancienttools:saltedmeat-bushmeat-raw", 
+			code: "ancienttools:saltedmeat-*-raw", 
 			name: "meat",
 		},
 	},
 	width: 1,
 	height: 2,
-	name: "bushmeatsmash",
-	output: { type: "item", code: "saltedmeatnugget-bushmeat-smashed"  }
+	name: "smash",
+	output: { type: "item", code: "saltedmeatnugget-{meat}-smashed"  }
+  },
+ {
+	ingredientPattern: "H,M",
+    recipeGroup: 2,
+	ingredients: {
+		"H": { 
+			type: "item", 
+			code: "game:hammer-*",
+			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "ancienttools:saltedmeat-*-raw", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "smash",
+	output: { type: "item", code: "saltedmeatnugget-{meat}-smashed"  }
+  },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 3,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-*-smashed",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-raw" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 4,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-*-smashed",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-raw" }
+   },
+  {
+	ingredientPattern: "R,M",
+    recipeGroup: 5,
+	ingredients: {
+		"R": { 
+			type: "item", 
+			code: "aculinaryartillery:rollingpin-*",
+			name: "rollingpin",
+       			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "ancienttools:saltedmeat-*-raw", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "smash",
+	output: { type: "item", code: "saltedmeatnugget-{meat}-smashed"  }
+  },
+  {
+  ingredientPattern: "R,M",
+    recipeGroup: 6,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "game:stone-*",
+      name: "stone",
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-*-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "smash",
+  output: { type: "item", code: "saltedmeatnugget-{meat}-tender"  }
+  },
+ {
+  ingredientPattern: "H,M",
+    recipeGroup: 7,
+  ingredients: {
+    "H": { 
+      type: "item", 
+      code: "game:hammer-*",
+      isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-*-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "smash",
+  output: { type: "item", code: "saltedmeatnugget-{meat}-tender"  }
+  },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 8,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-*-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-cookedpartbaked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 9,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-*-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-cookedpartbaked" }
+   },
+  {
+  ingredientPattern: "R,M",
+    recipeGroup: 10,
+  ingredients: {
+    "R": { 
+      type: "item", 
+      code: "aculinaryartillery:rollingpin-*",
+      name: "rollingpin",
+            isTool: true
+    },
+    "M": { 
+      type: "item", 
+      code: "ancienttools:saltedmeat-*-cooked", 
+      name: "meat",
+    },
+  },
+  width: 1,
+  height: 2,
+  name: "smash",
+  output: { type: "item", code: "saltedmeatnugget-{meat}-tender"  }
+  },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 11,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-*-tender",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-cooked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 12,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-*-tender",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-cooked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 13,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-*-tendercharred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-cookedcharred" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 14,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-*-tendercharred",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-cookedcharred" }
+   },
+ {
+    "enabled":  false,
+    ingredientPattern: "H,M",
+    recipeGroup: 15,
+    ingredients: {
+        "H": { 
+            type: "item", 
+            code: "acorns:mallet",
+            isTool: true
+        },
+        "M": { 
+            type: "item", 
+            code: "ancienttools:saltedmeat-*-raw", 
+            name: "meat",
+        },
+    },
+    width: 1,
+    height: 2,
+    name: "smash",
+    output: { type: "item", code: "saltedmeatnugget-{meat}-smashed"  }
+  },
+ {
+    "enabled":  false,
+    ingredientPattern: "H,M",
+    recipeGroup: 16,
+    ingredients: {
+        "H": { 
+            type: "item", 
+            code: "acorns:mallet",
+            isTool: true
+        },
+        "M": { 
+            type: "item", 
+            code: "ancienttools:saltedmeat-*-partbaked", 
+            name: "meat",
+        },
+    },
+    width: 1,
+    height: 2,
+    name: "smash",
+    output: { type: "item", code: "saltedmeatnugget-{meat}-tenderpartbaked"  }
+  },
+ {
+    "enabled":  false,
+    ingredientPattern: "H,M",
+    recipeGroup: 17,
+    ingredients: {
+        "H": { 
+            type: "item", 
+            code: "acorns:mallet",
+            isTool: true
+        },
+        "M": { 
+            type: "item", 
+            code: "ancienttools:saltedmeat-*-cooked", 
+            name: "meat",
+        },
+    },
+    width: 1,
+    height: 2,
+    name: "smash",
+    output: { type: "item", code: "saltedmeatnugget-{meat}-tender"  }
+  },
+ {
+    "enabled":  false,
+    ingredientPattern: "H,M",
+    recipeGroup: 18,
+    ingredients: {
+        "H": { 
+            type: "item", 
+            code: "acorns:mallet",
+            isTool: true
+        },
+        "M": { 
+            type: "item", 
+            code: "ancienttools:saltedmeat-*-charred", 
+            name: "meat",
+        },
+    },
+    width: 1,
+    height: 2,
+    name: "smash",
+    output: { type: "item", code: "saltedmeatnugget-{meat}-tendercharred"  }
   },
   {
 	ingredientPattern: "R,M",
-    recipeGroup: 1,
+    recipeGroup: 19,
 	ingredients: {
 		"R": { 
 			type: "item", 
@@ -30,18 +376,99 @@
 		},
 		"M": { 
 			type: "item", 
-			code: "ancienttools:saltedmeat-poultry-raw", 
+			code: "ancienttools:saltedmeat-*-partbaked", 
 			name: "meat",
 		},
 	},
 	width: 1,
 	height: 2,
-	name: "poultrysmash",
-	output: { type: "item", code: "saltedmeatnugget-poultry-smashed"  }
+	name: "smash",
+	output: { type: "item", code: "saltedmeatnugget-{meat}-tenderpartbaked"  }
+  },
+ {
+	ingredientPattern: "H,M",
+    recipeGroup: 20,
+	ingredients: {
+		"H": { 
+			type: "item", 
+			code: "game:hammer-*",
+			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "ancienttools:saltedmeat-*-partbaked", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "smash",
+	output: { type: "item", code: "saltedmeatnugget-{meat}-tenderpartbaked"  }
+  },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 21,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:knife-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-*-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-cookedpartbaked" }
+   },
+  {
+    "ingredientPattern": "SM",
+    recipeGroup: 22,
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "M": {
+        type: "item",
+        code: "saltedmeatnugget-*-tenderpartbaked",
+        name: "meat",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-cookedpartbaked" }
+   },
+  {
+	ingredientPattern: "R,M",
+    recipeGroup: 23,
+	ingredients: {
+		"R": { 
+			type: "item", 
+			code: "aculinaryartillery:rollingpin-*",
+			name: "rollingpin",
+       			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "ancienttools:saltedmeat-*-partbaked", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "smash",
+	output: { type: "item", code: "saltedmeatnugget-{meat}-tenderpartbaked"  }
   },
   {
 	ingredientPattern: "R,M",
-    recipeGroup: 1,
+    recipeGroup: 24,
 	ingredients: {
 		"R": { 
 			type: "item", 
@@ -50,18 +477,18 @@
 		},
 		"M": { 
 			type: "item", 
-			code: "ancienttools:saltedmeat-redmeat-raw", 
+			code: "ancienttools:saltedmeat-*-charred", 
 			name: "meat",
 		},
 	},
 	width: 1,
 	height: 2,
-	name: "redmeatsmash",
-	output: { type: "item", code: "saltedmeatnugget-redmeat-smashed"  }
+	name: "smash",
+	output: { type: "item", code: "saltedmeatnugget-{meat}-tendercharred"  }
   },
  {
 	ingredientPattern: "H,M",
-    recipeGroup: 2,
+    recipeGroup: 25,
 	ingredients: {
 		"H": { 
 			type: "item", 
@@ -70,58 +497,18 @@
 		},
 		"M": { 
 			type: "item", 
-			code: "ancienttools:saltedmeat-bushmeat-raw", 
+			code: "ancienttools:saltedmeat-*-charred", 
 			name: "meat",
 		},
 	},
 	width: 1,
 	height: 2,
-	name: "bushmeatsmash",
-	output: { type: "item", code: "saltedmeatnugget-bushmeat-smashed"  }
-  },
-  {
-	ingredientPattern: "H,M",
-    recipeGroup: 2,
-	ingredients: {
-		"H": { 
-			type: "item", 
-			code: "game:hammer-*",
-			isTool: true
-		},
-		"M": { 
-			type: "item", 
-			code: "ancienttools:saltedmeat-poultry-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "poultrysmash",
-	output: { type: "item", code: "saltedmeatnugget-poultry-smashed"  }
-  },
-  {
-	ingredientPattern: "H,M",
-    recipeGroup: 2,
-	ingredients: {
-		"H": { 
-			type: "item", 
-			code: "game:hammer-*",
-			isTool: true
-		},
-		"M": { 
-			type: "item", 
-			code: "ancienttools:saltedmeat-redmeat-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "redmeatsmash",
-	output: { type: "item", code: "saltedmeatnugget-redmeat-smashed"  }
+	name: "smash",
+	output: { type: "item", code: "saltedmeatnugget-{meat}-tendercharred"  }
   },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 3,
+    recipeGroup: 26,
     "ingredients": {
       "S": {
         type: "item",
@@ -130,58 +517,18 @@
       },
       "M": {
         type: "item",
-        code: "saltedmeatnugget-bushmeat-smashed",
+        code: "saltedmeatnugget-*-tendercharred",
         name: "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-bushmeat-raw" }
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-cookedcharred" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 3,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-redmeat-smashed",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-redmeat-raw" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 3,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-poultry-smashed",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-poultry-raw" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 4,
+    recipeGroup: 27,
     "ingredients": {
       "S": {
         type: "item",
@@ -190,58 +537,18 @@
       },
       "M": {
         type: "item",
-        code: "saltedmeatnugget-bushmeat-smashed",
+        code: "saltedmeatnugget-*-tendercharred",
         name: "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-bushmeat-raw" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 4,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-redmeat-smashed",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-redmeat-raw" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 4,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-poultry-smashed",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-poultry-raw" }
+    "output": { type: "item", code: "saltedmeatnugget-{meat}-cookedcharred" }
    },
   {
 	ingredientPattern: "R,M",
-    recipeGroup: 5,
+    recipeGroup: 28,
 	ingredients: {
 		"R": { 
 			type: "item", 
@@ -251,724 +558,13 @@
 		},
 		"M": { 
 			type: "item", 
-			code: "ancienttools:saltedmeat-bushmeat-raw", 
+			code: "ancienttools:saltedmeat-*-charred", 
 			name: "meat",
 		},
 	},
 	width: 1,
 	height: 2,
-	name: "bushmeatsmash",
-	output: { type: "item", code: "saltedmeatnugget-bushmeat-smashed"  }
-  },
-  {
-	ingredientPattern: "R,M",
-    recipeGroup: 5,
-	ingredients: {
-		"R": { 
-			type: "item", 
-			code: "aculinaryartillery:rollingpin-*",
-			name: "rollingpin",
-       			isTool: true
-		},
-		"M": { 
-			type: "item", 
-			code: "ancienttools:saltedmeat-poultry-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "poultrysmash",
-	output: { type: "item", code: "saltedmeatnugget-poultry-smashed"  }
-  },
-  {
-	ingredientPattern: "R,M",
-    recipeGroup: 5,
-	ingredients: {
-		"R": { 
-			type: "item", 
-			code: "aculinaryartillery:rollingpin-*",
-			name: "rollingpin",
-       			isTool: true
-		},
-		"M": { 
-			type: "item", 
-			code: "ancienttools:saltedmeat-redmeat-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "redmeatsmash",
-	output: { type: "item", code: "saltedmeatnugget-redmeat-smashed"  }
-  },
-  {
-  ingredientPattern: "R,M",
-    recipeGroup: 6,
-  ingredients: {
-    "R": { 
-      type: "item", 
-      code: "game:stone-*",
-      name: "stone",
-    },
-    "M": { 
-      type: "item", 
-      code: "ancienttools:saltedmeat-bushmeat-cooked", 
-      name: "meat",
-    },
-  },
-  width: 1,
-  height: 2,
-  name: "bushmeatsmash",
-  output: { type: "item", code: "saltedmeatnugget-bushmeat-tender"  }
-  },
-  {
-  ingredientPattern: "R,M",
-    recipeGroup: 6,
-  ingredients: {
-    "R": { 
-      type: "item", 
-      code: "game:stone-*",
-      name: "stone",
-    },
-    "M": { 
-      type: "item", 
-      code: "ancienttools:saltedmeat-poultry-cooked", 
-      name: "meat",
-    },
-  },
-  width: 1,
-  height: 2,
-  name: "poultrysmash",
-  output: { type: "item", code: "saltedmeatnugget-poultry-tender"  }
-  },
-  {
-  ingredientPattern: "R,M",
-    recipeGroup: 6,
-  ingredients: {
-    "R": { 
-      type: "item", 
-      code: "game:stone-*",
-      name: "stone",
-    },
-    "M": { 
-      type: "item", 
-      code: "ancienttools:saltedmeat-redmeat-cooked", 
-      name: "meat",
-    },
-  },
-  width: 1,
-  height: 2,
-  name: "redmeatsmash",
-  output: { type: "item", code: "saltedmeatnugget-redmeat-tender"  }
-  },
- {
-  ingredientPattern: "H,M",
-    recipeGroup: 7,
-  ingredients: {
-    "H": { 
-      type: "item", 
-      code: "game:hammer-*",
-      isTool: true
-    },
-    "M": { 
-      type: "item", 
-      code: "ancienttools:saltedmeat-bushmeat-cooked", 
-      name: "meat",
-    },
-  },
-  width: 1,
-  height: 2,
-  name: "bushmeatsmash",
-  output: { type: "item", code: "saltedmeatnugget-bushmeat-tender"  }
-  },
-  {
-  ingredientPattern: "H,M",
-    recipeGroup: 7,
-  ingredients: {
-    "H": { 
-      type: "item", 
-      code: "game:hammer-*",
-      isTool: true
-    },
-    "M": { 
-      type: "item", 
-      code: "ancienttools:saltedmeat-poultry-cooked", 
-      name: "meat",
-    },
-  },
-  width: 1,
-  height: 2,
-  name: "poultrysmash",
-  output: { type: "item", code: "saltedmeatnugget-poultry-tender"  }
-  },
-  {
-  ingredientPattern: "H,M",
-    recipeGroup: 7,
-  ingredients: {
-    "H": { 
-      type: "item", 
-      code: "game:hammer-*",
-      isTool: true
-    },
-    "M": { 
-      type: "item", 
-      code: "ancienttools:saltedmeat-redmeat-cooked", 
-      name: "meat",
-    },
-  },
-  width: 1,
-  height: 2,
-  name: "redmeatsmash",
-  output: { type: "item", code: "saltedmeatnugget-redmeat-tender"  }
-  },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 8,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-bushmeat-tenderpartbaked",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cookedpartbaked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 8,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-redmeat-tenderpartbaked",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-redmeat-cookedpartbaked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 8,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-poultry-tenderpartbaked",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-poultry-cookedpartbaked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 9,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-bushmeat-tenderpartbaked",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cookedpartbaked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 9,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-redmeat-tenderpartbaked",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-redmeat-cookedpartbaked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 9,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-poultry-tenderpartbaked",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-poultry-cookedpartbaked" }
-   },
-  {
-  ingredientPattern: "R,M",
-    recipeGroup: 10,
-  ingredients: {
-    "R": { 
-      type: "item", 
-      code: "aculinaryartillery:rollingpin-*",
-      name: "rollingpin",
-            isTool: true
-    },
-    "M": { 
-      type: "item", 
-      code: "ancienttools:saltedmeat-bushmeat-cooked", 
-      name: "meat",
-    },
-  },
-  width: 1,
-  height: 2,
-  name: "bushmeatsmash",
-  output: { type: "item", code: "saltedmeatnugget-bushmeat-tender"  }
-  },
-  {
-  ingredientPattern: "R,M",
-    recipeGroup: 10,
-  ingredients: {
-    "R": { 
-      type: "item", 
-      code: "aculinaryartillery:rollingpin-*",
-      name: "rollingpin",
-            isTool: true
-    },
-    "M": { 
-      type: "item", 
-      code: "ancienttools:saltedmeat-poultry-cooked", 
-      name: "meat",
-    },
-  },
-  width: 1,
-  height: 2,
-  name: "poultrysmash",
-  output: { type: "item", code: "saltedmeatnugget-poultry-tender"  }
-  },
-  {
-  ingredientPattern: "R,M",
-    recipeGroup: 10,
-  ingredients: {
-    "R": { 
-      type: "item", 
-      code: "aculinaryartillery:rollingpin-*",
-      name: "rollingpin",
-            isTool: true
-    },
-    "M": { 
-      type: "item", 
-      code: "ancienttools:saltedmeat-redmeat-cooked", 
-      name: "meat",
-    },
-  },
-  width: 1,
-  height: 2,
-  name: "redmeatsmash",
-  output: { type: "item", code: "saltedmeatnugget-redmeat-tender"  }
-  },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 11,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-bushmeat-tender",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cooked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 11,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-redmeat-tender",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-redmeat-cooked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 11,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-poultry-tender",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-poultry-cooked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 12,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-bushmeat-tender",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cooked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 12,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-redmeat-tender",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-redmeat-cooked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 12,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-poultry-tender",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-poultry-cooked" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 13,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-bushmeat-tendercharred",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cookedcharred" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 13,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-redmeat-tendercharred",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-redmeat-cookedcharred" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 13,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-poultry-tendercharred",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-poultry-cookedcharred" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 14,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-bushmeat-tendercharred",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-bushmeat-cookedcharred" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 14,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-redmeat-tendercharred",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-redmeat-cookedcharred" }
-   },
-  {
-    "ingredientPattern": "SM",
-    recipeGroup: 14,
-    "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "saltedmeatnugget-poultry-tendercharred",
-        name: "meat",
-      }
-    },
-    "width": 2,
-    "height": 1,
-    "shapeless": true,
-    "output": { type: "item", code: "saltedmeatnugget-poultry-cookedcharred" }
-   },
- {
-    "enabled":  false,
-    ingredientPattern: "H,M",
-    recipeGroup: 15,
-    ingredients: {
-        "H": { 
-            type: "item", 
-            code: "acorns:mallet",
-            isTool: true
-        },
-        "M": { 
-            type: "item", 
-            code: "ancienttools:saltedmeat-bushmeat-raw", 
-            name: "meat",
-        },
-    },
-    width: 1,
-    height: 2,
-    name: "bushmeatsmash",
-    output: { type: "item", code: "saltedmeatnugget-bushmeat-smashed"  }
-  },
-  {
-    "enabled":  false,
-    ingredientPattern: "H,M",
-    recipeGroup: 15,
-    ingredients: {
-        "H": { 
-            type: "item", 
-            code: "acorns:mallet",
-            isTool: true
-        },
-        "M": { 
-            type: "item", 
-            code: "ancienttools:saltedmeat-poultry-raw", 
-            name: "meat",
-        },
-    },
-    width: 1,
-    height: 2,
-    name: "poultrysmash",
-    output: { type: "item", code: "saltedmeatnugget-poultry-smashed"  }
-  },
-  {
-    "enabled":  false,
-    ingredientPattern: "H,M",
-    recipeGroup: 15,
-    ingredients: {
-        "H": { 
-            type: "item", 
-            code: "acorns:mallet",
-            isTool: true
-        },
-        "M": { 
-            type: "item", 
-            code: "ancienttools:saltedmeat-redmeat-raw", 
-            name: "meat",
-        },
-    },
-    width: 1,
-    height: 2,
-    name: "redmeatsmash",
-    output: { type: "item", code: "saltedmeatnugget-redmeat-smashed"  }
-  },
- {
-    "enabled":  false,
-    ingredientPattern: "H,M",
-    recipeGroup: 16,
-    ingredients: {
-        "H": { 
-            type: "item", 
-            code: "acorns:mallet",
-            isTool: true
-        },
-        "M": { 
-            type: "item", 
-            code: "ancienttools:saltedmeat-bushmeat-cooked", 
-            name: "meat",
-        },
-    },
-    width: 1,
-    height: 2,
-    name: "bushmeatsmash",
-    output: { type: "item", code: "saltedmeatnugget-bushmeat-tender"  }
-  },
-  {
-    "enabled":  false,
-    ingredientPattern: "H,M",
-    recipeGroup: 16,
-    ingredients: {
-        "H": { 
-            type: "item", 
-            code: "acorns:mallet",
-            isTool: true
-        },
-        "M": { 
-            type: "item", 
-            code: "ancienttools:saltedmeat-poultry-cooked", 
-            name: "meat",
-        },
-    },
-    width: 1,
-    height: 2,
-    name: "poultrysmash",
-    output: { type: "item", code: "saltedmeatnugget-poultry-tender"  }
-  },
-  {
-    "enabled":  false,
-    ingredientPattern: "H,M",
-    recipeGroup: 16,
-    ingredients: {
-        "H": { 
-            type: "item", 
-            code: "acorns:mallet",
-            isTool: true
-        },
-        "M": { 
-            type: "item", 
-            code: "ancienttools:saltedmeat-redmeat-cooked", 
-            name: "meat",
-        },
-    },
-    width: 1,
-    height: 2,
-    name: "redmeatsmash",
-    output: { type: "item", code: "saltedmeatnugget-redmeat-tender"  }
+	name: "smash",
+	output: { type: "item", code: "saltedmeatnugget-{meat}-tendercharred"  }
   },
 ]
