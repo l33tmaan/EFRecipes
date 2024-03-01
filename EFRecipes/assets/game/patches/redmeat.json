@@ -145,6 +145,20 @@
   },
   {
     "op": "add",
+    "path": "/combustiblePropsByType/@*-(partbaked|cooked)",
+    "value": {
+		meltingPoint: 150,
+		meltingDuration: 30,
+		smeltedRatio: 1,
+		smeltingType: "cook",
+		smeltedStack: { type: "item", code: "redmeat-charred" },
+		requiresContainer: false
+	},
+    "side": "server",
+    "file": "itemtypes/food/redmeat.json"
+  },
+  {
+    "op": "add",
     "path": "/nutritionPropsByType/*-charred",
     "value": {
       "satiety": 235,
@@ -287,5 +301,5 @@
     "value": 5,
     "side": "server",
     "file": "itemtypes/food/redmeat.json"
-  }
+  },
 ]

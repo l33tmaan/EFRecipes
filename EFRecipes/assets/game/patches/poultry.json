@@ -144,6 +144,20 @@
   },
   {
     "op": "add",
+    "path": "/combustiblePropsByType/@*-(partbaked|cooked)",
+    "value": {
+		meltingPoint: 150,
+		meltingDuration: 30,
+		smeltedRatio: 1,
+		smeltingType: "cook",
+		smeltedStack: { type: "item", code: "poultry-charred" },
+		requiresContainer: false
+	},
+    "side": "server",
+    "file": "itemtypes/food/poultry.json"
+  },
+  {
+    "op": "add",
     "path": "/nutritionPropsByType/*-charred",
     "value": {
       "satiety": 165,
