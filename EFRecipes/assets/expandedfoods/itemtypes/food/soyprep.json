@@ -65,8 +65,8 @@
 		},
 	},
 	grindingPropsByType: {
-		"*-roasted": { grindedstack: {type: "item", code: "expandedfoods:soyprep-powdered"} },
-		"*-wetshell": { grindedstack: {type: "item", code: "expandedfoods:soyprep-blended"} }
+		"*-roasted": { groundStack: {type: "item", code: "expandedfoods:soyprep-powdered"} },
+		"*-wetshell": { groundStack: {type: "item", code: "expandedfoods:soyprep-blended"} }
 	},
 	materialDensity: 600,
 	shape: { base: "game:item/food/pickledvegetable/soypile" },
