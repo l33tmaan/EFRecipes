@@ -3,13 +3,13 @@
 	"class": "EggCrack",
 	maxstacksize: 32,
 	variantgroups: [
-		{ code: "source", states: ["chicken", "pheasant", "goldenpheasant", "capercaillie"] },
+		{ code: "source", states: ["chicken", "pheasant", "goldenpheasant", "capercaillie", "wildturkey"] },
 	],
 	texture: { base: "item/food/limeegg" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	attributes: {
 		"nutritionPropsWhenInMealByType": {
-			"@*-(pheasant|goldenpheasant|capercaillie)": {
+			"@*-(pheasant|goldenpheasant|capercaillie|wildturkey)": {
 				saturation: 280,
 				foodcategory: "Protein"
 			},

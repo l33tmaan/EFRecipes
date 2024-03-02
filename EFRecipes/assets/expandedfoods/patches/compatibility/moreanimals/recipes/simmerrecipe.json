@@ -47,4 +47,20 @@
     side: "server",
     dependsOn: [{ "modid": "moreanimals", "invert": true }]
   },
+  {
+    "file": "expandedfoods:recipes/simmering/moreanimals/boiledegg.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals", "invert": true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/moreanimals/boiledegg.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "moreanimals", "invert": true }]
+  },
 ]

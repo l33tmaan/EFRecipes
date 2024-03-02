@@ -83,6 +83,31 @@
 			},
 			{
 				type: "item",
+				code: "moreanimals:egg-wildturkey-raw",
+				quantity: 1,
+			},
+		],
+		Simmering: {
+			meltingPoint: 150,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "moreanimals:egg-wildturkey-boiled"
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "waterportion",
+				quantity: 100
+			},
+			{
+				type: "item",
 				code: "expandedfoods:limeegg-pheasant",
 				quantity: 1,
 				"name": "type"
@@ -148,6 +173,32 @@
 			smeltedStack: {
 				type: "item",
 				code: "moreanimals:egg-capercaillie-boiled"
+			},
+			requiresContainer: false
+		}
+	},
+	{
+		Ingredients: [
+			{
+				type: "item",
+				code: "waterportion",
+				quantity: 100
+			},
+			{
+				type: "item",
+				code: "expandedfoods:limeegg-wildturkey",
+				quantity: 1,
+				"name": "type"
+			},
+		],
+		Simmering: {
+			meltingPoint: 150,
+			meltingDuration: 100,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: {
+				type: "item",
+				code: "moreanimals:egg-wildturkey-boiled"
 			},
 			requiresContainer: false
 		}
