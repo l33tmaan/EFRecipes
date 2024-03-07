@@ -53,38 +53,14 @@
 			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Grain"},
 		},
 		renderIngredientsByType: {
-			"*-oiled": 
-				{
-				"expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/primitivesurvival/fish-smash.json",
-			},
-			"*-smashed": 
-				{
-				"expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/primitivesurvival/fish-smash.json",
-			},
-			"*-partbaked": 
-				{
-				"expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/primitivesurvival/fish-tender.json",
-			},
-			"*-tender": 
-				{
-				"expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/primitivesurvival/fish-tender.json",
-			},
-			"*-charred": 
-				{
-				"expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/primitivesurvival/fish-tender.json",
-			},
-			"*-syruppartbaked": 
-				{
-				"expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/primitivesurvival/fish-tender.json",
-			},
-			"*-syrups": 
-				{
-				"expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/primitivesurvival/fish-tender.json",
-			},
-			"*-syrupcharred": 
-				{
-				"expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/primitivesurvival/fish-tender.json",
-			},
+			"*-oiled": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-smash.json" },
+			"*-smashed": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-smash.json" },
+			"*-partbaked": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-tender": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-charred": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-syruppartbaked": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-syrups": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-syrupcharred": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
 		},
 		bakingPropertiesByType: {
 			"*-smashed": {
@@ -155,8 +131,9 @@
 			},
 		},
 		onDisplayTransform: { 
-			translation: { x: 0, y: -.325, z: 0 },
-			scale: 0.33 
+			translation: { x: 0, y: -0.1525, z: 0 },
+			rotation: { x: 0, y: -45, z: 0 }, 
+			scale: 0.66
 		},
 		satMultByType: {
 			"*-partbaked": 0.5,
@@ -168,14 +145,14 @@
 		},
 	},
 	shapebytype:	{
-		"*-syruppartbaked": {base: "item/food/primitivesurvival/fish-tender"},
-		"*-syrups": {base: "item/food/primitivesurvival/fish-tender"},
-		"*-syrupcharred": {base: "item/food/primitivesurvival/fish-tender"},
-		"*-partbaked": {base: "item/food/primitivesurvival/fish-tender"},
-		"*-tender": {base: "item/food/primitivesurvival/fish-tender"},
-		"*-charred": {base: "item/food/primitivesurvival/fish-tender"},
-		"*-smashed": {base: "item/food/primitivesurvival/fish-smash"},
-		"*-oiled": {base: "item/food/primitivesurvival/fish-smash"}
+		"*-syruppartbaked": {base: "item/food/meat/fish-tender"},
+		"*-syrups": {base: "item/food/meat/fish-tender"},
+		"*-syrupcharred": {base: "item/food/meat/fish-tender"},
+		"*-partbaked": {base: "item/food/meat/fish-tender"},
+		"*-tender": {base: "item/food/meat/fish-tender"},
+		"*-charred": {base: "item/food/meat/fish-tender"},
+		"*-smashed": {base: "item/food/meat/fish-smash"},
+		"*-oiled": {base: "item/food/meat/fish-smash"}
 	},
 	texturesbytype: {
 		"*-oiled":	{
@@ -191,15 +168,13 @@
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
 		},
 		"*-partbaked":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-partbaked" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-partbaked" },
+			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-partbaked" }
 		},
 		"*-tender":	{
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-cooked" },
 		},
 		"*-charred":	{
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-charred" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-charred" },
 		},
 		"*-smashed":	{
 			"raw": {base: "expandedfoods:item/food/grain/breading/acorn-raw" },
@@ -259,34 +234,34 @@
 	guiTransformByType: {
 		"*": {
 			rotate: false,
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: -158, z: -180 },
-			origin: { x: 0.45, y: 0, z: 0.55 },
-			scale: 1.54
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -22.5, y: -44.6875, z: -158 },
+			origin: { x: 0.55, y: 0.03, z: 0.51 },
+			scale: 2.31
 		},
 	},
 	fpHandTransformByType: {
 		"*": {
-			translation: { x: -0.06, y: 0.26, z: 0.13 },
-			rotation: { x: 53, y: -5, z: -18 },
+			translation: { x: 0.1, y: 0.2, z: 0.2 },
+			rotation: { x: 44, y: 99, z: 20 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			scale: 1.37
 		},
 	},
 	tpHandTransformByType: {
 		"*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: -13 },
-			origin: { x: 0.13, y: 0, z: 0.14 },
-			scale: 0.4	
+			translation: { x: -0.99, y: -0.2, z: -1.08 },
+			rotation: { x: -106, y: -1, z: -5 },
+			origin: { x: 0.5, y: 0.12, z: 0.54 },
+			scale: 0.55
 		},
 	},
 	groundTransformByType: {
 		"*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0, y: 0, z: 0. },
-			scale: 2
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.5
 		},
 	},
 	combustiblePropsByType: {

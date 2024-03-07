@@ -1,5 +1,4 @@
 {
-	
 	code: "fishnugget",
 	maxstacksize: 64,
 	attributes: {
@@ -7,7 +6,7 @@
 		shelvable: true,
 		"handbook": { "groupBy": [ "fishnugget-*" ] },
 		nutritionPropsWhenInMealByType: { 
-			"@*-(raw|smashed)": {satiety: 155, foodcategory: "Protein"},
+			"@*-(raw|smashed|curedsmashed|curedchopped)": {satiety: 155, foodcategory: "Protein"},
 		},
 		bakingPropertiesByType: {
 			"*-smashed": {
@@ -80,55 +79,46 @@
 			},
 		},
 		onDisplayTransformByType: { 
-			"*-raw": {
-				translation: { x: 0, y: 0.25, z: 0 },
-				scale: 1.5 
-			},
-			"*-cookedpartbaked": {
-				translation: { x: 0, y: 0.25, z: 0 },
-				scale: 1.5 
-			},
-			"*-cooked": {
-				translation: { x: 0, y: 0.25, z: 0 },
-				scale: 1.5 
-			},
-			"*-cookedcharred": {
+			"@*-(raw|cookedpartbaked|cooked|cookedcharred|curedchopped)": {
 				translation: { x: 0, y: 0.25, z: 0 },
 				scale: 1.5 
 			},
 			"*": {
-				translation: { x: 0, y: -.375, z: 0 },
-				scale: 0.25 
+				translation: { x: 0, y: -0.1525, z: 0 },
+				rotation: { x: 0, y: -45, z: 0 }, 
+				scale: 0.66
 			},
 		},
     	inPiePropertiesByType: {
-      		"@*-(raw|smashed)": { texture: "game:block/food/pie/fill-fish", partType: 'Filling' },
-    	},
+      		"@*-(raw|smashed|curedsmashed|curedchopped)": { texture: "game:block/food/pie/fill-fish", partType: 'Filling' },
+    	}, 
 	},
 	variantgroups: [
-		{ code: "type", states: ["smashed", "raw", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred" ] },
+		{ code: "type", states: ["smashed", "raw", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred", "curedsmashed", "curedchopped" ] },
 	],
 	shapebytype:	{
-		"fishnugget-tenderpartbaked": {base: "item/food/primitivesurvival/fish-partbaked"},
-		"fishnugget-tender": {base: "item/food/primitivesurvival/fish-tender"},
-		"fishnugget-tendercharred": {base: "item/food/primitivesurvival/fish-charred"},
-		"fishnugget-smashed": {base: "item/food/primitivesurvival/fish-smash"},
-		"fishnugget-raw": {base: "item/food/meat/poultry-nugget"},
-		"@*-(cookedpartbaked|cooked|cookedcharred)": {base: "item/food/meat/poultry-cooked"},
+		"@*-(smashed|curedsmashed)": {base: "item/food/meat/fish-smash"},
+		"@*-(tenderpartbaked|tender|tendercharred)": {base: "item/food/meat/fish-tender"},
+		"@*-(raw|cured|curedchopped)": {base: "item/food/meat/fish-nugget"},
+		"@*-(cookedpartbaked|cooked|cookedcharred)": {base: "item/food/meat/fish-cooked"},
 	},
 	texturesByType: {
-		"*-cookedpartbaked": {
-			"cooked": {base: "item/food/fillet-partbaked" },
+		"@*-(cookedpartbaked|tenderpartbaked)": {
+			"cooked": {base: "game:item/food/meat/partbaked" },
 		},
-		"*-cookedcharred": {
-			"cooked": {base: "item/food/fillet-charred" },
+		"@*-(cookedcharred|tendercharred)": {
+			"cooked": {base: "game:item/food/meat/charred" },
+		},
+		"@*-(curedsmashed|curedchopped)": {
+			"meat": {base: "game:item/food/meat/cured" },
+			"raw": {base: "game:item/food/meat/cured" },
 		},
 		"*": {
-			"partbaked": {base: "item/food/fillet-partbaked" },
-			"cooked": {base: "primitivesurvival:item/fishing/fillet-cooked" },
-			"charred": {base: "item/food/fillet-charred" },
-			"meat": {base: "primitivesurvival:item/fishing/fillet-raw" },
-			"raw": {base: "primitivesurvival:item/fishing/fillet-raw" },
+			"partbaked": {base: "game:item/food/meat/partbaked" },
+			"cooked": {base: "game:item/food/meat/cooked" },
+			"charred": {base: "game:item/food/meat/charred" },
+			"meat": {base: "game:item/food/meat/raw" },
+			"raw": {base: "game:item/food/meat/raw" },
 		},
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
@@ -163,27 +153,27 @@
 	},
 	materialDensity: 600,
 	guiTransformByType: {
-		"@*-(cookedpartbaked|cooked|cookedcharred|raw)": {
+		"@*-(cookedpartbaked|cooked|cookedcharred|raw|curedchopped)": {
 			rotate: false,
 			translation: { x: 0.0, y: 0, z: 0 },
 			rotation: { x: 171, y: -122, z: 28 },
 			origin: { x: 0.43, y: 0.04, z: 0.53 },
 			scale: 7
 		},
-		"@*-(tenderpartbaked|tender|tendercharred|smashed)": {
+		"@*-(tenderpartbaked|tender|tendercharred|smashed|curedsmashed)": {
 			rotate: false,
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: -158, z: -180 },
-			origin: { x: 0.45, y: 0, z: 0.55 },
-			scale: 1.54
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -22.5, y: -44.6875, z: -158 },
+			origin: { x: 0.55, y: 0.03, z: 0.51 },
+			scale: 2.31
 		},
 	},
 	fpHandTransformByType: {
-		"@*-(tenderpartbaked|tender|tendercharred|smashed)": {
-			translation: { x: -0.06, y: 0.26, z: 0.13 },
-			rotation: { x: 53, y: -5, z: -18 },
+		"@*-(tenderpartbaked|tender|tendercharred|smashed|curedsmashed)": {
+			translation: { x: 0.1, y: 0.2, z: 0.2 },
+			rotation: { x: 44, y: 99, z: 20 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			scale: 1.37
 		},
 		"*": {
 			translation: { x: -0.06, y: 0.36, z: 0.23 },
@@ -193,11 +183,11 @@
 		},
 	},
 	tpHandTransformByType: {
-		"@*-(tenderpartbaked|tender|tendercharred|smashed)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: -13 },
-			origin: { x: 0.13, y: 0, z: 0.14 },
-			scale: 0.4	
+		"@*-(tenderpartbaked|tender|tendercharred|smashed|curedsmashed)": {
+			translation: { x: -0.99, y: -0.2, z: -1.08 },
+			rotation: { x: -106, y: -1, z: -5 },
+			origin: { x: 0.5, y: 0.12, z: 0.54 },
+			scale: 0.55
 		},
 		"*": {
 			translation: { x: 0.05, y: -0.05, z: 0.1 },
@@ -207,11 +197,11 @@
 		},
 	},
 	groundTransformByType: {
-		"@*-(tenderpartbaked|tender|tendercharred|smashed)": {
+		"@*-(tenderpartbaked|tender|tendercharred|smashed|curedsmashed)": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0, y: 0, z: 0. },
-			scale: 2		
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.5
 		},
 		"*": {
 			translation: { x: 0, y: 0, z: 0 },
