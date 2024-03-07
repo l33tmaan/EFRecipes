@@ -1,5 +1,26 @@
 ﻿[
   {
+    "op": "replace",
+    "path": "/variantgroups/0/states/1",
+    "value": "partbaked",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/2",
+    "value": "cooked",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/3",
+    "value": "charred",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
     "op": "add",
     "path": "/attributes/juiceablePropertiesByType",
     "value": {
@@ -20,4 +41,236 @@
     "file": "itemtypes/food/fish.json",
     "side": "server",
   },
+  {
+    "op": "remove",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/bakingPropertiesByType",
+    "value": {
+      "*-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "fish-partbaked"
+      },
+      "*-partbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "fish-cooked",
+        "initialCode": "fish-raw"
+      },
+      "*-cooked": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "fish-charred",
+        "initialCode": "fish-partbaked"
+      },
+      "*-charred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "fish-cooked"
+      }
+    },
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "value": {
+      "groupBy": [
+        "fish-*"
+      ]
+    },
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "@*-(raw|cured|smoked|cured-smoked)": {
+        "texture": "game:block/food/pie/fill-fish",
+        "partType": "Filling"
+      }
+    },
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+      "*-raw": {
+        "satiety": 375,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onDisplayTransform",
+    "value": {
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/combustiblePropsByType/fish-raw",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/@*-(raw|partbaked|cooked)",
+    "value": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": {
+        "type": "item",
+        "code": "fish-charred"
+      },
+      "requiresContainer": false
+    },
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/creativeinventory/general/1",
+    "value": "*-partbaked",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/general/2",
+    "value": "*-cooked",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/general/3",
+    "value": "*-charred",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/creativeinventory/items/1",
+    "value": "*-partbaked",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/items/2",
+    "value": "*-cooked",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/items/3",
+    "value": "*-charred",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-charred",
+    "value": {
+      "satiety": 180,
+      "foodcategory": "Protein"
+    },
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-partbaked",
+    "value": {
+      "satiety": 210,
+      "foodcategory": "Protein"
+    },
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/transitionablePropsByType/*-cooked",
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/transitionablePropsByType/*-charred",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 240
+        },
+        "transitionHours": {
+          "avg": 72
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/transitionablePropsByType/@*-(partbaked|cooked)",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 36
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "file": "game:itemtypes/food/fish.json",
+    "side": "Server"
+  }
 ]
