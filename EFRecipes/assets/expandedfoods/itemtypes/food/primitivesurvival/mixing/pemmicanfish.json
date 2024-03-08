@@ -77,7 +77,8 @@
 				"expandedfoods:saltedmeatnugget-poultry-raw": {saturation: 55, foodcategory: "Protein"},
 				"expandedfoods:saltedmeatnugget-redmeat-raw": {saturation: 80, foodcategory: "Protein"},
 				"expandedfoods:saltedmeatnugget-bushmeat-raw": {saturation: 35, foodcategory: "Protein"},
-				"expandedfoods:fishnugget-raw": {saturation: 55, foodcategory: "Protein"},
+				"expandedfoods:fishnugget-raw": {saturation: 110, foodcategory: "Protein"},
+				"expandedfoods:fishnugget-curedchopped": {saturation: 85, foodcategory: "Protein"},
 				"expandedfoods:crabnugget-raw": {saturation: 65, foodcategory: "Protein"},
 				"expandedfoods:snakenugget-raw": {saturation: 75, foodcategory: "Protein"},
 				"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
@@ -167,15 +168,19 @@
      		renderIngredientsByType: {
 			"*-raw": {
 				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-ball.json",
+				"expandedfoods:fishnugget-curedchopped": "expandedfoods:shapes/item/food/pemmican/fishpemmican-ball.json",
 			},
 			"*-partbaked": {
 				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
+				"expandedfoods:fishnugget-curedchopped": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
 			},
 			"*-cooked": {
 				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
+				"expandedfoods:fishnugget-curedchopped": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
 			},
 			"*-charred": {
 				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
+				"expandedfoods:fishnugget-curedchopped": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
 			},
 		},
 		bakingPropertiesByType: {
