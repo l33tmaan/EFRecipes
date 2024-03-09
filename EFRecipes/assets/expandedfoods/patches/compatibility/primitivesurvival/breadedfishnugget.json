@@ -1,13 +1,5 @@
 ﻿[
  {
-   file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/breadedfishnugget.json",
-    op: "add", 
-    path: "/enabled", 
-    value: "false",
-    "side": "server",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
- },
- {
    file: "expandedfoods:recipes/kneading/primitivesurvival/breadedfishnugget.json",
     op: "add", 
     path: "/0/enabled", 

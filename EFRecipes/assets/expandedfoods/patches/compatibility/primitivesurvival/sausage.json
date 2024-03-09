@@ -1,45 +1,5 @@
 ﻿[
  {
-   file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagefish.json",
-    op: "add", 
-    path: "/enabled", 
-    value: "false",
-    "side": "server",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
- },
- {
-   file: "expandedfoods:recipes/kneading/primitivesurvival/sausagefish.json",
-    op: "add", 
-    path: "/0/enabled", 
-    value: "false",
-    "side": "server",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
- },
- {
-   file: "expandedfoods:recipes/kneading/primitivesurvival/sausagefish.json",
-    op: "add", 
-    path: "/1/enabled", 
-    value: "false",
-    "side": "server",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
- },
- {
-   file: "expandedfoods:recipes/kneading/primitivesurvival/sausagefish.json",
-    op: "add", 
-    path: "/2/enabled", 
-    value: "false",
-    "side": "server",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
- },
- {
-   file: "expandedfoods:recipes/kneading/primitivesurvival/sausagefish.json",
-    op: "add", 
-    path: "/3/enabled", 
-    value: "false",
-    "side": "server",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
- },
- {
    file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagecrab.json",
     op: "add", 
     path: "/enabled", 

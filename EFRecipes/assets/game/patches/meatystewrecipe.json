@@ -165,50 +165,42 @@
         "bugs"
       ]
     },
-    ],
-    "side": "server",
-    "file": "recipes/cooking/meatystew.json"
-  },
-   {
-        "op": "addeach",
-        "path": "/ingredients/0/validStacks/-",
-        "value": [
-        {
-            "type": "item",
-            "code": "expandedfoods:meatnugget-bushmeat-smashed",
-            "shapeElement": "bowl/meat stew/*",
-            "textureMapping": [
-                "meat",
-                "group7"
-            ]
-        },
-        {
-      "type": "item",
-      "code": "expandedfoods:meatnugget-bushmeat-raw",
-      "shapeElement": "bowl/meat stew/*",
-      "textureMapping": [
-        "meat",
-        "group7"
-      ]
-        },
- {
-      "type": "item",
-      "code": "expandedfoods:meatnugget-poultry-smashed",
-      "shapeElement": "bowl/meat stew/*",
-      "textureMapping": [
-        "meat",
-        "group3"
-      ]
-    },
-  {
-      "type": "item",
-      "code": "expandedfoods:meatnugget-poultry-raw",
-      "shapeElement": "bowl/meat stew/*",
-      "textureMapping": [
-        "meat",
-        "group3"
-      ]
-    },       
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-raw",
+                "shapeElement": "bowl/meat stew/*",
+                "textureMapping": [
+                    "meat",
+                    "group1"
+                ]
+            },  
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-smashed",
+                "shapeElement": "bowl/meat stew/*",
+	            "textureMapping": [
+      		        "meat",
+        	        "group1"
+      	        ]
+            },      
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-curedchopped",
+                "shapeElement": "bowl/meat stew/*",
+                "textureMapping": [
+                    "meat",
+                    "group1"
+                ]
+            },  
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-curedsmashed",
+                "shapeElement": "bowl/meat stew/*",
+	            "textureMapping": [
+      		        "meat",
+        	        "group1"
+      	        ]
+            },      
     ],
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
@@ -365,6 +357,30 @@
       "type": "item",
       "code": "expandedfoods:dumpling-raw"
     },
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": ["meatnugget", "group1"]
+            },    
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-smashed",
+                "shapeElement": "bowl/fish/*",
+                "textureMapping": [ "normal", "group1" ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-curedchopped",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": ["meatnugget", "group1"]
+            },    
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-curedsmashed",
+                "shapeElement": "bowl/fish/*",
+                "textureMapping": [ "normal", "group1" ]
+            },
  {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeat-raw",
@@ -473,6 +489,24 @@
         "group6"
       ]
     },    
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group1"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-dried",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group1"
+                ]
+            },    
  {
       "type": "item",
       "code": "expandedfoods:meatnugget-poultry-cured",
@@ -747,6 +781,30 @@
       "type": "item",
       "code": "expandedfoods:dumpling-raw"
     },   
+        {
+            "type": "item",
+            "code": "expandedfoods:fishnugget-raw",
+            "shapeElement": "bowl/meatnugget 2/*",
+            "textureMapping": ["meatnugget", "group1"]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:fishnugget-curedchopped",
+            "shapeElement": "bowl/meatnugget 2/*",
+            "textureMapping": ["meatnugget", "group1"]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:fishnugget-smashed",
+            "shapeElement": "bowl/fish 2/*",
+            "textureMapping": ["normal", "group1"]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:fishnugget-curedsmashed",
+            "shapeElement": "bowl/fish 2/*",
+            "textureMapping": ["normal", "group1"]
+        },
  {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeat-raw",
@@ -855,6 +913,24 @@
         "group6"
       ]
     },
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagefish-*-raw",
+            "shapeElement": "bowl/meatnugget 2/*",
+            "textureMapping": [
+                "meatnugget",
+                "group1"
+            ]
+        },    
+        {
+            "type": "item",
+            "code": "expandedfoods:sausagefish-*-dried",
+            "shapeElement": "bowl/meatnugget 2/*",
+            "textureMapping": [
+                "meatnugget",
+                "group1"
+            ]
+        },    
  {
       "type": "item",
       "code": "expandedfoods:meatnugget-bushmeat-cured",

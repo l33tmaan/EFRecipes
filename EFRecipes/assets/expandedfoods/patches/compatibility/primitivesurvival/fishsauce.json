@@ -1,13 +1,5 @@
 ﻿[
  {
-   file: "itemtypes/liquid/primitivesurvival/fishsauce.json",
-    op: "add", 
-    path: "/enabled", 
-    value: "false",
-    "side": "server",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
- },
- {
     "file": "game:recipes/barrel/primitivesurvival/fishsauce.json",
     op: "add", 
     path: "/0/enabled", 

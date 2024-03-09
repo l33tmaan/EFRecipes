@@ -103,4 +103,36 @@
     "side": "server",
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
+ {
+    "file": "expandedfoods:recipes/grid/acorns/fishnugget.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/acorns/fishnugget.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/acorns/fishnugget.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/acorns/fishnugget.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
+ },
 ]

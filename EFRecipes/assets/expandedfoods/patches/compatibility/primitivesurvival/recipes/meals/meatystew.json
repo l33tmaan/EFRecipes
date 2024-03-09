@@ -6,15 +6,6 @@
         "value": [
             {
                 "type": "item",
-                "code": "expandedfoods:fishnugget-raw",
-                "shapeElement": "bowl/meat stew/*",
-                "textureMapping": [
-                    "meat",
-                    "fishfillet-raw"
-                ]
-            },  
-            {
-                "type": "item",
                 "code": "expandedfoods:crabnugget-raw",
                 "shapeElement": "bowl/meat stew/*",
 	            "textureMapping": [
@@ -30,16 +21,7 @@
       		        "meat",
         	        "snakemeat"
       	        ]
-            },
-            {
-                "type": "item",
-                "code": "expandedfoods:fishnugget-smashed",
-                "shapeElement": "bowl/meat stew/*",
-	            "textureMapping": [
-      		        "meat",
-        	        "fishfillet-raw"
-      	        ]
-            },        
+            },  
         ],   
         side: "server",
         dependsOn: [{ "modid": "primitivesurvival"}]
@@ -49,12 +31,6 @@
         "op": "addeach",
         "path": "/ingredients/2/validStacks/-",
         "value": [
-            {
-                "type": "item",
-                "code": "expandedfoods:fishnugget-raw",
-                "shapeElement": "bowl/meatnugget 1/*",
-                "textureMapping": ["meatnugget", "fishfillet-raw"]
-            },    
             {
                 "type": "item",
                 "code": "expandedfoods:crabnugget-raw",
@@ -73,12 +49,6 @@
         	        "snakemeat"
       	        ]
             },
-            {
-                "type": "item",
-                "code": "expandedfoods:fishnugget-smashed",
-                "shapeElement": "bowl/fish/*",
-                "textureMapping": [ "normal", "fishfillet-raw" ]
-            },
         ],
         side: "server",
         dependsOn: [{ "modid": "primitivesurvival" }]
@@ -87,24 +57,6 @@
         "op": "addeach",
         "path": "/ingredients/2/validStacks/-",
         "value": [
-            {
-                "type": "item",
-                "code": "expandedfoods:sausagefish-*-raw",
-                "shapeElement": "bowl/meatnugget 1/*",
-                "textureMapping": [
-                    "meatnugget",
-                    "fishfillet-raw"
-                ]
-            },
-            {
-                "type": "item",
-                "code": "expandedfoods:sausagefish-*-dried",
-                "shapeElement": "bowl/meatnugget 1/*",
-                "textureMapping": [
-                    "meatnugget",
-                    "fishfillet-raw"
-                ]
-            },    
         {
             "type": "item",
             "code": "expandedfoods:sausagecrab-*-raw",
@@ -150,24 +102,6 @@
     "op": "addeach",
     "path": "/ingredients/2/validStacks/-",
     "value": [
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagefishherb-*-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "fishfillet-raw"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagefishherb-*-dried",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "fishfillet-raw"
-            ]
-        },
         {
             "type": "item",
             "code": "expandedfoods:sausagecrabherb-*-raw",
@@ -216,12 +150,6 @@
     "value": [
         {
             "type": "item",
-            "code": "expandedfoods:fishnugget-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": ["meatnugget", "fishfillet-raw"]
-        },
-        {
-            "type": "item",
             "code": "expandedfoods:crabnugget-raw",
             "shapeElement": "bowl/meatnugget 2/*",
 	        "textureMapping": [
@@ -238,30 +166,6 @@
         	    "snakemeat"
       	    ]
         },
-        {
-            "type": "item",
-            "code": "expandedfoods:fishnugget-smashed",
-            "shapeElement": "bowl/fish 2/*",
-            "textureMapping": ["normal", "fishfillet-raw"]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagefish-*-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "fishfillet-raw"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagefish-*-dried",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "fishfillet-raw"
-            ]
-        },    
         {
             "type": "item",
             "code": "expandedfoods:sausagecrab-*-raw",
@@ -306,24 +210,6 @@
     "op": "addeach",
     "path": "/ingredients/3/validStacks/-",
     "value": [
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagefishherb-*-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "fishfillet-raw"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagefishherb-*-dried",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "fishfillet-raw"
-            ]
-        },    
         {
             "type": "item",
             "code": "expandedfoods:sausagecrabherb-*-raw",

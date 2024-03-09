@@ -5,7 +5,7 @@
     op: "replace", 
     path: "/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
@@ -13,7 +13,7 @@
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
@@ -21,7 +21,7 @@
     op: "replace", 
     path: "/1/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetoiled.json",
@@ -29,7 +29,7 @@
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetsyrup.json",
@@ -37,7 +37,7 @@
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetsyrup.json",
@@ -45,7 +45,7 @@
     op: "replace", 
     path: "/1/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetsyrup.json",
@@ -53,6 +53,6 @@
     op: "replace", 
     path: "/2/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }]
  },
 ]

@@ -1,18 +1,18 @@
 ﻿[
  {
-   file: "expandedfoods:recipes/kneading/primitivesurvival/breadedfishnugget.json",
+   file: "expandedfoods:recipes/kneading/breadedfishnugget.json",
     op: "add", 
     path: "/0/ingredients/2/inputs/-", 
     value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/primitivesurvival/breadedfishnugget.json",
+   file: "expandedfoods:recipes/kneading/breadedfishnugget.json",
     op: "add", 
     path: "/1/ingredients/2/inputs/-", 
     value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }]
  },
 ]

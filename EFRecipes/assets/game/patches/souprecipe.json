@@ -1683,6 +1683,30 @@
         	    "group5"
      	    ]
         },
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": ["meatnugget", "group4"]
+            },    
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-curedchopped",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": ["meatnugget", "group4"]
+            },    
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-smashed",
+                "shapeElement": "bowl/fish/*",
+                "textureMapping": [ "normal", "group4" ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-curedsmashed",
+                "shapeElement": "bowl/fish/*",
+                "textureMapping": [ "normal", "group4" ]
+            },
  {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeat-raw",
@@ -1791,6 +1815,24 @@
         "group6"
       ]
     },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group4"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-dried",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group4"
+                ]
+            },    
         {
             "type": "item",
             "code": "egg-chicken-boiled",
@@ -1809,7 +1851,6 @@
     "op": "addeach",
     "path": "/ingredients/4/validStacks/-",
     "value": [
-        {"type": "item", "code": "expandedfoods:fishnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
         {"type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
         {"type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
     ],
