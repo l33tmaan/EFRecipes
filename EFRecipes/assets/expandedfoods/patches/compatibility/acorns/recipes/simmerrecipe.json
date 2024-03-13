@@ -17,19 +17,19 @@
   },
   {
     "file": "expandedfoods:recipes/simmering/acorns/acornbreadedfishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
+    value: "false",
     side: "server",
-    dependsOn: [{ "modid": "acorns"}, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
   },
   {
     "file": "expandedfoods:recipes/simmering/acorns/acornbreadedfishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
+    value: "false",
     side: "server",
-    dependsOn: [{ "modid": "acorns"}, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns", "invert":  true }]
   },
   {
     "file": "expandedfoods:recipes/simmering/acorns/acornbreadedmeatnugget.json",

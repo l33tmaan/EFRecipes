@@ -16,22 +16,6 @@
     dependsOn: [{ "modid": "ancienttools" }, { "modid": "primitivesurvival" }, { "modid": "wildcraft"}]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/primitivesurvival/fishpemmicanherb.json",
-    op: "addeach", 
-    path: "/0/ingredients/5/inputs/-", 
-    value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}],
-    "side": "server",
-    dependsOn: [{ "modid": "ancienttools" }, { "modid": "primitivesurvival" }, { "modid": "wildcraft"}]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/primitivesurvival/fishpemmicanherb.json",
-    op: "addeach", 
-    path: "/1/ingredients/5/inputs/-", 
-    value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}],
-    "side": "server",
-    dependsOn: [{ "modid": "ancienttools" }, { "modid": "primitivesurvival" }, { "modid": "wildcraft"}]
- },
- {
    file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/primitivesurvival/snakepemmicanherb.json",
     op: "addeach", 
     path: "/0/ingredients/5/inputs/-", 

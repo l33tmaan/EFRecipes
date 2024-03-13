@@ -1,58 +1,58 @@
 ﻿[
  {
    file: "expandedfoods:itemtypes/food/acorns/mixing/acornbreadedfishnugget.json",
-    "side": "server",
-    op: "replace", 
+    op: "add", 
     path: "/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "acorns" }]
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
-    "side": "server",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "acorns" }]
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
-    "side": "server",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "acorns" }]
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetoiled.json",
-    "side": "server",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "acorns" }]
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetsyrup.json",
-    "side": "server",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "acorns" }]
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetsyrup.json",
-    "side": "server",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "acorns" }]
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetsyrup.json",
-    "side": "server",
-    op: "replace", 
+    op: "add", 
     path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "acorns" }]
+    value: "false",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns", "invert": true }]
  },
 ]

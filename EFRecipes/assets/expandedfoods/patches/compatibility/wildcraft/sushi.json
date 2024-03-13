@@ -1,11 +1,11 @@
 ﻿[
  {
-    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "file": "expandedfoods:itemtypes/food/mixing/sushi.json",
     op: "add", 
     path: "/skipVariants",
     value: [ "sushi-minerslettuce-nooil", "sushi-minerslettuce-oil", "sushi-minerslettuce-honey", "sushi-minerslettuce-peanut",  ],
     "side": "server",
-    dependsOn: [{ "modid": "wildcraft", "invert": true }, { "modid": "primitivesurvival", "invert": true }]
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/primitivesurvival/wildsushi.json",

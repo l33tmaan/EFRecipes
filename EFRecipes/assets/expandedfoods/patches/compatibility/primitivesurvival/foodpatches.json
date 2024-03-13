@@ -584,14 +584,6 @@
     dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
-   file: "expandedfoods:recipes/kneading/primitivesurvival/sushivegoil.json",
-    op: "add", 
-    path: "/0/enabled", 
-    value: "false",
-    "side": "server",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
- },
- {
    file: "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedball.json",
     op: "replace", 
     path: "/0/enabled", 

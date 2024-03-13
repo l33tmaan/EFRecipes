@@ -5,8 +5,8 @@
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}, { type: "item", code: "expandedfoods:dehydratedfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}, { type: "item", code: "expandedfoods:dehydratedfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}, { type: "item", code: "expandedfoods:dehydratedfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-*-cured", quantity: 1 }, { type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1 }, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-*", "allowedVariants": [ "raw", "curedchopped" ], quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-*", "allowedVariants": [ "raw", "curedchopped" ], quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-*-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:fishpemmican-raw", stackSize: 2}
  },
@@ -16,8 +16,8 @@
 		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}, { type: "item", code: "expandedfoods:dehydratedfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}, { type: "item", code: "expandedfoods:dehydratedfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-*-cured", quantity: 1 }, { type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1 }, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-*", "allowedVariants": [ "raw", "curedchopped" ], quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-*", "allowedVariants": [ "raw", "curedchopped" ], quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-*-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:fishpemmican-raw", stackSize: 2}
  },
