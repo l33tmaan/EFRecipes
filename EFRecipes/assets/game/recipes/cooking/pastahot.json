@@ -289,6 +289,7 @@
 		{
 			code: "topping-sauce", 
 			validStacks: [
+				{ type: "item", code: "expandedfoods:fishsauce",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "fishsauce"] }, 
 				{ type: "item", code: "expandedfoods:soysauce",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "fishsauce"] }, 
 				{ type: "item", code: "expandedfoods:foodoilportion-*",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
 				{ type: "item", code: "expandedfoods:lard",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "lard"] }, 
