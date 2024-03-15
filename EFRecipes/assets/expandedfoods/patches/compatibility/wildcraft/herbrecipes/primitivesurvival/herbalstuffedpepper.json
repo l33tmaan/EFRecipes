@@ -5,7 +5,7 @@
     op: "add", 
     path: "/0/ingredients/1/inputs", 
     value: [{ type: "item", code: "expandedfoods:sausagefishherb-*-raw", quantity: 1 },  { type: "item", code: "expandedfoods:sausagefishherb-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:sausagefish-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:sausagefish-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }, { type: "item", code: "expandedfoods:sausagesnakeherb-*-raw", quantity: 1 },  { type: "item", code: "expandedfoods:sausagesnakeherb-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:sausagesnake-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:sausagesnake-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }, { type: "item", code: "expandedfoods:sausagecrabherb-*-raw", quantity: 1 },  { type: "item", code: "expandedfoods:sausagecrabherb-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:sausagecrab-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:sausagecrab-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1 },],
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
     file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/herbalstuffedpepper.json",
@@ -13,6 +13,6 @@
     op: "add", 
     path: "/0/ingredients/2/inputs", 
     value: [{ type: "item", code: "expandedfoods:sausagefishherb-*-raw", quantity: 1 },  { type: "item", code: "expandedfoods:sausagefishherb-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:sausagefish-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:sausagefish-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }, { type: "item", code: "expandedfoods:sausagesnakeherb-*-raw", quantity: 1 },  { type: "item", code: "expandedfoods:sausagesnakeherb-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:sausagesnake-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:sausagesnake-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }, { type: "item", code: "expandedfoods:sausagecrabherb-*-raw", quantity: 1 },  { type: "item", code: "expandedfoods:sausagecrabherb-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:sausagecrab-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:sausagecrab-*-dried", quantity: 1 }, { type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1 },],
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
 ]

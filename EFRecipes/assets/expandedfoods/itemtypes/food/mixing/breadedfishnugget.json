@@ -55,14 +55,14 @@
 			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Grain"},
 		},
 		renderIngredientsByType: {
-			"*-oiled": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-smash.json" },
-			"*-smashed": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-smash.json" },
-			"*-partbaked": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
-			"*-tender": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
-			"*-charred": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
-			"*-syruppartbaked": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
-			"*-syrups": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
-			"*-syrupcharred": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-oiled": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-smash.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-smash.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-smash.json" },
+			"*-smashed": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-smash.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-smash.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-smash.json" },
+			"*-partbaked": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-tender": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-charred": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-syruppartbaked": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-syrups": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"*-syrupcharred": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
 		},
 		bakingPropertiesByType: {
 			"*-smashed": {
