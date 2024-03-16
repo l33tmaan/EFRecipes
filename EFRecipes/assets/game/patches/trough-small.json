@@ -20,9 +20,6 @@
         "block/wood/trough/small/legumefill4",
         "block/wood/trough/small/legumefill4"
       ],
-      "foodFor": [
-        "chicken-*"
-      ],
       "textureCode": "contents-peanut"
     },
     "side": "server",
@@ -48,9 +45,6 @@
         "block/wood/trough/small/eggfill3",
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
-      ],
-      "foodFor": [
-        "chicken-*"
       ],
       "textureCode": "contents-egg"
     },
@@ -78,7 +72,7 @@
     "op": "add",
     "path": "/attributes/contentConfig/-",
     "value": {
-      "code": "breadcrumbs",
+      "code": "breadcrumbs-spelt",
       "content": {
         "type": "item",
         "code": "expandedfoods:breadcrumbs-spelt"
@@ -94,9 +88,6 @@
         "block/wood/trough/small/eggfill3",
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
-      ],
-      "foodFor": [
-        "chicken-*"
       ],
       "textureCode": "contents-spelt"
     },
@@ -115,7 +106,7 @@
     "op": "add",
     "path": "/attributes/contentConfig/-",
     "value": {
-      "code": "breadcrumbs",
+      "code": "breadcrumbs-rye",
       "content": {
         "type": "item",
         "code": "expandedfoods:breadcrumbs-rye"
@@ -131,9 +122,6 @@
         "block/wood/trough/small/eggfill3",
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
-      ],
-      "foodFor": [
-        "chicken-*"
       ],
       "textureCode": "contents-rye"
     },
@@ -152,7 +140,7 @@
     "op": "add",
     "path": "/attributes/contentConfig/-",
     "value": {
-      "code": "breadcrumbs",
+      "code": "breadcrumbs-flax",
       "content": {
         "type": "item",
         "code": "expandedfoods:breadcrumbs-flax"
@@ -168,9 +156,6 @@
         "block/wood/trough/small/eggfill3",
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
-      ],
-      "foodFor": [
-        "chicken-*"
       ],
       "textureCode": "contents-flax"
     },
@@ -189,7 +174,7 @@
     "op": "add",
     "path": "/attributes/contentConfig/-",
     "value": {
-      "code": "breadcrumbs",
+      "code": "breadcrumbs-rice",
       "content": {
         "type": "item",
         "code": "expandedfoods:breadcrumbs-rice"
@@ -205,9 +190,6 @@
         "block/wood/trough/small/eggfill3",
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
-      ],
-      "foodFor": [
-        "chicken-*"
       ],
       "textureCode": "contents-rice"
     },
@@ -226,7 +208,7 @@
     "op": "add",
     "path": "/attributes/contentConfig/-",
     "value": {
-      "code": "breadcrumbs",
+      "code": "breadcrumbs-cassava",
       "content": {
         "type": "item",
         "code": "expandedfoods:breadcrumbs-cassava"
@@ -242,9 +224,6 @@
         "block/wood/trough/small/eggfill3",
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
-      ],
-      "foodFor": [
-        "chicken-*"
       ],
       "textureCode": "contents-cassava"
     },
@@ -263,7 +242,7 @@
     "op": "add",
     "path": "/attributes/contentConfig/-",
     "value": {
-      "code": "breadcrumbs",
+      "code": "breadcrumbs-amaranth",
       "content": {
         "type": "item",
         "code": "expandedfoods:breadcrumbs-amaranth"
@@ -279,9 +258,6 @@
         "block/wood/trough/small/eggfill3",
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
-      ],
-      "foodFor": [
-        "chicken-*"
       ],
       "textureCode": "contents-amaranth"
     },
@@ -300,7 +276,7 @@
     "op": "add",
     "path": "/attributes/contentConfig/-",
     "value": {
-      "code": "breadcrumbs",
+      "code": "breadcrumbs-sunflower",
       "content": {
         "type": "item",
         "code": "expandedfoods:breadcrumbs-sunflower"
@@ -317,9 +293,6 @@
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
       ],
-      "foodFor": [
-        "chicken-*"
-      ],
       "textureCode": "contents-sunflower"
     },
     side: "server",
@@ -335,17 +308,9 @@
   },
   {
     "op": "add",
-    "path": "/textures/contents-amaranth",
-    "value": {
-      "base": "block/wood/trough/small/amaranth"
-    },
-    "file": "blocktypes/wood/trough-small.json"
-  },
-  {
-    "op": "add",
     "path": "/attributes/contentConfig/-",
     "value": {
-      "code": "breadcrumbs",
+      "code": "breadcrumbs-birch",
       "content": {
         "type": "item",
         "code": "expandedfoods:breadcrumbs-birch"
@@ -361,9 +326,6 @@
         "block/wood/trough/small/eggfill3",
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
-      ],
-      "foodFor": [
-        "chicken-*"
       ],
       "textureCode": "contents-birch"
     },
@@ -384,7 +346,7 @@
     "op": "add",
     "path": "/attributes/contentConfig/-",
     "value": {
-      "code": "breadcrumbs",
+      "code": "breadcrumbs-pine",
       "content": {
         "type": "item",
         "code": "expandedfoods:breadcrumbs-pine"
@@ -400,9 +362,6 @@
         "block/wood/trough/small/eggfill3",
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
-      ],
-      "foodFor": [
-        "chicken-*"
       ],
       "textureCode": "contents-pine"
     },
@@ -440,9 +399,6 @@
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
       ],
-      "foodFor": [
-        "chicken-*"
-      ],
       "textureCode": "contents-acorn"
     },
     side: "server",
@@ -479,9 +435,6 @@
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
       ],
-      "foodFor": [
-        "chicken-*"
-      ],
       "textureCode": "contents-spelt"
     },
     side: "server",
@@ -508,9 +461,6 @@
         "block/wood/trough/small/eggfill3",
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
-      ],
-      "foodFor": [
-        "chicken-*"
       ],
       "textureCode": "contents-acorn"
     },
