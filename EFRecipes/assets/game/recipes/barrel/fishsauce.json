@@ -1,0 +1,20 @@
+﻿[
+{
+	code: "fishsauce",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "game:waterportion",  litres: 2 },
+		{ type: "item", code: "game:fish-raw", quantity: 1, name:"fish"}
+	],
+	output: { type: "item", code: "expandedfoods:fishsauce", litres: 2 }
+},
+{
+	code: "fishsauce",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "game:waterportion",  litres: 2 },
+		{ type: "item", code: "expandedfoods:fishnugget-*", "allowedVariants": [ "smashed", "raw" ], quantity: 1, name:"fish"}
+	],
+	output: { type: "item", code: "expandedfoods:fishsauce", litres: 2 }
+},
+]
