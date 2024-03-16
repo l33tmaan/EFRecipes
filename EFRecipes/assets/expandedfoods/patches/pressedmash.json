@@ -126,10 +126,28 @@
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType/*-fish",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:fishsauce",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-{fruit}",
+        "stacksize": 1
+      }
+    },
+    "side": "server",
+    "file": "game:itemtypes/resource/pressedmash.json",
+  },
+  {
     "op": "addeach",
     "side": "server",
     "path": "/variantgroups/0/states/-",
-    "value": [ "flax", "rice", "sunflower", "seed", "honey", "soybean", "peanut", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bellpepper", "cassava", "soyslurry", "soyblend", "olive",],
+    "value": [ "flax", "rice", "sunflower", "seed", "honey", "soybean", "peanut", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bellpepper", "cassava", "soyslurry", "soyblend", "olive", "fish"],
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
