@@ -1419,6 +1419,39 @@
             "code": "egg-chicken-pickled",
             "shapeElement": "bowl/egg2/*"
         },   
+            {
+                "type": "item",
+                "code": "game:fish-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group1"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-curedchopped",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-raw",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-dried",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },   
       ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -1442,6 +1475,10 @@
         { type: "item", code: "expandedfoods:sausageherb-redmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     ],
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
@@ -1451,13 +1488,8 @@
     "op": "addeach",
     "path": "/ingredients/6/validStacks/-",
     "value": [
-        { "type": "item", "code": "expandedfoods:fishnugget-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "fishfillet-raw"  ] },
         { "type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "crabmeat"  ] },
         { "type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "snakemeat"  ] },
-        { "type": "item", "code": "expandedfoods:sausagefish-normal-raw",  "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefish-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefish-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefish-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
@@ -1475,10 +1507,6 @@
     "op": "addeach",
     "path": "/ingredients/6/validStacks/-",
     "value": [
-        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
@@ -1743,6 +1771,39 @@
             "code": "egg-chicken-pickled",
             "shapeElement": "bowl/egg2/*"
         },   
+            {
+                "type": "item",
+                "code": "game:fish-raw",
+                "shapeElement": "bowl/meatnugget 2/*",
+                "textureMapping": [
+                    "meatnugget",
+                    "group1"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-raw",
+                "shapeElement": "bowl/meatnugget 2/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:fishnugget-curedchopped",
+                "shapeElement": "bowl/meatnugget 2/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-raw",
+                "shapeElement": "bowl/meatnugget 2/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-dried",
+                "shapeElement": "bowl/meatnugget 2/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },   
       ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -1766,6 +1827,10 @@
         { type: "item", code: "expandedfoods:sausageherb-redmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     ],
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
@@ -1775,13 +1840,8 @@
     "op": "addeach",
     "path": "/ingredients/7/validStacks/-",
     "value": [
-        { "type": "item", "code": "expandedfoods:fishnugget-raw", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "fishfillet-raw"  ] },
         { "type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "crabmeat"  ] },
         { "type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "snakemeat"  ] },
-        { "type": "item", "code": "expandedfoods:sausagefish-normal-raw",  "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefish-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefish-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefish-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
@@ -1799,10 +1859,6 @@
     "op": "addeach",
     "path": "/ingredients/7/validStacks/-",
     "value": [
-        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
-        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
@@ -1842,6 +1898,15 @@
       "validStacks": [
         {
           "type": "item",
+          "code": "expandedfoods:fishsauce",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "fishsauce"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:soysauce",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
@@ -1874,22 +1939,6 @@
     },
     "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-          "type": "item",
-          "code": "expandedfoods:fishsauce",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "fishsauce"
-          ]
-    },
-    "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
   },
   {
     "op": "add",
