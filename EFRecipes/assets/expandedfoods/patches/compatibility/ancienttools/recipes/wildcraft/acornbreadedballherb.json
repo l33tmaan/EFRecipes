@@ -3,7 +3,7 @@
    file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/acornbreadedballherb.json",
     op: "addeach", 
     path: "/0/ingredients/3/inputs/-", 
-    value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}],
+    value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}, { type: "item", code: "ancienttools:brain", quantity: 1}],
     "side": "server",
     dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "wildcraft" }]
  },
@@ -11,7 +11,7 @@
    file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorns/acornbreadedballherb.json",
     op: "addeach", 
     path: "/1/ingredients/3/inputs/-", 
-    value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}],
+    value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}, { type: "item", code: "ancienttools:brain", quantity: 1}],
     "side": "server",
     dependsOn: [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "wildcraft" }]
  },
