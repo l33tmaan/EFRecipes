@@ -11,6 +11,7 @@
 		"handbook": { "groupBy": [ "acornbreadcrumbs-*" ] },
 		nutritionPropsWhenInMeal: { 
 			satietyByType:  { 
+				"@*-(acornbirch|acornpine|acornmaple)": 130, 
 				"*-acornflax": 240, 
 				"*-acornrice": 495, 
 				"*":  440 
@@ -20,13 +21,14 @@
 	},
 	variantgroups: [
 		{ code: "type", states: ["acornspelt", "acornrye", "acornflax", "acornrice", "acorncassava", "acornamaranth", "acornsunflower",
-				"acornbirch", "acornpine" ] },	  
+				"acornbirch", "acornpine", "acornmaple" ] },	  
 	],
 	shapebytype: { 
 		"acornbreadcrumbs-*": { base: "item/food/bread/crumbs/breadcrumbs-acorn" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
+		"@*-(acornbirch|acornpine|acornmaple)": { saturation: 30, foodcategory: "Grain" },
 		"*-acornflax": { saturation: 60, foodcategory: "Grain" },
 		"*-acornrice": { saturation: 120, foodcategory: "Grain" },
 		"*": { saturation: 110, foodcategory: "Grain" }

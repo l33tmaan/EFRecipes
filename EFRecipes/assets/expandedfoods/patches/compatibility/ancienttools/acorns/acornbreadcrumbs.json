@@ -27,7 +27,7 @@
     "file": "expandedfoods:itemtypes/food/acorns/acornbreadcrumbs.json",
     op: "add", 
     path: "/skipVariants",
-    value: [ "acornbreadcrumbs-acornbirch", "acornbreadcrumbs-acornpine"],
+    value: [ "acornbreadcrumbs-acornbirch", "acornbreadcrumbs-acornpine", "acornbreadcrumbs-acornmaple"],
     side: "server",
     dependsOn: [{ "modid": "ancienttools", "invert": true }]
  },

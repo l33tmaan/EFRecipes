@@ -68,6 +68,14 @@
           "quantity": 4
         }
       },
+      "*-maple-*": {
+    	dependsOn: [{ "modid": "ancienttools" }],
+        "groundStack": {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-maple",
+          "quantity": 4
+        }
+      },
       "*-acornspelt-*": {
     	dependsOn: [{ "modid": "acorns" }],
         "groundStack": {
@@ -137,6 +145,14 @@
         "groundStack": {
           "type": "item",
           "code": "expandedfoods:acornbreadcrumbs-acornpine",
+          "quantity": 4
+        }
+      },
+      "*-acornmaple-*": {
+    	dependsOn: [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+        "groundStack": {
+          "type": "item",
+          "code": "expandedfoods:acornbreadcrumbs-acornmaple",
           "quantity": 4
         }
       },
@@ -743,6 +759,74 @@
     "file": "itemtypes/food/bread.json"
   },
   {
+    "op": "add",
+    "path": "/attributesByType/*-acornmaple-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": {
+        "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json"
+      }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-acornmaple-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": {
+        "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json"
+      }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-acornmaple-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": {
+        "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json"
+      }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
     "op": "remove",
     "path": "/attributesByType/*-charred",
     "side": "server",
@@ -786,6 +870,7 @@
       			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
       			"game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
       			"game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
+      			"game:flour-maple": "game:shapes/item/food/bread/maplebread.json",
 		},
     },
     "side": "server",
@@ -817,6 +902,7 @@
       			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
       			"game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
       			"game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
+      			"game:flour-maple": "game:shapes/item/food/bread/maplebread.json",
 		},
     },
     "side": "server",
@@ -847,6 +933,7 @@
       			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
       			"game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
       			"game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
+      			"game:flour-maple": "game:shapes/item/food/bread/maplebread.json",
 		},
     },
     "side": "server",

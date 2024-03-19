@@ -18,6 +18,14 @@
  {
     "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
     op: "add", 
+    path: "/textures/maplebread",
+    value: { base: "game:item/food/grain/maplebread" },
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools"}]
+ },
+ {
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    op: "add", 
     path: "/textures/birchbread1",
     value:  { base: "game:item/food/grain/birchbread1" },
     side: "server",
@@ -34,6 +42,14 @@
  {
     "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
     op: "add", 
+    path: "/textures/maplebread1",
+    value: { base: "game:item/food/grain/maplebread1" },
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools"}]
+ },
+ {
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    op: "add", 
     path: "/textures/birchbread2",
     value: { base: "game:item/food/grain/birchbread2" },
     side: "server",
@@ -44,6 +60,14 @@
     op: "add", 
     path: "/textures/pinebread2",
     value: { base: "game:item/food/grain/pinebread2" },
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools"}]
+ },
+ {
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    op: "add", 
+    path: "/textures/maplebread2",
+    value: { base: "game:item/food/grain/maplebread2" },
     side: "server",
     dependsOn: [{ "modid": "ancienttools"}]
  },

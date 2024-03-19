@@ -11,6 +11,7 @@
 		"handbook": { "groupBy": ["breadcrumbs-*"] },
 		nutritionPropsWhenInMeal: { 
 			satietyByType:  { 
+				"@*-(birch|pine|maple)": 100, 
 				"*-flax": 160, 
 				"*-rice": 320,
 				"*":  300 
@@ -20,11 +21,12 @@
 	},
 	variantgroups: [
 		{ code: "type", states: ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower", 
-			"birch", "pine" ] },	  
+			"birch", "pine", "maple" ] },	  
 	],
 	shape: { base: "item/food/bread/crumbs/breadcrumbs-{type}" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
+		"@*-(birch|pine|maple)": { saturation: 25, foodcategory: "Grain" },
 		"*-flax": { saturation: 40, foodcategory: "Grain" },
 		"*-rice": { saturation: 80, foodcategory: "Grain" },
 		"*": { saturation: 75, foodcategory: "Grain" }
