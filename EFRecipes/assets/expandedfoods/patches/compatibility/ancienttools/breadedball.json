@@ -3,7 +3,7 @@
     "file": "expandedfoods:itemtypes/food/mixing/breadedball.json",
     op: "add", 
     path: "/skipVariants",
-    value: [ "breadedball-birch-*", "breadedball-pine-*"],
+    value: [ "breadedball-birch-*", "breadedball-pine-*", "breadedball-maple-*"],
     side: "server",
     dependsOn: [{ "modid": "ancienttools", "invert": true }]
  },

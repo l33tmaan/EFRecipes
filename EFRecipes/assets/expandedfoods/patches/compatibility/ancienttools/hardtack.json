@@ -3,7 +3,7 @@
     "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
     op: "add", 
     path: "/skipVariants",
-    value: [ "hardtack-birch-*", "hardtack-pine-*"],
+    value: [ "hardtack-birch-*", "hardtack-pine-*", "hardtack-maple-*"],
     side: "server",
     dependsOn: [{ "modid": "ancienttools", "invert": true }]
  },

@@ -3,7 +3,7 @@
     "file": "expandedfoods:itemtypes/food/mixing/breadedvegetable.json",
     op: "add", 
     path: "/skipVariants",
-    value: [ "breadedvegetable-birch-*", "breadedvegetable-pine-*"],
+    value: [ "breadedvegetable-birch-*", "breadedvegetable-pine-*", "breadedvegetable-maple-*"],
     side: "server",
     dependsOn: [{ "modid": "ancienttools", "invert": true }]
  },

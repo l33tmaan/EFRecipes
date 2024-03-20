@@ -3,7 +3,7 @@
     "file": "expandedfoods:itemtypes/food/mixing/breadedfishnugget.json",
     op: "add", 
     path: "/skipVariants",
-    value: [ "breadedfishnugget-birch-*", "breadedfishnugget-pine-*"],
+    value: [ "breadedfishnugget-birch-*", "breadedfishnugget-pine-*", "breadedfishnugget-maple-*"],
     side: "server",
     dependsOn: [{ "modid": "ancienttools", "invert": true }]
  },

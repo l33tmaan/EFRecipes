@@ -6,7 +6,7 @@
 		{
 			code: "type",
 			states: [ "spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower",
-				"birch", "pine" ]
+				"birch", "pine", "maple" ]
 		},
 		{ code: "state", states: ["raw", "bake1", "bake2", "bake3", "bake4"] },
 	],
@@ -94,15 +94,19 @@
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
+		"@*-(birch|pine|maple)-bake1": { saturation: 100, foodcategory: "Grain" },
 		"*-flax-bake1": { saturation: 140, foodcategory: "Grain" },
 		"*-rice-bake1": { saturation: 300, foodcategory: "Grain"},
 		"*-bake1": { saturation: 270, foodcategory: "Grain"  },
+		"@*-(birch|pine|maple)-bake2": { saturation: 90, foodcategory: "Grain" },
 		"*-flax-bake2": { saturation: 120, foodcategory: "Grain" },
 		"*-rice-bake2": { saturation: 270, foodcategory: "Grain"},
 		"*-bake2": { saturation: 240, foodcategory: "Grain"  },
+		"@*-(birch|pine|maple)-bake3": { saturation: 80, foodcategory: "Grain" },
 		"*-flax-bake3": { saturation: 100, foodcategory: "Grain" },
 		"*-rice-bake3": { saturation: 240, foodcategory: "Grain"},
 		"*-bake3": { saturation: 210, foodcategory: "Grain"  },
+		"@*-(birch|pine|maple)-bake4": { saturation: 70, foodcategory: "Grain" },
 		"*-flax-bake4": { saturation: 80, foodcategory: "Grain" },
 		"*-rice-bake4": { saturation: 210, foodcategory: "Grain"},
 		"*-bake4": { saturation: 180, foodcategory: "Grain"  },

@@ -63,4 +63,36 @@
     side: "server",
     dependsOn: [{ "modid": "ancienttools" , "invert": true}]
  },
+ {
+   file: "expandedfoods:recipes/kneading/ancienttools/dough.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/ancienttools/dough.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/ancienttools/dough.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/ancienttools/dough.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+ },
 ]
