@@ -3188,4 +3188,23 @@
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcrafttrees" }]
   },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:dressing-salad",
+    "value": [
+      "topping",
+      "saladdressing"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/saladdressing",
+    "value": {
+      "base": "expandedfoods:item/liquid/dressing/salad"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json"
+  },
 ]
