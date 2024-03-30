@@ -92,13 +92,6 @@
     	inPiePropertiesByType: {
       		"@*-(raw|smashed|curedsmashed|curedchopped)": { texture: "game:block/food/pie/fill-fish", partType: 'Filling' },
     	},
-		"juiceablePropertiesByType": {
-			"@*-(raw|smashed)":  {
-				"litresPerItem": 0.15625,
-				"liquidStack": { "type": "item", "code": "expandedfoods:fishsauce", "stacksize": 1 },
-				"pressedStack": { "type": "item", "code": "game:pressedmash-fish", "stacksize": 1 }
-			},
-		},
 	},
 	variantgroups: [
 		{ code: "type", states: ["smashed", "raw", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred", "curedsmashed", "curedchopped" ] },

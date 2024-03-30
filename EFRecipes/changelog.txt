@@ -7,7 +7,6 @@ Added cabbage rolls
 Added syrup-glazed termite sticks (w/acorns)
 Added century eggs
 Added cured aged meat
-Added Garum
 Added Roux & Gumbo meal
 Added Brynza
 Added preserves, jelly & jam - jam, but in the mixing bowl
@@ -17,11 +16,9 @@ Added VanVar compatibility for more mixing bowl variants
 Added gummy candy (spiles on cherry, peach, plum, or apricot tree to get gum; harden into gum or mixed with syrup or honey for candy; make candy molds)
 Added bamboo steamer
 Added aspic
-Added yogurt bars - fruit bars but with yogurt
 Added dehydrated yeast?
 Cut pasta can be combined with chopped food to make pasta dumplings; pasta dumplings can be used in place of pasta OR dumplings
 Standardized smashed meat variants?
-Complicated fish sauce recipe
 Healing over time added 
 Olives integrated
 Added industrial mixing bowl (works much faster, higher storage capacity)
@@ -34,63 +31,70 @@ RenderIngredients now uses selectiveElements to cut down on files
 Soulstorm brew integrated with Alchemy
 Instead of simply 'cooking' certain liquids (such as sap > syrup or water > salt) , they are now actual simmer recipes 
 Soy milk can be used to make tofu
-Soy milk can be used to make cheese
+Soy milk can be used to make cheese1
 Cheese bread added (cheese is part of dough-making process)
 
 
 CHECK https://github.com/AreYSerious/VintageTranslation FOR TRANSLATIONS....
 
 1.7.0
-
 THE GREAT WILDCRAFT TRANSITION BEGINS
+- added herbs to Dressing
 
-Dressing added (vinegar + egg white + oil + herbs?)
+1.6.9
 
-Ancient Tools maple compatibility added - DONE!!!
-Ancient Tools salted meat can be hung on meathooks, baked, put in pies, used in porridge/pasta/salad has part-baked & charred variants - DONE!!! 
-Ancient Tools meat can be smashed with the Acorns mallet - DONE!!!
-Ancient Tools animal brains can be used in fried balls & au gratin/pilaf/hot pasta - DONE!!!
-Ancient Tools added to Cooking 105 - DONE!!!
-Ancient Tools bread crumb & birch/pine nutrition nerfed - DONE!!!
+- Food Stuff:
+Added Dressing (vinegar + egg white + oil)
+Updated fish sauce recipe (check Cooking 104 for details)
+Cooked food can be chopped up
+Partially cooked & cooked vanilla meat can be charred in the firepit
+Soy milk can be added to porridge
+Cured meat nuggets can be used in trail mix
+Gelatin stack increased from 16 to 32
+Egg yolk can be used to make pasta
+Added simmer recipe to rehydrate hardened lard
 
-More Animals wild turkey stuff added - DONE!!!
-Pickled More Animals eggs can be used in cold pasta & salad - DONE!!!
+- The Great Fish Parity:
+Vanilla fish can be used in EF stuff; broth, boiling, meals
+Vanilla fish have part-baked & cooked states, can be baked, used in pies
+Vanilla fish can be smashed and cut into fish nuggets
+Fish nuggets, fish sausage, fish sauce, fish pemmican, fish gelatin, fried fish, non-vegetarian sushi, & seafood broth now vanilla items
+Fish nuggets buffed to vanilla fish nutrition; has cured variants; requires more PS filets to make
+Fish nugget models & textures changed to look more vanilla
+Raw fish & fish nuggets can be used to make fish sauce
+Raw fish nuggets & smashed fish are now edible
+Fish sausage textures updated
 
-Primitive Survival salmon & vanilla fish usable for fish sauce - DONE!!!
-Primitive Survival cooked crabnugget nutrition buffed - DONE!!!
-Handbook correctly states seafood broth requires 1L of water instead of 0.5L - DONE!!!
-Primitive Survival smoked meat & cured smoked meat usable in EF in place of most regular meat - DONE!!!
-Fish sauce barrel recipe updated - only 2 PS fish fillets needed per 1 L of water instead of 3 - DONE!!!
+- Trough Fixes:
+Pressed mash trough texture fixed
+Chickens and raccoons will now eat peanut skins from troughs
+Bread crumbs can be used in large trough
+Bread crumb small trough names fixed
 
-Acorn coffee liquid input/output increased from 0.1L to 0.5L (thanks to TaeruAlethea) - DONE!!!
+- Compatibility Stuff: 
+Ancient Tools maple compatibility added
+Ancient Tools salted meat can be hung on meathooks, baked, put in pies, used in porridge/pasta/salad has part-baked & charred variants 
+Ancient Tools meat can be smashed with the Acorns mallet
+Ancient Tools animal brains can be used in fried balls & au gratin/pilaf/hot pasta
+Ancient Tools bread crumb & birch/pine nutrition nerfed
+Ancient Tools added to Cooking 105
+More Animals wild turkey stuff added
+Pickled More Animals eggs can be used in cold pasta & salad
+Primitive Survival salmon & vanilla fish usable for fish sauce
+Primitive Survival smoked meat & cured smoked meat usable in EF in place of most regular meat
+Primitive Survival cooked crabnugget nutrition buffed
+Acorn coffee liquid input/output increased from 0.1L to 0.5L (thanks to TaeruAlethea)
 
-Cooked food can be chopped up - DONE!!!
-Partially cooked & cooked vanilla meat can be charred in the firepit - DONE!!!
-Pitch glue recipe fixed	- DONE!!!
-Soy milk can be added to porridge - DONE!!!
-GroundStack property used internally instead of GrindedStack - DONE!!!
-Gelatin stack increased from 16 to 32 - DONE!!!
-Egg yolk can be used to make pasta - DONE!!!
-Added simmer recipe to rehydrate hardened lard - DONE!!!
-Pressed mash trough texture fixed - DONE!!!
-Chickens and raccoons will now eat peanut skins from troughs - DONE!!!
-Bread crumbs can be used in large trough - DONE!!!
-Bread crumb small trough names fixed - DONE!!!
+- Misc Fixes:
+Pitch glue recipe fixed
+GroundStack property used internally instead of GrindedStack
+Handbook guides specify they're from Expanded Foods
+Handbook correctly states seafood broth requires 1L of water instead of 0.5L
+Mod dependency updated to ACA 1.1.3
 
-Vanilla fish can be used in EF stuff; broth, boiling, meals - DONE!!!
-Vanilla fish have part-baked & cooked states, can be baked, used in pies - DONE!!!
-Vanilla fish can be smashed and cut into fish nuggets - DONE!!!
-Fish nuggets, fish sausage, fish sauce, fish pemmican, fish gelatin, fried fish, non-vegetarian sushi, & seafood broth now vanilla items - DONE!!!
-Fish nuggets buffed to vanilla fish nutrition; has cured variants; requires more PS filets to make - DONE!!!
-Fish nugget models & textures changed to look more vanilla - DONE!!!
-Raw fish & fish nuggets can be used to make fish sauce - DONE!!!
-Raw fish nuggets & smashed fish are now edible - DONE!!!
-Fish sausage textures updated - DONE!!!
-
-Cured meat nuggets can be used in trail mix - DONE!!!
-
-Russian translation updated (thanks to vulpeep) - DONE!!!
-Mod dependency updated to ACA 1.1.3 - DONE!!!
+- Translations:
+Russian translation updated (thanks to vulpeep)
+Japanese translation updated (thanks to macoto_hino)
 
 1.6.8
 

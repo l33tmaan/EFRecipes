@@ -21,27 +21,6 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/attributes/juiceablePropertiesByType",
-    "value": {
-        "*-raw":  {
-            "litresPerItem": 0.15625,
-            "liquidStack": {
-                "type": "item",
-                "code": "expandedfoods:fishsauce",
-                "stacksize": 1
-            },
-            "pressedStack": {
-                "type": "item",
-                "code": "game:pressedmash-fish",
-                "stacksize": 1
-            }
-        },
-    },
-    "file": "itemtypes/food/fish.json",
-    "side": "server",
-  },
-  {
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
     "file": "game:itemtypes/food/fish.json",
