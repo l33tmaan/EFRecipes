@@ -1,0 +1,134 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/components/21/text/-",
+    "value": {
+        "value": "How do you get so healthy, anyway?",
+        "jumpTo": "healthy",
+        "conditions": [
+            {
+                "variable": "entity.ingredients",
+                "isNotValue": "true"
+            }
+        ]
+    },
+    "file": "aculinaryartillery:config/dialogue/trader-kitchenware.json"
+  },
+  {
+    "op": "add",
+    "path": "/components/21/text/-",
+    "value": {
+        "value": "Can you tell me more about taking full advantage of the food I find?",
+        "jumpTo": "ingredients",
+        "conditions": [
+            {
+                "variable": "entity.ingredients",
+                "isValue": "true"
+            }
+        ]
+    },
+    "file": "aculinaryartillery:config/dialogue/trader-kitchenware.json"
+  },
+  {
+    "op": "add",
+    "path": "/components/-",
+    "value": {
+      "code": "healthy",
+      "owner": "trader",
+      "type": "talk",
+      "text": [
+        {
+          "value": "I stay full, my friend. A keen eye alerts me to all sorts of ingredients that the lesser learned would pass right up."
+        }
+      ],
+      "jumpTo": "lesserlearned"
+    },
+    "file": "aculinaryartillery:config/dialogue/trader-kitchenware.json"
+  },
+  {
+    "op": "add",
+    "path": "/components/-",
+    "value": {
+      "code": "lesserlearned",
+      "owner": "player",
+      "type": "talk",
+      "text": [
+        {
+          "value": "Like what?",
+          "jumpTo": "ingredients"
+        }
+      ]
+    },
+    "file": "aculinaryartillery:config/dialogue/trader-kitchenware.json"
+  },
+  {
+    "op": "add",
+    "path": "/components/-",
+    "value": {
+      "code": "ingredients",
+      "owner": "trader",
+      "type": "talk",
+      "text": [
+        {
+          "value": "It depends on the kind of food you're interested in!"
+        }
+      ],
+      "setVariables": {
+        "entity.ingredients": "true"
+      }
+    },
+    "file": "aculinaryartillery:config/dialogue/trader-kitchenware.json"
+  },
+  {
+    "op": "add",
+    "path": "/components/-",
+    "value": {
+      "code": "ingredientsresponse",
+      "owner": "player",
+      "type": "talk",
+      "text": [
+        {
+          "value": "I like meat - tell me more.",
+          "jumpTo": "ingredients-meat"
+        },
+        {
+          "value": "What about grain?",
+          "jumpTo": "ingredients-grain"
+        },
+        {
+          "value": "Can you tell me about vegetables?",
+          "jumpTo": "ingredients-vegetable"
+        },
+        {
+          "value": "Tell me what you know about dairy.",
+          "jumpTo": "ingredients-dairy"
+        },
+        {
+          "value": "How about fruit?",
+          "jumpTo": "ingredients-fruit"
+        },
+        {
+          "value": "Nevermind.",
+          "jumpTo": "suityourself"
+        }
+      ]
+    },
+    "file": "aculinaryartillery:config/dialogue/trader-kitchenware.json"
+  },
+  {
+    "op": "add",
+    "path": "/components/-",
+    "value": {
+      "code": "suityourself",
+      "owner": "trader",
+      "type": "talk",
+      "text": [
+        {
+          "value": "Suit yourself."
+        }
+      ],
+      "jumpTo": "main"
+    },
+    "file": "aculinaryartillery:config/dialogue/trader-kitchenware.json"
+  }
+]
