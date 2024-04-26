@@ -4,7 +4,7 @@
 	maxstacksize: 32,
 	variantgroups: [
 		{ code: "type", states: ["bushmeat", "bushmeatcheese", "poultry", "poultrycheese", "redmeat", "redmeatcheese" ]},
-		{ code: "state", states: ["raw", "dried", "partbaked", "cooked", "charred", "driedpartbaked", "driedcooked", "driedcharred" ]}
+		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "dried", "driedpartbaked", "driedcooked", "driedcharred", "curing", "cured"]}
 	],
 	attributes: {
 		displaycaseable: true,
@@ -17,11 +17,10 @@
   			scale: 0.75
 		},
     	"expandedNutritionPropsByType": {
-			"*-raw": {
+			"@*-(raw|curing)": {
 				"expandedfoods:meatnugget-poultry-raw": {saturation: 220, foodcategory: "Protein"},
 				"expandedfoods:meatnugget-redmeat-raw": {saturation: 310, foodcategory: "Protein"},
 				"expandedfoods:meatnugget-bushmeat-raw": {saturation: 130, foodcategory: "Protein"},
-				"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
 				"game:fat": {saturation: 200, foodcategory: "Protein"},
 				"expandedfoods:lard" : {saturation: 8, "health":  0.05, foodcategory: "Protein"},
 				"game:cheese-cheddar-1slice" : { saturation: 240, foodcategory: "Dairy" },
@@ -29,9 +28,9 @@
 			},
 		},
     	inPiePropertiesByType: {
-      		"@*-(bushmeat|bushmeatcheese)-(raw|dried)": { texture: "game:block/food/pie/fill-bushmeat", partType: 'Filling' },
-      		"@*-(poultry|poultrycheese)-(raw|dried)": { texture: "game:block/food/pie/fill-poultry", partType: 'Filling' },
-      		"@*-(redmeat|redmeatcheese)-(raw|dried)": { texture: "game:block/food/pie/fill-redmeat", partType: 'Filling' },
+      		"@*-(bushmeat|bushmeatcheese)-(raw|dried|cured)": { texture: "game:block/food/pie/fill-bushmeat", partType: 'Filling' },
+      		"@*-(poultry|poultrycheese)-(raw|dried|cured)": { texture: "game:block/food/pie/fill-poultry", partType: 'Filling' },
+      		"@*-(redmeat|redmeatcheese)-(raw|dried|cured)": { texture: "game:block/food/pie/fill-redmeat", partType: 'Filling' },
     	},
     	renderIngredients: {
 			"expandedfoods:meatnugget-poultry-raw": "expandedfoods:shapes/item/food/meat/sausage-poultry.json",
@@ -111,7 +110,7 @@
 		satMultByType: {
 			"@*-(partbaked|driedpartbaked)": 0.5,
 			"@*-(cooked|driedcooked)": 1,
-			"@*-(charred|driedcharred)": 0.75,
+			"@*-(charred|driedcharred|cured)": 0.75,
 		},
 		onDisplayTransform: {
 			translation: { x: 0, y: -0.48, z: 0 },
@@ -128,171 +127,31 @@
 		"*-redmeatcheese-*": { base: "expandedfoods:item/food/meat/sausage-redmeat" },
 	},
   	texturesByType: {
-		"*-bushmeat-partbaked": {
+		"@*-(bushmeat|poultry|redmeat)-(partbaked|driedpartbaked)": {
     		"white1": {base: "game:block/cloth/wool/white1" },
     		"cured": {base: "item/food/sausage/cured-partbaked" },
 		},
-		"*-bushmeat-driedpartbaked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-partbaked" },
-		},
-		"*-bushmeat-cooked": {
+		"@*-(bushmeat|poultry|redmeat)-(cooked|driedcooked)": {
     		"white1": {base: "game:block/cloth/wool/white1" },
     		"cured": {base: "game:item/food/meat/cured-smoked" },
 		},
-		"*-bushmeat-driedcooked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "game:item/food/meat/cured-smoked" },
-		},
-		"*-bushmeat-charred": {
+		"@*-(bushmeat|poultry|redmeat)-(charred|driedcharred)": {
     		"white1": {base: "game:block/cloth/wool/white1" },
     		"cured": {base: "item/food/sausage/cured-charred" },
 		},
-		"*-bushmeat-driedcharred": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-charred" },
-		},
-		"*-bushmeatcheese-partbaked": {
+		"@*-(bushmeatcheese|poultrycheese|redmeatcheese)-(partbaked|driedpartbaked)": {
     		"white1": {base: "game:block/cloth/wool/white1" },
     		"cured": {base: "item/food/sausage/cured-cheese-partbaked" },
 		},
-		"*-bushmeatcheese-driedpartbaked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-partbaked" },
-		},
-		"*-bushmeatcheese-cooked": {
+		"@*-(bushmeatcheese|poultrycheese|redmeatcheese)-(cooked|driedcooked)": {
     		"white1": {base: "game:block/cloth/wool/white1" },
     		"cured": {base: "item/food/sausage/cured-cheese-cooked" },
 		},
-		"*-bushmeatcheese-driedcooked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-cooked" },
-		},
-		"*-bushmeatcheese-charred": {
+		"@*-(bushmeatcheese|poultrycheese|redmeatcheese)-(charred|driedcharred)": {
     		"white1": {base: "game:block/cloth/wool/white1" },
     		"cured": {base: "item/food/sausage/cured-cheese-charred" },
 		},
-		"*-bushmeatcheese-driedcharred": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-charred" },
-		},
-		"*-bushmeatcheese-raw": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese" },
-		},
-		"*-bushmeatcheese-dried": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese" },
-		},
-		"*-poultry-partbaked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-partbaked" },
-		},
-		"*-poultry-driedpartbaked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-partbaked" },
-		},
-		"*-poultry-cooked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "game:item/food/meat/cured-smoked" },
-		},
-		"*-poultry-driedcooked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "game:item/food/meat/cured-smoked" },
-		},
-		"*-poultry-charred": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-charred" },
-		},
-		"*-poultry-driedcharred": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-charred" },
-		},
-		"*-poultrycheese-partbaked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-partbaked" },
-		},
-		"*-poultrycheese-driedpartbaked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-partbaked" },
-		},
-		"*-poultrycheese-cooked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-cooked" },
-		},
-		"*-poultrycheese-driedcooked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-cooked" },
-		},
-		"*-poultrycheese-charred": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-charred" },
-		},
-		"*-poultrycheese-driedcharred": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-charred" },
-		},
-		"*-poultrycheese-raw": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese" },
-		},
-		"*-poultrycheese-dried": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese" },
-		},
-		"*-redmeat-partbaked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-partbaked" },
-		},
-		"*-redmeat-driedpartbaked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-partbaked" },
-		},
-		"*-redmeat-cooked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "game:item/food/meat/cured-smoked" },
-		},
-		"*-redmeat-driedcooked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "game:item/food/meat/cured-smoked" },
-		},
-		"*-redmeat-charred": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-charred" },
-		},
-		"*-redmeat-driedcharred": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-charred" },
-		},
-		"*-redmeatcheese-partbaked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-partbaked" },
-		},
-		"*-redmeatcheese-driedpartbaked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-partbaked" },
-		},
-		"*-redmeatcheese-cooked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-cooked" },
-		},
-		"*-redmeatcheese-driedcooked": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-cooked" },
-		},
-		"*-redmeatcheese-charred": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-charred" },
-		},
-		"*-redmeatcheese-driedcharred": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese-charred" },
-		},
-		"*-redmeatcheese-raw": {
-    		"white1": {base: "game:block/cloth/wool/white1" },
-    		"cured": {base: "item/food/sausage/cured-cheese" },
-		},
-		"*-redmeatcheese-dried": {
+		"@*-(bushmeatcheese|poultrycheese|redmeatcheese)-(raw|dried|cured|curing)": {
     		"white1": {base: "game:block/cloth/wool/white1" },
     		"cured": {base: "item/food/sausage/cured-cheese" },
 		},
@@ -308,6 +167,7 @@
 		"*-driedpartbaked": { saturation: 90, "health": 0.5, foodcategory: "Protein"},
 		"*-driedcooked": { saturation: 100, "health": 0.5, foodcategory: "Protein"},
 		"*-driedcharred": { saturation: 80, "health": 0.5, foodcategory: "Protein"},
+		"*-cured": { saturation: 75, foodcategory: "Protein"},
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	transitionablePropsByType: {
@@ -319,29 +179,49 @@
         	transitionRatio: 1
       	},{
         	type: "Perish",
-        	freshHours: { avg: 48 },
-        	transitionHours: { avg: 24 },
+        	freshHours: { avg: 168 },
+        	transitionHours: { avg: 108 },
        		transitionedStack: { type: "item", code: "game:rot" },
        		transitionRatio: 1
       	}],
 		"*-dried": [{
 			type: "Perish",
-			freshHours: { avg: 48 },
-			transitionHours: { avg: 24 },
+			freshHours: { avg: 168 },
+			transitionHours: { avg: 108 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"@*-(driedcharred|charred)": [{
 			type: "Perish",
-			freshHours: { avg: 384 },
-			transitionHours: { avg: 48 },
+			freshHours: { avg: 1344 },
+			transitionHours: { avg: 216 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
+		"*-curing": [{
+        	type: "Cure",
+        	freshHours: { avg: 480 },
+        	transitionHours: { avg: 20 },
+        	transitionedStack: { type: "item", code: "expandedfoods:sausage-{type}-cured" },
+        	transitionRatio: 1
+      	},{
+        	type: "Perish",
+        	freshHours: { avg: 168 },
+        	transitionHours: { avg: 108 },
+       		transitionedStack: { type: "item", code: "game:rot" },
+       		transitionRatio: 1
+      	}],
+		"*-cured": [{
+        	type: "Perish",
+			freshHours: { avg: 13440 },
+			transitionHours: { avg: 8640 },
+       		transitionedStack: { type: "item", code: "game:rot" },
+       		transitionRatio: 1
+      	}],
 		"*": [{
 			type: "Perish",
-			freshHours: { avg: 192 },
-			transitionHours: { avg: 24 },
+			freshHours: { avg: 672 },
+			transitionHours: { avg: 108 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],

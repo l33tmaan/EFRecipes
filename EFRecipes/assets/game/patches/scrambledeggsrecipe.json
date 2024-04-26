@@ -1267,6 +1267,24 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:sausage-bushmeat-curing",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "bushmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-bushmeat-cured",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "bushmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:sausage-bushmeatcheese-raw",
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
@@ -1277,6 +1295,24 @@
         {
           "type": "item",
           "code": "expandedfoods:sausage-bushmeatcheese-dried",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "bushmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-bushmeatcheese-curing",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "bushmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-bushmeatcheese-cured",
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
@@ -1303,6 +1339,24 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:sausage-poultry-curing",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-poultry-cured",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:sausage-poultrycheese-raw",
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
@@ -1313,6 +1367,24 @@
         {
           "type": "item",
           "code": "expandedfoods:sausage-poultrycheese-dried",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-poultrycheese-curing",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-poultrycheese-cured",
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
@@ -1339,6 +1411,24 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:sausage-redmeat-curing",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-redmeat-cured",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:sausage-redmeatcheese-raw",
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
@@ -1349,6 +1439,24 @@
         {
           "type": "item",
           "code": "expandedfoods:sausage-redmeatcheese-dried",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-redmeatcheese-curing",
+          "shapeElement": "bowl/meatnugget 1/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-redmeatcheese-cured",
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
@@ -1452,6 +1560,18 @@
                 "shapeElement": "bowl/meatnugget 1/*",
                 "textureMapping": [ "meatnugget", "group1" ]
             },   
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-curing",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-cured",
+                "shapeElement": "bowl/meatnugget 1/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },
       ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -1465,20 +1585,36 @@
     "value": [
         { type: "item", code: "expandedfoods:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeat-curing",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeat-cured",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-curing",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-cured",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultry-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultry-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-poultry-curing",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-poultry-cured",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultrycheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultrycheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-poultrycheese-curing",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-poultrycheese-cured",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-redmeat-curing",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-redmeat-cured",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-curing",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-cured",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { "type": "item", "code": "expandedfoods:sausagefishherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
         { "type": "item", "code": "expandedfoods:sausagefishherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
         { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
         { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     ],
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
@@ -1492,12 +1628,20 @@
         { "type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "snakemeat"  ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrab-normal-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrab-normal-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrab-cheese-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrab-cheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnake-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnake-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnake-normal-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnake-normal-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnake-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnake-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnake-cheese-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnake-cheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     ],
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
@@ -1509,12 +1653,20 @@
     "value": [
         { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     ],
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
@@ -1619,6 +1771,24 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:sausage-bushmeat-curing",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "bushmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-bushmeat-cured",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "bushmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:sausage-bushmeatcheese-raw",
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
@@ -1629,6 +1799,24 @@
         {
           "type": "item",
           "code": "expandedfoods:sausage-bushmeatcheese-dried",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "bushmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-bushmeatcheese-curing",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "bushmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-bushmeatcheese-cured",
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
@@ -1655,6 +1843,24 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:sausage-poultry-curing",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-poultry-cured",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:sausage-poultrycheese-raw",
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
@@ -1665,6 +1871,24 @@
         {
           "type": "item",
           "code": "expandedfoods:sausage-poultrycheese-dried",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-poultrycheese-curing",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "poultry-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-poultrycheese-cured",
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
@@ -1691,6 +1915,24 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:sausage-redmeat-curing",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-redmeat-cured",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:sausage-redmeatcheese-raw",
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
@@ -1701,6 +1943,24 @@
         {
           "type": "item",
           "code": "expandedfoods:sausage-redmeatcheese-dried",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-redmeatcheese-curing",
+          "shapeElement": "bowl/meatnugget 2/*",
+          "textureMapping": [
+            "meatnugget",
+            "redmeat-raw"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:sausage-redmeatcheese-cured",
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
@@ -1804,6 +2064,18 @@
                 "shapeElement": "bowl/meatnugget 2/*",
                 "textureMapping": [ "meatnugget", "group1" ]
             },   
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-curing",
+                "shapeElement": "bowl/meatnugget 2/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },
+            {
+                "type": "item",
+                "code": "expandedfoods:sausagefish-*-cured",
+                "shapeElement": "bowl/meatnugget 2/*",
+                "textureMapping": [ "meatnugget", "group1" ]
+            },
       ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -1817,20 +2089,36 @@
     "value": [
         { type: "item", code: "expandedfoods:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeat-curing",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeat-cured",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-curing",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-cured",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultry-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultry-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-poultry-curing",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-poultry-cured",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultrycheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultrycheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-poultrycheese-curing",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-poultrycheese-cured",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-redmeat-curing",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-redmeat-cured",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-curing",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-cured",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
         { "type": "item", "code": "expandedfoods:sausagefishherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
         { "type": "item", "code": "expandedfoods:sausagefishherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-normal-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
         { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
         { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
+        { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     ],
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
@@ -1844,12 +2132,20 @@
         { "type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "snakemeat"  ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrab-normal-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrab-normal-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrab-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrab-cheese-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrab-cheese-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnake-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnake-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnake-normal-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnake-normal-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnake-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnake-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnake-cheese-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnake-cheese-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     ],
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",
@@ -1861,12 +2157,20 @@
     "value": [
         { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
         { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     ],
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json",

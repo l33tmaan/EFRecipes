@@ -4,7 +4,7 @@
 	maxstacksize: 32,
 	variantgroups: [
 		{ code: "type", states: ["normal", "cheese" ]},
-		{ code: "state", states: ["raw", "dried", "partbaked", "cooked", "charred", "driedpartbaked", "driedcooked", "driedcharred" ]}
+		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "dried", "driedpartbaked", "driedcooked", "driedcharred", "curing", "cured"]}
 	],
 	attributes: {
 		displaycaseable: true,
@@ -18,7 +18,6 @@
 		},
     	"expandedNutritionProps": {
 			"expandedfoods:fishnugget-raw": {saturation: 240, foodcategory: "Protein"},
-			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
 			"game:fat": {saturation: 200, foodcategory: "Protein"},
 			"expandedfoods:lard" : {saturation: 8, "health":  0.05, foodcategory: "Protein"},
 			"game:cheese-cheddar-1slice" : { saturation: 240, foodcategory: "Dairy" },
@@ -28,7 +27,7 @@
 			"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/meat/sausage-poultry.json",
 		},
     	inPiePropertiesByType: {
-      		"@*-(raw|dried)": { texture: "game:block/food/pie/fill-fish", partType: 'Filling' },
+      		"@*-(raw|dried|cured)": { texture: "game:block/food/pie/fill-fish", partType: 'Filling' },
     	},
 		bakingPropertiesByType: {
 			"*-raw": {
@@ -103,7 +102,7 @@
 		satMultByType: {
 			"@*-(partbaked|driedpartbaked)": 0.5,
 			"@*-(cooked|driedcooked)": 1,
-			"@*-(charred|driedcharred)": 0.75,
+			"@*-(charred|driedcharred|cured)": 0.75,
 		},
 		onDisplayTransform: {
 			translation: { x: 0, y: -0.48, z: 0 },
@@ -113,67 +112,35 @@
 	},
 	shape: { base: "expandedfoods:item/food/meat/sausage-poultry" },
   	texturesByType: {
-		"*-normal-partbaked": {
+		"@*-normal-(partbaked|driedpartbaked)": {
     			"white1": {base: "game:block/cloth/wool/white1" },
     			"cured": {base: "item/food/fillet-partbaked" },
 		},
-		"*-normal-cooked": {
+		"@*-normal-(cooked|driedcooked)": {
     			"white1": {base: "game:block/cloth/wool/white1" },
     			"cured": {base: "item/food/fillet-cooked" },
 		},
-		"*-normal-charred": {
+		"@*-normal-(charred|driedcharred)": {
     			"white1": {base: "game:block/cloth/wool/white1" },
     			"cured": {base: "item/food/fillet-charred" },
 		},
-		"*-normal-driedpartbaked": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/fillet-partbaked" },
-		},
-		"*-normal-driedcooked": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/fillet-cooked" },
-		},
-		"*-normal-driedcharred": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/fillet-charred" },
-		},
-		"*-normal-raw": {
+		"@*-normal-(raw|dried|cured|curing)": {
     			"white1": {base: "game:block/cloth/wool/white1" },
     			"cured": {base: "item/food/fillet-raw" },
 		},
-		"*-normal-dried": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/fillet-raw" },
-		},
-		"*-cheese-partbaked": {
+		"@*-cheese-(partbaked|driedpartbaked)": {
     			"white1": {base: "game:block/cloth/wool/white1" },
     			"cured": {base: "item/food/sausage/fish-cheese-partbaked" },
 		},
-		"*-cheese-cooked": {
+		"@*-cheese-(cooked|driedcooked)": {
     			"white1": {base: "game:block/cloth/wool/white1" },
     			"cured": {base: "item/food/sausage/fish-cheese-cooked" },
 		},
-		"*-cheese-charred": {
+		"@*-cheese-(charred|driedcharred)": {
     			"white1": {base: "game:block/cloth/wool/white1" },
     			"cured": {base: "item/food/sausage/fish-cheese-charred" },
 		},
-		"*-cheese-driedpartbaked": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/sausage/fish-cheese-partbaked" },
-		},
-		"*-cheese-driedcooked": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/sausage/fish-cheese-cooked" },
-		},
-		"*-cheese-driedcharred": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/sausage/fish-cheese-charred" },
-		},
-		"*-cheese-raw": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/sausage/fish-cheese" },
-		},
-		"*-cheese-dried": {
+		"@*-cheese-(raw|dried|cured|curing)": {
     			"white1": {base: "game:block/cloth/wool/white1" },
     			"cured": {base: "item/food/sausage/fish-cheese" },
 		},
@@ -189,6 +156,7 @@
 		"*-driedpartbaked": { saturation: 90, "health": 0.5, foodcategory: "Protein"},
 		"*-driedcooked": { saturation: 100, "health": 0.5, foodcategory: "Protein"},
 		"*-driedcharred": { saturation: 80, "health": 0.5, foodcategory: "Protein"},
+		"*-cured": { saturation: 75, foodcategory: "Protein"},
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	transitionablePropsByType: {
@@ -200,29 +168,49 @@
         	transitionRatio: 1
       	},{
         	type: "Perish",
-        	freshHours: { avg: 48 },
-        	transitionHours: { avg: 24 },
+        	freshHours: { avg: 168 },
+        	transitionHours: { avg: 108 },
         	transitionedStack: { type: "item", code: "game:rot" },
         	transitionRatio: 1
       	}],
 		"*-dried": [{
 			type: "Perish",
-			freshHours: { avg: 48 },
-			transitionHours: { avg: 24 },
+        	freshHours: { avg: 168 },
+        	transitionHours: { avg: 108 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"@*-(charred|driedcharred)": [{
 			type: "Perish",
-			freshHours: { avg: 384 },
-			transitionHours: { avg: 48 },
+			freshHours: { avg: 1344 },
+			transitionHours: { avg: 216 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
+		"*-curing": [{
+        	type: "Cure",
+        	freshHours: { avg: 480 },
+        	transitionHours: { avg: 20 },
+        	transitionedStack: { type: "item", code: "expandedfoods:sausagefish-{type}-cured" },
+        	transitionRatio: 1
+      	},{
+        	type: "Perish",
+        	freshHours: { avg: 168 },
+        	transitionHours: { avg: 108 },
+       		transitionedStack: { type: "item", code: "game:rot" },
+       		transitionRatio: 1
+      	}],
+		"*-cured": [{
+        	type: "Perish",
+			freshHours: { avg: 13440 },
+			transitionHours: { avg: 8640 },
+       		transitionedStack: { type: "item", code: "game:rot" },
+       		transitionRatio: 1
+      	}],
 		"*": [{
 			type: "Perish",
-			freshHours: { avg: 192 },
-			transitionHours: { avg: 24 },
+			freshHours: { avg: 672 },
+			transitionHours: { avg: 108 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],

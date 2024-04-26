@@ -12,7 +12,7 @@
 		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:salt",  quantity: 1 }]},
 	],
-	output: { type: "item", code: "expandedfoods:sausagefish-normal-raw", stackSize: 1}
+	output: { type: "item", code: "expandedfoods:sausagefish-normal-curing", stackSize: 1}
  },
  {
 	ingredients: [
@@ -30,6 +30,6 @@
 		{inputs: [{ type: "item", code: "game:cheese-cheddar-1slice", quantity: 1 }, { type: "item", code: "game:cheese-blue-1slice", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:salt",  quantity: 1 }]},
 	],
-	output: { type: "item", code: "expandedfoods:sausagefish-cheese-raw", stackSize: 1}
+	output: { type: "item", code: "expandedfoods:sausagefish-cheese-curing", stackSize: 1}
  },
 ]
