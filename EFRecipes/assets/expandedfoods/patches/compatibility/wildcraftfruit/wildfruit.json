@@ -1,0 +1,87 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.5,
+      "startScaleY": 1.0,
+      "endScaleY": 0.8,
+      "resultCode": "expandedfoods:wilddryfruit-{fruit}"
+    },
+    "side": "server",
+    "file": "wildcraftfruit:itemtypes/food/fruit.json"
+  },
+  {
+    "file": "wildcraftfruit:itemtypes/food/fruit.json",
+    "side": "server",
+    "op": "add",
+    "path": "/attributes/onDisplayTransformByType",
+    "value": {
+    "*-bunchberry": {
+        "translation": { "x": 0, "y": -0.55, "z": 0 },
+        "rotation": { "x": 180, "y": 0, "z": 0 },
+        "scale": 0.4
+      },
+    "*-crowberry": {
+        "translation": { "x": -0.05, "y": -0.3, "z": -0.1 },
+        "rotation": { "x": -23, "y": 0, "z": -11 },
+        "scale": 0.5
+      },
+    "*-husktomato": {
+        "translation": { "x": 0, "y": -0.365, "z": 0 },
+        "rotation": { "x": 0, "y": 45, "z": 0 },
+        "scale": 0.35
+      },
+    "*-wolfberry": {
+        "translation": { "x": 0, "y": -0.28, "z": 0 },
+        "rotation": { "x": 0, "y": 45, "z": 0 },
+        "scale": 0.35
+      },
+    "*-strawberry": {
+        "translation": { "x": -0.2, "y": -0.4, "z": 0 },
+        "rotation": { "x": 90, "y": 0, "z": 90 },
+        "scale": 0.45
+      },
+    "@*-(raspberry|blueraspberry)": {
+        "translation": { "x": 0.25, "y": -0.5, "z": -0.05 },
+        "rotation": { "x": 90, "y": 0, "z": -90 },
+        "scale": 0.45
+      },
+    "*-honeysuckle": {
+        "translation": { "x": 0.1, "y": -0.225, "z": -0.05 },
+        "scale": 0.5
+      },
+    "*-gooseberry": {
+        "translation": { "x": 0.15, "y": -0.2, "z": -0.05 },
+        "rotation": { "x": 0, "y": 90, "z": 0 },
+        "scale": 0.45
+      },
+    "*-elderberry": {
+        "translation": { "x": -0.125, "y": -0.5, "z": 0.05 },
+        "rotation": { "x": 0, "y": 0, "z": 120 },
+        "scale": 0.5
+      },
+      "*-dogrose": {
+        "translation": { "x": 0, "y": -0.29, "z": 0.0 },
+        "scale": 0.45
+      },
+    "*-cloudberry": {
+        "translation": { "x": 0.05, "y": -0.2, "z": 0 },
+        "rotation": { "x": -90, "y": -90, "z": -90 },
+        "scale": 0.55
+      },
+   "*-brambleberry": {
+        "translation": { "x": 0.025, "y": -0.475, "z": 0.25 },
+        "rotation": { "x": 90, "y": 0, "z": 0 },
+        "scale": 0.5
+      },
+    "@*-(huckleberry|snowberry)": {
+        "translation": { "x": -0.2, "y": -0.425, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": 90 },
+        "scale": 0.55
+      },
+    },
+  }
+]

@@ -3,7 +3,7 @@
 	class: "TransLiquid",
 	matterState: "liquid",
 	variantgroups: [
-		{ code: "fruit", "loadFromProperties": "wildcraft:block/fruit" },
+		{ code: "fruit", "loadFromProperties": "wildcraftfruit:block/fruit" },
 	],
 	attributes: {
 		handbook: {
@@ -14,7 +14,7 @@
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,
-	        texture: { base: "wildcraft:block/food/pie/fill-{fruit}", "alpha":  140, overlays: ["expandedfoods:item/liquid/syrup"] },
+	        texture: { base: "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha":  140, overlays: ["expandedfoods:item/liquid/syrup"] },
 			allowSpill: true,
 			whenSpilled: {
 				action: "DropContents",
@@ -29,7 +29,7 @@
 		},
 		"distillationPropsbytype": {		
 			"*": {
-			"distilledStack": { "type": "item", "code": "wildcraft:spiritportion-{fruit}" },
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-{fruit}" },
 			"ratio": 0.1
 			}
 		},
@@ -49,7 +49,7 @@
     		transitionRatio: 1
   	}],
 	shape: { base: "game:item/liquid" },
-	"texture": { "base": "wildcraft:block/food/pie/fill-{fruit}", "alpha": 140, overlays: ["expandedfoods:item/liquid/syrup"] },
+	"texture": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha": 140, overlays: ["expandedfoods:item/liquid/syrup"] },
 	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:wildpotentwineportion-{fruit}", makefull: true } ] } } ] } ],
 	maxstacksize: 5000,
 	materialDensity: 200,

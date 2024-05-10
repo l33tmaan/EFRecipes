@@ -1,0 +1,127 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"fractureberry": "wildcraftfruit:items/fruit/fractureberry"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [ 0.0, 0.0, -1.0 ], 
+			"to": [ 0.0, 0.0, -1.0 ], 
+			"rotationOrigin": [ 0.0, 0.0, -1.0 ],
+			"faces": {
+				"north": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "Cube1",
+					"from": [ 7.0, 0.0, 8.0 ], 
+					"to": [ 9.0, 2.0, 10.5 ], 
+					"rotationOrigin": [ 7.0, 0.0, 8.0 ],
+					"faces": {
+						"north": { "texture": "#fractureberry", "uv": [ 0.0, 3.0, 2.0, 5.0 ] },
+						"east": { "texture": "#fractureberry", "uv": [ 0.5, 0.0, 3.0, 2.0 ] },
+						"south": { "texture": "#fractureberry", "uv": [ 0.0, 3.0, 2.0, 5.0 ] },
+						"west": { "texture": "#fractureberry", "uv": [ 0.0, 0.5, 2.5, 2.5 ] },
+						"up": { "texture": "#fractureberry", "uv": [ 0.0, 0.5, 2.5, 2.5 ], "rotation": 90 },
+						"down": { "texture": "#fractureberry", "uv": [ 0.5, 0.5, 3.0, 2.5 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "Cube3",
+							"from": [ 3.0, 0.0, 1.0 ], 
+							"to": [ 4.0, 1.0, 2.5 ], 
+							"rotationOrigin": [ 2.0, 0.0, 1.0 ],
+							"rotationX": 10.0,
+							"rotationY": -22.5,
+							"faces": {
+								"north": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+								"east": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 1.5, 1.0 ] },
+								"south": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+								"west": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 1.5, 1.0 ] },
+								"up": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 1.0, 1.5 ] },
+								"down": { "texture": "#fractureberry", "uv": [ 0.0, 0.0, 1.0, 1.5 ] }
+							}
+						},
+						{
+							"name": "Cube5",
+							"from": [ -1.0, 0.0, 3.0 ], 
+							"to": [ 0.5, 1.0, 4.0 ], 
+							"rotationOrigin": [ -1.0, 0.0, 3.0 ],
+							"rotationX": 45.0,
+							"rotationY": 22.5,
+							"faces": {
+								"north": { "texture": "#fractureberry", "uv": [ 1.5, 0.5, 3.0, 1.5 ] },
+								"east": { "texture": "#fractureberry", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+								"south": { "texture": "#fractureberry", "uv": [ 1.0, 0.5, 2.5, 1.5 ] },
+								"west": { "texture": "#fractureberry", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+								"up": { "texture": "#fractureberry", "uv": [ 1.0, 1.5, 2.5, 2.5 ] },
+								"down": { "texture": "#fractureberry", "uv": [ 0.5, 0.5, 2.0, 1.5 ] }
+							}
+						},
+						{
+							"name": "Cube6",
+							"from": [ 0.0, -0.3, -2.0 ], 
+							"to": [ 1.5, 1.2, 0.0 ], 
+							"rotationOrigin": [ 0.0, 0.0, -2.0 ],
+							"rotationY": -45.0,
+							"rotationZ": 22.5,
+							"faces": {
+								"north": { "texture": "#fractureberry", "uv": [ 0.5, 0.0, 2.0, 1.5 ] },
+								"east": { "texture": "#fractureberry", "uv": [ 0.5, 0.5, 2.5, 2.0 ] },
+								"south": { "texture": "#fractureberry", "uv": [ 1.5, 0.5, 3.0, 2.0 ] },
+								"west": { "texture": "#fractureberry", "uv": [ 1.0, 0.0, 3.0, 1.5 ] },
+								"up": { "texture": "#fractureberry", "uv": [ 1.0, 0.5, 2.5, 2.5 ] },
+								"down": { "texture": "#fractureberry", "uv": [ 1.0, 0.0, 2.5, 2.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Cube2",
+					"from": [ 8.0, 0.0, 7.0 ], 
+					"to": [ 10.0, 2.0, 9.5 ], 
+					"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+					"rotationX": -22.5,
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#fractureberry", "uv": [ 0.0, 3.0, 2.0, 5.0 ] },
+						"east": { "texture": "#fractureberry", "uv": [ 0.5, 0.0, 3.0, 2.0 ] },
+						"south": { "texture": "#fractureberry", "uv": [ 0.0, 3.0, 2.0, 5.0 ] },
+						"west": { "texture": "#fractureberry", "uv": [ 0.0, 0.5, 2.5, 2.5 ] },
+						"up": { "texture": "#fractureberry", "uv": [ 0.0, 0.5, 2.5, 2.5 ], "rotation": 90 },
+						"down": { "texture": "#fractureberry", "uv": [ 0.5, 0.5, 3.0, 2.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Cube4",
+					"from": [ 4.5, 0.0, 9.0 ], 
+					"to": [ 6.0, 1.5, 11.0 ], 
+					"rotationOrigin": [ 5.0, 0.0, 9.0 ],
+					"rotationX": 7.0,
+					"rotationY": 45.0,
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#fractureberry", "uv": [ 0.0, 3.0, 1.5, 4.5 ] },
+						"east": { "texture": "#fractureberry", "uv": [ 0.5, 0.0, 2.5, 1.5 ] },
+						"south": { "texture": "#fractureberry", "uv": [ 0.0, 3.0, 1.5, 4.5 ] },
+						"west": { "texture": "#fractureberry", "uv": [ 0.0, 0.5, 2.0, 2.0 ] },
+						"up": { "texture": "#fractureberry", "uv": [ 0.0, 0.5, 2.0, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#fractureberry", "uv": [ 0.5, 0.5, 2.5, 2.0 ], "rotation": 90 }
+					}
+				}
+			]
+		}
+	]}
