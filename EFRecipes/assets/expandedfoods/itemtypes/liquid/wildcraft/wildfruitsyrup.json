@@ -5,6 +5,7 @@
 	variantgroups: [
 		{ code: "fruit", "loadFromProperties": "wildcraftfruit:block/fruit" },
 	],
+	skipVariants: ["*-almond","*-cocoa","*-commonhackberry","*-sugarhackberry", "*-hazelnut", "*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-lillypillyblue", "*-lillypillywhite", "*-beachalmondwhole", "*-chinaberry", "*-lemon"],
 	attributes: {
 		handbook: {
 			ignoreCreativeInvStacks: true
@@ -22,7 +23,15 @@
 				action: "DropContents",
 				stack: { type: "item", code: "expandedfoods:wildfruitsyrupportion-{fruit}" }
 			},
-			nutritionPropsPerLitre: { saturation: 800, "health": 1, foodcategory: "Fruit" },
+			"nutritionPropsPerLitreByType": {
+				"*-cloudberry": { satiety: 800, health: 5, foodcategory: "Fruit" },
+				"@*-(husktomato|juniper)": { satiety: 800, health: 3, foodcategory: "Fruit" },
+				"*-wolfberry": { satiety: 800, health: -10, foodcategory: "Fruit" },
+				"*-seamango": { satiety: 800, health: -16, foodcategory: "Fruit" },
+				"*-crowseye": { satiety: 800, health: -20, foodcategory: "Fruit" },
+				"@*-(coralbead|bitternightshade|falseorange|snowberry|pokeberry|spindle|blacknightshadeunripe)": { satiety: 800, health: 0, foodcategory: "Fruit" },
+				"*": { satiety: 800, health: 1, foodcategory: "Fruit" },
+			},
 		}
 	},
 	"shape": { "base": "game:item/liquid" },
