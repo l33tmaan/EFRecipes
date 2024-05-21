@@ -11,7 +11,21 @@
 			ignoreCreativeInvStacks: true
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMeal: { satiety: 120, health: 1, foodcategory: "Fruit" },
+		"nutritionPropsWhenInMealByType": {
+			"*-cloudberry": { satiety: 120, health: 5, foodcategory: "Fruit" },
+			"@*-(husktomato|juniper)": { satiety: 120, health: 3, foodcategory: "Fruit" },
+			"*-wolfberry": { satiety: 120, health: -10, foodcategory: "Fruit" },
+			"*-seamango": { satiety: 120, health: -16, foodcategory: "Fruit" },
+			"*-crowseye": { satiety: 120, health: -20, foodcategory: "Fruit" },
+			"@*-(coralbead|bitternightshade|falseorange|snowberry|pokeberry|spindle|blacknightshadeunripe)": { satiety: 120, health: 0, foodcategory: "Fruit" },
+			"*": { satiety: 120, health: 1, foodcategory: "Fruit" },
+		},
+		"inPiePropertiesByType": { 
+			"*": {
+				"texture": "wildcraftfruit:block/food/pie/fill-{fruit}",
+				"partType": "Filling"
+			}
+		},
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,

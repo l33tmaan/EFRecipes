@@ -19,6 +19,12 @@
 			"*-saguaro": { satiety: 120, health: 2, foodcategory: "Fruit" },
 			"*": { satiety: 120, health: 1, foodcategory: "Fruit" },
 		},
+		"inPiePropertiesByType": { 
+			"*": {
+				"texture": "game:block/food/pie/fill-{type}",
+				"partType": "Filling"
+			}
+		},
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,
