@@ -1,44 +1,38 @@
 [
   {
     "op": "add",
-    "path": "/attributes",
+    "path": "/attributes/juiceableProperties",
     "value": {
-      juiceableProperties: {
-			litresPerItem: 0.078125,
-			liquidStack: { type: "item", code: "expandedfoods:foodoilportion-seed", stacksize: 1 },
-			pressedStack: { type: "item", code: "game:pressedmash-seed", stacksize: 1 }
-		},
+      "litresPerItem": 0.078125,
+      "liquidStack": { "type": "item", "code": "expandedfoods:foodoilportion-seed", "stacksize": 1 },
+      "pressedStack": { "type": "item", "code": "game:pressedmash-seed", "stacksize": 1 }
     },
     "file": "wildcraft:itemtypes/resources/herbseeds.json",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraft" }]
+    "dependsOn": [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
-    "path": "/attributes",
+    "path": "/attributes/juiceableProperties",
     "value": {
-      juiceableProperties: {
-			litresPerItem: 0.078125,
-			liquidStack: { type: "item", code: "expandedfoods:foodoilportion-seed", stacksize: 1 },
-			pressedStack: { type: "item", code: "game:pressedmash-seed", stacksize: 1 }
-		},
+      "litresPerItem": 0.078125,
+      "liquidStack": { "type": "item", "code": "expandedfoods:foodoilportion-seed", "stacksize": 1 },
+      "pressedStack": { "type": "item", "code": "game:pressedmash-seed", "stacksize": 1 }
     },
     "file": "wildcraft:itemtypes/resources/seeds.json",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraft" }]
+    "dependsOn": [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
-    "path": "/attributes",
+    "path": "/attributes/juiceableProperties",
     "value": {
-      juiceableProperties: {
-			litresPerItem: 0.078125,
-			liquidStack: { type: "item", code: "expandedfoods:foodoilportion-seed", stacksize: 1 },
-			pressedStack: { type: "item", code: "game:pressedmash-seed", stacksize: 1 }
-		},
+      "litresPerItem": 0.078125,
+      "liquidStack": { "type": "item", "code": "expandedfoods:foodoilportion-seed", "stacksize": 1 },
+      "pressedStack": { "type": "item", "code": "game:pressedmash-seed", "stacksize": 1 }
     },
     "file": "wildcraft:itemtypes/resources/waterherbseeds.json",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
+    "dependsOn": [{ "modid": "wildcraft" }]
+  }
 ]
