@@ -15,9 +15,9 @@
 				"*-pomelo": 160,
 				"@*-(cloudberry|gardenstrawberry|knyazberry|pittedcherry)": 120,
 				"@*-(brambleberry|gooseberry|honeysuckle|raspberry|blueraspberry|quince|jujube|apricot|fig|ugni|guajava|redgrape|whitegrape|foxgrape|numnum|naranjilla|pittedapticot|pittedbreadfruit|strawberry|roseapple|munthari|pittedbeachalmond|lillypillypink|lillypillywhite|lillypillyblue|achacha|cocoa|lemon)": 105,
-				"@*-(wolfberry|bitternightshade|husktomato|huckleberry|hawthorn|purpleplum|cherryplum|citron|feijoa|sallowthorn|kumquat|lingonberry|loquat|turkscap|rowanberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|pittedchinaberry|jujube|blacknightshadeunripe|chinaberry)": 80,
+				"@*-(wolfberry|bitternightshade|husktomato|huckleberry|hawthorn|purpleplum|cherryplum|citron|feijoa|sallowthorn|kumquat|lingonberry|loquat|turkscap|rowanberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|pittedchinaberry|jujube|blacknightshadeunripe|chinaberry|kakaha)": 80,
 				"@*-(spindle|crowseye|snowberry|pokeberry|juniper|coralbead|bunchberry|crowberry|dogrose|elderberry|beautyberry|falsestrawberry|sumac|fractureberry|virgingrape|silvernettle|pandanbits|seamango)": 55,
-				"@*-(bunchberry|crowberry|dogrose|elderberry|beautyberry|falsestrawberry|sumac|fractureberry|virgingrape|silvernettle|pandanbits|bluetongue|rubysaltbush|pineheath|beachalmondwhole|illawarra|honeypots|cheeseberry|creepingpine)": 60,
+				"@*-(bunchberry|crowberry|dogrose|elderberry|beautyberry|falsestrawberry|sumac|fractureberry|virgingrape|silvernettle|pandanbits|bluetongue|rubysaltbush|pineheath|beachalmondwhole|illawarra|honeypots|cheeseberry|creepingpine|pilo|mingimingi)": 60,
 				"*-falseorange": 90,
 				"*": 80,
 			},
@@ -127,8 +127,8 @@
 		"*-rowanberry": { satiety: 50, health: -0.5, foodcategory: "Fruit" },
 		"*-chinaberry": { satiety: 50, health: -18, foodcategory: "Fruit" },
 		"*-pittedchinaberry": { satiety: 50, health: -1, foodcategory: "Fruit" },
-		"@*-(huckleberry|hawthorn|purpleplum|cherryplum|citron|feijoa|sallowthorn|kumquat|turkscap|loquat|lingonberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|jujube)": { "satiety": 50, "foodcategory": "Fruit" },
-		"@*-(bunchberry|crowberry|sumac|fractureberry|virgingrape|falsestrawberry|silvernettle|pandanbits|illawarra|rubysaltbush|pineheath|beachalmondwhole|honeypots|creepingpine|cheeseberry)": { satiety: 35, foodcategory: "Fruit" },
+		"@*-(huckleberry|hawthorn|purpleplum|cherryplum|citron|feijoa|sallowthorn|kumquat|turkscap|loquat|lingonberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|jujube|kakaha)": { "satiety": 50, "foodcategory": "Fruit" },
+		"@*-(bunchberry|crowberry|sumac|fractureberry|virgingrape|falsestrawberry|silvernettle|pandanbits|illawarra|rubysaltbush|pineheath|beachalmondwhole|honeypots|creepingpine|cheeseberry|pilo|mingimingi)": { satiety: 35, foodcategory: "Fruit" },
 		"@*-(dogrose|beautyberry|bluetongue)": { satiety: 25, foodcategory: "Fruit" },
 		"*": { satiety: 70, foodcategory: "Fruit" }
 	},
@@ -221,7 +221,7 @@
 				transitionRatio: 1
 			}
 		],
-		"@*-(wolfberry|huckleberry|fig|sallowthorn|loquat|ugni|redgrape|whitegrape|foxgrape|crowseye|numnum|falsestrawberry|silvernettle|engkala|bluetongue|pittedbeachalmond|beachalmondwhole|creepingpine)": [
+		"@*-(wolfberry|huckleberry|fig|sallowthorn|loquat|ugni|redgrape|whitegrape|foxgrape|crowseye|numnum|falsestrawberry|silvernettle|engkala|bluetongue|pittedbeachalmond|beachalmondwhole|creepingpine|pilo|mingimingi|kakaha)": [
 			{
 				type: "Perish",
 				freshHours: { avg: 96 },
@@ -272,6 +272,18 @@
 			rotation: { x: 143, y: 30, z: 6 },
 			origin: { x: 0.46, y: 0.04, z: 0.55 },
 			scale: 2.4
+		},
+		"@*-(pilo|mingimingi)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 136, y: 128, z: 4 },
+			origin: { x: 0.2, y: -0.26, z: 0.25 },
+			scale: 3.04
+		},
+		"*-kakaha": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 117, y: -4, z: -8 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.66
 		},
 		"@*-(almond|commonhackberry|sugarhackberry|hazelnut|lillypillypink|lillypillyblue|lillypillywhite)": {
 			"rotation": { "x": 147, "y": 3, "z": -15 },
@@ -496,6 +508,18 @@
 			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
 			"scale": 0.38
 		},
+		"@*-(pilo|mingimingi)": {
+			"translation": { "x": -0.08, "y": 0.3, "z": -0.37 },
+			"rotation": { "x": -4, "y": 22, "z": -100 },
+			"origin": { "x": -0.1, "y": 0.1, "z": 0.3 },
+			"scale": 0.42
+		},
+		"*-kakaha": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 119, "y": 85, "z": -72 },
+			"origin": { "x": 0.15, "y": -0.05, "z": -0.2 },
+			"scale": 0.56
+		},
 		"*": {
 			"translation":  { "x": -1.15, "y":  -1.7, "z": -1.1},
             rotation: { x: -180, y: -62, z: 7 },
@@ -526,9 +550,9 @@
 		}
 	},
 	heldTpIdleAnimationByType: {
-		"@*-(brambleberry|raspberry|blueraspberry|crowberry|lingonberry|strawberry|falsestrawberry|husktomato|cherryplum|juniper|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|gardenstrawberry|illawarra|pittedbeachalmond|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush)": "holdbothhands"
+		"@*-(brambleberry|raspberry|blueraspberry|crowberry|lingonberry|strawberry|falsestrawberry|husktomato|cherryplum|juniper|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|gardenstrawberry|illawarra|pittedbeachalmond|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush|pilo|mingimingi)": "holdbothhands"
 	},
 	"heldRightReadyAnimationByType": {
-		"@*-(brambleberry|raspberry|blueraspberry|crowberry|lingonberry|strawberry|falsestrawberry|husktomato|cherryplum|juniper|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|gardenstrawberry|illawarra|pittedbeachalmond|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush)": "holdbothhands"
+		"@*-(brambleberry|raspberry|blueraspberry|crowberry|lingonberry|strawberry|falsestrawberry|husktomato|cherryplum|juniper|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|gardenstrawberry|illawarra|pittedbeachalmond|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush|pilo|mingimingi)": "holdbothhands"
         }
 }
