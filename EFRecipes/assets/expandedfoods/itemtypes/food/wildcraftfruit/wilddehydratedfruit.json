@@ -322,11 +322,17 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 2.5
 		},
-		"@*-(elderberry|lemonaspen)": {
+		"*-elderberry": {
 			"translation":  { "x": 3, "y": 0, "z": 0},
 			rotation: { x: 143, y: 30, z: -3 },
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 3
+		},
+		"*-lemonaspen": {
+			"translation":  { "x": 3, "y": 3, "z": 0},
+			rotation: { x: 123, y: 30, z: -3 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.5
 		},
 		"@*-(dogrose|gooseberry)": {
 			"translation":  { "x": 3, "y": 0, "z": 0},

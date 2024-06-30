@@ -1,0 +1,130 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"illawarrasyrup": [8,8],
+		"illawarra": [16,16]
+	},
+	"textures": {
+		"illawarrasyrup": "game:item/gelatin/illawarra",
+		"illawarra": "wildcraftfruit:items/fruit/illawarra"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [ 0.0, 0.25, 0.0 ], 
+			"to": [ 0.0, 0.25, 0.0 ], 
+			"rotationOrigin": [ 0.0, 0.25, 0.0 ],
+			"faces": {
+				"north": { "texture": "#illawarra", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"east": { "texture": "#illawarra", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"south": { "texture": "#illawarra", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"west": { "texture": "#illawarra", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"up": { "texture": "#illawarra", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"down": { "texture": "#illawarra", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 3.87, -0.0534, 8.95 ], 
+					"to": [ 6.37, 2.4466, 11.95 ], 
+					"rotationOrigin": [ 4.1208, 0.1966, 8.9533 ],
+					"rotationX": 5.0,
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#illawarra", "uv": [ 0.0, 7.0, 5.0, 12.0 ], "rotation": 270, "autoUv": false },
+						"east": { "texture": "#illawarra", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#illawarra", "uv": [ 0.0, 7.0, 5.0, 12.0 ], "autoUv": false },
+						"west": { "texture": "#illawarra", "uv": [ 0.0, 0.0, 5.0, 6.0 ], "rotation": 270, "autoUv": false },
+						"up": { "texture": "#illawarra", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "autoUv": false },
+						"down": { "texture": "#illawarra", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Cube1",
+							"from": [ -0.25, -0.25, -0.25 ], 
+							"to": [ 2.75, 2.75, 3.25 ], 
+							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
+							"faces": {
+								"north": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"east": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"south": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"west": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"up": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"down": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Cube4",
+					"from": [ 9.27, 0.0, 8.11 ], 
+					"to": [ 11.77, 2.5, 11.11 ], 
+					"rotationOrigin": [ 9.5225, 0.0, 8.1104 ],
+					"rotationY": -22.5,
+					"rotationZ": -3.0,
+					"faces": {
+						"north": { "texture": "#illawarra", "uv": [ 0.0, 7.0, 5.0, 12.0 ], "rotation": 180, "autoUv": false },
+						"east": { "texture": "#illawarra", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#illawarra", "uv": [ 0.0, 7.0, 5.0, 12.0 ], "autoUv": false },
+						"west": { "texture": "#illawarra", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "rotation": 90, "autoUv": false },
+						"up": { "texture": "#illawarra", "uv": [ 0.0, 0.0, 5.0, 6.0 ], "autoUv": false },
+						"down": { "texture": "#illawarra", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Cube7",
+							"from": [ -0.25, -0.25, -0.25 ], 
+							"to": [ 2.75, 2.75, 3.25 ], 
+							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
+							"faces": {
+								"north": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"east": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"south": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"west": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"up": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"down": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Cube6",
+					"from": [ 6.15, 2.0, 6.0 ], 
+					"to": [ 8.65, 4.5, 9.0 ], 
+					"rotationOrigin": [ 6.3974, 2.25, 6.0021 ],
+					"rotationX": 2.0,
+					"rotationY": 112.5,
+					"rotationZ": -180.0,
+					"faces": {
+						"north": { "texture": "#illawarra", "uv": [ 0.0, 7.0, 5.0, 12.0 ], "rotation": 180, "autoUv": false },
+						"east": { "texture": "#illawarra", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#illawarra", "uv": [ 0.0, 7.0, 5.0, 12.0 ], "autoUv": false },
+						"west": { "texture": "#illawarra", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "rotation": 90, "autoUv": false },
+						"up": { "texture": "#illawarra", "uv": [ 0.0, 0.0, 5.0, 6.0 ], "autoUv": false },
+						"down": { "texture": "#illawarra", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Cube8",
+							"from": [ -0.25, -0.25, -0.25 ], 
+							"to": [ 2.75, 2.75, 3.25 ], 
+							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
+							"faces": {
+								"north": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"east": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"south": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"west": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"up": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+								"down": { "texture": "#illawarrasyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}
