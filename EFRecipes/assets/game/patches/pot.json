@@ -1718,115 +1718,83 @@
     side: "server",
     "file": "blocktypes/clay/pot.json"
   },
+
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-huckleberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-achacha",
     "value": [
       "topping",
-      "gelatinhuckleberry"
+      "gelatinachacha"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-snowberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-apricot",
     "value": [
       "topping",
-      "gelatinsnowberry"
+      "gelatinapricot"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-brambleberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-beachalmond",
     "value": [
       "topping",
-      "gelatinbrambleberry"
+      "gelatinbeachalmond"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-cloudberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-beautyberry",
     "value": [
       "topping",
-      "gelatincloudberry"
+      "gelatinbeautyberry"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-dogrose",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-bitternightshade",
     "value": [
       "topping",
-      "gelatindogrose"
+      "gelatinbitternightshade"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-elderberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-blacknightshade",
     "value": [
       "topping",
-      "gelatinelderberry"
+      "gelatinblacknightshade"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-gooseberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-blacknightshadeunripe",
     "value": [
       "topping",
-      "gelatingooseberry"
+      "gelatinblacknightshadeunripe"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-honeysuckle",
-    "value": [
-      "topping",
-      "gelatinhoneysuckle"
-    ],
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-strawberry",
-    "value": [
-      "topping",
-      "gelatinstrawberry"
-    ],
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-raspberry",
-    "value": [
-      "topping",
-      "gelatinraspberry"
-    ],
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -1837,7 +1805,29 @@
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-bluetongue",
+    "value": [
+      "topping",
+      "gelatinbluetongue"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-brambleberry",
+    "value": [
+      "topping",
+      "gelatinbrambleberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -1848,7 +1838,117 @@
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-bushlawyer",
+    "value": [
+      "topping",
+      "gelatinbushlawyer"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-cashewapple",
+    "value": [
+      "topping",
+      "gelatincashewapple"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-cheeseberry",
+    "value": [
+      "topping",
+      "gelatincheeseberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-cherryplum",
+    "value": [
+      "topping",
+      "gelatincherryplum"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-chinaberry",
+    "value": [
+      "topping",
+      "gelatinchinaberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-citron",
+    "value": [
+      "topping",
+      "gelatincitron"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-cloudberry",
+    "value": [
+      "topping",
+      "gelatincloudberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-cocoa",
+    "value": [
+      "topping",
+      "gelatincocoa"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-coralbead",
+    "value": [
+      "topping",
+      "gelatincoralbead"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-creepingpine",
+    "value": [
+      "topping",
+      "gelatincreepingpine"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -1859,7 +1959,216 @@
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-crowseye",
+    "value": [
+      "topping",
+      "gelatincrowseye"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-dogrose",
+    "value": [
+      "topping",
+      "gelatindogrose"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-elderberry",
+    "value": [
+      "topping",
+      "gelatinelderberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-engkala",
+    "value": [
+      "topping",
+      "gelatinengkala"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-falseorange",
+    "value": [
+      "topping",
+      "gelatinfalseorange"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-falsestrawberry",
+    "value": [
+      "topping",
+      "gelatinfalsestrawberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-feijoa",
+    "value": [
+      "topping",
+      "gelatinfeijoa"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-fig",
+    "value": [
+      "topping",
+      "gelatinfig"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-fingerlime",
+    "value": [
+      "topping",
+      "gelatinfingerlime"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-flaxlily",
+    "value": [
+      "topping",
+      "gelatinflaxlily"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-foxgrape",
+    "value": [
+      "topping",
+      "gelatinfoxgrape"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-fractureberry",
+    "value": [
+      "topping",
+      "gelatinfractureberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-gardenstrawberry",
+    "value": [
+      "topping",
+      "gelatingardenstrawberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-gooseberry",
+    "value": [
+      "topping",
+      "gelatingooseberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-guajava",
+    "value": [
+      "topping",
+      "gelatinguajava"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-hawthorn",
+    "value": [
+      "topping",
+      "gelatinhawthorn"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-honeypots",
+    "value": [
+      "topping",
+      "gelatinhoneypots"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-honeysuckle",
+    "value": [
+      "topping",
+      "gelatinhoneysuckle"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-huckleberry",
+    "value": [
+      "topping",
+      "gelatinhuckleberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -1870,7 +2179,458 @@
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-illawarra",
+    "value": [
+      "topping",
+      "gelatinillawarra"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-jujube",
+    "value": [
+      "topping",
+      "gelatinjujube"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-juniper",
+    "value": [
+      "topping",
+      "gelatinjuniper"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-kakaha",
+    "value": [
+      "topping",
+      "gelatinkakaha"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-kawakawa",
+    "value": [
+      "topping",
+      "gelatinkawakawa"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-knyazberry",
+    "value": [
+      "topping",
+      "gelatinknyazberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-kumquat",
+    "value": [
+      "topping",
+      "gelatinkumquat"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-lemonaspen",
+    "value": [
+      "topping",
+      "gelatinlemonaspen"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-lillypillypink",
+    "value": [
+      "topping",
+      "gelatinlillypillypink"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-lingonberry",
+    "value": [
+      "topping",
+      "gelatinlingonberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-loquat",
+    "value": [
+      "topping",
+      "gelatinloquat"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-midyimberry",
+    "value": [
+      "topping",
+      "gelatinmidyimberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-mingimingi",
+    "value": [
+      "topping",
+      "gelatinmingimingi"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-munthari",
+    "value": [
+      "topping",
+      "gelatinmunthari"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-naranjilla",
+    "value": [
+      "topping",
+      "gelatinnaranjilla"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-numnum",
+    "value": [
+      "topping",
+      "gelatinnumnum"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pandanbits",
+    "value": [
+      "topping",
+      "gelatinpandanbits"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pilo",
+    "value": [
+      "topping",
+      "gelatinpilo"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pineheath",
+    "value": [
+      "topping",
+      "gelatinpineheath"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pokeberry",
+    "value": [
+      "topping",
+      "gelatinpokeberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pomelo",
+    "value": [
+      "topping",
+      "gelatinpomelo"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pricklyheath",
+    "value": [
+      "topping",
+      "gelatinpricklyheath"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-purpleplum",
+    "value": [
+      "topping",
+      "gelatinpurpleplum"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-quince",
+    "value": [
+      "topping",
+      "gelatinquince"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-raspberry",
+    "value": [
+      "topping",
+      "gelatinraspberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-redgrape",
+    "value": [
+      "topping",
+      "gelatinredgrape"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-redquandong",
+    "value": [
+      "topping",
+      "gelatinredquandong"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-roseapple",
+    "value": [
+      "topping",
+      "gelatinroseapple"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-rowanberry",
+    "value": [
+      "topping",
+      "gelatinrowanberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-rubysaltbush",
+    "value": [
+      "topping",
+      "gelatinrubysaltbush"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-sallowthorn",
+    "value": [
+      "topping",
+      "gelatinsallowthorn"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-seamango",
+    "value": [
+      "topping",
+      "gelatinseamango"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-silvernettle",
+    "value": [
+      "topping",
+      "gelatinsilvernettle"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-snowberry",
+    "value": [
+      "topping",
+      "gelatinsnowberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-spindle",
+    "value": [
+      "topping",
+      "gelatinspindle"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-strawberry",
+    "value": [
+      "topping",
+      "gelatinstrawberry"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-sumac",
+    "value": [
+      "topping",
+      "gelatinsumac"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-turkscap",
+    "value": [
+      "topping",
+      "gelatinturkscap"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-ugni",
+    "value": [
+      "topping",
+      "gelatinugni"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-virgingrape",
+    "value": [
+      "topping",
+      "gelatinvirgingrape"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-whitegrape",
+    "value": [
+      "topping",
+      "gelatinwhiyrgrape"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -1881,7 +2641,7 @@
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -1985,106 +2745,6 @@
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/gelatinhuckleberry",
-    "value": {
-      "base": "item/gelatin/huckleberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/gelatinsnowberry",
-    "value": {
-      "base": "item/gelatin/snowberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/gelatinbrambleberry",
-    "value": {
-      "base": "item/gelatin/brambleberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/gelatincloudberry",
-    "value": {
-      "base": "item/gelatin/cloudberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/gelatindogrose",
-    "value": {
-      "base": "item/gelatin/dogrose"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/gelatinelderberry",
-    "value": {
-      "base": "item/gelatin/elderberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/gelatingooseberry",
-    "value": {
-      "base": "item/gelatin/gooseberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/gelatinhoneysuckle",
-    "value": {
-      "base": "item/gelatin/honeysuckle"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/gelatinstrawberry",
-    "value": {
-      "base": "item/gelatin/strawberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/gelatinraspberry",
-    "value": {
-      "base": "item/gelatin/raspberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
     "path": "/texturesByType/*/gelatinpineapple",
     "value": {
       "base": "item/gelatin/pineapple"
@@ -2173,6 +2833,87 @@
     side: "server",
     "file": "blocktypes/clay/pot.json",
   },
+  
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinachacha",
+    "value": {
+      "base": "item/gelatin/achacha"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinapricot",
+    "value": {
+      "base": "item/gelatin/apricot"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinbeachalmond",
+    "value": {
+      "base": "item/gelatin/beachalmond"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinbeautyberry",
+    "value": {
+      "base": "item/gelatin/beautyberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinbitternightshade",
+    "value": {
+      "base": "item/gelatin/bitternightshade"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinblacknightshade",
+    "value": {
+      "base": "item/gelatin/blacknightshade"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinblacknightshadeunripe",
+    "value": {
+      "base": "item/gelatin/blacknightshadeunripe"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinbluequandong",
+    "value": {
+      "base": "item/gelatin/bluequandong"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
   {
     "op": "add",
     "path": "/texturesByType/*/gelatinblueraspberry",
@@ -2181,6 +2922,27 @@
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinbluetongue",
+    "value": {
+      "base": "item/gelatin/bluetongue"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinbrambleberry",
+    "value": {
+      "base": "item/gelatin/brambleberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2190,6 +2952,107 @@
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinbushlawyer",
+    "value": {
+      "base": "item/gelatin/bushlawyer"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincashewapple",
+    "value": {
+      "base": "item/gelatin/cashewapple"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincheeseberry",
+    "value": {
+      "base": "item/gelatin/cheeseberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincherryplum",
+    "value": {
+      "base": "item/gelatin/cherryplum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinchinaberry",
+    "value": {
+      "base": "item/gelatin/chinaberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincitron",
+    "value": {
+      "base": "item/gelatin/citron"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincloudberry",
+    "value": {
+      "base": "item/gelatin/cloudberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincocoa",
+    "value": {
+      "base": "item/gelatin/cocoa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincoralbead",
+    "value": {
+      "base": "item/gelatin/coralbead"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincreepingpine",
+    "value": {
+      "base": "item/gelatin/creepingpine"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2199,6 +3062,197 @@
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincrowseye",
+    "value": {
+      "base": "item/gelatin/crowseye"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatindogrose",
+    "value": {
+      "base": "item/gelatin/dogrose"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinelderberry",
+    "value": {
+      "base": "item/gelatin/elderberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinengkala",
+    "value": {
+      "base": "item/gelatin/engkala"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinfalseorange",
+    "value": {
+      "base": "item/gelatin/falseorange"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinfalsestrawberry",
+    "value": {
+      "base": "item/gelatin/falsestrawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinfeijoa",
+    "value": {
+      "base": "item/gelatin/feijoa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinfig",
+    "value": {
+      "base": "item/gelatin/fig"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinfingerlime",
+    "value": {
+      "base": "item/gelatin/fingerlime"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinflaxlily",
+    "value": {
+      "base": "item/gelatin/flaxlily"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinfoxgrape",
+    "value": {
+      "base": "item/gelatin/foxgrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinfractureberry",
+    "value": {
+      "base": "item/gelatin/fractureberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatingardenstrawberry",
+    "value": {
+      "base": "item/gelatin/gardenstrawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatingooseberry",
+    "value": {
+      "base": "item/gelatin/gooseberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinguajava",
+    "value": {
+      "base": "item/gelatin/guajava"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinhawthorn",
+    "value": {
+      "base": "item/gelatin/hawthorn"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinhoneypots",
+    "value": {
+      "base": "item/gelatin/honeypots"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinhoneysuckle",
+    "value": {
+      "base": "item/gelatin/honeysuckle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinhuckleberry",
+    "value": {
+      "base": "item/gelatin/huckleberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2208,6 +3262,417 @@
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinillawarra",
+    "value": {
+      "base": "item/gelatin/illawarra"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinjujube",
+    "value": {
+      "base": "item/gelatin/jujube"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinjuniper",
+    "value": {
+      "base": "item/gelatin/juniper"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinkakaha",
+    "value": {
+      "base": "item/gelatin/kakaha"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinkawakawa",
+    "value": {
+      "base": "item/gelatin/kawakawa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinknyazberry",
+    "value": {
+      "base": "item/gelatin/knyazberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinkumquat",
+    "value": {
+      "base": "item/gelatin/kumquat"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinlemonaspen",
+    "value": {
+      "base": "item/gelatin/lemonaspen"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinlillypillypink",
+    "value": {
+      "base": "item/gelatin/lillypillypink"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinlingonberry",
+    "value": {
+      "base": "item/gelatin/lingonberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinloquat",
+    "value": {
+      "base": "item/gelatin/loquat"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinmidyimberry",
+    "value": {
+      "base": "item/gelatin/midyimberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinminigmingi",
+    "value": {
+      "base": "item/gelatin/mingimingi"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinmunthari",
+    "value": {
+      "base": "item/gelatin/munthari"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinnaranjilla",
+    "value": {
+      "base": "item/gelatin/naranjilla"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinnumnum",
+    "value": {
+      "base": "item/gelatin/numnum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpandanbits",
+    "value": {
+      "base": "item/gelatin/pandanbits"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpilo",
+    "value": {
+      "base": "item/gelatin/pilo"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpineheath",
+    "value": {
+      "base": "item/gelatin/pineheath"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpokeberry",
+    "value": {
+      "base": "item/gelatin/pokeberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpomelo",
+    "value": {
+      "base": "item/gelatin/pomelo"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpricklyheath",
+    "value": {
+      "base": "item/gelatin/pricklyheath"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpurpleplum",
+    "value": {
+      "base": "item/gelatin/purpleplum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinquince",
+    "value": {
+      "base": "item/gelatin/quince"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinraspberry",
+    "value": {
+      "base": "item/gelatin/raspberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinredgrape",
+    "value": {
+      "base": "item/gelatin/redgrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinredquandong",
+    "value": {
+      "base": "item/gelatin/redquandong"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinroseapple",
+    "value": {
+      "base": "item/gelatin/roseapple"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinrowanberry",
+    "value": {
+      "base": "item/gelatin/rowanberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinrubysaltbush",
+    "value": {
+      "base": "item/gelatin/rubysaltbush"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinsallowthorn",
+    "value": {
+      "base": "item/gelatin/sallowthorn"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinseamango",
+    "value": {
+      "base": "item/gelatin/seamango"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinsilvernettle",
+    "value": {
+      "base": "item/gelatin/silvernettle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinsnowberry",
+    "value": {
+      "base": "item/gelatin/snowberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinspindle",
+    "value": {
+      "base": "item/gelatin/spindle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinstrawberry",
+    "value": {
+      "base": "item/gelatin/strawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinsumac",
+    "value": {
+      "base": "item/gelatin/sumac"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinturkscap",
+    "value": {
+      "base": "item/gelatin/turkscap"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinugni",
+    "value": {
+      "base": "item/gelatin/ugni"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinvirgingrape",
+    "value": {
+      "base": "item/gelatin/virgingrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinwhitegrape",
+    "value": {
+      "base": "item/gelatin/whtiegrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2217,6 +3682,7 @@
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2438,105 +3904,86 @@
     side: "server",
     "file": "blocktypes/clay/pot.json"
   },
+
   {
     "op": "add",
-    "path": "/texturesByType/*/yogurthuckleberry",
+    "path": "/texturesByType/*/yogurtachacha",
     "value": {
-      "base": "item/liquid/yogurt/huckleberry"
+      "base": "item/liquid/yogurt/achacha"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/yogurtbrambleberry",
+    "path": "/texturesByType/*/yogurtapricot",
     "value": {
-      "base": "item/liquid/yogurt/brambleberry"
+      "base": "item/liquid/yogurt/apricot"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/yogurtdogrose",
+    "path": "/texturesByType/*/yogurtbeachalmond",
     "value": {
-      "base": "item/liquid/yogurt/dogrose"
+      "base": "item/liquid/yogurt/beachalmond"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/yogurtgooseberry",
+    "path": "/texturesByType/*/yogurtbeautyberry",
     "value": {
-      "base": "item/liquid/yogurt/gooseberry"
+      "base": "item/liquid/yogurt/beautyberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/yogurthoneysuckle",
+    "path": "/texturesByType/*/yogurtbitternightshade",
     "value": {
-      "base": "item/liquid/yogurt/honeysuckle"
+      "base": "item/liquid/yogurt/bitternightshade"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/yogurtsnowberry",
+    "path": "/texturesByType/*/yogurtblacknightshade",
     "value": {
-      "base": "item/liquid/yogurt/snowberry"
+      "base": "item/liquid/yogurt/blacknightshade"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/yogurtelderberry",
+    "path": "/texturesByType/*/yogurtblacknightshadeunripe",
     "value": {
-      "base": "item/liquid/yogurt/elderberry"
+      "base": "item/liquid/yogurt/blacknightshadeunripe"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/yogurtstrawberry",
+    "path": "/texturesByType/*/yogurtbluequandong",
     "value": {
-      "base": "item/liquid/yogurt/strawberry"
+      "base": "item/liquid/yogurt/bluequandong"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/yogurtcloudberry",
-    "value": {
-      "base": "item/liquid/yogurt/cloudberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/yogurtraspberry",
-    "value": {
-      "base": "item/liquid/yogurt/raspberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2546,7 +3993,27 @@
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtbluetongue",
+    "value": {
+      "base": "item/liquid/yogurt/bluetongue"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtbrambleberry",
+    "value": {
+      "base": "item/liquid/yogurt/brambleberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2556,7 +4023,107 @@
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtbushlawyer",
+    "value": {
+      "base": "item/liquid/yogurt/bushlawyer"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcashewapple",
+    "value": {
+      "base": "item/liquid/yogurt/cashewapple"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcheeseberry",
+    "value": {
+      "base": "item/liquid/yogurt/cheeseberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcherryplum",
+    "value": {
+      "base": "item/liquid/yogurt/cherryplum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtchinaberry",
+    "value": {
+      "base": "item/liquid/yogurt/chinaberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcitron",
+    "value": {
+      "base": "item/liquid/yogurt/citron"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcloudberry",
+    "value": {
+      "base": "item/liquid/yogurt/cloudberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcocoa",
+    "value": {
+      "base": "item/liquid/yogurt/cocoa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcoralbead",
+    "value": {
+      "base": "item/liquid/yogurt/coralbead"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcreepingpine",
+    "value": {
+      "base": "item/liquid/yogurt/creepingpine"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2566,7 +4133,197 @@
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcrowseye",
+    "value": {
+      "base": "item/liquid/yogurt/crowseye"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtdogrose",
+    "value": {
+      "base": "item/liquid/yogurt/dogrose"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtelderberry",
+    "value": {
+      "base": "item/liquid/yogurt/elderberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtengkala",
+    "value": {
+      "base": "item/liquid/yogurt/engkala"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtfalseorange",
+    "value": {
+      "base": "item/liquid/yogurt/falseorange"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtfalsestrawberry",
+    "value": {
+      "base": "item/liquid/yogurt/falsestrawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtfeijoa",
+    "value": {
+      "base": "item/liquid/yogurt/feijoa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtfig",
+    "value": {
+      "base": "item/liquid/yogurt/fig"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtfingerlime",
+    "value": {
+      "base": "item/liquid/yogurt/fingerlime"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtflaxlily",
+    "value": {
+      "base": "item/liquid/yogurt/flaxlily"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtfoxgrape",
+    "value": {
+      "base": "item/liquid/yogurt/foxgrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtfractureberry",
+    "value": {
+      "base": "item/liquid/yogurt/fractureberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtgardenstrawberry",
+    "value": {
+      "base": "item/liquid/yogurt/gardenstrawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtgooseberry",
+    "value": {
+      "base": "item/liquid/yogurt/gooseberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtguajava",
+    "value": {
+      "base": "item/liquid/yogurt/guajava"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurthawthorn",
+    "value": {
+      "base": "item/liquid/yogurt/hawthorn"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurthoneypots",
+    "value": {
+      "base": "item/liquid/yogurt/honeypots"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurthoneysuckle",
+    "value": {
+      "base": "item/liquid/yogurt/honeysuckle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurthuckleberry",
+    "value": {
+      "base": "item/liquid/yogurt/huckleberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2576,7 +4333,417 @@
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtillawarra",
+    "value": {
+      "base": "item/liquid/yogurt/illawarra"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtjujube",
+    "value": {
+      "base": "item/liquid/yogurt/jujube"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtjuniper",
+    "value": {
+      "base": "item/liquid/yogurt/juniper"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtkakaha",
+    "value": {
+      "base": "item/liquid/yogurt/kakaha"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtkawakawa",
+    "value": {
+      "base": "item/liquid/yogurt/kawakawa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtknyazberry",
+    "value": {
+      "base": "item/liquid/yogurt/knyazberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtkumquat",
+    "value": {
+      "base": "item/liquid/yogurt/kumquat"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtlemonaspen",
+    "value": {
+      "base": "item/liquid/yogurt/lemonaspen"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtlillypillypink",
+    "value": {
+      "base": "item/liquid/yogurt/lillypillypink"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtlingonberry",
+    "value": {
+      "base": "item/liquid/yogurt/lingonberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtloquat",
+    "value": {
+      "base": "item/liquid/yogurt/loquat"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtmidyimberry",
+    "value": {
+      "base": "item/liquid/yogurt/midyimberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtmingimingi",
+    "value": {
+      "base": "item/liquid/yogurt/mingimingi"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtmunthari",
+    "value": {
+      "base": "item/liquid/yogurt/munthari"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtnaranjilla",
+    "value": {
+      "base": "item/liquid/yogurt/naranjilla"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtnumnum",
+    "value": {
+      "base": "item/liquid/yogurt/numnum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpandanbits",
+    "value": {
+      "base": "item/liquid/yogurt/pandanbits"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpilo",
+    "value": {
+      "base": "item/liquid/yogurt/pilo"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpineheath",
+    "value": {
+      "base": "item/liquid/yogurt/pineheath"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpokeberry",
+    "value": {
+      "base": "item/liquid/yogurt/pokeberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpomelo",
+    "value": {
+      "base": "item/liquid/yogurt/pomelo"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpricklyheath",
+    "value": {
+      "base": "item/liquid/yogurt/pricklyheath"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpurpleplum",
+    "value": {
+      "base": "item/liquid/yogurt/purpleplum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtquince",
+    "value": {
+      "base": "item/liquid/yogurt/quince"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtraspberry",
+    "value": {
+      "base": "item/liquid/yogurt/raspberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtredgrape",
+    "value": {
+      "base": "item/liquid/yogurt/redgrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtredquandong",
+    "value": {
+      "base": "item/liquid/yogurt/redquandong"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtroseapple",
+    "value": {
+      "base": "item/liquid/yogurt/roseapple"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtrowanberry",
+    "value": {
+      "base": "item/liquid/yogurt/rowanberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtrubysaltbush",
+    "value": {
+      "base": "item/liquid/yogurt/rubysaltbush"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtsallowthorn",
+    "value": {
+      "base": "item/liquid/yogurt/sallowthorn"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtseamango",
+    "value": {
+      "base": "item/liquid/yogurt/seamango"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtsilvernettle",
+    "value": {
+      "base": "item/liquid/yogurt/silvernettle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtsnowberry",
+    "value": {
+      "base": "item/liquid/yogurt/snowberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtspindle",
+    "value": {
+      "base": "item/liquid/yogurt/spindle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtstrawberry",
+    "value": {
+      "base": "item/liquid/yogurt/strawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtsumac",
+    "value": {
+      "base": "item/liquid/yogurt/sumac"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtturkscap",
+    "value": {
+      "base": "item/liquid/yogurt/turkscap"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtugni",
+    "value": {
+      "base": "item/liquid/yogurt/ugni"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtvirgingrape",
+    "value": {
+      "base": "item/liquid/yogurt/virgingrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtwhitegrape",
+    "value": {
+      "base": "item/liquid/yogurt/whitegrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2586,7 +4753,7 @@
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2625,215 +4792,174 @@
     side: "server",
     "file": "blocktypes/clay/pot.json"
     },
+  
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-huckleberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-achacha",
     "value": [
       "topping",
-      "huckleberrysyrup"
+      "achachasyrup"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/huckleberrysyrup",
+    "path": "/texturesByType/*/achachasyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-huckleberry"
+      "base": "wildcraftfruit:block/food/pie/fill-achacha"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-snowberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-apricot",
     "value": [
       "topping",
-      "snowberrysyrup"
+      "apricotsyrup"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/snowberrysyrup",
+    "path": "/texturesByType/*/apricotsyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-snowberry"
+      "base": "wildcraftfruit:block/food/pie/fill-apricot"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-brambleberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-beachalmond",
     "value": [
       "topping",
-      "brambleberrysyrup"
+      "beachalmondsyrup"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/brambleberrysyrup",
+    "path": "/texturesByType/*/beachalmondsyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-brambleberry"
+      "base": "wildcraftfruit:block/food/pie/fill-beachalmond"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-cloudberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-beautyberry",
     "value": [
       "topping",
-      "cloudberrysyrup"
+      "beautyberrysyrup"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/cloudberrysyrup",
+    "path": "/texturesByType/*/beautyberrysyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-cloudberry"
+      "base": "wildcraftfruit:block/food/pie/fill-beautyberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-dogrose",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-bitternightshade",
     "value": [
       "topping",
-      "dogrosesyrup"
+      "bitternightshadesyrup"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/dogrosesyrup",
+    "path": "/texturesByType/*/bitternightshadesyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-dogrose"
+      "base": "wildcraftfruit:block/food/pie/fill-bitternightshade"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-elderberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-blacknightshade",
     "value": [
       "topping",
-      "elderberrysyrup"
+      "blacknightshadesyrup"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/elderberrysyrup",
+    "path": "/texturesByType/*/blacknightshadesyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-elderberry"
+      "base": "wildcraftfruit:block/food/pie/fill-blacknightshade"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-gooseberry",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-blacknightshadeunripe",
     "value": [
       "topping",
-      "gooseberrysyrup"
+      "blacknightshadeunripesyrup"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/gooseberrysyrup",
+    "path": "/texturesByType/*/blacknightshadeunripesyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-gooseberry"
+      "base": "wildcraftfruit:block/food/pie/fill-blacknightshadeunripe"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-honeysuckle",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-bluequandong",
     "value": [
       "topping",
-      "honeysucklesyrup"
+      "bluequandongsyrup"
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/honeysucklesyrup",
+    "path": "/texturesByType/*/bluequandongsyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-honeysuckle"
+      "base": "wildcraftfruit:block/food/pie/fill-bluequandong"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-strawberry",
-    "value": [
-      "topping",
-      "strawberrysyrup"
-    ],
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/strawberrysyrup",
-    "value": {
-      "base": "wildcraft:block/food/pie/fill-strawberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-raspberry",
-    "value": [
-      "topping",
-      "raspberrysyrup"
-    ],
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/raspberrysyrup",
-    "value": {
-      "base": "wildcraft:block/food/pie/fill-raspberry"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2844,17 +4970,59 @@
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/blueraspberrysyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-blueraspberry"
+      "base": "wildcraftfruit:block/food/pie/fill-blueraspberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-bluetongue",
+    "value": [
+      "topping",
+      "bluetonguesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bluetonguesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bluetongue"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-brambleberry",
+    "value": [
+      "topping",
+      "brambleberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/brambleberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-brambleberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2865,17 +5033,227 @@
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/bunchberrysyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-bunchberry"
+      "base": "wildcraftfruit:block/food/pie/fill-bunchberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-bushlawyer",
+    "value": [
+      "topping",
+      "bushlawyersyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bushlawyersyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bushlawyer"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-cashewapple",
+    "value": [
+      "topping",
+      "cashewapplesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cashewapplesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cashewapple"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-cheeseberry",
+    "value": [
+      "topping",
+      "cheeseberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cheeseberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cheeseberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-cherryplum",
+    "value": [
+      "topping",
+      "cherryplumsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cherryplumsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cherryplum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-chinaberry",
+    "value": [
+      "topping",
+      "chinaberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/chinaberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-chinaberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-citron",
+    "value": [
+      "topping",
+      "citronsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/citronsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-citron"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-cloudberry",
+    "value": [
+      "topping",
+      "cloudberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cloudberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cloudberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-cocoa",
+    "value": [
+      "topping",
+      "cocoasyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cocoasyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cocoa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-coralbead",
+    "value": [
+      "topping",
+      "coralbeadsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/coralbeadsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-coralbead"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-creepingpine",
+    "value": [
+      "topping",
+      "creepingpinesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/creepingpinesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-creepingpine"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2886,17 +5264,416 @@
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/crowberrysyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-crowberry"
+      "base": "wildcraftfruit:block/food/pie/fill-crowberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-crowseye",
+    "value": [
+      "topping",
+      "crowseyesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/crowseyesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-crowseye"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-dogrose",
+    "value": [
+      "topping",
+      "dogrosesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/dogrosesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-dogrose"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-elderberry",
+    "value": [
+      "topping",
+      "elderberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/elderberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-elderberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-engkala",
+    "value": [
+      "topping",
+      "engkalasyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/engkalasyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-engkala"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-falseorange",
+    "value": [
+      "topping",
+      "falseorangesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/falseorangesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-falseorange"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-falsestrawberry",
+    "value": [
+      "topping",
+      "falsestrawberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/falsestrawberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-falsestrawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-feijoa",
+    "value": [
+      "topping",
+      "feijoasyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/feijoasyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-feijoa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-fig",
+    "value": [
+      "topping",
+      "figsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/figsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-fig"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-fingerlime",
+    "value": [
+      "topping",
+      "fingerlimesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/fingerlimesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-fingerlime"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-flaxlily",
+    "value": [
+      "topping",
+      "flaxlilysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/flaxlilysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-flaxlily"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-foxgrape",
+    "value": [
+      "topping",
+      "foxgrapesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/foxgrapesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-foxgrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-fractureberry",
+    "value": [
+      "topping",
+      "fractureberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/fractureberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-fractureberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-gardenstrawberry",
+    "value": [
+      "topping",
+      "gardenstrawberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gardenstrawberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-gardenstrawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-gooseberry",
+    "value": [
+      "topping",
+      "gooseberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gooseberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-gooseberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-guajava",
+    "value": [
+      "topping",
+      "guajavasyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/guajavasyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-guajava"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-hawthorn",
+    "value": [
+      "topping",
+      "hawthornsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/hawthornsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-hawthorn"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-honeypots",
+    "value": [
+      "topping",
+      "honeypotssyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/honeypotssyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-honeypots"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-honeysuckle",
+    "value": [
+      "topping",
+      "honeysucklesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/honeysucklesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-honeysuckle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-huckleberry",
+    "value": [
+      "topping",
+      "huckleberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/huckleberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-huckleberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2907,17 +5684,878 @@
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/husktomatosyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-husktomato"
+      "base": "wildcraftfruit:block/food/pie/fill-husktomato"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-illawarra",
+    "value": [
+      "topping",
+      "illawarrasyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/illawarrasyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-illawarra"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-jujube",
+    "value": [
+      "topping",
+      "jujubesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/jujubesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-jujube"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-juniper",
+    "value": [
+      "topping",
+      "junipersyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/junipersyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-juniper"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-kakaha",
+    "value": [
+      "topping",
+      "kakahasyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/kakahasyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kakaha"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-kawakawa",
+    "value": [
+      "topping",
+      "kawakawasyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/kawakawasyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kawakawa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-knyazberry",
+    "value": [
+      "topping",
+      "knyazberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/knyazberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-knyazberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-kumquat",
+    "value": [
+      "topping",
+      "kumquatsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/kumquatsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kumquat"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-lemonaspen",
+    "value": [
+      "topping",
+      "lemonaspensyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/lemonaspensyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-lemonaspen"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-lillypillypink",
+    "value": [
+      "topping",
+      "lillypillypinksyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/lillypillypinksyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-lillypillypink"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-lingonberry",
+    "value": [
+      "topping",
+      "lingonberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/lingonberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-lingonberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-loquat",
+    "value": [
+      "topping",
+      "loquatsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/loquatsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-loquat"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-midyimberry",
+    "value": [
+      "topping",
+      "midyimberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/midyimberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-midyimberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-mingimingi",
+    "value": [
+      "topping",
+      "mingimingisyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/mingimingisyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-mingimingi"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-munthari",
+    "value": [
+      "topping",
+      "muntharisyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/muntharisyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-munthari"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-naranjilla",
+    "value": [
+      "topping",
+      "naranjillasyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/naranjillasyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-naranjilla"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-numnum",
+    "value": [
+      "topping",
+      "numnumsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/numnumsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-numnum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-pandanbits",
+    "value": [
+      "topping",
+      "pandanbitssyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pandanbitssyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pandanbits"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-pilo",
+    "value": [
+      "topping",
+      "pilosyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pilosyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pilo"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-pineheath",
+    "value": [
+      "topping",
+      "pineheathsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pineheathsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pineheath"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-pokeberry",
+    "value": [
+      "topping",
+      "pokeberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pokeberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pokeberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-pomelo",
+    "value": [
+      "topping",
+      "pomelosyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pomelosyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pomelo"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-pricklyheath",
+    "value": [
+      "topping",
+      "pricklyheathsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pricklyheathsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pricklyheath"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-purpleplum",
+    "value": [
+      "topping",
+      "purpleplumsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/purpleplumsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-purpleplum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-quince",
+    "value": [
+      "topping",
+      "quincesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/quincesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-quince"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-raspberry",
+    "value": [
+      "topping",
+      "raspberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/raspberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-raspberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-redgrape",
+    "value": [
+      "topping",
+      "redgrapesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/redgrapesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-redgrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-redquandong",
+    "value": [
+      "topping",
+      "redquandongsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/redquandongsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-redquandong"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-roseapple",
+    "value": [
+      "topping",
+      "roseapplesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/roseapplesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-roseapple"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-rowanberry",
+    "value": [
+      "topping",
+      "rowanberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/rowanberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-rowanberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-rubysaltbush",
+    "value": [
+      "topping",
+      "rubysaltbushsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/rubysaltbushsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-rubysaltbush"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-sallowthorn",
+    "value": [
+      "topping",
+      "sallowthornsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/sallowthornsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-sallowthorn"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-seamango",
+    "value": [
+      "topping",
+      "seamangosyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/seamangosyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-seamango"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-silvernettle",
+    "value": [
+      "topping",
+      "silvernettlesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/silvernettlesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-silvernettle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-snowberry",
+    "value": [
+      "topping",
+      "snowberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/snowberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-snowberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-spindle",
+    "value": [
+      "topping",
+      "spindlesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/spindlesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-spindle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-strawberry",
+    "value": [
+      "topping",
+      "strawberrysyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/strawberrysyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-strawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-sumac",
+    "value": [
+      "topping",
+      "sumacsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/sumacsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-sumac"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-turkscap",
+    "value": [
+      "topping",
+      "turkscapsyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/turkscapsyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-turkscap"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-ugni",
+    "value": [
+      "topping",
+      "ugnisyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/ugnisyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-ugni"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-virgingrape",
+    "value": [
+      "topping",
+      "virgingrapesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/virgingrapesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-virgingrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-whitegrape",
+    "value": [
+      "topping",
+      "whitegrapesyrup"
+    ],
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/whitegrapesyrup",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-whitegrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -2928,117 +6566,868 @@
     ],
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/wolfberrysyrup",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-wolfberry"
+      "base": "wildcraftfruit:block/food/pie/fill-wolfberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  
+  {
+    "op": "add",
+    "path": "/texturesByType/*/achachawine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-achacha"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/huckleberrywine",
+    "path": "/texturesByType/*/apricotwine",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-huckleberry"
+      "base": "wildcraftfruit:block/food/pie/fill-apricot"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/snowberrywine",
+    "path": "/texturesByType/*/beachalmondwine",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-snowberry"
+      "base": "wildcraftfruit:block/food/pie/fill-beachalmond"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/beautyberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-beautyberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bitternightshadewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bitternightshade"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/blacknightshadewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-blacknightshade"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/blacknightshadeunripewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-blacknightshadeunripe"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bluequandongwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bluequandong"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/blueraspberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-blueraspberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bluetonguewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bluetongue"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/brambleberrywine",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-brambleberry"
+      "base": "wildcraftfruit:block/food/pie/fill-brambleberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bunchberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bunchberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bushlawyerwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bushlawyer"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cashewapplewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cashewapple"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cheeseberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cheeseberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cherryplumwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cherryplum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/chinaberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-chinaberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/citronwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-citron"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/cloudberrywine",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-cloudberry"
+      "base": "wildcraftfruit:block/food/pie/fill-cloudberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cocoawine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cocoa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/coralbeadwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-coralbead"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/creepingpinewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-creepingpine"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/crowberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-crowberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/crowseyewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-crowseye"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/dogrosewine",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-dogrose"
+      "base": "wildcraftfruit:block/food/pie/fill-dogrose"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/elderberrywine",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-elderberry"
+      "base": "wildcraftfruit:block/food/pie/fill-elderberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/engkalawine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-engkala"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/falseorangewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-falseorange"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/falsestrawberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-falsestrawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/feijoawine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-feijoa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/figwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-fig"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/fingerlimewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-fingerlime"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/flaxlilywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-flaxlily"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/foxgrapewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-foxgrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/fractureberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-fractureberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gardenstrawberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-gardenstrawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/gooseberrywine",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-gooseberry"
+      "base": "wildcraftfruit:block/food/pie/fill-gooseberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/guajavawine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-guajava"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/hawthornwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-hawthorn"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/honeypotswine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-honeypots"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/honeysucklewine",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-honeysuckle"
+      "base": "wildcraftfruit:block/food/pie/fill-honeysuckle"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/strawberrywine",
+    "path": "/texturesByType/*/huckleberrywine",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-strawberry"
+      "base": "wildcraftfruit:block/food/pie/fill-huckleberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/husktomatowine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-husktomato"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/illawarrawine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-illawarra"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/jujubewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-jujube"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/juniperwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-juniper"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/kakahawine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kakaha"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/kawakawawine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kawakawa"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/knyazberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-knyazberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/kumquatwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kumquat"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/lemonaspenwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-lemonaspen"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/lillypillypinkwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-lillypillypink"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/lingonberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-lingonberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/loquatwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-loquat"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/midyimberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-midyimberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/mingimingiwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-mingimingi"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/munthariwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-munthari"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/naranjillawine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-naranjilla"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/numnumwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-numnum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pandanbitswine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pandanbits"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pilowine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pilo"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pineheathwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pineheath"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pokeberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pokeberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pomelowine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pomelo"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pricklyheathwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pricklyheath"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/purpleplumwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-purpleplum"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/quincewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-quince"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
     "path": "/texturesByType/*/raspberrywine",
     "value": {
-      "base": "wildcraft:block/food/pie/fill-raspberry"
+      "base": "wildcraftfruit:block/food/pie/fill-raspberry"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/redgrapewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-redgrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/redquandongwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-redquandong"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/roseapplewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-roseapple"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/rowanberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-rowanberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/rubysaltbushwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-rubysaltbush"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/sallowthornwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-sallowthorn"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/seamangowine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-seamango"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/silvernettlewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-silvernettle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/snowberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-snowberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/spindlewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-spindle"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/strawberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-strawberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/sumacwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-sumac"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/turkscapwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-turkscap"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/ugniwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-ugni"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/virgingrapewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-virgingrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/whitegrapewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-whitegrape"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/wolfberrywine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-wolfberry"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
@@ -3110,83 +7499,13 @@
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/yogurtapricot",
-    "value": {
-      "base": "item/liquid/yogurt/apricot"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcrafttrees" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/yogurtcitron",
-    "value": {
-      "base": "item/liquid/yogurt/citron"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcrafttrees" }]
-  },
-  {
-    "op": "add",
     "path": "/texturesByType/*/yogurtcoconut",
     "value": {
       "base": "item/liquid/yogurt/coconut"
     },
     side: "server",
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcrafttrees" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/yogurtfig",
-    "value": {
-      "base": "item/liquid/yogurt/fig"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcrafttrees" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/yogurthawthorn",
-    "value": {
-      "base": "item/liquid/yogurt/hawthorn"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcrafttrees" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/yogurtpomelo",
-    "value": {
-      "base": "item/liquid/yogurt/pomelo"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcrafttrees" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/yogurtpurpleplum",
-    "value": {
-      "base": "item/liquid/yogurt/purpleplum"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcrafttrees" }]
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/yogurtquince",
-    "value": {
-      "base": "item/liquid/yogurt/quince"
-    },
-    side: "server",
-    "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcrafttrees" }]
+    dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "add",
