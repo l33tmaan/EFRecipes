@@ -1,0 +1,102 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"naranjilla": "item/food/grain/overlays/naranjilla"
+	},
+	"elements": [
+		{
+			"name": "overlay1",
+			"from": [ 4.74, -0.01, 6.99 ], 
+			"to": [ 7.26, 1.49, 9.51 ], 
+			"rotationOrigin": [ 6.5, 0.0, 9.4 ],
+			"faces": {
+				"north": { "texture": "#naranjilla", "uv": [ 11.0, 6.5, 13.5, 8.0 ] },
+				"east": { "texture": "#naranjilla", "uv": [ 2.0, 7.5, 4.5, 9.0 ] },
+				"south": { "texture": "#naranjilla", "uv": [ 13.0, 2.0, 15.5, 3.5 ] },
+				"west": { "texture": "#naranjilla", "uv": [ 10.0, 8.0, 12.5, 9.5 ] },
+				"up": { "texture": "#naranjilla", "uv": [ 10.0, 5.0, 12.5, 7.5 ], "enabled": false },
+				"down": { "texture": "#naranjilla", "uv": [ 4.0, 7.0, 6.5, 9.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay top1",
+					"from": [ -0.5, 1.5, -0.5 ], 
+					"to": [ 3.02, 2.52, 3.02 ], 
+					"rotationOrigin": [ -1.0, 0.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#naranjilla", "uv": [ 6.5, 5.5, 10.0, 6.5 ] },
+						"east": { "texture": "#naranjilla", "uv": [ 5.0, 12.0, 6.0, 15.5 ], "rotation": 90 },
+						"south": { "texture": "#naranjilla", "uv": [ 7.0, 9.5, 10.5, 10.5 ] },
+						"west": { "texture": "#naranjilla", "uv": [ 6.5, 5.0, 7.5, 8.5 ], "rotation": 90 },
+						"up": { "texture": "#naranjilla", "uv": [ 4.5, 10.0, 8.0, 13.5 ] },
+						"down": { "texture": "#naranjilla", "uv": [ 6.5, 6.5, 10.0, 10.0 ] }
+					}
+				},
+				{
+					"name": "overlay top2",
+					"from": [ 0.0, 2.5, 0.0 ], 
+					"to": [ 2.52, 3.02, 2.52 ], 
+					"rotationOrigin": [ -0.5, 1.0, -0.5 ],
+					"faces": {
+						"north": { "texture": "#naranjilla", "uv": [ 2.5, 4.0, 5.0, 4.5 ] },
+						"east": { "texture": "#naranjilla", "uv": [ 3.5, 6.0, 4.0, 8.5 ], "rotation": 90 },
+						"south": { "texture": "#naranjilla", "uv": [ 8.5, 12.0, 11.0, 12.5 ] },
+						"west": { "texture": "#naranjilla", "uv": [ 0.0, 8.5, 0.5, 11.0 ], "rotation": 90 },
+						"up": { "texture": "#naranjilla", "uv": [ 12.0, 0.5, 14.5, 3.0 ] },
+						"down": { "texture": "#naranjilla", "uv": [ 7.0, 8.5, 9.5, 11.0 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "overlay2",
+			"from": [ 8.74, -0.01, 6.99 ], 
+			"to": [ 11.26, 1.49, 9.51 ], 
+			"rotationOrigin": [ 10.5, 0.0, 9.4 ],
+			"faces": {
+				"north": { "texture": "#naranjilla", "uv": [ 0.5, 1.5, 3.0, 3.0 ] },
+				"east": { "texture": "#naranjilla", "uv": [ 1.5, 5.5, 4.0, 7.0 ] },
+				"south": { "texture": "#naranjilla", "uv": [ 0.0, 5.0, 2.5, 6.5 ] },
+				"west": { "texture": "#naranjilla", "uv": [ 10.0, 3.5, 12.5, 5.0 ] },
+				"up": { "texture": "#naranjilla", "uv": [ 1.0, 7.5, 3.5, 10.0 ], "enabled": false },
+				"down": { "texture": "#naranjilla", "uv": [ 12.0, 3.0, 14.5, 5.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay top3",
+					"from": [ -0.5, 1.5, -0.5 ], 
+					"to": [ 3.02, 2.52, 3.02 ], 
+					"rotationOrigin": [ -1.0, 0.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#naranjilla", "uv": [ 2.0, 11.0, 5.5, 12.0 ] },
+						"east": { "texture": "#naranjilla", "uv": [ 13.5, 6.0, 14.5, 9.5 ], "rotation": 90 },
+						"south": { "texture": "#naranjilla", "uv": [ 0.0, 4.5, 3.5, 5.5 ] },
+						"west": { "texture": "#naranjilla", "uv": [ 8.5, 11.0, 9.5, 14.5 ], "rotation": 90 },
+						"up": { "texture": "#naranjilla", "uv": [ 8.5, 8.5, 12.0, 12.0 ] },
+						"down": { "texture": "#naranjilla", "uv": [ 7.0, 2.5, 10.5, 6.0 ] }
+					}
+				},
+				{
+					"name": "overlay top4",
+					"from": [ 0.0, 2.5, 0.0 ], 
+					"to": [ 2.52, 3.02, 2.52 ], 
+					"rotationOrigin": [ -0.5, 1.0, -0.5 ],
+					"faces": {
+						"north": { "texture": "#naranjilla", "uv": [ 4.0, 1.5, 6.5, 2.0 ] },
+						"east": { "texture": "#naranjilla", "uv": [ 7.5, 3.0, 8.0, 5.5 ], "rotation": 90 },
+						"south": { "texture": "#naranjilla", "uv": [ 12.5, 4.0, 15.0, 4.5 ] },
+						"west": { "texture": "#naranjilla", "uv": [ 4.5, 9.0, 5.0, 11.5 ], "rotation": 90 },
+						"up": { "texture": "#naranjilla", "uv": [ 10.0, 3.5, 12.5, 6.0 ] },
+						"down": { "texture": "#naranjilla", "uv": [ 0.0, 9.5, 2.5, 12.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"beachalmond": "item/food/grain/overlays/beachalmond"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#beachalmond", "uv": [ 8.5, 0.0, 12.0, 1.5 ] },
+				"east": { "texture": "#beachalmond", "uv": [ 0.0, 1.0, 5.0, 2.5 ] },
+				"south": { "texture": "#beachalmond", "uv": [ 1.0, 8.0, 4.5, 9.5 ] },
+				"west": { "texture": "#beachalmond", "uv": [ 3.0, 9.5, 8.0, 11.0 ] },
+				"up": { "texture": "#beachalmond", "uv": [ 8.0, 6.0, 11.5, 11.0 ] },
+				"down": { "texture": "#beachalmond", "uv": [ 9.0, 4.5, 12.5, 9.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#beachalmond", "uv": [ 1.5, 13.5, 4.0, 14.0 ] },
+						"east": { "texture": "#beachalmond", "uv": [ 13.0, 11.0, 13.5, 15.0 ], "rotation": 90 },
+						"south": { "texture": "#beachalmond", "uv": [ 0.0, 4.0, 2.5, 4.5 ] },
+						"west": { "texture": "#beachalmond", "uv": [ 10.0, 1.5, 10.5, 5.5 ], "rotation": 90 },
+						"up": { "texture": "#beachalmond", "uv": [ 0.5, 5.5, 3.0, 9.5 ] },
+						"down": { "texture": "#beachalmond", "uv": [ 5.5, 3.5, 8.0, 7.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

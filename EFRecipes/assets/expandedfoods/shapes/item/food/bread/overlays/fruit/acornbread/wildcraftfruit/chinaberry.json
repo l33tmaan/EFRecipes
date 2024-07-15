@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"chinaberry": "item/food/grain/overlays/chinaberry"
+	},
+	"elements": [
+		{
+			"name": "acornbread 3",
+			"from": [ 6.49, -0.01, 4.99 ], 
+			"to": [ 9.51, 2.01, 11.01 ], 
+			"rotationOrigin": [ 7.99, 0.0, 7.99 ],
+			"faces": {
+				"north": { "texture": "#chinaberry", "uv": [ 4.5, 9.0, 7.5, 11.0 ] },
+				"east": { "texture": "#chinaberry", "uv": [ 3.0, 5.5, 9.0, 7.5 ] },
+				"south": { "texture": "#chinaberry", "uv": [ 8.5, 1.5, 11.5, 3.5 ] },
+				"west": { "texture": "#chinaberry", "uv": [ 3.0, 12.0, 9.0, 14.0 ] },
+				"up": { "texture": "#chinaberry", "uv": [ 0.0, 0.5, 3.0, 6.5 ] },
+				"down": { "texture": "#chinaberry", "uv": [ 7.0, 2.5, 10.0, 8.5 ] }
+			},
+			"children": [
+				{
+					"name": "acornbread 1 top4",
+					"from": [ 0.5, 2.01, 0.5 ], 
+					"to": [ 2.52, 2.52, 5.521 ], 
+					"faces": {
+						"north": { "texture": "#chinaberry", "uv": [ 5.0, 1.5, 7.0, 2.0 ] },
+						"east": { "texture": "#chinaberry", "uv": [ 7.5, 7.5, 8.0, 12.5 ], "rotation": 90 },
+						"south": { "texture": "#chinaberry", "uv": [ 4.5, 8.5, 6.5, 9.0 ] },
+						"west": { "texture": "#chinaberry", "uv": [ 7.5, 8.0, 8.0, 13.0 ], "rotation": 90 },
+						"up": { "texture": "#chinaberry", "uv": [ 1.0, 0.0, 3.0, 5.0 ] },
+						"down": { "texture": "#chinaberry", "uv": [ 1.0, 3.5, 3.0, 8.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

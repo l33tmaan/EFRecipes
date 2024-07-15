@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"crowseye": "item/food/grain/overlays/crowseye"
+	},
+	"elements": [
+		{
+			"name": "acornbread 3",
+			"from": [ 6.49, -0.01, 4.99 ], 
+			"to": [ 9.51, 2.01, 11.01 ], 
+			"rotationOrigin": [ 7.99, 0.0, 7.99 ],
+			"faces": {
+				"north": { "texture": "#crowseye", "uv": [ 12.5, 4.0, 15.5, 6.0 ] },
+				"east": { "texture": "#crowseye", "uv": [ 2.5, 10.0, 8.5, 12.0 ] },
+				"south": { "texture": "#crowseye", "uv": [ 6.5, 0.5, 9.5, 2.5 ] },
+				"west": { "texture": "#crowseye", "uv": [ 5.0, 0.5, 11.0, 2.5 ] },
+				"up": { "texture": "#crowseye", "uv": [ 7.5, 6.5, 10.5, 12.5 ] },
+				"down": { "texture": "#crowseye", "uv": [ 10.5, 5.0, 13.5, 11.0 ] }
+			},
+			"children": [
+				{
+					"name": "acornbread 1 top4",
+					"from": [ 0.5, 2.01, 0.5 ], 
+					"to": [ 2.52, 2.52, 5.521 ], 
+					"faces": {
+						"north": { "texture": "#crowseye", "uv": [ 3.0, 8.5, 5.0, 9.0 ] },
+						"east": { "texture": "#crowseye", "uv": [ 10.0, 3.0, 10.5, 8.0 ], "rotation": 90 },
+						"south": { "texture": "#crowseye", "uv": [ 12.5, 0.0, 14.5, 0.5 ] },
+						"west": { "texture": "#crowseye", "uv": [ 10.0, 1.0, 10.5, 6.0 ], "rotation": 90 },
+						"up": { "texture": "#crowseye", "uv": [ 2.5, 9.5, 4.5, 14.5 ] },
+						"down": { "texture": "#crowseye", "uv": [ 12.0, 3.5, 14.0, 8.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

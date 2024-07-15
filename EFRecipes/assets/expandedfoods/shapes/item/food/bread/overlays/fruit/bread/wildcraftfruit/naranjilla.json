@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"naranjilla": "item/food/grain/overlays/naranjilla"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#naranjilla", "uv": [ 4.0, 2.5, 7.5, 4.0 ] },
+				"east": { "texture": "#naranjilla", "uv": [ 5.5, 14.0, 10.5, 15.5 ] },
+				"south": { "texture": "#naranjilla", "uv": [ 8.0, 0.5, 11.5, 2.0 ] },
+				"west": { "texture": "#naranjilla", "uv": [ 1.5, 7.5, 6.5, 9.0 ] },
+				"up": { "texture": "#naranjilla", "uv": [ 1.0, 9.5, 4.5, 14.5 ] },
+				"down": { "texture": "#naranjilla", "uv": [ 9.0, 1.5, 12.5, 6.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#naranjilla", "uv": [ 11.5, 11.0, 14.0, 11.5 ] },
+						"east": { "texture": "#naranjilla", "uv": [ 11.0, 9.0, 11.5, 13.0 ], "rotation": 90 },
+						"south": { "texture": "#naranjilla", "uv": [ 0.5, 0.0, 3.0, 0.5 ] },
+						"west": { "texture": "#naranjilla", "uv": [ 1.0, 8.5, 1.5, 12.5 ], "rotation": 90 },
+						"up": { "texture": "#naranjilla", "uv": [ 13.0, 7.0, 15.5, 11.0 ] },
+						"down": { "texture": "#naranjilla", "uv": [ 12.5, 2.5, 15.0, 6.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

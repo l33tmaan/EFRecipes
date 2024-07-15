@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"honeypots": "item/food/grain/overlays/honeypots"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#honeypots", "uv": [ 1.5, 14.0, 5.0, 15.5 ] },
+				"east": { "texture": "#honeypots", "uv": [ 1.5, 3.0, 6.5, 4.5 ] },
+				"south": { "texture": "#honeypots", "uv": [ 2.5, 6.5, 6.0, 8.0 ] },
+				"west": { "texture": "#honeypots", "uv": [ 8.0, 6.5, 13.0, 8.0 ] },
+				"up": { "texture": "#honeypots", "uv": [ 5.5, 0.0, 9.0, 5.0 ] },
+				"down": { "texture": "#honeypots", "uv": [ 5.0, 10.0, 8.5, 15.0 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#honeypots", "uv": [ 1.5, 8.0, 4.0, 8.5 ] },
+						"east": { "texture": "#honeypots", "uv": [ 3.0, 6.0, 3.5, 10.0 ], "rotation": 90 },
+						"south": { "texture": "#honeypots", "uv": [ 7.0, 2.0, 9.5, 2.5 ] },
+						"west": { "texture": "#honeypots", "uv": [ 1.5, 1.5, 2.0, 5.5 ], "rotation": 90 },
+						"up": { "texture": "#honeypots", "uv": [ 12.5, 6.0, 15.0, 10.0 ] },
+						"down": { "texture": "#honeypots", "uv": [ 11.5, 9.5, 14.0, 13.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

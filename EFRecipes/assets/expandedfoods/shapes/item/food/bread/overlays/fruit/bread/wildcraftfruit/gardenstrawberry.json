@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"gardenstrawberry": "item/food/grain/overlays/gardenstrawberry"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#gardenstrawberry", "uv": [ 6.5, 12.5, 10.0, 14.0 ] },
+				"east": { "texture": "#gardenstrawberry", "uv": [ 0.0, 7.0, 5.0, 8.5 ] },
+				"south": { "texture": "#gardenstrawberry", "uv": [ 5.5, 5.5, 9.0, 7.0 ] },
+				"west": { "texture": "#gardenstrawberry", "uv": [ 9.5, 9.5, 14.5, 11.0 ] },
+				"up": { "texture": "#gardenstrawberry", "uv": [ 0.5, 5.0, 4.0, 10.0 ] },
+				"down": { "texture": "#gardenstrawberry", "uv": [ 10.0, 6.5, 13.5, 11.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#gardenstrawberry", "uv": [ 1.5, 12.5, 4.0, 13.0 ] },
+						"east": { "texture": "#gardenstrawberry", "uv": [ 7.5, 0.5, 8.0, 4.5 ], "rotation": 90 },
+						"south": { "texture": "#gardenstrawberry", "uv": [ 0.5, 2.0, 3.0, 2.5 ] },
+						"west": { "texture": "#gardenstrawberry", "uv": [ 9.5, 5.5, 10.0, 9.5 ], "rotation": 90 },
+						"up": { "texture": "#gardenstrawberry", "uv": [ 2.5, 10.0, 5.0, 14.0 ] },
+						"down": { "texture": "#gardenstrawberry", "uv": [ 6.0, 9.0, 8.5, 13.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

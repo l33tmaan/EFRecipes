@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"munthari": "item/food/grain/overlays/munthari"
+	},
+	"elements": [
+		{
+			"name": "acornbread 3",
+			"from": [ 6.49, -0.01, 4.99 ], 
+			"to": [ 9.51, 2.01, 11.01 ], 
+			"rotationOrigin": [ 7.99, 0.0, 7.99 ],
+			"faces": {
+				"north": { "texture": "#munthari", "uv": [ 11.0, 3.5, 14.0, 5.5 ] },
+				"east": { "texture": "#munthari", "uv": [ 8.0, 8.5, 14.0, 10.5 ] },
+				"south": { "texture": "#munthari", "uv": [ 5.5, 0.5, 8.5, 2.5 ] },
+				"west": { "texture": "#munthari", "uv": [ 9.0, 12.5, 15.0, 14.5 ] },
+				"up": { "texture": "#munthari", "uv": [ 7.0, 6.0, 10.0, 12.0 ] },
+				"down": { "texture": "#munthari", "uv": [ 5.0, 9.0, 8.0, 15.0 ] }
+			},
+			"children": [
+				{
+					"name": "acornbread 1 top4",
+					"from": [ 0.5, 2.01, 0.5 ], 
+					"to": [ 2.52, 2.52, 5.521 ], 
+					"faces": {
+						"north": { "texture": "#munthari", "uv": [ 3.0, 6.5, 5.0, 7.0 ] },
+						"east": { "texture": "#munthari", "uv": [ 1.5, 9.0, 2.0, 14.0 ], "rotation": 90 },
+						"south": { "texture": "#munthari", "uv": [ 10.0, 1.5, 12.0, 2.0 ] },
+						"west": { "texture": "#munthari", "uv": [ 4.0, 10.5, 4.5, 15.5 ], "rotation": 90 },
+						"up": { "texture": "#munthari", "uv": [ 1.5, 8.0, 3.5, 13.0 ] },
+						"down": { "texture": "#munthari", "uv": [ 5.5, 4.0, 7.5, 9.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

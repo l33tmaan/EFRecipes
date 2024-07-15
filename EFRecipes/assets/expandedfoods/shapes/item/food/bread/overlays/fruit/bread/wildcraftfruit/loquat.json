@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"loquat": "item/food/grain/overlays/loquat"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#loquat", "uv": [ 0.5, 12.0, 4.0, 13.5 ] },
+				"east": { "texture": "#loquat", "uv": [ 6.0, 13.5, 11.0, 15.0 ] },
+				"south": { "texture": "#loquat", "uv": [ 4.5, 14.0, 8.0, 15.5 ] },
+				"west": { "texture": "#loquat", "uv": [ 9.5, 5.0, 14.5, 6.5 ] },
+				"up": { "texture": "#loquat", "uv": [ 4.5, 7.0, 8.0, 12.0 ] },
+				"down": { "texture": "#loquat", "uv": [ 6.5, 1.5, 10.0, 6.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#loquat", "uv": [ 1.5, 2.0, 4.0, 2.5 ] },
+						"east": { "texture": "#loquat", "uv": [ 5.5, 10.0, 6.0, 14.0 ], "rotation": 90 },
+						"south": { "texture": "#loquat", "uv": [ 12.5, 11.5, 15.0, 12.0 ] },
+						"west": { "texture": "#loquat", "uv": [ 6.5, 8.0, 7.0, 12.0 ], "rotation": 90 },
+						"up": { "texture": "#loquat", "uv": [ 13.0, 9.0, 15.5, 13.0 ] },
+						"down": { "texture": "#loquat", "uv": [ 4.5, 11.5, 7.0, 15.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

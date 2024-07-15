@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"crowseye": "item/food/grain/overlays/crowseye"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#crowseye", "uv": [ 1.0, 6.5, 4.5, 8.0 ] },
+				"east": { "texture": "#crowseye", "uv": [ 10.5, 8.0, 15.5, 9.5 ] },
+				"south": { "texture": "#crowseye", "uv": [ 1.5, 13.5, 5.0, 15.0 ] },
+				"west": { "texture": "#crowseye", "uv": [ 0.5, 0.5, 5.5, 2.0 ] },
+				"up": { "texture": "#crowseye", "uv": [ 9.5, 8.0, 13.0, 13.0 ] },
+				"down": { "texture": "#crowseye", "uv": [ 4.5, 9.0, 8.0, 14.0 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#crowseye", "uv": [ 12.5, 5.5, 15.0, 6.0 ] },
+						"east": { "texture": "#crowseye", "uv": [ 11.5, 4.0, 12.0, 8.0 ], "rotation": 90 },
+						"south": { "texture": "#crowseye", "uv": [ 7.0, 13.0, 9.5, 13.5 ] },
+						"west": { "texture": "#crowseye", "uv": [ 11.5, 0.0, 12.0, 4.0 ], "rotation": 90 },
+						"up": { "texture": "#crowseye", "uv": [ 9.0, 9.5, 11.5, 13.5 ] },
+						"down": { "texture": "#crowseye", "uv": [ 5.0, 0.0, 7.5, 4.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

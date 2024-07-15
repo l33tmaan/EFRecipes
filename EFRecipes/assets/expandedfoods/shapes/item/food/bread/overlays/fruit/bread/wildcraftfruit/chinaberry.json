@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"chinaberry": "item/food/grain/overlays/chinaberry"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#chinaberry", "uv": [ 10.0, 6.5, 13.5, 8.0 ] },
+				"east": { "texture": "#chinaberry", "uv": [ 1.0, 0.5, 6.0, 2.0 ] },
+				"south": { "texture": "#chinaberry", "uv": [ 11.5, 3.5, 15.0, 5.0 ] },
+				"west": { "texture": "#chinaberry", "uv": [ 9.5, 7.5, 14.5, 9.0 ] },
+				"up": { "texture": "#chinaberry", "uv": [ 3.0, 9.5, 6.5, 14.5 ] },
+				"down": { "texture": "#chinaberry", "uv": [ 0.0, 7.5, 3.5, 12.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#chinaberry", "uv": [ 9.5, 0.5, 12.0, 1.0 ] },
+						"east": { "texture": "#chinaberry", "uv": [ 8.0, 6.5, 8.5, 10.5 ], "rotation": 90 },
+						"south": { "texture": "#chinaberry", "uv": [ 7.0, 13.5, 9.5, 14.0 ] },
+						"west": { "texture": "#chinaberry", "uv": [ 13.5, 5.5, 14.0, 9.5 ], "rotation": 90 },
+						"up": { "texture": "#chinaberry", "uv": [ 5.0, 9.0, 7.5, 13.0 ] },
+						"down": { "texture": "#chinaberry", "uv": [ 1.5, 8.5, 4.0, 12.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

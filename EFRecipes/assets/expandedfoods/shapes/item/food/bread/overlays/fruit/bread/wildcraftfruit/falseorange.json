@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"falseorange": "item/food/grain/overlays/falseorange"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#falseorange", "uv": [ 1.5, 5.0, 5.0, 6.5 ] },
+				"east": { "texture": "#falseorange", "uv": [ 0.5, 2.5, 5.5, 4.0 ] },
+				"south": { "texture": "#falseorange", "uv": [ 3.0, 5.0, 6.5, 6.5 ] },
+				"west": { "texture": "#falseorange", "uv": [ 3.5, 7.5, 8.5, 9.0 ] },
+				"up": { "texture": "#falseorange", "uv": [ 10.0, 2.5, 13.5, 7.5 ] },
+				"down": { "texture": "#falseorange", "uv": [ 10.0, 3.5, 13.5, 8.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#falseorange", "uv": [ 2.5, 14.0, 5.0, 14.5 ] },
+						"east": { "texture": "#falseorange", "uv": [ 7.0, 1.5, 7.5, 5.5 ], "rotation": 90 },
+						"south": { "texture": "#falseorange", "uv": [ 12.5, 6.5, 15.0, 7.0 ] },
+						"west": { "texture": "#falseorange", "uv": [ 14.5, 8.5, 15.0, 12.5 ], "rotation": 90 },
+						"up": { "texture": "#falseorange", "uv": [ 8.0, 5.0, 10.5, 9.0 ] },
+						"down": { "texture": "#falseorange", "uv": [ 4.0, 2.5, 6.5, 6.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

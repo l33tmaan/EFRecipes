@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"bushlawyer": "item/food/grain/overlays/bushlawyer"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#bushlawyer", "uv": [ 9.0, 10.0, 12.5, 11.5 ] },
+				"east": { "texture": "#bushlawyer", "uv": [ 5.5, 4.5, 10.5, 6.0 ] },
+				"south": { "texture": "#bushlawyer", "uv": [ 5.0, 8.0, 8.5, 9.5 ] },
+				"west": { "texture": "#bushlawyer", "uv": [ 7.0, 2.0, 12.0, 3.5 ] },
+				"up": { "texture": "#bushlawyer", "uv": [ 6.0, 6.0, 9.5, 11.0 ] },
+				"down": { "texture": "#bushlawyer", "uv": [ 12.0, 10.5, 15.5, 15.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#bushlawyer", "uv": [ 6.5, 8.0, 9.0, 8.5 ] },
+						"east": { "texture": "#bushlawyer", "uv": [ 3.5, 2.5, 4.0, 6.5 ], "rotation": 90 },
+						"south": { "texture": "#bushlawyer", "uv": [ 1.0, 9.0, 3.5, 9.5 ] },
+						"west": { "texture": "#bushlawyer", "uv": [ 10.5, 6.5, 11.0, 10.5 ], "rotation": 90 },
+						"up": { "texture": "#bushlawyer", "uv": [ 11.0, 8.0, 13.5, 12.0 ] },
+						"down": { "texture": "#bushlawyer", "uv": [ 11.5, 7.5, 14.0, 11.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

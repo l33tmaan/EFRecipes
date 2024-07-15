@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"guajava": "item/food/grain/overlays/guajava"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#guajava", "uv": [ 7.5, 9.5, 11.0, 11.0 ] },
+				"east": { "texture": "#guajava", "uv": [ 4.0, 4.5, 9.0, 6.0 ] },
+				"south": { "texture": "#guajava", "uv": [ 10.5, 7.0, 14.0, 8.5 ] },
+				"west": { "texture": "#guajava", "uv": [ 2.0, 7.5, 7.0, 9.0 ] },
+				"up": { "texture": "#guajava", "uv": [ 12.0, 6.5, 15.5, 11.5 ] },
+				"down": { "texture": "#guajava", "uv": [ 10.0, 9.0, 13.5, 14.0 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#guajava", "uv": [ 3.0, 4.0, 5.5, 4.5 ] },
+						"east": { "texture": "#guajava", "uv": [ 5.5, 3.0, 6.0, 7.0 ], "rotation": 90 },
+						"south": { "texture": "#guajava", "uv": [ 5.0, 6.0, 7.5, 6.5 ] },
+						"west": { "texture": "#guajava", "uv": [ 13.0, 9.0, 13.5, 13.0 ], "rotation": 90 },
+						"up": { "texture": "#guajava", "uv": [ 13.0, 3.5, 15.5, 7.5 ] },
+						"down": { "texture": "#guajava", "uv": [ 10.5, 2.0, 13.0, 6.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

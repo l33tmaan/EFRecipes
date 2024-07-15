@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"redquandong": "item/food/grain/overlays/redquandong"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#redquandong", "uv": [ 2.0, 10.0, 5.5, 11.5 ] },
+				"east": { "texture": "#redquandong", "uv": [ 3.5, 6.0, 8.5, 7.5 ] },
+				"south": { "texture": "#redquandong", "uv": [ 8.0, 6.0, 11.5, 7.5 ] },
+				"west": { "texture": "#redquandong", "uv": [ 9.5, 1.5, 14.5, 3.0 ] },
+				"up": { "texture": "#redquandong", "uv": [ 11.5, 8.0, 15.0, 13.0 ] },
+				"down": { "texture": "#redquandong", "uv": [ 7.0, 6.0, 10.5, 11.0 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#redquandong", "uv": [ 9.0, 9.0, 11.5, 9.5 ] },
+						"east": { "texture": "#redquandong", "uv": [ 13.5, 0.0, 14.0, 4.0 ], "rotation": 90 },
+						"south": { "texture": "#redquandong", "uv": [ 4.5, 11.0, 7.0, 11.5 ] },
+						"west": { "texture": "#redquandong", "uv": [ 14.0, 0.5, 14.5, 4.5 ], "rotation": 90 },
+						"up": { "texture": "#redquandong", "uv": [ 9.5, 0.5, 12.0, 4.5 ] },
+						"down": { "texture": "#redquandong", "uv": [ 8.5, 4.0, 11.0, 8.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

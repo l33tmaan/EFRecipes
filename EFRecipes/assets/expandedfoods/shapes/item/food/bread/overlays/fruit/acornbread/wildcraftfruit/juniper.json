@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"juniper": "item/food/grain/overlays/juniper"
+	},
+	"elements": [
+		{
+			"name": "acornbread 3",
+			"from": [ 6.49, -0.01, 4.99 ], 
+			"to": [ 9.51, 2.01, 11.01 ], 
+			"rotationOrigin": [ 7.99, 0.0, 7.99 ],
+			"faces": {
+				"north": { "texture": "#juniper", "uv": [ 10.0, 2.5, 13.0, 4.5 ] },
+				"east": { "texture": "#juniper", "uv": [ 4.0, 8.5, 10.0, 10.5 ] },
+				"south": { "texture": "#juniper", "uv": [ 6.0, 5.5, 9.0, 7.5 ] },
+				"west": { "texture": "#juniper", "uv": [ 0.5, 3.5, 6.5, 5.5 ] },
+				"up": { "texture": "#juniper", "uv": [ 3.0, 0.0, 6.0, 6.0 ] },
+				"down": { "texture": "#juniper", "uv": [ 5.0, 8.0, 8.0, 14.0 ] }
+			},
+			"children": [
+				{
+					"name": "acornbread 1 top4",
+					"from": [ 0.5, 2.01, 0.5 ], 
+					"to": [ 2.52, 2.52, 5.521 ], 
+					"faces": {
+						"north": { "texture": "#juniper", "uv": [ 9.0, 15.0, 11.0, 15.5 ] },
+						"east": { "texture": "#juniper", "uv": [ 0.5, 3.0, 1.0, 8.0 ], "rotation": 90 },
+						"south": { "texture": "#juniper", "uv": [ 1.5, 14.5, 3.5, 15.0 ] },
+						"west": { "texture": "#juniper", "uv": [ 13.5, 0.5, 14.0, 5.5 ], "rotation": 90 },
+						"up": { "texture": "#juniper", "uv": [ 13.5, 1.0, 15.5, 6.0 ] },
+						"down": { "texture": "#juniper", "uv": [ 0.5, 8.0, 2.5, 13.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

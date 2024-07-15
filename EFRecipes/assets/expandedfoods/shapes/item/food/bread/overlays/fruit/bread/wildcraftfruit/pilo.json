@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"pilo": "item/food/grain/overlays/pilo"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#pilo", "uv": [ 7.5, 1.5, 11.0, 3.0 ] },
+				"east": { "texture": "#pilo", "uv": [ 2.0, 8.5, 7.0, 10.0 ] },
+				"south": { "texture": "#pilo", "uv": [ 7.5, 11.5, 11.0, 13.0 ] },
+				"west": { "texture": "#pilo", "uv": [ 2.5, 10.0, 7.5, 11.5 ] },
+				"up": { "texture": "#pilo", "uv": [ 7.0, 4.5, 10.5, 9.5 ] },
+				"down": { "texture": "#pilo", "uv": [ 7.0, 3.5, 10.5, 8.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#pilo", "uv": [ 11.0, 13.0, 13.5, 13.5 ] },
+						"east": { "texture": "#pilo", "uv": [ 1.0, 11.0, 1.5, 15.0 ], "rotation": 90 },
+						"south": { "texture": "#pilo", "uv": [ 0.0, 15.0, 2.5, 15.5 ] },
+						"west": { "texture": "#pilo", "uv": [ 15.0, 11.0, 15.5, 15.0 ], "rotation": 90 },
+						"up": { "texture": "#pilo", "uv": [ 1.0, 1.0, 3.5, 5.0 ] },
+						"down": { "texture": "#pilo", "uv": [ 2.0, 7.0, 4.5, 11.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

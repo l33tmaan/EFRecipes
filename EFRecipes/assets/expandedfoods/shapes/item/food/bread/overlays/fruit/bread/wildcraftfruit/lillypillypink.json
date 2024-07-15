@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"lillypillypink": "item/food/grain/overlays/lillypillypink"
+	},
+	"elements": [
+		{
+			"name": "overlay",
+			"from": [ 6.2, -0.01, 5.49 ], 
+			"to": [ 9.8, 1.51, 10.51 ], 
+			"rotationOrigin": [ 8.2, 0.0, 7.9 ],
+			"faces": {
+				"north": { "texture": "#lillypillypink", "uv": [ 1.5, 3.5, 5.0, 5.0 ] },
+				"east": { "texture": "#lillypillypink", "uv": [ 2.5, 1.0, 7.5, 2.5 ] },
+				"south": { "texture": "#lillypillypink", "uv": [ 10.5, 0.0, 14.0, 1.5 ] },
+				"west": { "texture": "#lillypillypink", "uv": [ 10.5, 13.0, 15.5, 14.5 ] },
+				"up": { "texture": "#lillypillypink", "uv": [ 4.0, 10.0, 7.5, 15.0 ] },
+				"down": { "texture": "#lillypillypink", "uv": [ 2.0, 6.5, 5.5, 11.5 ] }
+			},
+			"children": [
+				{
+					"name": "overlay 2",
+					"from": [ 0.5, 1.5, 0.5 ], 
+					"to": [ 3.06, 2.02, 4.52 ], 
+					"faces": {
+						"north": { "texture": "#lillypillypink", "uv": [ 10.0, 10.5, 12.5, 11.0 ] },
+						"east": { "texture": "#lillypillypink", "uv": [ 14.0, 11.0, 14.5, 15.0 ], "rotation": 90 },
+						"south": { "texture": "#lillypillypink", "uv": [ 13.0, 11.0, 15.5, 11.5 ] },
+						"west": { "texture": "#lillypillypink", "uv": [ 2.5, 8.5, 3.0, 12.5 ], "rotation": 90 },
+						"up": { "texture": "#lillypillypink", "uv": [ 9.0, 4.0, 11.5, 8.0 ] },
+						"down": { "texture": "#lillypillypink", "uv": [ 7.0, 11.0, 9.5, 15.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}
