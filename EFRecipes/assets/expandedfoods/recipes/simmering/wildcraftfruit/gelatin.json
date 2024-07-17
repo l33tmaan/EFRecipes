@@ -1,0 +1,70 @@
+﻿[
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "expandedfoods:gelatin-raw",
+				"quantity": 1
+			},
+			{
+				"type": "item",
+				"code": "wildcraftfruit:juiceportion-*",
+				"quantity": 10,
+				"name": "fruit",
+			},
+			{
+				"type": "item",
+				"code": "waterportion",
+				"quantity": 100
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 450,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "expandedfoods:gelatin-{fruit}"
+			},
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{
+				"type": "item",
+				"code": "expandedfoods:gelatin-raw",
+				"quantity": 1
+			},
+			{
+				"type": "item",
+				"code": "expandedfoods:wildfruitsyrupportion-*",
+				"quantity": 10,
+				"name": "fruit",
+			},
+			{
+				"type": "item",
+				"code": "waterportion",
+				"quantity": 100
+			},
+			{
+				"type": "item",
+				"code": "waterportion",
+				"quantity": 100
+			}
+		],
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 450,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+			"type": "item",
+				"code": "expandedfoods:gelatin-{fruit}",
+				"quantity": 2
+			},
+			"requiresContainer": false
+		}
+	},
+]

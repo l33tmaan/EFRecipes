@@ -1,0 +1,20 @@
+﻿[
+
+  {
+    "file": "expandedfoods:recipes/simmering/wildcraftfruit/gelatin.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftfruit", "invert":  true }]
+  },
+  {
+    "file": "expandedfoods:recipes/simmering/wildcraftfruit/gelatin.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftfruit", "invert":  true }]
+  },
+
+]
