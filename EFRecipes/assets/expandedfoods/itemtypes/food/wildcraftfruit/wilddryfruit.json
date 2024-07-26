@@ -464,10 +464,16 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 3.25
 		},
-		"@*-(hawthorn|rowanberry|beachalmondwhole)": {
+		"@*-(hawthorn|rowanberry)": {
 			"translation":  { "x": 0, "y": 0, "z": 0},
 			rotation: { x: 138, y: 40, z: -10 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 4
+		},
+		"*-beachalmondwhole": {
+			"translation":  { "x": 0, "y": 0, "z": 0},
+			rotation: { x: 113, y: 76, z: 27 },
+			origin: { x: 0.56, y: 0.15, z: 0.46 },
 			scale: 4
 		},
 		"@*-(loquat|cherryplum|sallowthorn)": {
