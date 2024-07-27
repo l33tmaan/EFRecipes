@@ -1,5 +1,11 @@
 ﻿[
   {
+    "op": "remove",
+    "path": "/transitionableProps",
+    "side": "server",
+    "file": "wildcraftfruit:itemtypes/liquid/alcohol/cider.json"
+  },
+  {
     "op": "add",
     "path": "/transitionableProps",
     "value": [
@@ -33,16 +39,24 @@
       }
     ],
     "side": "server",
-    "file": "wildcraft:itemtypes/liquid/alcohol/cider.json"
+    "file": "wildcraftfruit:itemtypes/liquid/alcohol/cider.json"
   },
   {
     "op": "add",
-    "path": "/attributes/nutritionPropsWhenInMeal",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
-        "saturation": 160,
-        "foodcategory": "fruit",
+		"*-cloudberry": { satiety: 160, health: 0.2, foodcategory: "Fruit" },
+		"*-husktomato": { satiety: 160, health: 0.1, foodcategory: "Fruit" },
+		"*-juniper": { satiety: 160, health: 0.1, foodcategory: "Fruit" },
+		"*-wolfberry": { satiety: 160, health: -3, foodcategory: "Fruit" },
+		"*-bitternightshade": { satiety: 160, health: -2, foodcategory: "Fruit" },
+		"*-spindle": { satiety: 160, health: -1, foodcategory: "Fruit" },
+		"*-blacknightshadeunripe": { satiety: 160, health: -0.5, foodcategory: "Fruit" },
+		"*-crowseye": { satiety: 160, health: -5, foodcategory: "Fruit" },
+		"*-seamango": { satiety: 160, health: -4, foodcategory: "Fruit" },
+		"*": { satiety: 160, health: 0, foodcategory: "Fruit" },
     },
     "side": "server",
-    "file": "wildcraft:itemtypes/liquid/alcohol/cider.json"
+    "file": "wildcraftfruit:itemtypes/liquid/alcohol/cider.json"
   },
 ]
