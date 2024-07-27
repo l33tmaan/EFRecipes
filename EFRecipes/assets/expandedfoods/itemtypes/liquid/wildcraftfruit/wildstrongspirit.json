@@ -14,7 +14,12 @@
 			ratio: 0.5
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMeal: { satiety: 270, health: 0.5, foodcategory: "NoNutrition" },
+		nutritionPropsWhenInMealByType: {
+			"*-wolfberry": { satiety: 270, health: -5, foodcategory: "NoNutrition" },
+			"*-crowseye": { satiety: 270, health: -10, foodcategory: "NoNutrition" },
+			"*-seamango": { satiety: 270, health: -8, foodcategory: "NoNutrition" },
+			"*": { satiety: 270, health: 0.5, foodcategory: "NoNutrition" },
+		},
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,
@@ -24,11 +29,11 @@
 				action: "DropContents",
 				stack: { type: "item", code: "expandedfoods:wildstrongspiritportion-{fruit}" }
 			},
-			nutritionPropsPerLitre: {
-				saturation: 180,
-				"intoxication": 2.0,
-				"health": 0.5,
-				foodcategory: "NoNutrition"
+			nutritionPropsPerLitreByType: {
+				"*-wolfberry": { saturation: 180, health: -5, intoxication: 2.0, foodcategory: "NoNutrition" },
+				"*-crowseye": { saturation: 180, health: -10, intoxication: 2.0, foodcategory: "NoNutrition" },
+				"*-seamango": { saturation: 180, health: -8, intoxication: 2.0, foodcategory: "NoNutrition" },
+				"*": { saturation: 180, "health": 0.5, "intoxication": 2.0, foodcategory: "NoNutrition" },
 			},
 		},
 	},

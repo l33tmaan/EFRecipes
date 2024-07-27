@@ -10,7 +10,18 @@
 			ignoreCreativeInvStacks: true
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMeal: { satiety: 300, health: 1, foodcategory: "Fruit" },
+		nutritionPropsWhenInMealByType: {
+			"*-cloudberry": { satiety: 300, health: 4, foodcategory: "Fruit" },
+			"*-husktomato": { satiety: 300, health: 2, foodcategory: "Fruit" },
+			"*-juniper": { satiety: 300, health: 2, foodcategory: "Fruit" },
+			"*-wolfberry": { satiety: 300, health: -7.5, foodcategory: "Fruit" },
+			"*-bitternightshade": { satiety: 300, health: -5, foodcategory: "Fruit" },
+			"*-spindle": { satiety: 300, health: -2.5, foodcategory: "Fruit" },
+			"*-blacknightshadeunripe": { satiety: 300, health: -1.25, foodcategory: "Fruit" },
+			"*-crowseye": { satiety: 300, health: -12.5, foodcategory: "Fruit" },
+			"*-seamango": { satiety: 300, health: -10, foodcategory: "Fruit" },
+			"*": { satiety: 300, health: 1, foodcategory: "Fruit" },
+		},
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,
@@ -20,11 +31,17 @@
 				action: "DropContents",
 				stack: { type: "item", code: "expandedfoods:wildpotentwineportion-{fruit}" }
 			},
-			nutritionPropsPerLitre: {
-				saturation: 200,
-				"intoxication":  0.45,
-				"health": 1,
-				foodcategory: "Fruit"
+			nutritionPropsPerLitreByType: {
+				"*-cloudberry": { saturation: 200, health: 4, intoxication: 0.45, foodcategory: "Fruit" },
+				"*-husktomato": { saturation: 200, health: 2, intoxication: 0.45, foodcategory: "Fruit" },
+				"*-juniper": { saturation: 200, health: 2, intoxication: 0.45, foodcategory: "Fruit" },
+				"*-wolfberry": { saturation: 200, health: -7.5, intoxication: 0.45, foodcategory: "Fruit" },
+				"*-bitternightshade": { saturation: 200, health: -5, intoxication: 0.45, foodcategory: "Fruit" },
+				"*-spindle": { saturation: 200, health: -2.5, intoxication: 0.45, foodcategory: "Fruit" },
+				"*-blacknightshadeunripe": { saturation: 200, health: -1.25, intoxication: 0.45, foodcategory: "Fruit" },
+				"*-crowseye": { saturation: 200, health: -12.5, intoxication: 0.45, foodcategory: "Fruit" },
+				"*-seamango": { saturation: 200, health: -10, intoxication: 0.45, foodcategory: "Fruit" },
+				"*": { saturation: 200, "health": 1, "intoxication": 0.45, foodcategory: "Fruit" },
 			},
 		},
 		"distillationPropsbytype": {		

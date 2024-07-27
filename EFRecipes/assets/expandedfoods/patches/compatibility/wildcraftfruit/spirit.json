@@ -1,0 +1,36 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/transitionableProps",
+    "value": [
+      {
+        "type": "Cure",
+        "freshHours": {
+          "avg": 672
+        },
+        "transitionHours": {
+          "avg": 2016
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "expandedfoods:wildstrongspiritportion-{fruit}"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "side": "server",
+    "file": "wildcraftfruit:itemtypes/liquid/alcohol/spirit.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+		"*-wolfberry": { satiety: 160, health: -10, foodcategory: "Fruit" },
+		"*-crowseye": { satiety: 160, health: -20, foodcategory: "Fruit" },
+		"*-seamango": { satiety: 160, health: -16, foodcategory: "Fruit" },
+		"*": { satiety: 160, health: 0, foodcategory: "Fruit" },
+    },
+    "side": "server",
+    "file": "wildcraftfruit:itemtypes/liquid/alcohol/spirit.json"
+  },
+]
