@@ -1,0 +1,58 @@
+﻿[
+ {
+   file: "game:recipes/barrel/wildcraftfruit/fastvinegar.json",
+    "side": "server",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+ },
+ {
+   file: "game:recipes/barrel/wildcraftfruit/fruitvinegar.json",
+    "side": "server",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+ },
+ {
+   file: "game:recipes/barrel/wildcraftfruit/winevinegar.json",
+    "side": "server",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+ },
+ {
+   file: "game:recipes/barrel/wildcraftfruit/winevinegar.json",
+    "side": "server",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+ },
+ {
+   file: "game:recipes/barrel/wildcraftfruit/winevinegar.json",
+    "side": "server",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+ },
+ {
+   file: "game:recipes/barrel/wildcraftfruit/yeastwater.json",
+    "side": "server",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+ },
+ {
+   file: "game:recipes/barrel/wildcraftfruit/yogurtstarter.json",
+    "side": "server",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+ },
+]
