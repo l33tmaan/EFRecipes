@@ -1,0 +1,18 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
+    "side": "server",
+    op: "add", 
+    path: "/0/ingredients/3/inputs/-", 
+    value: { type: "item", code: "wildcraft:herbs-minerslettuce", quantity: 1 },
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
+    "side": "server",
+    op: "add", 
+    path: "/1/ingredients/3/inputs/-", 
+    value: { type: "item", code: "wildcraft:herbs-minerslettuce", quantity: 1 },
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+ },
+]

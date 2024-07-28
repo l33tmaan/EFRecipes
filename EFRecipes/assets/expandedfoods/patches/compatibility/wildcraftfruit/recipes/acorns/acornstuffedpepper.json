@@ -5,7 +5,7 @@
     op: "addeach", 
     path: "/0/ingredients/1/inputs/-", 
     value: [{ type: "item", code: "expandedfoods:wilddryfruit-*",  quantity: 1 }, { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 },],
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }]
  },
  {
    file: "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
@@ -13,7 +13,7 @@
     op: "addeach", 
     path: "/1/ingredients/1/inputs/-", 
     value: [{ type: "item", code: "expandedfoods:wilddryfruit-*",  quantity: 1 }, { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 },],
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }]
  },
  {
    file: "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
@@ -21,7 +21,7 @@
     op: "addeach", 
     path: "/1/ingredients/2/inputs/-", 
     value: [{ type: "item", code: "expandedfoods:wilddryfruit-*",  quantity: 1 }, { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 },],
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }]
  },
  {
    file: "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
@@ -29,7 +29,7 @@
     op: "addeach", 
     path: "/2/ingredients/1/inputs/-", 
     value: [{ type: "item", code: "expandedfoods:wilddryfruit-*",  quantity: 1 }, { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 },],
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }]
  },
  {
    file: "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
@@ -37,7 +37,7 @@
     op: "add", 
     path: "/0/ingredients/2/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }]
  },
  {
    file: "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
@@ -45,7 +45,7 @@
     op: "add", 
     path: "/1/ingredients/3/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }]
  },
  {
    file: "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
@@ -53,6 +53,6 @@
     op: "add", 
     path: "/2/ingredients/2/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }]
  },
 ]
