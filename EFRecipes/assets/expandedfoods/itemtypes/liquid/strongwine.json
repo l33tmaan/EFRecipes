@@ -44,31 +44,31 @@
 		distillationPropsbytype: {
 			"strongwineportion-mead": {
 			distilledStack: { type: "item", code: "game:spiritportion-mead" }, 
-			ratio: 0.05 
+			ratio: 0.1 
 			},
 			"strongwineportion-spelt": {
 			distilledStack: { type: "item", code: "game:spiritportion-spelt" }, 
-			ratio: 0.05 
+			ratio: 0.1 
 			},
 			"strongwineportion-rice": {
-			distilledStack: { type: "item", code: "game:spiritportion-rice" }, 
-			ratio: 0.05 
+			distilledStack: { type: "item", code: "game:spiritportion-rice" },
+			ratio: 0.1 
 			},
 			"strongwineportion-rye": {
 			distilledStack: { type: "item", code: "game:spiritportion-rye" }, 
-			ratio: 0.05 
+			ratio: 0.1 
 			},
 			"strongwineportion-amaranth": {
 			distilledStack: { type: "item", code: "game:spiritportion-amaranth" }, 
-			ratio: 0.05 
+			ratio: 0.1 
 			},
 			"strongwineportion-cassava": {
 			distilledStack: { type: "item", code: "game:spiritportion-cassava" }, 
-			ratio: 0.05 
+			ratio: 0.1 
 			},			
 			"*": {
 			distilledStack: { type: "item", code: "game:spiritportion-{fruit}" },
-			ratio: 0.1
+			ratio: 0.2
 			}
 		}		
 	},

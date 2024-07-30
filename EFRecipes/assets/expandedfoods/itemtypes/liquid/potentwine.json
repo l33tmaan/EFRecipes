@@ -44,10 +44,36 @@
 				foodcategory: "Fruit"
 			},
 		},
-		distillationProps: {
-			distilledStack: { type: "item", code: "game:alcoholportion" },
-			ratio: 0.05
-		},
+		distillationPropsbytype: {
+			"potentwineportion-mead": {
+			distilledStack: { type: "item", code: "game:spiritportion-mead" }, 
+			ratio: 0.1 
+			},
+			"potentwineportion-spelt": {
+			distilledStack: { type: "item", code: "game:spiritportion-spelt" }, 
+			ratio: 0.2 
+			},
+			"potentwineportion-rice": {
+			distilledStack: { type: "item", code: "game:spiritportion-rice" },
+			ratio: 0.2 
+			},
+			"potentwineportion-rye": {
+			distilledStack: { type: "item", code: "game:spiritportion-rye" }, 
+			ratio: 0.2 
+			},
+			"potentwineportion-amaranth": {
+			distilledStack: { type: "item", code: "game:spiritportion-amaranth" }, 
+			ratio: 0.2 
+			},
+			"potentwineportion-cassava": {
+			distilledStack: { type: "item", code: "game:spiritportion-cassava" }, 
+			ratio: 0.2 
+			},			
+			"*": {
+			distilledStack: { type: "item", code: "game:spiritportion-{fruit}" },
+			ratio: 0.4
+			}
+		}		
 	},
 	transitionableProps: [{
     		type: "Perish",
