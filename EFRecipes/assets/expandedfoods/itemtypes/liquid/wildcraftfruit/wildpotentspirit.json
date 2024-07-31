@@ -5,6 +5,7 @@
 	variantgroups: [
 		{ code: "fruit", "loadFromProperties": "wildcraftfruit:block/fruit" },
 	],
+	"skipVariants": ["*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-chinaberry", "*-beachalmondwhole", "*-lillypillywhite", "*-lillypillyblue", "*-lemon"],
 	attributes: {
 		handbook: {
 			ignoreCreativeInvStacks: true
