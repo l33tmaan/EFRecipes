@@ -18,6 +18,7 @@
 				"*-breadfruit": 250,
 				"*":  120 
 			},
+			healthByType:  { "*-saguaro": 0.5 },
 			foodcategory: "Fruit" 
 		},
 		bakingProperties: {
@@ -164,7 +165,7 @@
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
-		"*-saguaro": { satiety: 50, health: 1, foodcategory: "Fruit" },
+		"*-saguaro": { satiety: 50, health: 0.5, foodcategory: "Fruit" },
 		"*-cranberry": { satiety: 50, foodcategory: "Fruit" },
 		"*-cherry": { satiety: 35, foodcategory: "Fruit" },
 		"*-lychee": { satiety: 35, foodcategory: "Fruit" },
