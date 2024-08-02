@@ -6,11 +6,11 @@
 		"handbook": { "groupBy": ["herbalbreadcrumbs-*"] },
 		nutritionPropsWhenInMeal: {
 			satietyByType: {
-				"*-flax": 160,
-				"*-rice": 320,
-				"*": 300
+				"*-flax": 80,
+				"*-rice": 160,
+				"*": 150
 			},
-			"health": 1,
+			"health": 0.5,
 			foodcategory: "Grain" 
 		},
 		expandedNutritionProps: {
