@@ -355,7 +355,12 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:dumpling-raw"
+            "code": "expandedfoods:dumpling-raw",
+            "shapeElement": "bowl/dumplings1/*",
+     	    "textureMapping": [
+       		    "dumpling",
+        	    "dumpling"
+     	    ]
         },
         {
             "type": "item",
@@ -905,10 +910,6 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:dumpling-raw"
-        },
-        {
-            "type": "item",
             "code": "expandedfoods:fishnugget-raw",
             "shapeElement": "bowl/meatnugget 2/*",
             "textureMapping": [ "meatnugget", "group1" ]
@@ -1391,7 +1392,12 @@
     "value": [
         {
             "type": "item",
-            "code": "expandedfoods:dumpling-raw"
+            "code": "expandedfoods:dumpling-raw",
+            "shapeElement": "bowl/dumplings2/*",
+     	    "textureMapping": [
+       		    "dumpling",
+        	    "dumpling"
+     	    ]
         },
         {
             "type": "item",
@@ -1878,10 +1884,6 @@
     "op": "addeach",
     "path": "/ingredients/5/validStacks/-",
     "value": [
-        {
-            "type": "item",
-            "code": "expandedfoods:dumpling-raw"
-        },
         {
             "type": "item",
             "code": "expandedfoods:choppedvegetable-carrot",

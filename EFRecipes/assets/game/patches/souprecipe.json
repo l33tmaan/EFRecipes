@@ -129,15 +129,6 @@
         "vegetablebroth"
       ]
     },
-    ],
-    side: "server",
-    "file": "recipes/cooking/soup.json"
-  },
-  {
-    "file": "game:recipes/cooking/soup.json",
-    "op": "addeach",
-    "path": "/ingredients/0/validStacks/-",
-    "value": [
         {
           "type": "item",
           "code": "expandedfoods:brothportion-fish",
@@ -158,7 +149,7 @@
         },
     ],
     side: "server",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    "file": "recipes/cooking/soup.json"
   },
  {
     "op": "addeach",
@@ -166,7 +157,12 @@
     "value": [
  {
       "type": "item",
-      "code": "expandedfoods:dumpling-raw"
+      "code": "expandedfoods:dumpling-raw",
+      "shapeElement": "bowl/dumplings1/*",
+     	    "textureMapping": [
+       		    "dumpling",
+        	    "dumpling"
+     	    ]
     },
  {
       "type": "item",
@@ -650,7 +646,12 @@
     "value": [
     {
       "type": "item",
-      "code": "expandedfoods:dumpling-raw"
+      "code": "expandedfoods:dumpling-raw",
+      "shapeElement": "bowl/dumplings2/*",
+      "textureMapping": [
+            "dumpling",
+        	"dumpling"
+          ]
     },
  {
       "type": "item",
@@ -1123,10 +1124,6 @@
     "op": "addeach",
     "path": "/ingredients/3/validStacks/-",
     "value": [
-    {
-      "type": "item",
-      "code": "expandedfoods:dumpling-raw"
-    },
  {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-carrot",
@@ -1600,7 +1597,12 @@
     "value": [
         {
             "type": "item",
-            "code": "expandedfoods:dumpling-raw"
+            "code": "expandedfoods:dumpling-raw",
+            "shapeElement": "bowl/dumplings3/*",
+     	    "textureMapping": [
+       		    "dumpling",
+        	    "dumpling"
+     	    ]
         },
         {
             "type": "item",
@@ -2133,5 +2135,34 @@
     side: "server",
     "file": "recipes/cooking/soup.json",	
 	dependsOn: [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/8",
+    "value": {
+      "code": "noodles",
+      "validStacks": [
+        { "type": "item", "code": "expandedfoods:pasta-cut", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] },
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "side": "server",
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "expandedfoods:acornpasta-cut",
+        "shapeElement": "bowl/noodles/*",
+        "textureMapping": [ "noodles", "pasta" ],
+        "minQuantity": 0,
+        "maxQuantity": 1
+    },
+    "side": "server",
+    "file": "recipes/cooking/soup.json",
+	dependsOn: [{ "modid": "acorns" }]
   },
 ]

@@ -7726,4 +7726,13 @@
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraftfruit" }]
   },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/dumpling",
+    "value": {
+      "base": "expandedfoods:item/food/dumpling/ricecooked"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+  },
 ]
