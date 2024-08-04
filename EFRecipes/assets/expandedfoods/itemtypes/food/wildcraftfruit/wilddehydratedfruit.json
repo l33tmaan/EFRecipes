@@ -266,6 +266,18 @@
 				"transitionRatio": 1
 			},
 		],
+		"*-fractureberry": [
+			{
+				"type": "Dry",
+				"freshHours": { "avg": 0 },
+				"transitionHours": { "avg": 720 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "expandedfoods:wilddryfruit-{type}"
+				},
+				"transitionRatio": 1
+			}
+		],
 	},
 	guiTransformByType: {
 		"*-pittedbeachalmond": {
