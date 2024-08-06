@@ -583,6 +583,42 @@
     "op": "add",
     "path": "/attributes/contentConfig/-",
     "value": {
+      "code": "breadcrumbs-maple",
+      "content": {
+        "type": "item",
+        "code": "expandedfoods:breadcrumbs-maple"
+      },
+      "quantityPerFillLevel": 1,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/large/eggfill1",
+        "block/wood/trough/large/eggfill1",
+        "block/wood/trough/large/eggfill2",
+        "block/wood/trough/large/eggfill2",
+        "block/wood/trough/large/eggfill3",
+        "block/wood/trough/large/eggfill3",
+        "block/wood/trough/large/eggfill4",
+        "block/wood/trough/large/eggfill4"
+      ],
+      "textureCode": "contents-maple"
+    },
+    side: "server",
+    "file": "blocktypes/wood/trough-large.json",
+    dependsOn: [{ "modid": "ancienttools"}]
+  },
+  {
+    "op": "add",
+    "path": "/textures/contents-maple",
+    "value": {
+      "base": "block/wood/trough/small/maple"
+    },
+    "file": "blocktypes/wood/trough-large.json",
+    dependsOn: [{ "modid": "ancienttools"}]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
       "code": "acornbreadcrumbs",
       "content": {
         "type": "item",
