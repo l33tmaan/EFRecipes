@@ -19,7 +19,7 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:fishnugget-cookedpartbaked",
+				code: "expandedfoods:fishnugget-cooked",
 				"quantity":  1
 			},
 			requiresContainer: false
@@ -46,32 +46,6 @@
 			smeltedStack: {
 				type: "item",
 				code: "expandedfoods:fishnugget-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:fishnugget-cooked",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:fishnugget-cookedcharred",
 				"quantity":  1
 			},
 			requiresContainer: false
@@ -97,7 +71,7 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:fishnugget-tenderpartbaked",
+				code: "expandedfoods:fishnugget-tender",
 				"quantity":  1
 			},
 			requiresContainer: false
@@ -124,32 +98,6 @@
 			smeltedStack: {
 				type: "item",
 				code: "expandedfoods:fishnugget-tender",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:fishnugget-tender",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:fishnugget-tendercharred",
 				"quantity":  1
 			},
 			requiresContainer: false

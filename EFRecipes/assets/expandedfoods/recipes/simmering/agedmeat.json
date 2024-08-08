@@ -1,4 +1,5 @@
 ﻿[
+
 	{
 		Ingredients: [
 			{
@@ -8,9 +9,9 @@
 			},
 			{
 				type: "item",
-				code: "expandedfoods:sausagesnake-*-raw",
+				code: "expandedfoods:agedmeat-*-cut",
 				quantity: 1,
-				"name": "type"
+				"name": "meat",
 			}
 		],
 		Simmering: {
@@ -20,7 +21,7 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:sausagesnake-{type}-cooked",
+				code: "expandedfoods:agedmeat-{meat}-tender",
 				"quantity":  1
 			},
 			requiresContainer: false
@@ -35,9 +36,9 @@
 			},
 			{
 				type: "item",
-				code: "expandedfoods:sausagesnake-*-partbaked",
+				code: "expandedfoods:agedmeat-*-tenderpartbaked",
 				quantity: 1,
-				"name": "type"
+				"name": "meat",
 			}
 		],
 		Simmering: {
@@ -47,7 +48,7 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:sausagesnake-{type}-cooked",
+				code: "expandedfoods:agedmeat-{meat}-tender",
 				"quantity":  1
 			},
 			requiresContainer: false
@@ -62,9 +63,9 @@
 			},
 			{
 				type: "item",
-				code: "expandedfoods:sausagesnake-*-dried",
+				code: "expandedfoods:agedmeat-*-raw",
 				quantity: 1,
-				"name": "type"
+				"name": "meat",
 			}
 		],
 		Simmering: {
@@ -74,7 +75,7 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:sausagesnake-{type}-driedcooked",
+				code: "expandedfoods:agedmeat-{meat}-meatball",
 				"quantity":  1
 			},
 			requiresContainer: false
@@ -89,9 +90,9 @@
 			},
 			{
 				type: "item",
-				code: "expandedfoods:sausagesnake-*-driedpartbaked",
+				code: "expandedfoods:agedmeat-*-meatballpartbaked",
 				quantity: 1,
-				"name": "type"
+				"name": "meat",
 			}
 		],
 		Simmering: {
@@ -101,10 +102,11 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:sausagesnake-{type}-driedcooked",
+				code: "expandedfoods:agedmeat-{meat}-meatball",
 				"quantity":  1
 			},
 			requiresContainer: false
 		}
 	},
+
 ]

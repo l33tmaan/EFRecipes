@@ -8,8 +8,9 @@
 			},
 			{
 				type: "item",
-				code: "expandedfoods:sausagecrab-normal-raw",
+				code: "expandedfoods:sausagecrab-*-raw",
 				quantity: 1,
+				"name": "type"
 			}
 		],
 		Simmering: {
@@ -19,7 +20,7 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:sausagecrab-normal-partbaked",
+				code: "expandedfoods:sausagecrab-{type}-cooked",
 				"quantity":  1
 			},
 			requiresContainer: false
@@ -34,8 +35,9 @@
 			},
 			{
 				type: "item",
-				code: "expandedfoods:sausagecrab-normal-partbaked",
+				code: "expandedfoods:sausagecrab-*-partbaked",
 				quantity: 1,
+				"name": "type"
 			}
 		],
 		Simmering: {
@@ -45,7 +47,7 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:sausagecrab-normal-cooked",
+				code: "expandedfoods:sausagecrab-{type}-cooked",
 				"quantity":  1
 			},
 			requiresContainer: false
@@ -60,8 +62,9 @@
 			},
 			{
 				type: "item",
-				code: "expandedfoods:sausagecrab-normal-cooked",
+				code: "expandedfoods:sausagecrab-*-dried",
 				quantity: 1,
+				"name": "type"
 			}
 		],
 		Simmering: {
@@ -71,7 +74,7 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:sausagecrab-normal-charred",
+				code: "expandedfoods:sausagecrab-{type}-driedcooked",
 				"quantity":  1
 			},
 			requiresContainer: false
@@ -86,8 +89,9 @@
 			},
 			{
 				type: "item",
-				code: "expandedfoods:sausagecrab-normal-dried",
+				code: "expandedfoods:sausagecrab-*-driedpartbaked",
 				quantity: 1,
+				"name": "type"
 			}
 		],
 		Simmering: {
@@ -97,215 +101,7 @@
 			smeltingType: "bake",
 			smeltedStack: {
 				type: "item",
-				code: "expandedfoods:sausagecrab-normal-driedpartbaked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagecrab-normal-driedpartbaked",
-				quantity: 1,
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagecrab-normal-driedcooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagecrab-normal-driedcooked",
-				quantity: 1,
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagecrab-normal-driedcharred",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-raw",
-				quantity: 1,
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-partbaked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-partbaked",
-				quantity: 1,
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-cooked",
-				quantity: 1,
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-charred",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-dried",
-				quantity: 1,
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-driedpartbaked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-driedpartbaked",
-				quantity: 1,
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-driedcooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-driedcooked",
-				quantity: 1,
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagecrab-cheese-driedcharred",
+				code: "expandedfoods:sausagecrab-{type}-driedcooked",
 				"quantity":  1
 			},
 			requiresContainer: false

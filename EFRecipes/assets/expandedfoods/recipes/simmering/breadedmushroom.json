@@ -8,8 +8,9 @@
 		},
 		{
 			type: "item",
-			code: "expandedfoods:breadedmushroom-flax-raw",
-			quantity: 1
+			code: "expandedfoods:breadedmushroom-*-raw",
+			quantity: 1,
+			"name": "grain",
 		},
 	],
 	Simmering: {
@@ -19,7 +20,7 @@
 		smeltingType: "bake",
 		smeltedStack: {
 			type: "item",
-			code: "expandedfoods:breadedmushroom-flax-cooked"
+			code: "expandedfoods:breadedmushroom-{grain}-cooked"
 		},
 		requiresContainer: false
 	}
@@ -33,8 +34,9 @@
 		},
 		{
 			type: "item",
-			code: "expandedfoods:breadedmushroom-flax-raw",
-			quantity: 1
+			code: "expandedfoods:breadedmushroom-*-raw",
+			quantity: 1,
+			"name": "grain",
 		},
 	],
 	Simmering: {
@@ -44,310 +46,9 @@
 		smeltingType: "bake",
 		smeltedStack: {
 			type: "item",
-			code: "expandedfoods:breadedmushroom-flax-cooked"
+			code: "expandedfoods:breadedmushroom-{grain}-cooked"
 		},
 		requiresContainer: false
 	}
 },
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-rice-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-rice-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-rice-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-rice-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-rye-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-rye-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-rye-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-rye-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-spelt-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-spelt-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-spelt-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-spelt-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-cassava-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-cassava-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-cassava-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-cassava-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-amaranth-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-amaranth-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-amaranth-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-amaranth-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-sunflower-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-sunflower-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedmushroom-sunflower-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedmushroom-sunflower-cooked"
-		},
-		requiresContainer: false
-	}
-},
-
 ]

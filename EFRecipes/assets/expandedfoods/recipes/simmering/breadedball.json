@@ -8,8 +8,9 @@
 		},
 		{
 			type: "item",
-			code: "expandedfoods:breadedball-flax-raw",
-			quantity: 1
+			code: "expandedfoods:breadedball-*-raw",
+			quantity: 1,
+			"name": "grain",
 		},
 	],
 	Simmering: {
@@ -19,7 +20,7 @@
 		smeltingType: "bake",
 		smeltedStack: {
 			type: "item",
-			code: "expandedfoods:breadedball-flax-cooked"
+			code: "expandedfoods:breadedball-{grain}-cooked"
 		},
 		requiresContainer: false
 	}
@@ -33,8 +34,9 @@
 		},
 		{
 			type: "item",
-			code: "expandedfoods:breadedball-flax-raw",
-			quantity: 1
+			code: "expandedfoods:breadedball-*-raw",
+			quantity: 1,
+			"name": "grain",
 		},
 	],
 	Simmering: {
@@ -44,307 +46,7 @@
 		smeltingType: "bake",
 		smeltedStack: {
 			type: "item",
-			code: "expandedfoods:breadedball-flax-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-rice-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-rice-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-rice-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-rice-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-rye-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-rye-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-rye-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-rye-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-spelt-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-spelt-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-spelt-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-spelt-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-cassava-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-cassava-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-cassava-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-cassava-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-amaranth-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-amaranth-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-amaranth-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-amaranth-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-sunflower-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-sunflower-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedball-sunflower-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedball-sunflower-cooked"
+			code: "expandedfoods:breadedball-{grain}-cooked"
 		},
 		requiresContainer: false
 	}

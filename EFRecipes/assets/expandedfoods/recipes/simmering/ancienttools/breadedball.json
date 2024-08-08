@@ -8,8 +8,9 @@
 		},
 		{
 			type: "item",
-			code: "expandedfoods:breadedball-birch-raw",
-			quantity: 1
+			code: "expandedfoods:breadedball-*-raw",
+			quantity: 1,
+			"name": "grain"
 		},
 	],
 	Simmering: {
@@ -19,7 +20,7 @@
 		smeltingType: "bake",
 		smeltedStack: {
 			type: "item",
-			code: "expandedfoods:breadedball-birch-cooked"
+			code: "expandedfoods:breadedball-{grain}-cooked"
 		},
 		requiresContainer: false
 	}
@@ -33,8 +34,9 @@
 		},
 		{
 			type: "item",
-			code: "expandedfoods:breadedball-birch-raw",
-			quantity: 1
+			code: "expandedfoods:breadedball-*-raw",
+			quantity: 1,
+			"name": "grain"
 		},
 	],
 	Simmering: {
@@ -44,60 +46,9 @@
 		smeltingType: "bake",
 		smeltedStack: {
 			type: "item",
-			code: "expandedfoods:breadedball-birch-cooked"
+			code: "expandedfoods:breadedball-{grain}-cooked"
 		},
 		requiresContainer: false
 	}
 },
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedball-pine-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedball-pine-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedball-pine-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedball-pine-cooked"
-    },
-    requiresContainer: false
-  }
-},
-
 ]

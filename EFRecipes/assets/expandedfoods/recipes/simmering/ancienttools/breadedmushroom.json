@@ -8,8 +8,9 @@
 		},
 		{
 			type: "item",
-			code: "expandedfoods:breadedmushroom-birch-raw",
-			quantity: 1
+			code: "expandedfoods:breadedmushroom-*-raw",
+			quantity: 1,
+			"name": "grain"
 		},
 	],
 	Simmering: {
@@ -19,7 +20,7 @@
 		smeltingType: "bake",
 		smeltedStack: {
 			type: "item",
-			code: "expandedfoods:breadedmushroom-birch-cooked"
+			code: "expandedfoods:breadedmushroom-{grain}-cooked"
 		},
 		requiresContainer: false
 	}
@@ -33,8 +34,9 @@
 		},
 		{
 			type: "item",
-			code: "expandedfoods:breadedmushroom-birch-raw",
-			quantity: 1
+			code: "expandedfoods:breadedmushroom-*-raw",
+			quantity: 1,
+			"name": "grain"
 		},
 	],
 	Simmering: {
@@ -44,60 +46,9 @@
 		smeltingType: "bake",
 		smeltedStack: {
 			type: "item",
-			code: "expandedfoods:breadedmushroom-birch-cooked"
+			code: "expandedfoods:breadedmushroom-{grain}-cooked"
 		},
 		requiresContainer: false
 	}
 },
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedmushroom-pine-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedmushroom-pine-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedmushroom-pine-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedmushroom-pine-cooked"
-    },
-    requiresContainer: false
-  }
-},
-
 ]

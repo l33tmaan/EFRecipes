@@ -2,196 +2,28 @@
 	{
 		Ingredients: [
 			{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-flax-smashed", quantity: 1 },
+			{ type: "item", code: "expandedfoods:breadedfishnugget-*-smashed", quantity: 1, "name": "grain" },
 		],
 		Simmering: {
 			meltingPoint: 150,
 			meltingDuration: 10,
 			smeltedRatio: 1,
 			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-flax-tender" },
+			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-{grain}-tender" },
 			requiresContainer: false
 		}
 	},
 	{
 		Ingredients: [
 			{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-flax-smashed", quantity: 1 },
+			{ type: "item", code: "expandedfoods:breadedfishnugget-*-smashed", quantity: 1, "name": "grain" },
 		],
 		Simmering: {
 			meltingPoint: 150,
 			meltingDuration: 10,
 			smeltedRatio: 1,
 			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-flax-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-rice-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-rice-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-rice-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-rice-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-rye-smashed", quantity: 1 },
-		],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 10,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-rye-tender" },
-		requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-rye-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-rye-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-spelt-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-spelt-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-spelt-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-spelt-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-cassava-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-cassava-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-cassava-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-cassava-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-amaranth-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-amaranth-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-amaranth-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-amaranth-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-sunflower-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-sunflower-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:breadedfishnugget-sunflower-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-sunflower-tender" },
+			smeltedStack: { type: "item", code: "expandedfoods:breadedfishnugget-{grain}-tender" },
 			requiresContainer: false
 		}
 	},

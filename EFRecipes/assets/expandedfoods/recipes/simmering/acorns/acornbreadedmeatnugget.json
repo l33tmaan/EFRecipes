@@ -2,84 +2,28 @@
 	{
 		Ingredients: [
 			{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-smashed", quantity: 1 },
+			{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-*-smashed", quantity: 1, "name": "meat" },
 		],
 		Simmering: {
 			meltingPoint: 150,
 			meltingDuration: 10,
 			smeltedRatio: 1,
 			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-tender" },
+			smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-{meat}-tender" },
 			requiresContainer: false
 		}
 	},
 	{
 		Ingredients: [
 			{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-smashed", quantity: 1 },
+			{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-*-smashed", quantity: 1, "name": "meat" },
 		],
 		Simmering: {
 			meltingPoint: 150,
 			meltingDuration: 10,
 			smeltedRatio: 1,
 			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-tender" },
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-smashed", quantity: 1 },
-		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 10,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-tender" },
+			smeltedStack: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-{meat}-tender" },
 			requiresContainer: false
 		}
 	},

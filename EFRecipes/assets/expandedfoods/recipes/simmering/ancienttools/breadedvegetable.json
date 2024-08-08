@@ -8,8 +8,9 @@
 		},
 		{
 			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-carrot-raw",
-			quantity: 1
+			code: "expandedfoods:breadedvegetable-birch-*-raw",
+			quantity: 1,
+			"name": "vegetable"
 		},
 	],
 	Simmering: {
@@ -19,7 +20,7 @@
 		smeltingType: "bake",
 		smeltedStack: {
 			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-carrot-cooked"
+			code: "expandedfoods:breadedvegetable-birch-{vegetable}-cooked"
 		},
 		requiresContainer: false
 	}
@@ -33,8 +34,9 @@
 		},
 		{
 			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-carrot-raw",
-			quantity: 1
+			code: "expandedfoods:breadedvegetable-birch-*-raw",
+			quantity: 1,
+			"name": "vegetable"
 		},
 	],
 	Simmering: {
@@ -44,513 +46,11 @@
 		smeltingType: "bake",
 		smeltedStack: {
 			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-carrot-cooked"
+			code: "expandedfoods:breadedvegetable-birch-{vegetable}-cooked"
 		},
 		requiresContainer: false
 	}
 },
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-onion-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-onion-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-onion-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-onion-cooked"
-		},
-		requiresContainer: false
-	}
-},
-
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-turnip-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-turnip-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-turnip-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-turnip-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-parsnip-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-parsnip-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-parsnip-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-parsnip-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pumpkin-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pumpkin-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pumpkin-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pumpkin-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledcarrot-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledcarrot-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledcarrot-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledcarrot-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledonion-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledonion-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledonion-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledonion-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledturnip-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledturnip-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledturnip-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledturnip-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledparsnip-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledparsnip-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledparsnip-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledparsnip-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledpumpkin-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledpumpkin-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledpumpkin-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-pickledpumpkin-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-cassava-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-cassava-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-cassava-raw",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-cassava-cooked"
-		},
-		requiresContainer: false
-	}
-},
-
 {
   Ingredients: [
     {
@@ -560,8 +60,9 @@
     },
     {
       type: "item",
-      code: "expandedfoods:breadedvegetable-pine-carrot-raw",
-      quantity: 1
+      code: "expandedfoods:breadedvegetable-pine-*-raw",
+      quantity: 1,
+	  "name": "vegetable"
     },
   ],
   Simmering: {
@@ -571,7 +72,7 @@
     smeltingType: "bake",
     smeltedStack: {
       type: "item",
-      code: "expandedfoods:breadedvegetable-pine-carrot-cooked"
+      code: "expandedfoods:breadedvegetable-pine-{vegetable}-cooked"
     },
     requiresContainer: false
   }
@@ -585,8 +86,9 @@
     },
     {
       type: "item",
-      code: "expandedfoods:breadedvegetable-pine-carrot-raw",
-      quantity: 1
+      code: "expandedfoods:breadedvegetable-pine-*-raw",
+      quantity: 1,
+	  "name": "vegetable"
     },
   ],
   Simmering: {
@@ -596,7 +98,7 @@
     smeltingType: "bake",
     smeltedStack: {
       type: "item",
-      code: "expandedfoods:breadedvegetable-pine-carrot-cooked"
+      code: "expandedfoods:breadedvegetable-pine-{vegetable}-cooked"
     },
     requiresContainer: false
   }
@@ -610,8 +112,9 @@
     },
     {
       type: "item",
-      code: "expandedfoods:breadedvegetable-pine-onion-raw",
-      quantity: 1
+      code: "expandedfoods:breadedvegetable-maple-*-raw",
+      quantity: 1,
+	  "name": "vegetable"
     },
   ],
   Simmering: {
@@ -621,7 +124,7 @@
     smeltingType: "bake",
     smeltedStack: {
       type: "item",
-      code: "expandedfoods:breadedvegetable-pine-onion-cooked"
+      code: "expandedfoods:breadedvegetable-maple-{vegetable}-cooked"
     },
     requiresContainer: false
   }
@@ -635,8 +138,9 @@
     },
     {
       type: "item",
-      code: "expandedfoods:breadedvegetable-pine-onion-raw",
-      quantity: 1
+      code: "expandedfoods:breadedvegetable-maple-*-raw",
+      quantity: 1,
+	  "name": "vegetable"
     },
   ],
   Simmering: {
@@ -646,458 +150,7 @@
     smeltingType: "bake",
     smeltedStack: {
       type: "item",
-      code: "expandedfoods:breadedvegetable-pine-onion-cooked"
-    },
-    requiresContainer: false
-  }
-},
-
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-turnip-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-turnip-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-turnip-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-turnip-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-parsnip-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-parsnip-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-parsnip-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-parsnip-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pumpkin-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pumpkin-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pumpkin-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pumpkin-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledcarrot-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledcarrot-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledcarrot-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledcarrot-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledonion-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledonion-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledonion-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledonion-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledturnip-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledturnip-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledturnip-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledturnip-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledparsnip-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledparsnip-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledparsnip-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledparsnip-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledpumpkin-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledpumpkin-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledpumpkin-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-pickledpumpkin-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-cassava-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-cassava-cooked"
-    },
-    requiresContainer: false
-  }
-},
-{
-  Ingredients: [
-    {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
-    },
-    {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-cassava-raw",
-      quantity: 1
-    },
-  ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-cassava-cooked"
+      code: "expandedfoods:breadedvegetable-maple-{vegetable}-cooked"
     },
     requiresContainer: false
   }
