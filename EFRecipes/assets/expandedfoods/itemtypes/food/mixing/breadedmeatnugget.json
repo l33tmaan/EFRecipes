@@ -5,7 +5,7 @@
 	variantgroups: [
 
 		{ code: "type",	states: [ "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower", 
-				"birch", "pine", "maple" ]},
+				"birch", "pine", "maple", "acorn" ]},
 		{ code: "meat", states: ["bushmeat", "poultry", "redmeat"]},	
 		{ code: "state", states: ["smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled"] },
 	],
@@ -24,6 +24,7 @@
       		"game:flour-pine" : { saturation: 50, foodcategory: "Grain" },
       		"game:flour-maple" : { saturation: 50, foodcategory: "Grain" },
 			"acorns:flour-acorn": {saturation: 150, foodcategory: "Grain"},
+			"wildcraft:flour-acorn": {saturation: 150, foodcategory: "Grain"},
 			"expandedfoods:breadcrumbs-flax": {saturation: 80, foodcategory: "Grain"},
 			"expandedfoods:breadcrumbs-rice": {saturation: 160, foodcategory: "Grain"},
 			"expandedfoods:breadcrumbs-spelt": {saturation: 150, foodcategory: "Grain"},
@@ -34,6 +35,7 @@
 			"expandedfoods:breadcrumbs-birch": {saturation: 50, foodcategory: "Grain"},
 			"expandedfoods:breadcrumbs-pine": {saturation: 50, foodcategory: "Grain"},
 			"expandedfoods:breadcrumbs-maple": {saturation: 50, foodcategory: "Grain"},
+			"expandedfoods:breadcrumbs-acorn": {saturation: 160, foodcategory: "Grain"},
 			"expandedfoods:herbalbreadcrumbs": {saturation: 150, "health": 0.5, foodcategory: "Grain"},
 			"aculinaryartillery:eggwhiteportion": { saturation: 3, foodcategory: "Protein"},
 			"aculinaryartillery:eggyolkportion-chicken": { saturation: 17, foodcategory: "Protein"},

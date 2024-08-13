@@ -1,0 +1,26 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    op: "add", 
+    path: "/textures/acornbread",
+    value: { base: "wildcraftfruit:item/food/grain/acornbread" },
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftfruit"}]
+ },
+ {
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    op: "add", 
+    path: "/textures/acornbread1",
+    value:  { base: "wildcraftfruit:item/food/grain/acornbread1" },
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftfruit"}]
+ },
+ {
+    "file": "expandedfoods:itemtypes/food/mixing/berrybread.json",
+    op: "add", 
+    path: "/textures/acornbread2",
+    value: { base: "wildcraftfruit:item/food/grain/acornbread2" },
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftfruit"}]
+ },
+]

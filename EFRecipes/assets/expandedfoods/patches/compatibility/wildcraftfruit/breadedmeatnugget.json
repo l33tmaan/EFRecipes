@@ -1,0 +1,10 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmeatnugget.json",
+    op: "add", 
+    path: "/skipVariants",
+    value: [ "breadedmeatnugget-acorn-*"],
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+ },
+]

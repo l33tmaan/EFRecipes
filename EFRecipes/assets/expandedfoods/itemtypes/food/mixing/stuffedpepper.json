@@ -6,7 +6,7 @@
 		{
 			code: "type",
 			states: [ "bare", "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower", 
-				"birch", "pine", "maple" ]},
+				"birch", "pine", "maple", "acorn" ]},
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupcooked", "syrupcharred", "oiled"] },
 	],
 	skipVariants: [
@@ -31,6 +31,7 @@
       		"game:flour-pine" : { saturation: 50, foodcategory: "Grain" },
       		"game:flour-maple" : { saturation: 50, foodcategory: "Grain" },
 			"acorns:flour-acorn": {saturation: 150, foodcategory: "Grain"},
+			"wildcraft:flour-acorn": {saturation: 150, foodcategory: "Grain"},
 			"expandedfoods:breadcrumbs-flax": {saturation: 80, foodcategory: "Grain"},
 			"expandedfoods:breadcrumbs-rice": {saturation: 160, foodcategory: "Grain"},
 			"expandedfoods:breadcrumbs-spelt": {saturation: 150, foodcategory: "Grain"},
@@ -40,6 +41,7 @@
 			"expandedfoods:breadcrumbs-sunflower": {saturation: 150, foodcategory: "Grain"},
 			"expandedfoods:breadcrumbs-birch": {saturation: 150, foodcategory: "Grain"},
 			"expandedfoods:breadcrumbs-pine": {saturation: 150, foodcategory: "Grain"},
+			"expandedfoods:breadcrumbs-acorn": {saturation: 160, foodcategory: "Grain"},
     		"expandedfoods:foodoilportion-*" : { saturation: 6.4, "health": 0.1, foodcategory: "Vegetable" },
     		"expandedfoods:treesyrupportion-*" : { saturation: 9.6, "health": 0.1, foodcategory: "Fruit" },
     		"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.2, foodcategory: "Fruit" }, 
