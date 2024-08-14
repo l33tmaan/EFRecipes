@@ -1,0 +1,74 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/wildcraftherb/mixing/herbalbread.json",
+    "side": "server",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalbread.json",
+    "side": "server",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalbread.json",
+    "side": "server",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalbread.json",
+    "side": "server",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalbread.json",
+    "side": "server",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalbread.json",
+    "side": "server",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalbreadsyrup.json",
+    "side": "server",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalbreadsyrup.json",
+    "side": "server",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalbreadsyrup.json",
+    "side": "server",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+]

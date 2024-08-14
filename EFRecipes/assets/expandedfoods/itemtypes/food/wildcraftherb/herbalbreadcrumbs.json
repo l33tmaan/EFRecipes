@@ -6,8 +6,6 @@
 		"handbook": { "groupBy": ["herbalbreadcrumbs-*"] },
 		nutritionPropsWhenInMeal: {
 			satietyByType: {
-				"*-flax": 80,
-				"*-rice": 160,
 				"*": 150
 			},
 			"health": 0.5,
@@ -24,9 +22,7 @@
 	shape: { base: "item/food/bread/crumbs/breadcrumbs-spelt" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
-		"*-flax": { saturation: 40, "health": 0.25, foodcategory: "Grain" },
-		"*-rice": { saturation: 80, "health": 0.25, foodcategory: "Grain" },
-		"*": { saturation: 75, "health": 0.25, foodcategory: "Grain" }
+		"*": { saturation: 75, foodcategory: "Grain" }
 	},
   	textures: {
 		"breadcrumbs-amaranth": {base: "item/food/grain/herbal/crumbs/breadcrumbs-amaranth" },
