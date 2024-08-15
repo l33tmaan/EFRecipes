@@ -1,0 +1,42 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/wildcraftherb/mixing/herbalhardtack.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalhardtack.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalhardtack.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalhardtack.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/herbalhardtack.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    side: "server",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+]
