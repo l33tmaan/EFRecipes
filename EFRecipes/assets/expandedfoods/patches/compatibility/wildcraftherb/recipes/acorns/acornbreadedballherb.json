@@ -1,0 +1,18 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+ },
+]

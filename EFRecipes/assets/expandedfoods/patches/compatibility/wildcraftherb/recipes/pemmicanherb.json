@@ -1,0 +1,18 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/pemmicanherb.json",
+    "side": "server",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/pemmicanherb.json",
+    "side": "server",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+ },
+]

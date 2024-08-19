@@ -1,0 +1,34 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/wildcraftherb/mixing/herbalacornhardtack.json",
+    "side": "server",
+    op: "replace", 
+    path: "/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/herbalacornhardtack.json",
+    "side": "server",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/herbalacornhardtack.json",
+    "side": "server",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/herbalacornhardtack.json",
+    "side": "server",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+ },
+]
