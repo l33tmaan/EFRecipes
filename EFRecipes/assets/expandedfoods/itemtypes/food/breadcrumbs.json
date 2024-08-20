@@ -25,6 +25,7 @@
 		{ code: "type", states: ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower", 
 			"birch", "pine", "maple", "acorn" ] },	  
 	],
+	"skipVariants": [ ],
 	shape: { base: "item/food/bread/crumbs/breadcrumbs-{type}" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {

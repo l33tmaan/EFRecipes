@@ -1,9 +1,9 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/breadcrumbs.json",
-    op: "add", 
-    path: "/skipVariants",
-    value: [ "breadcrumbs-acorn"],
+    op: "addeach", 
+    path: "/skipVariants/-",
+    value: [ "breadcrumbs-acorn" ],
     side: "server",
     dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
  },

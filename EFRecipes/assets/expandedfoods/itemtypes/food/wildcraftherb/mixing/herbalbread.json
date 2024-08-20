@@ -663,7 +663,7 @@
 		"fill-wolfberry": { base: "wildcraftfruit:block/food/pie/fill-wolfberry" },
 	},
 	"grindingPropsByType": {
-		"@*-(partbaked|cooked|charred)": { "grindedStack": { "type":  "item", "code": "expandedfoods:herbalbreadcrumbs", "quantity": 4 } },
+		"@*-(partbaked|cooked|charred)": { "GroundStack": { "type":  "item", "code": "expandedfoods:herbalbreadcrumbs", "quantity": 4 } },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
