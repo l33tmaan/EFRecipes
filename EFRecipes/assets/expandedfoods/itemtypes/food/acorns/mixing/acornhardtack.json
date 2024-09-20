@@ -87,11 +87,13 @@
 		},
 	},
 	shapebytype: {
-		"acornhardtack-*-raw": { base: "item/food/hardtack/hardtack-acorn-raw"},
-		"acornhardtack-*-bake1": { base: "item/food/hardtack/hardtack-acorn-partbaked"},
-		"acornhardtack-*-bake2": { base: "item/food/hardtack/hardtack-acorn-baked"},
-		"acornhardtack-*-bake3": { base: "item/food/hardtack/hardtack-acorn-baked"},
-		"acornhardtack-*-bake4": { base: "item/food/hardtack/hardtack-acorn-charred"},
+		"*-raw": { base: "item/food/hardtack/hardtack-raw"},
+		"*": { base: "item/food/hardtack/hardtack-baked"},
+	},
+  	texturesByType: {
+		"*-bake1": { "bread": { base: "game:item/food/grain/acornricebread2" } },
+		"@*-(raw|bake2|bake3)": { "bread": { base: "game:item/food/grain/acornricebread" } },
+		"*-bake4": { "bread": { base: "game:item/food/grain/acornricebread1" } },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {

@@ -68,15 +68,7 @@
 			scale: 0.65 
 		},
 		bakingPropertiesByType: {
-			"*-raw": {
-				temp: 160,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.05,
-				resultCode: "expandedfoods:acornbreadedball-partbaked",
-			},
-			"*-oiled": {
+			"@*-(raw|oiled)": {
 				temp: 160,
 				levelFrom: 0.0,
 				levelTo: 0.25,
@@ -136,32 +128,18 @@
 			},
 		},
 		satMultByType: {
-			"*-partbaked": 0.5,
-			"*-cooked": 1,
-			"*-charred": 0.75,
-			"*-syruppartbaked": 0.5,
-			"*-syrup": 1,
-			"*-syrupcharred": 0.75
+			"@*-(partbaked|syruppartbaked)": 0.5,
+			"@*-(cooked|syrup)": 1,
+			"@*-(charred|syrupcharred)": 0.75,
 		},
 	},
 	shapebytype:	{
-		"*-syruppartbaked": {base: "item/food/balls-syrup"},
-		"*-syrup": {base: "item/food/balls-syrup"},
-		"*-syrupcharred": {base: "item/food/balls-syrup"},
-		"*-partbaked": {base: "item/food/balls-cooked"},
-		"*-cooked": {base: "item/food/balls-cooked"},
-		"*-charred": {base: "item/food/balls-cooked"},
-		"*-oiled": {base: "item/food/balls-raw"},
-		"*-raw": {base: "item/food/balls-raw"},
+		"@*-(syruppartbaked|syrup|syrupcharred)": {base: "item/food/balls-syrup"},
+		"@*-(partbaked|cooked|charred)": {base: "item/food/balls-cooked"},
+		"@*-(raw|oiled)": {base: "item/food/balls-raw"},
 	},
 	texturesByType: { 
-		"*-syruppartbaked": {
-			"breading-syrup": { base: "expandedfoods:item/food/grain/breading/acorn-fish" }, 				
-		},
-		"*-syrup": {
-			"breading-syrup": { base: "expandedfoods:item/food/grain/breading/acorn-fish" }, 				
-		},
-		"*-syrupcharred": {
+		"@*-(syruppartbaked|syrup|syrupcharred)": {
 			"breading-syrup": { base: "expandedfoods:item/food/grain/breading/acorn-fish" }, 				
 		},
 		"*-partbaked": {
@@ -181,39 +159,21 @@
 		},
 	},
 	nutritionPropsByType: {
-		"*-partbaked": { satiety: 55, foodcategory: "Grain" },
-		"*-cooked": { satiety: 60, foodcategory: "Grain" },
-		"*-charred": { satiety: 50, foodcategory: "Grain" },
-		"*-syruppartbaked": { satiety: 55, foodcategory: "Grain" },
-		"*-syrup": { satiety: 60, foodcategory: "Grain" },
-		"*-syrupcharred": { satiety: 50, foodcategory: "Grain" },
-
+		"@*-(partbaked|syruppartbaked)": { satiety: 55, foodcategory: "Grain" },
+		"@*-(cooked|syrup)": { satiety: 60, foodcategory: "Grain" },
+		"@*-(charred|syrupcharred)": { satiety: 50, foodcategory: "Grain" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 600,
 	transitionablePropsByType: {
-		"*-raw": [{
+		"@*-(raw|oiled)": [{
 			type: "Perish",
 			freshHours: { avg: 24 },
 			transitionHours: { avg: 48 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"*-oiled": [{		
-			type: "Perish",
-			freshHours: { avg: 24 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-charred": [{
-			type: "Perish",
-			freshHours: { avg: 200 },
-			transitionHours: { avg: 144 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-syrupcharred": [{
+		"@*-(charred|syrupcharred)": [{
 			type: "Perish",
 			freshHours: { avg: 200 },
 			transitionHours: { avg: 144 },
@@ -254,7 +214,7 @@
 			scale: 1.5
 	},
 	combustiblePropsByType: {
-		"acornbreadedball-raw": {
+		"@*-(raw|oiled|partbaked|cooked)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
@@ -262,46 +222,13 @@
 			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
 			requiresContainer: false
 		},
-		"acornbreadedball-oiled": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
-			requiresContainer: false
-		},
-		"acornbreadedball-partbaked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
-			requiresContainer: false
-		},
-		"acornbreadedball-cooked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
-			requiresContainer: false
-		},
-		"acornbreadedball-syruppartbaked": {
+		"@*-(syruppartbaked|syrup)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
 			smeltingType: "cook",
 			smeltedStack: { type: "item", code: "acornbreadedball-syrupcharred" },
 			requiresContainer: false
-		},
-		"acornbreadedball-syrup": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedball-syrupcharred" },
-			requiresContainer: false
-
 		},
 	}
 }

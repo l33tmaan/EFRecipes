@@ -59,10 +59,8 @@
 		{ code: "type", states: ["raw", "partbaked", "cooked", "charred",] },
 	],
 	shapebytype:	{
-		"crabnugget-raw": {base: "item/food/meat/poultry-nugget"},
-		"crabnugget-partbaked": {base: "item/food/meat/poultry-cooked"},
-		"crabnugget-cooked":   {base: "item/food/meat/poultry-cooked"},
-		"crabnugget-charred": {base: "item/food/meat/poultry-cooked"},
+		"*-raw": {base: "item/food/meat/poultry-nugget"},
+		"@*-(partbaked|cooked|charred)": {base: "item/food/meat/poultry-cooked"},
 	},
 	texturesByType: {
 		"*-partbaked": {

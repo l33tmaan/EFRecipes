@@ -1,13 +1,5 @@
 ﻿[
  {
-    "file": "expandedfoods:itemtypes/food/mixing/sushi.json",
-    op: "add", 
-    path: "/skipVariants",
-    value: [ "sushi-minerslettuce-nooil", "sushi-minerslettuce-oil", "sushi-minerslettuce-honey", "sushi-minerslettuce-peanut",  ],
-    "side": "server",
-    dependsOn: [{ "modid": "wildcraftherb", "invert": true }]
- },
- {
    file: "expandedfoods:recipes/kneading/wildcraftherb/wildsushi.json",
     op: "add", 
     path: "/0/enabled", 

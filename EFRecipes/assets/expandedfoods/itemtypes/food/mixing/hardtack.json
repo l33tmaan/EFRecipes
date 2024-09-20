@@ -86,11 +86,16 @@
 		},
 	},
 	shapebytype: {
-		"hardtack-*-raw": { base: "item/food/hardtack/hardtack-{type}-raw"},
-		"hardtack-*-bake1": { base: "item/food/hardtack/hardtack-{type}-partbaked"},
-		"hardtack-*-bake2": { base: "item/food/hardtack/hardtack-{type}-baked"},
-		"hardtack-*-bake3": { base: "item/food/hardtack/hardtack-{type}-baked"},
-		"hardtack-*-bake4": { base: "item/food/hardtack/hardtack-{type}-charred"},
+		"*-raw": { base: "item/food/hardtack/hardtack-raw"},
+		"*": { base: "item/food/hardtack/hardtack-baked"},
+	},
+  	texturesByType: {
+		"*-acorn-bake1": { "bread": { base: "wildcraftfruit:items/grain/acornbread2" } },
+		"@*-acorn-(raw|bake2|bake3)": { "bread": { base: "wildcraftfruit:items/grain/acornbread" } },
+		"*-acorn-bake4": { "bread": { base: "wildcraftfruit:items/grain/acornbread1" } },
+		"*-bake1": { "bread": { base: "game:item/food/grain/{type}bread2" } },
+		"@*-(raw|bake2|bake3)": { "bread": { base: "game:item/food/grain/{type}bread" } },
+		"*-bake4": { "bread": { base: "game:item/food/grain/{type}bread1" } },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {

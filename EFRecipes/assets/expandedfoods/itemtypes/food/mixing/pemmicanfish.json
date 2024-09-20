@@ -361,28 +361,16 @@
 			},
      		renderIngredientsByType: {
 			"*-raw": {
-				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-ball.json",
-				"expandedfoods:fishnugget-curedchopped": "expandedfoods:shapes/item/food/pemmican/fishpemmican-ball.json",
-				"primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-ball.json",
-				"primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-ball.json",
+				"expandedfoods:fishnugget-raw": { "shape": "expandedfoods:shapes/item/food/pemmican/ball.json", "textureMap": { "ball": "fish" } },
+				"expandedfoods:fishnugget-curedchopped": { "shape": "expandedfoods:shapes/item/food/pemmican/ball.json", "textureMap": { "ball": "fish" } },
+				"primitivesurvival:smokedmeat-fish-raw": { "shape": "expandedfoods:shapes/item/food/pemmican/ball.json", "textureMap": { "ball": "fish" } },
+				"primitivesurvival:curedsmokedmeat-fish-raw": { "shape": "expandedfoods:shapes/item/food/pemmican/ball.json", "textureMap": { "ball": "fish" } },
 			},
-			"*-partbaked": {
-				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-				"expandedfoods:fishnugget-curedchopped": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-				"primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-				"primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-			},
-			"*-cooked": {
-				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-				"expandedfoods:fishnugget-curedchopped": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-				"primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-				"primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-			},
-			"*-charred": {
-				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-				"expandedfoods:fishnugget-curedchopped": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-				"primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
-				"primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
+			"@*-(partbaked|cooked|charred)": {
+				"expandedfoods:fishnugget-raw": { "shape": "expandedfoods:shapes/item/food/pemmican/plain.json", "textureMap": { "plain": "fish" } },
+				"expandedfoods:fishnugget-curedchopped": { "shape": "expandedfoods:shapes/item/food/pemmican/plain.json", "textureMap": { "plain": "fish" } },
+				"primitivesurvival:smokedmeat-fish-raw": { "shape": "expandedfoods:shapes/item/food/pemmican/plain.json", "textureMap": { "plain": "fish" } },
+				"primitivesurvival:curedsmokedmeat-fish-raw": { "shape": "expandedfoods:shapes/item/food/pemmican/plain.json", "textureMap": { "plain": "fish" } },
 			},
 		},
 		bakingPropertiesByType: {
@@ -430,23 +418,25 @@
 	},
   	texturesByType: {
 		"*-raw": {
+			ball: { base: "item/food/pemmican/fish/pemmicanfish-ball"},
 			fish: { base: "item/food/pemmican/fish/pemmicanfish-ball"},
 		},
 		"*-partbaked": {
+			plain: { base: "item/food/pemmican/fish/pemmicanfish-partbaked"},
 			fish: { base: "item/food/pemmican/fish/pemmicanfish-partbaked"},
 		},
 		"*-cooked": {
+			plain: { base: "item/food/pemmican/fish/pemmicanfish-plain"},
 			fish: { base: "item/food/pemmican/fish/pemmicanfish-plain"},
 		},
 		"*-charred": {
+			plain: { base: "item/food/pemmican/fish/pemmicanfish-charred"},
 			fish: { base: "item/food/pemmican/fish/pemmicanfish-charred"},
 		},
   	},
 	shapeByType:{
-		"*-raw": { base: "item/food/pemmican/fishpemmican-ball"},
-		"*-partbaked": { base: "item/food/pemmican/fishpemmican-plain"},
-		"*-cooked": { base: "item/food/pemmican/fishpemmican-plain"},
-		"*-charred": { base: "item/food/pemmican/fishpemmican-plain"},
+		"*-raw": { base: "item/food/pemmican/ball"},
+		"@*-(partbaked|cooked|charred)": { base: "item/food/pemmican/plain"},
 	},
 	nutritionPropsByType: {
 		"*-raw": { saturation: 0, foodcategory: "Protein" },
@@ -461,23 +451,7 @@
 		rotation: { x: 180, y: 90, z: 22 }
 	},
 	combustiblePropsByType: {
-		"*-raw": {
-			meltingPoint: 110,
-			meltingDuration: 20,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:fishpemmican-charred" },
-			requiresContainer: false
-		},
-		"*-partbaked": {
-			meltingPoint: 110,
-			meltingDuration: 20,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:fishpemmican-charred" },
-			requiresContainer: false
-		},
-		"*-cooked": {
+		"@*-(raw|partbaked|cooked)": {
 			meltingPoint: 110,
 			meltingDuration: 20,
 			smeltedRatio: 1,

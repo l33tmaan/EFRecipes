@@ -1,13 +1,5 @@
 ﻿[
  {
-    "file": "expandedfoods:itemtypes/food/mixing/sushiveg.json",
-    op: "add", 
-    path: "/skipVariants",
-    value: [ "sushiveg-minerslettuce-nooil", "sushiveg-minerslettuce-oil", "sushiveg-minerslettuce-honey", "sushiveg-minerslettuce-peanut",  ],
-    "side": "server",
-    dependsOn: [{ "modid": "wildcraftherb", "invert": true }]
- },
- {
    file: "expandedfoods:recipes/kneading/wildcraftherb/wildsushiveg.json",
     op: "add", 
     path: "/0/enabled", 

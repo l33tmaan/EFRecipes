@@ -353,16 +353,10 @@
 			},
      		renderIngredientsByType: {
 			"*-raw": {
-				"expandedfoods:snakenugget-raw": "expandedfoods:shapes/item/food/pemmican/snakepemmican-ball.json",
+				"expandedfoods:snakenugget-raw": { "shape": "expandedfoods:shapes/item/food/pemmican/ball.json", "textureMap": { "ball": "snake" } },
 			},
-			"*-partbaked": {
-				"expandedfoods:snakenugget-raw": "expandedfoods:shapes/item/food/pemmican/snakepemmican-plain.json",
-			},
-			"*-cooked": {
-				"expandedfoods:snakenugget-raw": "expandedfoods:shapes/item/food/pemmican/snakepemmican-plain.json",
-			},
-			"*-charred": {
-				"expandedfoods:snakenugget-raw": "expandedfoods:shapes/item/food/pemmican/snakepemmican-plain.json",
+			"@*-(partbaked|cooked|charred)": {
+				"expandedfoods:snakenugget-raw": { "shape": "expandedfoods:shapes/item/food/pemmican/plain.json", "textureMap": { "plain": "snake" } },
 			},
 		},
 		bakingPropertiesByType: {
@@ -410,23 +404,25 @@
 	},
   	texturesByType: {
 		"*-raw": {
+			ball: { base: "item/food/pemmican/snake/pemmicansnake-ball"},
 			snake: { base: "item/food/pemmican/snake/pemmicansnake-ball"},
 		},
 		"*-partbaked": {
+			plain: { base: "item/food/pemmican/snake/pemmicansnake-partbaked"},
 			snake: { base: "item/food/pemmican/snake/pemmicansnake-partbaked"},
 		},
 		"*-cooked": {
+			plain: { base: "item/food/pemmican/snake/pemmicansnake-plain"},
 			snake: { base: "item/food/pemmican/snake/pemmicansnake-plain"},
 		},
 		"*-charred": {
+			plain: { base: "item/food/pemmican/snake/pemmicansnake-charred"},
 			snake: { base: "item/food/pemmican/snake/pemmicansnake-charred"},
 		},
   	},
 	shapeByType:{
-		"*-raw": { base: "item/food/pemmican/snakepemmican-ball"},
-		"*-partbaked": { base: "item/food/pemmican/snakepemmican-plain"},
-		"*-cooked": { base: "item/food/pemmican/snakepemmican-plain"},
-		"*-charred": { base: "item/food/pemmican/snakepemmican-plain"},
+		"*-raw": { base: "item/food/pemmican/ball"},
+		"@*-(partbaked|cooked|charred)": { base: "item/food/pemmican/plain"},
 	},
 	nutritionPropsByType: {
 		"*-raw": { saturation: 0, foodcategory: "Protein" },
@@ -441,23 +437,7 @@
 		rotation: { x: 180, y: 90, z: 22 }
 	},
 	combustiblePropsByType: {
-		"*-raw": {
-			meltingPoint: 110,
-			meltingDuration: 20,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:snakepemmican-charred" },
-			requiresContainer: false
-		},
-		"*-partbaked": {
-			meltingPoint: 110,
-			meltingDuration: 20,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:snakepemmican-charred" },
-			requiresContainer: false
-		},
-		"*-cooked": {
+		"@*-(raw|partbaked|cooked)": {
 			meltingPoint: 110,
 			meltingDuration: 20,
 			smeltedRatio: 1,

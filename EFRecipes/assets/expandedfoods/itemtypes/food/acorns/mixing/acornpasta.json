@@ -28,30 +28,30 @@
       			"expandedfoods:foodoilportion-*" : { saturation: 6, "health": 0.1, foodcategory: "Vegetable" }, 
 			},
 		},
-    		renderIngredientsByType: {
+    	renderIngredientsByType: {
 			"*-dough": {
-      				"acorns:flour-acorn" : "expandedfoods:shapes/item/food/bread/pasta/acorn-pastaball.json",
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastaball.json", "textureMap": { "pastaraw": "pastaraw" } },
 			},
 			"*-flat": {
-      				"acorns:flour-acorn" : "expandedfoods:shapes/item/food/bread/pasta/acorn-pasta.json",
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pasta.json", "textureMap": { "pastaraw": "pastaraw" } },
 			},
 			"*-cut": {
-      				"acorns:flour-acorn" : "expandedfoods:shapes/item/food/bread/pasta/acorn-pastacut.json",
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacut.json", "textureMap": { "pastaraw": "pastaraw" } },
 			},
 			"*-cooked": {
-      				"acorns:flour-acorn" : "expandedfoods:shapes/item/food/bread/pasta/acorn-pastacooked.json",
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacooked.json", "textureMap": { "pastacooked": "pastacooked" } },
 			},
 		},
 	},
-  	textures: {
-    		"acornraw": {base: "item/food/dumpling/acornraw" },
-    		"acornpasta": {base: "item/food/pasta/acornpasta" },
-  	},
+	textures: {
+		"pastaraw": { base: "item/food/dumpling/acornraw" },
+		"pastacooked": { base: "item/food/pasta/acornpasta" },
+	},
 	shapeByType: {
-		"*-dough": { base: "expandedfoods:item/food/bread/pasta/acorn-pastaball" },
-		"*-flat": { base: "expandedfoods:item/food/bread/pasta/acorn-pasta" },
-		"*-cut": { base: "expandedfoods:item/food/bread/pasta/acorn-pastacut" },
-		"*-cooked": { base: "expandedfoods:item/food/bread/pasta/acorn-pastacooked" },
+		"*-dough": { base: "expandedfoods:item/food/bread/pasta/pastaball" },
+		"*-flat": { base: "expandedfoods:item/food/bread/pasta/pasta" },
+		"*-cut": { base: "expandedfoods:item/food/bread/pasta/pastacut" },
+		"*-cooked": { base: "expandedfoods:item/food/bread/pasta/pastacooked" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 200,

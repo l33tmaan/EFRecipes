@@ -75,15 +75,7 @@
 			scale: 0.65 
 		},
 		bakingPropertiesByType: {
-			"*-raw": {
-				temp: 160,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.05,
-				resultCode: "expandedfoods:breadedball-{type}-partbaked",
-			},
-			"*-oiled": {
+			"@*-(raw|oiled)": {
 				temp: 160,
 				levelFrom: 0.0,
 				levelTo: 0.25,
@@ -143,32 +135,18 @@
 			},
 		},
 		satMultByType: {
-			"*-partbaked": 0.5,
-			"*-cooked": 1,
-			"*-charred": 0.75,
-			"*-syruppartbaked": 0.5,
-			"*-syrups": 1,
-			"*-syrupcharred": 0.75
+			"@*-(partbaked|syruppartbaked)": 0.5,
+			"@*-(cooked|syrup)": 1,
+			"@*-(charred|syrupcharred)": 0.75,
 		},
 	},
 	shapebytype:	{
-		"*-syruppartbaked": {base: "item/food/balls-syrup"},
-		"*-syrup": {base: "item/food/balls-syrup"},
-		"*-syrupcharred": {base: "item/food/balls-syrup"},
-		"*-partbaked": {base: "item/food/balls-cooked"},
-		"*-cooked": {base: "item/food/balls-cooked"},
-		"*-charred": {base: "item/food/balls-cooked"},
-		"*-oiled": {base: "item/food/balls-raw"},
-		"*-raw": {base: "item/food/balls-raw"},
+		"@*-(syruppartbaked|syrup|syrupcharred)": {base: "item/food/balls-syrup"},
+		"@*-(partbaked|cooked|charred)": {base: "item/food/balls-cooked"},
+		"@*-(oiled|raw)": {base: "item/food/balls-raw"},
 	},
 	texturesByType: { 
-		"*-syruppartbaked": {
-			"breading-syrup": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 				
-		},
-		"*-syrup": {
-			"breading-syrup": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 				
-		},
-		"*-syrupcharred": {
+		"@*-(syruppartbaked|syrup|syrupcharred)": {
 			"breading-syrup": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 				
 		},
 		"*-partbaked": {
@@ -188,38 +166,21 @@
 		},
 	},
 	nutritionPropsByType: {
-		"*-partbaked": { satiety: 45, foodcategory: "Grain" },
-		"*-cooked": { satiety: 50, foodcategory: "Grain" },
-		"*-charred": { satiety: 40, foodcategory: "Grain" },
-		"*-syruppartbaked": { satiety: 45, foodcategory: "Grain" },
-		"*-syrup": { satiety: 50, foodcategory: "Grain" },
-		"*-syrupcharred": { satiety: 40, foodcategory: "Grain" },
+		"@*-(partbaked|syruppartbaked)": { satiety: 45, foodcategory: "Grain" },
+		"@*-(cooked|syrup)": { satiety: 50, foodcategory: "Grain" },
+		"@*-(charred|syrupcharred)": { satiety: 40, foodcategory: "Grain" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 600,
 	transitionablePropsByType: {
-		"*-raw": [{
+		"@*-(raw|oiled)": [{
 			type: "Perish",
 			freshHours: { avg: 24 },
 			transitionHours: { avg: 48 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"*-oiled": [{
-			type: "Perish",
-			freshHours: { avg: 24 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-charred": [{
-			type: "Perish",
-			freshHours: { avg: 200 },
-			transitionHours: { avg: 148 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-syrupcharred": [{
+		"@*-(charred|syrupcharred)": [{
 			type: "Perish",
 			freshHours: { avg: 200 },
 			transitionHours: { avg: 148 },
@@ -262,7 +223,7 @@
 			scale: 1.5
 	},
 	combustiblePropsByType: {
-		"breadedball-*-raw": {
+		"@*-(raw|partbaked|cooked|oiled)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
@@ -270,47 +231,13 @@
 			smeltedStack: { type: "item", code: "breadedball-{type}-charred" },
 			requiresContainer: false
 		},
-		"breadedball-*-partbaked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "breadedball-{type}-charred" },
-			requiresContainer: false
-		},
-		"breadedball-*-cooked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "breadedball-{type}-charred" },
-			requiresContainer: false
-		},
-		"breadedball-*-oiled": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "breadedball-{type}-charred" },
-			requiresContainer: false
-		},
-		"breadedball-*-syruppartbaked": {
+		"@*-(syruppartbaked|syrup)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
 			smeltingType: "cook",
 			smeltedStack: { type: "item", code: "breadedball-{type}-syrupcharred" },
 			requiresContainer: false
-
-		},
-		"breadedball-*-syrup": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "breadedball-{type}-syrupcharred" },
-			requiresContainer: false
-
 		},
 	}
 }

@@ -87,21 +87,18 @@
 		},
 	},
 	shapebytype: {
-		"herbalacornhardtack-*-raw": { base: "item/food/hardtack/hardtack-acorn-raw"},
-		"herbalacornhardtack-*-bake1": { base: "item/food/hardtack/hardtack-acorn-partbaked"},
-		"herbalacornhardtack-*-bake2": { base: "item/food/hardtack/hardtack-acorn-baked"},
-		"herbalacornhardtack-*-bake3": { base: "item/food/hardtack/hardtack-acorn-baked"},
-		"herbalacornhardtack-*-bake4": { base: "item/food/hardtack/hardtack-acorn-charred"},
+		"*-raw": { base: "item/food/hardtack/hardtack-raw"},
+		"*": { base: "item/food/hardtack/hardtack-baked"},
 	},
   	texturesByType: {
 		"*-bake1": {
-    			"acornbread": {base: "item/food/grain/herbal/acornbread2" },
+    			"bread": {base: "item/food/grain/herbal/acornbread2" },
 		},
 		"*-bake4": {
-    			"acornbread": {base: "item/food/grain/herbal/acornbread1" },
+    			"bread": {base: "item/food/grain/herbal/acornbread1" },
 		},
 		"*": {
-    			"acornbread": {base: "item/food/grain/herbal/acornbread" },
+    			"bread": {base: "item/food/grain/herbal/acornbread" },
 		},
   	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },

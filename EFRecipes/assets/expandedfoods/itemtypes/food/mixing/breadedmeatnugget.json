@@ -72,15 +72,7 @@
 			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Grain"},
 		},
 		bakingPropertiesByType: {
-			"*-smashed": {
-				temp: 150,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:breadedmeatnugget-{type}-{meat}-partbaked",
-			},
-			"*-oiled": {
+			"@*-(smashed|oiled)": {
 				temp: 150,
 				levelFrom: 0.0,
 				levelTo: 0.25,
@@ -144,23 +136,14 @@
 			scale: 1 
 		},
 		satMultByType: {
-			"*-partbaked": 0.5,
-			"*-cooked": 1,
-			"*-charred": 0.75,
-			"*-syruppartbaked": 0.5,
-			"*-syrups": 1,
-			"*-syrupcharred": 0.75
+			"@*-(partbaked|syruppartbaked)": 0.5,
+			"@*-(cooked|syrup)": 1,
+			"@*-(charred|syrupcharred)": 0.75,
 		},
 	},
 	shapebytype:	{
-		"*-syruppartbaked": {base: "item/food/meat/{meat}-tender"},
-		"*-syrups": {base: "item/food/meat/{meat}-tender"},
-		"*-syrupcharred": {base: "item/food/meat/{meat}-tender"},
-		"*-partbaked": {base: "item/food/meat/{meat}-tender"},
-		"*-tender": {base: "item/food/meat/{meat}-tender"},
-		"*-charred": {base: "item/food/meat/{meat}-tender"},
-		"*-smashed": {base: "item/food/meat/{meat}-smash"},
-		"*-oiled": {base: "item/food/meat/{meat}-smash"},
+		"@*-(syruppartbaked|syrups|syrupcharred|partbaked|tender|charred)": {base: "item/food/meat/{meat}-tender"},
+		"@*-(smashed|oiled)": {base: "item/food/meat/{meat}-smash"},
 	},
 	texturesbytype: {
 		"*-smashed":	{
@@ -183,31 +166,20 @@
 			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-oiled" },
 			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-oiled" },
 		},
-		"*-syruppartbaked":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-fish" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-fish" },
-		},
-		"*-syrups":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-fish" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-fish" },
-		},
-		"*-syrupcharred":	{
+		"@*-(syruppartbaked|syrups|syrupcharred)":	{
 			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-fish" },
 			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-fish" },
 		},
 	},
 	nutritionPropsByType: {
-		"*-syrups": { satiety: 90, foodcategory: "Protein" },
-		"*-tender": { satiety: 90, foodcategory: "Protein" },
-		"*-syruppartbaked": { satiety: 80, foodcategory: "Protein" },
-		"*-partbaked": { satiety: 80, foodcategory: "Protein" },
-		"*-syrupcharred": { satiety: 70, foodcategory: "Protein" },
-		"*-charred": { satiety: 70, foodcategory: "Protein" },
+		"@*-(syrups|tender)": { satiety: 90, foodcategory: "Protein" },
+		"@*-(syruppartbaked|partbaked)": { satiety: 80, foodcategory: "Protein" },
+		"@*-(syrupcharred|charred)": { satiety: 70, foodcategory: "Protein" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 600,
 	transitionablePropsByType: {
-		"*-oiled": [{
+		"@*-(oiled|smashed)": [{
 			type: "Perish",
 			freshHours: { avg: 24 },
 			transitionHours: { avg: 48 },
@@ -215,50 +187,14 @@
 			transitionRatio: 1
 			}
 		],
-		"*-smashed": [{
-			type: "Perish",
-			freshHours: { avg: 24 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-			}
-		],
-		"*-partbaked": [{
+		"@*-(partbaked|tender|syruppartbaked|syrups)": [{
 			type: "Perish",
 			freshHours: { avg: 100 },
 			transitionHours: { avg: 72 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"*-tender": [{
-			type: "Perish",
-			freshHours: { avg: 100 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-charred": [{
-			type: "Perish",
-			freshHours: { avg: 200 },
-			transitionHours: { avg: 148 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-syruppartbaked": [{
-			type: "Perish",
-			freshHours: { avg: 100 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-syrups": [{
-			type: "Perish",
-			freshHours: { avg: 100 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-syrupcharred": [{
+		"@*-(charred|syrupcharred)": [{
 			type: "Perish",
 			freshHours: { avg: 200 },
 			transitionHours: { avg: 148 },
@@ -301,7 +237,7 @@
 		},
 	},
 	combustiblePropsByType: {
-		"breadedmeatnugget-*-*-smashed": {
+		"@*-(smashed|partbaked|tender|oiled)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
@@ -309,39 +245,7 @@
 			smeltedStack: { type: "item", code: "breadedmeatnugget-{type}-{meat}-charred" },
 			requiresContainer: false
 		},
-		"breadedmeatnugget-*-*-partbaked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "breadedmeatnugget-{type}-{meat}-charred" },
-			requiresContainer: false
-		},
-		"breadedmeatnugget-*-*-tender": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "breadedmeatnugget-{type}-{meat}-charred" },
-			requiresContainer: false
-		},
-		"breadedmeatnugget-*-*-oiled": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "breadedmeatnugget-{type}-{meat}-charred" },
-			requiresContainer: false
-		},
-		"breadedmeatnugget-*-*-syruppartbaked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "breadedmeatnugget-{type}-{meat}-syrupcharred" },
-			requiresContainer: false
-		},
-		"breadedmeatnugget-*-*-syrups": {
+		"@*-(syruppartbaked|syrups)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,

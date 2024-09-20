@@ -1,10 +1,8 @@
 {
-	
 	code: "acornbreadedmeatnugget",
   	class: "ExpandedFood",
 	maxstacksize: 64,
 	variantgroups: [
-
 		{ code: "meat", states: ["bushmeat", "poultry", "redmeat"] },	
 		{ code: "state", states: ["smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled"] },
 	],
@@ -67,138 +65,8 @@
     		"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
 			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Grain"},
 		},
-		renderIngredientsByType: {
-			"*-oiled": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-smash.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-smash.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-smash.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:smokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:smokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:smokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:curedsmokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:curedsmokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:curedsmokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-partbaked": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:smokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:smokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:smokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:curedsmokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:curedsmokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:curedsmokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-tender": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:smokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:smokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:smokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:curedsmokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:curedsmokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:curedsmokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-charred": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:smokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:smokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:smokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:curedsmokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:curedsmokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:curedsmokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-smashed": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-smash.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-smash.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-smash.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:smokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:smokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:smokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:curedsmokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:curedsmokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:curedsmokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-syruppartbaked": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:smokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:smokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:smokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:curedsmokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:curedsmokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:curedsmokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-syrups": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:smokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:smokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:smokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:curedsmokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:curedsmokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:curedsmokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-syrupcharred": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:smokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:smokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:smokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-				"primitivesurvival:curedsmokedmeat-poultry-raw": "game:shapes/item/food/meat/poultry.json",
-				"primitivesurvival:curedsmokedmeat-redmeat-raw": "game:shapes/item/food/meat/red.json",
-				"primitivesurvival:curedsmokedmeat-bushmeat-raw": "game:shapes/item/food/meat/bushmeat.json",
-			},
-		},
 		bakingPropertiesByType: {
-			"*-smashed": {
-				temp: 150,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:acornbreadedmeatnugget-{meat}-partbaked",
-			},
-			"*-oiled": {
+			"@*-(smashed|oiled)": {
 				temp: 150,
 				levelFrom: 0.0,
 				levelTo: 0.25,
@@ -262,25 +130,28 @@
 			scale: 1 
 		},
 		satMultByType: {
-			"*-partbaked": 0.5,
-			"*-cooked": 1,
-			"*-charred": 0.75,
-			"*-syruppartbaked": 0.5,
-			"*-syrups": 1,
-			"*-syrupcharred": 0.75
+			"@*-(partbaked|syruppartbaked)": 0.5,
+			"@*-(cooked|syrups)": 1,
+			"@*-(charred|syrupcharred)": 0.75,
 		},
 	},
 	shapebytype:	{
-		"*-syruppartbaked": {base: "item/food/meat/{meat}-tender"},
-		"*-syrups": {base: "item/food/meat/{meat}-tender"},
-		"*-syrupcharred": {base: "item/food/meat/{meat}-tender"},
-		"*-partbaked": {base: "item/food/meat/{meat}-tender"},
-		"*-tender": {base: "item/food/meat/{meat}-tender"},
-		"*-charred": {base: "item/food/meat/{meat}-tender"},
-		"*-smashed": {base: "item/food/meat/{meat}-smash"},
-		"*-oiled": {base: "item/food/meat/{meat}-smash"}
+		"@*-(syruppartbaked|syrups|syrupcharred|partbaked|tender|charred)": {base: "item/food/meat/{meat}-tender"},
+		"@*-(smashed|oiled)": {base: "item/food/meat/{meat}-smash"},
 	},
 	texturesbytype: {
+		"*-oiled":	{
+			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-oiled" },
+			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-oiled" },
+		},
+		"@*-(syruppartbaked|syrups|syrupcharred)":	{
+			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
+			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
+		},
+		"@*-(smashed|tender)":	{
+			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-cooked" },
+			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-raw" },
+		},
 		"*-partbaked":	{
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-partbaked" },
 			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-partbaked" },
@@ -289,39 +160,16 @@
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-charred" },
 			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-charred" },
 		},
-		"*-oiled":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-oiled" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-oiled" },
-		},
-		"*-syruppartbaked":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
-		},
-		"*-syrups":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
-		},
-		"*-syrupcharred":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
-		},
-		"*":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-cooked" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-raw" },
-		},
 	},
 	nutritionPropsByType: {
-		"*-syruppartbaked": { satiety: 80, foodcategory: "Protein" },
-		"*-partbaked": { satiety: 80, foodcategory: "Protein" },
-		"*-syrups": { satiety: 90, foodcategory: "Protein" },
-		"*-tender": { satiety: 90, foodcategory: "Protein" },
-		"*-syrupcharred": { satiety: 70, foodcategory: "Protein" },
-		"*-charred": { satiety: 70, foodcategory: "Protein" },
+		"@*-(partbaked|syruppartbaked)": { satiety: 80, foodcategory: "Protein" },
+		"@*-(syrups|tender)": { satiety: 90, foodcategory: "Protein" },
+		"@*-(syrupcharred|charred)": { satiety: 70, foodcategory: "Protein" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 600,
 	transitionablePropsByType: {
-		"*-oiled": [{
+		"@*-(oiled|smashed)": [{
 			type: "Perish",
 			freshHours: { avg: 24 },
 			transitionHours: { avg: 48 },
@@ -329,22 +177,7 @@
 			transitionRatio: 1
 			}
 		],
-		"*-smashed": [{
-			type: "Perish",
-			freshHours: { avg: 24 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-			}
-		],
-		"*-charred": [{
-			type: "Perish",
-			freshHours: { avg: 200 },
-			transitionHours: { avg: 144 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-syrupcharred": [{
+		"@*-(charred|syrupcharred)": [{
 			type: "Perish",
 			freshHours: { avg: 200 },
 			transitionHours: { avg: 144 },
@@ -394,7 +227,7 @@
 		},
 	},
 	combustiblePropsByType: {
-		"acornbreadedmeatnugget-*-smashed": {
+		"@*-(smashed|oiled|partbaked|tender)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
@@ -402,39 +235,7 @@
 			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-charred" },
 			requiresContainer: false
 		},
-		"acornbreadedmeatnugget-*-oiled": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-charred" },
-			requiresContainer: false
-		},
-		"acornbreadedmeatnugget-*-partbaked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-charred" },
-			requiresContainer: false
-		},
-		"acornbreadedmeatnugget-*-tender": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-charred" },
-			requiresContainer: false
-		},
-		"acornbreadedmeatnugget-*-syruppartbaked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-syrupcharred" },
-			requiresContainer: false
-		},
-		"acornbreadedmeatnugget-*-syrups": {
+		"@*-(syruppartbaked|syrups)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,

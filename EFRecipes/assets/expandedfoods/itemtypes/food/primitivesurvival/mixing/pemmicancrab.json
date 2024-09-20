@@ -353,16 +353,10 @@
 			},
      		renderIngredientsByType: {
 			"*-raw": {
-				"expandedfoods:crabnugget-raw": "expandedfoods:shapes/item/food/pemmican/crabpemmican-ball.json",
+				"expandedfoods:crabnugget-raw": { "shape": "expandedfoods:shapes/item/food/pemmican/ball.json", "textureMap": { "ball": "crab" } },
 			},
-			"*-partbaked": {
-				"expandedfoods:crabnugget-raw": "expandedfoods:shapes/item/food/pemmican/crabpemmican-plain.json",
-			},
-			"*-cooked": {
-				"expandedfoods:crabnugget-raw": "expandedfoods:shapes/item/food/pemmican/crabpemmican-plain.json",
-			},
-			"*-charred": {
-				"expandedfoods:crabnugget-raw": "expandedfoods:shapes/item/food/pemmican/crabpemmican-plain.json",
+			"@*-(partbaked|cooked|charred)": {
+				"expandedfoods:crabnugget-raw": { "shape": "expandedfoods:shapes/item/food/pemmican/plain.json", "textureMap": { "plain": "crab" } },
 			},
 		},
 		bakingPropertiesByType: {
@@ -410,23 +404,25 @@
 	},
   	texturesByType: {
 		"*-raw": {
+			ball: { base: "item/food/pemmican/crab/pemmicancrab-ball"},
 			crab: { base: "item/food/pemmican/crab/pemmicancrab-ball"},
 		},
 		"*-partbaked": {
+			plain: { base: "item/food/pemmican/crab/pemmicancrab-partbaked"},
 			crab: { base: "item/food/pemmican/crab/pemmicancrab-partbaked"},
 		},
 		"*-cooked": {
+			plain: { base: "item/food/pemmican/crab/pemmicancrab-plain"},
 			crab: { base: "item/food/pemmican/crab/pemmicancrab-plain"},
 		},
 		"*-charred": {
+			plain: { base: "item/food/pemmican/crab/pemmicancrab-charred"},
 			crab: { base: "item/food/pemmican/crab/pemmicancrab-charred"},
 		},
   	},
 	shapeByType:{
-		"*-raw": { base: "item/food/pemmican/crabpemmican-ball"},
-		"*-partbaked": { base: "item/food/pemmican/crabpemmican-plain"},
-		"*-cooked": { base: "item/food/pemmican/crabpemmican-plain"},
-		"*-charred": { base: "item/food/pemmican/crabpemmican-plain"},
+		"*-raw": { base: "item/food/pemmican/ball"},
+		"@*-(partbaked|cooked|charred)": { base: "item/food/pemmican/plain"},
 	},
 	nutritionPropsByType: {
 		"*-raw": { saturation: 0, foodcategory: "Protein" },
@@ -441,23 +437,7 @@
 		rotation: { x: 180, y: 90, z: 22 }
 	},
 	combustiblePropsByType: {
-		"*-raw": {
-			meltingPoint: 110,
-			meltingDuration: 20,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:crabpemmican-charred" },
-			requiresContainer: false
-		},
-		"*-partbaked": {
-			meltingPoint: 110,
-			meltingDuration: 20,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:crabpemmican-charred" },
-			requiresContainer: false
-		},
-		"*-cooked": {
+		"@*-(raw|partbaked|cooked)": {
 			meltingPoint: 110,
 			meltingDuration: 20,
 			smeltedRatio: 1,

@@ -25,8 +25,11 @@
 				"acornbirch", "acornpine", "acornmaple" ] },	  
 	],
 	shapebytype: { 
-		"acornbreadcrumbs-*": { base: "item/food/bread/crumbs/breadcrumbs-acorn" },
+		"acornbreadcrumbs-*": { base: "item/food/bread/breadcrumbs" },
 	},
+  	textures: {
+		"breadcrumbs": {base: "item/food/grain/crumbs/breadcrumbs-acorn" },
+  	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"@*-(acornbirch|acornpine|acornmaple)": { saturation: 30, foodcategory: "Grain" },
@@ -61,10 +64,9 @@
 		scale: 0.79
 	},
 	groundTransform: {
-		
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 1.25
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.25
 	},
 }

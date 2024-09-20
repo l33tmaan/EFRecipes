@@ -59,10 +59,8 @@
 		{ code: "type", states: ["raw", "partbaked", "cooked", "charred",] },
 	],
 	shapebytype:	{
-		"snakenugget-raw": {base: "item/food/meat/poultry-nugget"},
-		"snakenugget-partbaked": {base: "item/food/meat/poultry-cooked"},
-		"snakenugget-cooked":   {base: "item/food/meat/poultry-cooked"},
-		"snakenugget-charred": {base: "item/food/meat/poultry-cooked"},
+		"*-raw": {base: "item/food/meat/poultry-nugget"},
+		"*-(partbaked|cooked|charred)": {base: "item/food/meat/poultry-cooked"},
 	},
 	texturesByType: {
 		"*-partbaked": {

@@ -26,7 +26,10 @@
 			"birch", "pine", "maple", "acorn" ] },	  
 	],
 	"skipVariants": [ ],
-	shape: { base: "item/food/bread/crumbs/breadcrumbs-{type}" },
+	shape: { base: "item/food/bread/breadcrumbs" },
+  	textures: {
+		"breadcrumbs": {base: "item/food/grain/herbal/crumbs/breadcrumbs-{type}" },
+  	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"@*-(birch|pine|maple)": { saturation: 25, foodcategory: "Grain" },

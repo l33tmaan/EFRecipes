@@ -46,20 +46,20 @@
 		},
   		renderIngredientsByType: {
 			"*-dough": {
-				"acorns:flour-acorn": "expandedfoods:shapes/item/food/bread/acornbread-doughball.json",
-      				"game:flour-*" : "expandedfoods:shapes/item/food/bread/acornbread-doughball.json",
+				"acorns:flour-acorn": { "shape": "expandedfoods:shapes/item/food/bread/plaindoughball/doughball.json", "textureMap": { "dough": "acornflaxbread" } },
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/plaindoughball/doughball.json", "textureMap": { "dough": "acornflaxbread" } },
 			},
 			"*-partbaked": {
-				"acorns:flour-acorn": "expandedfoods:shapes/item/food/bread/acornbread-partbakedball.json",
-      				"game:flour-*" : "expandedfoods:shapes/item/food/bread/acornbread-partbakedball.json",
+				"acorns:flour-acorn": { "shape": "expandedfoods:shapes/item/food/bread/plaindoughball/breadball.json", "textureMap": { "bread": "acornflaxbread2" } },
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/plaindoughball/breadball.json", "textureMap": { "bread": "acornflaxbread2" } },
 			},
 			"*-bread": {
-				"acorns:flour-acorn": "expandedfoods:shapes/item/food/bread/acornbread-breadball.json",
-      				"game:flour-*" : "expandedfoods:shapes/item/food/bread/acornbread-breadball.json",
+				"acorns:flour-acorn": { "shape": "expandedfoods:shapes/item/food/bread/plaindoughball/breadball.json", "textureMap": { "bread": "acornflaxbread" } },
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/plaindoughball/breadball.json", "textureMap": { "bread": "acornflaxbread" } },
 			},
 			"*-charred": {
-				"acorns:flour-acorn": "expandedfoods:shapes/item/food/bread/acornbread-charredball.json",
-      				"game:flour-*" : "expandedfoods:shapes/item/food/bread/acornbread-charredball.json",
+				"acorns:flour-acorn": { "shape": "expandedfoods:shapes/item/food/bread/plaindoughball/breadball.json", "textureMap": { "bread": "acornflaxbread1" } },
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/plaindoughball/breadball.json", "textureMap": { "bread": "acornflaxbread1" } },
 			},
 		},
 		bakingPropertiesByType: {
@@ -105,11 +105,16 @@
 		},
 	},
 	textures: {
+		"dough": {base: "game:item/food/grain/acornflaxbread"},
+		"bread": {base: "game:item/food/grain/acornflaxbread"},
 		"acornflaxbread": {base: "game:item/food/grain/acornflaxbread"},
 		"acornflaxbread1": {base: "game:item/food/grain/acornflaxbread1"},
 		"acornflaxbread2": {base: "game:item/food/grain/acornflaxbread2"},
   	},
-	shape: { base: "expandedfoods:item/food/bread/acornbread-{type}ball" },
+	shapeByType: {
+		"*-dough": { base: "expandedfoods:item/food/bread/plaindoughball/doughball" },
+		"*": { base: "expandedfoods:item/food/bread/plaindoughball/breadball" },
+	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 200,
 	nutritionPropsByType: {
@@ -118,23 +123,7 @@
 		"*-charred": { satiety: 130, foodcategory: "Grain" },
 	},
 	combustiblePropsByType: {
-		"*-dough": {
-			meltingPoint: 200,
-			meltingDuration: 15,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:acorndoughball-charred" },
-			requiresContainer: false
-		},
-		"*-partbaked": {
-			meltingPoint: 200,
-			meltingDuration: 15,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:acorndoughball-charred" },
-			requiresContainer: false
-		},
-		"*-cooked": {
+		"@*-(dough|partbaked|bread)": {
 			meltingPoint: 200,
 			meltingDuration: 15,
 			smeltedRatio: 1,

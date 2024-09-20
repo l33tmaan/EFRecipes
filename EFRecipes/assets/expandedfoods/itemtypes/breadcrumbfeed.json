@@ -8,7 +8,10 @@
 		"construction": [ "*" ]
 	},
 	"maxStackSize": 128,
-	"shape": { "base": "expandedfoods:item/food/bread/crumbs/breadcrumbs-feed" },
+	"shape": { "base": "expandedfoods:item/food/bread/breadcrumbs" },
+  	textures: {
+		"breadcrumbs": {base: "item/food/grain/crumbs/breadcrumbs-feed" },
+  	},
 	transitionableProps: [{
 		type: "Perish",
 		freshHours: { avg: 432 },

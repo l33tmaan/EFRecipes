@@ -18,21 +18,28 @@
       		"wildcraftherb:herb-basil" : { saturation: 11, "health": 0.875, foodcategory: "Vegetable" },
       		"wildcraftherb:herb-*" : { saturation: 8, "health": 0.25, foodcategory: "Vegetable" },
 		},
+    	renderIngredientsByType: {
+			"*": {
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/breadcrumbs.json", "name": "type", "textureMap": { "breadcrumbs": "breadcrumbs-{type}" } },
+		    },
+		},
 	},
-	shape: { base: "item/food/bread/crumbs/breadcrumbs-spelt" },
+	shape: { base: "item/food/bread/breadcrumbs" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*": { saturation: 75, foodcategory: "Grain" }
 	},
   	textures: {
+		"breadcrumbs": {base: "item/food/grain/herbal/crumbs/breadcrumbs-rice" },
 		"breadcrumbs-amaranth": {base: "item/food/grain/herbal/crumbs/breadcrumbs-amaranth" },
 		"breadcrumbs-birch": {base: "item/food/grain/herbal/crumbs/breadcrumbs-birch" },
 		"breadcrumbs-cassava": {base: "item/food/grain/herbal/crumbs/breadcrumbs-cassava" },
-		"flax": {base: "item/food/grain/herbal/crumbs/breadcrumbs-flax" },
+		"breadcrumbs-flax": {base: "item/food/grain/herbal/crumbs/breadcrumbs-flax" },
+		"breadcrumbs-maple": {base: "item/food/grain/herbal/crumbs/breadcrumbs-maple" },
 		"breadcrumbs-pine": {base: "item/food/grain/herbal/crumbs/breadcrumbs-pine" },
-		"rice": {base: "item/food/grain/herbal/crumbs/breadcrumbs-rice" },
-		"rye": {base: "item/food/grain/herbal/crumbs/breadcrumbs-rye" },
-		"spelt": {base: "item/food/grain/herbal/crumbs/breadcrumbs-spelt" },
+		"breadcrumbs-rice": {base: "item/food/grain/herbal/crumbs/breadcrumbs-rice" },
+		"breadcrumbs-rye": {base: "item/food/grain/herbal/crumbs/breadcrumbs-rye" },
+		"breadcrumbs-spelt": {base: "item/food/grain/herbal/crumbs/breadcrumbs-spelt" },
 		"breadcrumbs-sunflower": {base: "item/food/grain/herbal/crumbs/breadcrumbs-sunflower" },
   	},
 	transitionableProps: [{

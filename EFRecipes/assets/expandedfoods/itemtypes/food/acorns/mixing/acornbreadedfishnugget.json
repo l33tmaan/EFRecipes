@@ -66,25 +66,11 @@
 			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Grain"},
 		},
 		renderIngredientsByType: {
-			"*-oiled": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-smash.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-smash.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-smash.json" },
-			"*-smashed": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-smash.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-smash.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-smash.json" },
-			"*-partbaked": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
-			"*-tender": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
-			"*-charred": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
-			"*-syruppartbaked": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
-			"*-syrups": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
-			"*-syrupcharred": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
+			"@*-(oiled|smashed)": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-smash.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-smash.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-smash.json" },
+			"@*-(partbaked|tender|charred|syruppartbaked|syrups|syrupcharred)": { "expandedfoods:fishnugget-smashed": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:smokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json", "primitivesurvival:curedsmokedmeat-fish-raw": "expandedfoods:shapes/item/food/meat/fish-tender.json" },
 		},
 		bakingPropertiesByType: {
-			"*-smashed": {
-				temp: 150,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:acornbreadedfishnugget-partbaked",
-			},
-			"*-oiled": {
+			"@*-(smashed|oiled)": {
 				temp: 150,
 				levelFrom: 0.0,
 				levelTo: 0.25,
@@ -149,35 +135,20 @@
 			scale: 0.66
 		},
 		satMultByType: {
-			"*-partbaked": 0.5,
-			"*-cooked": 1,
-			"*-charred": 0.75,
-			"*-syruppartbaked": 0.5,
-			"*-syrups": 1,
-			"*-syrupcharred": 0.75
+			"@*-(partbaked|syruppartbaked)": 0.5,
+			"@*-(cooked|syrups)": 1,
+			"@*-(charred|syrupcharred)": 0.75,
 		},
 	},
 	shapebytype:	{
-		"*-syruppartbaked": {base: "item/food/meat/fish-tender"},
-		"*-syrups": {base: "item/food/meat/fish-tender"},
-		"*-syrupcharred": {base: "item/food/meat/fish-tender"},
-		"*-partbaked": {base: "item/food/meat/fish-tender"},
-		"*-tender": {base: "item/food/meat/fish-tender"},
-		"*-charred": {base: "item/food/meat/fish-tender"},
-		"*-smashed": {base: "item/food/meat/fish-smash"},
-		"*-oiled": {base: "item/food/meat/fish-smash"}
+		"@*-(syruppartbaked|syrups|syrupcharred|partbaked|tender|charred)": {base: "item/food/meat/fish-tender"},
+		"@*-(smashed|oiled)": {base: "item/food/meat/fish-smash"},
 	},
 	texturesbytype: {
 		"*-oiled":	{
 			"raw": {base: "expandedfoods:item/food/grain/breading/acorn-oiled" },
 		},		
-		"*-syruppartbaked":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
-		},
-		"*-syrups":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
-		},
-		"*-syrupcharred":	{
+		"@*-(syruppartbaked|syrups|syrupcharred)":	{
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
 		},
 		"*-partbaked":	{
@@ -194,18 +165,15 @@
 		},
 	},
 	nutritionPropsByType: {
-		"*-syrups": { satiety: 90, foodcategory: "Protein" },
-		"*-tender": { satiety: 90, foodcategory: "Protein" },
-		"*-syruppartbaked": { satiety: 80, foodcategory: "Protein" },
-		"*-partbaked": { satiety: 80, foodcategory: "Protein" },
-		"*-syrupcharred": { satiety: 70, foodcategory: "Protein" },
-		"*-charred": { satiety: 70, foodcategory: "Protein" },
+		"@*-(syrups|tender)": { satiety: 90, foodcategory: "Protein" },
+		"@*-(syruppartbaked|partbaked)": { satiety: 80, foodcategory: "Protein" },
+		"@*-(syrupcharred|charred)": { satiety: 70, foodcategory: "Protein" },
 
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 600,
 	transitionablePropsByType: {
-		"*-oiled": [{
+		"@*-(oiled|smashed)": [{
 			type: "Perish",
 			freshHours: { avg: 24 },
 			transitionHours: { avg: 48 },
@@ -213,22 +181,7 @@
 			transitionRatio: 1
 			}
 		],
-		"*-smashed": [{
-			type: "Perish",
-			freshHours: { avg: 24 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-			}
-		],
-		"*-charred": [{
-			type: "Perish",
-			freshHours: { avg: 200 },
-			transitionHours: { avg: 144 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-syrupcharred": [{
+		"@*-(charred|syrupcharred)": [{
 			type: "Perish",
 			freshHours: { avg: 200 },
 			transitionHours: { avg: 144 },
@@ -278,7 +231,7 @@
 		},
 	},
 	combustiblePropsByType: {
-		"acornbreadedfishnugget-oiled": {
+		"@*-(oiled|smashed|partbaked|tender)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
@@ -286,39 +239,7 @@
 			smeltedStack: { type: "item", code: "acornbreadedfishnugget-charred" },
 			requiresContainer: false
 		},
-		"acornbreadedfishnugget-smashed": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedfishnugget-charred" },
-			requiresContainer: false
-		},
-		"acornbreadedfishnugget-partbaked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedfishnugget-charred" },
-			requiresContainer: false
-		},
-		"acornbreadedfishnugget-tender": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedfishnugget-charred" },
-			requiresContainer: false
-		},
-		"acornbreadedfishnugget-syruppartbaked": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedfishnugget-syrupcharred" },
-			requiresContainer: false
-		},
-		"acornbreadedfishnugget-syrups": {
+		"@*-(syruppartbaked|syrups)": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
