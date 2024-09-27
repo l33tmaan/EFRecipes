@@ -1,15 +1,15 @@
 ﻿[
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/breadedballherb.json",
-    op: "add", 
+   file: "expandedfoods:recipes/kneading/wildcraftherb/breadedballherb.json",
+    op: "addmerge", 
     path: "/0/ingredients/2/inputs/-", 
     value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/breadedballherb.json",
-    op: "add", 
+   file: "expandedfoods:recipes/kneading/wildcraftherb/breadedballherb.json",
+    op: "addmerge", 
     path: "/1/ingredients/2/inputs/-", 
     value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
     dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]

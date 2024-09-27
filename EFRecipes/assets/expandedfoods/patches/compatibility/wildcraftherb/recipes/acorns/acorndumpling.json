@@ -2,7 +2,7 @@
  {
    file: "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/1/ingredients/1/inputs/-", 
     value: { type: "item", code: "wildcraftherb:herb-minerslettuce", quantity: 1 },
     dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }]
@@ -10,7 +10,7 @@
  {
    file: "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/3/ingredients/1/inputs/-", 
     value: { type: "item", code: "wildcraftherb:herb-minerslettuce", quantity: 1 },
     dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }]

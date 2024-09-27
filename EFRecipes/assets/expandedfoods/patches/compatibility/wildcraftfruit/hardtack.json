@@ -1,7 +1,7 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/skipVariants",
     value: [ "hardtack-acorn-*" ],
     side: "server",
@@ -9,7 +9,7 @@
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftfruit/hardtack.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/0/enabled", 
     value: "false",
     side: "server",
@@ -17,7 +17,7 @@
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftfruit/hardtack.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/1/enabled", 
     value: "false",
     side: "server",

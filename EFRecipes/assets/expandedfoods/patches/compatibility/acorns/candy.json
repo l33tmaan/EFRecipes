@@ -1,7 +1,7 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/mixing/candy.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/skipVariants",
     value: [ "candy-acorn-raw" ],
     "side": "server",
@@ -9,7 +9,7 @@
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/candy.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/0/enabled", 
     value: "false",
     "side": "server",
@@ -17,7 +17,7 @@
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/candy.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/1/enabled", 
     value: "false",
     "side": "server",

@@ -7,7 +7,7 @@
     "file": "wildcraftfruit:itemtypes/food/dough.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/expandedNutritionProps",
     "value": {
       "game:milkportion": {
@@ -104,7 +104,7 @@
   },
  {
    file: "expandedfoods:recipes/kneading/wildcraftfruit/dough.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/0/enabled", 
     value: "false",
     side: "server",
@@ -112,7 +112,7 @@
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftfruit/dough.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/1/enabled", 
     value: "false",
     side: "server",
@@ -120,7 +120,7 @@
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftfruit/dough.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/2/enabled", 
     value: "false",
     side: "server",
@@ -128,7 +128,7 @@
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftfruit/dough.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/3/enabled", 
     value: "false",
     side: "server",

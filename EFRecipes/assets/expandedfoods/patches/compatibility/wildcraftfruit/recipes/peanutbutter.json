@@ -2,7 +2,7 @@
  {
    file: "expandedfoods:recipes/kneading/peanutbutter.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/1/ingredients/2/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
     dependsOn: [{ "modid": "wildcraftfruit" }]
@@ -10,7 +10,7 @@
  {
    file: "expandedfoods:recipes/kneading/peanutbutter.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/3/ingredients/2/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
     dependsOn: [{ "modid": "wildcraftfruit" }]

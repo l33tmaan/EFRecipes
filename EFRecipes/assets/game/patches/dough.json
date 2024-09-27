@@ -7,7 +7,7 @@
     "file": "itemtypes/food/dough.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/expandedNutritionProps",
     "value": {
       "game:milkportion": {
@@ -103,7 +103,7 @@
     "file": "itemtypes/food/dough.json"
   },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/attributes/renderIngredientsByType",
         "value": {
             "*-spelt": {

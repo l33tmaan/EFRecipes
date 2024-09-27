@@ -1958,7 +1958,7 @@
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/4",
     "value": {
       "code": "topping-sauce",
@@ -7242,7 +7242,7 @@
     dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/5",
     "value": {
       "code": "breadcrumbs-extra",
@@ -7259,7 +7259,7 @@
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/5/validStacks/-",
     "value": {
       "type": "item",
@@ -7270,7 +7270,7 @@
 	dependsOn: [{ "modid": "acorns" }]
   },
  {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/5/validStacks/-",
     "value": {
       "type": "item",
@@ -7281,7 +7281,7 @@
 	dependsOn: [{ "modid": "wildcraft" }]
   },
  {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/5/validStacks/-",
     "value": {
       "type": "item",
@@ -7292,7 +7292,7 @@
 	dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/6",
     "value": {
       "code": "salt",
@@ -7309,7 +7309,7 @@
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/7",
     "value": {
       "code": "nuts-extra1",
@@ -7325,7 +7325,7 @@
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/7/validStacks/-",
     "value":
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
@@ -7366,7 +7366,7 @@
     dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/8",
     "value": {
       "code": "nuts-extra1",
@@ -7382,7 +7382,7 @@
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/8/validStacks/-",
     "value": 
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
@@ -7423,7 +7423,7 @@
     dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/9",
     "value": {
       "code": "broth",
@@ -7509,7 +7509,7 @@
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/10",
     "value": {
       "code": "eggyolk",

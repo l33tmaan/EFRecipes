@@ -1,7 +1,7 @@
 ﻿[
  {
    file: "expandedfoods:recipes/kneading/gozinaki.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/0/ingredients/1/inputs/-", 
     value: { type: "item", code: "expandedfoods:acornportion", quantity: 2 },
     "side": "server",
@@ -9,7 +9,7 @@
  },
  {
    file: "expandedfoods:recipes/kneading/gozinaki.json",
-    op: "add", 
+    op: "addmerge", 
     path: "/1/ingredients/1/inputs/-", 
     value: { type: "item", code: "expandedfoods:acornportion", quantity: 2 },
     "side": "server",

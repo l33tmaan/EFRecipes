@@ -1,6 +1,6 @@
 ﻿[
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/11/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]},
     "file": "game:recipes/cooking/augratin.json",
@@ -8,7 +8,7 @@
     dependsOn: [{ "modid": "acorns" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/12/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]},
     "file": "game:recipes/cooking/augratin.json",

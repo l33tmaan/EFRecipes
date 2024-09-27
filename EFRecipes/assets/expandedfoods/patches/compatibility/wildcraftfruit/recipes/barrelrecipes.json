@@ -2,7 +2,7 @@
  {
    file: "game:recipes/barrel/wildcraftfruit/fastvinegar.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/enabled", 
     value: "false",
     dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
@@ -10,7 +10,7 @@
  {
    file: "game:recipes/barrel/wildcraftfruit/fruitvinegar.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/enabled", 
     value: "false",
     dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
@@ -18,7 +18,7 @@
  {
    file: "game:recipes/barrel/wildcraftfruit/winevinegar.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/0/enabled", 
     value: "false",
     dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
@@ -26,7 +26,7 @@
  {
    file: "game:recipes/barrel/wildcraftfruit/winevinegar.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/1/enabled", 
     value: "false",
     dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
@@ -34,7 +34,7 @@
  {
    file: "game:recipes/barrel/wildcraftfruit/winevinegar.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/2/enabled", 
     value: "false",
     dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
@@ -42,7 +42,7 @@
  {
    file: "game:recipes/barrel/wildcraftfruit/yeastwater.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/enabled", 
     value: "false",
     dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
@@ -50,7 +50,7 @@
  {
    file: "game:recipes/barrel/wildcraftfruit/yogurtstarter.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/enabled", 
     value: "false",
     dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]

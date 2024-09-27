@@ -1,0 +1,18 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/gozinakiherb.json",
+    "side": "server",
+    op: "addmerge", 
+    path: "/0/ingredients/1/inputs/-", 
+    value: { type: "item", code: "expandedfoods:acornportion", quantity: 3 },
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/gozinakiherb.json",
+    "side": "server",
+    op: "addmerge", 
+    path: "/1/ingredients/1/inputs/-", 
+    value: { type: "item", code: "expandedfoods:acornportion", quantity: 3 },
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }]
+ },
+]

@@ -7,15 +7,15 @@
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/variantgroups/0/states/2",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
     "value": "cooked",
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
-    "op": "add",
-    "path": "/variantgroups/0/states/3",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
     "value": "charred",
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
@@ -27,7 +27,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/bakingPropertiesByType",
     "value": {
       "*-raw": {
@@ -69,7 +69,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/handbook",
     "value": {
       "groupBy": [
@@ -80,7 +80,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/inPiePropertiesByType",
     "value": {
       "@*-(raw|cured|smoked|cured-smoked)": {
@@ -92,7 +92,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
       "*-raw": {
@@ -104,7 +104,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/onDisplayTransform",
     "value": {
       "rotation": {
@@ -124,7 +124,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/combustiblePropsByType/@*-(raw|partbaked|cooked)",
     "value": {
       "meltingPoint": 150,
@@ -148,14 +148,14 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/creativeinventory/general/2",
     "value": "*-cooked",
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/creativeinventory/general/3",
     "value": "*-charred",
     "file": "game:itemtypes/food/fish.json",
@@ -169,21 +169,21 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/creativeinventory/items/2",
     "value": "*-cooked",
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/creativeinventory/items/3",
     "value": "*-charred",
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/nutritionPropsByType/*-charred",
     "value": {
       "satiety": 180,
@@ -193,7 +193,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/nutritionPropsByType/*-partbaked",
     "value": {
       "satiety": 210,
@@ -209,7 +209,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/transitionablePropsByType/*-charred",
     "value": [
       {
@@ -231,7 +231,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/transitionablePropsByType/@*-(partbaked|cooked)",
     "value": [
       {

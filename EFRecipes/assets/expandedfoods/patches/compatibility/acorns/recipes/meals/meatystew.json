@@ -1,6 +1,6 @@
 ﻿[
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
@@ -16,7 +16,7 @@
     dependsOn: [{ "modid": "acorns" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
@@ -32,7 +32,7 @@
     dependsOn: [{ "modid": "acorns" }]
   },
  {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/12/validStacks/-",
     "value":
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
@@ -41,7 +41,7 @@
     dependsOn: [{ "modid": "acorns" }]
   },
  {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/13/validStacks/1",
     "value": 
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },

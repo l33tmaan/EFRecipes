@@ -1,6 +1,6 @@
 ﻿[
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/0/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornpasta-cooked",  shapeElement: "bowl/pasta", textureMapping: ["pasta", "pasta"] }, 
     "file": "recipes/mixing/pastacold.json",
@@ -24,7 +24,7 @@
     dependsOn: [{ "modid": "acorns" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/10/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]}, 
     "file": "recipes/mixing/pastacold.json",
@@ -32,7 +32,7 @@
     dependsOn: [{ "modid": "acorns" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/11/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]},
     "file": "recipes/mixing/pastacold.json",

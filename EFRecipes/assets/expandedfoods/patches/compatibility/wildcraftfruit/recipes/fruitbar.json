@@ -34,7 +34,7 @@
  {
    file: "expandedfoods:recipes/kneading/fruitbar.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/0/ingredients/3/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
     dependsOn: [{ "modid": "wildcraftfruit" }]
@@ -42,7 +42,7 @@
  {
    file: "expandedfoods:recipes/kneading/fruitbar.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/1/ingredients/3/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
     dependsOn: [{ "modid": "wildcraftfruit" }]

@@ -1,13 +1,13 @@
 [
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/variantgroups/1/states/-",
     "value": "boiled",
     "side": "server",
     "file": "game:itemtypes/food/egg.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/variantgroups/1/states/-",
     "value": "pickled",
     "side": "server",
@@ -26,7 +26,7 @@
     "file": "game:itemtypes/food/egg.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/texturesByType",
     "value": {
       "*-pickled": {
@@ -44,7 +44,7 @@
     "file": "game:itemtypes/food/egg.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/transitionablePropsByType",
     "value": {
       "*-pickled": [
@@ -90,7 +90,7 @@
     "file": "game:itemtypes/food/egg.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/inPiePropertiesByType",
     "value": {
       "*-raw": {
@@ -106,7 +106,7 @@
     "file": "game:itemtypes/food/egg.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
       "*-pickled": {
@@ -122,7 +122,7 @@
     "file": "game:itemtypes/food/egg.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/nutritionPropsByType/*-pickled",
     "value": {
       "saturation": 140,

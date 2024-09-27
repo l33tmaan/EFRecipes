@@ -79,7 +79,7 @@
     dependsOn: [{ "modid": "acorns" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/11/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornbreadcrumbs-*"},
     "file": "recipes/mixing/salad.json",
@@ -95,7 +95,7 @@
     dependsOn: [{ "modid": "acorns" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/13/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]},
     "file": "recipes/mixing/salad.json",
@@ -103,7 +103,7 @@
     dependsOn: [{ "modid": "acorns" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/14/validStacks/-",
     "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]},
     "file": "recipes/mixing/salad.json",

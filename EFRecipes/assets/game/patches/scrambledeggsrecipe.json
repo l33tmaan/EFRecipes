@@ -14,7 +14,7 @@
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/0/portionSizeLitres",
     "value": 0.2,
     "side": "server",
@@ -88,7 +88,7 @@
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/4",
     "value": {
       "code": "vegetable-extra",
@@ -638,7 +638,7 @@
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/5",
     "value": {
       "code": "vegetable-base2",
@@ -1188,7 +1188,7 @@
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/6",
     "value": {
       "code": "protein-extra",
@@ -1692,7 +1692,7 @@
   },
 
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/7",
     "value": {
       "code": "meat-extra",
@@ -2195,7 +2195,7 @@
     dependsOn: [{ "modid": "ancienttools" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/8",
     "value": {
       "code": "topping-sauce",
@@ -2245,7 +2245,7 @@
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/9",
     "value": {
       "code": "salt",

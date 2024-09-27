@@ -1210,7 +1210,7 @@
     "file": "recipes/cooking/porridge.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/4",
     "value": {
       "code": "vegetable-extra-2",
@@ -1755,7 +1755,7 @@
     "file": "recipes/cooking/porridge.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/6",
     "value": {
       "code": "topping-extra",
@@ -2799,7 +2799,7 @@
     dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/7",
     "value": {
       "code": "nuts-extra1",
@@ -2815,7 +2815,7 @@
     "file": "recipes/cooking/porridge.json"
   },
  {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/7/validStacks/-",
     "value":
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
@@ -2856,7 +2856,7 @@
     dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/8",
     "value": {
       "code": "nuts-extra2",
@@ -2872,7 +2872,7 @@
     "file": "recipes/cooking/porridge.json"
   },
  {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/8/validStacks/-",
     "value": 
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
@@ -2913,7 +2913,7 @@
     dependsOn: [{ "modid": "wildcraftfruit" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/9",
     "value": {
       "code": "meat",

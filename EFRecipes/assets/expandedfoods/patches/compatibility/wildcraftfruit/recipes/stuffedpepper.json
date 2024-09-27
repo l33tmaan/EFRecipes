@@ -130,7 +130,7 @@
 {
    file: "expandedfoods:recipes/kneading/stuffedpepper.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/3/ingredients/2/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
     dependsOn: [{ "modid": "wildcraftfruit" }]
@@ -138,7 +138,7 @@
  {
    file: "expandedfoods:recipes/kneading/stuffedpepper.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/4/ingredients/3/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
     dependsOn: [{ "modid": "wildcraftfruit" }]
@@ -146,7 +146,7 @@
  {
    file: "expandedfoods:recipes/kneading/stuffedpepper.json",
     "side": "server",
-    op: "add", 
+    op: "addmerge", 
     path: "/8/ingredients/2/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
     dependsOn: [{ "modid": "wildcraftfruit" }]

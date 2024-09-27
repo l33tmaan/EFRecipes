@@ -2014,7 +2014,7 @@
 	dependsOn: [{ "modid": "primitivesurvival" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/5",
     "value": {
       "code": "breadcrumbs-extra",
@@ -2047,7 +2047,7 @@
     "file": "recipes/cooking/soup.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/5/validStacks/-",
     "value": {
       "type": "item",
@@ -2060,7 +2060,7 @@
 	dependsOn: [{ "modid": "acorns" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/5/validStacks/-",
     "value": {
       "type": "item",
@@ -2073,7 +2073,7 @@
 	dependsOn: [{ "modid": "wildcraft" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/5/validStacks/-",
     "value": {
       "type": "item",
@@ -2086,7 +2086,7 @@
 	dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/6",
     "value": {
       "code": "salt",
@@ -2103,7 +2103,7 @@
     "file": "recipes/cooking/soup.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/7",
     "value": {
       "code": "eggyolk",
@@ -2137,7 +2137,7 @@
 	dependsOn: [{ "modid": "moreanimals" }]
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/8",
     "value": {
       "code": "noodles",
@@ -2151,7 +2151,7 @@
     "file": "recipes/cooking/soup.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/ingredients/8/validStacks/-",
     "value": {
         "type": "item",
