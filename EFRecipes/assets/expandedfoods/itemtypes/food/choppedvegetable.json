@@ -312,48 +312,6 @@
 			"rotate":  true,
 		},
 	},
-	fpHandTransformByType: {
-		"*-cabbage": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 51, y: 90, z: -30 },
-			scale: 1.25
-		},
-		"@*-(carrot|onion|parsnip|turnip|pickledcarrot|pickledonion|pickledparsnip|pickledturnip)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 60, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0.3, z: 0.5 },
-			scale: 1.9
-		},
-		"@*-(pumpkin|pickledpumpkin)":	{
-			translation: { x: 0, y: 0.22, z: 0 },
-			rotation: { x: 51, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 1.9
-		},
-		"@*-(cassava|cassavadried)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 60, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0.3, z: 0.5 },
-			scale: 1.9
-		},
-		"@*-(cattailroot|papyrusroot)": {
-			translation: { x: 0.15, y: -0.2, z: 0 },
-			rotation: { x: 0, y: -90, z: -30 },
-			scale: 1.5
-		},
-		"*-bellpepper": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 75, y: 65, z: -25 },
-			origin: { x: 0.5, y: 0.3, z: 0.5 },
-			scale: 1.9
-		},
-		"*": {
-			translation: { x: 0.05, y: -0.1, z: 0 },
-			rotation: { x: 45, y: 180, z: -17 },
-			origin: { x: 0.5, y: 0.5, z: 0.5 },
-			scale: 1
-		},
-	},
 	tpHandTransformByType: {
 		"*-cabbage": {
 			translation: { x: -0.9, y: -0.14, z: -1 },

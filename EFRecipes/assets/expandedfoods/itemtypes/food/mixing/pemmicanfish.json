@@ -446,10 +446,6 @@
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 200,
-	fpHandTransform: {
-		translation: { x: 0, y: -0.1, z: 0 },
-		rotation: { x: 180, y: 90, z: 22 }
-	},
 	combustiblePropsByType: {
 		"@*-(raw|partbaked|cooked)": {
 			meltingPoint: 110,
@@ -493,11 +489,5 @@
 		rotation: { x: 44, y: -69, z: 2 },
 		origin: { x: 0.5, y: 0.13, z: 0.5 },
 		scale: 1
-	},
-	fpHandTransform: {
-		translation: { x: 0, y: 0.24, z: 0.3 },
-		rotation: { x: 104, y: 0, z: 71 },
-		origin: { x: 0.5, y: 0.1, z: 0.5 },
-		scale: 2.5
 	}
 }

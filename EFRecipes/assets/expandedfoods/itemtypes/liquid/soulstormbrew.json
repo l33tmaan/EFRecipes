@@ -9,15 +9,19 @@
 			ignoreCreativeInvStacks: true
 		},
 		distillationPropsByType: {
-			"*-refinedslop": {
-				distilledStack: { type: "item", code: "expandedfoods:soulstormbrew-basic" },
-				ratio: 0.5
-			},
+			"*-refinedslop": { distilledStack: { type: "item", code: "expandedfoods:soulstormbrew-basic" }, ratio: 0.5 },
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		nutritionPropsWhenInMealByType: {
-			"@-(slop|refinedslop)": { health: -10, foodcategory: "NoNutrition" },
-			"*-basic": { satiety: -100, health: 10, foodcategory: "NoNutrition" },
+			"@-(slop|refinedslop)": {
+				health: -10,
+				foodcategory: "NoNutrition"
+			},
+			"*-basic": {
+				satiety: -100,
+				health: 10,
+				foodcategory: "NoNutrition"
+			},
 		},
 		waterTightContainerProps: {
 			containable: true,
@@ -26,13 +30,29 @@
 			allowSpill: true,
 			whenSpilled: {
 				action: "DropContents",
-				stack: { type: "item", code: "expandedfoods:soulstormbrew-{type}" }
+				stack: {
+					type: "item",
+					code: "expandedfoods:soulstormbrew-{type}"
+				}
 			},
 			nutritionPropsPerLitreByType: {
-				"@*-(slop|refinedslop)":  { "health": -100, foodcategory: "NoNutrition" },
-				"*-basic":  { saturation: -1000, "health": 100, foodcategory: "NoNutrition" },
+				"@*-(slop|refinedslop)": {
+					"health": -100,
+					foodcategory: "NoNutrition"
+				},
+				"*-basic": {
+					saturation: -1000,
+					"health": 100,
+					foodcategory: "NoNutrition"
+				},
 			},
-		}
+		},
+		"inPiePropertiesByType": {
+			"@*-(slop|refinedslop)": {
+				"texture": "game:item/liquid/soulstormbrew/{type}",
+				"partType": "Filling"
+			}
+		},
 	},
 	transitionablePropsByType: {
 		"*-basic":[{
@@ -70,10 +90,6 @@
 		rotation: { x: 128, y: 40, z: 7 },
 		origin: { x: 0.5, y: 0, z: 0.5 },
 		scale: 1.4
-	},
-	fpHandTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 42, y: 129, z: -30 }
 	},
 	tpHandTransform: {
 		translation: { x: -1.5, y: -1.15, z: -1.4 },

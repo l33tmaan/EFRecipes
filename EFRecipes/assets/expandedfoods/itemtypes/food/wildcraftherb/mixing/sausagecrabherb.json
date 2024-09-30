@@ -235,24 +235,22 @@
     },
   },
   materialDensity: 600,
-  guiTransform: {
- translation: { x: -4, y: 0, z: 0 },
- rotation: { x: -37, y: 150, z: -180 },
- origin: { x: 0.26, y: 0.24, z: 0.65 },
- scale: 2
- },
-  fpHandTransform: {
- translation: { x: -0.06, y: 0, z: 0.23 },
- rotation: { x: 15, y: 0, z: 0 },
- origin: { x: 0.5, y: 0.1, z: 0.5 }
- },
-  tpHandTransform: {
- translation: { x: -0.1, y: -0.8, z: -0.6 },
- rotation: { x: -2, y: 85, z: -11 },
- origin: { x: 0.23, y: 0, z: 0.13 },
- scale: 0.5
- },
-  groundTransform: { translation: { x: 0, y: -0.18, z: 0 },
- rotation: { x: -90, y: 0, z: 0 }, origin: { x: 0, y: 0, z: 0 },
- scale: 2 }
+    guiTransform: {
+        translation: { x: -4, y: 0, z: 0 },
+        rotation: { x: -37, y: 150, z: -180 },
+        origin: { x: 0.26, y: 0.24, z: 0.65 },
+        scale: 2
+    },
+    tpHandTransform: {
+        translation: { x: -0.1, y: -0.8, z: -0.6 },
+        rotation: { x: -2, y: 85, z: -11 },
+        origin: { x: 0.23, y: 0, z: 0.13 },
+        scale: 0.5
+    },
+    groundTransform: {
+        translation: { x: 0, y: -0.18, z: 0 },
+        rotation: { x: -90, y: 0, z: 0 },
+        origin: { x: 0, y: 0, z: 0 },
+        scale: 2
+    }
 }

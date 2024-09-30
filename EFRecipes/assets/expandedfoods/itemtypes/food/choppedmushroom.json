@@ -142,20 +142,6 @@
 			"rotate":  true,
 		},
 	},
-	fpHandTransformByType: {
-		"*": {
-			translation: { x: 0.05, y: -0.1, z: 0 },
-			rotation: { x: 45, y: 180, z: -17 },
-			origin: { x: 0.5, y: 0.5, z: 0.5 },
-			scale: 1.5
-		},
-		"@*-(beardedtooth|earthball|puffball|tinderhoof)": {
-			translation: { x: 0.05, y: -0.1, z: 0 },
-			rotation: { x: 45, y: 180, z: -17 },
-			origin: { x: 0.5, y: 0.5, z: 0.5 },
-			scale: 1.25
-		},
-	},
 	tpHandTransformByType: {
 		"*": {
 			translation: { x: -2.13, y: -0.5, z: -2 },
