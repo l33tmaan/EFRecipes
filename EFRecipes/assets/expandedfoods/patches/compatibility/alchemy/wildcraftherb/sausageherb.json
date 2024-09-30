@@ -1,11 +1,11 @@
-[
+﻿[
   {
     "op": "addmerge",
     "path": "/attributes/herbrackable",
     "value": true,
-    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "file": "expandedfoods:itemtypes/food/wildcraftherb/mixing/sausageherb.json",
     "side": "server",
-    dependsOn: [{ "modid": "alchemy" }]
+    dependsOn: [{ "modid": "alchemy" }, { "modid": "wildcraftherb" }]
   },
   {
     "op": "addmerge",
@@ -28,17 +28,17 @@
       },
       "scale": 0.75
     },
-    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "file": "expandedfoods:itemtypes/food/wildcraftherb/mixing/sausageherb.json",
     "side": "server",
-    dependsOn: [{ "modid": "alchemy" }]
+    dependsOn: [{ "modid": "alchemy" }, { "modid": "wildcraftherb" }]
   },
   {
     "op": "addmerge",
     "path": "/attributes/herbrackable",
     "value": true,
-    "file": "expandedfoods:itemtypes/food/mixing/sausagefish.json",
+    "file": "expandedfoods:itemtypes/food/wildcraftherb/mixing/sausagefishherb.json",
     "side": "server",
-    dependsOn: [{ "modid": "alchemy" }]
+    dependsOn: [{ "modid": "alchemy" }, { "modid": "wildcraftherb" }]
   },
   {
     "op": "addmerge",
@@ -61,17 +61,17 @@
       },
       "scale": 0.75
     },
-    "file": "expandedfoods:itemtypes/food/mixing/sausagefish.json",
+    "file": "expandedfoods:itemtypes/food/wildcraftherb/mixing/sausagefishherb.json",
     "side": "server",
-    dependsOn: [{ "modid": "alchemy" }]
+    dependsOn: [{ "modid": "alchemy" }, { "modid": "wildcraftherb" }]
   },
   {
     "op": "addmerge",
     "path": "/attributes/herbrackable",
     "value": true,
-    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagecrab.json",
+    "file": "expandedfoods:itemtypes/food/wildcraftherb/mixing/sausagecrabherb.json",
     "side": "server",
-    dependsOn: [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }, { "modid": "wildcraftherb" }]
   },
   {
     "op": "addmerge",
@@ -94,17 +94,17 @@
       },
       "scale": 0.75
     },
-    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagecrab.json",
+    "file": "expandedfoods:itemtypes/food/wildcraftherb/mixing/sausagecrabherb.json",
     "side": "server",
-    dependsOn: [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }, { "modid": "wildcraftherb" }]
   },
   {
     "op": "addmerge",
     "path": "/attributes/herbrackable",
     "value": true,
-    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagesnake.json",
+    "file": "expandedfoods:itemtypes/food/wildcraftherb/mixing/sausagesnakeherb.json",
     "side": "server",
-    dependsOn: [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }, { "modid": "wildcraftherb" }]
   },
   {
     "op": "addmerge",
@@ -127,8 +127,8 @@
       },
       "scale": 0.75
     },
-    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagesnake.json",
+    "file": "expandedfoods:itemtypes/food/wildcraftherb/mixing/sausagesnakeherb.json",
     "side": "server",
-    dependsOn: [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }, { "modid": "wildcraftherb" }]
   },
 ]
