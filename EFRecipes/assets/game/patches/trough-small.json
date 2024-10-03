@@ -72,7 +72,7 @@
     "op": "addmerge",
     "path": "/attributes/contentConfig/-",
     "value": {
-      "code": "breadcrumbs-spelt",
+      "code": "breadcrumbs",
       "content": {
         "type": "item",
         "code": "expandedfoods:breadcrumbs-*"
@@ -144,11 +144,19 @@
   },
   {
     "op": "addmerge",
-    "path": "/textures/contents-expandedfoods:breadcrumbssunflower",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-sunflower",
     "value": {
       "base": "block/wood/trough/small/sunflower"
     },
     "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-acorn",
+    "value": {
+      "base": "block/wood/trough/small/acorn"
+    },
+    "file": "blocktypes/wood/trough-small.json",
   },
   {
     "op": "addmerge",
@@ -232,18 +240,9 @@
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
       ],
-      "textureCode": "contents-breadcrumbs-acorn"
+      "textureCode": "contents-expandedfoods:breadcrumbs-acorn"
     },
     side: "server",
-    "file": "blocktypes/wood/trough-small.json",
-    dependsOn: [{ "modid": "acorns"}]
-  },
-  {
-    "op": "addmerge",
-    "path": "/textures/contents-breadcrumbs-acorn",
-    "value": {
-      "base": "block/wood/trough/small/acorn"
-    },
     "file": "blocktypes/wood/trough-small.json",
     dependsOn: [{ "modid": "acorns"}]
   },
@@ -295,7 +294,7 @@
         "block/wood/trough/small/eggfill4",
         "block/wood/trough/small/eggfill4"
       ],
-      "textureCode": "contents-breadcrumbs-acorn"
+      "textureCode": "contents-expandedfoods:breadcrumbs-acorn"
     },
     side: "server",
     "file": "blocktypes/wood/trough-small.json",

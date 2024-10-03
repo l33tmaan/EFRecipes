@@ -6,14 +6,20 @@
 		displaycaseable: true,
 		shelvable: true,
 		meatHookTransformByType: {
-			"@*-(poultry|redmeat)-normal": {
-				"translation": { "x": 0, "y": 0.385, "z": 0.02	},
+			"*-poultry-normal": {
+				"translation": { "x": -0.01, "y": -0.8, "z": -0.05	},
+				"rotation": { "x": 0, "y": -90, "z": -91 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1
+			},
+			"*-redmeat-normal": {
+				"translation": { "x": 0.025, "y": -0.8, "z": 0.0	},
 				"rotation": { "x": -90, "y": 90, "z": 0 },
 				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 				"scale": 1
 			},
 			"*-bushmeat-normal": {
-				"translation": { "x": 0, "y": 0.385, "z": 0.02 },
+				"translation": { "x": 0, "y": -0.8, "z": -0.02 },
 				"rotation": { "x": 0, "y": -90, "z": 90 },
 				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 				"scale": 1
