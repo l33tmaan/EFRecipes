@@ -35,7 +35,7 @@
 				stack: { type: "item", code: "expandedfoods:strongwineportion-{fruit}" }
 			},
 			nutritionPropsPerLitre: {
-				saturation: 180,
+				saturation: 90,
 				"intoxication": 0.3,
 				"health": 0.5,
 				foodcategory: "Fruit"
@@ -74,14 +74,14 @@
 	},
 	transitionableProps: [{
     		type: "Perish",
-    		freshHours: { avg: 672 },
+    		freshHours: { avg: 6720 },
     		transitionHours: { avg: 288 },
     		transitionedStack: { type: "item", code: "game:vinegarportion" },
     		transitionRatio: 1
   	},
 	{
     		type: "Cure",
-    		freshHours: { avg: 672 },
+    		freshHours: { avg: 6720 },
     		transitionHours: { avg: 2016 },
     		transitionedStack: { type: "item", code: "expandedfoods:potentwineportion-{fruit}" },
     		transitionRatio: 1

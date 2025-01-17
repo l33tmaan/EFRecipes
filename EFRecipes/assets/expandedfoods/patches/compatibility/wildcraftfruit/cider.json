@@ -12,7 +12,7 @@
       {
         "type": "Perish",
         "freshHours": {
-          "avg": 336
+          "avg": 3360
         },
         "transitionHours": {
           "avg": 144
@@ -26,7 +26,7 @@
       {
         "type": "Cure",
         "freshHours": {
-          "avg": 336
+          "avg": 3360
         },
         "transitionHours": {
           "avg": 1008
@@ -45,16 +45,16 @@
     "op": "addmerge",
     "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
-		"*-cloudberry": { satiety: 160, health: 2, foodcategory: "Fruit" },
-		"*-husktomato": { satiety: 160, health: 1, foodcategory: "Fruit" },
-		"*-juniper": { satiety: 160, health: 1, foodcategory: "Fruit" },
-		"*-wolfberry": { satiety: 160, health: -30, foodcategory: "Fruit" },
-		"*-bitternightshade": { satiety: 160, health: -20, foodcategory: "Fruit" },
-		"*-spindle": { satiety: 160, health: -10, foodcategory: "Fruit" },
-		"*-blacknightshadeunripe": { satiety: 160, health: -5, foodcategory: "Fruit" },
-		"*-crowseye": { satiety: 160, health: -50, foodcategory: "Fruit" },
-		"*-seamango": { satiety: 160, health: -40, foodcategory: "Fruit" },
-		"*": { satiety: 160, health: 0, foodcategory: "Fruit" },
+		"*-cloudberry": { satiety: 80, health: 2, foodcategory: "Fruit" },
+		"*-husktomato": { satiety: 80, health: 1, foodcategory: "Fruit" },
+		"*-juniper": { satiety: 80, health: 1, foodcategory: "Fruit" },
+		"*-wolfberry": { satiety: 80, health: -30, foodcategory: "Fruit" },
+		"*-bitternightshade": { satiety: 80, health: -20, foodcategory: "Fruit" },
+		"*-spindle": { satiety: 80, health: -10, foodcategory: "Fruit" },
+		"*-blacknightshadeunripe": { satiety: 80, health: -5, foodcategory: "Fruit" },
+		"*-crowseye": { satiety: 80, health: -50, foodcategory: "Fruit" },
+		"*-seamango": { satiety: 80, health: -40, foodcategory: "Fruit" },
+		"*": { satiety: 80, health: 0, foodcategory: "Fruit" },
     },
     "side": "server",
     "file": "wildcraftfruit:itemtypes/liquid/alcohol/cider.json"
