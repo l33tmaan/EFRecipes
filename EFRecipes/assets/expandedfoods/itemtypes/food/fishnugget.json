@@ -123,7 +123,7 @@
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
-		"@*-(smashed|raw)": {satiety: 240, foodcategory: "Protein"},
+		"@*-(smashed|raw)": {satiety: 115, foodcategory: "Protein"},
 		"@*-(cookedpartbaked|tenderpartbaked)": {satiety: 230, foodcategory: "Protein"},
 		"@*-(cooked|tender)": {satiety: 220, foodcategory: "Protein"},
 		"@*-(tendercharred|cookedcharred)": {satiety: 210, foodcategory: "Protein"},
