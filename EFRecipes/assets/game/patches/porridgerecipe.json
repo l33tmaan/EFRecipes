@@ -1762,11 +1762,6 @@
       "validStacks": [
         {
           "type": "item",
-          "code": "salt",
-          "shapeElement": "bowl/topping/*"
-        },
-        {
-          "type": "item",
           "code": "milkportion",
           "shapeElement": "bowl/topping/*"
         },
@@ -3355,6 +3350,18 @@
                 "textureMapping": [ "meatnugget", "group1" ]
             },
         ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "side": "server",
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/10",
+    "value": {
+      "code": "salt",
+        "validStacks": [ { "type": "item", "code": "salt" } ],
       "minQuantity": 0,
       "maxQuantity": 1
     },
