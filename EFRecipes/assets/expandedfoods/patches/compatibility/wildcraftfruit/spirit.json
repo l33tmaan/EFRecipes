@@ -6,7 +6,7 @@
       {
         "type": "Cure",
         "freshHours": {
-          "avg": 672
+          "avg": 6720
         },
         "transitionHours": {
           "avg": 2016
@@ -19,18 +19,18 @@
       }
     ],
     "side": "server",
-    "file": "wildcraftfruit:itemtypes/liquid/alcohol/spirit.json"
+    "file": "wildcraftfruit:itemtypes/liquid/spirit.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
-		"*-wolfberry": { satiety: 160, health: -10, foodcategory: "Fruit" },
-		"*-crowseye": { satiety: 160, health: -20, foodcategory: "Fruit" },
-		"*-seamango": { satiety: 160, health: -16, foodcategory: "Fruit" },
-		"*": { satiety: 160, health: 0, foodcategory: "Fruit" },
+		"*-wolfberry": { satiety: 80, health: -10, foodcategory: "Fruit" },
+		"*-crowseye": { satiety: 80, health: -20, foodcategory: "Fruit" },
+		"*-seamango": { satiety: 80, health: -16, foodcategory: "Fruit" },
+		"*": { satiety: 80, health: 0, foodcategory: "Fruit" },
     },
     "side": "server",
-    "file": "wildcraftfruit:itemtypes/liquid/alcohol/spirit.json"
+    "file": "wildcraftfruit:itemtypes/liquid/spirit.json"
   },
 ]
