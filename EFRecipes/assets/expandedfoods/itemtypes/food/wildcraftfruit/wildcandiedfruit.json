@@ -13,7 +13,7 @@
 		},
 	},
 	"variantgroups": [
-		{ code: "fruit", "loadFromProperties": "wildcraftfruit:block/fruit" },
+		{ code: "fruit", "loadFromProperties": "wildcraftfruit:block/fruit", "states": ["sumac", "juniper"] },
 	],
 	skipVariants: ["*-cashewwhole"],
 	"shape": { "base": "item/food/candy/fruit/wildcraftfruit/{fruit}" },

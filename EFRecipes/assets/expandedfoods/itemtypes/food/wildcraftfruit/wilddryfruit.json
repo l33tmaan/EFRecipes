@@ -2,7 +2,7 @@
 	code: "wilddryfruit",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "type", "loadFromProperties": "wildcraftfruit:block/fruit" },
+		{ code: "type", "loadFromProperties": "wildcraftfruit:block/fruit", "states": ["sumac", "juniper"] },
 	],
 	skipVariants: ["*-cashewwhole"],
 	materialDensityByType: {"*": 600},
@@ -37,13 +37,31 @@
             },
             foodcategory: "Fruit" 
 		},
-		bakingProperties: {
-			temp: 100,
-			levelFrom: 0.5,
-			levelTo: 1.0,
-			startScaleY: 0.8,
-			endScaleY: 0.8,
-			initialCode: "wildcraftfruit:fruit-{type}",
+		bakingPropertiesByType: {
+			"*-sumac": {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 1.0,
+				startScaleY: 0.8,
+				endScaleY: 0.8,
+				initialCode: "wildcraftfruit:nut-sumac",
+			},
+			"*-juniper": {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 1.0,
+				startScaleY: 0.8,
+				endScaleY: 0.8,
+				initialCode: "wildcraftfruit:nut-juniper",
+			},
+			"*": {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 1.0,
+				startScaleY: 0.8,
+				endScaleY: 0.8,
+				initialCode: "wildcraftfruit:fruit-{type}",
+			},
 		},
 		"inPiePropertiesByType": {
 			"*-pittedcherry": {
