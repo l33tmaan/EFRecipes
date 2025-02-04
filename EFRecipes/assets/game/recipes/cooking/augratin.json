@@ -11,8 +11,8 @@
 		{
 			code: "cheese-base", 
 			validStacks: [ 
-				{ type: "item", code: "cheese-cheddar-1slice",  shapeElement: "bowl/cheese" },
-				{ type: "item", code: "cheese-blue-1slice",  shapeElement: "bowl/cheese" },
+				{ type: "item", code: "cheese-cheddar-1slice",  shapeElement: "bowl/cheese", textureMapping: ["cheesebase", "cheese-cheddar-1slice"] },
+				{ type: "item", code: "cheese-blue-1slice",  shapeElement: "bowl/cheese", textureMapping: ["cheesebase", "cheese-blue-1slice"] },
 			],
 			minQuantity: 1,
 			maxQuantity: 1,
@@ -321,8 +321,8 @@
 		{
 			code: "cheese-extra1", 
 			validStacks: [ 
-				{ type: "item", code: "cheese-cheddar-1slice",  shapeElement: "bowl/cheese" },
-				{ type: "item", code: "cheese-blue-1slice",  shapeElement: "bowl/cheese" },
+				{ type: "item", code: "cheese-cheddar-1slice",  shapeElement: "bowl/cheese", textureMapping: ["cheesebase", "cheese-cheddar-1slice"] },
+				{ type: "item", code: "cheese-blue-1slice",  shapeElement: "bowl/cheese", textureMapping: ["cheesebase", "cheese-blue-1slice"] },
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
@@ -330,8 +330,8 @@
 		{
 			code: "cheese-extra2", 
 			validStacks: [ 
-				{ type: "item", code: "cheese-cheddar-1slice",  shapeElement: "bowl/cheese" },
-				{ type: "item", code: "cheese-blue-1slice",  shapeElement: "bowl/cheese" },
+				{ type: "item", code: "cheese-cheddar-1slice",  shapeElement: "bowl/cheese", textureMapping: ["cheesebase", "cheese-cheddar-1slice"] },
+				{ type: "item", code: "cheese-blue-1slice",  shapeElement: "bowl/cheese", textureMapping: ["cheesebase", "cheese-blue-1slice"] },
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
