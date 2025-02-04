@@ -1,0 +1,32 @@
+﻿[
+ {
+   file: "wildcraftfruit:itemtypes/liquid/finecider.json",
+    "side": "server",
+    op: "addmerge", 
+    path: "/enabled", 
+    value: "false",
+ },
+ {
+   file: "wildcraftfruit:itemtypes/liquid/fineflowerwinejson",
+    "side": "server",
+    op: "addmerge", 
+    path: "/enabled", 
+    value: "false",
+ },
+ {
+   file: "wildcraftfruit:itemtypes/liquid/finespirit.json",
+    "side": "server",
+    op: "addmerge", 
+    path: "/enabled", 
+    value: "false",
+ },
+ {
+   file: "wildcraftfruit:itemtypes/liquid/cider.json",
+    "side": "server",
+    op: "replace", 
+    path: "/attributes/distillationPropsbytype/*-pomace/distilledStack/code", 
+    value: "expandedfoods:wildstrongspirit-grappa",
+ },
+
+
+]
