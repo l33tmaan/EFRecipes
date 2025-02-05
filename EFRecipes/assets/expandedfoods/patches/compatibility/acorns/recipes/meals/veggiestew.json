@@ -31,4 +31,12 @@
     "side": "server",
     dependsOn: [{ "modid": "acorns" }]
   },
+ {
+    "op": "addmerge",
+    "path": "/ingredients/11/validStacks/1",
+    "value": { type: "item", code: "expandedfoods:acornpasta-cooked",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "pasta"] },   
+    "file": "recipes/cooking/meatystew.json",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns" }]
+  },
 ]

@@ -10049,4 +10049,18 @@
     "file": "recipes/cooking/meatystew.json",	
 	dependsOn: [{ "modid": "moreanimals" }]
   },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/15",
+    "value": {
+      "code": "pasta",
+      "validStacks": [
+            { type: "item", code: "expandedfoods:pasta-cooked",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "pasta"] },     
+        ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "side": "server",
+    "file": "recipes/cooking/meatystew.json"
+  },
 ]
