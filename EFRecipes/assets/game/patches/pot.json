@@ -7431,6 +7431,56 @@
   },
   {
     "op": "addmerge",
+    "path": "/texturesByType/*/currantwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-currantflower"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/*/rosewine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-rosepetal"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/*/hibiscuswine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-hibiscuspetal"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/*/honeysuckleflowerwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-honeysuckleflower"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/*/elderflowerwine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-elderflower"
+    },
+    side: "server",
+    "file": "blocktypes/clay/pot.json",
+    dependsOn: [{ "modid": "wildcraftfruit" }]
+  },
+  {
+    "op": "addmerge",
     "path": "/texturesByType/*/snakemeat",
     "value": {
       "base": "primitivesurvival:item/snake/snakemeat-cooked"

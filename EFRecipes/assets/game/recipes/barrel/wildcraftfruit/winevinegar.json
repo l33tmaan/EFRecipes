@@ -23,4 +23,28 @@
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.01 }
  },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "wildcraftfruit:flowerwine-*", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.01 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongflowerwineportion-*", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.01 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentflowerwineportion-*", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.01 }
+ },
 ]
