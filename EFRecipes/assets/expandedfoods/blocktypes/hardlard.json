@@ -4,16 +4,6 @@
 	texture: { base: "game:block/fat" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	attributes: {
-		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		waterTightContainerProps: {
-			itemsPerLitre: 10,
-			texture: { base: "game:block/fat" },
-			allowSpill: true,
-			whenSpilled: {
-				action: "DropContents",
-				stack: { type: "block", code: "expandedfoods:hardlard" }
-			}
-		},
 		placeSound: "game:block/snow"
 	},
 	"behaviors": [
@@ -41,7 +31,7 @@
 		{ "name": "Unplaceable" },	
 	],
 	blockmaterial: "other",
-	maxstacksize: 100,
+	maxstacksize: 32,
 	combustibleProps: {
 		burnTemperature: 300,
 		burnDuration: 120,

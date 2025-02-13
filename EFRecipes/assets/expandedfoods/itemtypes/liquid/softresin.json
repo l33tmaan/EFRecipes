@@ -4,7 +4,7 @@
 	matterState: "liquid",
 	maxstacksize: 5000,
 	shape: { base: "game:item/liquid" },
-	texture: { base: "game:block/resin" },
+	texture: { base: "game:block/resin", alpha: 200, },
 	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:softresin", makefull: true } ] } } ] } ],
 	combustibleProps: {
 		burnTemperature: 700,
@@ -18,8 +18,8 @@
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,
-			texture: { base: "game:block/resin" },
-			allowSpill: true,
+			texture: { base: "game:block/resin", alpha: 200, },
+			allowSpill: false,
 			whenSpilled: {
 				action: "DropContents",
 				stack: { type: "item", code: "expandedfoods:softresin" }
@@ -27,10 +27,10 @@
 		},
 	},
 	transitionableProps: [{
-    		type: "Cure",
+    		type: "Harden",
     		freshHours: { avg: 24 },
     		transitionHours: { avg: 432 },
-    		transitionedStack: { type: "item", code: "game:resin" },
+    		transitionedStack: { type: "item", code: "expandedfoods:hardresin" },
     		transitionRatio: 0.01
   	}],
 	guiTransform: {
