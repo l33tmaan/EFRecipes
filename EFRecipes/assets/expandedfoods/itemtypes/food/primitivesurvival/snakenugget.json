@@ -60,7 +60,7 @@
 	],
 	shapebytype:	{
 		"*-raw": {base: "item/food/meat/poultry-nugget"},
-		"*-(partbaked|cooked|charred)": {base: "item/food/meat/poultry-cooked"},
+		"@*-(partbaked|cooked|charred)": {base: "item/food/meat/poultry-cooked"},
 	},
 	texturesByType: {
 		"*-partbaked": {
