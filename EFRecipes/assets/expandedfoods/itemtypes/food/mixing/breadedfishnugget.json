@@ -10,6 +10,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "breadedfishnugget-*" ] },
   		"expandedNutritionProps": {
 			"game:flour-flax": {saturation: 80, foodcategory: "Grain"},
 			"game:flour-rye": {saturation: 150, foodcategory: "Grain"},

@@ -16,6 +16,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "candy-*" ] },
 	    onDisplayTransform: { 
 			translation: { x: 0, y: -0.25, z: 0 },
 			scale: 0.5 

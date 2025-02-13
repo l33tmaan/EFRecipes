@@ -8,6 +8,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "pemmican-*" ] },
     		"expandedNutritionPropsByType": {
 			"*-raw": {
 				"game:fat" : {saturation: 100, foodcategory: "Protein"},

@@ -8,7 +8,8 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
-    		"expandedNutritionPropsByType": {
+		handbook: { "groupBy": [ "crabpemmican-*" ] },
+    	"expandedNutritionPropsByType": {
 			"*-raw": {
 				"game:fat" : {saturation: 100, foodcategory: "Protein"},
 				"expandedfoods:lard" : {saturation: 8, "health":  0.05, foodcategory: "Protein"},

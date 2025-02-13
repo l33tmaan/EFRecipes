@@ -8,6 +8,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "acornstuffedpepper-*" ] },
   		"expandedNutritionProps": {
 			"game:egg-chicken-raw": { saturation: 150, foodcategory: "Protein"},
 			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},

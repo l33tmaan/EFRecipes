@@ -8,6 +8,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "pasta-*" ] },
 		inContainerTexture: { base: "item/food/pasta/ricepasta" },
 		nutritionPropsWhenInMealByType: {
 			"*-cut": {

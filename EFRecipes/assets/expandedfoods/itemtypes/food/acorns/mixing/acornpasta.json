@@ -8,6 +8,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "acornpasta-*" ] },
 		inContainerTexture: { base: "item/food/pasta/acornpasta" },
 		nutritionPropsWhenInMealByType: { 
 			"*-cut": { satiety: 240, foodcategory: "Grain" },

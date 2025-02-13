@@ -5,6 +5,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "sushi-*" ] },
 		expandedNutritionProps: {
 			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Grain"},
 			"game:grain-rice": {saturation: 200, foodcategory: "Grain"},

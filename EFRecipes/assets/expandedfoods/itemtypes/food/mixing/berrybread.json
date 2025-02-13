@@ -8,6 +8,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "berrybread-*" ] },
 		expandedNutritionProps: {
       		"game:milkportion" : { saturation: 1.5, foodcategory: "Dairy" },
 			"expandedfoods:lard": { saturation: 16, "health":  0.1, foodcategory: "Protein"},

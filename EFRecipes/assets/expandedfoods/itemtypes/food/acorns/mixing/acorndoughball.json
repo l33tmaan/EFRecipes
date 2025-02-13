@@ -11,6 +11,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "acorndoughball-*" ] },
 		inPiePropertiesByType: {
 			"*-dough": { texture: "game:block/food/pie/acornflax{bakeLevel}", partType: 'Crust'  },
 		},

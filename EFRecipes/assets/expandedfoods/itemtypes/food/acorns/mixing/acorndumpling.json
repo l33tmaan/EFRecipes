@@ -8,6 +8,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "acorndumpling-*" ] },
     	"expandedNutritionProps": {
       		"game:milkportion" : { saturation: 1.5, foodcategory: "Dairy" },
 			"expandedfoods:breadstarter-wild": { saturation: 2, health: 0.16, foodcategory: "Grain"},

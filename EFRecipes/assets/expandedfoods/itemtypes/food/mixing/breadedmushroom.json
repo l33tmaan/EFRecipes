@@ -10,6 +10,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "breadedmushroom-*" ] },
 		"expandedNutritionProps": {
 			"game:flour-flax": {saturation: 80, foodcategory: "Grain"},
 			"game:flour-rye": {saturation: 150, foodcategory: "Grain"},

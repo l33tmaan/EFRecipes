@@ -8,6 +8,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "snakepemmican-*" ] },
     		"expandedNutritionPropsByType": {
 			"*-raw": {
 				"game:fat" : {saturation: 100, foodcategory: "Protein"},

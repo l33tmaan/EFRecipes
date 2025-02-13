@@ -12,6 +12,7 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
+		handbook: { "groupBy": [ "herbalacornbread-*" ] },
 		inPiePropertiesByType: {
 			"*-dough": { texture: "game:block/food/pie/herbalacorn{bakeLevel}", partType: 'Crust'  },
 		},
