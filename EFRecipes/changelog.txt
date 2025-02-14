@@ -88,6 +88,7 @@ MISC:
 - Dialogue added to Kitchenware Trader; readjusted code to push text to en.json
 - Candle recipes updated (waiting on More Candles)
 - Food can be put on the ground, I guess?
+- Gelatin textures no longer transparent; textures use "alpha" within food items
 
 - New 1.20 clays integrated
 - Chef hat + saddle makes Chef Saddle
@@ -98,22 +99,23 @@ MISC:
 -- Nuts working in fruit bread - DONE!!!
 -- Nuts working in muffins - DONE!!!
 -- Nuts working in trail mix - DONE!!!
--- Updated to use new names for huckleberries, honeysuckle, and pandan - DONE!!!
--- Wildcraft Aged liquids disabled when Expanded Foods is installed - DONE!!!
--- Pickled veggie barrel recipes aligned (now requires 1.5 L of vinegar instead of 0.1 L) - DONE!!!
--- Aged flower wine incorporated into EF - DONE!!!
--- Soulstorm slop accepts all poisonous Wildcraft berries - DONE!!!
--- Sumac and Juniper berries are NUTS now, I guess - DONE!!!
 -- Nuts can be put into yogurt meals - DONE!!!
+-- Sumac and Juniper berries are NUTS now, I guess - DONE!!!
+-- Wildcraft Aged liquids disabled when Expanded Foods is installed - DONE!!!
+-- Aged flower wine incorporated into EF - DONE!!!
+-- Pickled veggie barrel recipes aligned (now requires 1.5 L of vinegar instead of 0.1 L) - DONE!!!
+-- Updated to use new names for huckleberries, honeysuckle, and pandan - DONE!!!
+-- Soulstorm slop accepts all poisonous Wildcraft berries - DONE!!!
 
 BALANCING:
 - Cooked veggies can be added to salad & cold pasta - DONE!!!
 - Hot pasta can be made with broths - DONE!!!
 - Cooked pasta can be added to stews - DONE!!!
-- Candied fruit can be added to yogurt meals
+- Candied fruit can be added to yogurt meals - DONE!!!
 - Yogurt can be added to fruit bars
 - Peanuts can be added to fruit bread/muffins
 - Broth in stew require 0.5 L instead of 1 L; should stop conflicting with soup recipe - DONE!!!
+- Animal feed breadcrumbs now have 0 grain sat instead of no sat; will now be affected by container perish speed multipliers - DONE!!!
 
 BUG FIXES:
 - Apple visuals in muffin/fruit dough fixed - DONE!!!
@@ -127,6 +129,7 @@ BUG FIXES:
 MISC: 
 - Liquid lard & resin now harden and dump out into solids (thanks to pizza2004) - DONE!!!
 - Mixing items grouped together so handbook recipe entries aren't flooded - DONE!!!
+- Fruit bread/muffin overlay textures no longer have any transparency - DONE!!!
 
 
 

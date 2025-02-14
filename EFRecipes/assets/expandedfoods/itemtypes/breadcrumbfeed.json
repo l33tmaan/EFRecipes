@@ -12,6 +12,7 @@
   	textures: {
 		"breadcrumbs": {base: "item/food/grain/crumbs/breadcrumbs-feed" },
   	},
+	nutritionProps: { saturation: 0, foodcategory: "Grain" },
 	transitionableProps: [{
 		type: "Perish",
 		freshHours: { avg: 432 },
