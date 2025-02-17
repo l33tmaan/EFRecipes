@@ -49,13 +49,6 @@
 			},
 		},
 	},
-	transitionableProps: [{
-    	type: "Cure",
-    	freshHours: { avg: 13440 },
-    	transitionHours: { avg: 4032 },
-    	transitionedStack: { type: "item", code: "expandedfoods:potentspiritportion-{type}" },
-    	transitionRatio: 1
-  	}],
 	shape: { base: "game:item/liquid" },
 	texturebytype: {
 		"*-mead": { base: "game:block/liquid/honey", alpha: 140, overlays: ["game:item/liquid/potentmead"] },
