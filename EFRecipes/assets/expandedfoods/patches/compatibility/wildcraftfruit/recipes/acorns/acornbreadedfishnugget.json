@@ -5,7 +5,7 @@
     op: "addmerge", 
     path: "/0/ingredients/0/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
@@ -13,6 +13,22 @@
     op: "addmerge", 
     path: "/1/ingredients/0/inputs/-", 
     value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftfruit" }, { "modid": "acorns120", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
+    "side": "server",
+    op: "addmerge", 
+    path: "/0/ingredients/0/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "wildcraftfruit" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
+    "side": "server",
+    op: "addmerge", 
+    path: "/1/ingredients/0/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "wildcraftfruit" }, { "modid": "acorns", "invert": true }]
  },
 ]

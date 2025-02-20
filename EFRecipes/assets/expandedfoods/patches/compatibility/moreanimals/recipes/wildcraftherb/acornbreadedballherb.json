@@ -5,7 +5,7 @@
     path: "/0/ingredients/3/inputs/-", 
     value: { type: "item", code: "moreanimals:egg-*-boiled", quantity: 1},
     side: "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "moreanimals" }, { "modid": "wildcraftherb" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "moreanimals" }, { "modid": "wildcraftherb" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedballherb.json",
@@ -13,6 +13,22 @@
     path: "/0/ingredients/3/inputs/-", 
     value: { type: "item", code: "moreanimals:egg-*-pickled", quantity: 1},
     side: "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "moreanimals" }, { "modid": "wildcraftherb" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "moreanimals" }, { "modid": "wildcraftherb" }, { "modid": "acorns120", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedballherb.json",
+    op: "addmerge", 
+    path: "/0/ingredients/3/inputs/-", 
+    value: { type: "item", code: "moreanimals:egg-*-boiled", quantity: 1},
+    side: "server",
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "moreanimals" }, { "modid": "wildcraftherb" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedballherb.json",
+    op: "addmerge", 
+    path: "/0/ingredients/3/inputs/-", 
+    value: { type: "item", code: "moreanimals:egg-*-pickled", quantity: 1},
+    side: "server",
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "moreanimals" }, { "modid": "wildcraftherb" }, { "modid": "acorns", "invert": true }]
  },
 ]

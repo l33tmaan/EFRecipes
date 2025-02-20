@@ -5,7 +5,7 @@
     "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]}, 
     "file": "game:recipes/cooking/riceandbeans.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
   },
   {
     "op": "addmerge",
@@ -13,6 +13,22 @@
     "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]}, 
     "file": "game:recipes/cooking/riceandbeans.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/8/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]}, 
+    "file": "game:recipes/cooking/riceandbeans.json",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/9/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]}, 
+    "file": "game:recipes/cooking/riceandbeans.json",
+    "side": "server",
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
   },
 ]

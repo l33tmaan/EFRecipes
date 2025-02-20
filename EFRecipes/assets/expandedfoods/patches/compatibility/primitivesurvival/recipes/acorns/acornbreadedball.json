@@ -5,7 +5,7 @@
     op: "addeach", 
     path: "/0/ingredients/3/inputs/-", 
     value: [{ type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1}, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1},],
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
@@ -13,6 +13,22 @@
     op: "addeach", 
     path: "/1/ingredients/3/inputs/-", 
     value: [{ type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1}, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1},],
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }, { "modid": "acorns120", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
+    "side": "server",
+    op: "addeach", 
+    path: "/0/ingredients/3/inputs/-", 
+    value: [{ type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1}, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1},],
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "primitivesurvival" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
+    "side": "server",
+    op: "addeach", 
+    path: "/1/ingredients/3/inputs/-", 
+    value: [{ type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1}, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1},],
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "primitivesurvival" }, { "modid": "acorns", "invert": true }]
  },
 ]

@@ -5,7 +5,7 @@
     path: "/0/enabled", 
     value: "true",
     side: "server",
-    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/ancienttools/acorns/acornberrydough.json",
@@ -13,7 +13,7 @@
     path: "/1/enabled", 
     value: "true",
     side: "server",
-    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/ancienttools/acorns/acornberrydough.json",
@@ -21,7 +21,7 @@
     path: "/2/enabled", 
     value: "true",
     side: "server",
-    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/ancienttools/acorns/acornberrydough.json",
@@ -29,7 +29,7 @@
     path: "/3/enabled", 
     value: "true",
     side: "server",
-    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/ancienttools/acorns/acornberrydough.json",
@@ -37,7 +37,46 @@
     path: "/4/enabled", 
     value: "true",
     side: "server",
-    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
-
+ {
+   file: "expandedfoods:recipes/kneading/ancienttools/acorns/acornberrydough.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/ancienttools/acorns/acornberrydough.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/ancienttools/acorns/acornberrydough.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/ancienttools/acorns/acornberrydough.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/ancienttools/acorns/acornberrydough.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    side: "server",
+    dependsOn: [{ "modid": "ancienttools"}, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+ },
 ]

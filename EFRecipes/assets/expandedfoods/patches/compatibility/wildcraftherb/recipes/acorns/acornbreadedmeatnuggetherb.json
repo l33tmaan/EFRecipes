@@ -5,7 +5,7 @@
     path: "/0/enabled", 
     value: "true",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
@@ -13,7 +13,7 @@
     path: "/1/enabled", 
     value: "true",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
@@ -21,7 +21,7 @@
     path: "/2/enabled", 
     value: "true",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
@@ -29,7 +29,7 @@
     path: "/3/enabled", 
     value: "true",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
@@ -37,7 +37,7 @@
     path: "/4/enabled", 
     value: "true",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
@@ -45,6 +45,54 @@
     path: "/5/enabled", 
     value: "true",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/acorns/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    "side": "server",
+    dependsOn: [{ "modid": "wildcraftherb" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
  },
 ]

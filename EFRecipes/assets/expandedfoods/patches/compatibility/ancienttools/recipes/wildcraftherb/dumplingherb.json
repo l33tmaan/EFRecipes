@@ -1,18 +1,18 @@
 ﻿[
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/dumplingherb.json",
+   file: "expandedfoods:recipes/kneading/wildcraftherb/dumplingherb.json",
     op: "addeach", 
     path: "/1/ingredients/2/inputs/-", 
     value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}],
     "side": "server",
-    dependsOn: [{ "modid": "ancienttools" }, { "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "wildcraftherb" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/dumplingherb.json",
+   file: "expandedfoods:recipes/kneading/wildcraftherb/dumplingherb.json",
     op: "addeach", 
     path: "/3/ingredients/2/inputs/-", 
     value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}],
     "side": "server",
-    dependsOn: [{ "modid": "ancienttools" }, { "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "ancienttools" }, { "modid": "wildcraftherb" }]
  },
 ]

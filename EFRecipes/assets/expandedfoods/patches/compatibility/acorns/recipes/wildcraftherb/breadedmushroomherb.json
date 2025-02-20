@@ -5,7 +5,7 @@
     path: "/0/ingredients/2/inputs/-", 
     value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftherb/breadedmushroomherb.json",
@@ -13,7 +13,7 @@
     path: "/1/ingredients/2/inputs/-", 
     value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftherb/breadedmushroomherb.json",
@@ -21,7 +21,7 @@
     path: "/2/ingredients/2/inputs/-", 
     value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }, { "modid": "acorns120", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraftherb/breadedmushroomherb.json",
@@ -29,6 +29,38 @@
     path: "/3/ingredients/2/inputs/-", 
     value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }, { "modid": "acorns120", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/breadedmushroomherb.json",
+    op: "addmerge", 
+    path: "/0/ingredients/2/inputs/-", 
+    value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
+    "side": "server",
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "wildcraftherb" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/breadedmushroomherb.json",
+    op: "addmerge", 
+    path: "/1/ingredients/2/inputs/-", 
+    value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
+    "side": "server",
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "wildcraftherb" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/breadedmushroomherb.json",
+    op: "addmerge", 
+    path: "/2/ingredients/2/inputs/-", 
+    value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
+    "side": "server",
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "wildcraftherb" }, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraftherb/breadedmushroomherb.json",
+    op: "addmerge", 
+    path: "/3/ingredients/2/inputs/-", 
+    value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
+    "side": "server",
+    dependsOn: [{ "modid": "acorns120" }, { "modid": "wildcraftherb" }, { "modid": "acorns", "invert": true }]
  },
 ]
