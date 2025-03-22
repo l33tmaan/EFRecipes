@@ -15,6 +15,6 @@
 			{ type: "item", code: "vinegarportion",  litres: 1.5, consumelitres: 1.5 },
 			{ type: "item", code: "legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean"] }
 		],
-		output: { type: "item", code: "pickledvegetable-{legume}", stackSize: 1 }
+		output: { type: "item", code: "pickledlegume-{legume}", stackSize: 1 }
 	}
 ]
