@@ -146,13 +146,13 @@
     "op": "addmerge",
     "path": "/combustiblePropsByType/@*-(partbaked|cooked)",
     "value": {
-		meltingPoint: 150,
-		meltingDuration: 30,
-		smeltedRatio: 1,
-		smeltingType: "cook",
-		smeltedStack: { type: "item", code: "bushmeat-charred" },
-		requiresContainer: false
-	},
+    "meltingPoint": 150,
+    "meltingDuration": 30,
+    "smeltedRatio": 1,
+    "smeltingType": "cook",
+    "smeltedStack": { "type": "item", "code": "bushmeat-charred" },
+    "requiresContainer": false
+  },
     "side": "server",
     "file": "itemtypes/food/bushmeat.json"
   },

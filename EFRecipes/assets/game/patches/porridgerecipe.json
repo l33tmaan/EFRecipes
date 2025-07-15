@@ -326,7 +326,7 @@
         "fruit",
         "fruit-pomegranate"
       ]
-    },
+    }
     ],
     "side": "server",
     "file": "recipes/cooking/porridge.json"
@@ -658,7 +658,7 @@
         "fruit",
         "fruit-pomegranate"
       ]
-    },
+    }
     ],
     "side": "server",
     "file": "recipes/cooking/porridge.json"
@@ -1201,7 +1201,7 @@
             "fruit",
             "group8"
           ]
-        },
+        }
       ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -1941,10 +1941,10 @@
           "type": "item",
           "code": "expandedfoods:lard",
           "shapeElement": "bowl/topping/*",
-	        "textureMapping": [
-	            "topping",
-	            "lard"
-	        ]
+          "textureMapping": [
+              "topping",
+              "lard"
+          ]
         },
         {
           "type": "item",
@@ -2004,10 +2004,10 @@
           "type": "item",
           "code": "expandedfoods:foodoilportion-*",
           "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
+    "textureMapping": [
+      "topping",
+      "foodoil"
+   ]
         },
         {
           "type": "item",
@@ -2036,7 +2036,7 @@
                 "topping",
                 "fishbroth"
             ]
-        },
+        }
       ],
       "minQuantity": 0,
         "maxQuantity": 1,
@@ -2787,11 +2787,11 @@
             "topping",
             "wolfberrysyrup"
           ]
-        },
+        }
     ],
     "side": "server",
     "file": "recipes/cooking/porridge.json",
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+    "dependsOn": [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "addmerge",
@@ -2801,7 +2801,7 @@
       "validStacks": [
             { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },
             { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },      
-            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "peanut" ] },      
+            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "peanut" ] }      
         ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -2816,7 +2816,7 @@
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
     "side": "server",
     "file": "recipes/cooking/porridge.json",
-    dependsOn: [{ "modid": "acorns" }]
+    "dependsOn": [{ "modid": "acorns" }]
   },
  {
     "op": "addeach",
@@ -2844,11 +2844,11 @@
             { "type": "item", "code": "wildcraftfruit:nut-pistachioberry",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pistachionut" ] },  
             { "type": "item", "code": "wildcraftfruit:nut-pistachionut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pistachionut" ] },  
             { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pumpkinseed" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "sugarhackberry" ] },  
+            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "sugarhackberry" ] }
         ],
     "side": "server",
     "file": "game:recipes/cooking/porridge.json",
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+    "dependsOn": [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "addmerge",
@@ -2858,7 +2858,7 @@
       "validStacks": [
             { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
             { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },      
-            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "acorns" ] },      
+            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "acorns" ] }     
 ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -2873,7 +2873,7 @@
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
     "side": "server",
     "file": "recipes/cooking/porridge.json",
-    dependsOn: [{ "modid": "acorns" }]
+    "dependsOn": [{ "modid": "acorns" }]
   },
  {
     "op": "addeach",
@@ -2901,11 +2901,11 @@
             { "type": "item", "code": "wildcraftfruit:nut-pistachioberry",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pistachionut" ] },  
             { "type": "item", "code": "wildcraftfruit:nut-pistachionut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pistachionut" ] },  
             { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pumpkinseed" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "sugarhackberry" ] },   
+            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "sugarhackberry" ] }   
         ],
     "side": "server",
     "file": "game:recipes/cooking/porridge.json",
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+    "dependsOn": [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "addmerge",
@@ -3348,7 +3348,7 @@
                 "code": "expandedfoods:sausagefish-*-cured",
                 "shapeElement": "bowl/meatnugget 1/*",
                 "textureMapping": [ "meatnugget", "group1" ]
-            },
+            }
         ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -3452,11 +3452,11 @@
                 "meat",
                 "group3"
             ]
-        },
+        }
     ],
     "side": "server",
-    "file": "recipes/cooking/porridge.json",	
-    dependsOn: [{ "modid": "ancienttools" }]
+    "file": "recipes/cooking/porridge.json",  
+    "dependsOn": [{ "modid": "ancienttools" }]
   },
  {
     "op": "addeach",
@@ -3474,11 +3474,11 @@
         {"type": "item", "code": "expandedfoods:sausagesnake-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},    
         {"type": "item", "code": "expandedfoods:sausagesnake-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
         {"type": "item", "code": "expandedfoods:sausagesnake-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
-        {"type": "item", "code": "expandedfoods:sausagesnake-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagesnake-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]}
     ],
-    side: "server",
-    "file": "recipes/cooking/porridge.json",	
-	dependsOn: [{ "modid": "primitivesurvival" }]
+    "side": "server",
+    "file": "recipes/cooking/porridge.json",  
+  "dependsOn": [{ "modid": "primitivesurvival" }]
   },
   {
     "op": "addeach",
@@ -3491,11 +3491,11 @@
         {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
         {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},    
         {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},     
-        {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},   
+        {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]}   
     ],
     "file": "game:recipes/cooking/porridge.json",
-    side: "server",
-    dependsOn: [ { "modid": "primitivesurvival" }, { "modid": "wildcraft" } ]
+    "side": "server",
+    "dependsOn": [ { "modid": "primitivesurvival" }, { "modid": "wildcraft" } ]
   },
   {
     "op": "addeach",
@@ -3528,10 +3528,10 @@
         {"type": "item", "code": "expandedfoods:sausagefishherb-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]},
         {"type": "item", "code": "expandedfoods:sausagefishherb-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]},   
         {"type": "item", "code": "expandedfoods:sausagefishherb-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]},
-        {"type": "item", "code": "expandedfoods:sausagefishherb-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]},
+        {"type": "item", "code": "expandedfoods:sausagefishherb-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]}
     ],
     "file": "game:recipes/cooking/porridge.json",
     "side": "server",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
+    "dependsOn": [ { "modid": "wildcraft" } ]
+  }
 ]

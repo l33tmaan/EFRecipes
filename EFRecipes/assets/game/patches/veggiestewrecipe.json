@@ -479,9 +479,9 @@
         "vegetable",
         "group11"
       ]
-    },
+    }
     ],
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
@@ -964,9 +964,9 @@
         "vegetable",
         "group11"
       ]
-    },
+    }
     ],
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
@@ -978,7 +978,7 @@
       "code": "expandedfoods:dumpling-raw",
       "shapeElement": "bowl/dumplings1/*",
       "textureMapping": [
-       	 "dumpling",
+          "dumpling",
          "dumpling"
       ]
     },
@@ -1458,9 +1458,9 @@
         "vegetable",
         "group11"
       ]
-    },
+    }
     ],
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
@@ -1472,9 +1472,9 @@
       "code": "expandedfoods:dumpling-raw",
       "shapeElement": "bowl/dumplings2/*",
       "textureMapping": [
-       		"dumpling",
-        	"dumpling"
-     	]
+           "dumpling",
+          "dumpling"
+       ]
     },
  {
       "type": "item",
@@ -1952,9 +1952,9 @@
         "vegetable",
         "group11"
       ]
-    },
+    }
     ],
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
@@ -1972,19 +1972,19 @@
           "type": "item",
           "code": "expandedfoods:foodoilportion-*",
           "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
+    "textureMapping": [
+      "topping",
+      "foodoil"
+   ]
         },
         {
           "type": "item",
           "code": "expandedfoods:lard",
           "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "lard"
-	 ]
+    "textureMapping": [
+      "topping",
+      "lard"
+   ]
         },
         {
           "type": "item",
@@ -2858,13 +2858,13 @@
                 "topping",
                 "fishsauce"
             ]
-        },
+        }
       ],
         "minQuantity": 0,
         "maxQuantity": 1,
-        "portionSizeLitres": 0.1,
+        "portionSizeLitres": 0.1
     },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
@@ -7370,11 +7370,11 @@
                 "topping",
                 "elderflowerwine"
             ]
-        },   
+        }
     ],
     "side": "server",
     "file": "recipes/cooking/vegetablestew.json",
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+    "dependsOn": [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "addmerge",
@@ -7390,7 +7390,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
@@ -7400,9 +7400,9 @@
       "type": "item",
       "code": "expandedfoods:acornbreadcrumbs-*"
     },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json",
-	dependsOn: [{ "modid": "acorns" }]
+  "dependsOn": [{ "modid": "acorns" }]
   },
  {
     "op": "addmerge",
@@ -7411,9 +7411,9 @@
       "type": "item",
       "code": "expandedfoods:herbalbreadcrumbs"
     },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json",
-	dependsOn: [{ "modid": "wildcraft" }]
+  "dependsOn": [{ "modid": "wildcraft" }]
   },
  {
     "op": "addmerge",
@@ -7422,9 +7422,9 @@
       "type": "item",
       "code": "expandedfoods:herbalacornbreadcrumbs"
     },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json",
-	dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraft" }]
+  "dependsOn": [{ "modid": "acorns" }, { "modid": "wildcraft" }]
   },
   {
     "op": "addmerge",
@@ -7440,7 +7440,7 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
@@ -7451,12 +7451,12 @@
       "validStacks": [
             { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },
             { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },      
-            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "peanut" ] },      
+            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "peanut" ] }    
 ],
       "minQuantity": 0,
       "maxQuantity": 1
     },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
@@ -7464,9 +7464,9 @@
     "path": "/ingredients/7/validStacks/-",
     "value":
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json",
-    dependsOn: [{ "modid": "acorns" }]
+    "dependsOn": [{ "modid": "acorns" }]
   },
  {
     "op": "addeach",
@@ -7494,11 +7494,11 @@
             { "type": "item", "code": "wildcraftfruit:nut-pistachioberry",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pistachionut" ] },  
             { "type": "item", "code": "wildcraftfruit:nut-pistachionut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pistachionut" ] },  
             { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pumpkinseed" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "sugarhackberry" ] },  
+            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "sugarhackberry" ] }
         ],
     "side": "server",
     "file": "recipes/cooking/vegetablestew.json",
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+    "dependsOn": [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "addmerge",
@@ -7508,12 +7508,12 @@
       "validStacks": [
             { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "peanut" ] },
             { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "peanut" ] },      
-            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "peanut" ] },      
+            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "peanut" ] }      
 ],
       "minQuantity": 0,
       "maxQuantity": 1
     },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
  {
@@ -7521,9 +7521,9 @@
     "path": "/ingredients/8/validStacks/-",
     "value": 
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json",
-    dependsOn: [{ "modid": "acorns" }]
+    "dependsOn": [{ "modid": "acorns" }]
   },
  {
     "op": "addeach",
@@ -7551,11 +7551,11 @@
             { "type": "item", "code": "wildcraftfruit:nut-pistachioberry",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pistachionut" ] },  
             { "type": "item", "code": "wildcraftfruit:nut-pistachionut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pistachionut" ] },  
             { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pumpkinseed" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "sugarhackberry" ] },   
+            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "sugarhackberry" ] }   
         ],
     "side": "server", 
     "file": "recipes/cooking/vegetablestew.json",
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+    "dependsOn": [{ "modid": "wildcraftfruit" }]
   },
   {
     "op": "addmerge",
@@ -7634,13 +7634,13 @@
             "topping",
             "fishbroth"
           ]
-        },
+        }
       ],
       "minQuantity": 0,
         "maxQuantity": 1,
-        "portionSizeLitres": 0.5,
+        "portionSizeLitres": 0.5
     },
-    side: "server",
+    "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
   },
   {
@@ -7656,11 +7656,11 @@
             "topping",
             "eggyolkchicken"
           ]
-        },
+        }
       ],
       "minQuantity": 0,
         "maxQuantity": 1,
-        "portionSizeLitres": 0.1,
+        "portionSizeLitres": 0.1
     },
     "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
@@ -7671,11 +7671,11 @@
     "value": [
         {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
         {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
-        {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "textureMapping": [ "topping", "eggyolkpheasant" ]},
+        {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "textureMapping": [ "topping", "eggyolkpheasant" ]}
     ],
-    side: "server",
-    "file": "recipes/cooking/vegetablestew.json",	
-	dependsOn: [{ "modid": "moreanimals" }]
+    "side": "server",
+    "file": "recipes/cooking/vegetablestew.json",  
+  "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
     "op": "addmerge",
@@ -7683,12 +7683,12 @@
     "value": {
       "code": "pasta",
       "validStacks": [
-            { type: "item", code: "expandedfoods:pasta-cooked",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "pasta"] },     
+            { "type": "item", "code": "expandedfoods:pasta-cooked",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "pasta"] }    
         ],
       "minQuantity": 0,
       "maxQuantity": 1
     },
     "side": "server",
     "file": "recipes/cooking/vegetablestew.json"
-  },
+  }
 ]
