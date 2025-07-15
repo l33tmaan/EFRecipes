@@ -46,9 +46,13 @@
 			},
 		},
 		"distillationPropsbytype": {		
+			"*-pomace": {
+				"distilledStack": { "type": "item", "code": "expandedfoods:wildstrongspiritportion-grappa" },
+				"ratio": 0.2
+			},	
 			"*": {
-			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-{fruit}" },
-			"ratio": 0.2
+				"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-{fruit}" },
+				"ratio": 0.2
 			}
 		},
 	},
