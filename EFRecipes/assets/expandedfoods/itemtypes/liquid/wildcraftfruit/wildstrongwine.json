@@ -3,7 +3,7 @@
 	class: "TransLiquid",
 	matterState: "liquid",
 	variantgroups: [
-		{ code: "fruit", "loadFromProperties": "wildcraftfruit:block/fruit", "states": ["sumac", "juniper"] },
+		{ code: "fruit", "loadFromProperties": "wildcraftfruit:block/fruit", "states": ["sumac", "juniper", "avocado", "pomace"] },
 	],
 	"skipVariants": ["*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-chinaberry", "*-beachalmondwhole", "*-lillypillywhite", "*-lillypillyblue", "*-lemon", "*-blacknightshadeunripe"],
 	attributes: {
@@ -46,9 +46,13 @@
 			},
 		},
 		"distillationPropsbytype": {		
+			"*-pomace": {
+				"distilledStack": { "type": "item", "code": "expandedfoods:wildstrongspiritportion-grappa" },
+				"ratio": 0.2
+			},	
 			"*": {
-			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-{fruit}" },
-			"ratio": 0.2
+				"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-{fruit}" },
+				"ratio": 0.2
 			}
 		},
 	},
