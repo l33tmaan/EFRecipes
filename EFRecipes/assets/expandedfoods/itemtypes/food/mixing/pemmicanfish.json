@@ -3,7 +3,7 @@
   "maxStackSize": 64,
     "class": "ExpandedFood",
   "variantGroups": [
-    { "code": "type", "states": ["raw", "partbaked", "cooked", "charred"]}
+    { "code": "type", "states": [ "raw", "partbaked", "cooked", "charred" ]}
   ],
   "attributes": {
     "displayCaseable": true,
@@ -445,7 +445,7 @@
     "*-cooked": { "saturation": 100, "foodCategory": "Protein" },
     "*-charred": { "saturation": 80, "foodCategory": "Protein" },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "materialDensity": 200,
   "combustiblePropsByType": {
     "@*-(raw|partbaked|cooked)": {
@@ -458,14 +458,14 @@
     },
   },
   "transitionablePropsByType": {
-    "*-charred": [{
+    "*-charred": [ {
       "type": "Perish",
       "freshHours": { "avg": 6320 },
       "transitionHours": { "avg": 224 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 3160 },
       "transitionHours": { "avg": 112 },

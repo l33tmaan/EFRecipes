@@ -8,7 +8,7 @@
       "states": [ "spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower",
         "birch", "pine", "maple", "acorn" ]
     },
-    { "code": "state", "states": ["raw", "bake1", "bake2", "bake3", "bake4"] },
+    { "code": "state", "states": [ "raw", "bake1", "bake2", "bake3", "bake4" ] },
   ],
   "attributes": {
     "displayCaseable": true,
@@ -98,59 +98,59 @@
     "@*-(raw|bake2|bake3)": { "bread": { "base": "game:item/food/grain/{type}bread" } },
     "*-bake4": { "bread": { "base": "game:item/food/grain/{type}bread1" } },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "@*-(birch|pine|maple)-bake1": { "saturation": 100, "foodCategory": "Grain" },
     "*-flax-bake1": { "saturation": 140, "foodCategory": "Grain" },
     "*-rice-bake1": { "saturation": 300, "foodCategory": "Grain" },
     "*-acorn-bake1": { "saturation": 320, "foodCategory": "Grain" },
-    "*-bake1": { "saturation": 270, "foodCategory": "Grain"  },
+    "*-bake1": { "saturation": 270, "foodCategory": "Grain" },
     "@*-(birch|pine|maple)-bake2": { "saturation": 90, "foodCategory": "Grain" },
     "*-flax-bake2": { "saturation": 120, "foodCategory": "Grain" },
     "*-rice-bake2": { "saturation": 270, "foodCategory": "Grain" },
     "*-acorn-bake2": { "saturation": 290, "foodCategory": "Grain" },
-    "*-bake2": { "saturation": 240, "foodCategory": "Grain"  },
+    "*-bake2": { "saturation": 240, "foodCategory": "Grain" },
     "@*-(birch|pine|maple)-bake3": { "saturation": 80, "foodCategory": "Grain" },
     "*-flax-bake3": { "saturation": 100, "foodCategory": "Grain" },
     "*-rice-bake3": { "saturation": 240, "foodCategory": "Grain" },
     "*-acorn-bake3": { "saturation": 260, "foodCategory": "Grain" },
-    "*-bake3": { "saturation": 210, "foodCategory": "Grain"  },
+    "*-bake3": { "saturation": 210, "foodCategory": "Grain" },
     "@*-(birch|pine|maple)-bake4": { "saturation": 70, "foodCategory": "Grain" },
     "*-flax-bake4": { "saturation": 80, "foodCategory": "Grain" },
     "*-rice-bake4": { "saturation": 210, "foodCategory": "Grain" },
     "*-acorn-bake4": { "saturation": 230, "foodCategory": "Grain" },
-    "*-bake4": { "saturation": 180, "foodCategory": "Grain"  },
+    "*-bake4": { "saturation": 180, "foodCategory": "Grain" },
   },
   "transitionablePropsByType": {
-  "*-raw":[{
+  "*-raw":[ {
     "type": "Perish",
     "freshHours": { "avg": 144 },
     "transitionHours": { "avg": 36 },
     "transitionedStack": { "type": "item", "code": "game:rot" },
     "transitionRatio": 1
     }],
-  "*-bake1":[{
+  "*-bake1":[ {
     "type": "Perish",
     "freshHours": { "avg": 432 },
     "transitionHours": { "avg": 56 },
     "transitionedStack": { "type": "item", "code": "game:rot" },
     "transitionRatio": 1
     }],
-  "*-bake2":[{
+  "*-bake2":[ {
     "type": "Perish",
     "freshHours": { "avg": 1296 },
     "transitionHours": { "avg": 56 },
     "transitionedStack": { "type": "item", "code": "game:rot" },
     "transitionRatio": 1
     }],
-  "*-bake3":[{
+  "*-bake3":[ {
     "type": "Perish",
     "freshHours": { "avg": 3888 },
     "transitionHours": { "avg": 56 },
     "transitionedStack": { "type": "item", "code": "game:rot" },
     "transitionRatio": 1
     }],
-  "*-bake4":[{
+  "*-bake4":[ {
     "type": "Perish",
     "freshHours": { "avg": 11664 },
     "transitionHours": { "avg": 56 },

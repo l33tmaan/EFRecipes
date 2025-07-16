@@ -3,10 +3,10 @@
   "class": "EggCrack",
   "maxStackSize": 32,
   "variantGroups": [
-    { "code": "source", "states": ["chicken", "pheasant", "goldenpheasant", "capercaillie", "wildturkey"] }
+    { "code": "source", "states": [ "chicken", "pheasant", "goldenpheasant", "capercaillie", "wildturkey" ] }
   ],
   "texture": { "base": "item/food/limeegg" },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "attributes": {
     "nutritionPropsWhenInMealByType": {
       "@*-(pheasant|goldenpheasant|capercaillie|wildturkey)": {
@@ -24,7 +24,7 @@
     }
   },
   "materialDensity": 200,
-  "transitionableProps": [{
+  "transitionableProps": [ {
     "type": "Perish",
     "freshHours": { "avg": 168 },
     "transitionHours": { "avg": 36 },

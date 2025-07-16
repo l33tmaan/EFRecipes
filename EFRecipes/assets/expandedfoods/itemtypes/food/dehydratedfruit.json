@@ -2,7 +2,7 @@
   "code": "dehydratedfruit",
   "maxStackSize": 64,
   "variantGroups": [
-    { "code": "fruit",  "loadFromProperties": "block/fruit" }
+    { "code": "fruit", "loadFromProperties": "block/fruit" }
   ],
  "materialDensityByType": {"*": 600},
   "attributes": {
@@ -155,7 +155,7 @@
     "fill-pomegranate": { "base": "game:block/food/pie/fill-pomegranate" },
     "fill-saguaro": { "base": "game:block/food/pie/fill-saguaro" }
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*-saguaro": { "satiety": 50, "health": 1, "foodCategory": "Fruit" },
     "*-cranberry": { "satiety": 50, "foodCategory": "Fruit" },
@@ -165,7 +165,7 @@
     "*": { "satiety": 70, "foodCategory": "Fruit" }
   },
   "transitionablePropsByType": {
-    "*-cranberry": [{
+    "*-cranberry": [ {
       "type": "Perish",
       "freshHours": { "avg": 96 },
       "transitionHours": { "avg": 12 },
@@ -179,7 +179,7 @@
       "transitionRatio": 1
     }
     ],
-    "@*-(orange|mango|lychee|pomegranate)": [{
+    "@*-(orange|mango|lychee|pomegranate)": [ {
         "type": "Perish",
         "freshHours": { "avg": 360 },
         "transitionHours": { "avg": 48 },
@@ -193,7 +193,7 @@
         "transitionRatio": 1
       }
     ],
-    "@*-(pinkapple|redapple|yellowapple|pear|breadfruit)": [{
+    "@*-(pinkapple|redapple|yellowapple|pear|breadfruit)": [ {
         "type": "Perish",
         "freshHours": { "avg": 960 },
         "transitionHours": { "avg": 48 },
@@ -207,7 +207,7 @@
         "transitionRatio": 1
       }
     ],
-    "*": [{
+    "*": [ {
         "type": "Perish",
         "freshHours": { "avg": 48 },
         "transitionHours": { "avg": 12 },

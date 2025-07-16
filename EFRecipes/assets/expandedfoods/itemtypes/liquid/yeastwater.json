@@ -18,7 +18,7 @@
       }
     }
   },
-  "transitionableProps": [{
+  "transitionableProps": [ {
         "type": "Perish",
         "freshHours": { "avg": 96 },
         "transitionHours": { "avg": 24 },
@@ -27,7 +27,7 @@
     }],
   "shape": { "base": "game:item/liquid" },
   "texture": { "base": "game:block/liquid/vinegar" },
- "creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:yeastwaterportion", "makefull": true } ] } } ] } ],
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:yeastwaterportion", "makefull": true } ] } } ] } ],
   "maxStackSize": 5000,
   "materialDensity": 200,
   "guiTransform": {

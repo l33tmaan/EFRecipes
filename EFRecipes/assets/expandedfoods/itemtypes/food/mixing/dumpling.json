@@ -3,7 +3,7 @@
     "class": "ExpandedFood",
   "maxStackSize": 32,
   "variantGroups": [
-    { "code": "type", "states": ["raw", "partbaked", "cooked", "charred"]}
+    { "code": "type", "states": [ "raw", "partbaked", "cooked", "charred" ]}
   ],
   "attributes": {
     "displayCaseable": true,
@@ -138,23 +138,23 @@
     "*-cooked": { "saturation": 300, "foodCategory": "Grain" },
     "*-charred": { "saturation": 240, "foodCategory": "Grain" },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "transitionablePropsByType": {
-    "*-raw": [{
+    "*-raw": [ {
       "type": "Perish",
       "freshHours": { "avg": 96 },
       "transitionHours": { "avg": 24 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(partbaked|cooked)": [{
+    "@*-(partbaked|cooked)": [ {
       "type": "Perish",
       "freshHours": { "avg": 192 },
       "transitionHours": { "avg": 24 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*-charred": [{
+    "*-charred": [ {
       "type": "Perish",
       "freshHours": { "avg": 284 },
       "transitionHours": { "avg": 48 },

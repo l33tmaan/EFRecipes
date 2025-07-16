@@ -42,7 +42,7 @@
     "*-edible": { "satiety": 20, "foodCategory": "Vegetable" }
   },
     "variantGroups": [
-      { "code": "type", "states": ["mash", "sheet", "edible"] }
+      { "code": "type", "states": [ "mash", "sheet", "edible" ] }
     ],
     "shapeByType": {
   "*-mash": { "base": "item/food/sushi/seaweedmash" }
@@ -50,7 +50,7 @@
     "textures": {
   "seaweed": { "base": "item/food/seaweed/{type}" }
   },
-    "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+    "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "guiTransformByType": {
     "*-mash": {
       "translation": { "x": 1.5, "y": -4, "z": 0 },

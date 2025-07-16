@@ -3,7 +3,7 @@
   "maxStackSize": 32,
     "class": "ExpandedFood",
   "variantGroups": [
-    { "code": "type", "states": ["dough", "flat", "cut", "cooked"]},
+    { "code": "type", "states": [ "dough", "flat", "cut", "cooked" ]},
   ],
   "attributes": {
     "displayCaseable": true,
@@ -84,7 +84,7 @@
     "*-cut": { "base": "expandedfoods:item/food/bread/pasta/pastacut" },
     "*-cooked": { "base": "expandedfoods:item/food/bread/pasta/pastacooked" },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "materialDensity": 200,
   "nutritionPropsByType": {
     "*-cooked": { "satiety": 180, "foodCategory": "Grain" },
@@ -148,7 +148,7 @@
     },
   },
   "transitionablePropsByType": {
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 72 },
       "transitionHours": { "avg": 36 },

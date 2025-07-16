@@ -2,7 +2,7 @@
   "code": "saltcrystal",
   "maxStackSize": 64,
   "variantGroups": [
-    { "code": "type",  "states": [ "damp", "dry" ] }
+    { "code": "type", "states": [ "damp", "dry" ] }
   ],
   "shape": { "base": "item/saltcrystal" },
   "attributes": {
@@ -19,7 +19,7 @@
       }
     }
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "transitionablePropsByType": {
     "*-damp": [
       {

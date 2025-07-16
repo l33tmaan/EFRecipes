@@ -5,7 +5,7 @@
    "path": "/skipVariants",
    "value": [ "hardtack-acorn-*" ],
    "side": "server",
-   "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }]
+   "dependsOn": [ { "modid": "wildcraftfruit", "invert": true }]
  },
  {
   "file": "expandedfoods:recipes/kneading/wildcraftfruit/hardtack.json",
@@ -13,7 +13,7 @@
    "path": "/0/enabled",
    "value": "false",
    "side": "server",
-   "dependsOn": [{ "modid": "wildcraftfruit" , "invert": true}]
+   "dependsOn": [ { "modid": "wildcraftfruit" , "invert": true}]
  },
  {
   "file": "expandedfoods:recipes/kneading/wildcraftfruit/hardtack.json",
@@ -21,6 +21,6 @@
    "path": "/1/enabled",
    "value": "false",
    "side": "server",
-   "dependsOn": [{ "modid": "wildcraftfruit" , "invert": true}]
+   "dependsOn": [ { "modid": "wildcraftfruit" , "invert": true}]
  },
 ]

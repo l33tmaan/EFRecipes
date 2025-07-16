@@ -92,8 +92,8 @@
       },
   },
   "variantGroups": [
-    { "code": "meat", "states": ["bushmeat", "poultry", "redmeat"]},
-    { "code": "type", "states": ["smashed", "raw", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred" ] },
+    { "code": "meat", "states": [ "bushmeat", "poultry", "redmeat" ]},
+    { "code": "type", "states": [ "smashed", "raw", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred" ] },
   ],
   "shapeByType":  {
     "saltedmeatnugget-*-smashed": { "base": "item/food/meat/{meat}-smash" },
@@ -118,7 +118,7 @@
       "raw": { "base": "ancienttools:item/food/saltedmeat/salted" },
     }
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "@*-bushmeat-(cookedpartbaked|tenderpartbaked)": { "satiety": 45, "foodCategory": "Protein" },
     "@*-poultry-(cookedpartbaked|tenderpartbaked)": { "satiety": 70, "foodCategory": "Protein" },
@@ -133,21 +133,21 @@
     "@*-redmeat-(cookedcharred|tendercharred)": { "satiety": 130, "foodCategory": "Protein" },
   },
   "transitionablePropsByType": {
-    "@*-(raw|smashed)": [{
+    "@*-(raw|smashed)": [ {
       "type": "Perish",
       "freshHours": { "avg": 144 },
       "transitionHours": { "avg": 96 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(tenderpartbaked|tender|cookedpartbaked|cooked)": [{
+    "@*-(tenderpartbaked|tender|cookedpartbaked|cooked)": [ {
       "type": "Perish",
       "freshHours": { "avg": 288 },
       "transitionHours": { "avg": 192 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(tendercharred|cookedcharred)": [{
+    "@*-(tendercharred|cookedcharred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 432 },
       "transitionHours": { "avg": 192 },

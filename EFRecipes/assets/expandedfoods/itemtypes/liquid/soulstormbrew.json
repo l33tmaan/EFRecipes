@@ -2,7 +2,7 @@
   "code": "soulstormbrew",
  "matterState": "liquid",
   "variantGroups": [
-    { "code": "type",  "states": [ "slop", "refinedslop", "basic" ]  },
+    { "code": "type", "states": [ "slop", "refinedslop", "basic" ]  },
   ],
   "attributes": {
    "handbook": {
@@ -55,14 +55,14 @@
     },
   },
   "transitionablePropsByType": {
-    "*-basic":[{
+    "*-basic":[ {
       "type": "perish",
       "freshHours": { "avg": 336 },
       "transitionHours": { "avg": 84 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*":[{
+    "*":[ {
       "type": "perish",
       "freshHours": { "avg": 24 },
       "transitionHours": { "avg": 24 },
@@ -79,7 +79,7 @@
   "glowLevel": 30,
   "shape": { "base": "game:item/liquid" },
   "texture": { "base": "game:item/liquid/soulstormbrew/{type}" },
- "creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "aculinaryartillery:bottle-green-burned", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:soulstormbrew-{type}", "makefull": true } ] } } ] } ],
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "aculinaryartillery:bottle-green-burned", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:soulstormbrew-{type}", "makefull": true } ] } } ] } ],
   "maxStackSize": 5000,
   "materialDensity": 200,
   "nutritionPropsByType": {

@@ -3,7 +3,7 @@
   "class": "ExpandedLiquid",
  "matterState": "liquid",
   "variantGroups": [
-    { "code": "type", "states": ["salad"] },
+    { "code": "type", "states": [ "salad" ] },
   ],
   "attributes": {
    "handbook": {
@@ -28,19 +28,19 @@
           "game:vinegarportion" : { "saturation": 4, "foodCategory": "Fruit" },
       "aculinaryartillery:eggwhiteportion": { "saturation": 3, "foodCategory": "Protein" },
         "expandedfoods:foodoilportion-*" : { "saturation": 6.4, "health": 0.1, "foodCategory": "Fruit" },
-      "game:salt": { "saturation": 10, "health": 0.5, "foodCategory": "Fruit"  },
+      "game:salt": { "saturation": 10, "health": 0.5, "foodCategory": "Fruit" },
           "game:honeyportion" : { "saturation": 3, "health": 0.1, "foodCategory": "Fruit" },
           "expandedfoods:treesyrupportion-*" : { "saturation": 6.4, "health": 0.1, "foodCategory": "Fruit" },
     },
   },
   "shape": { "base": "game:item/liquid" },
   "texture": { "base": "item/liquid/dressing/{type}" },
- "creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:dressing-{type}", "makefull": true } ] } } ] } ],
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:dressing-{type}", "makefull": true } ] } } ] } ],
   "maxStackSize": 5000,
   "materialDensity": 200,
   "nutritionProps": { "saturation": 0, "foodCategory": "NoNutrition" },
   "transitionablePropsByType": {
-    "*":[{
+    "*":[ {
           "type": "Perish",
         "freshHours": { "avg": 2190 },
         "transitionHours": { "avg": 220 },

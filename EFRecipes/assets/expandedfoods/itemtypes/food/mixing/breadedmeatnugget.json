@@ -4,10 +4,10 @@
   "maxStackSize": 64,
   "variantGroups": [
 
-    { "code": "type",  "states": [ "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower",
+    { "code": "type", "states": [ "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower",
         "birch", "pine", "maple", "acorn" ]},
-    { "code": "meat", "states": ["bushmeat", "poultry", "redmeat"]},
-    { "code": "state", "states": ["smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled"] },
+    { "code": "meat", "states": [ "bushmeat", "poultry", "redmeat" ]},
+    { "code": "state", "states": [ "smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled" ] },
   ],
   "attributes": {
     "displayCaseable": true,
@@ -177,10 +177,10 @@
     "@*-(syruppartbaked|partbaked)": { "satiety": 80, "foodCategory": "Protein" },
     "@*-(syrupcharred|charred)": { "satiety": 70, "foodCategory": "Protein" },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "materialDensity": 600,
   "transitionablePropsByType": {
-    "@*-(oiled|smashed)": [{
+    "@*-(oiled|smashed)": [ {
       "type": "Perish",
       "freshHours": { "avg": 24 },
       "transitionHours": { "avg": 48 },
@@ -188,14 +188,14 @@
       "transitionRatio": 1
       }
     ],
-    "@*-(partbaked|tender|syruppartbaked|syrups)": [{
+    "@*-(partbaked|tender|syruppartbaked|syrups)": [ {
       "type": "Perish",
       "freshHours": { "avg": 100 },
       "transitionHours": { "avg": 72 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(charred|syrupcharred)": [{
+    "@*-(charred|syrupcharred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 200 },
       "transitionHours": { "avg": 148 },

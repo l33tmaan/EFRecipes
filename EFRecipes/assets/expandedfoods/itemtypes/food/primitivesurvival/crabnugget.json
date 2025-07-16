@@ -56,7 +56,7 @@
         },
   },
   "variantGroups": [
-    { "code": "type", "states": ["raw", "partbaked", "cooked", "charred",] },
+    { "code": "type", "states": [ "raw", "partbaked", "cooked", "charred" ] },
   ],
   "shapeByType":  {
     "*-raw": { "base": "item/food/meat/poultry-nugget" },
@@ -77,14 +77,14 @@
       "raw": { "base": "primitivesurvival:item/crab/crabmeat-raw" },
     },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "crabnugget-partbaked": { "satiety": 120, "foodCategory": "Protein" },
     "crabnugget-cooked": { "satiety": 130, "foodCategory": "Protein" },
     "crabnugget-charred": { "satiety": 110, "foodCategory": "Protein" },
   },
   "transitionablePropsByType": {
-    "*-raw": [{
+    "*-raw": [ {
       "type": "Perish",
       "freshHours": { "avg": 48 },
       "transitionHours": { "avg": 12 },
@@ -92,14 +92,14 @@
       "transitionRatio": 1
       }
     ],
-    "@*-(partbaked|cooked)": [{
+    "@*-(partbaked|cooked)": [ {
       "type": "Perish",
       "freshHours": { "avg": 120 },
       "transitionHours": { "avg": 36 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*-charred": [{
+    "*-charred": [ {
       "type": "Perish",
       "freshHours": { "avg": 240 },
       "transitionHours": { "avg": 72 },

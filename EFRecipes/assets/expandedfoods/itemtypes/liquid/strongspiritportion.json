@@ -9,7 +9,7 @@
       "states": [ "apple", "mead", "spelt", "rice", "rye", "amaranth", "cassava" ]
     },
   ],
- "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"],
+ "skipVariants": [ "*-pinkapple", "*-redapple", "*-yellowapple", "*-olive" ],
   "attributes": {
    "handbook": {
      "ignoreCreativeInvStacks": true
@@ -24,14 +24,14 @@
       "containable": true,
       "itemsPerLitre": 100,
       "textureByType": {
-        "*-mead": { "base": "game:block/liquid/honey", "alpha": 120, "overlays": ["game:item/liquid/syrupmead"] },
-        "*-spelt": { "base": "game:block/food/pie/fill-fish", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-        "*-rice": { "base": "game:block/food/dairy/milk", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-        "*-rye": { "base": "game:block/food/pie/fill-gooseberry", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-        "*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-        "*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-        "*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-        "*": { "base": "game:block/food/pie/fill-{type}", "alpha": 120, "overlays": ["game:item/liquid/syrup"] }
+        "*-mead": { "base": "game:block/liquid/honey", "alpha": 120, "overlays": [ "game:item/liquid/syrupmead" ] },
+        "*-spelt": { "base": "game:block/food/pie/fill-fish", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+        "*-rice": { "base": "game:block/food/dairy/milk", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+        "*-rye": { "base": "game:block/food/pie/fill-gooseberry", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+        "*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+        "*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+        "*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+        "*": { "base": "game:block/food/pie/fill-{type}", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] }
       },
       "allowSpill": true,
       "whenSpilled": {
@@ -46,7 +46,7 @@
       },
     }
   },
-  "transitionableProps": [{
+  "transitionableProps": [ {
       "type": "Cure",
       "freshHours": { "avg": 13440 },
       "transitionHours": { "avg": 4032 },
@@ -55,16 +55,16 @@
     }],
   "shape": { "base": "game:item/liquid" },
   "textureByType": {
-    "*-mead": { "base": "game:block/liquid/honey", "alpha": 120, "overlays": ["game:item/liquid/syrupmead"] },
-    "*-spelt": { "base": "game:block/food/pie/fill-fish", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-    "*-rice": { "base": "game:block/food/dairy/milk", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-    "*-rye": { "base": "game:block/food/pie/fill-gooseberry", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-    "*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-    "*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-    "*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-    "*": { "base": "game:block/food/pie/fill-{type}", "alpha": 120, "overlays": ["game:item/liquid/syrup"] }
+    "*-mead": { "base": "game:block/liquid/honey", "alpha": 120, "overlays": [ "game:item/liquid/syrupmead" ] },
+    "*-spelt": { "base": "game:block/food/pie/fill-fish", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+    "*-rice": { "base": "game:block/food/dairy/milk", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+    "*-rye": { "base": "game:block/food/pie/fill-gooseberry", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+    "*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+    "*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+    "*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] },
+    "*": { "base": "game:block/food/pie/fill-{type}", "alpha": 120, "overlays": [ "game:item/liquid/syrup" ] }
   },
- "creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:strongspiritportion-{type}", "makefull": true } ] } } ] } ],
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:strongspiritportion-{type}", "makefull": true } ] } } ] } ],
   "maxStackSize": 5000,
   "materialDensity": 200,
   "nutritionProps": { "saturation": 0.9, "health": 0.005, "foodCategory": "NoNutrition" },

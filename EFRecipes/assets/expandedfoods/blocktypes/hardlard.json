@@ -2,7 +2,7 @@
   "code": "hardlard",
   "shape": { "base": "item/food/hardlard" },
   "texture": { "base": "game:block/fat" },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "attributes": {
     "placeSound": "game:block/snow"
   },
@@ -36,7 +36,7 @@
     "burnTemperature": 300,
     "burnDuration": 120
   },
-    "transitionableProps": [{
+    "transitionableProps": [ {
         "type": "Perish",
         "freshHours": { "avg": 1440 },
         "transitionHours": { "avg": 1440 },

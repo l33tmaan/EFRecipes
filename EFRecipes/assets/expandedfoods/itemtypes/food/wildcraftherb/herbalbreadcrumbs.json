@@ -3,7 +3,7 @@
   "class": "ExpandedFood",
   "maxStackSize": 128,
   "attributes": {
-    "handbook": { "groupBy": ["herbalbreadcrumbs-*"] },
+    "handbook": { "groupBy": [ "herbalbreadcrumbs-*" ] },
     "nutritionPropsWhenInMeal": {
       "satietyByType": {
         "*": 150
@@ -25,7 +25,7 @@
     },
   },
   "shape": { "base": "item/food/bread/breadcrumbs" },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*": { "saturation": 75, "foodCategory": "Grain" }
   },
@@ -42,7 +42,7 @@
     "breadcrumbs-spelt": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-spelt" },
     "breadcrumbs-sunflower": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-sunflower" },
     },
-  "transitionableProps": [{
+  "transitionableProps": [ {
     "type": "Perish",
     "freshHours": { "avg": 432 },
     "transitionHours": { "avg": 36 },

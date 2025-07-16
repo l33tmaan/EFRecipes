@@ -3,7 +3,7 @@
     "class": "ExpandedFood",
   "maxStackSize": 32,
   "variantGroups": [
-    { "code": "type", "states": ["raw", "partbaked", "cooked", "charred"]}
+    { "code": "type", "states": [ "raw", "partbaked", "cooked", "charred" ]}
   ],
   "attributes": {
     "displayCaseable": true,
@@ -94,28 +94,28 @@
     "textures": {
     "dough": { "base": "item/food/dumpling/acorn{type}" }
     },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*-partbaked": { "saturation": 270, "foodCategory": "Grain" },
     "*-cooked": { "saturation": 300, "foodCategory": "Grain" },
     "*-charred": { "saturation": 240, "foodCategory": "Grain" }
   },
   "transitionablePropsByType": {
-    "*-raw": [{
+    "*-raw": [ {
       "type": "Perish",
       "freshHours": { "avg": 96 },
       "transitionHours": { "avg": 24 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*-charred": [{
+    "*-charred": [ {
       "type": "Perish",
       "freshHours": { "avg": 384 },
       "transitionHours": { "avg": 48 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 192 },
       "transitionHours": { "avg": 24 },

@@ -3,7 +3,7 @@
     "class": "ExpandedFood",
   "maxStackSize": 32,
   "variantGroups": [
-    { "code": "state", "states": ["dough", "partbaked", "cooked", "charred", "syruppartbaked", "syrup", "syrupcharred"]}
+    { "code": "state", "states": [ "dough", "partbaked", "cooked", "charred", "syruppartbaked", "syrup", "syrupcharred" ]}
   ],
   "attributes": {
     "displayCaseable": true,
@@ -484,28 +484,28 @@
     "sugarhackberry" : { "base": "expandedfoods:item/food/grain/overlays/sugarhackberry" },
     "sumac" : { "base": "expandedfoods:item/food/grain/overlays/sumac" },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
      "@*-(partbaked|syruppartbaked)": { "saturation": 190, "foodCategory": "Grain" },
      "@*-(cooked|syrup)": { "saturation": 210, "foodCategory": "Grain" },
      "@*-(charred|syrupcharred)": { "saturation": 170, "foodCategory": "Grain" },
   },
   "transitionablePropsByType": {
-    "*-dough": [{
+    "*-dough": [ {
       "type": "Perish",
       "freshHours": { "avg": 48 },
       "transitionHours": { "avg": 24 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(charred|syrupcharred)": [{
+    "@*-(charred|syrupcharred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 864 },
       "transitionHours": { "avg": 72 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 432 },
       "transitionHours": { "avg": 36 },

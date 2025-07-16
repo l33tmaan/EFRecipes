@@ -94,7 +94,7 @@
       }
   },
   "variantGroups": [
-    { "code": "type", "states": ["smashed", "raw", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred", "curedsmashed", "curedchopped" ] }
+    { "code": "type", "states": [ "smashed", "raw", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred", "curedsmashed", "curedchopped" ] }
   ],
   "shapeByType":  {
     "@*-(smashed|curedsmashed)": { "base": "item/food/meat/fish-smash" },
@@ -121,7 +121,7 @@
       "raw": { "base": "game:item/food/meat/raw" }
     }
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "@*-(smashed|raw)": { "satiety": 115, "foodCategory": "Protein" },
     "@*-(cookedpartbaked|tenderpartbaked)": { "satiety": 215, "foodCategory": "Protein" },
@@ -130,7 +130,7 @@
     "@*-(curedsmashed|curedchopped)": { "satiety": 165, "foodCategory": "Protein" }
   },
   "transitionablePropsByType": {
-    "@*-(smashed|raw)": [{
+    "@*-(smashed|raw)": [ {
       "type": "Perish",
       "freshHours": { "avg": 48 },
       "transitionHours": { "avg": 12 },
@@ -138,21 +138,21 @@
       "transitionRatio": 1
       }
     ],
-    "@*-(tenderpartbaked|tender|cookedpartbaked|cooked)": [{
+    "@*-(tenderpartbaked|tender|cookedpartbaked|cooked)": [ {
       "type": "Perish",
       "freshHours": { "avg": 120 },
       "transitionHours": { "avg": 36 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(tendercharred|cookedcharred)": [{
+    "@*-(tendercharred|cookedcharred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 240 },
       "transitionHours": { "avg": 72 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(curedsmashed|curedchopped)": [{
+    "@*-(curedsmashed|curedchopped)": [ {
       "type": "Perish",
       "freshHours": { "avg": 8760 },
       "spoilHours": { "avg": 4380 },

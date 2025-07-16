@@ -4,7 +4,7 @@
   "variantGroups": [
     { "code": "type", "loadFromProperties": "wildcraftfruit:block/fruit" },
   ],
- "skipVariants": ["*-cashewwhole"],
+ "skipVariants": [ "*-cashewwhole" ],
  "materialDensityByType": {"*": 600},
   "attributes": {
     "displayCaseable": true,
@@ -108,7 +108,7 @@
         "fill-husktomato": { "base": "wildcraftfruit:block/food/pie/fill-husktomato" },
         "all": { "base": "wildcraftfruit:items/fruit/{type}" },
     },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*-pomelo": { "satiety": 105, "foodCategory": "Fruit" },
     "@*-(pittedcherry|gardenstrawberry|knyazberry)": { "satiety": 90, "foodCategory": "Fruit" },

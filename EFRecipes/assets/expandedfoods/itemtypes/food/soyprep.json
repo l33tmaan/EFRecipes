@@ -2,8 +2,8 @@
   "code": "soyprep",
   "maxStackSize": 64,
   "variantGroups": [
-    { "code": "type", "states": ["soaked", "roasted", "powdered", "cultured", "slurry",
-                        "shelled", "wetshell", "blended"] }
+    { "code": "type", "states": [ "soaked", "roasted", "powdered", "cultured", "slurry",
+                        "shelled", "wetshell", "blended" ] }
   ],
   "attributes": {
     "displayCaseable": true,
@@ -71,8 +71,8 @@
   "materialDensity": 600,
   "shape": { "base": "game:item/food/pickledvegetable/soypile" },
   "textures": { "soypile": { "base": "item/food/soyprep/{type}" } },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-  "transitionableProps": [{
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
+  "transitionableProps": [ {
       "type": "Perish",
       "freshHours": { "avg": 1170 },
       "transitionHours": { "avg": 110 },

@@ -1,12 +1,12 @@
 {
   "code": "wand",
-  "creativeInventory": { "general": ["*"] },
+  "creativeInventory": { "general": [ "*" ] },
   "attackpower": 1,
   "maxStackSize": 64,
   "attributes": {
    "squeezeInto": "ailments:foodoilportion",
    "squeezeRatio": 6,
-   "firstAidRemoval": ["testDisease"],
+   "firstAidRemoval": [ "testDisease" ],
    "herbName": "test",
    "augmentName": "test",
    "poisonName": "test",
@@ -21,15 +21,15 @@
         "duration": 1,
         "contagiousChance": 1,
         "contagiousCarrier": true,
-        "vectors":["player", "strawdummy"],
-        "effects": [{ "name": "feisty", "level": 50, "start": 0, "end": 2 },{ "name": "unhealthy", "level": 5, "start": 0, "end": 2 },{ "name": "contagious", "level": 5, "start": 0, "end": 2 }],
+        "vectors":[ "player", "strawdummy" ],
+        "effects": [ { "name": "feisty", "level": 50, "start": 0, "end": 2 },{ "name": "unhealthy", "level": 5, "start": 0, "end": 2 },{ "name": "contagious", "level": 5, "start": 0, "end": 2 }],
         "nextCondChance": 1,
         "nextCond": {
           "type": "test",
           "name": "testDisease",
           "level": 1,
           "duration": 1,
-          "effects": [{ "name": "responsive", "level": 500, "start": 0, "end": 2 } ]
+          "effects": [ { "name": "responsive", "level": 500, "start": 0, "end": 2 } ]
         }
       }
     ],
@@ -44,20 +44,20 @@
         "duration": 1,
         "contagiousChance": 1,
         "contagiousCarrier": true,
-        "vectors":["player", "strawdummy", "wolf-*"],
+        "vectors":[ "player", "strawdummy", "wolf-*" ],
         "nextCond": {
           "type": "superbug",
           "name": "testDisease2",
           "level": 3,
           "duration": 3,
-          "effects": [{ "name": "hide", "level": 500, "start": 0, "end": 2} ]
+          "effects": [ { "name": "hide", "level": 500, "start": 0, "end": 2} ]
         },
-        "effects": [{ "name": "dodge", "level": 5, "start": 0, "end": 2},{ "name": "contagious", "level": 5, "start": 0, "end": 2}]
+        "effects": [ { "name": "dodge", "level": 5, "start": 0, "end": 2},{ "name": "contagious", "level": 5, "start": 0, "end": 2}]
       }
     ]
   },
   "texture": {
     "base": "item/wand",
-    "overlays": ["exper:item/one", "exper:item/two", "exper:item/three", "exper:item/four"]
+    "overlays": [ "exper:item/one", "exper:item/two", "exper:item/three", "exper:item/four" ]
   }
 }

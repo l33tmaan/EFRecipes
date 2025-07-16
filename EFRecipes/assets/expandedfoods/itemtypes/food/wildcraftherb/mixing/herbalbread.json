@@ -6,14 +6,14 @@
   },
   "maxStackSize": 32,
   "variantGroups": [
-    { "code": "state", "states": ["dough", "partbaked", "cooked", "charred", "syruppartbaked", "syrup", "syrupcharred"]}
+    { "code": "state", "states": [ "dough", "partbaked", "cooked", "charred", "syruppartbaked", "syrup", "syrupcharred" ]}
   ],
   "attributes": {
     "displayCaseable": true,
     "shelvable": true,
    "handbook": { "groupBy": [ "herbalbread-*" ] },
     "inPiePropertiesByType": {
-      "*-dough": { "texture": "game:block/food/pie/herbalrice{bakeLevel}", "partType": "Crust"  },
+      "*-dough": { "texture": "game:block/food/pie/herbalrice{bakeLevel}", "partType": "Crust" },
     },
    "expandedNutritionProps": {
           "game:milkportion" : { "saturation": 1.5, "foodCategory": "Dairy" },
@@ -327,7 +327,7 @@
   "grindingPropsByType": {
     "@*-(partbaked|cooked|charred)": { "GroundStack": { "type": "item", "code": "expandedfoods:herbalbreadcrumbs", "quantity": 4 } },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "@*-(partbaked|syruppartbaked)": { "saturation": 145, "foodCategory": "Grain" },
     "@*-(cooked|syrup)": { "saturation": 160, "foodCategory": "Grain" },
@@ -352,21 +352,21 @@
     },
   },
   "transitionablePropsByType": {
-    "*-dough": [{
+    "*-dough": [ {
       "type": "Perish",
       "freshHours": { "avg": 48 },
       "transitionHours": { "avg": 24 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(charred|syrupcharred)": [{
+    "@*-(charred|syrupcharred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 864 },
       "transitionHours": { "avg": 72 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 432 },
       "transitionHours": { "avg": 36 },

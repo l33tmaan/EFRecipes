@@ -9,7 +9,7 @@
       "translation": { "x": 0, "y": -0.25, "z": 0 },
       "scale": 0.5
     },
-    "handbook": { "groupBy": ["breadcrumbs-*"] },
+    "handbook": { "groupBy": [ "breadcrumbs-*" ] },
     "nutritionPropsWhenInMeal": {
       "satietyByType":  {
         "@*-(birch|pine|maple)": 50,
@@ -22,7 +22,7 @@
     }
   },
   "variantGroups": [
-    { "code": "type", "states": ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower",
+    { "code": "type", "states": [ "spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower",
       "birch", "pine", "maple", "acorn" ] }
   ],
   "skipVariants": [ ],
@@ -30,7 +30,7 @@
     "textures": {
     "breadcrumbs": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-{type}" }
     },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "@*-(birch|pine|maple)": { "saturation": 25, "foodCategory": "Grain" },
     "*-flax": { "saturation": 40, "foodCategory": "Grain" },
@@ -38,7 +38,7 @@
     "*-acorn": { "saturation": 85, "foodCategory": "Grain" },
     "*": { "saturation": 75, "foodCategory": "Grain" }
   },
-  "transitionableProps": [{
+  "transitionableProps": [ {
     "type": "Perish",
     "freshHours": { "avg": 432 },
     "transitionHours": { "avg": 36 },

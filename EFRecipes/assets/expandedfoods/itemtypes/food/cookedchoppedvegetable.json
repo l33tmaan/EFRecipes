@@ -2,8 +2,8 @@
   "code": "cookedchoppedvegetable",
   "maxStackSize": 64,
   "variantGroups": [
-    { "code": "type", "states": ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper", "pickledbellpepper"] },
-    { "code": "state", "states": ["partbaked", "perfect", "charred" ] }
+    { "code": "type", "states": [ "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper", "pickledbellpepper" ] },
+    { "code": "state", "states": [ "partbaked", "perfect", "charred" ] }
   ],
   "shape": { "base": "item/food/veggies/chopped/cooked/{type}" },
   "textures": {
@@ -143,7 +143,7 @@
       "requiresContainer": false
     }
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*-cabbage-partbaked": { "satiety": 325, "foodCategory": "Vegetable" },
     "*-pumpkin-partbaked": { "satiety": 150, "foodCategory": "Vegetable" },
@@ -161,56 +161,56 @@
     "*-charred": { "satiety": 125, "foodCategory": "Vegetable" }
   },
   "transitionablePropsByType": {
-      "@*-pumpkin-(partbaked|perfect)": [{
+      "@*-pumpkin-(partbaked|perfect)": [ {
           "type": "Perish",
           "freshHours": { "avg": 216 },
           "transitionHours": { "avg": 72 },
           "transitionedStack": { "type": "item", "code": "game:rot" },
           "transitionRatio": 1
       }],
-      "@*-onion-(partbaked|perfect)": [{
+      "@*-onion-(partbaked|perfect)": [ {
         "type": "Perish",
         "freshHours": { "avg": 672 },
         "transitionHours": { "avg": 120 },
         "transitionedStack": { "type": "item", "code": "game:rot" },
         "transitionRatio": 1
       }],
-      "@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-(partbaked|perfect)": [{
+      "@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-(partbaked|perfect)": [ {
         "type": "Perish",
         "freshHours": { "avg": 1800 },
         "transitionHours": { "avg": 240 },
         "transitionedStack": { "type": "item", "code": "game:rot" },
         "transitionRatio": 1
       }],
-      "@*-(partbaked|perfect)": [{
+      "@*-(partbaked|perfect)": [ {
         "type": "Perish",
         "freshHours": { "avg":  504 },
         "transitionHours": { "avg": 96 },
         "transitionedStack": { "type": "item", "code": "game:rot" },
         "transitionRatio": 1
       }],
-    "*-pumpkin-charred": [{
+    "*-pumpkin-charred": [ {
       "type": "Perish",
       "freshHours": { "avg": 756 },
       "transitionHours": { "avg": 120 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*-onion-charred": [{
+    "*-onion-charred": [ {
       "type": "Perish",
       "freshHours": { "avg": 2352 },
       "transitionHours": { "avg": 200 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-charred": [{
+    "@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-charred": [ {
       "type": "Perish",
       "freshHours": { "avg": 7300 },
       "transitionHours": { "avg": 400 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*-charred": [{
+    "*-charred": [ {
       "type": "Perish",
       "freshHours": { "avg":  1764 },
       "transitionHours": { "avg": 160 },

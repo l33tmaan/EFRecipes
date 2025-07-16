@@ -13,11 +13,11 @@
     },
   },
   "variantgroups": [
-    { "code": "fruit", "loadFromProperties": "wildcraftfruit:block/fruit", "states": ["sumac", "juniper"] },
+    { "code": "fruit", "loadFromProperties": "wildcraftfruit:block/fruit", "states": [ "sumac", "juniper" ] },
   ],
- "skipVariants": ["*-cashewwhole"],
+ "skipVariants": [ "*-cashewwhole" ],
   "shape": { "base": "item/food/candy/fruit/wildcraftfruit/{fruit}" },
-  "creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeinventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "materialDensity": 600,
   "nutritionPropsByType": {
     "*-pomelo": { "satiety": 240, "health": 1, "foodcategory": "Fruit" },

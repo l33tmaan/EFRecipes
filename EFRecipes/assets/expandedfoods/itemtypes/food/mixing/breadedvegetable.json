@@ -3,10 +3,10 @@
     "class": "ExpandedFood",
   "maxStackSize": 64,
   "variantGroups": [
-    { "code": "type",  "states": [ "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower",
+    { "code": "type", "states": [ "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower",
         "birch", "pine", "maple", "acorn" ]},
-    { "code": "veggie", "states": ["carrot", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},
-    { "code": "state", "states": ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled"] },
+    { "code": "veggie", "states": [ "carrot", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper" ]},
+    { "code": "state", "states": [ "raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled" ] },
   ],
   "attributes": {
     "displayCaseable": true,
@@ -199,10 +199,10 @@
     "@*-(cooked|syrupv)": { "satiety": 90, "foodCategory": "Vegetable" },
     "@*-(charred|syrupcharred)": { "satiety": 70, "foodCategory": "Vegetable" },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "materialDensity": 600,
   "transitionablePropsByType": {
-    "@*-(oiled|raw)": [{
+    "@*-(oiled|raw)": [ {
       "type": "Perish",
       "freshHours": { "avg": 18 },
       "transitionHours": { "avg": 72 },
@@ -210,14 +210,14 @@
       "transitionRatio": 1
       }
     ],
-    "@*-(partbaked|cooked|syruppartbaked|syrupv)": [{
+    "@*-(partbaked|cooked|syruppartbaked|syrupv)": [ {
       "type": "Perish",
       "freshHours": { "avg": 60 },
       "transitionHours": { "avg": 96 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(charred|syrupcharred)": [{
+    "@*-(charred|syrupcharred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 120 },
       "transitionHours": { "avg": 192 },

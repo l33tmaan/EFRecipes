@@ -10,16 +10,16 @@
   { "file": "game:recipes/cooking/meatystew", "op": "addeach",
     "path": "/ingredients/2/validStacks/-",
     "value": [
-      { "type": "item", "code": "bushmeat-raw", "shapeElement": "bowl/red meat/*", "textureMapping": ["meat", "group7"] },
-      { "type": "item", "code": "bushmeat-cured", "shapeElement": "bowl/red meat/*", "textureMapping": ["meat", "group7"] }
+      { "type": "item", "code": "bushmeat-raw", "shapeElement": "bowl/red meat/*", "textureMapping": [ "meat", "group7" ] },
+      { "type": "item", "code": "bushmeat-cured", "shapeElement": "bowl/red meat/*", "textureMapping": [ "meat", "group7" ] }
     ],
     "side": "server"
   },
   { "file": "game:recipes/cooking/meatystew", "op": "addeach",
     "path": "/ingredients/3/validStacks/-",
     "value": [
-      { "type": "item", "code": "bushmeat-raw", "shapeElement": "bowl/red meat 2/*", "textureMapping": ["meat", "group7"] },
-      { "type": "item", "code": "bushmeat-cured", "shapeElement": "bowl/red meat 2/*", "textureMapping": ["meat", "group7"] }
+      { "type": "item", "code": "bushmeat-raw", "shapeElement": "bowl/red meat 2/*", "textureMapping": [ "meat", "group7" ] },
+      { "type": "item", "code": "bushmeat-cured", "shapeElement": "bowl/red meat 2/*", "textureMapping": [ "meat", "group7" ] }
     ],
     "side": "server"
   },
@@ -33,12 +33,12 @@
   },
   { "file": "game:blocktypes/clay/pot", "op": "addmerge",
     "path": "/attributesByType/claypot-cooked/textureMapping/bushmeat-raw",
-    "value": ["meat", "group8"],
+    "value": [ "meat", "group8" ],
     "side": "server"
   },
   { "file": "game:blocktypes/clay/pot", "op": "addmerge",
     "path": "/attributesByType/claypot-cooked/textureMapping/bushmeat-cured",
-    "value": ["meat", "group8"],
+    "value": [ "meat", "group8" ],
     "side": "server"
   }
 ]

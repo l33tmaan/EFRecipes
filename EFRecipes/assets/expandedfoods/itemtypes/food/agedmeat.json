@@ -2,7 +2,7 @@
   "code": "agedmeat",
   "maxStackSize": 64,
   "attributes": {
-    "handbook": { "groupBy": ["agedmeat-*"] },
+    "handbook": { "groupBy": [ "agedmeat-*" ] },
     "displayCaseable": true,
     "shelvable": true,
     "meatHookTransformByType": {
@@ -121,8 +121,8 @@
       }
   },
   "variantGroups": [
-    { "code": "meat", "states": ["bushmeat", "poultry", "redmeat"]},
-    { "code": "type", "states": ["normal", "cut", "raw", "tenderpartbaked", "tender", "tendercharred", "meatballpartbaked", "meatball", "meatballcharred" ] }
+    { "code": "meat", "states": [ "bushmeat", "poultry", "redmeat" ]},
+    { "code": "type", "states": [ "normal", "cut", "raw", "tenderpartbaked", "tender", "tendercharred", "meatballpartbaked", "meatball", "meatballcharred" ] }
   ],
   "shapeByType":  {
     "@*-redmeat-(normal|tenderpartbaked|tender|tendercharred|cutpartbaked|cut|cutcharred)": { "base": "game:item/food/meat/red" },
@@ -155,7 +155,7 @@
       "raw": { "base": "game:item/food/meat/raw" }
     }
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "@*-bushmeat-(tenderpartbaked|meatballpartbaked)": { "satiety": 122, "health": 0.5, "foodCategory": "Protein" },
     "@*-poultry-(tenderpartbaked|meatballpartbaked)": { "satiety": 205, "health": 0.5, "foodCategory": "Protein" },
@@ -170,21 +170,21 @@
     "@*-redmeat-(tendercharred|meatballcharred)": { "satiety": 300, "health": 0.5, "foodCategory": "Protein" }
   },
   "transitionablePropsByType": {
-    "@*-(normal|cut|raw)": [{
+    "@*-(normal|cut|raw)": [ {
       "type": "Perish",
       "freshHours": { "avg": 36 },
       "transitionHours": { "avg": 24 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(tenderpartbaked|tender|meatballpartbaked|meatball)": [{
+    "@*-(tenderpartbaked|tender|meatballpartbaked|meatball)": [ {
       "type": "Perish",
       "freshHours": { "avg": 120 },
       "transitionHours": { "avg": 36 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(tendercharred|meatballcharred)": [{
+    "@*-(tendercharred|meatballcharred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 300 },
       "transitionHours": { "avg": 60 },

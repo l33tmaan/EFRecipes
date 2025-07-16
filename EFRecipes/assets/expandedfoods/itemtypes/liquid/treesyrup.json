@@ -3,7 +3,7 @@
   "class": "ItemLiquidPortion",
  "matterState": "liquid",
   "variantGroups": [
-    { "code": "type", "states": ["birch", "maple",] },
+    { "code": "type", "states": [ "birch", "maple" ] },
   ],
   "attributes": {
    "handbook": {
@@ -44,7 +44,7 @@
     },
   },
   "nutritionProps": { "saturation": 6.4, "health": 0.01, "foodCategory": "Fruit" },
- "creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:treesyrupportion-{type}", "makefull": true } ] } } ] } ],
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:treesyrupportion-{type}", "makefull": true } ] } } ] } ],
   "maxStackSize": 5000,
   "materialDensity": 200,
   "guiTransform": {

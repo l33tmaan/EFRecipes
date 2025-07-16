@@ -21,10 +21,10 @@
   },
   "shape": { "base": "game:item/liquid" },
   "texture": { "base": "game:item/liquid/fishsauce" },
- "creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:fishsauce", "makefull": true } ] } } ] } ],
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:fishsauce", "makefull": true } ] } } ] } ],
   "maxStackSize": 5000,
   "materialDensity": 200,
-  "transitionableProps": [{
+  "transitionableProps": [ {
         "type": "Perish",
         "freshHours": { "avg": 4320 },
         "transitionHours": { "avg": 1440 },

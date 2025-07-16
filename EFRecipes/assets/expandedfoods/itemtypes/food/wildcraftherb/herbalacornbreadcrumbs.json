@@ -20,15 +20,15 @@
           "wildcraftherb:herb-*" : { "saturation": 8, "health": 0.25, "foodCategory": "Vegetable" },
     },
   },
-  "shape": {  "base": "item/food/bread/breadcrumbs" },
+  "shape": { "base": "item/food/bread/breadcrumbs" },
     "textures": {
     "breadcrumbs": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-acorn" },
     },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*": { "saturation": 110, "health": 0.25, "foodCategory": "Grain" }
   },
-  "transitionableProps": [{
+  "transitionableProps": [ {
     "type": "Perish",
     "freshHours": { "avg": 432 },
     "transitionHours": { "avg": 36 },

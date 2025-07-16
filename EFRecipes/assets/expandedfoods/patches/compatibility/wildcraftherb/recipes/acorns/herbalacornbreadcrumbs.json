@@ -5,7 +5,7 @@
    "op": "replace",
    "path": "/enabled",
    "value": "true",
-   "dependsOn": [{ "modid": "wildcraftherb" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+   "dependsOn": [ { "modid": "wildcraftherb" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
   "file": "expandedfoods:itemtypes/food/wildcraftherb/herbalacornbreadcrumbs.json",
@@ -13,6 +13,6 @@
    "op": "replace",
    "path": "/enabled",
    "value": "true",
-   "dependsOn": [{ "modid": "wildcraftherb" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+   "dependsOn": [ { "modid": "wildcraftherb" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
  },
 ]

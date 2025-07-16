@@ -21,7 +21,7 @@
     }
   },
   "variantGroups": [
-    { "code": "type", "states": ["acornspelt", "acornrye", "acornflax", "acornrice", "acorncassava", "acornamaranth", "acornsunflower",
+    { "code": "type", "states": [ "acornspelt", "acornrye", "acornflax", "acornrice", "acorncassava", "acornamaranth", "acornsunflower",
         "acornbirch", "acornpine", "acornmaple" ] }
   ],
   "shapeByType": {
@@ -30,14 +30,14 @@
     "textures": {
     "breadcrumbs": { "base": "item/food/grain/crumbs/breadcrumbs-acorn" }
     },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "@*-(acornbirch|acornpine|acornmaple)": { "saturation": 30, "foodCategory": "Grain" },
     "*-acornflax": { "saturation": 60, "foodCategory": "Grain" },
     "*-acornrice": { "saturation": 120, "foodCategory": "Grain" },
     "*": { "saturation": 110, "foodCategory": "Grain" }
   },
-  "transitionableProps": [{
+  "transitionableProps": [ {
     "type": "Perish",
     "freshHours": { "avg": 432 },
     "transitionHours": { "avg": 36 },

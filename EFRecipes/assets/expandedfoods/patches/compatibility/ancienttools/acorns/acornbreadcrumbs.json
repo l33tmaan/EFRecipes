@@ -5,7 +5,7 @@
    "path": "/0/enabled",
    "value": true,
    "side": "server",
-   "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+   "dependsOn": [ { "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/grid/ancienttools/acorns/acornbreadcrumbs.json",
@@ -13,7 +13,7 @@
    "path": "/1/enabled",
    "value": true,
    "side": "server",
-   "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+   "dependsOn": [ { "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/grid/ancienttools/acorns/acornbreadcrumbs.json",
@@ -21,7 +21,7 @@
    "path": "/2/enabled",
    "value": true,
    "side": "server",
-   "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+   "dependsOn": [ { "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/grid/ancienttools/acorns/acornbreadcrumbs.json",
@@ -29,7 +29,7 @@
    "path": "/0/enabled",
    "value": true,
    "side": "server",
-   "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+   "dependsOn": [ { "modid": "ancienttools" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/grid/ancienttools/acorns/acornbreadcrumbs.json",
@@ -37,7 +37,7 @@
    "path": "/1/enabled",
    "value": true,
    "side": "server",
-   "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+   "dependsOn": [ { "modid": "ancienttools" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/grid/ancienttools/acorns/acornbreadcrumbs.json",
@@ -45,14 +45,14 @@
    "path": "/2/enabled",
    "value": true,
    "side": "server",
-   "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+   "dependsOn": [ { "modid": "ancienttools" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:itemtypes/food/acorns/acornbreadcrumbs.json",
    "op": "addmerge",
    "path": "/skipVariants",
-   "value": [ "acornbreadcrumbs-acornbirch", "acornbreadcrumbs-acornpine", "acornbreadcrumbs-acornmaple"],
+   "value": [ "acornbreadcrumbs-acornbirch", "acornbreadcrumbs-acornpine", "acornbreadcrumbs-acornmaple" ],
    "side": "server",
-   "dependsOn": [{ "modid": "ancienttools", "invert": true }]
+   "dependsOn": [ { "modid": "ancienttools", "invert": true }]
  },
 ]

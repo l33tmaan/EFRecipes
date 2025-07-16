@@ -264,8 +264,8 @@
     },
   },
   "variantGroups": [
-    { "code": "veggie", "states": ["noveggie", "veggie"] },
-    { "code": "oiled", "states": ["nooil", "oil", "honey", "peanut"]},
+    { "code": "veggie", "states": [ "noveggie", "veggie" ] },
+    { "code": "oiled", "states": [ "nooil", "oil", "honey", "peanut" ]},
   ],
   "materialDensity": 150,
   "shape": { "base": "item/food/sushi/sushi" },
@@ -363,7 +363,7 @@
      "sushifilling": { "base": "expandedfoods:item/food/sushi/sushirice" },
     },
     },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionProps": { "satiety": 50, "foodCategory": "Vegetable" },
   "guiTransform": {
     "translation": { "x": 3, "y": 0, "z": 0 },
@@ -384,21 +384,21 @@
     "scale": 1
   },
   "transitionablePropsByType": {
-    "*-honey": [{
+    "*-honey": [ {
       "type": "Perish",
       "freshHours": { "avg": 240 },
       "transitionHours": { "avg": 36 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 0.25
     }],
-    "@*-(peanut|oil)": [{
+    "@*-(peanut|oil)": [ {
       "type": "Perish",
       "freshHours": { "avg": 120 },
       "transitionHours": { "avg": 36 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 0.25
     }],
-    "*-nooil": [{
+    "*-nooil": [ {
       "type": "Perish",
       "freshHours": { "avg": 96 },
       "transitionHours": { "avg": 24 },

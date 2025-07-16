@@ -3,7 +3,7 @@
     "class": "ExpandedFood",
   "maxStackSize": 64,
   "variantGroups": [
-    { "code": "state", "states": ["raw", "partbaked", "cooked", "charred","syruppartbaked", "syrup", "syrupcharred", "oiled"] }
+    { "code": "state", "states": [ "raw", "partbaked", "cooked", "charred","syruppartbaked", "syrup", "syrupcharred", "oiled" ] }
   ],
   "attributes": {
     "displayCaseable": true,
@@ -164,24 +164,24 @@
     "@*-(cooked|syrup)": { "satiety": 60, "foodCategory": "Grain" },
     "@*-(charred|syrupcharred)": { "satiety": 50, "foodCategory": "Grain" }
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "materialDensity": 600,
   "transitionablePropsByType": {
-    "@*-(raw|oiled)": [{
+    "@*-(raw|oiled)": [ {
       "type": "Perish",
       "freshHours": { "avg": 24 },
       "transitionHours": { "avg": 48 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(charred|syrupcharred)": [{
+    "@*-(charred|syrupcharred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 200 },
       "transitionHours": { "avg": 144 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 100 },
       "transitionHours": { "avg": 72 },

@@ -4,8 +4,8 @@
     "class": "ExpandedFood",
   "maxStackSize": 32,
   "variantGroups": [
-    { "code": "type", "states": ["normal", "cheese" ]},
-  { "code": "state", "states": ["raw", "partbaked", "cooked", "charred", "dried", "driedpartbaked", "driedcooked", "driedcharred", "curing", "cured"]}
+    { "code": "type", "states": [ "normal", "cheese" ]},
+  { "code": "state", "states": [ "raw", "partbaked", "cooked", "charred", "dried", "driedpartbaked", "driedcooked", "driedcharred", "curing", "cured" ]}
   ],
     "attributes": {
     "displayCaseable": true,
@@ -160,9 +160,9 @@
   "*-driedcharred": { "saturation": 80, "health": 0.5, "foodCategory": "Protein" },
   "*-cured": { "saturation": 75, "foodCategory": "Protein" },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "transitionablePropsByType": {
-    "*-raw": [{
+    "*-raw": [ {
         "type": "Dry",
         "freshHours": { "avg": 480 },
         "transitionHours": { "avg": 20 },
@@ -175,21 +175,21 @@
         "transitionedStack": { "type": "item", "code": "game:rot" },
         "transitionRatio": 1
     }],
-    "*-dried": [{
+    "*-dried": [ {
       "type": "Perish",
       "freshHours": { "avg": 168 },
       "transitionHours": { "avg": 108 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(driedcharred|charred)": [{
+    "@*-(driedcharred|charred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 1344 },
       "transitionHours": { "avg": 216 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*-curing": [{
+    "*-curing": [ {
           "type": "Cure",
           "freshHours": { "avg": 480 },
           "transitionHours": { "avg": 20 },
@@ -202,14 +202,14 @@
            "transitionedStack": { "type": "item", "code": "game:rot" },
            "transitionRatio": 1
         }],
-    "*-cured": [{
+    "*-cured": [ {
           "type": "Perish",
       "freshHours": { "avg": 13440 },
       "transitionHours": { "avg": 8640 },
            "transitionedStack": { "type": "item", "code": "game:rot" },
            "transitionRatio": 1
         }],
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 672 },
       "transitionHours": { "avg": 108 },

@@ -100,8 +100,8 @@
       }
   },
   "variantGroups": [
-    { "code": "meat", "states": ["bushmeat", "poultry", "redmeat"]},
-    { "code": "type", "states": ["smashed", "raw", "cured", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred" ] }
+    { "code": "meat", "states": [ "bushmeat", "poultry", "redmeat" ]},
+    { "code": "type", "states": [ "smashed", "raw", "cured", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred" ] }
   ],
   "shapeByType":  {
     "meatnugget-*-smashed": { "base": "item/food/meat/{meat}-smash" },
@@ -126,7 +126,7 @@
       "raw": { "base": "game:item/food/meat/raw" }
     }
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*-bushmeat-cured": { "satiety": 110, "foodCategory": "Protein" },
     "*-poultry-cured": { "satiety": 190, "foodCategory": "Protein" },
@@ -145,28 +145,28 @@
     "@*-redmeat-(cookedcharred|tendercharred)": { "satiety": 300, "foodCategory": "Protein" }
   },
   "transitionablePropsByType": {
-    "@*-(raw|smashed)": [{
+    "@*-(raw|smashed)": [ {
       "type": "Perish",
       "freshHours": { "avg": 36 },
       "transitionHours": { "avg": 24 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*-cured": [{
+    "*-cured": [ {
       "type": "Perish",
       "freshHours": { "avg": 8760 },
       "transitionHours": { "avg": 4380 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(tenderpartbaked|cookedpartbaked|tender|cooked)": [{
+    "@*-(tenderpartbaked|cookedpartbaked|tender|cooked)": [ {
       "type": "Perish",
       "freshHours": { "avg": 120 },
       "transitionHours": { "avg": 36 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(tendercharred|cookedcharred)": [{
+    "@*-(tendercharred|cookedcharred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 240 },
       "transitionHours": { "avg": 72 },

@@ -3,7 +3,7 @@
     "class": "ExpandedFood",
   "maxStackSize": 16,
   "variantGroups": [
-    { "code": "type", "states": ["fruity", "nutty", "beany", "cheesy"] },
+    { "code": "type", "states": [ "fruity", "nutty", "beany", "cheesy" ] },
   ],
   "attributes": {
     "displayCaseable": true,
@@ -23,7 +23,7 @@
   "materialDensity": 300,
   "shape": { "base": "expandedfoods:item/food/trailmix" },
   "textures": { "mix": { "base": "item/food/trailmix/vegetarian/{type}" }},
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*-fruity": { "satiety": 150, "foodCategory": "Fruit" },
     "*-nutty": { "satiety": 150, "foodCategory": "Vegetable" },
@@ -31,7 +31,7 @@
     "*-cheesy": { "satiety": 150, "foodCategory": "Dairy" },
   },
   "transitionablePropsByType": {
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 3840 },
       "transitionHours": { "avg": 24 },

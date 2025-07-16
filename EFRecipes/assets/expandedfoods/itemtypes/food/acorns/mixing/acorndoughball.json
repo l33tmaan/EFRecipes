@@ -6,14 +6,14 @@
     "*": "ExpandedFood"
   },
   "variantGroups": [
-    { "code": "type", "states": ["dough", "partbaked", "bread", "charred"]}
+    { "code": "type", "states": [ "dough", "partbaked", "bread", "charred" ]}
   ],
   "attributes": {
     "displayCaseable": true,
     "shelvable": true,
    "handbook": { "groupBy": [ "acorndoughball-*" ] },
     "inPiePropertiesByType": {
-      "*-dough": { "texture": "game:block/food/pie/acornflax{bakeLevel}", "partType": "Crust"  }
+      "*-dough": { "texture": "game:block/food/pie/acornflax{bakeLevel}", "partType": "Crust" }
     },
       "expandedNutritionPropsByType": {
       "*-dough": {
@@ -112,7 +112,7 @@
     "*-dough": { "base": "expandedfoods:item/food/bread/plaindoughball/doughball" },
     "*": { "base": "expandedfoods:item/food/bread/plaindoughball/breadball" }
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "materialDensity": 200,
   "nutritionPropsByType": {
     "*-partbaked": { "satiety": 145, "foodCategory": "Grain" },
@@ -148,21 +148,21 @@
     "scale": 0.7
   },
   "transitionablePropsByType": {
-    "*-dough": [{
+    "*-dough": [ {
       "type": "Perish",
       "freshHours": { "avg": 72 },
       "transitionHours": { "avg": 36 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*-charred": [{
+    "*-charred": [ {
       "type": "Perish",
       "freshHours": { "avg": 1080 },
       "transitionHours": { "avg": 258 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 540 },
       "transitionHours": { "avg": 124 },

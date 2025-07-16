@@ -3,7 +3,7 @@
     "class": "ExpandedFood",
   "maxStackSize": 32,
   "variantGroups": [
-    { "code": "state", "states": ["mashed", "cooked", "syrup"]}
+    { "code": "state", "states": [ "mashed", "cooked", "syrup" ]}
   ],
   "attributes": {
     "displayCaseable": true,
@@ -187,12 +187,12 @@
         "fill-whitegrape": { "base": "wildcraftfruit:block/food/pie/fill-whitegrape" },
         "fill-wolfberry": { "base": "wildcraftfruit:block/food/pie/fill-wolfberry" },
     },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "@*-(cooked|syrup)": { "saturation": 30, "health": 0.5, "foodCategory": "Fruit" },
   },
   "transitionablePropsByType": {
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 864 },
       "transitionHours": { "avg": 72 },

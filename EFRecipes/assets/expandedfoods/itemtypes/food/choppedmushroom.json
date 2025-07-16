@@ -56,7 +56,7 @@
   },
   "shape": { "base": "item/food/mushroom/chopped/{type}"
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*-earthball": { "saturation": 80, "health": -8, "foodCategory": "Vegetable" },
     "*-deathcap": { "saturation": 80, "health": -50, "foodCategory": "Vegetable" },
@@ -82,7 +82,7 @@
     }
   },
   "transitionablePropsByType": {
-    "*": [{
+    "*": [ {
       "type": "Perish",
       "freshHours": { "avg": 432 },
       "transitionHours": { "avg": 72 },

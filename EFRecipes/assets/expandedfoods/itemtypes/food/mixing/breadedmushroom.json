@@ -3,9 +3,9 @@
     "class": "ExpandedFood",
   "maxStackSize": 64,
   "variantGroups": [
-    { "code": "type",  "states": [ "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower",
+    { "code": "type", "states": [ "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower",
         "birch", "pine", "maple", "acorn" ]},
-    { "code": "state", "states": ["raw", "partbaked", "cooked", "charred","syruppartbaked", "syrup", "syrupcharred", "oiled"] },
+    { "code": "state", "states": [ "raw", "partbaked", "cooked", "charred","syruppartbaked", "syrup", "syrupcharred", "oiled" ] },
   ],
   "attributes": {
     "displayCaseable": true,
@@ -297,7 +297,7 @@
     },
   },
   "materialDensity": 600,
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "@*-(partbaked|syruppartbaked)": { "satiety": 80, "foodCategory": "Vegetable" },
     "@*-(cooked|syrup)": { "satiety": 90, "foodCategory": "Vegetable" },
@@ -323,7 +323,7 @@
     "scale": 0.58
   },
   "transitionablePropsByType": {
-    "@*-(oiled|raw)": [{
+    "@*-(oiled|raw)": [ {
       "type": "Perish",
       "freshHours": { "avg": 18 },
       "transitionHours": { "avg": 72 },
@@ -331,14 +331,14 @@
       "transitionRatio": 1
       }
     ],
-    "@*-(partbaked|cooked|syruppartbaked|syrup)": [{
+    "@*-(partbaked|cooked|syruppartbaked|syrup)": [ {
       "type": "Perish",
       "freshHours": { "avg": 60 },
       "transitionHours": { "avg": 96 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "@*-(charred|syrupcharred)": [{
+    "@*-(charred|syrupcharred)": [ {
       "type": "Perish",
       "freshHours": { "avg": 120 },
       "transitionHours": { "avg": 192 },

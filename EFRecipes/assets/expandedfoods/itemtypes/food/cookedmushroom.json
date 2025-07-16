@@ -3,7 +3,7 @@
   "maxStackSize": 64,
   "variantGroups": [
     { "code": "mushroom", "loadFromProperties": "block/mushroom" },
-    { "code": "state", "states": ["partbaked", "perfect", "charred" ] }
+    { "code": "state", "states": [ "partbaked", "perfect", "charred" ] }
   ],
   "shape": { "base": "game:item/food/mushroom/{mushroom}" },
   "texturesByType": {
@@ -143,7 +143,7 @@
     }
   },
   "materialDensity": 600,
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*-earthball-partbaked": { "saturation": 90, "health": -6, "foodCategory": "Vegetable" },
     "*-deathcap-partbaked": { "saturation": 90, "health": -37.5, "foodCategory": "Vegetable" },
@@ -204,14 +204,14 @@
     "scale": 0.58
   },
   "transitionablePropsByType": {
-    "@*-(partbaked|perfect)": [{
+    "@*-(partbaked|perfect)": [ {
       "type": "Perish",
       "freshHours": { "avg": 432 },
       "transitionHours": { "avg": 72 },
       "transitionedStack": { "type": "item", "code": "game:rot" },
       "transitionRatio": 1
     }],
-    "*-charred": [{
+    "*-charred": [ {
       "type": "Perish",
       "freshHours": { "avg": 1512 },
       "transitionHours": { "avg": 144 },

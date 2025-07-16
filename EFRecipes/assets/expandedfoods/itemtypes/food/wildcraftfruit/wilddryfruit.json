@@ -2,9 +2,9 @@
   "code": "wilddryfruit",
   "maxStackSize": 64,
   "variantGroups": [
-    { "code": "type", "loadFromProperties": "wildcraftfruit:block/fruit", "states": ["sumac", "juniper"] },
+    { "code": "type", "loadFromProperties": "wildcraftfruit:block/fruit", "states": [ "sumac", "juniper" ] },
   ],
- "skipVariants": ["*-cashewwhole"],
+ "skipVariants": [ "*-cashewwhole" ],
  "materialDensityByType": {"*": 600},
   "attributes": {
     "displayCaseable": true,
@@ -251,7 +251,7 @@
       "fill-seamango": { "base": "item/food/dryfruit/wildcraftfruit/fill-seamango" },
     },
   },
-  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
   "nutritionPropsByType": {
     "*-pomelo": { "satiety": 105, "foodCategory": "Fruit" },
     "@*-(pittedcherry|gardenstrawberry|knyazberry)": { "satiety": 90, "foodCategory": "Fruit" },
