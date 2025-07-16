@@ -8,23 +8,23 @@
                 "type": "item",
                 "code": "expandedfoods:crabnugget-raw",
                 "shapeElement": "bowl/meatnugget 1/*",
-	            "textureMapping": [
-      		        "meat",
-        	        "crabmeat"
-      	        ]
+              "textureMapping": [
+                  "meat",
+                  "crabmeat"
+                ]
             },
             {
                 "type": "item",
                 "code": "expandedfoods:snakenugget-raw",
                 "shapeElement": "bowl/meatnugget 1/*",
-	            "textureMapping": [
-      		        "meat",
-        	        "snakemeat"
-      	        ]
+              "textureMapping": [
+                  "meat",
+                  "snakemeat"
+                ]
             },
         ],
-        side: "server",
-        dependsOn: [{ "modid": "primitivesurvival" }]
+       "side": "server",
+       "dependsOn": [{ "modid": "primitivesurvival" }]
     },
     {
         "op": "addeach",
@@ -38,7 +38,7 @@
                 "meatnugget",
                 "crabmeat"
             ]
-        },    
+        },
         {
             "type": "item",
             "code": "expandedfoods:sausagecrab-*-dried",
@@ -47,7 +47,7 @@
                 "meatnugget",
                 "crabmeat"
             ]
-        },    
+        },
         {
             "type": "item",
             "code": "expandedfoods:sausagecrab-*-curing",
@@ -56,7 +56,7 @@
                 "meatnugget",
                 "crabmeat"
             ]
-        },    
+        },
         {
             "type": "item",
             "code": "expandedfoods:sausagecrab-*-cured",
@@ -65,7 +65,7 @@
                 "meatnugget",
                 "crabmeat"
             ]
-        },    
+        },
         {
             "type": "item",
             "code": "expandedfoods:sausagesnake-*-raw",
@@ -74,7 +74,7 @@
                 "meatnugget",
                 "snakemeat"
             ]
-        },    
+        },
         {
             "type": "item",
             "code": "expandedfoods:sausagesnake-*-dried",
@@ -92,7 +92,7 @@
                 "meatnugget",
                 "snakemeat"
             ]
-        },    
+        },
         {
             "type": "item",
             "code": "expandedfoods:sausagesnake-*-cured",
@@ -101,11 +101,11 @@
                 "meatnugget",
                 "snakemeat"
             ]
-        },    
+        },
     ],
     "file": "game:recipes/cooking/soup.json",
-    side: "server",
-    dependsOn: [ { "modid": "primitivesurvival" } ]
+   "side": "server",
+   "dependsOn": [ { "modid": "primitivesurvival" } ]
   },
   {
     "op": "addeach",
@@ -146,11 +146,11 @@
                 "meatnugget",
                 "snakemeat"
             ]
-        },    
+        },
     ],
     "file": "game:recipes/cooking/soup.json",
-    side: "server",
-    dependsOn: [ { "modid": "primitivesurvival" }, { "modid": "wildcraftherb" } ]
+   "side": "server",
+   "dependsOn": [ { "modid": "primitivesurvival" }, { "modid": "wildcraftherb" } ]
   },
 
 ]

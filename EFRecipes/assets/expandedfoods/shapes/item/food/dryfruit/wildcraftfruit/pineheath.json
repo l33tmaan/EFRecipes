@@ -1,132 +1,132 @@
 {
-	"editor": {
-		"allAngles": false,
-		"entityTextureMode": false
-	},
-	"textureWidth": 8,
-	"textureHeight": 8,
-	"textureSizes": {
-	},
-	"textures": {
-		"pineheath": "wildcraftfruit:items/fruit/pineheath"
-	},
-	"elements": [
-		{
-			"name": "base",
-			"from": [ 0.0, 0.0, -0.6 ], 
-			"to": [ 0.0, 0.0, -0.6 ], 
-			"rotationOrigin": [ 0.0, 0.0, -0.6 ],
-			"faces": {
-				"north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-				"east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-				"south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-				"west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-				"up": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
-				"down": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
-			},
-			"children": [
-				{
-					"name": "Cube1",
-					"from": [ 6.8, 0.0, 7.6 ], 
-					"to": [ 8.8, 2.5, 9.6 ], 
-					"rotationOrigin": [ 6.5, -0.4, 7.6 ],
-					"rotationX": 19.5,
-					"rotationY": 38.5,
-					"rotationZ": 0.0,
-					"faces": {
-						"north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
-						"down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
-					}
-				},
-				{
-					"name": "Cube8",
-					"from": [ 9.5, 0.0, 7.6 ], 
-					"to": [ 11.5, 2.5, 9.6 ], 
-					"rotationOrigin": [ 9.7, 0.0, 7.6 ],
-					"rotationX": -77.5,
-					"rotationY": 20.5,
-					"rotationZ": 19.0,
-					"faces": {
-						"north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
-						"down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
-					}
-				},
-				{
-					"name": "Cube13",
-					"from": [ 6.6, -0.1, 4.7 ], 
-					"to": [ 8.6, 2.4, 6.7 ], 
-					"rotationOrigin": [ 6.9, 0.0, 5.2 ],
-					"rotationX": -30.5,
-					"rotationY": 46.5,
-					"rotationZ": 106.0,
-					"faces": {
-						"north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
-						"down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
-					}
-				},
-				{
-					"name": "Cube19",
-					"from": [ 5.3, 3.5, 9.1 ], 
-					"to": [ 7.3, 6.0, 11.1 ], 
-					"rotationOrigin": [ 5.3, 3.1, 8.5 ],
-					"rotationX": 14.5,
-					"rotationY": 20.5,
-					"rotationZ": -149.5,
-					"faces": {
-						"north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
-						"down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
-					}
-				},
-				{
-					"name": "Cube25",
-					"from": [ 10.6, 0.6, 7.0 ], 
-					"to": [ 12.6, 3.1, 9.0 ], 
-					"rotationOrigin": [ 10.0, 0.4, 7.8 ],
-					"rotationX": 75.0,
-					"rotationY": 17.0,
-					"rotationZ": 45.0,
-					"faces": {
-						"north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
-						"down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
-					}
-				},
-				{
-					"name": "Cube31",
-					"from": [ 6.4, 4.4, 11.4 ], 
-					"to": [ 8.4, 6.9, 13.4 ], 
-					"rotationOrigin": [ 6.3, 3.5, 11.2 ],
-					"rotationX": -165.5,
-					"rotationY": 77.5,
-					"rotationZ": 2.0,
-					"faces": {
-						"north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
-						"up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
-						"down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
-					}
-				}
-			]
-		}
-	]}
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 8,
+  "textureHeight": 8,
+  "textureSizes": {
+  },
+  "textures": {
+    "pineheath": "wildcraftfruit:items/fruit/pineheath"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [ 0.0, 0.0, -0.6 ],
+      "to": [ 0.0, 0.0, -0.6 ],
+      "rotationOrigin": [ 0.0, 0.0, -0.6 ],
+      "faces": {
+        "north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+        "east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+        "south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+        "west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+        "up": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+        "down": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+      },
+      "children": [
+        {
+          "name": "Cube1",
+          "from": [ 6.8, 0.0, 7.6 ],
+          "to": [ 8.8, 2.5, 9.6 ],
+          "rotationOrigin": [ 6.5, -0.4, 7.6 ],
+          "rotationX": 19.5,
+          "rotationY": 38.5,
+          "rotationZ": 0.0,
+          "faces": {
+            "north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
+            "down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
+          }
+        },
+        {
+          "name": "Cube8",
+          "from": [ 9.5, 0.0, 7.6 ],
+          "to": [ 11.5, 2.5, 9.6 ],
+          "rotationOrigin": [ 9.7, 0.0, 7.6 ],
+          "rotationX": -77.5,
+          "rotationY": 20.5,
+          "rotationZ": 19.0,
+          "faces": {
+            "north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
+            "down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
+          }
+        },
+        {
+          "name": "Cube13",
+          "from": [ 6.6, -0.1, 4.7 ],
+          "to": [ 8.6, 2.4, 6.7 ],
+          "rotationOrigin": [ 6.9, 0.0, 5.2 ],
+          "rotationX": -30.5,
+          "rotationY": 46.5,
+          "rotationZ": 106.0,
+          "faces": {
+            "north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
+            "down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
+          }
+        },
+        {
+          "name": "Cube19",
+          "from": [ 5.3, 3.5, 9.1 ],
+          "to": [ 7.3, 6.0, 11.1 ],
+          "rotationOrigin": [ 5.3, 3.1, 8.5 ],
+          "rotationX": 14.5,
+          "rotationY": 20.5,
+          "rotationZ": -149.5,
+          "faces": {
+            "north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
+            "down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
+          }
+        },
+        {
+          "name": "Cube25",
+          "from": [ 10.6, 0.6, 7.0 ],
+          "to": [ 12.6, 3.1, 9.0 ],
+          "rotationOrigin": [ 10.0, 0.4, 7.8 ],
+          "rotationX": 75.0,
+          "rotationY": 17.0,
+          "rotationZ": 45.0,
+          "faces": {
+            "north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
+            "down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
+          }
+        },
+        {
+          "name": "Cube31",
+          "from": [ 6.4, 4.4, 11.4 ],
+          "to": [ 8.4, 6.9, 13.4 ],
+          "rotationOrigin": [ 6.3, 3.5, 11.2 ],
+          "rotationX": -165.5,
+          "rotationY": 77.5,
+          "rotationZ": 2.0,
+          "faces": {
+            "north": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "east": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "south": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "west": { "texture": "#pineheath", "uv": [ 0.0, 0.0, 2.0, 2.5 ] },
+            "up": { "texture": "#pineheath", "uv": [ 2.5, 0.0, 4.5, 2.0 ] },
+            "down": { "texture": "#pineheath", "uv": [ 0.0, 3.0, 2.0, 5.0 ] }
+          }
+        }
+      ]
+    }
+  ]}

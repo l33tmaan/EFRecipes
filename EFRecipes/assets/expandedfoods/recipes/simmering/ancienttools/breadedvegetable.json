@@ -1,158 +1,158 @@
 ﻿[
 {
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-*-raw",
-			quantity: 1,
-			"name": "vegetable"
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-{vegetable}-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-*-raw",
-			quantity: 1,
-			"name": "vegetable"
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:breadedvegetable-birch-{vegetable}-cooked"
-		},
-		requiresContainer: false
-	}
-},
-{
-  Ingredients: [
+  "ingredients": [
     {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
+      "type": "item",
+      "code": "expandedfoods:foodoilportion-*",
+      "quantity": 10
     },
     {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-*-raw",
-      quantity: 1,
-	  "name": "vegetable"
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-birch-*-raw",
+      "quantity": 1,
+      "name": "vegetable"
     },
   ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-{vegetable}-cooked"
+  "simmering": {
+    "meltingPoint": 150,
+    "meltingDuration": 100,
+    "smeltedRatio": 1,
+    "smeltingType": "bake",
+    "smeltedStack": {
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-birch-{vegetable}-cooked"
     },
-    requiresContainer: false
+    "requiresContainer": false
   }
 },
 {
-  Ingredients: [
+  "ingredients": [
     {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
+      "type": "item",
+      "code": "expandedfoods:lard",
+      "quantity": 10
     },
     {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-*-raw",
-      quantity: 1,
-	  "name": "vegetable"
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-birch-*-raw",
+      "quantity": 1,
+      "name": "vegetable"
     },
   ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-pine-{vegetable}-cooked"
+  "simmering": {
+    "meltingPoint": 150,
+    "meltingDuration": 100,
+    "smeltedRatio": 1,
+    "smeltingType": "bake",
+    "smeltedStack": {
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-birch-{vegetable}-cooked"
     },
-    requiresContainer: false
+    "requiresContainer": false
   }
 },
 {
-  Ingredients: [
+  "ingredients": [
     {
-      type: "item",
-      code: "expandedfoods:foodoilportion-*",
-      quantity: 10
+      "type": "item",
+      "code": "expandedfoods:foodoilportion-*",
+      "quantity": 10
     },
     {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-maple-*-raw",
-      quantity: 1,
-	  "name": "vegetable"
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-pine-*-raw",
+      "quantity": 1,
+    "name": "vegetable"
     },
   ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-maple-{vegetable}-cooked"
+  "simmering": {
+    "meltingPoint": 150,
+    "meltingDuration": 100,
+    "smeltedRatio": 1,
+    "smeltingType": "bake",
+    "smeltedStack": {
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-pine-{vegetable}-cooked"
     },
-    requiresContainer: false
+    "requiresContainer": false
   }
 },
 {
-  Ingredients: [
+  "ingredients": [
     {
-      type: "item",
-      code: "expandedfoods:lard",
-      quantity: 10
+      "type": "item",
+      "code": "expandedfoods:lard",
+      "quantity": 10
     },
     {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-maple-*-raw",
-      quantity: 1,
-	  "name": "vegetable"
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-pine-*-raw",
+      "quantity": 1,
+    "name": "vegetable"
     },
   ],
-  Simmering: {
-    meltingPoint: 150,
-    meltingDuration: 100,
-    smeltedRatio: 1,
-    smeltingType: "bake",
-    smeltedStack: {
-      type: "item",
-      code: "expandedfoods:breadedvegetable-maple-{vegetable}-cooked"
+  "simmering": {
+    "meltingPoint": 150,
+    "meltingDuration": 100,
+    "smeltedRatio": 1,
+    "smeltingType": "bake",
+    "smeltedStack": {
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-pine-{vegetable}-cooked"
     },
-    requiresContainer: false
+    "requiresContainer": false
+  }
+},
+{
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "expandedfoods:foodoilportion-*",
+      "quantity": 10
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-maple-*-raw",
+      "quantity": 1,
+    "name": "vegetable"
+    },
+  ],
+  "simmering": {
+    "meltingPoint": 150,
+    "meltingDuration": 100,
+    "smeltedRatio": 1,
+    "smeltingType": "bake",
+    "smeltedStack": {
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-maple-{vegetable}-cooked"
+    },
+    "requiresContainer": false
+  }
+},
+{
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "expandedfoods:lard",
+      "quantity": 10
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-maple-*-raw",
+      "quantity": 1,
+    "name": "vegetable"
+    },
+  ],
+  "simmering": {
+    "meltingPoint": 150,
+    "meltingDuration": 100,
+    "smeltedRatio": 1,
+    "smeltingType": "bake",
+    "smeltedStack": {
+      "type": "item",
+      "code": "expandedfoods:breadedvegetable-maple-{vegetable}-cooked"
+    },
+    "requiresContainer": false
   }
 },
 ]

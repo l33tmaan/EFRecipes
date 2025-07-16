@@ -1,72 +1,72 @@
 ﻿{
-	code: "herbalbreadcrumbs",
-	"class":  "ExpandedFood",
-	maxstacksize: 128,
-	attributes: {
-		"handbook": { "groupBy": ["herbalbreadcrumbs-*"] },
-		nutritionPropsWhenInMeal: {
-			satietyByType: {
-				"*": 150
-			},
-			"health": 0.5,
-			foodcategory: "Grain" 
-		},
-		expandedNutritionProps: {
-      		"wildcraftherb:herb-mustard" : { saturation: 16, "health": 0.5, foodcategory: "Vegetable" },
-      		"wildcraftherb:herb-poisonoak" : { saturation: 11, "health": -0.5, foodcategory: "Vegetable" },
-      		"wildcraftherb:herb-stingingnettle" : { saturation: 11, foodcategory: "Vegetable" },
-      		"wildcraftherb:herb-basil" : { saturation: 11, "health": 0.875, foodcategory: "Vegetable" },
-      		"wildcraftherb:herb-*" : { saturation: 8, "health": 0.25, foodcategory: "Vegetable" },
-		},
-    	renderIngredientsByType: {
-			"*": {
-				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/breadcrumbs.json", "name": "type", "textureMap": { "breadcrumbs": "breadcrumbs-{type}" } },
-		    },
-		},
-	},
-	shape: { base: "item/food/bread/breadcrumbs" },
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"*": { saturation: 75, foodcategory: "Grain" }
-	},
-  	textures: {
-		"breadcrumbs": {base: "item/food/grain/herbal/crumbs/breadcrumbs-rice" },
-		"breadcrumbs-amaranth": {base: "item/food/grain/herbal/crumbs/breadcrumbs-amaranth" },
-		"breadcrumbs-birch": {base: "item/food/grain/herbal/crumbs/breadcrumbs-birch" },
-		"breadcrumbs-cassava": {base: "item/food/grain/herbal/crumbs/breadcrumbs-cassava" },
-		"breadcrumbs-flax": {base: "item/food/grain/herbal/crumbs/breadcrumbs-flax" },
-		"breadcrumbs-maple": {base: "item/food/grain/herbal/crumbs/breadcrumbs-maple" },
-		"breadcrumbs-pine": {base: "item/food/grain/herbal/crumbs/breadcrumbs-pine" },
-		"breadcrumbs-rice": {base: "item/food/grain/herbal/crumbs/breadcrumbs-rice" },
-		"breadcrumbs-rye": {base: "item/food/grain/herbal/crumbs/breadcrumbs-rye" },
-		"breadcrumbs-spelt": {base: "item/food/grain/herbal/crumbs/breadcrumbs-spelt" },
-		"breadcrumbs-sunflower": {base: "item/food/grain/herbal/crumbs/breadcrumbs-sunflower" },
-  	},
-	transitionableProps: [{
-		type: "Perish",
-		freshHours: { avg: 432 },
-		transitionHours: { avg: 36 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 1
-	}],
-	materialDensity: 200,
-	guiTransform: {
-		translation: { x: 2.5, y: -3, z: 0 },
-		rotation: { x: 137, y: 131, z: 0 },
-		origin: { x: 0.5, y: 0.2, z: 0.5 },
-		scale: 1.65,
-			"rotate":  true,
-	},
-	tpHandTransform: {
-		translation: { x: -0.7, y: -0.14, z: -0.6 },
-		rotation: { x: 1, y: -1, z: -31 },
-		origin: { x: 0.5, y: 0.1, z: 0.5 },
-		scale: 0.79
-	},
-	groundTransform: {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 1.25
-	},
+  "code": "herbalbreadcrumbs",
+  "class":  "ExpandedFood",
+  "maxStackSize": 128,
+  "attributes": {
+    "handbook": { "groupBy": ["herbalbreadcrumbs-*"] },
+    "nutritionPropsWhenInMeal": {
+      "satietyByType": {
+        "*": 150
+      },
+      "health": 0.5,
+      "foodCategory": "Grain"
+    },
+   "expandedNutritionProps": {
+          "wildcraftherb:herb-mustard" : { "saturation": 16, "health": 0.5, "foodCategory": "Vegetable" },
+          "wildcraftherb:herb-poisonoak" : { "saturation": 11, "health": -0.5, "foodCategory": "Vegetable" },
+          "wildcraftherb:herb-stingingnettle" : { "saturation": 11, "foodCategory": "Vegetable" },
+          "wildcraftherb:herb-basil" : { "saturation": 11, "health": 0.875, "foodCategory": "Vegetable" },
+          "wildcraftherb:herb-*" : { "saturation": 8, "health": 0.25, "foodCategory": "Vegetable" },
+    },
+     "renderIngredientsByType": {
+      "*": {
+        "game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/breadcrumbs.json", "name": "type", "textureMap": { "breadcrumbs": "breadcrumbs-{type}" } },
+        },
+    },
+  },
+  "shape": { "base": "item/food/bread/breadcrumbs" },
+  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "nutritionPropsByType": {
+    "*": { "saturation": 75, "foodCategory": "Grain" }
+  },
+    "textures": {
+    "breadcrumbs": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-rice" },
+    "breadcrumbs-amaranth": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-amaranth" },
+    "breadcrumbs-birch": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-birch" },
+    "breadcrumbs-cassava": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-cassava" },
+    "breadcrumbs-flax": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-flax" },
+    "breadcrumbs-maple": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-maple" },
+    "breadcrumbs-pine": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-pine" },
+    "breadcrumbs-rice": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-rice" },
+    "breadcrumbs-rye": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-rye" },
+    "breadcrumbs-spelt": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-spelt" },
+    "breadcrumbs-sunflower": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-sunflower" },
+    },
+  "transitionableProps": [{
+    "type": "Perish",
+    "freshHours": { "avg": 432 },
+    "transitionHours": { "avg": 36 },
+    "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 1
+  }],
+  "materialDensity": 200,
+  "guiTransform": {
+    "translation": { "x": 2.5, "y": -3, "z": 0 },
+    "rotation": { "x": 137, "y": 131, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+    "scale": 1.65,
+      "rotate": true,
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+    "rotation": { "x": 1, "y": -1, "z": -31 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+    "scale": 0.79
+  },
+  "groundTransform": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 1.25
+  },
 }

@@ -1,170 +1,170 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
-    op: "addmerge", 
-    path: "/textures/birchbread",
-    value: { base: "game:item/food/grain/birchbread" },
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools"}]
+   "op": "addmerge",
+   "path": "/textures/birchbread",
+   "value": { "base": "game:item/food/grain/birchbread" },
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
  {
     "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
-    op: "addmerge", 
-    path: "/textures/pinebread",
-    value: { base: "game:item/food/grain/pinebread" },
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools"}]
+   "op": "addmerge",
+   "path": "/textures/pinebread",
+   "value": { "base": "game:item/food/grain/pinebread" },
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
  {
     "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
-    op: "addmerge", 
-    path: "/textures/maplebread",
-    value: { base: "game:item/food/grain/maplebread" },
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools"}]
+   "op": "addmerge",
+   "path": "/textures/maplebread",
+   "value": { "base": "game:item/food/grain/maplebread" },
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
  {
     "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
-    op: "addmerge", 
-    path: "/textures/birchbread1",
-    value:  { base: "game:item/food/grain/birchbread1" },
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools"}]
+   "op": "addmerge",
+   "path": "/textures/birchbread1",
+   "value":  { "base": "game:item/food/grain/birchbread1" },
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
  {
     "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
-    op: "addmerge", 
-    path: "/textures/pinebread1",
-    value: { base: "game:item/food/grain/pinebread1" },
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools"}]
+   "op": "addmerge",
+   "path": "/textures/pinebread1",
+   "value": { "base": "game:item/food/grain/pinebread1" },
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
  {
     "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
-    op: "addmerge", 
-    path: "/textures/maplebread1",
-    value: { base: "game:item/food/grain/maplebread1" },
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools"}]
+   "op": "addmerge",
+   "path": "/textures/maplebread1",
+   "value": { "base": "game:item/food/grain/maplebread1" },
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
  {
     "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
-    op: "addmerge", 
-    path: "/textures/birchbread2",
-    value: { base: "game:item/food/grain/birchbread2" },
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools"}]
+   "op": "addmerge",
+   "path": "/textures/birchbread2",
+   "value": { "base": "game:item/food/grain/birchbread2" },
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
  {
     "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
-    op: "addmerge", 
-    path: "/textures/pinebread2",
-    value: { base: "game:item/food/grain/pinebread2" },
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools"}]
+   "op": "addmerge",
+   "path": "/textures/pinebread2",
+   "value": { "base": "game:item/food/grain/pinebread2" },
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
  {
     "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
-    op: "addmerge", 
-    path: "/textures/maplebread2",
-    value: { base: "game:item/food/grain/maplebread2" },
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools"}]
+   "op": "addmerge",
+   "path": "/textures/maplebread2",
+   "value": { "base": "game:item/food/grain/maplebread2" },
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/0/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/0/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/1/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/1/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/2/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/2/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/3/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/3/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/4/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/4/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/5/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/5/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/6/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/6/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/7/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/7/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/8/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/8/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/9/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/9/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/10/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/10/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/ancienttools/doughball.json",
-    op: "addmerge", 
-    path: "/11/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools" , "invert": true}]
+  "file": "expandedfoods:recipes/kneading/ancienttools/doughball.json",
+   "op": "addmerge",
+   "path": "/11/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools" , "invert": true}]
  },
 ]

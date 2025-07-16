@@ -1,10 +1,10 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/limeegg.json",
-    op: "addmerge", 
-    path: "/skipVariants",
-    value: [ "limeegg-pheasant", "limeegg-goldenpheasant", "limeegg-capercaillie", "limeegg-wildturkey"],
-    side: "server",
-    dependsOn: [{ "modid": "moreanimals", "invert": true }]
+   "op": "addmerge",
+   "path": "/skipVariants",
+   "value": [ "limeegg-pheasant", "limeegg-goldenpheasant", "limeegg-capercaillie", "limeegg-wildturkey"],
+   "side": "server",
+   "dependsOn": [{ "modid": "moreanimals", "invert": true }]
  },
 ]

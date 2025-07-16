@@ -1,161 +1,161 @@
 ﻿{
-	code: "choppedmushroom",
-	maxstacksize: 64,
-	variantgroups: [
-		{ code: "type", loadFromProperties: "block/mushroom" },
-	],
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		nutritionPropsWhenInMeal: {
-			"satiety": 120,
-			"foodcategory": "Vegetable",
-			"healthByType": {
-			"*-earthball": -4,
-			"*-deathcap": -25,
-			"*-funeralbell": -20,
-			"*-elfinsaddle": -3.5,
-			"*-jackolantern": -3,
-			"*-devilbolete": -5,
-			"*-pinkbonnet":	-10,
-			"*-flyagaric": -3.25,
-			"*-bitterbolete": -1.5,
-			"*-devilstooth": -1,
-			"*-golddropmilkcap": -1.25,
-			"*": 0,
-			}	
-		},
-		"handbook": { "groupBy": [ "choppedmushroom-*" ] },
-		bakingProperties: {
-			temp: 100,
-			levelFrom: 0.0,
-			levelTo: 0.25,
-			startScaleY: 1.0,
-			endScaleY: 1.0,
-			resultCode: "expandedfoods:cookedchoppedmushroom-{type}-partbaked",
-		},
-		onDisplayTransform: { 
-			translation: { x: 0, y: -0.125, z: 0 },
-			scale: 0.75 
-		},
-		inPiePropertiesByType: {
-			"*-blacktrumpet": { texture: "game:block/food/pie/fill-mushroomblack", partType: 'Filling' },
-			"@*-(chanterelle|chickenofthewoods|golddropmilkcap|jackolantern|saffronmilkcap)": { texture: "game:block/food/pie/fill-mushroomyellow", partType: 'Filling' },
-			"@*-(beardedtooth|deathcap|livermushroom|puffball|whiteoyster)": { texture: "game:block/food/pie/fill-mushroomoffwhite", partType: 'Filling' },
-			"@*-(deerear|devilbolete|funeralbell|orangeoakbolete)": { texture: "game:block/food/pie/fill-mushroomorange", partType: 'Filling' },
-			"*-devilstooth": { texture: "game:block/food/pie/fill-mushroomdevilstooth", partType: 'Filling' },
-			"@*-(elfinsaddle|flyagaric|redwinecap|witchhat)": { texture: "game:block/food/pie/fill-mushroomred", partType: 'Filling' },
-			"*-greencrackedrussula": { texture: "game:block/food/pie/fill-mushroomgreen", partType: 'Filling' },
-			"@*-(indigomilkcap|tinderhoof)": { texture: "game:block/food/pie/fill-mushroomblue", partType: 'Filling' },
-			"*-lobster": { texture: "game:block/food/pie/fill-mushroomlobster", partType: 'Filling' },
-			"@*-(pinkbonnet|pinkoyster)": { texture: "game:block/food/pie/fill-mushroompink", partType: 'Filling' },
-			"@*-(bitterbolete|blackmushroom|bolete|commonmorel|dryadsaddle|earthball|kingbolete|reishi|sagemushroom|shiitake)": { texture: "game:block/food/pie/fill-mushroombrown", partType: 'Filling' },
-			"@*-(almondmushroom|fieldmushroom|paddystraw)": { texture: "game:block/food/pie/fill-mushroomwhite", partType: 'Filling' },
-			"*-violetwebcap": { texture: "game:block/food/pie/fill-mushroompurple", partType: 'Filling' },
-		},
-	},
-	shape: { base: "item/food/mushroom/chopped/{type}"
-	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"*-earthball": { saturation: 80, health: -8, foodcategory: "Vegetable" },
-		"*-deathcap": { saturation: 80, health: -50, foodcategory: "Vegetable" },
-		"*-elfinsaddle": { saturation: 80, health: -7, foodcategory: "Vegetable" },
-		"*-jackolantern": { saturation: 80, health: -6, foodcategory: "Vegetable" },
-		"*-devilbolete": { saturation: 80, health: -10, foodcategory: "Vegetable" },
-		"*-flyagaric": { saturation: 80, health: -6.5, foodcategory: "Vegetable" },
-		"*-bitterbolete": { saturation: 80, health: -3, foodcategory: "Vegetable" },
-		"*-devilstooth": { saturation: 80, health: -2, foodcategory: "Vegetable" },
-		"*-golddropmilkcap": { saturation: 80, health: -2.5, foodcategory: "Vegetable" },
-		"*-funeralbell": { saturation: 80, health: -40, foodcategory: "Vegetable" },
-		"*-pinkbonnet": { saturation: 80, health: -10, foodcategory: "Vegetable" },
-		"*": { saturation: 80, foodcategory: "Vegetable" },
-	},
-	combustiblePropsByType: {
-		"*": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "cookedchoppedmushroom-{type}-charred" },
-			requiresContainer: false
-		},
-	},
-	transitionablePropsByType: {
-		"*": [{
-			type: "Perish",
-			freshHours: { avg: 432 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-	},
-	materialDensity: 600,
-	guiTransformByType: {
-		"@*-(pinkbonnet|witchhat)": {
-			translation: { x: 3, y: 0, z: 0 },
-			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 3,
-			"rotate":  true,
-		},
-		"@*-(deerear|livermushroom)": {
-			translation: { x: 3, y: 0, z: 0 },
-			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 2.75,
-			"rotate":  true,
-		},
-		"*-shiitake": {
-			translation: { x: 6, y: 0, z: 0 },
-			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 2.5,
-			"rotate":  true,
-		},
-		"@*-(elfinsaddle|golddropmill|greencrackedrussula|indigomilkcap|redwinecap|saffronmilkcap|violetwebcap|whiteoyster)": {
-			translation: { x: 3, y: 0, z: 0 },
-			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 2.5,
-			"rotate":  true,
-		},
-		"@*-(beardedtooth|earthball|puffball|tinderhoof)": {
-			translation: { x: 6, y: 0, z: 0 },
-			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 1.9,
-			"rotate":  true,
-		},
-		"@*-(almondmushroom|blacktrumpet|chanterelle|commonmorel|deathcap|devilstooth|lobster|paddystraw|funeralbell)": {
-			translation: { x: 3, y: 0, z: 0 },
-			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 2.25,
-			"rotate":  true,
-		},
-		"*": {
-			translation: { x: 3, y: 0, z: 0 },
-			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 2,
-			"rotate":  true,
-		},
-	},
-	tpHandTransformByType: {
-		"*": {
-			translation: { x: -1.03, y: -0.225, z: -1 },
-			rotation: { x: 1, y: -10, z: 0 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
-		},		
-	},
-	groundTransformByType: {
-		"*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2
-		},
-	}
+  "code": "choppedmushroom",
+  "maxStackSize": 64,
+  "variantGroups": [
+    { "code": "type", "loadFromProperties": "block/mushroom" }
+  ],
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+    "nutritionPropsWhenInMeal": {
+      "satiety": 120,
+      "foodcategory": "Vegetable",
+      "healthByType": {
+      "*-earthball": -4,
+      "*-deathcap": -25,
+      "*-funeralbell": -20,
+      "*-elfinsaddle": -3.5,
+      "*-jackolantern": -3,
+      "*-devilbolete": -5,
+      "*-pinkbonnet":  -10,
+      "*-flyagaric": -3.25,
+      "*-bitterbolete": -1.5,
+      "*-devilstooth": -1,
+      "*-golddropmilkcap": -1.25,
+      "*": 0
+      }
+    },
+    "handbook": { "groupBy": [ "choppedmushroom-*" ] },
+    "bakingProperties": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedchoppedmushroom-{type}-partbaked"
+    },
+    "onDisplayTransform": {
+      "translation": { "x": 0, "y": -0.125, "z": 0 },
+      "scale": 0.75
+    },
+    "inPiePropertiesByType": {
+      "*-blacktrumpet": { "texture": "game:block/food/pie/fill-mushroomblack", "partType": "Filling" },
+      "@*-(chanterelle|chickenofthewoods|golddropmilkcap|jackolantern|saffronmilkcap)": { "texture": "game:block/food/pie/fill-mushroomyellow", "partType": "Filling" },
+      "@*-(beardedtooth|deathcap|livermushroom|puffball|whiteoyster)": { "texture": "game:block/food/pie/fill-mushroomoffwhite", "partType": "Filling" },
+      "@*-(deerear|devilbolete|funeralbell|orangeoakbolete)": { "texture": "game:block/food/pie/fill-mushroomorange", "partType": "Filling" },
+      "*-devilstooth": { "texture": "game:block/food/pie/fill-mushroomdevilstooth", "partType": "Filling" },
+      "@*-(elfinsaddle|flyagaric|redwinecap|witchhat)": { "texture": "game:block/food/pie/fill-mushroomred", "partType": "Filling" },
+      "*-greencrackedrussula": { "texture": "game:block/food/pie/fill-mushroomgreen", "partType": "Filling" },
+      "@*-(indigomilkcap|tinderhoof)": { "texture": "game:block/food/pie/fill-mushroomblue", "partType": "Filling" },
+      "*-lobster": { "texture": "game:block/food/pie/fill-mushroomlobster", "partType": "Filling" },
+      "@*-(pinkbonnet|pinkoyster)": { "texture": "game:block/food/pie/fill-mushroompink", "partType": "Filling" },
+      "@*-(bitterbolete|blackmushroom|bolete|commonmorel|dryadsaddle|earthball|kingbolete|reishi|sagemushroom|shiitake)": { "texture": "game:block/food/pie/fill-mushroombrown", "partType": "Filling" },
+      "@*-(almondmushroom|fieldmushroom|paddystraw)": { "texture": "game:block/food/pie/fill-mushroomwhite", "partType": "Filling" },
+      "*-violetwebcap": { "texture": "game:block/food/pie/fill-mushroompurple", "partType": "Filling" }
+    }
+  },
+  "shape": { "base": "item/food/mushroom/chopped/{type}"
+  },
+  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "nutritionPropsByType": {
+    "*-earthball": { "saturation": 80, "health": -8, "foodCategory": "Vegetable" },
+    "*-deathcap": { "saturation": 80, "health": -50, "foodCategory": "Vegetable" },
+    "*-elfinsaddle": { "saturation": 80, "health": -7, "foodCategory": "Vegetable" },
+    "*-jackolantern": { "saturation": 80, "health": -6, "foodCategory": "Vegetable" },
+    "*-devilbolete": { "saturation": 80, "health": -10, "foodCategory": "Vegetable" },
+    "*-flyagaric": { "saturation": 80, "health": -6.5, "foodCategory": "Vegetable" },
+    "*-bitterbolete": { "saturation": 80, "health": -3, "foodCategory": "Vegetable" },
+    "*-devilstooth": { "saturation": 80, "health": -2, "foodCategory": "Vegetable" },
+    "*-golddropmilkcap": { "saturation": 80, "health": -2.5, "foodCategory": "Vegetable" },
+    "*-funeralbell": { "saturation": 80, "health": -40, "foodCategory": "Vegetable" },
+    "*-pinkbonnet": { "saturation": 80, "health": -10, "foodCategory": "Vegetable" },
+    "*": { "saturation": 80, "foodCategory": "Vegetable" }
+  },
+  "combustiblePropsByType": {
+    "*": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": { "type": "item", "code": "cookedchoppedmushroom-{type}-charred" },
+      "requiresContainer": false
+    }
+  },
+  "transitionablePropsByType": {
+    "*": [{
+      "type": "Perish",
+      "freshHours": { "avg": 432 },
+      "transitionHours": { "avg": 72 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }]
+  },
+  "materialDensity": 600,
+  "guiTransformByType": {
+    "@*-(pinkbonnet|witchhat)": {
+      "translation": { "x": 3, "y": 0, "z": 0 },
+      "rotation": { "x": -44, "y": 180, "z": 2 },
+      "origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+      "scale": 3,
+      "rotate": true
+    },
+    "@*-(deerear|livermushroom)": {
+      "translation": { "x": 3, "y": 0, "z": 0 },
+      "rotation": { "x": -44, "y": 180, "z": 2 },
+      "origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+      "scale": 2.75,
+      "rotate": true
+    },
+    "*-shiitake": {
+      "translation": { "x": 6, "y": 0, "z": 0 },
+      "rotation": { "x": -44, "y": 180, "z": 2 },
+      "origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+      "scale": 2.5,
+      "rotate": true
+    },
+    "@*-(elfinsaddle|golddropmill|greencrackedrussula|indigomilkcap|redwinecap|saffronmilkcap|violetwebcap|whiteoyster)": {
+      "translation": { "x": 3, "y": 0, "z": 0 },
+      "rotation": { "x": -44, "y": 180, "z": 2 },
+      "origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+      "scale": 2.5,
+      "rotate": true
+    },
+    "@*-(beardedtooth|earthball|puffball|tinderhoof)": {
+      "translation": { "x": 6, "y": 0, "z": 0 },
+      "rotation": { "x": -44, "y": 180, "z": 2 },
+      "origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+      "scale": 1.9,
+      "rotate": true
+    },
+    "@*-(almondmushroom|blacktrumpet|chanterelle|commonmorel|deathcap|devilstooth|lobster|paddystraw|funeralbell)": {
+      "translation": { "x": 3, "y": 0, "z": 0 },
+      "rotation": { "x": -44, "y": 180, "z": 2 },
+      "origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+      "scale": 2.25,
+      "rotate": true
+    },
+    "*": {
+      "translation": { "x": 3, "y": 0, "z": 0 },
+      "rotation": { "x": -44, "y": 180, "z": 2 },
+      "origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+      "scale": 2,
+      "rotate": true
+    }
+  },
+  "tpHandTransformByType": {
+    "*": {
+      "translation": { "x": -1.03, "y": -0.225, "z": -1 },
+      "rotation": { "x": 1, "y": -10, "z": 0 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 0.5
+    }
+  },
+  "groundTransformByType": {
+    "*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2
+    }
+  }
 }

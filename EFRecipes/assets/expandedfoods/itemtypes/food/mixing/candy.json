@@ -1,117 +1,117 @@
 {
-	code: "candy",
-	maxstacksize: 32,
-	variantgroups: [
-		{
-			code: "type",
-			states: [ "peanut", "sunflower", "acorn" ]
-		},
-		{
-			code: "states",
-			states: [ "raw" ]
-		},
-	],
-	class: "ExpandedFood",
-	shape: { base: "item/food/candy/{type}" },
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		handbook: { "groupBy": [ "candy-*" ] },
-	    onDisplayTransform: { 
-			translation: { x: 0, y: -0.25, z: 0 },
-			scale: 0.5 
-		},
-		expandedNutritionPropsByType: {
-			"*": {
-      			"game:grain-sunflower" : { saturation: 0, foodcategory: "Grain" },
-      			"game:acorn-meal" : { saturation: 0, foodcategory: "Protein" },
-      			"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
-      			"game:salt" : { saturation: 0, health: 0.5, foodcategory: "Fruit" },
-      			"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.2, foodcategory: "Fruit" }, 
-      			"expandedfoods:fruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-cloudberry" : { saturation: 12, "health": 0.5, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-husktomato" : { saturation: 12, "health": 0.3, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-juniper" : { saturation: 12, "health": 0.3, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-coralbead" : { saturation: 12, "health": -0.1, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-pokeberry" : { saturation: 12, "health": -0.25, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-snowberry" : { saturation: 12, "health": -0.25, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-falseorange" : { saturation: 12, "health": -0.25, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-blacknightshadeunripe" : { saturation: 12, "health": -1, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-bitternightshade" : { saturation: 12, "health": -2, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-wolfberry" : { saturation: 12, "health": -3, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-seamango" : { saturation: 12, "health": -4, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-crowseye" : { saturation: 12, "health": -5, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
-      			"expandedfoods:treesyrupportion-*" : { saturation: 9.6, "health": 0.1, foodcategory: "Fruit" },
-				"expandedfoods:peanutliquid-paste": { saturation: 24, foodcategory: "Protein" },
-      			"expandedfoods:foodoilportion-*" : { saturation: 4.5, "health": 0.1, foodcategory: "Vegetable" }, 
-			},
-		},
-	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	transitionablePropsByType: {
-		"*": [
-			{
-				type: "Perish",
-				freshHours: { avg: 2190 },
-				transitionHours: { avg: 220 },
-				transitionedStack: {
-					type: "item",
-					code: "game:rot"
-				},
-				transitionRatio: 0.25
-			}
-		],
-	},
-	materialDensity: 600,
-	nutritionPropsByType: {
-			"*-sunflower-raw": {
-				saturation: 200,
-				health: 0.5,
-				foodcategory: "Grain"
-			},
-			"*": {
-				saturation: 200,
-				health: 0.5,
-				foodcategory: "Protein"
-			},
-	},
-	heldTpIdleAnimationByType: {
-			"*": "holdbothhands"
-	},
-	guiTransformByType: {
-			"*-sunflower-*": {
-				translation: { x: -1, y: 3, z: 0 },
-				rotation: { x: -43, y: 60, z: -180 },
-				origin: { x: 0.6, y: 0.1, z: 0.5 },
-				scale: 2.5
-			},
-			"*": {
-				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: 110, y: 144, z: -141 },
-				origin: { x: 0.4, y: 0.2, z: 0.5 },
-				scale: 2.0
-			}
-	},
-	groundTransformByType: {
-			"*": {
-				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: 0, y: 0, z: 0 },
-				origin: { x: 0.5, y: 0, z: 0.5 },
-				scale: 2
-			}
-	},
-	tpHandTransformByType: {
-		"*-sunflower-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 12, y: 27, z: -92 },
-			origin: { x: -0.05, y: 0.2, z: 0.25 },
-			"scale":  0.5
-		},
-		"*": {
-			translation: { x: -1.7, y: -0.7, z: -1.1 },
-			rotation: { x: 12, y: 26, z: -93 },
-			origin: { x: 0.5, y: 0.21, z: 0.48 }
-		}
-	},
+  "code": "candy",
+  "maxStackSize": 32,
+  "variantGroups": [
+    {
+      "code": "type",
+      "states": [ "peanut", "sunflower", "acorn" ]
+    },
+    {
+      "code": "states",
+      "states": [ "raw" ]
+    },
+  ],
+  "class": "ExpandedFood",
+  "shape": { "base": "item/food/candy/{type}" },
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+   "handbook": { "groupBy": [ "candy-*" ] },
+      "onDisplayTransform": {
+      "translation": { "x": 0, "y": -0.25, "z": 0 },
+      "scale": 0.5
+    },
+   "expandedNutritionPropsByType": {
+      "*": {
+            "game:grain-sunflower" : { "saturation": 0, "foodCategory": "Grain" },
+            "game:acorn-meal" : { "saturation": 0, "foodCategory": "Protein" },
+            "game:honeyportion" : { "saturation": 4, "foodCategory": "Fruit" },
+            "game:salt" : { "saturation": 0, "health": 0.5, "foodCategory": "Fruit" },
+            "expandedfoods:fruitsyrupportion-saguaro" : { "saturation": 12, "health": 0.2, "foodCategory": "Fruit" },
+            "expandedfoods:fruitsyrupportion-*" : { "saturation": 12, "health": 0.1, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-cloudberry" : { "saturation": 12, "health": 0.5, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-husktomato" : { "saturation": 12, "health": 0.3, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-juniper" : { "saturation": 12, "health": 0.3, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-coralbead" : { "saturation": 12, "health": -0.1, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-pokeberry" : { "saturation": 12, "health": -0.25, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-snowberry" : { "saturation": 12, "health": -0.25, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-falseorange" : { "saturation": 12, "health": -0.25, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-blacknightshadeunripe" : { "saturation": 12, "health": -1, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-bitternightshade" : { "saturation": 12, "health": -2, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-wolfberry" : { "saturation": 12, "health": -3, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-seamango" : { "saturation": 12, "health": -4, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-crowseye" : { "saturation": 12, "health": -5, "foodCategory": "Fruit" },
+            "expandedfoods:wildfruitsyrupportion-*" : { "saturation": 12, "health": 0.1, "foodCategory": "Fruit" },
+            "expandedfoods:treesyrupportion-*" : { "saturation": 9.6, "health": 0.1, "foodCategory": "Fruit" },
+        "expandedfoods:peanutliquid-paste": { "saturation": 24, "foodCategory": "Protein" },
+            "expandedfoods:foodoilportion-*" : { "saturation": 4.5, "health": 0.1, "foodCategory": "Vegetable" },
+      },
+    },
+  },
+  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "transitionablePropsByType": {
+    "*": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 2190 },
+        "transitionHours": { "avg": 220 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+  },
+  "materialDensity": 600,
+  "nutritionPropsByType": {
+      "*-sunflower-raw": {
+        "saturation": 200,
+        "health": 0.5,
+        "foodCategory": "Grain"
+      },
+      "*": {
+        "saturation": 200,
+        "health": 0.5,
+        "foodCategory": "Protein"
+      },
+  },
+ "heldTpIdleAnimationByType": {
+      "*": "holdbothhands"
+  },
+  "guiTransformByType": {
+      "*-sunflower-*": {
+        "translation": { "x": -1, "y": 3, "z": 0 },
+        "rotation": { "x": -43, "y": 60, "z": -180 },
+        "origin": { "x": 0.6, "y": 0.1, "z": 0.5 },
+        "scale": 2.5
+      },
+      "*": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 110, "y": 144, "z": -141 },
+        "origin": { "x": 0.4, "y": 0.2, "z": 0.5 },
+        "scale": 2.0
+      }
+  },
+  "groundTransformByType": {
+      "*": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 2
+      }
+  },
+  "tpHandTransformByType": {
+    "*-sunflower-*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 12, "y": 27, "z": -92 },
+      "origin": { "x": -0.05, "y": 0.2, "z": 0.25 },
+      "scale":  0.5
+    },
+    "*": {
+      "translation": { "x": -1.7, "y": -0.7, "z": -1.1 },
+      "rotation": { "x": 12, "y": 26, "z": -93 },
+      "origin": { "x": 0.5, "y": 0.21, "z": 0.48 }
+    }
+  },
 }

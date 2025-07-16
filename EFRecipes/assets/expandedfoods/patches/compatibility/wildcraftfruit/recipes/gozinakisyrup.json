@@ -1,10 +1,10 @@
 ﻿[
  {
-   file: "expandedfoods:recipes/kneading/gozinakisyrup.json",
+  "file": "expandedfoods:recipes/kneading/gozinakisyrup.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/0/ingredients/0/inputs/-", 
-    value: { type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10 },
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+   "op": "addmerge",
+   "path": "/0/ingredients/0/inputs/-",
+   "value": { "type": "item", "code": "expandedfoods:wildfruitsyrupportion-*",  "quantity": 10 },
+   "dependsOn": [{ "modid": "wildcraftfruit" }]
  },
 ]

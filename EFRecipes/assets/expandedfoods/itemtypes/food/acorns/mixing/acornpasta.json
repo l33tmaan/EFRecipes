@@ -1,129 +1,129 @@
 {
-	code: "acornpasta",
-	maxstacksize: 32,
-  	class: "ExpandedFood",
-	variantgroups: [
-		{code: "type", states: ["dough", "flat", "cut", "cooked"]},
-	],
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		handbook: { "groupBy": [ "acornpasta-*" ] },
-		inContainerTexture: { base: "item/food/pasta/acornpasta" },
-		nutritionPropsWhenInMealByType: { 
-			"*-cut": { satiety: 240, foodcategory: "Grain" },
-		},
-    	"expandedNutritionPropsByType": {
-			"*-dough": {
-      			"acorns:flour-acorn" : { saturation: 155, foodcategory: "Grain" },
-				"aculinaryartillery:eggyolkportion-chicken": { saturation: 17, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkportion-pheasant": { saturation: 25, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkportion-goldenpheasant": { saturation: 25, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkportion-capercaillie": { saturation: 25, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkportion-wildturkey": { saturation: 25, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkfullportion-chicken": { saturation: 20, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkfullportion-pheasant": { saturation: 28, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkfullportion-goldenpheasant": { saturation: 28, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkfullportion-capercaillie": { saturation: 28, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkfullportion-wildturkey": { saturation: 28, foodcategory: "Protein"},
-      			"expandedfoods:foodoilportion-*" : { saturation: 6, "health": 0.1, foodcategory: "Vegetable" }, 
-			},
-		},
-    	renderIngredientsByType: {
-			"*-dough": {
-				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastaball.json", "textureMap": { "pastaraw": "pastaraw" } },
-			},
-			"*-flat": {
-				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pasta.json", "textureMap": { "pastaraw": "pastaraw" } },
-			},
-			"*-cut": {
-				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacut.json", "textureMap": { "pastaraw": "pastaraw" } },
-			},
-			"*-cooked": {
-				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacooked.json", "textureMap": { "pastacooked": "pastacooked" } },
-			},
-		},
-	},
-	textures: {
-		"pastaraw": { base: "item/food/dumpling/acornraw" },
-		"pastacooked": { base: "item/food/pasta/acornpasta" },
-	},
-	shapeByType: {
-		"*-dough": { base: "expandedfoods:item/food/bread/pasta/pastaball" },
-		"*-flat": { base: "expandedfoods:item/food/bread/pasta/pasta" },
-		"*-cut": { base: "expandedfoods:item/food/bread/pasta/pastacut" },
-		"*-cooked": { base: "expandedfoods:item/food/bread/pasta/pastacooked" },
-	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	materialDensity: 200,
-	nutritionPropsByType: {
-		"*-cooked": { satiety: 180, foodcategory: "Grain" },
-	},
-	guiTransformByType: {
-		"*-dough": {
-			translation: { x: 2.5, y: -2.5, z: 0 },
-			rotation: { x: 180, y: -115, z: 26 },
-			origin: { x: 0.57, y: 0.07, z: 0.5 },
-			scale: 4.5
-		},
-		"*-flat": {
-			translation: { x: 1.55, y: -4.5, z: 0 },
-			rotation: { x: 180, y: -131, z: 50 },
-			origin: { x: 0.57, y: 0.07, z: 0.5 },
-			scale: 2
-		},
-		"*-cut": {
-			translation: { x: -1.5, y: -2.5, z: 0 },
-			rotation: { x: 158, y: 158, z: -10 },
-			origin: { x: 0.57, y: 0.07, z: 0.5 },
-			scale: 3
-		},
-		"*-cooked": {
-			translation: { x: 1.5, y: -4.5, z: 0 },
-			rotation: { x: 180, y: -100, z: 60 },
-			origin: { x: 0.57, y: 0.07, z: 0.5 },
-			scale: 1.75
-		},
-	},
-	groundTransformByType: {
-		"*-dough": {
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0.0, z: 0.5 },
-			scale: 3
-		},
-		"*": {
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0.0, z: 0.5 },
-			scale: 2.5
-		},
-	},
-	tpHandTransformByType: {
-		"*-cut": {
-			translation: { x: -0.2, y: -0.1, z: -0.45 },
-			rotation: { x: -10, y: 80, z: -11 },
-			origin: { x: 0.23, y: 0, z: 0.13 },
-			scale: 0.5
-		},
-		"*-dough": {
-			translation: { x: -0.1, y: -0.15, z: -0.35 },
-			rotation: { x: -10, y: 75, z: -11 },
-			origin: { x: 0.23, y: 0, z: 0.13 },
-			scale: 0.7
-		},
-		"*": {
-			translation: { x: -0.3, y: 0.1, z: 0.05 },
-			rotation: { x: -28, y: -2, z: 0 },
-			origin: { x: 0.23, y: 0, z: 0.13 },
-			scale: 0.35
-		},
-	},
-	transitionablePropsByType: {
-		"*": [{
-			type: "Perish",
-			freshHours: { avg: 72 },
-			transitionHours: { avg: 36 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-	}
+  "code": "acornpasta",
+  "maxStackSize": 32,
+    "class": "ExpandedFood",
+  "variantGroups": [
+    { "code": "type", "states": ["dough", "flat", "cut", "cooked"]}
+  ],
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+   "handbook": { "groupBy": [ "acornpasta-*" ] },
+    "inContainerTexture": { "base": "item/food/pasta/acornpasta" },
+    "nutritionPropsWhenInMealByType": {
+      "*-cut": { "satiety": 240, "foodCategory": "Grain" }
+    },
+      "expandedNutritionPropsByType": {
+      "*-dough": {
+            "acorns:flour-acorn" : { "saturation": 155, "foodCategory": "Grain" },
+        "aculinaryartillery:eggyolkportion-chicken": { "saturation": 17, "foodCategory": "Protein" },
+        "aculinaryartillery:eggyolkportion-pheasant": { "saturation": 25, "foodCategory": "Protein" },
+        "aculinaryartillery:eggyolkportion-goldenpheasant": { "saturation": 25, "foodCategory": "Protein" },
+        "aculinaryartillery:eggyolkportion-capercaillie": { "saturation": 25, "foodCategory": "Protein" },
+        "aculinaryartillery:eggyolkportion-wildturkey": { "saturation": 25, "foodCategory": "Protein" },
+        "aculinaryartillery:eggyolkfullportion-chicken": { "saturation": 20, "foodCategory": "Protein" },
+        "aculinaryartillery:eggyolkfullportion-pheasant": { "saturation": 28, "foodCategory": "Protein" },
+        "aculinaryartillery:eggyolkfullportion-goldenpheasant": { "saturation": 28, "foodCategory": "Protein" },
+        "aculinaryartillery:eggyolkfullportion-capercaillie": { "saturation": 28, "foodCategory": "Protein" },
+        "aculinaryartillery:eggyolkfullportion-wildturkey": { "saturation": 28, "foodCategory": "Protein" },
+            "expandedfoods:foodoilportion-*" : { "saturation": 6, "health": 0.1, "foodCategory": "Vegetable" }
+      }
+    },
+     "renderIngredientsByType": {
+      "*-dough": {
+        "game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastaball.json", "textureMap": { "pastaraw": "pastaraw" } }
+      },
+      "*-flat": {
+        "game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pasta.json", "textureMap": { "pastaraw": "pastaraw" } }
+      },
+      "*-cut": {
+        "game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacut.json", "textureMap": { "pastaraw": "pastaraw" } }
+      },
+      "*-cooked": {
+        "game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacooked.json", "textureMap": { "pastacooked": "pastacooked" } }
+      }
+    }
+  },
+  "textures": {
+    "pastaraw": { "base": "item/food/dumpling/acornraw" },
+    "pastacooked": { "base": "item/food/pasta/acornpasta" }
+  },
+  "shapeByType": {
+    "*-dough": { "base": "expandedfoods:item/food/bread/pasta/pastaball" },
+    "*-flat": { "base": "expandedfoods:item/food/bread/pasta/pasta" },
+    "*-cut": { "base": "expandedfoods:item/food/bread/pasta/pastacut" },
+    "*-cooked": { "base": "expandedfoods:item/food/bread/pasta/pastacooked" }
+  },
+  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "materialDensity": 200,
+  "nutritionPropsByType": {
+    "*-cooked": { "satiety": 180, "foodCategory": "Grain" }
+  },
+  "guiTransformByType": {
+    "*-dough": {
+      "translation": { "x": 2.5, "y": -2.5, "z": 0 },
+      "rotation": { "x": 180, "y": -115, "z": 26 },
+      "origin": { "x": 0.57, "y": 0.07, "z": 0.5 },
+      "scale": 4.5
+    },
+    "*-flat": {
+      "translation": { "x": 1.55, "y": -4.5, "z": 0 },
+      "rotation": { "x": 180, "y": -131, "z": 50 },
+      "origin": { "x": 0.57, "y": 0.07, "z": 0.5 },
+      "scale": 2
+    },
+    "*-cut": {
+      "translation": { "x": -1.5, "y": -2.5, "z": 0 },
+      "rotation": { "x": 158, "y": 158, "z": -10 },
+      "origin": { "x": 0.57, "y": 0.07, "z": 0.5 },
+      "scale": 3
+    },
+    "*-cooked": {
+      "translation": { "x": 1.5, "y": -4.5, "z": 0 },
+      "rotation": { "x": 180, "y": -100, "z": 60 },
+      "origin": { "x": 0.57, "y": 0.07, "z": 0.5 },
+      "scale": 1.75
+    }
+  },
+  "groundTransformByType": {
+    "*-dough": {
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+      "scale": 3
+    },
+    "*": {
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+      "scale": 2.5
+    }
+  },
+  "tpHandTransformByType": {
+    "*-cut": {
+      "translation": { "x": -0.2, "y": -0.1, "z": -0.45 },
+      "rotation": { "x": -10, "y": 80, "z": -11 },
+      "origin": { "x": 0.23, "y": 0, "z": 0.13 },
+      "scale": 0.5
+    },
+    "*-dough": {
+      "translation": { "x": -0.1, "y": -0.15, "z": -0.35 },
+      "rotation": { "x": -10, "y": 75, "z": -11 },
+      "origin": { "x": 0.23, "y": 0, "z": 0.13 },
+      "scale": 0.7
+    },
+    "*": {
+      "translation": { "x": -0.3, "y": 0.1, "z": 0.05 },
+      "rotation": { "x": -28, "y": -2, "z": 0 },
+      "origin": { "x": 0.23, "y": 0, "z": 0.13 },
+      "scale": 0.35
+    }
+  },
+  "transitionablePropsByType": {
+    "*": [{
+      "type": "Perish",
+      "freshHours": { "avg": 72 },
+      "transitionHours": { "avg": 36 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }]
+  }
 }

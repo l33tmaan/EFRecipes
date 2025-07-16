@@ -1,21 +1,21 @@
 ﻿[
  {
-  ingredients: [
-    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "wildcraftherb:herb-minerslettuce", quantity: 1 }]},    
-    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
-	{inputs: [{ type: "item", code: "expandedfoods:fishnugget-*", allowedVariants: [ "raw", "curedchopped", "smashed", "curedsmashed"], quantity: 1 }]}
+  "ingredients": [
+    { "inputs": [{ "type": "item", "code": "game:grain-rice",  "quantity": 1 }]},
+    { "inputs": [{ "type": "item", "code": "expandedfoods:driedseaweed-edible", "quantity": 1 }]},
+    { "inputs": [{ "type": "item", "code": "wildcraftherb:herb-minerslettuce", "quantity": 1 }]},
+    { "inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]},
+  { "inputs": [{ "type": "item", "code": "expandedfoods:fishnugget-*", "allowedVariants": [ "raw", "curedchopped", "smashed", "curedsmashed"], "quantity": 1 }]}
   ],
-  output: { type: "item", code: "expandedfoods:sushi-veggie-nooil", stackSize: 1}
+  "output": { "type": "item", "code": "expandedfoods:sushi-veggie-nooil", "ingredients": 1}
  },
  {
-  ingredients: [
-    {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "wildcraftherb:herb-minerslettuce", quantity: 1 }]}, 
-	{inputs: [{ type: "item", code: "expandedfoods:fishnugget-*", allowedVariants: [ "raw", "curedchopped", "smashed", "curedsmashed"], quantity: 1 }]}   
+  "ingredients": [
+    { "inputs": [{ "type": "item", "code": "game:grain-rice",  "quantity": 1 }]},
+    { "inputs": [{ "type": "item", "code": "expandedfoods:driedseaweed-edible", "quantity": 1 }]},
+    { "inputs": [{ "type": "item", "code": "wildcraftherb:herb-minerslettuce", "quantity": 1 }]},
+  { "inputs": [{ "type": "item", "code": "expandedfoods:fishnugget-*", "allowedVariants": [ "raw", "curedchopped", "smashed", "curedsmashed"], "quantity": 1 }]}
   ],
-  output: { type: "item", code: "expandedfoods:sushi-veggie-nooil", stackSize: 1}
+  "output": { "type": "item", "code": "expandedfoods:sushi-veggie-nooil", "ingredients": 1}
  },
 ]

@@ -1,10 +1,10 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/mixing/breadedfishnugget.json",
-    op: "addmerge", 
-    path: "/skipVariants",
-    value: [ "breadedfishnugget-birch-*", "breadedfishnugget-pine-*", "breadedfishnugget-maple-*"],
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+   "op": "addmerge",
+   "path": "/skipVariants",
+   "value": [ "breadedfishnugget-birch-*", "breadedfishnugget-pine-*", "breadedfishnugget-maple-*"],
+   "side": "server",
+   "dependsOn": [{ "modid": "ancienttools", "invert": true }]
  },
 ]

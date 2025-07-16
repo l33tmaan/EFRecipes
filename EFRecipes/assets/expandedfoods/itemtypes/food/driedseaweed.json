@@ -1,78 +1,78 @@
 {
-    code: "driedseaweed",
-    maxstacksize: 64,
-    materialDensity: 200,
-    attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		nutritionPropsWhenInMeal: { 
-			satietyByType:  { 
-				"*-edible":  30
-			},
-			foodcategory: "Vegetable" 
-		},
-		bakingPropertiesByType: {
-			"*-sheet": {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:driedseaweed-edible"
-			},
-			"*-edible": {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 1.0,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "expandedfoods:driedseaweed-sheet"
-			},
-		},
-		onDisplayTransformByType: {
-			"*": { 
-				translation: { x: 0.0, y: -0.05, z: 0.04 },
-				rotation: { x: 0, y: 0, z: 0 },
-				scale: 0.8 
-			},
-		},
-    	inPieProperties: { texture: "game:block/food/pie/fill-seaweed", partType: 'Filling' },
+    "code": "driedseaweed",
+    "maxStackSize": 64,
+    "materialDensity": 200,
+    "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+    "nutritionPropsWhenInMeal": {
+      "satietyByType":  {
+        "*-edible":  30
+      },
+      "foodCategory": "Vegetable"
     },
-	nutritionPropsByType: {
-		"*-edible": { satiety: 20, foodcategory: "Vegetable" }
-	},
-    variantgroups: [
-    	{ code: "type", states: ["mash", "sheet", "edible"] }
+    "bakingPropertiesByType": {
+      "*-sheet": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:driedseaweed-edible"
+      },
+      "*-edible": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "initialCode": "expandedfoods:driedseaweed-sheet"
+      }
+    },
+    "onDisplayTransformByType": {
+      "*": {
+        "translation": { "x": 0.0, "y": -0.05, "z": 0.04 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale": 0.8
+      }
+    },
+      "inPieProperties": { "texture": "game:block/food/pie/fill-seaweed", "partType": "Filling" }
+    },
+  "nutritionPropsByType": {
+    "*-edible": { "satiety": 20, "foodCategory": "Vegetable" }
+  },
+    "variantGroups": [
+      { "code": "type", "states": ["mash", "sheet", "edible"] }
     ],
-    shapeByType: {
-	"*-mash": { base: "item/food/sushi/seaweedmash" },
+    "shapeByType": {
+  "*-mash": { "base": "item/food/sushi/seaweedmash" }
     },
-    textures: { 
-	"seaweed": { base: "item/food/seaweed/{type}" },
-	},
-    creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	guiTransformByType: {
-		"*-mash": {
-			translation: { x: 1.5, y: -4, z: 0 },
-			rotation: { x: 137, y: 131, z: 0 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 2
-		},
-	},
-	tpHandTransformByType: {
-		"*-mash": {
-			translation: { x: -0.9, y: -0.14, z: -1 },
-			rotation: { x: 1, y: -1, z: -31 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
-		},		
-	},
-	groundTransformByType: {
-		"*-mash": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 3
-		},
-	}
+    "textures": {
+  "seaweed": { "base": "item/food/seaweed/{type}" }
+  },
+    "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "guiTransformByType": {
+    "*-mash": {
+      "translation": { "x": 1.5, "y": -4, "z": 0 },
+      "rotation": { "x": 137, "y": 131, "z": 0 },
+      "origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+      "scale": 2
+    }
+  },
+  "tpHandTransformByType": {
+    "*-mash": {
+      "translation": { "x": -0.9, "y": -0.14, "z": -1 },
+      "rotation": { "x": 1, "y": -1, "z": -31 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 0.5
+    }
+  },
+  "groundTransformByType": {
+    "*-mash": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 3
+    }
+  }
 }

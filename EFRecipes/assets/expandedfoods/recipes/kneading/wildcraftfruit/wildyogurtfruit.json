@@ -1,10 +1,10 @@
 [
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 10, name: "fruit" },]},
-		{inputs: [{ type: "item", code: "expandedfoods:yogurt-plain", "quantity": 10 }]},
-	],
-	output: { type: "item", code: "expandedfoods:yogurt-{fruit}", stackSize: 20}
+  "ingredients": [
+    { "inputs": [{ "type": "item", "code": "expandedfoods:wildfruitsyrupportion-*",  "quantity": 10, "name": "fruit" },]},
+    { "inputs": [{ "type": "item", "code": "expandedfoods:yogurt-plain", "quantity": 10 }]},
+  ],
+  "output": { "type": "item", "code": "expandedfoods:yogurt-{fruit}", "ingredients": 20}
  }
 ]
 

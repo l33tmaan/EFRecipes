@@ -1,57 +1,57 @@
 ﻿[
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "item",
-				code: "expandedfoods:choppedvegetable-*",
-				quantity: 1,
-				"name": "vegetable",
-				"allowedVariants": [ "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper" ],
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 100,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedchoppedvegetable-{vegetable}-perfect",
-				"quantity": 1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "item",
-				code: "expandedfoods:cookedchoppedvegetable-*-partbaked",
-				quantity: 1,
-				"name": "vegetable",
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 100,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedchoppedvegetable-{vegetable}-perfect",
-				"quantity": 1
-			},
-			requiresContainer: false
-		}
-	},
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50,
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:choppedvegetable-*",
+        "quantity": 1,
+        "name": "vegetable",
+        "allowedVariants": [ "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper" ],
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 100,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedchoppedvegetable-{vegetable}-perfect",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50,
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:cookedchoppedvegetable-*-partbaked",
+        "quantity": 1,
+        "name": "vegetable",
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 100,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedchoppedvegetable-{vegetable}-perfect",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
 ]

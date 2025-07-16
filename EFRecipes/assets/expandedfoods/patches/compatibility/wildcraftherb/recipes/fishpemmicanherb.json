@@ -1,18 +1,18 @@
 ﻿[
  {
-   file: "expandedfoods:recipes/kneading/wildcraftherb/fishpemmicanherb.json",
+  "file": "expandedfoods:recipes/kneading/wildcraftherb/fishpemmicanherb.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/0/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+   "op": "addmerge",
+   "path": "/0/enabled",
+   "value": "false",
+   "dependsOn": [{ "modid": "wildcraftherb" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraftherb/fishpemmicanherb.json",
+  "file": "expandedfoods:recipes/kneading/wildcraftherb/fishpemmicanherb.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/1/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+   "op": "addmerge",
+   "path": "/1/enabled",
+   "value": "false",
+   "dependsOn": [{ "modid": "wildcraftherb" , "invert": true}]
  },
 ]

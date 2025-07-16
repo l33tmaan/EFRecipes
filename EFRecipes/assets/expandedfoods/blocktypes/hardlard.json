@@ -1,64 +1,64 @@
 ﻿{
-	code: "hardlard",
-	shape: { base: "item/food/hardlard" },
-	texture: { base: "game:block/fat" },
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	attributes: {
-		placeSound: "game:block/snow"
-	},
-	"behaviors": [
-		{
-			"name": "GroundStorable",
-			"properties": {
-				"layout": "Stacking",
-				"placeRemoveSound": "game:sounds/block/snow",
-				"stackingModel": "block/lardpile",
-				"tessQuantityElements": 1,
-				"stackingCapacity": 32,
-				"transferQuantity": 1,
-				"bulkTransferQuantity": 4,
-				"collisionBox": {
-					"x1": 0,
-					"y1": 0,
-					"z1": 0,
-					"x2": 1,
-					"y2": 0.25,
-					"z2": 1
-				},
-				"cbScaleYByLayer": 0.125,
-			}
-		},
-		{ "name": "Unplaceable" },	
-	],
-	blockmaterial: "other",
-	maxstacksize: 32,
-	combustibleProps: {
-		burnTemperature: 300,
-		burnDuration: 120,
-	},
-    transitionableProps: [{
-        type: "Perish",
-        freshHours: { avg: 1440 },
-        transitionHours: { avg: 1440 },
-        transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.1
+  "code": "hardlard",
+  "shape": { "base": "item/food/hardlard" },
+  "texture": { "base": "game:block/fat" },
+  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "attributes": {
+    "placeSound": "game:block/snow"
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Stacking",
+        "placeRemoveSound": "game:sounds/block/snow",
+        "stackingModel": "block/lardpile",
+        "tessQuantityElements": 1,
+        "stackingCapacity": 32,
+        "transferQuantity": 1,
+        "bulkTransferQuantity": 4,
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.25,
+          "z2": 1
+        },
+        "cbScaleYByLayer": 0.125
+      }
+    },
+    { "name": "Unplaceable" }
+  ],
+  "blockMaterial": "other",
+  "maxStackSize": 32,
+  "combustibleProps": {
+    "burnTemperature": 300,
+    "burnDuration": 120
+  },
+    "transitionableProps": [{
+        "type": "Perish",
+        "freshHours": { "avg": 1440 },
+        "transitionHours": { "avg": 1440 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 0.1
     }],
-	sounds: {
-		place: "game:block/snow",
-		break: "game:block/snow",
-		hit: "game:block/snow",
-	},
-	guiTransform: {
-		origin: { x: 0.5, y: 0.125, z: 0.5 },
-		scale: 2.65
-	},
-	groundTransform: {
-		scale: 3.25,
-	},
-	tpHandTransform: {
-		translation: { x: -0.66, y: 0, z: -0.51 },
-		rotation: { x: -77, y: 59, z: -1 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 0.73
-	}
+  "sounds": {
+    "place": "game:block/snow",
+    "break": "game:block/snow",
+    "hit": "game:block/snow"
+  },
+  "guiTransform": {
+    "origin": { "x": 0.5, "y": 0.125, "z": 0.5 },
+    "scale": 2.65
+  },
+  "groundTransform": {
+    "scale": 3.25
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.66, "y": 0, "z": -0.51 },
+    "rotation": { "x": -77, "y": 59, "z": -1 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 0.73
+  }
 }

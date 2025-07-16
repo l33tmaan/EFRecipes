@@ -25,10 +25,10 @@
     "op": "addmerge",
     "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
-		"*-wolfberry": { satiety: 15, health: -10, foodcategory: "Fruit" },
-		"*-crowseye": { satiety: 15, health: -20, foodcategory: "Fruit" },
-		"*-seamango": { satiety: 15, health: -16, foodcategory: "Fruit" },
-		"*": { satiety: 15, health: 0, foodcategory: "Fruit" },
+    "*-wolfberry": { "satiety": 15, "health": -10, "foodCategory": "Fruit" },
+    "*-crowseye": { "satiety": 15, "health": -20, "foodCategory": "Fruit" },
+    "*-seamango": { "satiety": 15, "health": -16, "foodCategory": "Fruit" },
+    "*": { "satiety": 15, "health": 0, "foodCategory": "Fruit" },
     },
     "side": "server",
     "file": "wildcraftfruit:itemtypes/liquid/spirit.json"

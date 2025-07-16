@@ -1,68 +1,68 @@
 {
-	code: "breadcrumbs",
-  	class: "ExpandedFood",
-	maxstacksize: 128,
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		"onDisplayTransform": {
-			"translation": { "x": 0, "y": -0.25, "z": 0 },
-			"scale": 0.5
-		},
-		"handbook": { "groupBy": ["breadcrumbs-*"] },
-		nutritionPropsWhenInMeal: { 
-			satietyByType:  { 
-				"@*-(birch|pine|maple)": 50, 
-				"*-flax": 80, 
-				"*-rice": 160,
-				"*-acorn": 170,
-				"*":  150 
-			},
-			foodcategory: "Grain" 
-		},
-	},
-	variantgroups: [
-		{ code: "type", states: ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower", 
-			"birch", "pine", "maple", "acorn" ] },	  
-	],
-	"skipVariants": [ ],
-	shape: { base: "item/food/bread/breadcrumbs" },
-  	textures: {
-		"breadcrumbs": {base: "item/food/grain/herbal/crumbs/breadcrumbs-{type}" },
-  	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"@*-(birch|pine|maple)": { saturation: 25, foodcategory: "Grain" },
-		"*-flax": { saturation: 40, foodcategory: "Grain" },
-		"*-rice": { saturation: 80, foodcategory: "Grain" },
-		"*-acorn": { saturation: 85, foodcategory: "Grain" },
-		"*": { saturation: 75, foodcategory: "Grain" }
-	},
-	transitionableProps: [{
-		type: "Perish",
-		freshHours: { avg: 432 },
-		transitionHours: { avg: 36 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 1
-	}],
-	materialDensity: 200,
-	guiTransform: {
-		translation: { x: 2.5, y: -3, z: 0 },
-		rotation: { x: 137, y: 131, z: 0 },
-		origin: { x: 0.5, y: 0.2, z: 0.5 },
-		scale: 1.65,
-			"rotate":  true,
-	},
-	tpHandTransform: {
-		translation: { x: -0.7, y: -0.14, z: -0.6 },
-		rotation: { x: 1, y: -1, z: -31 },
-		origin: { x: 0.5, y: 0.1, z: 0.5 },
-		scale: 0.79
-	},
-	groundTransform: {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 1.25
-	},
+  "code": "breadcrumbs",
+    "class": "ExpandedFood",
+  "maxStackSize": 128,
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+    "onDisplayTransform": {
+      "translation": { "x": 0, "y": -0.25, "z": 0 },
+      "scale": 0.5
+    },
+    "handbook": { "groupBy": ["breadcrumbs-*"] },
+    "nutritionPropsWhenInMeal": {
+      "satietyByType":  {
+        "@*-(birch|pine|maple)": 50,
+        "*-flax": 80,
+        "*-rice": 160,
+        "*-acorn": 170,
+        "*":  150
+      },
+      "foodCategory": "Grain"
+    }
+  },
+  "variantGroups": [
+    { "code": "type", "states": ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower",
+      "birch", "pine", "maple", "acorn" ] }
+  ],
+  "skipVariants": [ ],
+  "shape": { "base": "item/food/bread/breadcrumbs" },
+    "textures": {
+    "breadcrumbs": { "base": "item/food/grain/herbal/crumbs/breadcrumbs-{type}" }
+    },
+  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "nutritionPropsByType": {
+    "@*-(birch|pine|maple)": { "saturation": 25, "foodCategory": "Grain" },
+    "*-flax": { "saturation": 40, "foodCategory": "Grain" },
+    "*-rice": { "saturation": 80, "foodCategory": "Grain" },
+    "*-acorn": { "saturation": 85, "foodCategory": "Grain" },
+    "*": { "saturation": 75, "foodCategory": "Grain" }
+  },
+  "transitionableProps": [{
+    "type": "Perish",
+    "freshHours": { "avg": 432 },
+    "transitionHours": { "avg": 36 },
+    "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 1
+  }],
+  "materialDensity": 200,
+  "guiTransform": {
+    "translation": { "x": 2.5, "y": -3, "z": 0 },
+    "rotation": { "x": 137, "y": 131, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+    "scale": 1.65,
+      "rotate": true
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+    "rotation": { "x": 1, "y": -1, "z": -31 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+    "scale": 0.79
+  },
+  "groundTransform": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 1.25
+  }
 }

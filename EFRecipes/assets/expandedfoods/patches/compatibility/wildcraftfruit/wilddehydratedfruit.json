@@ -1,18 +1,18 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/wildcraftfruit/wilddehydratedfruit.json",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
+   "op": "addmerge",
+   "path": "/enabled",
+   "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+   "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }]
  },
  {
-   file: "expandedfoods:recipes/grid/wildcraftfruit/wilddehydratedfruit.json",
-    op: "replace", 
-    path: "/0/enabled", 
-    value: "true",
+  "file": "expandedfoods:recipes/grid/wildcraftfruit/wilddehydratedfruit.json",
+   "op": "replace",
+   "path": "/0/enabled",
+   "value": "true",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+   "dependsOn": [{ "modid": "wildcraftfruit" }]
  },
 ]

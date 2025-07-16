@@ -1,239 +1,239 @@
 ﻿[
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "game:vegetable-*",
-				quantity: 1,
-				"name": "vegetable",
-				"allowedVariants": [ "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "cattailroot", "papyrusroot", "bellpepper" ],
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedveggie-{vegetable}-perfect",
-				"quantity": 1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:cookedveggie-*-partbaked",
-				quantity: 1,
-				"name": "vegetable",
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedveggie-{vegetable}-perfect",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "game:cattailroot",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedveggie-cattailroot-perfect",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "game:papyrusroot",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedveggie-papyrusroot-perfect",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "game:pickledvegetable-carrot",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedveggie-pickledcarrot-perfect",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "game:pickledvegetable-onion",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedveggie-pickledonion-perfect",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "game:pickledvegetable-turnip",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedveggie-pickledturnip-perfect",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "game:pickledvegetable-parsnip",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedveggie-pickledparsnip-perfect",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "game:pickledvegetable-pumpkin",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedveggie-pickledpumpkin-perfect",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "game:vegetable-*",
+        "quantity": 1,
+        "name": "vegetable",
+        "allowedVariants": [ "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "cattailroot", "papyrusroot", "bellpepper" ],
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedveggie-{vegetable}-perfect",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:cookedveggie-*-partbaked",
+        "quantity": 1,
+        "name": "vegetable",
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedveggie-{vegetable}-perfect",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "game:cattailroot",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedveggie-cattailroot-perfect",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "game:papyrusroot",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedveggie-papyrusroot-perfect",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "game:pickledvegetable-carrot",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedveggie-pickledcarrot-perfect",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "game:pickledvegetable-onion",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedveggie-pickledonion-perfect",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "game:pickledvegetable-turnip",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedveggie-pickledturnip-perfect",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "game:pickledvegetable-parsnip",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedveggie-pickledparsnip-perfect",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "game:pickledvegetable-pumpkin",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedveggie-pickledpumpkin-perfect",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
 ]

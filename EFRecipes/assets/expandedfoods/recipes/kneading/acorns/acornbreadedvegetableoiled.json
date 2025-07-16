@@ -1,10 +1,10 @@
 [
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard", quantity: 10}]},
-		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedvegetable-*-raw", name: "vegetable" }]},
-	],
-	output: { type: "item", code: "expandedfoods:acornbreadedvegetable-{vegetable}-oiled", stackSize: 1}
+  "ingredients": [
+    { "inputs": [{ "type": "item", "code": "expandedfoods:foodoilportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard", "quantity": 10}]},
+    { "inputs": [{ "type": "item", "code": "expandedfoods:acornbreadedvegetable-*-raw", "name": "vegetable" }]},
+  ],
+  "output": { "type": "item", "code": "expandedfoods:acornbreadedvegetable-{vegetable}-oiled", "ingredients": 1}
  }
 ]
 

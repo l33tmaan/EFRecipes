@@ -1,115 +1,115 @@
 {
-	code: "potentwineportion",
-	class: "TransLiquid",
-	matterState: "liquid",
-	variantgroups: [
-		{
-			code: "fruit",
-			loadFromProperties: "block/fruit",
-			states: [ "apple", "mead", "spelt", "rice", "rye", "amaranth", "cassava" ]
-		},
-	],
-	skipVariants: ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"],
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
-		},
-		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMeal: { satiety: 25, health: 1, foodcategory: "Fruit" },
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-			texturebytype: {
-				"*-mead": { base: "game:block/liquid/honey", alpha: 140, overlays: ["game:item/liquid/potentmead"] },
-				"*-spelt": { base: "game:block/food/pie/fill-fish", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-				"*-rice": { base: "game:block/food/dairy/milk", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-				"*-rye": { base: "game:block/food/pie/fill-gooseberry", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-				"*-amaranth": { base: "game:block/food/pie/fill-poultry", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-				"*-cassava": { base: "game:block/food/pie/fill-cassava", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-				"*-breadfruit": { base: "game:block/food/pie/fill-breadfruit", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-				"*": { base: "game:block/food/pie/fill-{fruit}", alpha: 140, overlays: ["game:item/liquid/potentwine"] }
-			},
-			allowSpill: true,
-			whenSpilled: {
-				action: "DropContents",
-				stack: {
-					type: "item",
-					code: "expandedfoods:potentwineportion-{fruit}"
-				}
-			},
-			nutritionPropsPerLitre: {
-				saturation: 100,
-				"intoxication":  0.45,
-				"health": 1,
-				foodcategory: "Fruit"
-			},
-		},
-		distillationPropsbytype: {
-			"potentwineportion-mead": {
-			distilledStack: { type: "item", code: "game:spiritportion-mead" }, 
-			ratio: 0.1 
-			},
-			"potentwineportion-spelt": {
-			distilledStack: { type: "item", code: "game:spiritportion-spelt" }, 
-			ratio: 0.2 
-			},
-			"potentwineportion-rice": {
-			distilledStack: { type: "item", code: "game:spiritportion-rice" },
-			ratio: 0.2 
-			},
-			"potentwineportion-rye": {
-			distilledStack: { type: "item", code: "game:spiritportion-rye" }, 
-			ratio: 0.2 
-			},
-			"potentwineportion-amaranth": {
-			distilledStack: { type: "item", code: "game:spiritportion-amaranth" }, 
-			ratio: 0.2 
-			},
-			"potentwineportion-cassava": {
-			distilledStack: { type: "item", code: "game:spiritportion-cassava" }, 
-			ratio: 0.2 
-			},			
-			"*": {
-			distilledStack: { type: "item", code: "game:spiritportion-{fruit}" },
-			ratio: 0.4
-			}
-		}		
-	},
-	transitionableProps: [{
-    		type: "Perish",
-    		freshHours: { avg: 6720 },
-    		transitionHours: { avg: 288 },
-    		transitionedStack: { type: "item", code: "game:vinegarportion" },
-			transitionRatio: 0.005
-  	},
-	{
-    		type: "Cure",
-    		freshHours: { avg: 6720 },
-    		transitionHours: { avg: 2016 },
-    		transitionedStack: { type: "item", code: "expandedfoods:potentwineportion-{fruit}" },
-    		transitionRatio: 1
-  	}],
-	shape: { base: "game:item/liquid" },
-	texturebytype: {
-		"*-mead": { base: "game:block/liquid/honey", alpha: 140, overlays: ["game:item/liquid/potentmead"] },
-		"*-spelt": { base: "game:block/food/pie/fill-fish", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-		"*-rice": { base: "game:block/food/dairy/milk", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-		"*-rye": { base: "game:block/food/pie/fill-gooseberry", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-		"*-amaranth": { base: "game:block/food/pie/fill-poultry", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-		"*-cassava": { base: "game:block/food/pie/fill-cassava", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-		"*-breadfruit": { base: "game:block/food/pie/fill-breadfruit", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
-		"*": { base: "game:block/food/pie/fill-{fruit}", alpha: 140, overlays: ["game:item/liquid/potentwine"] }
-	},
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:potentwineportion-{fruit}", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	nutritionProps: { saturation: 1, health: 0.01, foodcategory: "Fruit" },
-	guiTransform: {
-		rotation: { x: 128, y: 40, z: 7 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
-	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 },
-	},
+  "code": "potentwineportion",
+  "class": "TransLiquid",
+ "matterState": "liquid",
+  "variantGroups": [
+    {
+      "code": "fruit",
+      "loadFromProperties": "block/fruit",
+      "states": [ "apple", "mead", "spelt", "rice", "rye", "amaranth", "cassava" ]
+    },
+  ],
+ "skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"],
+  "attributes": {
+   "handbook": {
+     "ignoreCreativeInvStacks": true
+    },
+    "inBowlShape": { "base": "game:block/food/meal/liquid" },
+    "nutritionPropsWhenInMeal": { "satiety": 25, "health": 1, "foodCategory": "Fruit" },
+   "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "textureByType": {
+        "*-mead": { "base": "game:block/liquid/honey", "alpha": 140, "overlays": ["game:item/liquid/potentmead"] },
+        "*-spelt": { "base": "game:block/food/pie/fill-fish", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+        "*-rice": { "base": "game:block/food/dairy/milk", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+        "*-rye": { "base": "game:block/food/pie/fill-gooseberry", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+        "*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+        "*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+        "*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+        "*": { "base": "game:block/food/pie/fill-{fruit}", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] }
+      },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-{fruit}"
+        }
+      },
+     "nutritionPropsPerLitre": {
+        "saturation": 100,
+        "intoxication":  0.45,
+        "health": 1,
+        "foodCategory": "Fruit"
+      },
+    },
+   "distillationPropsByType": {
+      "potentwineportion-mead": {
+     "distilledStack": { "type": "item", "code": "game:spiritportion-mead" },
+     "ratio": 0.1
+      },
+      "potentwineportion-spelt": {
+     "distilledStack": { "type": "item", "code": "game:spiritportion-spelt" },
+     "ratio": 0.2
+      },
+      "potentwineportion-rice": {
+     "distilledStack": { "type": "item", "code": "game:spiritportion-rice" },
+     "ratio": 0.2
+      },
+      "potentwineportion-rye": {
+     "distilledStack": { "type": "item", "code": "game:spiritportion-rye" },
+     "ratio": 0.2
+      },
+      "potentwineportion-amaranth": {
+     "distilledStack": { "type": "item", "code": "game:spiritportion-amaranth" },
+     "ratio": 0.2
+      },
+      "potentwineportion-cassava": {
+     "distilledStack": { "type": "item", "code": "game:spiritportion-cassava" },
+     "ratio": 0.2
+      },
+      "*": {
+     "distilledStack": { "type": "item", "code": "game:spiritportion-{fruit}" },
+     "ratio": 0.4
+      }
+    }
+  },
+  "transitionableProps": [{
+        "type": "Perish",
+        "freshHours": { "avg": 6720 },
+        "transitionHours": { "avg": 288 },
+        "transitionedStack": { "type": "item", "code": "game:vinegarportion" },
+      "transitionRatio": 0.005
+    },
+  {
+        "type": "Cure",
+        "freshHours": { "avg": 6720 },
+        "transitionHours": { "avg": 2016 },
+        "transitionedStack": { "type": "item", "code": "expandedfoods:potentwineportion-{fruit}" },
+        "transitionRatio": 1
+    }],
+  "shape": { "base": "game:item/liquid" },
+  "textureByType": {
+    "*-mead": { "base": "game:block/liquid/honey", "alpha": 140, "overlays": ["game:item/liquid/potentmead"] },
+    "*-spelt": { "base": "game:block/food/pie/fill-fish", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+    "*-rice": { "base": "game:block/food/dairy/milk", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+    "*-rye": { "base": "game:block/food/pie/fill-gooseberry", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+    "*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+    "*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+    "*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
+    "*": { "base": "game:block/food/pie/fill-{fruit}", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] }
+  },
+ "creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:potentwineportion-{fruit}", "makefull": true } ] } } ] } ],
+  "maxStackSize": 5000,
+  "materialDensity": 200,
+  "nutritionProps": { "saturation": 1, "health": 0.01, "foodCategory": "Fruit" },
+  "guiTransform": {
+    "rotation": { "x": 128, "y": 40, "z": 7 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.5, "y": -1, "z": -1.4 },
+  },
 }

@@ -1,84 +1,84 @@
 {
-	code: "wildfruitsyrupportion",
-	class: "ItemLiquidPortion",
-	matterState: "liquid",
-	variantgroups: [
-		{ code: "fruit", "loadFromProperties": "wildcraftfruit:block/fruit", "states": ["sumac", "juniper"] },
-	],
-	skipVariants: ["*-almond","*-commonhackberry","*-sugarhackberry", "*-hazelnut", "*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-lillypillyblue", "*-lillypillywhite", "*-beachalmondwhole", "*-chinaberry", "*-lemon"],
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
-		},
-		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		"nutritionPropsWhenInMealByType": {
-			"*-cloudberry": { satiety: 120, health: 5, foodcategory: "Fruit" },
-			"@*-(husktomato|juniper)": { satiety: 120, health: 3, foodcategory: "Fruit" },
-			"*-coralbead": { satiety: 120, health: -1, foodcategory: "Fruit" },
-			"@*-(pokeberry|snowberry|falseorange)": { satiety: 120, health: -2.5, foodcategory: "Fruit" },
-			"*-blacknightshadeunripe": { satiety: 120, health: -10, foodcategory: "Fruit" },
-			"*-spindle": { satiety: 120, health: -12.5, foodcategory: "Fruit" },
-			"*-bitternightshade": { satiety: 120, health: -20, foodcategory: "Fruit" },
-			"*-wolfberry": { satiety: 120, health: -30, foodcategory: "Fruit" },
-			"*-seamango": { satiety: 120, health: -40, foodcategory: "Fruit" },
-			"*-crowseye": { satiety: 120, health: -50, foodcategory: "Fruit" },
-			"*": { satiety: 120, health: 1, foodcategory: "Fruit" },
-		},
-		"inPiePropertiesByType": { 
-			"*": {
-				"texture": "wildcraftfruit:block/food/pie/fill-{fruit}",
-				"partType": "Filling"
-			}
-		},
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-			texturebytype: {
-				"*": { base: "wildcraftfruit:block/food/pie/fill-{fruit}", overlays: ["expandedfoods:item/liquid/syrup"] }
-			},
-			allowSpill: true,
-			whenSpilled: {
-				action: "DropContents",
-				stack: { type: "item", code: "expandedfoods:wildfruitsyrupportion-{fruit}" }
-			},
-			"nutritionPropsPerLitreByType": {
-				"*-cloudberry": { satiety: 800, health: 5, foodcategory: "Fruit" },
-				"@*-(husktomato|juniper)": { satiety: 800, health: 3, foodcategory: "Fruit" },
-				"*-coralbead": { satiety: 800, health: -1, foodcategory: "Fruit" },
-				"@*-(pokeberry|snowberry|falseorange)": { satiety: 800, health: -2.5, foodcategory: "Fruit" },
-				"*-blacknightshadeunripe": { satiety: 800, health: -10, foodcategory: "Fruit" },
-				"*-spindle": { satiety: 800, health: -12.5, foodcategory: "Fruit" },
-				"*-bitternightshade": { satiety: 800, health: -20, foodcategory: "Fruit" },
-				"*-wolfberry": { satiety: 800, health: -30, foodcategory: "Fruit" },
-				"*-seamango": { satiety: 800, health: -40, foodcategory: "Fruit" },
-				"*-crowseye": { satiety: 800, health: -50, foodcategory: "Fruit" },
-				"*": { satiety: 800, health: 1, foodcategory: "Fruit" },
-			},
-		}
-	},
-	"shape": { "base": "game:item/liquid" },
-	"texture": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", overlays: ["expandedfoods:item/liquid/syrup"] },
-    transitionableProps: [
+  "code": "wildfruitsyrupportion",
+  "class": "ItemLiquidPortion",
+ "matterState": "liquid",
+  "variantGroups": [
+    { "code": "fruit", "loadFromProperties": "wildcraftfruit:block/fruit", "states": ["sumac", "juniper"] },
+  ],
+ "skipVariants": ["*-almond","*-commonhackberry","*-sugarhackberry", "*-hazelnut", "*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-lillypillyblue", "*-lillypillywhite", "*-beachalmondwhole", "*-chinaberry", "*-lemon"],
+  "attributes": {
+   "handbook": {
+     "ignoreCreativeInvStacks": true
+    },
+    "inBowlShape": { "base": "game:block/food/meal/liquid" },
+    "nutritionPropsWhenInMealByType": {
+      "*-cloudberry": { "satiety": 120, "health": 5, "foodCategory": "Fruit" },
+      "@*-(husktomato|juniper)": { "satiety": 120, "health": 3, "foodCategory": "Fruit" },
+      "*-coralbead": { "satiety": 120, "health": -1, "foodCategory": "Fruit" },
+      "@*-(pokeberry|snowberry|falseorange)": { "satiety": 120, "health": -2.5, "foodCategory": "Fruit" },
+      "*-blacknightshadeunripe": { "satiety": 120, "health": -10, "foodCategory": "Fruit" },
+      "*-spindle": { "satiety": 120, "health": -12.5, "foodCategory": "Fruit" },
+      "*-bitternightshade": { "satiety": 120, "health": -20, "foodCategory": "Fruit" },
+      "*-wolfberry": { "satiety": 120, "health": -30, "foodCategory": "Fruit" },
+      "*-seamango": { "satiety": 120, "health": -40, "foodCategory": "Fruit" },
+      "*-crowseye": { "satiety": 120, "health": -50, "foodCategory": "Fruit" },
+      "*": { "satiety": 120, "health": 1, "foodCategory": "Fruit" },
+    },
+    "inPiePropertiesByType": {
+      "*": {
+        "texture": "wildcraftfruit:block/food/pie/fill-{fruit}",
+        "partType": "Filling"
+      }
+    },
+   "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "textureByType": {
+        "*": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "overlays": ["expandedfoods:item/liquid/syrup"] }
+      },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": { "type": "item", "code": "expandedfoods:wildfruitsyrupportion-{fruit}" }
+      },
+      "nutritionPropsPerLitreByType": {
+        "*-cloudberry": { "satiety": 800, "health": 5, "foodCategory": "Fruit" },
+        "@*-(husktomato|juniper)": { "satiety": 800, "health": 3, "foodCategory": "Fruit" },
+        "*-coralbead": { "satiety": 800, "health": -1, "foodCategory": "Fruit" },
+        "@*-(pokeberry|snowberry|falseorange)": { "satiety": 800, "health": -2.5, "foodCategory": "Fruit" },
+        "*-blacknightshadeunripe": { "satiety": 800, "health": -10, "foodCategory": "Fruit" },
+        "*-spindle": { "satiety": 800, "health": -12.5, "foodCategory": "Fruit" },
+        "*-bitternightshade": { "satiety": 800, "health": -20, "foodCategory": "Fruit" },
+        "*-wolfberry": { "satiety": 800, "health": -30, "foodCategory": "Fruit" },
+        "*-seamango": { "satiety": 800, "health": -40, "foodCategory": "Fruit" },
+        "*-crowseye": { "satiety": 800, "health": -50, "foodCategory": "Fruit" },
+        "*": { "satiety": 800, "health": 1, "foodCategory": "Fruit" },
+      },
+    }
+  },
+  "shape": { "base": "game:item/liquid" },
+  "texture": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "overlays": ["expandedfoods:item/liquid/syrup"] },
+    "transitionableProps": [
         {
-            type: "Perish",
-            freshHours: { avg: 17520 },
-            transitionHours: { avg: 17520 },
-            transitionedStack: {
-                type: "item",
-                code: "game:rot"
+            "type": "Perish",
+            "freshHours": { "avg": 17520 },
+            "transitionHours": { "avg": 17520 },
+            "transitionedStack": {
+                "type": "item",
+                "code": "game:rot"
             },
-			transitionRatio: 0.005
+      "transitionRatio": 0.005
         }
-    ],	
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:wildfruitsyrupportion-{fruit}", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	guiTransform: {
-		rotation: { x: 128, y: 40, z: 7 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
-	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 },
-	},
+    ],
+ "creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:wildfruitsyrupportion-{fruit}", "makefull": true } ] } } ] } ],
+  "maxStackSize": 5000,
+  "materialDensity": 200,
+  "guiTransform": {
+    "rotation": { "x": 128, "y": 40, "z": 7 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.5, "y": -1, "z": -1.4 },
+  },
 }

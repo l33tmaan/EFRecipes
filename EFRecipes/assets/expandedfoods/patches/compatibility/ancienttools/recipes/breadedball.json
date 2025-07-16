@@ -1,18 +1,18 @@
 ﻿[
  {
-   file: "expandedfoods:recipes/kneading/breadedball.json",
-    op: "addeach", 
-    path: "/0/ingredients/3/inputs/-", 
-    value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}, { type: "item", code: "ancienttools:brain", quantity: 1}],
+  "file": "expandedfoods:recipes/kneading/breadedball.json",
+   "op": "addeach",
+   "path": "/0/ingredients/3/inputs/-",
+   "value": [{ "type": "item", "code": "expandedfoods:saltedmeatnugget-*-raw", "quantity": 1}, { "type": "item", "code": "ancienttools:brain", "quantity": 1}],
     "side": "server",
-    dependsOn: [{ "modid": "ancienttools" }]
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/breadedball.json",
-    op: "addeach", 
-    path: "/1/ingredients/3/inputs/-", 
-    value: [{ type: "item", code: "expandedfoods:saltedmeatnugget-*-raw", quantity: 1}, { type: "item", code: "ancienttools:brain", quantity: 1}],
+  "file": "expandedfoods:recipes/kneading/breadedball.json",
+   "op": "addeach",
+   "path": "/1/ingredients/3/inputs/-",
+   "value": [{ "type": "item", "code": "expandedfoods:saltedmeatnugget-*-raw", "quantity": 1}, { "type": "item", "code": "ancienttools:brain", "quantity": 1}],
     "side": "server",
-    dependsOn: [{ "modid": "ancienttools" }]
+   "dependsOn": [{ "modid": "ancienttools" }]
  },
 ]

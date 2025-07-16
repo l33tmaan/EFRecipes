@@ -1,94 +1,94 @@
 {
-	code: "soymilk",
-	class: "ItemLiquidPortion",
-	matterState: "liquid",
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
-		},
-		inBowlShape: { base: "game:block/meal/liquid" },
-		nutritionPropsWhenInMealByType: {
-			"*-edible": { satiety: 12, health: 0.1, foodcategory: "Dairy" },
-		},
-		waterTightContainerPropsByType: {
-			"*-edible": {
-				containable: true,
-				itemsPerLitre: 100,
-				isopaque: true,
-				texture: { base: "game:block/liquid/slakedlime" },
-				allowSpill: true,
-				whenSpilled: { 
-					action: "DropContents",
-					stack: { type: "item", code: "expandedfoods:soymilk-edible" } 
-				},
-				nutritionPropsPerLitre: {
-					saturation: 75,
-					health: 1,
-					foodcategory: "Dairy"
-				}
-			},			
-			"*-raw": {
-				containable: true,
-				itemsPerLitre: 100,
-				isopaque: true,
-				texture: { base: "game:block/liquid/milkportion" },
-				allowSpill: true,
-				whenSpilled: { 
-					action: "DropContents",
-					stack: { type: "item", code: "expandedfoods:soymilk-raw" } 
-				}
-			},
-		}
-	},
-	variantgroups: [
-		{ code: "state", states: [ "raw", "edible"] }
-	],
-	shape: { base: "game:item/liquid" },
-	texturesByType: {
-		"*-edible": { all: { base: "game:block/liquid/slakedlime" } },
-		"*-raw": { all: { base: "game:block/liquid/milkportion" } },
-	},
-  	combustiblePropsByType: {
-		"*-raw": {
-      			"meltingPoint": 100,
-      			"meltingDuration": 30,
-      			"smeltedRatio": 1,
-      			"smeltingType": "cook",
-      			"smeltedStack": {
-        			"type": "item",
-        			"code": "expandedfoods:soymilk-edible"
-      				},
-      			"requiresContainer": true
-    			},
-  	},
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:soymilk-{state}", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	transitionablePropsByType: {
-		"*-edible": [{
-    			type: "Perish",
-    			freshHours: { avg: 768 },
-    			transitionHours: { avg: 192 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-				transitionRatio: 0.002
-  		}],
-		"*-raw": [{
-    			type: "Perish",
-    			freshHours: { avg: 120 },
-    			transitionHours: { avg: 120 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-				transitionRatio: 0.002
-  		}],
-	},
-	nutritionPropsByType: {
-		"*-edible": { saturation: 0.75, health: 0.01, foodcategory: "Dairy" },
-	},
-	guiTransform: {
-		rotation: { x: 128, y: 40, z: 7 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
-	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 },
-	},
+  "code": "soymilk",
+  "class": "ItemLiquidPortion",
+ "matterState": "liquid",
+  "attributes": {
+   "handbook": {
+     "ignoreCreativeInvStacks": true
+    },
+   "inBowlShape": { "base": "game:block/meal/liquid" },
+    "nutritionPropsWhenInMealByType": {
+      "*-edible": { "satiety": 12, "health": 0.1, "foodCategory": "Dairy" },
+    },
+    "waterTightContainerPropsByType": {
+      "*-edible": {
+        "containable": true,
+        "itemsPerLitre": 100,
+       "isopaque": true,
+        "texture": { "base": "game:block/liquid/slakedlime" },
+        "allowSpill": true,
+        "whenSpilled": {
+          "action": "DropContents",
+          "stack": { "type": "item", "code": "expandedfoods:soymilk-edible" }
+        },
+       "nutritionPropsPerLitre": {
+          "saturation": 75,
+          "health": 1,
+          "foodCategory": "Dairy"
+        }
+      },
+      "*-raw": {
+        "containable": true,
+        "itemsPerLitre": 100,
+       "isopaque": true,
+        "texture": { "base": "game:block/liquid/milkportion" },
+        "allowSpill": true,
+        "whenSpilled": {
+          "action": "DropContents",
+          "stack": { "type": "item", "code": "expandedfoods:soymilk-raw" }
+        }
+      },
+    }
+  },
+  "variantGroups": [
+    { "code": "state", "states": [ "raw", "edible"] }
+  ],
+  "shape": { "base": "game:item/liquid" },
+  "texturesByType": {
+    "*-edible": { "all": { "base": "game:block/liquid/slakedlime" } },
+    "*-raw": { "all": { "base": "game:block/liquid/milkportion" } },
+  },
+    "combustiblePropsByType": {
+    "*-raw": {
+            "meltingPoint": 100,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltingType": "cook",
+            "smeltedStack": {
+              "type": "item",
+              "code": "expandedfoods:soymilk-edible"
+              },
+            "requiresContainer": true
+          },
+    },
+ "creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:soymilk-{state}", "makefull": true } ] } } ] } ],
+  "maxStackSize": 5000,
+  "materialDensity": 200,
+  "transitionablePropsByType": {
+    "*-edible": [{
+          "type": "Perish",
+          "freshHours": { "avg": 768 },
+          "transitionHours": { "avg": 192 },
+          "transitionedStack": { "type": "item", "code": "game:rot" },
+        "transitionRatio": 0.002
+      }],
+    "*-raw": [{
+          "type": "Perish",
+          "freshHours": { "avg": 120 },
+          "transitionHours": { "avg": 120 },
+          "transitionedStack": { "type": "item", "code": "game:rot" },
+        "transitionRatio": 0.002
+      }],
+  },
+  "nutritionPropsByType": {
+    "*-edible": { "saturation": 0.75, "health": 0.01, "foodCategory": "Dairy" },
+  },
+  "guiTransform": {
+    "rotation": { "x": 128, "y": 40, "z": 7 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.5, "y": -1, "z": -1.4 },
+  },
 }

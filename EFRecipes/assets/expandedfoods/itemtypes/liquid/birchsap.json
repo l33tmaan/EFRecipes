@@ -1,50 +1,50 @@
 {
-	code: "birchsapportion",
-	class: "ItemLiquidPortion",
-	matterState: "liquid",
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
-		},
-		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-			texture: { base: "game:block/liquid/water2" },
-			allowSpill: true,
-			whenSpilled: {
-				action: "DropContents",
-				stack: {
-					type: "item",
-					code: "expandedfoods:birchsapportion"
-				}
-			},
-			nutritionPropsPerLitre: {
-				saturation: 160,
-				foodcategory: "Fruit"
-			}
-		}
-	},
-	shape: { base: "game:item/liquid" },
-	texture: { base: "game:block/liquid/water2" },
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:birchsapportion", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	nutritionProps: { saturation: 1.6, foodcategory: "Fruit" },
-	combustibleProps: {
-		meltingPoint: 150,
-		meltingDuration: 5,
-		smeltedRatio: 4,
-		smeltingType: "cook",
-		smeltedStack: { type: "item", code: "expandedfoods:treesyrupportion-birch" },
-		requiresContainer: true
-	},
-	guiTransform: {
-		rotation: { x: 128, y: 40, z: 7 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
-	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 },
-	},
+  "code": "birchsapportion",
+  "class": "ItemLiquidPortion",
+ "matterState": "liquid",
+  "attributes": {
+   "handbook": {
+     "ignoreCreativeInvStacks": true
+    },
+    "inBowlShape": { "base": "game:block/food/meal/liquid" },
+   "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "texture": { "base": "game:block/liquid/water2" },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": {
+          "type": "item",
+          "code": "expandedfoods:birchsapportion"
+        }
+      },
+     "nutritionPropsPerLitre": {
+        "saturation": 160,
+        "foodCategory": "Fruit"
+      }
+    }
+  },
+  "shape": { "base": "game:item/liquid" },
+  "texture": { "base": "game:block/liquid/water2" },
+ "creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:birchsapportion", "makefull": true } ] } } ] } ],
+  "maxStackSize": 5000,
+  "materialDensity": 200,
+  "nutritionProps": { "saturation": 1.6, "foodCategory": "Fruit" },
+  "combustibleProps": {
+    "meltingPoint": 150,
+    "meltingDuration": 5,
+    "smeltedRatio": 4,
+    "smeltingType": "cook",
+    "smeltedStack": { "type": "item", "code": "expandedfoods:treesyrupportion-birch" },
+    "requiresContainer": true
+  },
+  "guiTransform": {
+    "rotation": { "x": 128, "y": 40, "z": 7 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.5, "y": -1, "z": -1.4 },
+  },
 }

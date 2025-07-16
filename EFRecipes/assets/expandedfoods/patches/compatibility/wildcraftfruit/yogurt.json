@@ -2,17 +2,17 @@
  {
     "file": "expandedfoods:itemtypes/liquid/yogurt.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/skipVariants",
-    value: [ "yogurt-achacha", "yogurt-apricot", "yogurt-beautyberry", "yogurt-beachalmond", "yogurt-bitternightshade", "yogurt-blacknightshade", "yogurt-blacknightshadeunripe", "yogurt-blueraspberry", "yogurt-bluetongue", "yogurt-brambleberry", "yogurt-bunchberry", "yogurt-bushlawyer", "yogurt-cashewapple", "yogurt-cheeseberry", "yogurt-cherryplum", "yogurt-citron", "yogurt-cloudberry", "yogurt-cocoa", "yogurt-coralbead", "yogurt-creepingpine", "yogurt-crowberry", "yogurt-crowseye", "yogurt-dogrose", "yogurt-elderberry", "yogurt-engkala", "yogurt-falseorange", "yogurt-falsestrawberry", "yogurt-feijoa", "yogurt-fig", "yogurt-fingerlime", "yogurt-flaxlily", "yogurt-foxgrape", "yogurt-fractureberry", "yogurt-gardenstrawberry", "yogurt-gooseberry", "yogurt-guajava", "yogurt-hawthorn", "yogurt-honeypots", "yogurt-honeysuckle", "yogurt-huckleberry", "yogurt-husktomato", "yogurt-illawarra", "yogurt-jujube", "yogurt-juniper", "yogurt-kakaha", "yogurt-kawakawa", "yogurt-knyazberry", "yogurt-kumquat", "yogurt-lemonaspen", "yogurt-lillypillypink", "yogurt-lingonberry", "yogurt-loquat", "yogurt-midyimberry", "yogurt-mingimingi", "yogurt-munthari", "yogurt-naranjilla", "yogurt-numnum", "yogurt-pandanbits", "yogurt-pilo", "yogurt-pineheath", "yogurt-pittedbeachalmond","pittedchinaberry", "yogurt-pokeberry", "yogurt-pomelo", "yogurt-pricklyheath", "yogurt-purpleplum", "yogurt-quince", "yogurt-raspberry", "yogurt-redgrape", "yogurt-redquandong", "yogurt-roseapple", "yogurt-rowanberry", "yogurt-rubysaltbush", "yogurt-sallowthorn", "yogurt-seamango", "yogurt-silvernettle", "yogurt-snowberry", "yogurt-spindle", "yogurt-strawberry", "yogurt-sumac", "yogurt-turkscap", "yogurt-ugni", "yogurt-virgingrape", "yogurt-whitegrape", "yogurt-wolfberry" ],
-    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+   "op": "addmerge",
+   "path": "/skipVariants",
+   "value": [ "yogurt-achacha", "yogurt-apricot", "yogurt-beautyberry", "yogurt-beachalmond", "yogurt-bitternightshade", "yogurt-blacknightshade", "yogurt-blacknightshadeunripe", "yogurt-blueraspberry", "yogurt-bluetongue", "yogurt-brambleberry", "yogurt-bunchberry", "yogurt-bushlawyer", "yogurt-cashewapple", "yogurt-cheeseberry", "yogurt-cherryplum", "yogurt-citron", "yogurt-cloudberry", "yogurt-cocoa", "yogurt-coralbead", "yogurt-creepingpine", "yogurt-crowberry", "yogurt-crowseye", "yogurt-dogrose", "yogurt-elderberry", "yogurt-engkala", "yogurt-falseorange", "yogurt-falsestrawberry", "yogurt-feijoa", "yogurt-fig", "yogurt-fingerlime", "yogurt-flaxlily", "yogurt-foxgrape", "yogurt-fractureberry", "yogurt-gardenstrawberry", "yogurt-gooseberry", "yogurt-guajava", "yogurt-hawthorn", "yogurt-honeypots", "yogurt-honeysuckle", "yogurt-huckleberry", "yogurt-husktomato", "yogurt-illawarra", "yogurt-jujube", "yogurt-juniper", "yogurt-kakaha", "yogurt-kawakawa", "yogurt-knyazberry", "yogurt-kumquat", "yogurt-lemonaspen", "yogurt-lillypillypink", "yogurt-lingonberry", "yogurt-loquat", "yogurt-midyimberry", "yogurt-mingimingi", "yogurt-munthari", "yogurt-naranjilla", "yogurt-numnum", "yogurt-pandanbits", "yogurt-pilo", "yogurt-pineheath", "yogurt-pittedbeachalmond","pittedchinaberry", "yogurt-pokeberry", "yogurt-pomelo", "yogurt-pricklyheath", "yogurt-purpleplum", "yogurt-quince", "yogurt-raspberry", "yogurt-redgrape", "yogurt-redquandong", "yogurt-roseapple", "yogurt-rowanberry", "yogurt-rubysaltbush", "yogurt-sallowthorn", "yogurt-seamango", "yogurt-silvernettle", "yogurt-snowberry", "yogurt-spindle", "yogurt-strawberry", "yogurt-sumac", "yogurt-turkscap", "yogurt-ugni", "yogurt-virgingrape", "yogurt-whitegrape", "yogurt-wolfberry" ],
+   "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/wildcraftfruit/wildyogurtfruit.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/0/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+   "op": "addmerge",
+   "path": "/0/enabled",
+   "value": "false",
+   "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }]
  },
 ]

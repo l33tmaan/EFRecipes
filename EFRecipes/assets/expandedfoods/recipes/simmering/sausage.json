@@ -1,110 +1,110 @@
 ﻿[
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausage-*-raw",
-				quantity: 1,
-				"name": "meat"
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausage-{meat}-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausage-*-partbaked",
-				quantity: 1,
-				"name": "meat"
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausage-{meat}-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausage-*-dried",
-				quantity: 1,
-				"name": "meat"
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausage-{meat}-driedcooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausage-*-driedpartbaked",
-				quantity: 1,
-				"name": "meat"
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausage-{meat}-driedcooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
+  {
+    "ingredients": [
+      {
+      "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-*-raw",
+        "quantity": 1,
+        "name": "meat"
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:sausage-{meat}-cooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+      "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-*-partbaked",
+        "quantity": 1,
+        "name": "meat"
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:sausage-{meat}-cooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+      "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-*-dried",
+        "quantity": 1,
+        "name": "meat"
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:sausage-{meat}-driedcooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+      "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-*-driedpartbaked",
+        "quantity": 1,
+        "name": "meat"
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:sausage-{meat}-driedcooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
 ]

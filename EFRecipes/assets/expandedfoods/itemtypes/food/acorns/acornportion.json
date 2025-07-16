@@ -1,26 +1,26 @@
 {
-	code: "acornportion",
-	maxstacksize: 32,
-	attributes: {
-		nutritionPropsWhenInMeal: { satiety: 105, foodcategory: "Protein"},
-		bakingproperties: {
-			temp: 110,
-			levelFrom: 0.0,
-			levelTo: 0.5,
-			startScaleY: 1.0,
-			endScaleY: 1.0,
-			resultCode: "expandedfoods:roastedacornportion",
-		},
-	},
-	texture: { base: "item/food/acornportion" },
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	materialDensity: 60,
-	nutritionProps: {satiety: 70, foodcategory: "Protein" },
-	transitionableProps: [{
-		type: "Perish",
-		freshHours: { avg: 2160 },
-		transitionHours: { avg: 168 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.5
-	}]
+  "code": "acornportion",
+  "maxStackSize": 32,
+  "attributes": {
+    "nutritionPropsWhenInMeal": { "satiety": 105, "foodCategory": "Protein" },
+    "bakingProperties": {
+      "temp": 110,
+      "levelFrom": 0.0,
+      "levelTo": 0.5,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:roastedacornportion"
+    }
+  },
+  "texture": { "base": "item/food/acornportion" },
+  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "materialDensity": 60,
+  "nutritionProps": { "satiety": 70, "foodCategory": "Protein" },
+  "transitionableProps": [{
+    "type": "Perish",
+    "freshHours": { "avg": 2160 },
+    "transitionHours": { "avg": 168 },
+    "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 0.5
+  }]
 }

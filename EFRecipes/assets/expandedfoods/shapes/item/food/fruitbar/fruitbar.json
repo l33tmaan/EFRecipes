@@ -1,118 +1,118 @@
 {
-	"editor": {
-		"allAngles": false,
-		"entityTextureMode": false
-	},
-	"textureWidth": 16,
-	"textureHeight": 16,
-	"textures": {
-		"sunflower": "item/food/candy/sunflower",
-		"blueberry": "item/food/grain/overlays/blueberry",
-		"cranberry": "game:item/gelatin/cranberry"
-	},
-	"elements": [
-		{
-			"name": "origin",
-			"from": [ 6.0, 0.0, 6.0 ],
-			"to": [ 6.0, 0.0, 6.0 ],
-			"rotationOrigin": [ 6.0, 0.0, 6.0 ],
-			"faces": {
-			},
-			"children": [
-				{
-					"name": "fruitbarbase",
-					"from": [ -1.0, 0.0, -3.0 ],
-					"to": [ 5.0, 1.0, 7.0 ],
-					"rotationOrigin": [ -1.0, 0.0, -3.0 ],
-					"faces": {
-						"north": { "texture": "#sunflower", "uv": [ 5.0, 7.0, 11.0, 8.0 ] },
-						"east": { "texture": "#sunflower", "uv": [ 5.0, 4.0, 15.0, 5.0 ] },
-						"south": { "texture": "#sunflower", "uv": [ 6.0, 13.0, 12.0, 14.0 ] },
-						"west": { "texture": "#sunflower", "uv": [ 2.0, 12.0, 12.0, 13.0 ] },
-						"up": { "texture": "#sunflower", "uv": [ 6.0, 4.0, 12.0, 14.0 ] },
-						"down": { "texture": "#sunflower", "uv": [ 5.0, 3.0, 11.0, 13.0 ] }
-					},
-					"children": [
-						{
-							"name": "fruitbaredgeW",
-							"from": [ 0.0, 1.0, 0.0 ],
-							"to": [ 1.0, 2.0, 10.0 ],
-							"rotationOrigin": [ 0.0, 1.0, 0.0 ],
-							"faces": {
-								"north": { "texture": "#sunflower", "uv": [ 12.0, 10.0, 13.0, 11.0 ] },
-								"east": { "texture": "#sunflower", "uv": [ 4.0, 10.0, 14.0, 11.0 ] },
-								"south": { "texture": "#sunflower", "uv": [ 3.0, 7.0, 4.0, 8.0 ] },
-								"west": { "texture": "#sunflower", "uv": [ 1.0, 11.0, 11.0, 12.0 ] },
-								"up": { "texture": "#sunflower", "uv": [ 13.0, 0.0, 14.0, 10.0 ] },
-								"down": { "texture": "#sunflower", "uv": [ 2.0, 1.0, 3.0, 11.0 ] }
-							}
-						},
-						{
-							"name": "fruitbaredgeE",
-							"from": [ 5.0, 1.0, 0.0 ],
-							"to": [ 6.0, 2.0, 10.0 ],
-							"rotationOrigin": [ 5.0, 1.0, 0.0 ],
-							"faces": {
-								"north": { "texture": "#sunflower", "uv": [ 11.0, 8.0, 12.0, 9.0 ] },
-								"east": { "texture": "#sunflower", "uv": [ 5.0, 7.0, 15.0, 8.0 ] },
-								"south": { "texture": "#sunflower", "uv": [ 10.0, 9.0, 11.0, 10.0 ] },
-								"west": { "texture": "#sunflower", "uv": [ 2.0, 13.0, 12.0, 14.0 ] },
-								"up": { "texture": "#sunflower", "uv": [ 8.0, 4.0, 9.0, 14.0 ] },
-								"down": { "texture": "#sunflower", "uv": [ 2.0, 0.0, 3.0, 10.0 ] }
-							}
-						}
-					]
-				},
-				{
-					"name": "overlaybase",
-					"from": [ -1.01, -0.01, -3.01 ],
-					"to": [ 5.01, 0.99, 7.01 ],
-					"rotationOrigin": [ -1.01, -0.01, -3.01 ],
-					"faces": {
-						"north": { "texture": "#blueberry", "uv": [ 4.5, 1.0, 10.5, 2.0 ] },
-						"east": { "texture": "#blueberry", "uv": [ 1.5, 13.5, 11.5, 14.5 ] },
-						"south": { "texture": "#blueberry", "uv": [ 9.0, 11.5, 15.0, 12.5 ] },
-						"west": { "texture": "#blueberry", "uv": [ 3.5, 9.0, 13.5, 10.0 ] },
-						"down": { "texture": "#blueberry", "uv": [ 8.5, 4.0, 14.5, 14.0 ] }
-					},
-					"children": [
-						{
-							"name": "overlayedgeW",
-							"from": [ -0.01, 1.0, 0.0 ],
-							"to": [ 1.0, 2.02, 10.02 ],
-							"rotationOrigin": [ -0.01, 1.0, 0.0 ],
-							"faces": {
-								"north": { "texture": "#blueberry", "uv": [ 10.0, 10.5, 11.0, 11.5 ] },
-								"south": { "texture": "#blueberry", "uv": [ 5.5, 12.0, 6.5, 13.0 ] },
-								"west": { "texture": "#blueberry", "uv": [ 2.5, 14.0, 12.5, 15.0 ] },
-								"up": { "texture": "#blueberry", "uv": [ 12.5, 4.0, 13.5, 14.0 ] }
-							}
-						},
-						{
-							"name": "overlayedgeE",
-							"from": [ 5.01, 1.0, 0.0 ],
-							"to": [ 6.02, 2.02, 10.02 ],
-							"rotationOrigin": [ 5.01, 1.0, 0.0 ],
-							"faces": {
-								"north": { "texture": "#blueberry", "uv": [ 3.5, 8.5, 4.5, 9.5 ] },
-								"east": { "texture": "#blueberry", "uv": [ 3.0, 1.0, 13.0, 2.0 ] },
-								"south": { "texture": "#blueberry", "uv": [ 6.5, 10.5, 7.5, 11.5 ] },
-								"up": { "texture": "#blueberry", "uv": [ 7.0, 4.0, 8.0, 14.0 ] }
-							}
-						}
-					]
-				},
-				{
-					"name": "filling",
-					"from": [ 0.0, 1.0, -3.0 ],
-					"to": [ 4.0, 2.0, 7.0 ],
-					"rotationOrigin": [ 0.0, 1.0, -3.0 ],
-					"faces": {
-						"north": { "texture": "#cranberry", "uv": [ 10.5, 5.5, 14.5, 6.5 ] },
-						"south": { "texture": "#cranberry", "uv": [ 7.0, 13.5, 11.0, 14.5 ] },
-						"up": { "texture": "#cranberry", "uv": [ 10.5, 3.0, 14.5, 13.0 ] }
-					}
-				}
-			]
-		}
-	]}
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "sunflower": "item/food/candy/sunflower",
+    "blueberry": "item/food/grain/overlays/blueberry",
+    "cranberry": "game:item/gelatin/cranberry"
+  },
+  "elements": [
+    {
+      "name": "origin",
+      "from": [ 6.0, 0.0, 6.0 ],
+      "to": [ 6.0, 0.0, 6.0 ],
+      "rotationOrigin": [ 6.0, 0.0, 6.0 ],
+      "faces": {
+      },
+      "children": [
+        {
+          "name": "fruitbarbase",
+          "from": [ -1.0, 0.0, -3.0 ],
+          "to": [ 5.0, 1.0, 7.0 ],
+          "rotationOrigin": [ -1.0, 0.0, -3.0 ],
+          "faces": {
+            "north": { "texture": "#sunflower", "uv": [ 5.0, 7.0, 11.0, 8.0 ] },
+            "east": { "texture": "#sunflower", "uv": [ 5.0, 4.0, 15.0, 5.0 ] },
+            "south": { "texture": "#sunflower", "uv": [ 6.0, 13.0, 12.0, 14.0 ] },
+            "west": { "texture": "#sunflower", "uv": [ 2.0, 12.0, 12.0, 13.0 ] },
+            "up": { "texture": "#sunflower", "uv": [ 6.0, 4.0, 12.0, 14.0 ] },
+            "down": { "texture": "#sunflower", "uv": [ 5.0, 3.0, 11.0, 13.0 ] }
+          },
+          "children": [
+            {
+              "name": "fruitbaredgeW",
+              "from": [ 0.0, 1.0, 0.0 ],
+              "to": [ 1.0, 2.0, 10.0 ],
+              "rotationOrigin": [ 0.0, 1.0, 0.0 ],
+              "faces": {
+                "north": { "texture": "#sunflower", "uv": [ 12.0, 10.0, 13.0, 11.0 ] },
+                "east": { "texture": "#sunflower", "uv": [ 4.0, 10.0, 14.0, 11.0 ] },
+                "south": { "texture": "#sunflower", "uv": [ 3.0, 7.0, 4.0, 8.0 ] },
+                "west": { "texture": "#sunflower", "uv": [ 1.0, 11.0, 11.0, 12.0 ] },
+                "up": { "texture": "#sunflower", "uv": [ 13.0, 0.0, 14.0, 10.0 ] },
+                "down": { "texture": "#sunflower", "uv": [ 2.0, 1.0, 3.0, 11.0 ] }
+              }
+            },
+            {
+              "name": "fruitbaredgeE",
+              "from": [ 5.0, 1.0, 0.0 ],
+              "to": [ 6.0, 2.0, 10.0 ],
+              "rotationOrigin": [ 5.0, 1.0, 0.0 ],
+              "faces": {
+                "north": { "texture": "#sunflower", "uv": [ 11.0, 8.0, 12.0, 9.0 ] },
+                "east": { "texture": "#sunflower", "uv": [ 5.0, 7.0, 15.0, 8.0 ] },
+                "south": { "texture": "#sunflower", "uv": [ 10.0, 9.0, 11.0, 10.0 ] },
+                "west": { "texture": "#sunflower", "uv": [ 2.0, 13.0, 12.0, 14.0 ] },
+                "up": { "texture": "#sunflower", "uv": [ 8.0, 4.0, 9.0, 14.0 ] },
+                "down": { "texture": "#sunflower", "uv": [ 2.0, 0.0, 3.0, 10.0 ] }
+              }
+            }
+          ]
+        },
+        {
+          "name": "overlaybase",
+          "from": [ -1.01, -0.01, -3.01 ],
+          "to": [ 5.01, 0.99, 7.01 ],
+          "rotationOrigin": [ -1.01, -0.01, -3.01 ],
+          "faces": {
+            "north": { "texture": "#blueberry", "uv": [ 4.5, 1.0, 10.5, 2.0 ] },
+            "east": { "texture": "#blueberry", "uv": [ 1.5, 13.5, 11.5, 14.5 ] },
+            "south": { "texture": "#blueberry", "uv": [ 9.0, 11.5, 15.0, 12.5 ] },
+            "west": { "texture": "#blueberry", "uv": [ 3.5, 9.0, 13.5, 10.0 ] },
+            "down": { "texture": "#blueberry", "uv": [ 8.5, 4.0, 14.5, 14.0 ] }
+          },
+          "children": [
+            {
+              "name": "overlayedgeW",
+              "from": [ -0.01, 1.0, 0.0 ],
+              "to": [ 1.0, 2.02, 10.02 ],
+              "rotationOrigin": [ -0.01, 1.0, 0.0 ],
+              "faces": {
+                "north": { "texture": "#blueberry", "uv": [ 10.0, 10.5, 11.0, 11.5 ] },
+                "south": { "texture": "#blueberry", "uv": [ 5.5, 12.0, 6.5, 13.0 ] },
+                "west": { "texture": "#blueberry", "uv": [ 2.5, 14.0, 12.5, 15.0 ] },
+                "up": { "texture": "#blueberry", "uv": [ 12.5, 4.0, 13.5, 14.0 ] }
+              }
+            },
+            {
+              "name": "overlayedgeE",
+              "from": [ 5.01, 1.0, 0.0 ],
+              "to": [ 6.02, 2.02, 10.02 ],
+              "rotationOrigin": [ 5.01, 1.0, 0.0 ],
+              "faces": {
+                "north": { "texture": "#blueberry", "uv": [ 3.5, 8.5, 4.5, 9.5 ] },
+                "east": { "texture": "#blueberry", "uv": [ 3.0, 1.0, 13.0, 2.0 ] },
+                "south": { "texture": "#blueberry", "uv": [ 6.5, 10.5, 7.5, 11.5 ] },
+                "up": { "texture": "#blueberry", "uv": [ 7.0, 4.0, 8.0, 14.0 ] }
+              }
+            }
+          ]
+        },
+        {
+          "name": "filling",
+          "from": [ 0.0, 1.0, -3.0 ],
+          "to": [ 4.0, 2.0, 7.0 ],
+          "rotationOrigin": [ 0.0, 1.0, -3.0 ],
+          "faces": {
+            "north": { "texture": "#cranberry", "uv": [ 10.5, 5.5, 14.5, 6.5 ] },
+            "south": { "texture": "#cranberry", "uv": [ 7.0, 13.5, 11.0, 14.5 ] },
+            "up": { "texture": "#cranberry", "uv": [ 10.5, 3.0, 14.5, 13.0 ] }
+          }
+        }
+      ]
+    }
+  ]}

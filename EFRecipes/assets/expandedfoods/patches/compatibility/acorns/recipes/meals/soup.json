@@ -6,14 +6,14 @@
       "type": "item",
       "code": "expandedfoods:acorndumpling-raw",
       "shapeElement": "bowl/dumplings1/*",
-     	    "textureMapping": [
-       		    "dumpling",
-        	    "dumpling"
-     	    ]
+           "textureMapping": [
+               "dumpling",
+              "dumpling"
+           ]
     },
     "file": "game:recipes/cooking/soup.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+   "dependsOn": [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
   },
   {
     "op": "addmerge",
@@ -24,12 +24,12 @@
       "shapeElement": "bowl/dumplings2/*",
       "textureMapping": [
             "dumpling",
-        	"dumpling"
+          "dumpling"
           ]
     },
     "file": "game:recipes/cooking/soup.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+   "dependsOn": [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
   },
   {
     "op": "addmerge",
@@ -45,7 +45,7 @@
     },
     "file": "game:recipes/cooking/soup.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+   "dependsOn": [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
   },
   {
     "op": "addmerge",
@@ -54,14 +54,14 @@
       "type": "item",
       "code": "expandedfoods:acorndumpling-raw",
       "shapeElement": "bowl/dumplings1/*",
-     	    "textureMapping": [
-       		    "dumpling",
-        	    "dumpling"
-     	    ]
+           "textureMapping": [
+               "dumpling",
+              "dumpling"
+           ]
     },
     "file": "game:recipes/cooking/soup.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+   "dependsOn": [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
   },
   {
     "op": "addmerge",
@@ -72,12 +72,12 @@
       "shapeElement": "bowl/dumplings2/*",
       "textureMapping": [
             "dumpling",
-        	"dumpling"
+          "dumpling"
           ]
     },
     "file": "game:recipes/cooking/soup.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+   "dependsOn": [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
   },
   {
     "op": "addmerge",
@@ -93,6 +93,6 @@
     },
     "file": "game:recipes/cooking/soup.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+   "dependsOn": [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
   },
 ]

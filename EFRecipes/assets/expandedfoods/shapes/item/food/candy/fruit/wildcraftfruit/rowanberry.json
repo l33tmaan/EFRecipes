@@ -1,224 +1,224 @@
 {
-	"editor": {
-		"allAngles": false,
-		"entityTextureMode": false
-	},
-	"textureWidth": 16,
-	"textureHeight": 16,
-	"textureSizes": {
-		"rowanberry": [16,16],
-		"rowanberrysyrup": [8,8]
-	},
-	"textures": {
-		"rowanberry": "wildcraftfruit:items/fruit/rowanberry",
-		"rowanberrysyrup": "game:item/gelatin/rowanberry"
-	},
-	"elements": [
-		{
-			"name": "origin",
-			"from": [ -0.1, 0.25, -0.3 ], 
-			"to": [ -0.1, 0.25, -0.3 ], 
-			"rotationOrigin": [ -0.1, 0.25, -0.3 ],
-			"faces": {
-				"north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"east": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"south": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"west": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"up": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"down": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
-			},
-			"children": [
-				{
-					"name": "HawthornBerry1",
-					"from": [ 9.63, -0.05, 8.65 ], 
-					"to": [ 10.83, 1.15, 9.85 ], 
-					"rotationOrigin": [ 9.6259, -0.05, 8.646 ],
-					"rotationY": -40.0,
-					"faces": {
-						"north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
-						"south": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
-						"down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "Cube1",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.45, 1.45, 1.45 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "HawthornBerry2",
-					"from": [ 7.9, 0.15, 7.9 ], 
-					"to": [ 8.8, 1.05, 8.8 ], 
-					"rotationOrigin": [ 7.9, 0.15, 7.9 ],
-					"faces": {
-						"north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "autoUv": false },
-						"east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 3.0, 7.0 ], "autoUv": false },
-						"south": { "texture": "#rowanberry", "uv": [ 1.0, 1.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#rowanberry", "uv": [ 1.0, 5.0, 4.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#rowanberry", "uv": [ 1.0, 0.0, 4.0, 3.0 ], "autoUv": false },
-						"down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 3.0, 4.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "Cube9",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.15, 1.15, 1.15 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "HawthornBerry3",
-					"from": [ 10.3, -0.05, 6.56 ], 
-					"to": [ 11.5, 1.15, 7.76 ], 
-					"rotationOrigin": [ 10.2969, -0.05, 6.5641 ],
-					"rotationX": -180.0,
-					"rotationY": -67.5,
-					"rotationZ": -180.0,
-					"faces": {
-						"north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
-						"south": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
-						"down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "Cube10",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.45, 1.45, 1.45 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "HawthornBerry22",
-					"from": [ 7.58, -0.05, 6.09 ], 
-					"to": [ 8.78, 1.15, 7.29 ], 
-					"rotationOrigin": [ 7.5803, -0.05, 6.0914 ],
-					"rotationY": -67.5,
-					"faces": {
-						"north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
-						"south": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
-						"down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "Cube11",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.45, 1.45, 1.45 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"rotationX": 0.0,
-							"rotationZ": 0.0,
-							"faces": {
-								"north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "HawthornBerry5",
-					"from": [ 5.68, -0.05, 8.88 ], 
-					"to": [ 6.88, 1.15, 10.08 ], 
-					"rotationOrigin": [ 5.6772, -0.05, 8.8757 ],
-					"rotationY": 45.0,
-					"faces": {
-						"north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
-						"south": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
-						"down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "Cube12",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.45, 1.45, 1.45 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "HawthornBerry28",
-					"from": [ 7.69, 0.15, 10.56 ], 
-					"to": [ 8.59, 1.05, 11.46 ], 
-					"rotationOrigin": [ 7.7099, 0.15, 10.6064 ],
-					"rotationX": -180.0,
-					"rotationY": 67.5,
-					"rotationZ": -180.0,
-					"faces": {
-						"north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "autoUv": false },
-						"east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 3.0, 7.0 ], "autoUv": false },
-						"south": { "texture": "#rowanberry", "uv": [ 1.0, 1.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#rowanberry", "uv": [ 1.0, 5.0, 4.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#rowanberry", "uv": [ 1.0, 0.0, 4.0, 3.0 ], "autoUv": false },
-						"down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 3.0, 4.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "Cube13",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.15, 1.15, 1.15 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				}
-			]
-		}
-	]}
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "rowanberry": [16,16],
+    "rowanberrysyrup": [8,8]
+  },
+  "textures": {
+    "rowanberry": "wildcraftfruit:items/fruit/rowanberry",
+    "rowanberrysyrup": "game:item/gelatin/rowanberry"
+  },
+  "elements": [
+    {
+      "name": "origin",
+      "from": [ -0.1, 0.25, -0.3 ],
+      "to": [ -0.1, 0.25, -0.3 ],
+      "rotationOrigin": [ -0.1, 0.25, -0.3 ],
+      "faces": {
+        "north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "east": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "south": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "west": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "up": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "down": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+      },
+      "children": [
+        {
+          "name": "HawthornBerry1",
+          "from": [ 9.63, -0.05, 8.65 ],
+          "to": [ 10.83, 1.15, 9.85 ],
+          "rotationOrigin": [ 9.6259, -0.05, 8.646 ],
+          "rotationY": -40.0,
+          "faces": {
+            "north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+            "south": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
+            "down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "Cube1",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.45, 1.45, 1.45 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "HawthornBerry2",
+          "from": [ 7.9, 0.15, 7.9 ],
+          "to": [ 8.8, 1.05, 8.8 ],
+          "rotationOrigin": [ 7.9, 0.15, 7.9 ],
+          "faces": {
+            "north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "autoUv": false },
+            "east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 3.0, 7.0 ], "autoUv": false },
+            "south": { "texture": "#rowanberry", "uv": [ 1.0, 1.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#rowanberry", "uv": [ 1.0, 5.0, 4.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#rowanberry", "uv": [ 1.0, 0.0, 4.0, 3.0 ], "autoUv": false },
+            "down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 3.0, 4.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "Cube9",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.15, 1.15, 1.15 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "HawthornBerry3",
+          "from": [ 10.3, -0.05, 6.56 ],
+          "to": [ 11.5, 1.15, 7.76 ],
+          "rotationOrigin": [ 10.2969, -0.05, 6.5641 ],
+          "rotationX": -180.0,
+          "rotationY": -67.5,
+          "rotationZ": -180.0,
+          "faces": {
+            "north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+            "south": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
+            "down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "Cube10",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.45, 1.45, 1.45 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "HawthornBerry22",
+          "from": [ 7.58, -0.05, 6.09 ],
+          "to": [ 8.78, 1.15, 7.29 ],
+          "rotationOrigin": [ 7.5803, -0.05, 6.0914 ],
+          "rotationY": -67.5,
+          "faces": {
+            "north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+            "south": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
+            "down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "Cube11",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.45, 1.45, 1.45 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "rotationX": 0.0,
+              "rotationZ": 0.0,
+              "faces": {
+                "north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "HawthornBerry5",
+          "from": [ 5.68, -0.05, 8.88 ],
+          "to": [ 6.88, 1.15, 10.08 ],
+          "rotationOrigin": [ 5.6772, -0.05, 8.8757 ],
+          "rotationY": 45.0,
+          "faces": {
+            "north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+            "south": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
+            "down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "Cube12",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.45, 1.45, 1.45 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "HawthornBerry28",
+          "from": [ 7.69, 0.15, 10.56 ],
+          "to": [ 8.59, 1.05, 11.46 ],
+          "rotationOrigin": [ 7.7099, 0.15, 10.6064 ],
+          "rotationX": -180.0,
+          "rotationY": 67.5,
+          "rotationZ": -180.0,
+          "faces": {
+            "north": { "texture": "#rowanberry", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "autoUv": false },
+            "east": { "texture": "#rowanberry", "uv": [ 0.0, 4.0, 3.0, 7.0 ], "autoUv": false },
+            "south": { "texture": "#rowanberry", "uv": [ 1.0, 1.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#rowanberry", "uv": [ 1.0, 5.0, 4.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#rowanberry", "uv": [ 1.0, 0.0, 4.0, 3.0 ], "autoUv": false },
+            "down": { "texture": "#rowanberry", "uv": [ 0.0, 1.0, 3.0, 4.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "Cube13",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.15, 1.15, 1.15 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#rowanberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]}

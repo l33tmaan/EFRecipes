@@ -1,57 +1,57 @@
 {
-	code: "trailmix",
-	maxstacksize: 16,
-  	class: "ExpandedFood",
-	variantgroups: [
-		{ code: "type", states: ["fruity", "nutty", "meaty", "cheesy"] },
-	],
-	materialDensity: 300,
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		handbook: { "groupBy": [ "trailmix-*" ] },
-		renderIngredients: {
-			"game:legume-peanut": "expandedfoods:shapes/item/food/trailmix.json",
-			"expandedfoods:acornportion": "expandedfoods:shapes/item/food/trailmix.json",
-      		"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/trailmix.json",
-      		"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/trailmix.json",
-		},
-		"onDisplayTransform": {
-			"translation": {"x": 0, "y": -0.25, "z": 0},
-			"scale":  0.5,
-		}
-	},
-	shape: { base: "expandedfoods:item/food/trailmix" },
-	textures: { "mix": { base: "item/food/trailmix/{type}" } },
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"*-fruity": { satiety: 150, foodcategory: "Fruit" },
-		"*-nutty": { satiety: 150, foodcategory: "Vegetable" },
-		"*-meaty": { satiety: 150, foodcategory: "Protein" },
-		"*-cheesy": { satiety: 150, foodcategory: "Dairy" },
-	},
-	transitionablePropsByType: {
-		"*": [{
-			type: "Perish",
-			freshHours: { avg: 3840 },
-			transitionHours: { avg: 24 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.25
-		}]
-	},
-	guiTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: -90, y: 90, z: 0 },
-		origin: { x: 0.5, y: 0, z: 0.45 },
-		scale: 1.5
-	},
-	tpHandTransform: {
-		origin: { x: 0.5, y: 0.77, z: 0.5 }
-	},
-	groundTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 0, y: 0, z: 0 },
-		origin: { x: 0, y: 0, z: 0.0299 },
-		scale: 2
-	}
+  "code": "trailmix",
+  "maxStackSize": 16,
+    "class": "ExpandedFood",
+  "variantGroups": [
+    { "code": "type", "states": ["fruity", "nutty", "meaty", "cheesy"] },
+  ],
+  "materialDensity": 300,
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+   "handbook": { "groupBy": [ "trailmix-*" ] },
+   "renderIngredients": {
+      "game:legume-peanut": "expandedfoods:shapes/item/food/trailmix.json",
+      "expandedfoods:acornportion": "expandedfoods:shapes/item/food/trailmix.json",
+          "expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/trailmix.json",
+          "expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/trailmix.json",
+    },
+    "onDisplayTransform": {
+      "translation": {"x": 0, "y": -0.25, "z": 0},
+      "scale":  0.5,
+    }
+  },
+  "shape": { "base": "expandedfoods:item/food/trailmix" },
+  "textures": { "mix": { "base": "item/food/trailmix/{type}" } },
+  "creativeInventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+  "nutritionPropsByType": {
+    "*-fruity": { "satiety": 150, "foodCategory": "Fruit" },
+    "*-nutty": { "satiety": 150, "foodCategory": "Vegetable" },
+    "*-meaty": { "satiety": 150, "foodCategory": "Protein" },
+    "*-cheesy": { "satiety": 150, "foodCategory": "Dairy" },
+  },
+  "transitionablePropsByType": {
+    "*": [{
+      "type": "Perish",
+      "freshHours": { "avg": 3840 },
+      "transitionHours": { "avg": 24 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 0.25
+    }]
+  },
+  "guiTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": -90, "y": 90, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.45 },
+    "scale": 1.5
+  },
+  "tpHandTransform": {
+    "origin": { "x": 0.5, "y": 0.77, "z": 0.5 }
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0, "y": 0, "z": 0.0299 },
+    "scale": 2
+  }
 }

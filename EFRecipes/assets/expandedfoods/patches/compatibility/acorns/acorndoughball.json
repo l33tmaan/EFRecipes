@@ -1,42 +1,42 @@
 ﻿[
  {
-   file: "expandedfoods:itemtypes/food/acorns/mixing/acorndoughball.json",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+  "file": "expandedfoods:itemtypes/food/acorns/mixing/acorndoughball.json",
+   "op": "addmerge",
+   "path": "/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acorndoughball.json",
-    op: "addmerge", 
-    path: "/0/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+   "op": "addmerge",
+   "path": "/0/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acorndoughball.json",
-    op: "addmerge", 
-    path: "/1/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+   "op": "addmerge",
+   "path": "/1/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acorndoughball.json",
-    op: "addmerge", 
-    path: "/2/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+   "op": "addmerge",
+   "path": "/2/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acorndoughball.json",
-    op: "addmerge", 
-    path: "/3/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+   "op": "addmerge",
+   "path": "/3/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
 ]

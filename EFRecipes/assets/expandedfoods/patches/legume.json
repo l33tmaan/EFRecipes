@@ -33,17 +33,17 @@
             },
         },
         "bakingProperties":  {
-			temp: 175,
-			levelFrom: 0.0,
-			levelTo: 0.25,
-			startScaleY: 1.0,
-			endScaleY: 1.0,
-			resultCode: "expandedfoods:peanut-cooked",
-		},
-	    onDisplayTransform: { 
-			translation: { x: 0, y: -0.25, z: 0 },
-			scale: 0.5 
-		},
+      "temp": 175,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:peanut-cooked",
+    },
+      "onDisplayTransform": {
+      "translation": { "x": 0, "y": -0.25, "z": 0 },
+      "scale": 0.5
+    },
       }
     },
     "side": "server",
