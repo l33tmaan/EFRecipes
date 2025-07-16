@@ -1,18 +1,18 @@
 ﻿[
  {
-   file: "expandedfoods:recipes/kneading/dumpling.json",
+  "file": "expandedfoods:recipes/kneading/dumpling.json",
     "side": "server",
-    op: "addeach", 
-    path: "/1/ingredients/1/inputs/-", 
-    value: [{ type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1}, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1},],
-    dependsOn: [{ "modid": "primitivesurvival" }]
+   "op": "addeach",
+   "path": "/1/ingredients/1/inputs/-",
+   "value": [ { "type": "item", "code": "expandedfoods:crabnugget-raw", "quantity": 1}, { "type": "item", "code": "expandedfoods:snakenugget-raw", "quantity": 1} ],
+   "dependsOn": [ { "modid": "primitivesurvival" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/dumpling.json",
+  "file": "expandedfoods:recipes/kneading/dumpling.json",
     "side": "server",
-    op: "addeach", 
-    path: "/3/ingredients/1/inputs/-", 
-    value: [{ type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1}, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1},],
-    dependsOn: [{ "modid": "primitivesurvival" }]
+   "op": "addeach",
+   "path": "/3/ingredients/1/inputs/-",
+   "value": [ { "type": "item", "code": "expandedfoods:crabnugget-raw", "quantity": 1}, { "type": "item", "code": "expandedfoods:snakenugget-raw", "quantity": 1} ],
+   "dependsOn": [ { "modid": "primitivesurvival" }]
  },
 ]

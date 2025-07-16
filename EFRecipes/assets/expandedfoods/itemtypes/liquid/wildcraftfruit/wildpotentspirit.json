@@ -1,55 +1,55 @@
 ﻿{
-	code: "wildpotentspiritportion",
-	class: "TransLiquid",
-	matterState: "liquid",
-	variantgroups: [
-		{ code: "fruit", "loadFromProperties": "wildcraftfruit:block/fruit", "states": ["sumac", "juniper"] },
-	],
-	"skipVariants": ["*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-chinaberry", "*-beachalmondwhole", "*-lillypillywhite", "*-lillypillyblue", "*-lemon", "*-blacknightshadeunripe"],
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
-		},
-		distillationProps: {
-			distilledStack: { type: "item", code: "game:alcoholportion" },
-			ratio: 1
-		},
-		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMealByType: {
-			"*-wolfberry": { satiety: 25, health: -2.5, foodcategory: "NoNutrition" },
-			"*-crowseye": { satiety: 25, health: -5, foodcategory: "NoNutrition" },
-			"*-seamango": { satiety: 25, health: -4, foodcategory: "NoNutrition" },
-			"*": { satiety: 25, health: 1, foodcategory: "NoNutrition" },
-		},
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-	        texture: { base: "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha":  140, overlays: ["expandedfoods:item/liquid/syrup"] },
-			allowSpill: true,
-			whenSpilled: {
-				action: "DropContents",
-				stack: { type: "item", code: "expandedfoods:wildpotentspiritportion-{fruit}" }
-			},
-			nutritionPropsPerLitreByType: {
-				"*-wolfberry": { saturation: 100, health: -2.5, intoxication: 2.5, foodcategory: "NoNutrition" },
-				"*-crowseye": { saturation: 100, health: -5, intoxication: 2.5, foodcategory: "NoNutrition" },
-				"*-seamango": { saturation: 100, health: -4, intoxication: 2.5, foodcategory: "NoNutrition" },
-				"*": { saturation: 100, "health": 1, "intoxication": 2.5, foodcategory: "NoNutrition" },
-			},
-		},
-	},
-	shape: { base: "game:item/liquid" },
-	"texture": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha": 140, overlays: ["expandedfoods:item/liquid/syrup"] },
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:wildpotentspiritportion-{fruit}", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	nutritionProps: { saturation: 1, health: 0.01, foodcategory: "NoNutrition" },
-	guiTransform: {
-		rotation: { x: 128, y: 40, z: 7 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
-	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 },
-	},
+  "code": "wildpotentspiritportion",
+  "class": "TransLiquid",
+ "matterState": "liquid",
+  "variantGroups": [
+    { "code": "fruit", "loadFromProperties": "wildcraftfruit:block/fruit", "states": [ "sumac", "juniper" ] },
+  ],
+  "skipVariants": [ "*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-chinaberry", "*-beachalmondwhole", "*-lillypillywhite", "*-lillypillyblue", "*-lemon", "*-blacknightshadeunripe" ],
+  "attributes": {
+   "handbook": {
+     "ignoreCreativeInvStacks": true
+    },
+   "distillationProps": {
+     "distilledStack": { "type": "item", "code": "game:alcoholportion" },
+     "ratio": 1
+    },
+    "inBowlShape": { "base": "game:block/food/meal/liquid" },
+    "nutritionPropsWhenInMealByType": {
+      "*-wolfberry": { "satiety": 25, "health": -2.5, "foodCategory": "NoNutrition" },
+      "*-crowseye": { "satiety": 25, "health": -5, "foodCategory": "NoNutrition" },
+      "*-seamango": { "satiety": 25, "health": -4, "foodCategory": "NoNutrition" },
+      "*": { "satiety": 25, "health": 1, "foodCategory": "NoNutrition" },
+    },
+   "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+          "texture": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha":  140, "overlays": [ "expandedfoods:item/liquid/syrup" ] },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": { "type": "item", "code": "expandedfoods:wildpotentspiritportion-{fruit}" }
+      },
+     "nutritionPropsPerLitreByType": {
+        "*-wolfberry": { "saturation": 100, "health": -2.5, "intoxication": 2.5, "foodCategory": "NoNutrition" },
+        "*-crowseye": { "saturation": 100, "health": -5, "intoxication": 2.5, "foodCategory": "NoNutrition" },
+        "*-seamango": { "saturation": 100, "health": -4, "intoxication": 2.5, "foodCategory": "NoNutrition" },
+        "*": { "saturation": 100, "health": 1, "intoxication": 2.5, "foodCategory": "NoNutrition" },
+      },
+    },
+  },
+  "shape": { "base": "game:item/liquid" },
+  "texture": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha": 140, "overlays": [ "expandedfoods:item/liquid/syrup" ] },
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:wildpotentspiritportion-{fruit}", "makefull": true } ] } } ] } ],
+  "maxStackSize": 5000,
+  "materialDensity": 200,
+  "nutritionProps": { "saturation": 1, "health": 0.01, "foodCategory": "NoNutrition" },
+  "guiTransform": {
+    "rotation": { "x": 128, "y": 40, "z": 7 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.5, "y": -1, "z": -1.4 },
+  },
 }

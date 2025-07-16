@@ -1,34 +1,34 @@
 [
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "expandedfoods:plaindoughball-dough",  quantity: 1 }]},
-		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraftherb:herb-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
-	],
-	output: { type: "item", code: "expandedfoods:dumpling-raw", stackSize: 1}
- }, 
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "expandedfoods:plaindoughball-dough", "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:herbbundle-*", "quantity": 1 }, { "type": "item", "code": "wildcraftherb:herb-*", "allowedVariants": [ "basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme" ], "quantity": 1 }]},
+  ],
+  "output": { "type": "item", "code": "expandedfoods:dumpling-raw", "ingredients": 1}
+ },
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "expandedfoods:plaindoughball-dough",  quantity: 1 }]},
-		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraftherb:herb-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-*-raw", quantity: 1}, { type: "item", code: "expandedfoods:meatnugget-*-cured", quantity: 1}, { type: "item", code: "expandedfoods:agedmeat-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-*", quantity: 1}, { type: "item", code: "expandedfoods:choppedmushroom-*", quantity: 1}, { type: "item", code: "game:legume-soybean", quantity: 1 }, { type: "item", code: "game:pickledlegume-soybean", quantity: 1 }, { type: "item", code: "game:egg-chicken-*", "allowedVariants": [ "boiled", "pickled" ], quantity: 1 }, { type: "item", code: "wildcraftherb:herb-minerslettuce", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-*", "allowedVariants":  [ "raw", "curedchopped" ], quantity: 1}, { type: "item", code: "game:cheese-cheddar-1slice", quantity: 1 }, { type: "item", code: "game:cheese-blue-1slice", quantity: 1 },]}
-	],
-	output: { type: "item", code: "expandedfoods:dumpling-raw", stackSize: 1}
- }, 
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "expandedfoods:plaindoughball-dough", "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:herbbundle-*", "quantity": 1 }, { "type": "item", "code": "wildcraftherb:herb-*", "allowedVariants": [ "basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme" ], "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "expandedfoods:meatnugget-*-raw", "quantity": 1}, { "type": "item", "code": "expandedfoods:meatnugget-*-cured", "quantity": 1}, { "type": "item", "code": "expandedfoods:agedmeat-*-raw", "quantity": 1 }, { "type": "item", "code": "expandedfoods:choppedvegetable-*", "quantity": 1}, { "type": "item", "code": "expandedfoods:choppedmushroom-*", "quantity": 1}, { "type": "item", "code": "game:legume-soybean", "quantity": 1 }, { "type": "item", "code": "game:pickledlegume-soybean", "quantity": 1 }, { "type": "item", "code": "game:egg-chicken-*", "allowedVariants": [ "boiled", "pickled" ], "quantity": 1 }, { "type": "item", "code": "wildcraftherb:herb-minerslettuce", "quantity": 1 }, { "type": "item", "code": "expandedfoods:fishnugget-*", "allowedVariants":  [ "raw", "curedchopped" ], "quantity": 1}, { "type": "item", "code": "game:cheese-cheddar-1slice", "quantity": 1 }, { "type": "item", "code": "game:cheese-blue-1slice", "quantity": 1 } ]}
+  ],
+  "output": { "type": "item", "code": "expandedfoods:dumpling-raw", "ingredients": 1}
+ },
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "expandedfoods:plaindoughball-dough",  quantity: 1 }]},
-		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraftherb:herb-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
-		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
-	],
-	output: { type: "item", code: "expandedfoods:dumpling-raw", stackSize: 1}
- }, 
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "expandedfoods:plaindoughball-dough", "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:herbbundle-*", "quantity": 1 }, { "type": "item", "code": "wildcraftherb:herb-*", "allowedVariants": [ "basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme" ], "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:salt", "quantity": 1 }]},
+  ],
+  "output": { "type": "item", "code": "expandedfoods:dumpling-raw", "ingredients": 1}
+ },
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "expandedfoods:plaindoughball-dough",  quantity: 1 }]},
-		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraftherb:herb-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-*-raw", quantity: 1}, { type: "item", code: "expandedfoods:meatnugget-*-cured", quantity: 1}, { type: "item", code: "expandedfoods:agedmeat-*-raw", quantity: 1 }, { type: "item", code: "expandedfoods:choppedvegetable-*", quantity: 1}, { type: "item", code: "expandedfoods:choppedmushroom-*", quantity: 1}, { type: "item", code: "game:legume-soybean", quantity: 1 }, { type: "item", code: "game:pickledlegume-soybean", quantity: 1 }, { type: "item", code: "game:egg-chicken-*", "allowedVariants": [ "boiled", "pickled" ], quantity: 1 }, { type: "item", code: "wildcraftherb:herb-minerslettuce", quantity: 1 }, { type: "item", code: "expandedfoods:fishnugget-*", "allowedVariants":  [ "raw", "curedchopped" ], quantity: 1}, { type: "item", code: "game:cheese-cheddar-1slice", quantity: 1 }, { type: "item", code: "game:cheese-blue-1slice", quantity: 1 },]},
-		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]}
-	],
-	output: { type: "item", code: "expandedfoods:dumpling-raw", stackSize: 1}
- }, 
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "expandedfoods:plaindoughball-dough", "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:herbbundle-*", "quantity": 1 }, { "type": "item", "code": "wildcraftherb:herb-*", "allowedVariants": [ "basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme" ], "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "expandedfoods:meatnugget-*-raw", "quantity": 1}, { "type": "item", "code": "expandedfoods:meatnugget-*-cured", "quantity": 1}, { "type": "item", "code": "expandedfoods:agedmeat-*-raw", "quantity": 1 }, { "type": "item", "code": "expandedfoods:choppedvegetable-*", "quantity": 1}, { "type": "item", "code": "expandedfoods:choppedmushroom-*", "quantity": 1}, { "type": "item", "code": "game:legume-soybean", "quantity": 1 }, { "type": "item", "code": "game:pickledlegume-soybean", "quantity": 1 }, { "type": "item", "code": "game:egg-chicken-*", "allowedVariants": [ "boiled", "pickled" ], "quantity": 1 }, { "type": "item", "code": "wildcraftherb:herb-minerslettuce", "quantity": 1 }, { "type": "item", "code": "expandedfoods:fishnugget-*", "allowedVariants":  [ "raw", "curedchopped" ], "quantity": 1}, { "type": "item", "code": "game:cheese-cheddar-1slice", "quantity": 1 }, { "type": "item", "code": "game:cheese-blue-1slice", "quantity": 1 } ]},
+    { "inputs": [ { "type": "item", "code": "game:salt", "quantity": 1 }]}
+  ],
+  "output": { "type": "item", "code": "expandedfoods:dumpling-raw", "ingredients": 1}
+ },
 ]

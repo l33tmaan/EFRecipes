@@ -1,26 +1,26 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/acorns/acorns-roasted.json",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
+   "op": "addmerge",
+   "path": "/enabled",
+   "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+   "dependsOn": [ { "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:itemtypes/food/acorns/acornpowder.json",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
+   "op": "addmerge",
+   "path": "/enabled",
+   "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+   "dependsOn": [ { "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:itemtypes/liquid/acorns/acorncoffee.json",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
+   "op": "addmerge",
+   "path": "/enabled",
+   "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+   "dependsOn": [ { "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
 ]

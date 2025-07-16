@@ -1,110 +1,110 @@
 ﻿[
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "item",
-				code: "expandedfoods:meatnugget-*-smashed",
-				quantity: 1,
-				"name": "meat",
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 100,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:meatnugget-{meat}-tender",
-				"quantity": 1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "item",
-				code: "expandedfoods:meatnugget-*-tenderpartbaked",
-				quantity: 1,
-				"name": "meat",
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 100,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:meatnugget-{meat}-tender",
-				"quantity": 1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "item",
-				code: "expandedfoods:meatnugget-*-raw",
-				quantity: 1,
-				"name": "meat",
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 100,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:meatnugget-{meat}-cooked",
-				"quantity": 1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "item",
-				code: "expandedfoods:meatnugget-*-cookedpartbaked",
-				quantity: 1,
-				"name": "meat",
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 100,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:meatnugget-{meat}-cooked",
-				"quantity": 1
-			},
-			requiresContainer: false
-		}
-	}
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50,
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-*-smashed",
+        "quantity": 1,
+        "name": "meat",
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 100,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-{meat}-tender",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50,
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-*-tenderpartbaked",
+        "quantity": 1,
+        "name": "meat",
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 100,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-{meat}-tender",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50,
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-*-raw",
+        "quantity": 1,
+        "name": "meat",
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 100,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-{meat}-cooked",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50,
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-*-cookedpartbaked",
+        "quantity": 1,
+        "name": "meat",
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 100,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-{meat}-cooked",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  }
 ]

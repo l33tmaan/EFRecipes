@@ -1,67 +1,67 @@
 {
-	code: "fruitsyrupportion",
-	class: "ItemLiquidPortion",
-	matterState: "liquid",
-	variantgroups: [
-		{
-			code: "type",
-			loadFromProperties: "block/fruit",
-			states: [ "apple" ]
-		},
-	],
-	skipVariants: ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"],
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
-		},
-		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMealByType: { 
-			"*-saguaro": { satiety: 120, health: 2, foodcategory: "Fruit" },
-			"*": { satiety: 120, health: 1, foodcategory: "Fruit" },
-		},
-		"inPiePropertiesByType": { 
-			"*": {
-				"texture": "game:block/food/pie/fill-{type}",
-				"partType": "Filling"
-			}
-		},
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-			texturebytype: {
-				"*": { base: "game:block/food/pie/fill-{type}", overlays: ["game:item/liquid/syrup"] }
-			},
-			allowSpill: true,
-			whenSpilled: {
-				action: "DropContents",
-				stack: { type: "item", code: "expandedfoods:fruitsyrupportion-{type}" }
-			},
-			nutritionPropsPerLitreByType: {
-				"*-saguaro":  {	saturation: 800, "health": 2, foodcategory: "Fruit" },
-				"*":  {	saturation: 800, "health": 1, foodcategory: "Fruit" },
-			}
-		}
-	},
-	shape: { base: "game:item/liquid" },
-	texturebytype: {
-		"*": { base: "game:block/food/pie/fill-{type}", overlays: ["game:item/liquid/syrup"] }
-	},
-	transitionableProps: [{
-    	type: "Perish",
-    	freshHours: { avg: 17520 },
-    	transitionHours: { avg: 17520 },
-    	transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.005
-  	}],
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:fruitsyrupportion-{type}", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	guiTransform: {
-		rotation: { x: 128, y: 40, z: 7 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
-	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 },
-	},
+  "code": "fruitsyrupportion",
+  "class": "ItemLiquidPortion",
+ "matterState": "liquid",
+  "variantGroups": [
+    {
+      "code": "type",
+      "loadFromProperties": "block/fruit",
+      "states": [ "apple" ]
+    },
+  ],
+ "skipVariants": [ "*-pinkapple", "*-redapple", "*-yellowapple", "*-olive" ],
+  "attributes": {
+   "handbook": {
+     "ignoreCreativeInvStacks": true
+    },
+    "inBowlShape": { "base": "game:block/food/meal/liquid" },
+    "nutritionPropsWhenInMealByType": {
+      "*-saguaro": { "satiety": 120, "health": 2, "foodCategory": "Fruit" },
+      "*": { "satiety": 120, "health": 1, "foodCategory": "Fruit" },
+    },
+    "inPiePropertiesByType": {
+      "*": {
+        "texture": "game:block/food/pie/fill-{type}",
+        "partType": "Filling"
+      }
+    },
+   "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "textureByType": {
+        "*": { "base": "game:block/food/pie/fill-{type}", "overlays": [ "game:item/liquid/syrup" ] }
+      },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": { "type": "item", "code": "expandedfoods:fruitsyrupportion-{type}" }
+      },
+     "nutritionPropsPerLitreByType": {
+        "*-saguaro":  { "saturation": 800, "health": 2, "foodCategory": "Fruit" },
+        "*":  { "saturation": 800, "health": 1, "foodCategory": "Fruit" },
+      }
+    }
+  },
+  "shape": { "base": "game:item/liquid" },
+  "textureByType": {
+    "*": { "base": "game:block/food/pie/fill-{type}", "overlays": [ "game:item/liquid/syrup" ] }
+  },
+  "transitionableProps": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 17520 },
+      "transitionHours": { "avg": 17520 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 0.005
+    }],
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:fruitsyrupportion-{type}", "makefull": true } ] } } ] } ],
+  "maxStackSize": 5000,
+  "materialDensity": 200,
+  "guiTransform": {
+    "rotation": { "x": 128, "y": 40, "z": 7 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.5, "y": -1, "z": -1.4 },
+  },
 }

@@ -1,10 +1,10 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/mixing/breadedvegetable.json",
-    op: "addmerge", 
-    path: "/skipVariants",
-    value: [ "breadedvegetable-birch-*", "breadedvegetable-pine-*", "breadedvegetable-maple-*"],
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+   "op": "addmerge",
+   "path": "/skipVariants",
+   "value": [ "breadedvegetable-birch-*", "breadedvegetable-pine-*", "breadedvegetable-maple-*" ],
+   "side": "server",
+   "dependsOn": [ { "modid": "ancienttools", "invert": true }]
  },
 ]

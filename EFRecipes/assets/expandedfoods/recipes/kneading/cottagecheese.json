@@ -1,9 +1,9 @@
 ﻿[
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "game:vinegarportion", quantity: 10 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:pasteurizedmilkportion", quantity: 10 }]},
-	],
-	output: { type: "item", code: "game:cottagecheeseportion", stackSize: 20}
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "game:vinegarportion", "quantity": 10 }]},
+    { "inputs": [ { "type": "item", "code": "expandedfoods:pasteurizedmilkportion", "quantity": 10 }]},
+  ],
+  "output": { "type": "item", "code": "game:cottagecheeseportion", "ingredients": 20}
  }
 ]

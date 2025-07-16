@@ -1,10 +1,10 @@
 ﻿[
  {
-   file: "expandedfoods:itemtypes/food/wildcraftherb/herbalbreadcrumbs.json",
+  "file": "expandedfoods:itemtypes/food/wildcraftherb/herbalbreadcrumbs.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+   "op": "addmerge",
+   "path": "/enabled",
+   "value": "false",
+   "dependsOn": [ { "modid": "wildcraftherb" , "invert": true}]
  },
 ]

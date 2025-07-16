@@ -1,18 +1,18 @@
 ﻿[
  {
-   file: "game:recipes/barrel/moreanimals/limeegg.json",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "moreanimals", "invert": true }]
+  "file": "game:recipes/barrel/moreanimals/limeegg.json",
+   "op": "addmerge",
+   "path": "/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [ { "modid": "moreanimals", "invert": true }]
  },
  {
-   file: "game:recipes/barrel/moreanimals/pickledegg.json",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
-    side: "server",
-    dependsOn: [{ "modid": "moreanimals", "invert": true }]
+  "file": "game:recipes/barrel/moreanimals/pickledegg.json",
+   "op": "addmerge",
+   "path": "/enabled",
+   "value": "false",
+   "side": "server",
+   "dependsOn": [ { "modid": "moreanimals", "invert": true }]
  },
 ]

@@ -1,34 +1,34 @@
 ﻿[
  {
-   file: "expandedfoods:itemtypes/food/wildcraftherb/mixing/gozinakiherb.json",
+  "file": "expandedfoods:itemtypes/food/wildcraftherb/mixing/gozinakiherb.json",
     "side": "server",
-    op: "replace", 
-    path: "/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraftherb" }]
+   "op": "replace",
+   "path": "/enabled",
+   "value": "true",
+   "dependsOn": [ { "modid": "wildcraftherb" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraftherb/gozinakiherb.json",
+  "file": "expandedfoods:recipes/kneading/wildcraftherb/gozinakiherb.json",
     "side": "server",
-    op: "replace", 
-    path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraftherb" }]
+   "op": "replace",
+   "path": "/0/enabled",
+   "value": "true",
+   "dependsOn": [ { "modid": "wildcraftherb" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraftherb/gozinakiherb.json",
+  "file": "expandedfoods:recipes/kneading/wildcraftherb/gozinakiherb.json",
     "side": "server",
-    op: "replace", 
-    path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraftherb" }]
+   "op": "replace",
+   "path": "/1/enabled",
+   "value": "true",
+   "dependsOn": [ { "modid": "wildcraftherb" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraftherb/gozinakiherbsyrup.json",
+  "file": "expandedfoods:recipes/kneading/wildcraftherb/gozinakiherbsyrup.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/0/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraftherb" , "invert": true}]
+   "op": "addmerge",
+   "path": "/0/enabled",
+   "value": "false",
+   "dependsOn": [ { "modid": "wildcraftherb" , "invert": true}]
  },
 ]

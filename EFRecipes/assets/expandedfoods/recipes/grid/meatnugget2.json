@@ -1,425 +1,425 @@
 [
   {
-	ingredientPattern: "R,M",
-    recipeGroup: 1,
-	ingredients: {
-		"R": { 
-			type: "item", 
-			code: "game:stone-*",
-			name: "stone",
-		},
-		"M": { 
-			type: "item", 
-			code: "game:bushmeat-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "bushmeatsmash",
-	output: { type: "item", code: "meatnugget-bushmeat-smashed"  }
+ "ingredientPattern": "R,M",
+   "recipeGroup": 1,
+  "ingredients": {
+    "R": {
+      "type": "item",
+      "code": "game:stone-*",
+      "name": "stone",
+    },
+    "M": {
+      "type": "item",
+      "code": "game:bushmeat-raw",
+      "name": "meat",
+    },
+  },
+ "width": 1,
+ "height": 2,
+  "name": "bushmeatsmash",
+  "output": { "type": "item", "code": "meatnugget-bushmeat-smashed" }
   },
   {
-	ingredientPattern: "R,M",
-    recipeGroup: 1,
-	ingredients: {
-		"R": { 
-			type: "item", 
-			code: "game:stone-*",
-			name: "stone",
-		},
-		"M": { 
-			type: "item", 
-			code: "game:poultry-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "poultrysmash",
-	output: { type: "item", code: "meatnugget-poultry-smashed"  }
+ "ingredientPattern": "R,M",
+   "recipeGroup": 1,
+  "ingredients": {
+    "R": {
+      "type": "item",
+      "code": "game:stone-*",
+      "name": "stone",
+    },
+    "M": {
+      "type": "item",
+      "code": "game:poultry-raw",
+      "name": "meat",
+    },
+  },
+ "width": 1,
+ "height": 2,
+  "name": "poultrysmash",
+  "output": { "type": "item", "code": "meatnugget-poultry-smashed" }
   },
   {
-	ingredientPattern: "R,M",
-    recipeGroup: 1,
-	ingredients: {
-		"R": { 
-			type: "item", 
-			code: "game:stone-*",
-			name: "stone",
-		},
-		"M": { 
-			type: "item", 
-			code: "game:redmeat-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "redmeatsmash",
-	output: { type: "item", code: "meatnugget-redmeat-smashed"  }
+ "ingredientPattern": "R,M",
+   "recipeGroup": 1,
+  "ingredients": {
+    "R": {
+      "type": "item",
+      "code": "game:stone-*",
+      "name": "stone",
+    },
+    "M": {
+      "type": "item",
+      "code": "game:redmeat-raw",
+      "name": "meat",
+    },
+  },
+ "width": 1,
+ "height": 2,
+  "name": "redmeatsmash",
+  "output": { "type": "item", "code": "meatnugget-redmeat-smashed" }
   },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 3,
+   "recipeGroup": 3,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
+        "type": "item",
+        "code": "game:knife-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "meatnugget-bushmeat-smashed",
-        name: "meat",
+        "type": "item",
+        "code": "meatnugget-bushmeat-smashed",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-bushmeat-raw" }
+    "output": { "type": "item", "code": "meatnugget-bushmeat-raw" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 3,
+   "recipeGroup": 3,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
+        "type": "item",
+        "code": "game:knife-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "meatnugget-redmeat-smashed",
-        name: "meat",
+        "type": "item",
+        "code": "meatnugget-redmeat-smashed",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-redmeat-raw" }
+    "output": { "type": "item", "code": "meatnugget-redmeat-raw" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 3,
+   "recipeGroup": 3,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
+        "type": "item",
+        "code": "game:knife-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "meatnugget-poultry-smashed",
-        name: "meat",
+        "type": "item",
+        "code": "meatnugget-poultry-smashed",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-poultry-raw" }
+    "output": { "type": "item", "code": "meatnugget-poultry-raw" }
    },
  {
-	ingredientPattern: "H,M",
-    recipeGroup: 2,
-	ingredients: {
-		"H": { 
-			type: "item", 
-			code: "game:hammer-*",
-			isTool: true
-		},
-		"M": { 
-			type: "item", 
-			code: "game:bushmeat-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "bushmeatsmash",
-	output: { type: "item", code: "meatnugget-bushmeat-smashed"  }
+ "ingredientPattern": "H,M",
+   "recipeGroup": 2,
+  "ingredients": {
+    "H": {
+      "type": "item",
+      "code": "game:hammer-*",
+     "isTool": true
+    },
+    "M": {
+      "type": "item",
+      "code": "game:bushmeat-raw",
+      "name": "meat",
+    },
+  },
+ "width": 1,
+ "height": 2,
+  "name": "bushmeatsmash",
+  "output": { "type": "item", "code": "meatnugget-bushmeat-smashed" }
   },
   {
-	ingredientPattern: "H,M",
-    recipeGroup: 2,
-	ingredients: {
-		"H": { 
-			type: "item", 
-			code: "game:hammer-*",
-			isTool: true
-		},
-		"M": { 
-			type: "item", 
-			code: "game:poultry-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "poultrysmash",
-	output: { type: "item", code: "meatnugget-poultry-smashed"  }
+ "ingredientPattern": "H,M",
+   "recipeGroup": 2,
+  "ingredients": {
+    "H": {
+      "type": "item",
+      "code": "game:hammer-*",
+     "isTool": true
+    },
+    "M": {
+      "type": "item",
+      "code": "game:poultry-raw",
+      "name": "meat",
+    },
+  },
+ "width": 1,
+ "height": 2,
+  "name": "poultrysmash",
+  "output": { "type": "item", "code": "meatnugget-poultry-smashed" }
   },
   {
-	ingredientPattern: "H,M",
-    recipeGroup: 2,
-	ingredients: {
-		"H": { 
-			type: "item", 
-			code: "game:hammer-*",
-			isTool: true
-		},
-		"M": { 
-			type: "item", 
-			code: "game:redmeat-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "redmeatsmash",
-	output: { type: "item", code: "meatnugget-redmeat-smashed"  }
+ "ingredientPattern": "H,M",
+   "recipeGroup": 2,
+  "ingredients": {
+    "H": {
+      "type": "item",
+      "code": "game:hammer-*",
+     "isTool": true
+    },
+    "M": {
+      "type": "item",
+      "code": "game:redmeat-raw",
+      "name": "meat",
+    },
+  },
+ "width": 1,
+ "height": 2,
+  "name": "redmeatsmash",
+  "output": { "type": "item", "code": "meatnugget-redmeat-smashed" }
   },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 4,
+   "recipeGroup": 4,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
+        "type": "item",
+        "code": "game:cleaver-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "meatnugget-bushmeat-smashed",
-        name: "meat",
+        "type": "item",
+        "code": "meatnugget-bushmeat-smashed",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-bushmeat-raw" }
+    "output": { "type": "item", "code": "meatnugget-bushmeat-raw" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 4,
+   "recipeGroup": 4,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
+        "type": "item",
+        "code": "game:cleaver-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "meatnugget-redmeat-smashed",
-        name: "meat",
+        "type": "item",
+        "code": "meatnugget-redmeat-smashed",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-redmeat-raw" }
+    "output": { "type": "item", "code": "meatnugget-redmeat-raw" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 4,
+   "recipeGroup": 4,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
+        "type": "item",
+        "code": "game:cleaver-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "meatnugget-poultry-smashed",
-        name: "meat",
+        "type": "item",
+        "code": "meatnugget-poultry-smashed",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-poultry-raw" }
+    "output": { "type": "item", "code": "meatnugget-poultry-raw" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 2,
+   "recipeGroup": 2,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
+        "type": "item",
+        "code": "game:knife-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "game:bushmeat-cured",
-        name: "meat",
+        "type": "item",
+        "code": "game:bushmeat-cured",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-bushmeat-cured" }
+    "output": { "type": "item", "code": "meatnugget-bushmeat-cured" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 2,
+   "recipeGroup": 2,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
+        "type": "item",
+        "code": "game:knife-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "game:redmeat-cured",
-        name: "meat",
+        "type": "item",
+        "code": "game:redmeat-cured",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-redmeat-cured" }
+    "output": { "type": "item", "code": "meatnugget-redmeat-cured" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 2,
+   "recipeGroup": 2,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
+        "type": "item",
+        "code": "game:knife-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "game:poultry-cured",
-        name: "meat",
+        "type": "item",
+        "code": "game:poultry-cured",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-poultry-cured" }
+    "output": { "type": "item", "code": "meatnugget-poultry-cured" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 4,
+   "recipeGroup": 4,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
+        "type": "item",
+        "code": "game:cleaver-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "game:bushmeat-cured",
-        name: "meat",
+        "type": "item",
+        "code": "game:bushmeat-cured",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-bushmeat-cured" }
+    "output": { "type": "item", "code": "meatnugget-bushmeat-cured" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 4,
+   "recipeGroup": 4,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
+        "type": "item",
+        "code": "game:cleaver-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "game:redmeat-cured",
-        name: "meat",
+        "type": "item",
+        "code": "game:redmeat-cured",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-redmeat-cured" }
+    "output": { "type": "item", "code": "meatnugget-redmeat-cured" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 4,
+   "recipeGroup": 4,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
+        "type": "item",
+        "code": "game:cleaver-*",
+       "isTool": true
       },
       "M": {
-        type: "item",
-        code: "game:poultry-cured",
-        name: "meat",
+        "type": "item",
+        "code": "game:poultry-cured",
+        "name": "meat",
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "meatnugget-poultry-cured" }
+    "output": { "type": "item", "code": "meatnugget-poultry-cured" }
    },
   {
-	ingredientPattern: "R,M",
-    recipeGroup: 5,
-	ingredients: {
-		"R": { 
-			type: "item", 
-			code: "aculinaryartillery:rollingpin-*",
-			name: "rollingpin",
-       			isTool: true
-		},
-		"M": { 
-			type: "item", 
-			code: "game:bushmeat-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "bushmeatsmash",
-	output: { type: "item", code: "meatnugget-bushmeat-smashed"  }
+ "ingredientPattern": "R,M",
+   "recipeGroup": 5,
+  "ingredients": {
+    "R": {
+      "type": "item",
+      "code": "aculinaryartillery:rollingpin-*",
+      "name": "rollingpin",
+            "isTool": true
+    },
+    "M": {
+      "type": "item",
+      "code": "game:bushmeat-raw",
+      "name": "meat",
+    },
+  },
+ "width": 1,
+ "height": 2,
+  "name": "bushmeatsmash",
+  "output": { "type": "item", "code": "meatnugget-bushmeat-smashed" }
   },
   {
-	ingredientPattern: "R,M",
-    recipeGroup: 5,
-	ingredients: {
-		"R": { 
-			type: "item", 
-			code: "aculinaryartillery:rollingpin-*",
-			name: "rollingpin",
-       			isTool: true
-		},
-		"M": { 
-			type: "item", 
-			code: "game:poultry-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "poultrysmash",
-	output: { type: "item", code: "meatnugget-poultry-smashed"  }
+ "ingredientPattern": "R,M",
+   "recipeGroup": 5,
+  "ingredients": {
+    "R": {
+      "type": "item",
+      "code": "aculinaryartillery:rollingpin-*",
+      "name": "rollingpin",
+            "isTool": true
+    },
+    "M": {
+      "type": "item",
+      "code": "game:poultry-raw",
+      "name": "meat",
+    },
+  },
+ "width": 1,
+ "height": 2,
+  "name": "poultrysmash",
+  "output": { "type": "item", "code": "meatnugget-poultry-smashed" }
   },
   {
-	ingredientPattern: "R,M",
-    recipeGroup: 5,
-	ingredients: {
-		"R": { 
-			type: "item", 
-			code: "aculinaryartillery:rollingpin-*",
-			name: "rollingpin",
-       			isTool: true
-		},
-		"M": { 
-			type: "item", 
-			code: "game:redmeat-raw", 
-			name: "meat",
-		},
-	},
-	width: 1,
-	height: 2,
-	name: "redmeatsmash",
-	output: { type: "item", code: "meatnugget-redmeat-smashed"  }
+ "ingredientPattern": "R,M",
+   "recipeGroup": 5,
+  "ingredients": {
+    "R": {
+      "type": "item",
+      "code": "aculinaryartillery:rollingpin-*",
+      "name": "rollingpin",
+            "isTool": true
+    },
+    "M": {
+      "type": "item",
+      "code": "game:redmeat-raw",
+      "name": "meat",
+    },
+  },
+ "width": 1,
+ "height": 2,
+  "name": "redmeatsmash",
+  "output": { "type": "item", "code": "meatnugget-redmeat-smashed" }
   },
 ]

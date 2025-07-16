@@ -1,147 +1,147 @@
 {
-	
-	code: "crabnugget",
-	maxstacksize: 64,
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		"handbook": { "groupBy": [ "crabnugget-*" ] },
-		nutritionPropsWhenInMealByType: { 
-			"crabnugget-raw": {satiety: 195, foodcategory: "Protein"},
-			},
-		bakingPropertiesByType: {
-			"*-raw": {
-				temp: 150,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:crabnugget-partbaked",
-			},
-			"*-partbaked": {
-				temp: 150,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:crabnugget-cooked",
-				initialCode: "expandedfoods:crabnugget-raw"
-			},
-			"*-cooked": {
-				temp: 150,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:crabnugget-charred",
-				initialCode: "expandedfoods:crabnugget-partbaked"
-			},
-			"*-charred": {
-				temp: 150,
-				levelFrom: 0.75,
-				levelTo: 1.0,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				initialCode: "expandedfoods:crabnugget-cooked"
-			},
-		},
-		onDisplayTransformByType: { 
-			"*": {
-				translation: { x: 0, y: 0.25, z: 0 },
-				scale: 1.5 
-			},
-		},
-    		inPiePropertiesByType: {
-      			"*-raw": { texture: "game:block/food/pie/fill-crab", partType: 'Filling' },
-    		},
-	},
-	variantgroups: [
-		{ code: "type", states: ["raw", "partbaked", "cooked", "charred",] },
-	],
-	shapebytype:	{
-		"*-raw": {base: "item/food/meat/poultry-nugget"},
-		"@*-(partbaked|cooked|charred)": {base: "item/food/meat/poultry-cooked"},
-	},
-	texturesByType: {
-		"*-partbaked": {
-			"cooked": {base: "primitivesurvival:item/crab/crabmeat-partbaked" },
-		},
-		"*-charred": {
-			"cooked": {base: "primitivesurvival:item/crab/crabmeat-charred" },
-		},
-		"*": {
-			"partbaked": {base: "primitivesurvival:item/crab/crabmeat-partbaked" },
-			"cooked": {base: "primitivesurvival:item/crab/crabmeat-cooked" },
-			"charred": {base: "primitivesurvival:item/crab/crabmeat-charred" },
-			"meat": {base: "primitivesurvival:item/crab/crabmeat-raw" },
-			"raw": {base: "primitivesurvival:item/crab/crabmeat-raw" },
-		},
-	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"crabnugget-partbaked": {satiety: 120, foodcategory: "Protein"},
-		"crabnugget-cooked": {satiety: 130, foodcategory: "Protein"},
-		"crabnugget-charred": {satiety: 110, foodcategory: "Protein"},
-	},
-	transitionablePropsByType: {
-		"*-raw": [{
-			type: "Perish",
-			freshHours: { avg: 48 },
-			transitionHours: { avg: 12 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-			}
-		],
-		"@*-(partbaked|cooked)": [{
-			type: "Perish",
-			freshHours: { avg: 120 },
-			transitionHours: { avg: 36 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-charred": [{
-			type: "Perish",
-			freshHours: { avg: 240 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-	},
-	materialDensity: 600,
-	guiTransformByType: {
-		"*": {
-			rotate: false,
-			translation: { x: 0.0, y: 0, z: 0 },
-			rotation: { x: 171, y: -122, z: 28 },
-			origin: { x: 0.43, y: 0.04, z: 0.53 },
-			scale: 7
-		}
-	},
-	tpHandTransformByType: {
-		"*": {
-			translation: { x: 0.05, y: -0.05, z: 0.1 },
-			rotation: { x: 1, y: 9, z: -11 },
-			origin: { x: 0.21, y: -0.2, z: 0.15 },
-			scale: 1	
-		},
-	},
-	groundTransformByType: {
-		"*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 180, y: 33, z: -180 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 5
 
-		},
-	},
-	combustiblePropsByType: {
-		"@*-(raw|partbaked|cooked)": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "crabnugget-charred" },
-			requiresContainer: false
-		},
-	}
+  "code": "crabnugget",
+  "maxStackSize": 64,
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+    "handbook": { "groupBy": [ "crabnugget-*" ] },
+    "nutritionPropsWhenInMealByType": {
+      "crabnugget-raw": { "satiety": 195, "foodCategory": "Protein" },
+      },
+    "bakingPropertiesByType": {
+      "*-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:crabnugget-partbaked",
+      },
+      "*-partbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:crabnugget-cooked",
+        "initialCode": "expandedfoods:crabnugget-raw"
+      },
+      "*-cooked": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:crabnugget-charred",
+        "initialCode": "expandedfoods:crabnugget-partbaked"
+      },
+      "*-charred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "expandedfoods:crabnugget-cooked"
+      },
+    },
+    "onDisplayTransformByType": {
+      "*": {
+        "translation": { "x": 0, "y": 0.25, "z": 0 },
+        "scale": 1.5
+      },
+    },
+        "inPiePropertiesByType": {
+            "*-raw": { "texture": "game:block/food/pie/fill-crab", "partType": "Filling" },
+        },
+  },
+  "variantGroups": [
+    { "code": "type", "states": [ "raw", "partbaked", "cooked", "charred" ] },
+  ],
+  "shapeByType":  {
+    "*-raw": { "base": "item/food/meat/poultry-nugget" },
+    "@*-(partbaked|cooked|charred)": { "base": "item/food/meat/poultry-cooked" },
+  },
+  "texturesByType": {
+    "*-partbaked": {
+      "cooked": { "base": "primitivesurvival:item/crab/crabmeat-partbaked" },
+    },
+    "*-charred": {
+      "cooked": { "base": "primitivesurvival:item/crab/crabmeat-charred" },
+    },
+    "*": {
+      "partbaked": { "base": "primitivesurvival:item/crab/crabmeat-partbaked" },
+      "cooked": { "base": "primitivesurvival:item/crab/crabmeat-cooked" },
+      "charred": { "base": "primitivesurvival:item/crab/crabmeat-charred" },
+      "meat": { "base": "primitivesurvival:item/crab/crabmeat-raw" },
+      "raw": { "base": "primitivesurvival:item/crab/crabmeat-raw" },
+    },
+  },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
+  "nutritionPropsByType": {
+    "crabnugget-partbaked": { "satiety": 120, "foodCategory": "Protein" },
+    "crabnugget-cooked": { "satiety": 130, "foodCategory": "Protein" },
+    "crabnugget-charred": { "satiety": 110, "foodCategory": "Protein" },
+  },
+  "transitionablePropsByType": {
+    "*-raw": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 48 },
+      "transitionHours": { "avg": 12 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+      }
+    ],
+    "@*-(partbaked|cooked)": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 120 },
+      "transitionHours": { "avg": 36 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }],
+    "*-charred": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 240 },
+      "transitionHours": { "avg": 72 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }],
+  },
+  "materialDensity": 600,
+  "guiTransformByType": {
+    "*": {
+      "rotate": false,
+      "translation": { "x": 0.0, "y": 0, "z": 0 },
+      "rotation": { "x": 171, "y": -122, "z": 28 },
+      "origin": { "x": 0.43, "y": 0.04, "z": 0.53 },
+      "scale": 7
+    }
+  },
+  "tpHandTransformByType": {
+    "*": {
+      "translation": { "x": 0.05, "y": -0.05, "z": 0.1 },
+      "rotation": { "x": 1, "y": 9, "z": -11 },
+      "origin": { "x": 0.21, "y": -0.2, "z": 0.15 },
+      "scale": 1
+    },
+  },
+  "groundTransformByType": {
+    "*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 180, "y": 33, "z": -180 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 5
+
+    },
+  },
+  "combustiblePropsByType": {
+    "@*-(raw|partbaked|cooked)": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": { "type": "item", "code": "crabnugget-charred" },
+      "requiresContainer": false
+    },
+  }
 }

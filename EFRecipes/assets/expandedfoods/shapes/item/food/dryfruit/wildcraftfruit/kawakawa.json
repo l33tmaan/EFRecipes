@@ -1,98 +1,98 @@
 {
-	"editor": {
-		"allAngles": false,
-		"entityTextureMode": false
-	},
-	"textureWidth": 16,
-	"textureHeight": 16,
-	"textureSizes": {
-		"kawakawa": [16,16],
-		"fill-kawakawa": [32,32]
-	},
-	"textures": {
-		"kawakawa": "wildcraftfruit:items/fruit/kawakawa",
-		"fill-kawakawa": "wildcraftfruit:block/food/pie/fill-kawakawa"
-	},
-	"elements": [
-		{
-			"name": "base",
-			"from": [ -0.5, 0.0, 1.0 ], 
-			"to": [ -0.5, 0.0, 1.0 ], 
-			"rotationOrigin": [ -0.5, 0.0, 1.0 ],
-			"faces": {
-				"north": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"east": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"south": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"west": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"up": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"down": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
-			},
-			"children": [
-				{
-					"name": "Avocado",
-					"from": [ 4.4, 1.0, 4.4 ], 
-					"to": [ 6.4, 3.75, 6.4 ], 
-					"rotationOrigin": [ 5.4, 1.0, 5.4 ],
-					"rotationX": 67.5,
-					"rotationY": 22.5,
-					"rotationZ": -45.0,
-					"faces": {
-						"north": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "rotation": 180, "autoUv": false },
-						"east": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false },
-						"south": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "rotation": 180, "autoUv": false },
-						"west": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false },
-						"up": { "texture": "#fill-kawakawa", "uv": [ 7.0, 5.0, 11.0, 9.0 ], "rotation": 180, "autoUv": false },
-						"down": { "texture": "#kawakawa", "uv": [ 0.0, 3.0, 4.0, 7.0 ], "rotation": 180, "autoUv": false }
-					}
-				},
-				{
-					"name": "Cube1",
-					"from": [ 8.5, 0.0, 6.0 ], 
-					"to": [ 10.0, 3.5, 7.5 ], 
-					"rotationOrigin": [ 8.5, 0.0, 6.0 ],
-					"rotationY": 45.0,
-					"rotationZ": 90.0,
-					"faces": {
-						"north": { "texture": "#kawakawa", "uv": [ 5.0, 0.0, 8.0, 7.0 ], "autoUv": false },
-						"east": { "texture": "#kawakawa", "uv": [ 5.0, 0.0, 8.0, 7.0 ], "autoUv": false },
-						"south": { "texture": "#kawakawa", "uv": [ 5.0, 0.0, 8.0, 7.0 ], "autoUv": false },
-						"west": { "texture": "#kawakawa", "uv": [ 5.0, 0.0, 8.0, 7.0 ], "autoUv": false },
-						"up": { "texture": "#kawakawa", "uv": [ 5.0, 1.0, 8.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#kawakawa", "uv": [ 5.0, 4.0, 8.0, 7.0 ], "autoUv": false }
-					}
-				},
-				{
-					"name": "Cube6",
-					"from": [ 7.97, -1.0, 9.95 ], 
-					"to": [ 9.47, 2.0, 11.45 ], 
-					"rotationOrigin": [ 8.6682, -1.0, 8.5532 ],
-					"rotationX": -45.0,
-					"faces": {
-						"north": { "texture": "#kawakawa", "uv": [ 9.0, 0.0, 12.0, 6.0 ], "autoUv": false },
-						"east": { "texture": "#kawakawa", "uv": [ 9.0, 0.0, 12.0, 6.0 ], "autoUv": false },
-						"south": { "texture": "#kawakawa", "uv": [ 9.0, 0.0, 12.0, 6.0 ], "autoUv": false },
-						"west": { "texture": "#kawakawa", "uv": [ 9.0, 0.0, 12.0, 6.0 ], "autoUv": false },
-						"up": { "texture": "#kawakawa", "uv": [ 9.0, 1.0, 12.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#kawakawa", "uv": [ 5.0, 3.0, 8.0, 6.0 ], "autoUv": false }
-					}
-				},
-				{
-					"name": "Avocado5",
-					"from": [ 8.5, 2.25, 6.0 ], 
-					"to": [ 10.5, 5.0, 8.0 ], 
-					"rotationOrigin": [ 9.5, 2.25, 7.0 ],
-					"rotationX": -112.5,
-					"rotationY": 22.5,
-					"rotationZ": -45.0,
-					"faces": {
-						"north": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "rotation": 180, "autoUv": false },
-						"east": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false },
-						"south": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "rotation": 180, "autoUv": false },
-						"west": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false },
-						"up": { "texture": "#kawakawa", "uv": [ 0.0, 2.0, 4.0, 6.0 ], "rotation": 180, "autoUv": false },
-						"down": { "texture": "#fill-kawakawa", "uv": [ 8.0, 6.0, 12.0, 10.0 ], "rotation": 180, "autoUv": false }
-					}
-				}
-			]
-		}
-	]}
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "kawakawa": [ 16,16],
+    "fill-kawakawa": [ 32,32]
+  },
+  "textures": {
+    "kawakawa": "wildcraftfruit:items/fruit/kawakawa",
+    "fill-kawakawa": "wildcraftfruit:block/food/pie/fill-kawakawa"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [ -0.5, 0.0, 1.0 ],
+      "to": [ -0.5, 0.0, 1.0 ],
+      "rotationOrigin": [ -0.5, 0.0, 1.0 ],
+      "faces": {
+        "north": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "east": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "south": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "west": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "up": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "down": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+      },
+      "children": [
+        {
+          "name": "Avocado",
+          "from": [ 4.4, 1.0, 4.4 ],
+          "to": [ 6.4, 3.75, 6.4 ],
+          "rotationOrigin": [ 5.4, 1.0, 5.4 ],
+          "rotationX": 67.5,
+          "rotationY": 22.5,
+          "rotationZ": -45.0,
+          "faces": {
+            "north": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "rotation": 180, "autoUv": false },
+            "east": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false },
+            "south": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "rotation": 180, "autoUv": false },
+            "west": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false },
+            "up": { "texture": "#fill-kawakawa", "uv": [ 7.0, 5.0, 11.0, 9.0 ], "rotation": 180, "autoUv": false },
+            "down": { "texture": "#kawakawa", "uv": [ 0.0, 3.0, 4.0, 7.0 ], "rotation": 180, "autoUv": false }
+          }
+        },
+        {
+          "name": "Cube1",
+          "from": [ 8.5, 0.0, 6.0 ],
+          "to": [ 10.0, 3.5, 7.5 ],
+          "rotationOrigin": [ 8.5, 0.0, 6.0 ],
+          "rotationY": 45.0,
+          "rotationZ": 90.0,
+          "faces": {
+            "north": { "texture": "#kawakawa", "uv": [ 5.0, 0.0, 8.0, 7.0 ], "autoUv": false },
+            "east": { "texture": "#kawakawa", "uv": [ 5.0, 0.0, 8.0, 7.0 ], "autoUv": false },
+            "south": { "texture": "#kawakawa", "uv": [ 5.0, 0.0, 8.0, 7.0 ], "autoUv": false },
+            "west": { "texture": "#kawakawa", "uv": [ 5.0, 0.0, 8.0, 7.0 ], "autoUv": false },
+            "up": { "texture": "#kawakawa", "uv": [ 5.0, 1.0, 8.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#kawakawa", "uv": [ 5.0, 4.0, 8.0, 7.0 ], "autoUv": false }
+          }
+        },
+        {
+          "name": "Cube6",
+          "from": [ 7.97, -1.0, 9.95 ],
+          "to": [ 9.47, 2.0, 11.45 ],
+          "rotationOrigin": [ 8.6682, -1.0, 8.5532 ],
+          "rotationX": -45.0,
+          "faces": {
+            "north": { "texture": "#kawakawa", "uv": [ 9.0, 0.0, 12.0, 6.0 ], "autoUv": false },
+            "east": { "texture": "#kawakawa", "uv": [ 9.0, 0.0, 12.0, 6.0 ], "autoUv": false },
+            "south": { "texture": "#kawakawa", "uv": [ 9.0, 0.0, 12.0, 6.0 ], "autoUv": false },
+            "west": { "texture": "#kawakawa", "uv": [ 9.0, 0.0, 12.0, 6.0 ], "autoUv": false },
+            "up": { "texture": "#kawakawa", "uv": [ 9.0, 1.0, 12.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#kawakawa", "uv": [ 5.0, 3.0, 8.0, 6.0 ], "autoUv": false }
+          }
+        },
+        {
+          "name": "Avocado5",
+          "from": [ 8.5, 2.25, 6.0 ],
+          "to": [ 10.5, 5.0, 8.0 ],
+          "rotationOrigin": [ 9.5, 2.25, 7.0 ],
+          "rotationX": -112.5,
+          "rotationY": 22.5,
+          "rotationZ": -45.0,
+          "faces": {
+            "north": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "rotation": 180, "autoUv": false },
+            "east": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false },
+            "south": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "rotation": 180, "autoUv": false },
+            "west": { "texture": "#kawakawa", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false },
+            "up": { "texture": "#kawakawa", "uv": [ 0.0, 2.0, 4.0, 6.0 ], "rotation": 180, "autoUv": false },
+            "down": { "texture": "#fill-kawakawa", "uv": [ 8.0, 6.0, 12.0, 10.0 ], "rotation": 180, "autoUv": false }
+          }
+        }
+      ]
+    }
+  ]}

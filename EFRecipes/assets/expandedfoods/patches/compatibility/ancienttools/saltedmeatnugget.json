@@ -1,10 +1,10 @@
 ﻿[
  {
-   file: "expandedfoods:itemtypes/food/ancienttools/saltedmeatnugget.json",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
+  "file": "expandedfoods:itemtypes/food/ancienttools/saltedmeatnugget.json",
+   "op": "addmerge",
+   "path": "/enabled",
+   "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+   "dependsOn": [ { "modid": "ancienttools", "invert": true }]
  },
 ]

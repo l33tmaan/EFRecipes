@@ -1,83 +1,83 @@
 {
-	code: "brothportion",
-	class: "ItemLiquidPortion",
-	matterState: "liquid",
-	variantgroups: [
-		{ code: "type", states: ["bone", "vegetable", "meat", "fish"] },
-	],
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
-		},
-		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMealByType: {
-			"@*-(bone|fish)": {
-				satiety: 100,
-				health: 1,
-				foodcategory: "Protein"
-			},
-			"*-vegetable": {
-				satiety: 100,
-				health: 1,
-				foodcategory: "Vegetable"
-			},
-			"*-meat": {
-				satiety: 125,
-				health: 1,
-				foodcategory: "Protein"
-			},
-		},
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-			texture: { base: "game:item/liquid/{type}broth" },
-			allowSpill: true,
-			whenSpilled: {
-				action: "DropContents",
-				stack: { type: "item", code: "expandedfoods:brothportion-{type}" }
-			},
-			nutritionPropsPerLitreByType: {
-				"@*-(bone|fish)": { saturation: 100, health: 1, foodcategory: "Protein" },
-				"*-vegetable": { saturation: 100, health: 1, foodcategory: "Vegetable" },
-				"*-meat": { saturation: 125, health: 1, foodcategory: "Protein" },
-			}
-		}
-	},
-	transitionableProps: [{
-    		type: "Perish",
-    		freshHours: { avg: 8760 },
-    		transitionHours: { avg: 4380 },
-    		transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.005
-  	}],
-	shape: { base: "game:item/liquid" },
-	texture: { base: "game:item/liquid/{type}broth" },
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:brothportion-{type}", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	nutritionPropsByType: {
-		"@*-(bone|fish)": {
-			satiety: 1,
-			health: 0.01,
-			foodcategory: "Protein"
-		},
-		"*-vegetable": {
-			satiety: 1,
-			health: 0.01,
-			foodcategory: "Vegetable"
-		},
-		"*-meat": {
-			satiety: 1.25,
-			health: 0.01,
-			foodcategory: "Protein"
-		},
-	},
-	guiTransform: {
-		rotation: { x: 128, y: 40, z: 7 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
-	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 },
-	},
+  "code": "brothportion",
+  "class": "ItemLiquidPortion",
+ "matterState": "liquid",
+  "variantGroups": [
+    { "code": "type", "states": [ "bone", "vegetable", "meat", "fish" ] },
+  ],
+  "attributes": {
+   "handbook": {
+     "ignoreCreativeInvStacks": true
+    },
+    "inBowlShape": { "base": "game:block/food/meal/liquid" },
+    "nutritionPropsWhenInMealByType": {
+      "@*-(bone|fish)": {
+        "satiety": 100,
+        "health": 1,
+        "foodCategory": "Protein"
+      },
+      "*-vegetable": {
+        "satiety": 100,
+        "health": 1,
+        "foodCategory": "Vegetable"
+      },
+      "*-meat": {
+        "satiety": 125,
+        "health": 1,
+        "foodCategory": "Protein"
+      },
+    },
+   "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "texture": { "base": "game:item/liquid/{type}broth" },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": { "type": "item", "code": "expandedfoods:brothportion-{type}" }
+      },
+     "nutritionPropsPerLitreByType": {
+        "@*-(bone|fish)": { "saturation": 100, "health": 1, "foodCategory": "Protein" },
+        "*-vegetable": { "saturation": 100, "health": 1, "foodCategory": "Vegetable" },
+        "*-meat": { "saturation": 125, "health": 1, "foodCategory": "Protein" },
+      }
+    }
+  },
+  "transitionableProps": [ {
+        "type": "Perish",
+        "freshHours": { "avg": 8760 },
+        "transitionHours": { "avg": 4380 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 0.005
+    }],
+  "shape": { "base": "game:item/liquid" },
+  "texture": { "base": "game:item/liquid/{type}broth" },
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:brothportion-{type}", "makefull": true } ] } } ] } ],
+  "maxStackSize": 5000,
+  "materialDensity": 200,
+  "nutritionPropsByType": {
+    "@*-(bone|fish)": {
+      "satiety": 1,
+      "health": 0.01,
+      "foodCategory": "Protein"
+    },
+    "*-vegetable": {
+      "satiety": 1,
+      "health": 0.01,
+      "foodCategory": "Vegetable"
+    },
+    "*-meat": {
+      "satiety": 1.25,
+      "health": 0.01,
+      "foodCategory": "Protein"
+    },
+  },
+  "guiTransform": {
+    "rotation": { "x": 128, "y": 40, "z": 7 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.5, "y": -1, "z": -1.4 },
+  },
 }

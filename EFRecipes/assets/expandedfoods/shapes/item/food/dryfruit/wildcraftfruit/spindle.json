@@ -1,93 +1,93 @@
 {
-	"editor": {
-		"allAngles": true,
-		"entityTextureMode": false
-	},
-	"textureWidth": 8,
-	"textureHeight": 8,
-	"textureSizes": {
-	},
-	"textures": {
-		"spindle": "wildcraftfruit:items/fruit/spindle"
-	},
-	"elements": [
-		{
-			"name": "origin",
-			"from": [ 8.0, 0.0, 8.0 ], 
-			"to": [ 8.0, 0.0, 8.0 ], 
-			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
-			"faces": {
-				"north": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"east": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"south": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"west": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"up": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"down": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
-			},
-			"children": [
-				{
-					"name": "berry1",
-					"from": [ -1.0, 0.0, -1.65 ], 
-					"to": [ 1.0, 1.5, -0.15 ], 
-					"rotationOrigin": [ 0.0, 0.75, -0.95 ],
-					"rotationX": 8.0,
-					"rotationY": 3.0,
-					"faces": {
-						"north": { "texture": "#spindle", "uv": [ 6.0, 3.0, 8.0, 4.5 ] },
-						"east": { "texture": "#spindle", "uv": [ 6.0, 3.0, 7.5, 4.5 ] },
-						"south": { "texture": "#spindle", "uv": [ 6.0, 3.0, 8.0, 4.5 ] },
-						"west": { "texture": "#spindle", "uv": [ 6.0, 3.0, 7.5, 4.5 ] },
-						"up": { "texture": "#spindle", "uv": [ 6.0, 4.0, 8.0, 5.5 ] },
-						"down": { "texture": "#spindle", "uv": [ 6.0, 3.0, 8.0, 4.5 ] }
-					},
-					"children": [
-						{
-							"name": "Cube6",
-							"from": [ 0.25, 0.8, 0.25 ], 
-							"to": [ 1.25, 1.8, 1.25 ], 
-							"rotationOrigin": [ 0.0, 1.0, 0.0 ],
-							"faces": {
-								"north": { "texture": "#spindle", "uv": [ 2.5, 6.5, 3.5, 7.5 ] },
-								"east": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] },
-								"south": { "texture": "#spindle", "uv": [ 2.5, 7.0, 3.5, 8.0 ] },
-								"west": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] },
-								"up": { "texture": "#spindle", "uv": [ 2.5, 7.0, 3.5, 8.0 ] },
-								"down": { "texture": "#spindle", "uv": [ 2.5, 6.5, 3.5, 7.5 ] }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube1",
-					"from": [ -1.0, 0.0, 0.45 ], 
-					"to": [ 1.0, 1.5, 1.95 ], 
-					"rotationOrigin": [ 0.0, 0.75, 1.15 ],
-					"rotationX": -4.0,
-					"rotationY": 169.0,
-					"faces": {
-						"north": { "texture": "#spindle", "uv": [ 0.0, 0.0, 2.0, 1.5 ] },
-						"east": { "texture": "#spindle", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
-						"south": { "texture": "#spindle", "uv": [ 0.0, 0.0, 2.0, 1.5 ] },
-						"west": { "texture": "#spindle", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
-						"up": { "texture": "#spindle", "uv": [ 0.0, 0.0, 2.0, 1.5 ] },
-						"down": { "texture": "#spindle", "uv": [ 0.0, 0.0, 2.0, 1.5 ] }
-					},
-					"children": [
-						{
-							"name": "Cube7",
-							"from": [ 0.25, 0.8, 0.25 ], 
-							"to": [ 1.25, 1.8, 1.25 ], 
-							"faces": {
-								"north": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] },
-								"east": { "texture": "#spindle", "uv": [ 2.5, 6.5, 3.5, 7.5 ] },
-								"south": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] },
-								"west": { "texture": "#spindle", "uv": [ 2.5, 6.5, 3.5, 7.5 ] },
-								"up": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] },
-								"down": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] }
-							}
-						}
-					]
-				}
-			]
-		}
-	]}
+  "editor": {
+    "allAngles": true,
+    "entityTextureMode": false
+  },
+  "textureWidth": 8,
+  "textureHeight": 8,
+  "textureSizes": {
+  },
+  "textures": {
+    "spindle": "wildcraftfruit:items/fruit/spindle"
+  },
+  "elements": [
+    {
+      "name": "origin",
+      "from": [ 8.0, 0.0, 8.0 ],
+      "to": [ 8.0, 0.0, 8.0 ],
+      "rotationOrigin": [ 8.0, 0.0, 8.0 ],
+      "faces": {
+        "north": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+        "east": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+        "south": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+        "west": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+        "up": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+        "down": { "texture": "#spindle", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+      },
+      "children": [
+        {
+          "name": "berry1",
+          "from": [ -1.0, 0.0, -1.65 ],
+          "to": [ 1.0, 1.5, -0.15 ],
+          "rotationOrigin": [ 0.0, 0.75, -0.95 ],
+          "rotationX": 8.0,
+          "rotationY": 3.0,
+          "faces": {
+            "north": { "texture": "#spindle", "uv": [ 6.0, 3.0, 8.0, 4.5 ] },
+            "east": { "texture": "#spindle", "uv": [ 6.0, 3.0, 7.5, 4.5 ] },
+            "south": { "texture": "#spindle", "uv": [ 6.0, 3.0, 8.0, 4.5 ] },
+            "west": { "texture": "#spindle", "uv": [ 6.0, 3.0, 7.5, 4.5 ] },
+            "up": { "texture": "#spindle", "uv": [ 6.0, 4.0, 8.0, 5.5 ] },
+            "down": { "texture": "#spindle", "uv": [ 6.0, 3.0, 8.0, 4.5 ] }
+          },
+          "children": [
+            {
+              "name": "Cube6",
+              "from": [ 0.25, 0.8, 0.25 ],
+              "to": [ 1.25, 1.8, 1.25 ],
+              "rotationOrigin": [ 0.0, 1.0, 0.0 ],
+              "faces": {
+                "north": { "texture": "#spindle", "uv": [ 2.5, 6.5, 3.5, 7.5 ] },
+                "east": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] },
+                "south": { "texture": "#spindle", "uv": [ 2.5, 7.0, 3.5, 8.0 ] },
+                "west": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] },
+                "up": { "texture": "#spindle", "uv": [ 2.5, 7.0, 3.5, 8.0 ] },
+                "down": { "texture": "#spindle", "uv": [ 2.5, 6.5, 3.5, 7.5 ] }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube1",
+          "from": [ -1.0, 0.0, 0.45 ],
+          "to": [ 1.0, 1.5, 1.95 ],
+          "rotationOrigin": [ 0.0, 0.75, 1.15 ],
+          "rotationX": -4.0,
+          "rotationY": 169.0,
+          "faces": {
+            "north": { "texture": "#spindle", "uv": [ 0.0, 0.0, 2.0, 1.5 ] },
+            "east": { "texture": "#spindle", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+            "south": { "texture": "#spindle", "uv": [ 0.0, 0.0, 2.0, 1.5 ] },
+            "west": { "texture": "#spindle", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+            "up": { "texture": "#spindle", "uv": [ 0.0, 0.0, 2.0, 1.5 ] },
+            "down": { "texture": "#spindle", "uv": [ 0.0, 0.0, 2.0, 1.5 ] }
+          },
+          "children": [
+            {
+              "name": "Cube7",
+              "from": [ 0.25, 0.8, 0.25 ],
+              "to": [ 1.25, 1.8, 1.25 ],
+              "faces": {
+                "north": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] },
+                "east": { "texture": "#spindle", "uv": [ 2.5, 6.5, 3.5, 7.5 ] },
+                "south": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] },
+                "west": { "texture": "#spindle", "uv": [ 2.5, 6.5, 3.5, 7.5 ] },
+                "up": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] },
+                "down": { "texture": "#spindle", "uv": [ 2.5, 6.0, 3.5, 7.0 ] }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]}

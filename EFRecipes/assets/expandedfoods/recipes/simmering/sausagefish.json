@@ -1,110 +1,110 @@
 ﻿[
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagefish-*-raw",
-				quantity: 1,
-				"name": "type"
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagefish-{type}-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagefish-*-partbaked",
-				quantity: 1,
-				"name": "type"
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagefish-{type}-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagefish-*-dried",
-				quantity: 1,
-				"name": "type"
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagefish-{type}-driedcooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagefish-*-driedpartbaked",
-				quantity: 1,
-				"name": "type"
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagefish-{type}-driedcooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
+  {
+    "ingredients": [
+      {
+      "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausagefish-*-raw",
+        "quantity": 1,
+        "name": "type"
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:sausagefish-{type}-cooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+      "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausagefish-*-partbaked",
+        "quantity": 1,
+        "name": "type"
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:sausagefish-{type}-cooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+      "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausagefish-*-dried",
+        "quantity": 1,
+        "name": "type"
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:sausagefish-{type}-driedcooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+      "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausagefish-*-driedpartbaked",
+        "quantity": 1,
+        "name": "type"
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:sausagefish-{type}-driedcooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
 ]

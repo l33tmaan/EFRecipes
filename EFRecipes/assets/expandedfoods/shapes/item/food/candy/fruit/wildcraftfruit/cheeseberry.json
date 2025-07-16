@@ -1,116 +1,116 @@
 {
-	"editor": {
-		"allAngles": false,
-		"entityTextureMode": false
-	},
-	"textureWidth": 16,
-	"textureHeight": 16,
-	"textureSizes": {
-		"cheeseberrysyrup": [8,8],
-		"cheeseberry": [16,16]
-	},
-	"textures": {
-		"cheeseberrysyrup": "game:item/gelatin/cheeseberry",
-		"cheeseberry": "wildcraftfruit:items/fruit/cheeseberry"
-	},
-	"elements": [
-		{
-			"name": "Apricot",
-			"from": [ 5.3, 0.1, 9.0 ], 
-			"to": [ 6.8, 2.6, 11.5 ], 
-			"rotationOrigin": [ 5.3, 0.1, 9.0 ],
-			"rotationX": -177.0,
-			"rotationY": -22.5,
-			"rotationZ": -90.0,
-			"faces": {
-				"north": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"east": { "texture": "#cheeseberry", "uv": [ 0.0, 6.0, 5.0, 11.0 ], "autoUv": false },
-				"south": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"west": { "texture": "#cheeseberry", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
-				"up": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"down": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false }
-			},
-			"children": [
-				{
-					"name": "Cube1",
-					"from": [ -0.25, -0.25, -0.25 ], 
-					"to": [ 1.75, 2.75, 2.75 ], 
-					"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-					"faces": {
-						"north": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"east": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"south": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"west": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"down": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-					}
-				}
-			]
-		},
-		{
-			"name": "Apricot6",
-			"from": [ 6.1, 2.1, 6.6 ], 
-			"to": [ 7.6, 4.6, 9.1 ], 
-			"rotationOrigin": [ 8.1, 2.1, 8.6 ],
-			"rotationX": -176.0,
-			"rotationY": 22.5,
-			"rotationZ": -90.0,
-			"faces": {
-				"north": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"east": { "texture": "#cheeseberry", "uv": [ 0.0, 6.0, 5.0, 11.0 ], "autoUv": false },
-				"south": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"west": { "texture": "#cheeseberry", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
-				"up": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"down": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false }
-			},
-			"children": [
-				{
-					"name": "Cube5",
-					"from": [ -0.25, -0.25, -0.25 ], 
-					"to": [ 1.75, 2.75, 2.75 ], 
-					"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-					"faces": {
-						"north": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"east": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"south": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"west": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"down": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-					}
-				}
-			]
-		},
-		{
-			"name": "Apricot11",
-			"from": [ 6.5, 2.1, 5.5 ], 
-			"to": [ 8.0, 4.6, 8.0 ], 
-			"rotationOrigin": [ 8.5, 2.1, 7.5 ],
-			"rotationX": 6.0,
-			"rotationY": -98.0,
-			"rotationZ": 90.0,
-			"faces": {
-				"north": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"east": { "texture": "#cheeseberry", "uv": [ 0.0, 6.0, 5.0, 11.0 ], "autoUv": false },
-				"south": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"west": { "texture": "#cheeseberry", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
-				"up": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"down": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false }
-			},
-			"children": [
-				{
-					"name": "Cube6",
-					"from": [ -0.25, -0.25, -0.25 ], 
-					"to": [ 1.75, 2.75, 2.75 ], 
-					"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-					"faces": {
-						"north": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"east": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"south": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"west": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"down": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-					}
-				}
-			]
-		}
-	]}
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "cheeseberrysyrup": [ 8,8],
+    "cheeseberry": [ 16,16]
+  },
+  "textures": {
+    "cheeseberrysyrup": "game:item/gelatin/cheeseberry",
+    "cheeseberry": "wildcraftfruit:items/fruit/cheeseberry"
+  },
+  "elements": [
+    {
+      "name": "Apricot",
+      "from": [ 5.3, 0.1, 9.0 ],
+      "to": [ 6.8, 2.6, 11.5 ],
+      "rotationOrigin": [ 5.3, 0.1, 9.0 ],
+      "rotationX": -177.0,
+      "rotationY": -22.5,
+      "rotationZ": -90.0,
+      "faces": {
+        "north": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "east": { "texture": "#cheeseberry", "uv": [ 0.0, 6.0, 5.0, 11.0 ], "autoUv": false },
+        "south": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "west": { "texture": "#cheeseberry", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
+        "up": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "down": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false }
+      },
+      "children": [
+        {
+          "name": "Cube1",
+          "from": [ -0.25, -0.25, -0.25 ],
+          "to": [ 1.75, 2.75, 2.75 ],
+          "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+          "faces": {
+            "north": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "east": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "south": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "west": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "down": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Apricot6",
+      "from": [ 6.1, 2.1, 6.6 ],
+      "to": [ 7.6, 4.6, 9.1 ],
+      "rotationOrigin": [ 8.1, 2.1, 8.6 ],
+      "rotationX": -176.0,
+      "rotationY": 22.5,
+      "rotationZ": -90.0,
+      "faces": {
+        "north": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "east": { "texture": "#cheeseberry", "uv": [ 0.0, 6.0, 5.0, 11.0 ], "autoUv": false },
+        "south": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "west": { "texture": "#cheeseberry", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
+        "up": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "down": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false }
+      },
+      "children": [
+        {
+          "name": "Cube5",
+          "from": [ -0.25, -0.25, -0.25 ],
+          "to": [ 1.75, 2.75, 2.75 ],
+          "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+          "faces": {
+            "north": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "east": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "south": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "west": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "down": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Apricot11",
+      "from": [ 6.5, 2.1, 5.5 ],
+      "to": [ 8.0, 4.6, 8.0 ],
+      "rotationOrigin": [ 8.5, 2.1, 7.5 ],
+      "rotationX": 6.0,
+      "rotationY": -98.0,
+      "rotationZ": 90.0,
+      "faces": {
+        "north": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "east": { "texture": "#cheeseberry", "uv": [ 0.0, 6.0, 5.0, 11.0 ], "autoUv": false },
+        "south": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "west": { "texture": "#cheeseberry", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
+        "up": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "down": { "texture": "#cheeseberry", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false }
+      },
+      "children": [
+        {
+          "name": "Cube6",
+          "from": [ -0.25, -0.25, -0.25 ],
+          "to": [ 1.75, 2.75, 2.75 ],
+          "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+          "faces": {
+            "north": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "east": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "south": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "west": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "down": { "texture": "#cheeseberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+          }
+        }
+      ]
+    }
+  ]}

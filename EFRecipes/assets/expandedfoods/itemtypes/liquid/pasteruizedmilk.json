@@ -1,50 +1,50 @@
 {
-	code: "pasteurizedmilkportion",
-	class: "ItemLiquidPortion",
-	matterState: "liquid",
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
-		},
-		inBowlShape: { base: "game:block/meal/liquid" },
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-			isopaque: true,
-			texture: { base: "game:block/food/dairy/milk" },
-			allowSpill: true,
-			whenSpilled: { 
-				action: "DropContents",
-				stack: { type: "item", code: "pasteurizedmilkportion" } 
-			},
-			nutritionPropsPerLitre: {
-				saturation: 115,
-				health: 1,
-				foodcategory: "Dairy"
-			}
-		}
-	},
-	shape: { base: "game:item/liquid" },
-	texture: { base: "game:block/food/dairy/milk" },
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:pasteurizedmilkportion", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	transitionableProps: [{
-		type: "Perish",
-		freshHours: { avg: 120 },
-		transitionHours: { avg: 120 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.002
-	}],
-	nutritionProps: {
-		saturation: 1.15, health: 0.01, foodcategory: "Dairy"
-	},
-	guiTransform: {
-		rotation: { x: 123, y: -33, z: -13 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
-	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 }
-	}
+  "code": "pasteurizedmilkportion",
+  "class": "ItemLiquidPortion",
+ "matterState": "liquid",
+  "attributes": {
+   "handbook": {
+     "ignoreCreativeInvStacks": true
+    },
+   "inBowlShape": { "base": "game:block/meal/liquid" },
+   "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+     "isopaque": true,
+      "texture": { "base": "game:block/food/dairy/milk" },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": { "type": "item", "code": "pasteurizedmilkportion" }
+      },
+     "nutritionPropsPerLitre": {
+        "saturation": 115,
+        "health": 1,
+        "foodCategory": "Dairy"
+      }
+    }
+  },
+  "shape": { "base": "game:item/liquid" },
+  "texture": { "base": "game:block/food/dairy/milk" },
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:pasteurizedmilkportion", "makefull": true } ] } } ] } ],
+  "maxStackSize": 5000,
+  "materialDensity": 200,
+  "transitionableProps": [ {
+    "type": "Perish",
+    "freshHours": { "avg": 120 },
+    "transitionHours": { "avg": 120 },
+    "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 0.002
+  }],
+  "nutritionProps": {
+    "saturation": 1.15, "health": 0.01, "foodCategory": "Dairy"
+  },
+  "guiTransform": {
+    "rotation": { "x": 123, "y": -33, "z": -13 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.5, "y": -1, "z": -1.4 }
+  }
 }

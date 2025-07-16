@@ -1,60 +1,60 @@
 [
  {
-  ingredients: [
-    {inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkfullportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggwhiteportion", quantity: 10 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
-    {inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
-    {inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:bushmeat-cured", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-bushmeat-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-cut", quantity: 1, name: "meat" }]},
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "game:honeyportion", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce", "quantity": 10 } ]},
+    { "inputs": [ { "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    { "inputs": [ { "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:bushmeat-cured", "quantity": 1 }, { "type": "item", "code": "expandedfoods:meatnugget-bushmeat-smashed", "quantity": 1 }, { "type": "item", "code": "expandedfoods:agedmeat-bushmeat-cut", "quantity": 1, "name": "meat" }]},
   ],
-  output: { type: "item", code: "expandedfoods:breadedmeatnugget-{grain}-bushmeat-smashed", stackSize: 1}
+  "output": { "type": "item", "code": "expandedfoods:breadedmeatnugget-{grain}-bushmeat-smashed", "ingredients": 1}
  },
  {
-  ingredients: [
-    {inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkfullportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggwhiteportion", quantity: 10 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
-    {inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
-    {inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:bushmeat-cured", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-bushmeat-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-cut", quantity: 1, name: "meat" }]},
-    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]}
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "game:honeyportion", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce", "quantity": 10 } ]},
+    { "inputs": [ { "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    { "inputs": [ { "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:bushmeat-cured", "quantity": 1 }, { "type": "item", "code": "expandedfoods:meatnugget-bushmeat-smashed", "quantity": 1 }, { "type": "item", "code": "expandedfoods:agedmeat-bushmeat-cut", "quantity": 1, "name": "meat" }]},
+    { "inputs": [ { "type": "item", "code": "game:salt", "quantity": 1 }]}
   ],
-  output: { type: "item", code: "expandedfoods:breadedmeatnugget-{grain}-bushmeat-smashed", stackSize: 1}
+  "output": { "type": "item", "code": "expandedfoods:breadedmeatnugget-{grain}-bushmeat-smashed", "ingredients": 1}
  },
  {
-  ingredients: [
-    {inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkfullportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggwhiteportion", quantity: 10 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
-    {inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
-    {inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:poultry-cured", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-poultry-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-cut", quantity: 1, name: "meat" }]}
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "game:honeyportion", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce", "quantity": 10 } ]},
+    { "inputs": [ { "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    { "inputs": [ { "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:poultry-cured", "quantity": 1 }, { "type": "item", "code": "expandedfoods:meatnugget-poultry-smashed", "quantity": 1 }, { "type": "item", "code": "expandedfoods:agedmeat-poultry-cut", "quantity": 1, "name": "meat" }]}
   ],
-  output: { type: "item", code: "expandedfoods:breadedmeatnugget-{grain}-poultry-smashed", stackSize: 1}
+  "output": { "type": "item", "code": "expandedfoods:breadedmeatnugget-{grain}-poultry-smashed", "ingredients": 1}
  },
  {
-  ingredients: [
-    {inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkfullportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggwhiteportion", quantity: 10 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
-    {inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
-    {inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:poultry-cured", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-poultry-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-cut", quantity: 1, name: "meat" }]},
-    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]}
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "game:honeyportion", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce", "quantity": 10 } ]},
+    { "inputs": [ { "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    { "inputs": [ { "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:poultry-cured", "quantity": 1 }, { "type": "item", "code": "expandedfoods:meatnugget-poultry-smashed", "quantity": 1 }, { "type": "item", "code": "expandedfoods:agedmeat-poultry-cut", "quantity": 1, "name": "meat" }]},
+    { "inputs": [ { "type": "item", "code": "game:salt", "quantity": 1 }]}
   ],
-  output: { type: "item", code: "expandedfoods:breadedmeatnugget-{grain}-poultry-smashed", stackSize: 1}
+  "output": { "type": "item", "code": "expandedfoods:breadedmeatnugget-{grain}-poultry-smashed", "ingredients": 1}
  },
  {
-  ingredients: [
-    {inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkfullportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggwhiteportion", quantity: 10 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
-    {inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
-    {inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:redmeat-cured", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-redmeat-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-cut", quantity: 1, name: "meat" }]},
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "game:honeyportion", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce", "quantity": 10 } ]},
+    { "inputs": [ { "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    { "inputs": [ { "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:redmeat-cured", "quantity": 1 }, { "type": "item", "code": "expandedfoods:meatnugget-redmeat-smashed", "quantity": 1 }, { "type": "item", "code": "expandedfoods:agedmeat-redmeat-cut", "quantity": 1, "name": "meat" }]},
   ],
-  output: { type: "item", code: "expandedfoods:breadedmeatnugget-{grain}-redmeat-smashed", stackSize: 1}
+  "output": { "type": "item", "code": "expandedfoods:breadedmeatnugget-{grain}-redmeat-smashed", "ingredients": 1}
  },
  {
-  ingredients: [
-    {inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkfullportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggyolkportion-*", quantity: 10 }, { type: "item", code: "aculinaryartillery:eggwhiteportion", quantity: 10 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
-    {inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
-    {inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:redmeat-cured", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-redmeat-smashed", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-cut", quantity: 1, name: "meat" }]},
-    {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]}
+  "ingredients": [
+    { "inputs": [ { "type": "item", "code": "game:honeyportion", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }, { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "quantity": 10 }, { "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*", "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter", "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce", "quantity": 10 } ]},
+    { "inputs": [ { "type": "item", "code": "expandedfoods:breadcrumbs-*", "quantity": 1, "name": "grain" }]},
+    { "inputs": [ { "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+    { "inputs": [ { "type": "item", "code": "game:redmeat-cured", "quantity": 1 }, { "type": "item", "code": "expandedfoods:meatnugget-redmeat-smashed", "quantity": 1 }, { "type": "item", "code": "expandedfoods:agedmeat-redmeat-cut", "quantity": 1, "name": "meat" }]},
+    { "inputs": [ { "type": "item", "code": "game:salt", "quantity": 1 }]}
   ],
-  output: { type: "item", code: "expandedfoods:breadedmeatnugget-{grain}-redmeat-smashed", stackSize: 1}
+  "output": { "type": "item", "code": "expandedfoods:breadedmeatnugget-{grain}-redmeat-smashed", "ingredients": 1}
  }
 ]
 

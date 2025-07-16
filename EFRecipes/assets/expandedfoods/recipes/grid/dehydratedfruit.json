@@ -1,22 +1,22 @@
 ﻿[
  {
-	ingredientPattern: "F",
-	ingredients: {
-		"F": { type: "item", code: "game:pressedmash-apple" }
-	},
-	width: 1,
-	height: 1,
-	shapeless: false,
-	output: { type: "item", code: "expandedfoods:dehydratedfruit-yellowapple", quantity: 1 }
+ "ingredientPattern": "F",
+  "ingredients": {
+    "F": { "type": "item", "code": "game:pressedmash-apple" }
+  },
+ "width": 1,
+ "height": 1,
+ "shapeless": false,
+  "output": { "type": "item", "code": "expandedfoods:dehydratedfruit-yellowapple", "quantity": 1 }
  },
  {
-	ingredientPattern: "F",
-	ingredients: {
-		"F": { type: "item", code: "game:pressedmash-*", "allowedVariants": [ "blueberry", "cranberry", "blackcurrant", "redcurrant", "whitecurrant", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "saguaro" ], "name": "fruit" }
-	},
-	width: 1,
-	height: 1,
-	shapeless: false,
-	output: { type: "item", code: "expandedfoods:dehydratedfruit-{fruit}", quantity: 1 }
+ "ingredientPattern": "F",
+  "ingredients": {
+    "F": { "type": "item", "code": "game:pressedmash-*", "allowedVariants": [ "blueberry", "cranberry", "blackcurrant", "redcurrant", "whitecurrant", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "saguaro" ], "name": "fruit" }
+  },
+ "width": 1,
+ "height": 1,
+ "shapeless": false,
+  "output": { "type": "item", "code": "expandedfoods:dehydratedfruit-{fruit}", "quantity": 1 }
  }
 ]

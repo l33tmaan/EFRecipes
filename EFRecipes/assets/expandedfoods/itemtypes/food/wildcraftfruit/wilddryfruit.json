@@ -1,654 +1,654 @@
 {
-	code: "wilddryfruit",
-	maxstacksize: 64,
-	variantgroups: [
-		{ code: "type", "loadFromProperties": "wildcraftfruit:block/fruit", "states": ["sumac", "juniper"] },
-	],
-	skipVariants: ["*-cashewwhole"],
-	materialDensityByType: {"*": 600},
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		"handbook": { "groupBy": [ "wilddryfruit-*" ] },
-		nutritionPropsWhenInMeal: { 
-			satietyByType: {
-				"*-pomelo": 160,
-				"@*-(cloudberry|gardenstrawberry|knyazberry|pittedcherry)": 120,
-				"@*-(brambleberry|gooseberry|honeysuckle|raspberry|blueraspberry|quince|jujube|apricot|fig|ugni|guajava|redgrape|whitegrape|foxgrape|numnum|naranjilla|pittedapticot|pittedbreadfruit|strawberry|roseapple|munthari|pittedbeachalmond|lillypillypink|lillypillywhite|lillypillyblue|achacha|cocoa|lemon)": 105,
-				"@*-(wolfberry|bitternightshade|husktomato|huckleberry|hawthorn|purpleplum|cherryplum|citron|feijoa|sallowthorn|kumquat|lingonberry|loquat|turkscap|rowanberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|pittedchinaberry|jujube|blacknightshadeunripe|chinaberry|kakaha)": 80,
-				"@*-(spindle|crowseye|snowberry|pokeberry|juniper|coralbead|bunchberry|crowberry|dogrose|elderberry|beautyberry|falsestrawberry|sumac|fractureberry|virgingrape|silvernettle|pandanbits|seamango)": 55,
-				"@*-(bunchberry|crowberry|dogrose|elderberry|beautyberry|falsestrawberry|sumac|fractureberry|virgingrape|silvernettle|pandanbits|bluetongue|rubysaltbush|pineheath|beachalmondwhole|illawarra|honeypots|cheeseberry|creepingpine|pilo|mingimingi)": 60,
-				"*-falseorange": 90,
-				"*": 80,
-			},
+  "code": "wilddryfruit",
+  "maxStackSize": 64,
+  "variantGroups": [
+    { "code": "type", "loadFromProperties": "wildcraftfruit:block/fruit", "states": [ "sumac", "juniper" ] },
+  ],
+ "skipVariants": [ "*-cashewwhole" ],
+ "materialDensityByType": {"*": 600},
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+    "handbook": { "groupBy": [ "wilddryfruit-*" ] },
+    "nutritionPropsWhenInMeal": {
+      "satietyByType": {
+        "*-pomelo": 160,
+        "@*-(cloudberry|gardenstrawberry|knyazberry|pittedcherry)": 120,
+        "@*-(brambleberry|gooseberry|honeysuckle|raspberry|blueraspberry|quince|jujube|apricot|fig|ugni|guajava|redgrape|whitegrape|foxgrape|numnum|naranjilla|pittedapticot|pittedbreadfruit|strawberry|roseapple|munthari|pittedbeachalmond|lillypillypink|lillypillywhite|lillypillyblue|achacha|cocoa|lemon)": 105,
+        "@*-(wolfberry|bitternightshade|husktomato|huckleberry|hawthorn|purpleplum|cherryplum|citron|feijoa|sallowthorn|kumquat|lingonberry|loquat|turkscap|rowanberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|pittedchinaberry|jujube|blacknightshadeunripe|chinaberry|kakaha)": 80,
+        "@*-(spindle|crowseye|snowberry|pokeberry|juniper|coralbead|bunchberry|crowberry|dogrose|elderberry|beautyberry|falsestrawberry|sumac|fractureberry|virgingrape|silvernettle|pandanbits|seamango)": 55,
+        "@*-(bunchberry|crowberry|dogrose|elderberry|beautyberry|falsestrawberry|sumac|fractureberry|virgingrape|silvernettle|pandanbits|bluetongue|rubysaltbush|pineheath|beachalmondwhole|illawarra|honeypots|cheeseberry|creepingpine|pilo|mingimingi)": 60,
+        "*-falseorange": 90,
+        "*": 80,
+      },
             "healthByType": {
-				"*-cloudberry": 0.5,
+        "*-cloudberry": 0.5,
                 "*-wolfberry": -12,
                 "*-bitternightshade": -8,
-				"*-spindle": -7,
-				"*-crowseye": -20,
-				"*-seamango": -15,
+        "*-spindle": -7,
+        "*-crowseye": -20,
+        "*-seamango": -15,
                 "@*-(snowberry|pokeberry)": -1,
-				"*-husktomato": 0.25,
-				"@*-(juniper|rowanberry)": -0.25,
-				"*-coralbead": -0.5,
-				"*-blacknightshadeunripe": -4,
-				"*-chinaberry": -9,
+        "*-husktomato": 0.25,
+        "@*-(juniper|rowanberry)": -0.25,
+        "*-coralbead": -0.5,
+        "*-blacknightshadeunripe": -4,
+        "*-chinaberry": -9,
             },
-            foodcategory: "Fruit" 
-		},
-		bakingPropertiesByType: {
-			"*-sumac": {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 1.0,
-				startScaleY: 0.8,
-				endScaleY: 0.8,
-				initialCode: "wildcraftfruit:nut-sumac",
-			},
-			"*-juniper": {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 1.0,
-				startScaleY: 0.8,
-				endScaleY: 0.8,
-				initialCode: "wildcraftfruit:nut-juniper",
-			},
-			"*": {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 1.0,
-				startScaleY: 0.8,
-				endScaleY: 0.8,
-				initialCode: "wildcraftfruit:fruit-{type}",
-			},
-		},
-		"inPiePropertiesByType": {
-			"*-pittedcherry": {
-				texture: "game:block/food/pie/fill-cherry",
-				partType: 'Filling'
-			},
-			"*-pittedbreadfruit": {
-				texture: "game:block/food/pie/fill-breadfruit",
-				partType: 'Filling'
-			},
-			"*-pittedapricot": {
-				texture: "wildcraftfruit:block/food/pie/fill-apricot",
-				partType: 'Filling'
-			},
-			"*-lillypillywhite": {
-				texture: "wildcraftfruit:block/food/pie/fill-lillypillypink",
-				partType: 'Filling'
-			},
-			"*-lillypillyblue": {
-				texture: "wildcraftfruit:block/food/pie/fill-lillypillypink",
-				partType: 'Filling'
-			},
-			"*-lemon": {
-				texture: "wildcraftfruit:block/food/pie/fill-citron",
-				partType: 'Filling'
-			},
-			"*": {
-				"texture": "wildcraftfruit:block/food/pie/fill-{type}",
-				"partType": 'Filling'
-			}
-		},
-		onDisplayTransformByType: {
-			"*": { 
-				translation: { x: 0.0, y: -0.155, z: 0.0 },
-				scale: 0.67
-			},
-		},
-		"inContainerTextureByType": {
-			"*-pittedcherry": {
-				texture: "game:block/food/pie/fill-cherry",
-			},
-			"*-pittedbreadfruit": {
-				texture: "game:block/food/pie/fill-breadfruit",
-			},
-			"*-pittedapricot": {
-				texture: "wildcraftfruit:block/food/pie/fill-apricot",
-			},
-			"*-lillypillywhite": {
-				texture: "wildcraftfruit:block/food/pie/fill-lillypillypink",
-			},
-			"*-lillypillyblue": {
-				texture: "wildcraftfruit:block/food/pie/fill-lillypillypink",
-			},
-			"*-lemon": {
-				texture: "wildcraftfruit:block/food/pie/fill-citron",
-			},
-			"*": {
-				"texture": "wildcraftfruit:block/food/pie/fill-{type}",
-			}
-		},
-	},
-	shapebytype: { 
-		"*": { base: "item/food/dryfruit/wildcraftfruit/{type}" }
-	},
-	texturesByType: {
-		"*": {
-			all: { base: "item/food/dryfruit/wildcraftfruit/{type}" },
-			"achacha": { "base": "item/food/dryfruit/wildcraftfruit/achacha" },
-			"almond": { "base": "item/food/dryfruit/wildcraftfruit/almond" },
-			"apricot": { "base": "item/food/dryfruit/wildcraftfruit/apricot" },
-			"beautyberry": { "base": "item/food/dryfruit/wildcraftfruit/beautyberry" },
-			"beachalmondwhole": { "base": "item/food/dryfruit/wildcraftfruit/beachalmondwhole" },
-			"bitternightshade": { "base": "item/food/dryfruit/wildcraftfruit/bitternightshade" },
-			"blacknightshade": { "base": "item/food/dryfruit/wildcraftfruit/blacknightshade" },
-			"blueraspberry": { "base": "item/food/dryfruit/wildcraftfruit/blueraspberry" },
-			"bluetongue": { "base": "item/food/dryfruit/wildcraftfruit/bluetongue" },
-			"brambleberry": { "base": "item/food/dryfruit/wildcraftfruit/brambleberry" },
-			"bunchberry": { "base": "item/food/dryfruit/wildcraftfruit/bunchberry" },
-			"bushlawyer": { "base": "item/food/dryfruit/wildcraftfruit/bushlawyer" },
-			"cashewapple": { "base": "item/food/dryfruit/wildcraftfruit/cashewapple" },
-			"cashewwhole": { "base": "item/food/dryfruit/wildcraftfruit/cashewwhole" },
-			"cheeseberry": { "base": "item/food/dryfruit/wildcraftfruit/cheeseberry" },
-			"cherryplum": { "base": "item/food/dryfruit/wildcraftfruit/cherryplum" },
-			"chinaberry": { "base": "item/food/dryfruit/wildcraftfruit/chinaberry" },
-			"citron": { "base": "item/food/dryfruit/wildcraftfruit/citron" },
-			"cloudberry": { "base": "item/food/dryfruit/wildcraftfruit/cloudberry" },
-			"cocoa": { "base": "item/food/dryfruit/wildcraftfruit/cocoa" },
-			"commonhackberry": { "base": "item/food/dryfruit/wildcraftfruit/commonhackberry" },
-			"coralbead": { "base": "item/food/dryfruit/wildcraftfruit/coralbead" },
-			"creepingpine": { "base": "item/food/dryfruit/wildcraftfruit/creepingpine" },
-			"crowberry": { "base": "item/food/dryfruit/wildcraftfruit/crowberry" },
-			"crowseye": { "base": "item/food/dryfruit/wildcraftfruit/crowseye" },
-			"dogrose": { "base": "item/food/dryfruit/wildcraftfruit/dogrose" },
-			"elderberry": { "base": "item/food/dryfruit/wildcraftfruit/elderberry" },
-			"engkala": { "base": "item/food/dryfruit/wildcraftfruit/engkala" },
-			"falseorange": { "base": "item/food/dryfruit/wildcraftfruit/falseorange" },
-			"falsestrawberry": { "base": "item/food/dryfruit/wildcraftfruit/falsestrawberry" },
-			"feijoa": { "base": "item/food/dryfruit/wildcraftfruit/feijoa" },
-			"fig": { "base": "item/food/dryfruit/wildcraftfruit/fig" },
-			"fingerlime": { "base": "item/food/dryfruit/wildcraftfruit/fingerlime" },
-			"flaxlily": { "base": "item/food/dryfruit/wildcraftfruit/flaxlily" },
-			"foxgrape": { "base": "item/food/dryfruit/wildcraftfruit/foxgrape" },
-			"fractureberry": { "base": "item/food/dryfruit/wildcraftfruit/fractureberry" },
-			"gardenstrawberry": { "base": "item/food/dryfruit/wildcraftfruit/gardenstrawberry" },
-			"gooseberry": { "base": "item/food/dryfruit/wildcraftfruit/gooseberry" },
-			"guajava": { "base": "item/food/dryfruit/wildcraftfruit/guajava" },
-			"hawthorn": { "base": "item/food/dryfruit/wildcraftfruit/hawthorn" },
-			"hazelnut": { "base": "item/food/dryfruit/wildcraftfruit/hazelnut" },
-			"honeypots": { "base": "item/food/dryfruit/wildcraftfruit/honeypots" },
-			"honeysuckle": { "base": "item/food/dryfruit/wildcraftfruit/honeysuckle" },
-			"huckleberry": { "base": "item/food/dryfruit/wildcraftfruit/huckleberry" },
-			"husktomato": { "base": "item/food/dryfruit/wildcraftfruit/husktomato" },
-			"illawarra": { "base": "item/food/dryfruit/wildcraftfruit/illawarra" },
-			"jujube": { "base": "item/food/dryfruit/wildcraftfruit/jujube" },
-			"juniper": { "base": "item/food/dryfruit/wildcraftfruit/juniper" },
-			"kakaha": { "base": "item/food/dryfruit/wildcraftfruit/kakaha" },
-			"kawakawa": { "base": "item/food/dryfruit/wildcraftfruit/kawakawa" },
-			"knyazberry": { "base": "item/food/dryfruit/wildcraftfruit/knyazberry" },
-			"kumquat": { "base": "item/food/dryfruit/wildcraftfruit/kumquat" },
-			"lemon": { "base": "item/food/dryfruit/wildcraftfruit/lemon" },
-			"lemonaspen": { "base": "item/food/dryfruit/wildcraftfruit/lemonaspen" },
-			"lillypillyblue": { "base": "item/food/dryfruit/wildcraftfruit/lillypillyblue" },
-			"lillypillypink": { "base": "item/food/dryfruit/wildcraftfruit/lillypillypink" },
-			"lillypillywhite": { "base": "item/food/dryfruit/wildcraftfruit/lillypillywhite" },
-			"lingonberry": { "base": "item/food/dryfruit/wildcraftfruit/lingonberry" },
-			"loquat": { "base": "item/food/dryfruit/wildcraftfruit/loquat" },
-			"midyimberry": { "base": "item/food/dryfruit/wildcraftfruit/midyimberry" },
-			"mingimingi": { "base": "item/food/dryfruit/wildcraftfruit/mingimingi" },
-			"munthari": { "base": "item/food/dryfruit/wildcraftfruit/munthari" },
-			"naranjilla": { "base": "item/food/dryfruit/wildcraftfruit/naranjilla" },
-			"numnum": { "base": "item/food/dryfruit/wildcraftfruit/numnum" },
-			"pandanbits": { "base": "item/food/dryfruit/wildcraftfruit/pandanbits" },
-			"pineheath": { "base": "item/food/dryfruit/wildcraftfruit/pineheath" },
-			"pilo": { "base": "item/food/dryfruit/wildcraftfruit/pilo" },
-			"pittedapricot": { "base": "item/food/dryfruit/wildcraftfruit/pittedapricot" },
-			"pittedbreadfruit": { "base": "item/food/dryfruit/wildcraftfruit/pittedbreadfruit" },
-			"pittedcherry": { "base": "item/food/dryfruit/wildcraftfruit/pittedcherry" },
-			"pittedchinaberry": { "base": "item/food/dryfruit/wildcraftfruit/pittedchinaberry" },
-			"pokeberry": { "base": "item/food/dryfruit/wildcraftfruit/pokeberry" },
-			"pomelo": { "base": "item/food/dryfruit/wildcraftfruit/pomelo" },
-			"pricklyheath": { "base": "item/food/dryfruit/wildcraftfruit/pricklyheath" },
-			"purpleplum": { "base": "item/food/dryfruit/wildcraftfruit/purpleplum" },
-			"quince": { "base": "item/food/dryfruit/wildcraftfruit/quince" },
-			"raspberry": { "base": "item/food/dryfruit/wildcraftfruit/raspberry" },
-			"redgrape": { "base": "item/food/dryfruit/wildcraftfruit/redgrape" },
-			"redquandong": { "base": "item/food/dryfruit/wildcraftfruit/redquandong" },
-			"roseapple": { "base": "item/food/dryfruit/wildcraftfruit/roseapple" },
-			"rowanberry": { "base": "item/food/dryfruit/wildcraftfruit/rowanberry" },
-			"rubysaltbush": { "base": "item/food/dryfruit/wildcraftfruit/rubysaltbush" },
-			"sallowthorn": { "base": "item/food/dryfruit/wildcraftfruit/sallowthorn" },
-			"seamango": { "base": "item/food/dryfruit/wildcraftfruit/seamango" },
-			"silvernettle": { "base": "item/food/dryfruit/wildcraftfruit/silvernettle" },
-			"snowberry": { "base": "item/food/dryfruit/wildcraftfruit/snowberry" },
-			"spindle": { "base": "item/food/dryfruit/wildcraftfruit/spindle" },
-			"strawberry": { "base": "item/food/dryfruit/wildcraftfruit/strawberry" },
-			"sugarhackberry": { "base": "item/food/dryfruit/wildcraftfruit/sugarhackberry" },
-			"sumac": { "base": "item/food/dryfruit/wildcraftfruit/sumac" },
-			"turkscap": { "base": "item/food/dryfruit/wildcraftfruit/turkscap" },
-			"ugni": { "base": "item/food/dryfruit/wildcraftfruit/ugni" },
-			"virgingrape": { "base": "item/food/dryfruit/wildcraftfruit/virgingrape" },
-			"whitegrape": { "base": "item/food/dryfruit/wildcraftfruit/whitegrape" },
-			"wolfberry": { "base": "item/food/dryfruit/wildcraftfruit/wolfberry" },
-			"fill-apricot": { "base": "item/food/dryfruit/wildcraftfruit/fill-apricot" },
-			"fill-achacha": { "base": "item/food/dryfruit/wildcraftfruit/fill-achacha" },
-			"fill-citron": { "base": "item/food/dryfruit/wildcraftfruit/fill-citron" },
-			"fill-cocoa": { "base": "item/food/dryfruit/wildcraftfruit/fill-cocoa" },
-			"fill-fig": { "base": "item/food/dryfruit/wildcraftfruit/fill-fig" },
-			"fill-hazelnut": { "base": "item/food/dryfruit/wildcraftfruit/fill-hazelnut" },
-			"fill-pomelo": { "base": "item/food/dryfruit/wildcraftfruit/fill-pomelo" },
-			"fill-purpleplum": { "base": "item/food/dryfruit/wildcraftfruit/fill-purpleplum" },
-			"fill-quince": { "base": "item/food/dryfruit/wildcraftfruit/fill-quince" },
-			"fill-cashewapple": { "base": "item/food/dryfruit/wildcraftfruit/fill-cashewapple" },
-			"fill-cherryplum": { "base": "item/food/dryfruit/wildcraftfruit/fill-cherryplum" },
-			"fill-falseorange": { "base": "item/food/dryfruit/wildcraftfruit/fill-falseorange" },
-			"fill-feijoa": { "base": "item/food/dryfruit/wildcraftfruit/fill-feijoa" },
-			"fill-guajava": { "base": "item/food/dryfruit/wildcraftfruit/fill-guajava" },
-			"fill-husktomato": { "base": "item/food/dryfruit/wildcraftfruit/fill-husktomato" },
-			"fill-jujube": { "base": "item/food/dryfruit/wildcraftfruit/fill-jujube" },
-			"fill-kawakawa": { "base": "item/food/dryfruit/wildcraftfruit/fill-kawakawa" },
-			"fill-kumquat": { "base": "item/food/dryfruit/wildcraftfruit/fill-kumquat" },
-			"fill-loquat": { "base": "item/food/dryfruit/wildcraftfruit/fill-loquat" },
-			"fill-pittedbeachalmond": { "base": "item/food/dryfruit/wildcraftfruit/fill-pittedbeachalmond" },
-			"fill-naranjilla": { "base": "item/food/dryfruit/wildcraftfruit/fill-naranjilla" },
-			"fill-numnum": { "base": "item/food/dryfruit/wildcraftfruit/fill-numnum" },
-			"fill-redquandong": { "base": "item/food/dryfruit/wildcraftfruit/fill-redquandong" },
-			"fill-roseapple": { "base": "item/food/dryfruit/wildcraftfruit/fill-roseapple" },
-			"fill-seamango": { "base": "item/food/dryfruit/wildcraftfruit/fill-seamango" },
-		},
-	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"*-pomelo": { satiety: 105, foodcategory: "Fruit" },
-		"@*-(pittedcherry|gardenstrawberry|knyazberry)": { satiety: 90, foodcategory: "Fruit" },
-		"*-cloudberry": { satiety: 90, "health":  0.5, foodcategory: "Fruit" },
-		"@*-(brambleberry|gooseberry|honeysuckle|raspberry|blueraspberry|quince|apricot|fig|guajava|ugni|redgrape|whitegrape|foxgrape|numnum|naranjilla|pittedapticot|strawberry|pittedbreadfruit|roseapple|munthari|pittedbeachalmond|lillypillypink|lillypillywhite|lillypillyblue|achacha|cocoa|lemon)": { satiety: 70, foodcategory: "Fruit" },
-		"*-wolfberry": { satiety: 50, "health":  -12, foodcategory: "Fruit" },
-		"*-seamango": { satiety: 35, "health":  -15, foodcategory: "Fruit" },
-		"*-bitternightshade": { "satiety": 50, "health":  -8, "foodcategory": "Fruit" },
-		"*-blacknightshadeunripe": { "satiety": 50, "health":  -4, "foodcategory": "Fruit" },
-		"*-falseorange": { satiety: 70, "health":  -1, foodcategory: "Fruit" },
-		"*-spindle": { satiety: 25, "health":  -7, foodcategory: "Fruit" },
-		"@*-(snowberry|pokeberry)": { satiety: 35, health: -1, foodcategory: "Fruit" },
-		"*-crowseye": { satiety: 35, health: -20, foodcategory: "Fruit" },
-		"*-coralbead": { satiety: 35, health: -0.5, foodcategory: "Fruit" },
-		"@*-(elderberry|juniper|virgingrape)": { satiety: 35, health: -0.25, foodcategory: "Fruit" },
-		"*-husktomato": { satiety: 50, health: 0.25, foodcategory: "Fruit" },
-		"*-rowanberry": { satiety: 50, health: -0.25, foodcategory: "Fruit" },
-		"*-chinaberry": { satiety: 50, health: -9, foodcategory: "Fruit" },
-		"*-pittedchinaberry": { satiety: 50, health: -0.5, foodcategory: "Fruit" },
-		"@*-(huckleberry|hawthorn|purpleplum|cherryplum|citron|feijoa|sallowthorn|kumquat|turkscap|loquat|lingonberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|jujube|kakaha)": { "satiety": 50, "foodcategory": "Fruit" },
-		"@*-(bunchberry|crowberry|sumac|fractureberry|virgingrape|falsestrawberry|silvernettle|pandanbits|illawarra|rubysaltbush|pineheath|beachalmondwhole|honeypots|creepingpine|cheeseberry|pilo|mingimingi)": { satiety: 35, foodcategory: "Fruit" },
-		"@*-(dogrose|beautyberry|bluetongue)": { satiety: 25, foodcategory: "Fruit" },
-		"*": { satiety: 70, foodcategory: "Fruit" }
-	},
-	"transitionablePropsByType": {
-		"@*-(bunchberry|crowberry|spindle|pomelo|beautyberry|kumquat|guajava|turkscap|rowanberry|fingerlime|lemonaspen|illawarra|seamango|lemon)": [
-			{
-				type: "Perish",
-				freshHours: { avg: 3600 },
-				transitionHours: { avg: 48 },
-				transitionedStack: {
-					"type": "item",
-					"code": "game:rot"
-				},
-				transitionRatio: 0.25
-			},
-		],
-		"@*-(feijoa|husktomato|snowberry|elderberry|lingonberry|virgingrape|blacknightshade|blacknightshadeunripe|bitternightshade|pricklyheath|flaxlily|coralbead|pittedbreadfruit|roseapple|redquandong|pineheath|munthari|midyimberry|lillypillypink|lillypillywhite|lillypillyblue|cheeseberry|honeypots|chinaberry|pittedchinaberry)": [
-			{
-				type: "Perish",
-				freshHours: { avg: 1920 },
-				transitionHours: { avg: 24 },
-				transitionedStack: {
-					"type": "item",
-					"code": "game:rot"
-				},
-				transitionRatio: 0.25
-			},
-		],
-		"*-cloudberry": [
-			{
-				"type": "Perish",
-				"freshHours": { "avg": 0 },
-				"transitionHours": { "avg": 120 },
-				"transitionedStack": {
-					"type": "item",
-					"code": "game:rot"
-				},
-				"transitionRatio": 0.25
-			},
-		],
-		"@*-(strawberry|gardenstrawberry|honeysuckle|cashewwhole|cashewapple|brambleberry|raspberry|blueraspberry|gooseberry|apricot|purpleplum|cherryplum|pokeberry|knyazberry|naranjilla|bushlawyer|kawakawa|pittedcherry|pittedapricot|achacha|rubysaltbush)": [
-			{
-				type: "Perish",
-				freshHours: { avg: 480 },
-				transitionHours: { avg: 12 },
-				transitionedStack: {
-					"type": "item",
-					"code": "game:rot"
-				},
-				transitionRatio: 0.25
-			},
-		],
-		"@*-(wolfberry|huckleberry|fig|sallowthorn|loquat|ugni|redgrape|whitegrape|foxgrape|crowseye|numnum|falsestrawberry|silvernettle|engkala|bluetongue|pittedbeachalmond|beachalmondwhole|creepingpine|pilo|mingimingi|kakaha)": [
-			{
-				type: "Perish",
-				freshHours: { avg: 960 },
-				transitionHours: { avg: 12 },
-				transitionedStack: {
-					"type": "item",
-					"code": "game:rot"
-				},
-				transitionRatio: 0.25
-			},
-		],
-		"@*-(dogrose|jujube|hawthorn|quince|citron|cocoa|falseorange|sumac|juniper|pandanbits)": [
-			{
-				"type": "Perish",
-				"freshHours": { "avg": 9600 },
-				"transitionHours": { "avg": 48 },
-				"transitionedStack": {
-					"type": "item",
-					"code": "game:rot"
-				},
-				"transitionRatio": 0.25
-			},
-		],
-	},
-	guiTransformByType: {
-		"*-pittedbeachalmond": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 143, y: 30, z: 6 },
-			origin: { x: 0.46, y: 0.04, z: 0.55 },
-			scale: 2.4
-		},
-		"@*-(pilo|mingimingi)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 136, y: 128, z: 4 },
-			origin: { x: 0.2, y: -0.26, z: 0.25 },
-			scale: 3.04
-		},
-		"*-kakaha": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 117, y: -4, z: -8 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 3.66
-		},
-		"@*-(almond|commonhackberry|sugarhackberry|hazelnut|lillypillypink|lillypillyblue|lillypillywhite)": {
-			"rotation": { "x": 147, "y": 3, "z": -15 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 2.75
-		},
-		"*-cocoa": {
-			"rotation": { "x": 148, "y": 0, "z": 0 },
-			"origin": { "x": 0.55, "y": 0.1, "z": 0.5 },
-			"scale": 2.75
-		},
-		"@*-(citron|achacha|lemon)": {
-			"rotation": { "x": 110, "y": -20, "z": -20 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 2.75
-		},
-		"@*-(apricot|purpleplum|chinaberry|pittedchinaberry)": {
-			"rotation": { "x": 147, "y": -27, "z": 5 },
-			"origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
-			"scale": 2.75
-		},
-		"@*-(quince|fig|pomelo|munthari|fingerlime)": {
-			"translation": { "x": 0, "y": 5, "z": 0 },
-			"rotation": { "x": 130, "y": -84, "z": -3 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 2.75
-		},
-		"*-midyimberry": {
-			"rotation": { "x": 139, "y": 149, "z": -17 },
-			"origin": { "x": 0.55, "y": 0.1, "z": 0.5 },
-			"scale": 2.75
-		},
-		"@*-(strawberry|raspberry|blueraspberry)": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.425, y: 0.1, z: 0.55 },
-			scale: 2.5
-		},
-		"*-elderberry": {
-			"translation":  { "x": 3, "y": 0, "z": 0},
-			rotation: { x: 143, y: 30, z: -3 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 3
-		},
-		"*-lemonaspen": {
-			"translation":  { "x": 3, "y": 3, "z": 0},
-			rotation: { x: 123, y: 30, z: -3 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-		},
-		"@*-(dogrose|gooseberry)": {
-			"translation":  { "x": 3, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 2.25
-		},
-		"@*-(cloudberry|honeysuckle)": {
-			"translation":  { "x": 3, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 2.5
-		},
-		"*-brambleberry": {
-			"translation":  { "x": 3, "y":  -0.2, "z": 0},
-			rotation: { x: 142, y: 91, z: -2 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 2.5
-		},
-		"@*-(huckleberry|snowberry)": {
-			rotation: { x: 118, y: 13, z: -2 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-		},
-		"*-husktomato": {
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 2
-		},
-		"*-juniper": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 127, y: 34, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 4.5 
-		},
-		"*-pandanbits": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3.75
-		},
-		"@*-(crowseye|flaxlily|fractureberry|redgrape|whitegrape|foxgrape|virgingrape|bluetongue)": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 134, y: -34, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3.5
-		},
-		"@*-(engkala|jujube)": {
-			"translation":  { "x": 3, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 2.5
-		},
-		"*-kawakawa": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 134, y: -46, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3.5
-		},
-		"@*-(knyazberry|bushlawyer)": {
-			"translation":  { "x": 6, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3.25
-		},
-		"@*-(hawthorn|rowanberry)": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 138, y: 40, z: -10 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 4
-		},
-		"*-beachalmondwhole": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 113, y: 76, z: 27 },
-			origin: { x: 0.56, y: 0.15, z: 0.46 },
-			scale: 4
-		},
-		"@*-(loquat|cherryplum|sallowthorn)": {
-			"translation":  { "x": 3, "y": 0, "z": 0},
-			rotation: { x: 143, y: -8, z: -3 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 2.75
-		},
-		"@*-(pittedcherry|redquandong|rubysaltbush|illawarra)": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3
-		},
-		"*-pittedapricot": {
-			"translation":  { "x": 3, "y": 0, "z": 0},
-			rotation: { x: 126, y: 155, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3
-		},
-		"@*-(falseorange|pineheath)": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-		},
-		"@*-(pittedbreadfruit|creepingpine)": {
-			"translation":  { "x": 3, "y": -3, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3.25
-		},
-		"@*-(silvernettle|ugni|beautyberry)": {
-			"translation":  { "x": 3, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3.5
-		},
-		"*-spindle": {
-			"translation":  { "x": 3, "y": -3, "z": 0},
-			rotation: { x: 134, y: 66, z: 4 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3.5
-		},
-		"@*-(guajava|feijoa|kumquat|lingonberry|cheeseberry)": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3
-		},
-		"@*-(roseapple|turkscap)": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.45, y: 0.1, z: 0.5 },
-			scale: 3
-		},
-		"*-sumac": {
-			"translation":  { "x": 3, "y": 0, "z": 0},
-			rotation: { x: 134, y: 66, z: 4 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3.5
-		},
-		"*-cashewapple": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 134, y: 15, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3
-		},
-		"@*-(pokeberry|naranjilla|numnum|coralbead|honeypots|seamango)": {
-			"translation":  { "x": 3, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3
-		},
-		"*-pricklyheath": {
-			"translation":  { "x": 0, "y": 0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 3
-		},
-		"@*-(blacknightshade|bitternightshade|blacknightshadeunripe)": {
-			"translation":  { "x": 3, "y": 0, "z": 0},
-			rotation: { x: 140, y: 0, z: 4 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3.5
-		},
-		"*": {
-			"translation":  { "x": 3, "y":  0, "z": 0},
-			rotation: { x: 134, y: -20, z: 1 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 2.25
-		},
-	},
-	tpHandTransformByType: {
-		"@*-(almond|hawthorn|commonhackberry|sugarhackberry|hazelnut)": {
-			"translation": { "x": -1.35, "y": -0.33, "z": -1.31 },
-			"rotation": { "x": 90, "y": 90, "z": 90 },
-			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
-			"scale": 0.38
-		},
-		"*-cocoa": {
-			"translation": { "x": -1.45, "y": -0.4, "z": -1.31 },
-			"rotation": { "x": 90, "y": 90, "z": 90 },
-			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
-			"scale": 0.38
-		},
-		"@*-(pilo|mingimingi)": {
-			"translation": { "x": -0.08, "y": 0.3, "z": -0.37 },
-			"rotation": { "x": -4, "y": 22, "z": -100 },
-			"origin": { "x": -0.1, "y": 0.1, "z": 0.3 },
-			"scale": 0.42
-		},
-		"*-kakaha": {
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": 119, "y": 85, "z": -72 },
-			"origin": { "x": 0.15, "y": -0.05, "z": -0.2 },
-			"scale": 0.56
-		},
-		"@*-(apricot|citron|purpleplum|quince|fig|pomelo)": {
-			"translation": { "x": -1.37, "y": -0.3, "z": -1.34 },
-			"rotation": { "x": 90, "y": 90, "z": 90 },
-			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
-			"scale": 0.38
-		},
-		"*": {
-			"translation":  { "x": -1.15, "y":  -1.7, "z": -1.1},
-            rotation: { x: -180, y: -62, z: 7 },
-			scale: 0.45
-		}
-	},
-	groundTransformByType: {
-		"@*-(almond|hawthorn|commonhackberry|sugarhackberry|hazelnut)": {
-			"rotation": { "x": 0, "y": 0, "z": 0 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 2.3
-		},
-		"*-cocoa": {
-			"rotation": { "x": 0, "y": 0, "z": 0 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 2.5
-		},
-		"@*-(apricot|citron|purpleplum|quince|fig|pomelo)": {
-			"rotation": { "x": 0, "y": 0, "z": 0 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 2.5
-		},
-		"*": {
-			"translation":  { "x": 0, "y":  0.02, "z": 0},
-            rotation: { x: 0, y: 0, z: 0 },
-            origin: { x: 0, y: 0, z: 0 },
-			scale: 2.5
-		}
-	},
-	heldTpIdleAnimationByType: {
-		"@*-(brambleberry|raspberry|blueraspberry|crowberry|lingonberry|strawberry|falsestrawberry|husktomato|cherryplum|juniper|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|gardenstrawberry|illawarra|pittedbeachalmond|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush|pilo|mingimingi)": "holdbothhands"
-	},
-	"heldRightReadyAnimationByType": {
-		"@*-(brambleberry|raspberry|blueraspberry|crowberry|lingonberry|strawberry|falsestrawberry|husktomato|cherryplum|juniper|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|gardenstrawberry|illawarra|pittedbeachalmond|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush|pilo|mingimingi)": "holdbothhands"
+            "foodCategory": "Fruit"
+    },
+    "bakingPropertiesByType": {
+      "*-sumac": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 1.0,
+        "startScaleY": 0.8,
+        "endScaleY": 0.8,
+        "initialCode": "wildcraftfruit:nut-sumac",
+      },
+      "*-juniper": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 1.0,
+        "startScaleY": 0.8,
+        "endScaleY": 0.8,
+        "initialCode": "wildcraftfruit:nut-juniper",
+      },
+      "*": {
+        "temp": 100,
+        "levelFrom": 0.5,
+        "levelTo": 1.0,
+        "startScaleY": 0.8,
+        "endScaleY": 0.8,
+        "initialCode": "wildcraftfruit:fruit-{type}",
+      },
+    },
+    "inPiePropertiesByType": {
+      "*-pittedcherry": {
+        "texture": "game:block/food/pie/fill-cherry",
+        "partType": "Filling"
+      },
+      "*-pittedbreadfruit": {
+        "texture": "game:block/food/pie/fill-breadfruit",
+        "partType": "Filling"
+      },
+      "*-pittedapricot": {
+        "texture": "wildcraftfruit:block/food/pie/fill-apricot",
+        "partType": "Filling"
+      },
+      "*-lillypillywhite": {
+        "texture": "wildcraftfruit:block/food/pie/fill-lillypillypink",
+        "partType": "Filling"
+      },
+      "*-lillypillyblue": {
+        "texture": "wildcraftfruit:block/food/pie/fill-lillypillypink",
+        "partType": "Filling"
+      },
+      "*-lemon": {
+        "texture": "wildcraftfruit:block/food/pie/fill-citron",
+        "partType": "Filling"
+      },
+      "*": {
+        "texture": "wildcraftfruit:block/food/pie/fill-{type}",
+        "partType": "Filling"
+      }
+    },
+    "onDisplayTransformByType": {
+      "*": {
+        "translation": { "x": 0.0, "y": -0.155, "z": 0.0 },
+        "scale": 0.67
+      },
+    },
+    "inContainerTextureByType": {
+      "*-pittedcherry": {
+        "texture": "game:block/food/pie/fill-cherry",
+      },
+      "*-pittedbreadfruit": {
+        "texture": "game:block/food/pie/fill-breadfruit",
+      },
+      "*-pittedapricot": {
+        "texture": "wildcraftfruit:block/food/pie/fill-apricot",
+      },
+      "*-lillypillywhite": {
+        "texture": "wildcraftfruit:block/food/pie/fill-lillypillypink",
+      },
+      "*-lillypillyblue": {
+        "texture": "wildcraftfruit:block/food/pie/fill-lillypillypink",
+      },
+      "*-lemon": {
+        "texture": "wildcraftfruit:block/food/pie/fill-citron",
+      },
+      "*": {
+        "texture": "wildcraftfruit:block/food/pie/fill-{type}",
+      }
+    },
+  },
+  "shapeByType": {
+    "*": { "base": "item/food/dryfruit/wildcraftfruit/{type}" }
+  },
+  "texturesByType": {
+    "*": {
+      "all": { "base": "item/food/dryfruit/wildcraftfruit/{type}" },
+      "achacha": { "base": "item/food/dryfruit/wildcraftfruit/achacha" },
+      "almond": { "base": "item/food/dryfruit/wildcraftfruit/almond" },
+      "apricot": { "base": "item/food/dryfruit/wildcraftfruit/apricot" },
+      "beautyberry": { "base": "item/food/dryfruit/wildcraftfruit/beautyberry" },
+      "beachalmondwhole": { "base": "item/food/dryfruit/wildcraftfruit/beachalmondwhole" },
+      "bitternightshade": { "base": "item/food/dryfruit/wildcraftfruit/bitternightshade" },
+      "blacknightshade": { "base": "item/food/dryfruit/wildcraftfruit/blacknightshade" },
+      "blueraspberry": { "base": "item/food/dryfruit/wildcraftfruit/blueraspberry" },
+      "bluetongue": { "base": "item/food/dryfruit/wildcraftfruit/bluetongue" },
+      "brambleberry": { "base": "item/food/dryfruit/wildcraftfruit/brambleberry" },
+      "bunchberry": { "base": "item/food/dryfruit/wildcraftfruit/bunchberry" },
+      "bushlawyer": { "base": "item/food/dryfruit/wildcraftfruit/bushlawyer" },
+      "cashewapple": { "base": "item/food/dryfruit/wildcraftfruit/cashewapple" },
+      "cashewwhole": { "base": "item/food/dryfruit/wildcraftfruit/cashewwhole" },
+      "cheeseberry": { "base": "item/food/dryfruit/wildcraftfruit/cheeseberry" },
+      "cherryplum": { "base": "item/food/dryfruit/wildcraftfruit/cherryplum" },
+      "chinaberry": { "base": "item/food/dryfruit/wildcraftfruit/chinaberry" },
+      "citron": { "base": "item/food/dryfruit/wildcraftfruit/citron" },
+      "cloudberry": { "base": "item/food/dryfruit/wildcraftfruit/cloudberry" },
+      "cocoa": { "base": "item/food/dryfruit/wildcraftfruit/cocoa" },
+      "commonhackberry": { "base": "item/food/dryfruit/wildcraftfruit/commonhackberry" },
+      "coralbead": { "base": "item/food/dryfruit/wildcraftfruit/coralbead" },
+      "creepingpine": { "base": "item/food/dryfruit/wildcraftfruit/creepingpine" },
+      "crowberry": { "base": "item/food/dryfruit/wildcraftfruit/crowberry" },
+      "crowseye": { "base": "item/food/dryfruit/wildcraftfruit/crowseye" },
+      "dogrose": { "base": "item/food/dryfruit/wildcraftfruit/dogrose" },
+      "elderberry": { "base": "item/food/dryfruit/wildcraftfruit/elderberry" },
+      "engkala": { "base": "item/food/dryfruit/wildcraftfruit/engkala" },
+      "falseorange": { "base": "item/food/dryfruit/wildcraftfruit/falseorange" },
+      "falsestrawberry": { "base": "item/food/dryfruit/wildcraftfruit/falsestrawberry" },
+      "feijoa": { "base": "item/food/dryfruit/wildcraftfruit/feijoa" },
+      "fig": { "base": "item/food/dryfruit/wildcraftfruit/fig" },
+      "fingerlime": { "base": "item/food/dryfruit/wildcraftfruit/fingerlime" },
+      "flaxlily": { "base": "item/food/dryfruit/wildcraftfruit/flaxlily" },
+      "foxgrape": { "base": "item/food/dryfruit/wildcraftfruit/foxgrape" },
+      "fractureberry": { "base": "item/food/dryfruit/wildcraftfruit/fractureberry" },
+      "gardenstrawberry": { "base": "item/food/dryfruit/wildcraftfruit/gardenstrawberry" },
+      "gooseberry": { "base": "item/food/dryfruit/wildcraftfruit/gooseberry" },
+      "guajava": { "base": "item/food/dryfruit/wildcraftfruit/guajava" },
+      "hawthorn": { "base": "item/food/dryfruit/wildcraftfruit/hawthorn" },
+      "hazelnut": { "base": "item/food/dryfruit/wildcraftfruit/hazelnut" },
+      "honeypots": { "base": "item/food/dryfruit/wildcraftfruit/honeypots" },
+      "honeysuckle": { "base": "item/food/dryfruit/wildcraftfruit/honeysuckle" },
+      "huckleberry": { "base": "item/food/dryfruit/wildcraftfruit/huckleberry" },
+      "husktomato": { "base": "item/food/dryfruit/wildcraftfruit/husktomato" },
+      "illawarra": { "base": "item/food/dryfruit/wildcraftfruit/illawarra" },
+      "jujube": { "base": "item/food/dryfruit/wildcraftfruit/jujube" },
+      "juniper": { "base": "item/food/dryfruit/wildcraftfruit/juniper" },
+      "kakaha": { "base": "item/food/dryfruit/wildcraftfruit/kakaha" },
+      "kawakawa": { "base": "item/food/dryfruit/wildcraftfruit/kawakawa" },
+      "knyazberry": { "base": "item/food/dryfruit/wildcraftfruit/knyazberry" },
+      "kumquat": { "base": "item/food/dryfruit/wildcraftfruit/kumquat" },
+      "lemon": { "base": "item/food/dryfruit/wildcraftfruit/lemon" },
+      "lemonaspen": { "base": "item/food/dryfruit/wildcraftfruit/lemonaspen" },
+      "lillypillyblue": { "base": "item/food/dryfruit/wildcraftfruit/lillypillyblue" },
+      "lillypillypink": { "base": "item/food/dryfruit/wildcraftfruit/lillypillypink" },
+      "lillypillywhite": { "base": "item/food/dryfruit/wildcraftfruit/lillypillywhite" },
+      "lingonberry": { "base": "item/food/dryfruit/wildcraftfruit/lingonberry" },
+      "loquat": { "base": "item/food/dryfruit/wildcraftfruit/loquat" },
+      "midyimberry": { "base": "item/food/dryfruit/wildcraftfruit/midyimberry" },
+      "mingimingi": { "base": "item/food/dryfruit/wildcraftfruit/mingimingi" },
+      "munthari": { "base": "item/food/dryfruit/wildcraftfruit/munthari" },
+      "naranjilla": { "base": "item/food/dryfruit/wildcraftfruit/naranjilla" },
+      "numnum": { "base": "item/food/dryfruit/wildcraftfruit/numnum" },
+      "pandanbits": { "base": "item/food/dryfruit/wildcraftfruit/pandanbits" },
+      "pineheath": { "base": "item/food/dryfruit/wildcraftfruit/pineheath" },
+      "pilo": { "base": "item/food/dryfruit/wildcraftfruit/pilo" },
+      "pittedapricot": { "base": "item/food/dryfruit/wildcraftfruit/pittedapricot" },
+      "pittedbreadfruit": { "base": "item/food/dryfruit/wildcraftfruit/pittedbreadfruit" },
+      "pittedcherry": { "base": "item/food/dryfruit/wildcraftfruit/pittedcherry" },
+      "pittedchinaberry": { "base": "item/food/dryfruit/wildcraftfruit/pittedchinaberry" },
+      "pokeberry": { "base": "item/food/dryfruit/wildcraftfruit/pokeberry" },
+      "pomelo": { "base": "item/food/dryfruit/wildcraftfruit/pomelo" },
+      "pricklyheath": { "base": "item/food/dryfruit/wildcraftfruit/pricklyheath" },
+      "purpleplum": { "base": "item/food/dryfruit/wildcraftfruit/purpleplum" },
+      "quince": { "base": "item/food/dryfruit/wildcraftfruit/quince" },
+      "raspberry": { "base": "item/food/dryfruit/wildcraftfruit/raspberry" },
+      "redgrape": { "base": "item/food/dryfruit/wildcraftfruit/redgrape" },
+      "redquandong": { "base": "item/food/dryfruit/wildcraftfruit/redquandong" },
+      "roseapple": { "base": "item/food/dryfruit/wildcraftfruit/roseapple" },
+      "rowanberry": { "base": "item/food/dryfruit/wildcraftfruit/rowanberry" },
+      "rubysaltbush": { "base": "item/food/dryfruit/wildcraftfruit/rubysaltbush" },
+      "sallowthorn": { "base": "item/food/dryfruit/wildcraftfruit/sallowthorn" },
+      "seamango": { "base": "item/food/dryfruit/wildcraftfruit/seamango" },
+      "silvernettle": { "base": "item/food/dryfruit/wildcraftfruit/silvernettle" },
+      "snowberry": { "base": "item/food/dryfruit/wildcraftfruit/snowberry" },
+      "spindle": { "base": "item/food/dryfruit/wildcraftfruit/spindle" },
+      "strawberry": { "base": "item/food/dryfruit/wildcraftfruit/strawberry" },
+      "sugarhackberry": { "base": "item/food/dryfruit/wildcraftfruit/sugarhackberry" },
+      "sumac": { "base": "item/food/dryfruit/wildcraftfruit/sumac" },
+      "turkscap": { "base": "item/food/dryfruit/wildcraftfruit/turkscap" },
+      "ugni": { "base": "item/food/dryfruit/wildcraftfruit/ugni" },
+      "virgingrape": { "base": "item/food/dryfruit/wildcraftfruit/virgingrape" },
+      "whitegrape": { "base": "item/food/dryfruit/wildcraftfruit/whitegrape" },
+      "wolfberry": { "base": "item/food/dryfruit/wildcraftfruit/wolfberry" },
+      "fill-apricot": { "base": "item/food/dryfruit/wildcraftfruit/fill-apricot" },
+      "fill-achacha": { "base": "item/food/dryfruit/wildcraftfruit/fill-achacha" },
+      "fill-citron": { "base": "item/food/dryfruit/wildcraftfruit/fill-citron" },
+      "fill-cocoa": { "base": "item/food/dryfruit/wildcraftfruit/fill-cocoa" },
+      "fill-fig": { "base": "item/food/dryfruit/wildcraftfruit/fill-fig" },
+      "fill-hazelnut": { "base": "item/food/dryfruit/wildcraftfruit/fill-hazelnut" },
+      "fill-pomelo": { "base": "item/food/dryfruit/wildcraftfruit/fill-pomelo" },
+      "fill-purpleplum": { "base": "item/food/dryfruit/wildcraftfruit/fill-purpleplum" },
+      "fill-quince": { "base": "item/food/dryfruit/wildcraftfruit/fill-quince" },
+      "fill-cashewapple": { "base": "item/food/dryfruit/wildcraftfruit/fill-cashewapple" },
+      "fill-cherryplum": { "base": "item/food/dryfruit/wildcraftfruit/fill-cherryplum" },
+      "fill-falseorange": { "base": "item/food/dryfruit/wildcraftfruit/fill-falseorange" },
+      "fill-feijoa": { "base": "item/food/dryfruit/wildcraftfruit/fill-feijoa" },
+      "fill-guajava": { "base": "item/food/dryfruit/wildcraftfruit/fill-guajava" },
+      "fill-husktomato": { "base": "item/food/dryfruit/wildcraftfruit/fill-husktomato" },
+      "fill-jujube": { "base": "item/food/dryfruit/wildcraftfruit/fill-jujube" },
+      "fill-kawakawa": { "base": "item/food/dryfruit/wildcraftfruit/fill-kawakawa" },
+      "fill-kumquat": { "base": "item/food/dryfruit/wildcraftfruit/fill-kumquat" },
+      "fill-loquat": { "base": "item/food/dryfruit/wildcraftfruit/fill-loquat" },
+      "fill-pittedbeachalmond": { "base": "item/food/dryfruit/wildcraftfruit/fill-pittedbeachalmond" },
+      "fill-naranjilla": { "base": "item/food/dryfruit/wildcraftfruit/fill-naranjilla" },
+      "fill-numnum": { "base": "item/food/dryfruit/wildcraftfruit/fill-numnum" },
+      "fill-redquandong": { "base": "item/food/dryfruit/wildcraftfruit/fill-redquandong" },
+      "fill-roseapple": { "base": "item/food/dryfruit/wildcraftfruit/fill-roseapple" },
+      "fill-seamango": { "base": "item/food/dryfruit/wildcraftfruit/fill-seamango" },
+    },
+  },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
+  "nutritionPropsByType": {
+    "*-pomelo": { "satiety": 105, "foodCategory": "Fruit" },
+    "@*-(pittedcherry|gardenstrawberry|knyazberry)": { "satiety": 90, "foodCategory": "Fruit" },
+    "*-cloudberry": { "satiety": 90, "health":  0.5, "foodCategory": "Fruit" },
+    "@*-(brambleberry|gooseberry|honeysuckle|raspberry|blueraspberry|quince|apricot|fig|guajava|ugni|redgrape|whitegrape|foxgrape|numnum|naranjilla|pittedapticot|strawberry|pittedbreadfruit|roseapple|munthari|pittedbeachalmond|lillypillypink|lillypillywhite|lillypillyblue|achacha|cocoa|lemon)": { "satiety": 70, "foodCategory": "Fruit" },
+    "*-wolfberry": { "satiety": 50, "health":  -12, "foodCategory": "Fruit" },
+    "*-seamango": { "satiety": 35, "health":  -15, "foodCategory": "Fruit" },
+    "*-bitternightshade": { "satiety": 50, "health":  -8, "foodcategory": "Fruit" },
+    "*-blacknightshadeunripe": { "satiety": 50, "health":  -4, "foodcategory": "Fruit" },
+    "*-falseorange": { "satiety": 70, "health":  -1, "foodCategory": "Fruit" },
+    "*-spindle": { "satiety": 25, "health":  -7, "foodCategory": "Fruit" },
+    "@*-(snowberry|pokeberry)": { "satiety": 35, "health": -1, "foodCategory": "Fruit" },
+    "*-crowseye": { "satiety": 35, "health": -20, "foodCategory": "Fruit" },
+    "*-coralbead": { "satiety": 35, "health": -0.5, "foodCategory": "Fruit" },
+    "@*-(elderberry|juniper|virgingrape)": { "satiety": 35, "health": -0.25, "foodCategory": "Fruit" },
+    "*-husktomato": { "satiety": 50, "health": 0.25, "foodCategory": "Fruit" },
+    "*-rowanberry": { "satiety": 50, "health": -0.25, "foodCategory": "Fruit" },
+    "*-chinaberry": { "satiety": 50, "health": -9, "foodCategory": "Fruit" },
+    "*-pittedchinaberry": { "satiety": 50, "health": -0.5, "foodCategory": "Fruit" },
+    "@*-(huckleberry|hawthorn|purpleplum|cherryplum|citron|feijoa|sallowthorn|kumquat|turkscap|loquat|lingonberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|jujube|kakaha)": { "satiety": 50, "foodcategory": "Fruit" },
+    "@*-(bunchberry|crowberry|sumac|fractureberry|virgingrape|falsestrawberry|silvernettle|pandanbits|illawarra|rubysaltbush|pineheath|beachalmondwhole|honeypots|creepingpine|cheeseberry|pilo|mingimingi)": { "satiety": 35, "foodCategory": "Fruit" },
+    "@*-(dogrose|beautyberry|bluetongue)": { "satiety": 25, "foodCategory": "Fruit" },
+    "*": { "satiety": 70, "foodCategory": "Fruit" }
+  },
+  "transitionablePropsByType": {
+    "@*-(bunchberry|crowberry|spindle|pomelo|beautyberry|kumquat|guajava|turkscap|rowanberry|fingerlime|lemonaspen|illawarra|seamango|lemon)": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 3600 },
+        "transitionHours": { "avg": 48 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      },
+    ],
+    "@*-(feijoa|husktomato|snowberry|elderberry|lingonberry|virgingrape|blacknightshade|blacknightshadeunripe|bitternightshade|pricklyheath|flaxlily|coralbead|pittedbreadfruit|roseapple|redquandong|pineheath|munthari|midyimberry|lillypillypink|lillypillywhite|lillypillyblue|cheeseberry|honeypots|chinaberry|pittedchinaberry)": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1920 },
+        "transitionHours": { "avg": 24 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      },
+    ],
+    "*-cloudberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 0 },
+        "transitionHours": { "avg": 120 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      },
+    ],
+    "@*-(strawberry|gardenstrawberry|honeysuckle|cashewwhole|cashewapple|brambleberry|raspberry|blueraspberry|gooseberry|apricot|purpleplum|cherryplum|pokeberry|knyazberry|naranjilla|bushlawyer|kawakawa|pittedcherry|pittedapricot|achacha|rubysaltbush)": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 480 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      },
+    ],
+    "@*-(wolfberry|huckleberry|fig|sallowthorn|loquat|ugni|redgrape|whitegrape|foxgrape|crowseye|numnum|falsestrawberry|silvernettle|engkala|bluetongue|pittedbeachalmond|beachalmondwhole|creepingpine|pilo|mingimingi|kakaha)": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 960 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      },
+    ],
+    "@*-(dogrose|jujube|hawthorn|quince|citron|cocoa|falseorange|sumac|juniper|pandanbits)": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 9600 },
+        "transitionHours": { "avg": 48 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      },
+    ],
+  },
+  "guiTransformByType": {
+    "*-pittedbeachalmond": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 143, "y": 30, "z": 6 },
+      "origin": { "x": 0.46, "y": 0.04, "z": 0.55 },
+      "scale": 2.4
+    },
+    "@*-(pilo|mingimingi)": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 136, "y": 128, "z": 4 },
+      "origin": { "x": 0.2, "y": -0.26, "z": 0.25 },
+      "scale": 3.04
+    },
+    "*-kakaha": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 117, "y": -4, "z": -8 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 3.66
+    },
+    "@*-(almond|commonhackberry|sugarhackberry|hazelnut|lillypillypink|lillypillyblue|lillypillywhite)": {
+      "rotation": { "x": 147, "y": 3, "z": -15 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.75
+    },
+    "*-cocoa": {
+      "rotation": { "x": 148, "y": 0, "z": 0 },
+      "origin": { "x": 0.55, "y": 0.1, "z": 0.5 },
+      "scale": 2.75
+    },
+    "@*-(citron|achacha|lemon)": {
+      "rotation": { "x": 110, "y": -20, "z": -20 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.75
+    },
+    "@*-(apricot|purpleplum|chinaberry|pittedchinaberry)": {
+      "rotation": { "x": 147, "y": -27, "z": 5 },
+      "origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+      "scale": 2.75
+    },
+    "@*-(quince|fig|pomelo|munthari|fingerlime)": {
+      "translation": { "x": 0, "y": 5, "z": 0 },
+      "rotation": { "x": 130, "y": -84, "z": -3 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.75
+    },
+    "*-midyimberry": {
+      "rotation": { "x": 139, "y": 149, "z": -17 },
+      "origin": { "x": 0.55, "y": 0.1, "z": 0.5 },
+      "scale": 2.75
+    },
+    "@*-(strawberry|raspberry|blueraspberry)": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.425, "y": 0.1, "z": 0.55 },
+      "scale": 2.5
+    },
+    "*-elderberry": {
+      "translation":  { "x": 3, "y": 0, "z": 0},
+      "rotation": { "x": 143, "y": 30, "z": -3 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 3
+    },
+    "*-lemonaspen": {
+      "translation":  { "x": 3, "y": 3, "z": 0},
+      "rotation": { "x": 123, "y": 30, "z": -3 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.5
+    },
+    "@*-(dogrose|gooseberry)": {
+      "translation":  { "x": 3, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 2.25
+    },
+    "@*-(cloudberry|honeysuckle)": {
+      "translation":  { "x": 3, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 2.5
+    },
+    "*-brambleberry": {
+      "translation":  { "x": 3, "y":  -0.2, "z": 0},
+      "rotation": { "x": 142, "y": 91, "z": -2 },
+      "origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+      "scale": 2.5
+    },
+    "@*-(huckleberry|snowberry)": {
+      "rotation": { "x": 118, "y": 13, "z": -2 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.5
+    },
+    "*-husktomato": {
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 2
+    },
+    "*-juniper": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 127, "y": 34, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 4.5
+    },
+    "*-pandanbits": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3.75
+    },
+    "@*-(crowseye|flaxlily|fractureberry|redgrape|whitegrape|foxgrape|virgingrape|bluetongue)": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -34, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3.5
+    },
+    "@*-(engkala|jujube)": {
+      "translation":  { "x": 3, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 2.5
+    },
+    "*-kawakawa": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -46, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3.5
+    },
+    "@*-(knyazberry|bushlawyer)": {
+      "translation":  { "x": 6, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3.25
+    },
+    "@*-(hawthorn|rowanberry)": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 138, "y": 40, "z": -10 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 4
+    },
+    "*-beachalmondwhole": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 113, "y": 76, "z": 27 },
+      "origin": { "x": 0.56, "y": 0.15, "z": 0.46 },
+      "scale": 4
+    },
+    "@*-(loquat|cherryplum|sallowthorn)": {
+      "translation":  { "x": 3, "y": 0, "z": 0},
+      "rotation": { "x": 143, "y": -8, "z": -3 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 2.75
+    },
+    "@*-(pittedcherry|redquandong|rubysaltbush|illawarra)": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3
+    },
+    "*-pittedapricot": {
+      "translation":  { "x": 3, "y": 0, "z": 0},
+      "rotation": { "x": 126, "y": 155, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3
+    },
+    "@*-(falseorange|pineheath)": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.5
+    },
+    "@*-(pittedbreadfruit|creepingpine)": {
+      "translation":  { "x": 3, "y": -3, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3.25
+    },
+    "@*-(silvernettle|ugni|beautyberry)": {
+      "translation":  { "x": 3, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3.5
+    },
+    "*-spindle": {
+      "translation":  { "x": 3, "y": -3, "z": 0},
+      "rotation": { "x": 134, "y": 66, "z": 4 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3.5
+    },
+    "@*-(guajava|feijoa|kumquat|lingonberry|cheeseberry)": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3
+    },
+    "@*-(roseapple|turkscap)": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.45, "y": 0.1, "z": 0.5 },
+      "scale": 3
+    },
+    "*-sumac": {
+      "translation":  { "x": 3, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": 66, "z": 4 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3.5
+    },
+    "*-cashewapple": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": 15, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3
+    },
+    "@*-(pokeberry|naranjilla|numnum|coralbead|honeypots|seamango)": {
+      "translation":  { "x": 3, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3
+    },
+    "*-pricklyheath": {
+      "translation":  { "x": 0, "y": 0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+      "scale": 3
+    },
+    "@*-(blacknightshade|bitternightshade|blacknightshadeunripe)": {
+      "translation":  { "x": 3, "y": 0, "z": 0},
+      "rotation": { "x": 140, "y": 0, "z": 4 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 3.5
+    },
+    "*": {
+      "translation":  { "x": 3, "y":  0, "z": 0},
+      "rotation": { "x": 134, "y": -20, "z": 1 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 2.25
+    },
+  },
+  "tpHandTransformByType": {
+    "@*-(almond|hawthorn|commonhackberry|sugarhackberry|hazelnut)": {
+      "translation": { "x": -1.35, "y": -0.33, "z": -1.31 },
+      "rotation": { "x": 90, "y": 90, "z": 90 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 0.38
+    },
+    "*-cocoa": {
+      "translation": { "x": -1.45, "y": -0.4, "z": -1.31 },
+      "rotation": { "x": 90, "y": 90, "z": 90 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 0.38
+    },
+    "@*-(pilo|mingimingi)": {
+      "translation": { "x": -0.08, "y": 0.3, "z": -0.37 },
+      "rotation": { "x": -4, "y": 22, "z": -100 },
+      "origin": { "x": -0.1, "y": 0.1, "z": 0.3 },
+      "scale": 0.42
+    },
+    "*-kakaha": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 119, "y": 85, "z": -72 },
+      "origin": { "x": 0.15, "y": -0.05, "z": -0.2 },
+      "scale": 0.56
+    },
+    "@*-(apricot|citron|purpleplum|quince|fig|pomelo)": {
+      "translation": { "x": -1.37, "y": -0.3, "z": -1.34 },
+      "rotation": { "x": 90, "y": 90, "z": 90 },
+      "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+      "scale": 0.38
+    },
+    "*": {
+      "translation":  { "x": -1.15, "y":  -1.7, "z": -1.1},
+            "rotation": { "x": -180, "y": -62, "z": 7 },
+      "scale": 0.45
+    }
+  },
+  "groundTransformByType": {
+    "@*-(almond|hawthorn|commonhackberry|sugarhackberry|hazelnut)": {
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.3
+    },
+    "*-cocoa": {
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.5
+    },
+    "@*-(apricot|citron|purpleplum|quince|fig|pomelo)": {
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.5
+    },
+    "*": {
+      "translation":  { "x": 0, "y":  0.02, "z": 0},
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 2.5
+    }
+  },
+ "heldTpIdleAnimationByType": {
+    "@*-(brambleberry|raspberry|blueraspberry|crowberry|lingonberry|strawberry|falsestrawberry|husktomato|cherryplum|juniper|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|gardenstrawberry|illawarra|pittedbeachalmond|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush|pilo|mingimingi)": "holdbothhands"
+  },
+  "heldRightReadyAnimationByType": {
+    "@*-(brambleberry|raspberry|blueraspberry|crowberry|lingonberry|strawberry|falsestrawberry|husktomato|cherryplum|juniper|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|gardenstrawberry|illawarra|pittedbeachalmond|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush|pilo|mingimingi)": "holdbothhands"
         }
 }

@@ -1,10 +1,10 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/wildcraftfruit/wilddryfruit.json",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
+   "op": "addmerge",
+   "path": "/enabled",
+   "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]
+   "dependsOn": [ { "modid": "wildcraftfruit", "invert": true }]
  },
 ]

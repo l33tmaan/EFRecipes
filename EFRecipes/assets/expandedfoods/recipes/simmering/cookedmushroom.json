@@ -1,83 +1,83 @@
 ﻿[
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "block",
-				code: "mushroom-*-normal",
-				quantity: 1,
-				"name": "mushroom",
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedmushroom-{mushroom}-perfect",
-				"quantity": 1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "block",
-				code: "game:mushroom-*-normal-north",
-				quantity: 1,
-				"name": "mushroom"
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedmushroom-{mushroom}-perfect",
-				"quantity": 1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "item",
-				code: "expandedfoods:cookedmushroom-*-partbaked",
-				quantity: 1,
-				"name": "mushroom",
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedmushroom-{mushroom}-perfect",
-				"quantity": 1
-			},
-			requiresContainer: false
-		}
-	},
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50,
+      },
+      {
+        "type": "block",
+        "code": "mushroom-*-normal",
+        "quantity": 1,
+        "name": "mushroom",
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedmushroom-{mushroom}-perfect",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50,
+      },
+      {
+        "type": "block",
+        "code": "game:mushroom-*-normal-north",
+        "quantity": 1,
+        "name": "mushroom"
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedmushroom-{mushroom}-perfect",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "quantity": 50,
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:cookedmushroom-*-partbaked",
+        "quantity": 1,
+        "name": "mushroom",
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:cookedmushroom-{mushroom}-perfect",
+        "quantity": 1
+      },
+      "requiresContainer": false
+    }
+  },
 ]

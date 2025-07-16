@@ -1,66 +1,66 @@
 ﻿{
-	"editor": {
-		"allAngles": false,
-		"entityTextureMode": false
-	},
-	"textureWidth": 16,
-	"textureHeight": 16,
-	"textures": {
-		"base": "item/food/falsepath/base"
-	},
-	"elements": [
-		{
-			"name": "origin",
-			"from": [ 6.0, 0.0, 6.0 ],
-			"to": [ 6.0, 0.0, 6.0 ],
-			"rotationOrigin": [ 6.0, 0.0, 6.0 ],
-			"faces": {
-			},
-			"children": [
-				{
-					"name": "fruitbarbase",
-					"from": [ -1.0, 0.0, -3.0 ],
-					"to": [ 5.0, 1.0, 7.0 ],
-					"rotationOrigin": [ -1.0, 0.0, -3.0 ],
-					"faces": {
-						"north": { "texture": "#base", "uv": [ 3.0, 5.0, 9.0, 6.0 ] },
-						"east": { "texture": "#base", "uv": [ 4.0, 1.0, 14.0, 2.0 ] },
-						"south": { "texture": "#base", "uv": [ 8.0, 7.0, 14.0, 8.0 ] },
-						"west": { "texture": "#base", "uv": [ 4.0, 14.0, 14.0, 15.0 ] },
-						"up": { "texture": "#base", "uv": [ 0.0, 1.0, 6.0, 11.0 ] },
-						"down": { "texture": "#base", "uv": [ 6.0, 2.0, 12.0, 12.0 ] }
-					},
-					"children": [
-						{
-							"name": "fruitbaredgeW",
-							"from": [ 0.0, 1.0, 0.0 ],
-							"to": [ 1.0, 2.0, 10.0 ],
-							"rotationOrigin": [ 0.0, 1.0, 0.0 ],
-							"faces": {
-								"north": { "texture": "#base", "uv": [ 5.0, 7.0, 6.0, 8.0 ] },
-								"east": { "texture": "#base", "uv": [ 5.0, 12.0, 15.0, 13.0 ] },
-								"south": { "texture": "#base", "uv": [ 1.0, 6.0, 2.0, 7.0 ] },
-								"west": { "texture": "#base", "uv": [ 5.0, 11.0, 15.0, 12.0 ] },
-								"up": { "texture": "#base", "uv": [ 11.0, 2.0, 12.0, 12.0 ] },
-								"down": { "texture": "#base", "uv": [ 5.0, 2.0, 6.0, 12.0 ] }
-							}
-						},
-						{
-							"name": "fruitbaredgeE",
-							"from": [ 5.0, 1.0, 0.0 ],
-							"to": [ 6.0, 2.0, 10.0 ],
-							"rotationOrigin": [ 5.0, 1.0, 0.0 ],
-							"faces": {
-								"north": { "texture": "#base", "uv": [ 10.0, 11.0, 11.0, 12.0 ] },
-								"east": { "texture": "#base", "uv": [ 1.0, 12.0, 11.0, 13.0 ] },
-								"south": { "texture": "#base", "uv": [ 11.0, 6.0, 12.0, 7.0 ] },
-								"west": { "texture": "#base", "uv": [ 2.0, 0.0, 12.0, 1.0 ] },
-								"up": { "texture": "#base", "uv": [ 2.0, 1.0, 3.0, 11.0 ] },
-								"down": { "texture": "#base", "uv": [ 2.0, 5.0, 3.0, 15.0 ] }
-							}
-						}
-					]
-				}
-			]
-		}
-	]}
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "base": "item/food/falsepath/base"
+  },
+  "elements": [
+    {
+      "name": "origin",
+      "from": [ 6.0, 0.0, 6.0 ],
+      "to": [ 6.0, 0.0, 6.0 ],
+      "rotationOrigin": [ 6.0, 0.0, 6.0 ],
+      "faces": {
+      },
+      "children": [
+        {
+          "name": "fruitbarbase",
+          "from": [ -1.0, 0.0, -3.0 ],
+          "to": [ 5.0, 1.0, 7.0 ],
+          "rotationOrigin": [ -1.0, 0.0, -3.0 ],
+          "faces": {
+            "north": { "texture": "#base", "uv": [ 3.0, 5.0, 9.0, 6.0 ] },
+            "east": { "texture": "#base", "uv": [ 4.0, 1.0, 14.0, 2.0 ] },
+            "south": { "texture": "#base", "uv": [ 8.0, 7.0, 14.0, 8.0 ] },
+            "west": { "texture": "#base", "uv": [ 4.0, 14.0, 14.0, 15.0 ] },
+            "up": { "texture": "#base", "uv": [ 0.0, 1.0, 6.0, 11.0 ] },
+            "down": { "texture": "#base", "uv": [ 6.0, 2.0, 12.0, 12.0 ] }
+          },
+          "children": [
+            {
+              "name": "fruitbaredgeW",
+              "from": [ 0.0, 1.0, 0.0 ],
+              "to": [ 1.0, 2.0, 10.0 ],
+              "rotationOrigin": [ 0.0, 1.0, 0.0 ],
+              "faces": {
+                "north": { "texture": "#base", "uv": [ 5.0, 7.0, 6.0, 8.0 ] },
+                "east": { "texture": "#base", "uv": [ 5.0, 12.0, 15.0, 13.0 ] },
+                "south": { "texture": "#base", "uv": [ 1.0, 6.0, 2.0, 7.0 ] },
+                "west": { "texture": "#base", "uv": [ 5.0, 11.0, 15.0, 12.0 ] },
+                "up": { "texture": "#base", "uv": [ 11.0, 2.0, 12.0, 12.0 ] },
+                "down": { "texture": "#base", "uv": [ 5.0, 2.0, 6.0, 12.0 ] }
+              }
+            },
+            {
+              "name": "fruitbaredgeE",
+              "from": [ 5.0, 1.0, 0.0 ],
+              "to": [ 6.0, 2.0, 10.0 ],
+              "rotationOrigin": [ 5.0, 1.0, 0.0 ],
+              "faces": {
+                "north": { "texture": "#base", "uv": [ 10.0, 11.0, 11.0, 12.0 ] },
+                "east": { "texture": "#base", "uv": [ 1.0, 12.0, 11.0, 13.0 ] },
+                "south": { "texture": "#base", "uv": [ 11.0, 6.0, 12.0, 7.0 ] },
+                "west": { "texture": "#base", "uv": [ 2.0, 0.0, 12.0, 1.0 ] },
+                "up": { "texture": "#base", "uv": [ 2.0, 1.0, 3.0, 11.0 ] },
+                "down": { "texture": "#base", "uv": [ 2.0, 5.0, 3.0, 15.0 ] }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]}

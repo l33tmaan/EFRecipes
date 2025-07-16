@@ -1,921 +1,921 @@
 {
-	"editor": {
-		"allAngles": false,
-		"entityTextureMode": false
-	},
-	"textureWidth": 16,
-	"textureHeight": 16,
-	"textureSizes": {
-		"pokeberrysyrup": [8,8],
-		"pokeberry": [16,16]
-	},
-	"textures": {
-		"pokeberrysyrup": "game:item/gelatin/pokeberry",
-		"pokeberry": "wildcraftfruit:items/fruit/pokeberry"
-	},
-	"elements": [
-		{
-			"name": "base",
-			"from": [ 0.0, 0.25, 0.4 ], 
-			"to": [ 0.0, 0.25, 0.4 ], 
-			"rotationOrigin": [ 0.0, 0.25, 0.4 ],
-			"faces": {
-				"north": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"south": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"west": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"up": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-				"down": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
-			},
-			"children": [
-				{
-					"name": "Cube23",
-					"from": [ 5.82, -0.05, 7.73 ], 
-					"to": [ 6.82, 0.95, 8.73 ], 
-					"rotationOrigin": [ 6.625, 0.45, 8.2345 ],
-					"rotationX": -180.0,
-					"rotationY": -60.0,
-					"rotationZ": -157.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin1",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube24",
-					"from": [ 6.42, -0.05, 6.63 ], 
-					"to": [ 7.42, 0.95, 7.63 ], 
-					"rotationOrigin": [ 7.425, 0.45, 7.1345 ],
-					"rotationX": -116.565,
-					"rotationY": -37.761,
-					"rotationZ": -129.232,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin2",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"rotationY": 0.0,
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube25",
-					"from": [ 8.32, -0.15, 7.03 ], 
-					"to": [ 9.32, 0.85, 8.03 ], 
-					"rotationOrigin": [ 9.125, 0.35, 7.5345 ],
-					"rotationX": 180.0,
-					"rotationY": -60.0,
-					"rotationZ": 157.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin3",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube26",
-					"from": [ 4.32, -0.15, 5.95 ], 
-					"to": [ 5.32, 0.85, 6.95 ], 
-					"rotationOrigin": [ 5.325, 0.35, 6.4541 ],
-					"rotationX": -105.857,
-					"rotationY": -43.622,
-					"rotationZ": -132.229,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin4",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"rotationZ": 9.0,
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube27",
-					"from": [ 7.77, -0.3, 4.69 ], 
-					"to": [ 8.77, 0.7, 5.69 ], 
-					"rotationOrigin": [ 8.775, 0.15, 5.1871 ],
-					"rotationX": -180.0,
-					"rotationY": -60.0,
-					"rotationZ": 135.0,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin5",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube28",
-					"from": [ 7.37, -0.05, 8.97 ], 
-					"to": [ 8.37, 0.95, 9.97 ], 
-					"rotationOrigin": [ 7.375, 0.45, 9.4655 ],
-					"rotationX": -116.565,
-					"rotationY": -37.761,
-					"rotationZ": -129.232,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin6",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"rotationY": 0.0,
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube29",
-					"from": [ 10.58, -0.05, 8.49 ], 
-					"to": [ 11.58, 0.95, 9.49 ], 
-					"rotationOrigin": [ 10.575, 0.45, 8.9923 ],
-					"rotationX": 180.0,
-					"rotationY": -60.0,
-					"rotationZ": 157.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin7",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube30",
-					"from": [ 9.28, -0.25, 9.19 ], 
-					"to": [ 10.28, 0.75, 10.19 ], 
-					"rotationOrigin": [ 9.275, 0.25, 9.6923 ],
-					"rotationX": -180.0,
-					"rotationY": -60.0,
-					"rotationZ": -157.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin8",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"rotationX": 0.0,
-							"rotationY": 0.0,
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube31",
-					"from": [ 11.13, 0.0, 6.86 ], 
-					"to": [ 12.13, 1.0, 7.86 ], 
-					"rotationOrigin": [ 11.125, 0.25, 7.3593 ],
-					"rotationX": -135.209,
-					"rotationY": -21.988,
-					"rotationZ": -116.169,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin9",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube13",
-					"from": [ 9.43, -0.05, 4.87 ], 
-					"to": [ 10.43, 0.95, 5.87 ], 
-					"rotationOrigin": [ 10.225, 0.45, 5.3655 ],
-					"rotationX": 180.0,
-					"rotationY": 60.0,
-					"rotationZ": -157.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin10",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube14",
-					"from": [ 7.83, 1.25, 7.27 ], 
-					"to": [ 8.83, 2.25, 8.27 ], 
-					"rotationOrigin": [ 8.825, 1.75, 7.7655 ],
-					"rotationX": -116.565,
-					"rotationY": 37.761,
-					"rotationZ": 129.232,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin11",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"rotationY": 0.0,
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube15",
-					"from": [ 7.42, 1.25, 8.87 ], 
-					"to": [ 8.42, 2.25, 9.87 ], 
-					"rotationOrigin": [ 8.225, 1.75, 9.3655 ],
-					"rotationX": -180.0,
-					"rotationY": 60.0,
-					"rotationZ": 157.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin12",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube16",
-					"from": [ 9.23, 1.15, 5.65 ], 
-					"to": [ 10.23, 2.15, 6.65 ], 
-					"rotationOrigin": [ 10.225, 1.65, 6.1459 ],
-					"rotationX": -125.601,
-					"rotationY": 31.081,
-					"rotationZ": 124.355,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin13",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube17",
-					"from": [ 6.38, 1.3, 6.41 ], 
-					"to": [ 7.38, 2.3, 7.41 ], 
-					"rotationOrigin": [ 7.375, 1.75, 6.9129 ],
-					"rotationX": -180.0,
-					"rotationY": 60.0,
-					"rotationZ": 135.0,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin14",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube18",
-					"from": [ 8.58, -0.05, 8.53 ], 
-					"to": [ 9.58, 0.95, 9.53 ], 
-					"rotationOrigin": [ 8.575, 0.45, 9.0345 ],
-					"rotationX": -116.565,
-					"rotationY": 37.761,
-					"rotationZ": 129.232,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin15",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"rotationY": 0.0,
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube19",
-					"from": [ 6.18, 1.65, 7.31 ], 
-					"to": [ 7.18, 2.65, 8.31 ], 
-					"rotationOrigin": [ 6.175, 2.15, 7.8077 ],
-					"rotationX": -180.0,
-					"rotationY": 60.0,
-					"rotationZ": 157.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin16",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube20",
-					"from": [ 7.17, -0.25, 4.51 ], 
-					"to": [ 8.17, 0.75, 5.51 ], 
-					"rotationOrigin": [ 7.175, 0.25, 5.0077 ],
-					"rotationX": 180.0,
-					"rotationY": 60.0,
-					"rotationZ": -157.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin17",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"rotationX": 0.0,
-							"rotationY": 0.0,
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube21",
-					"from": [ 5.22, 0.0, 7.24 ], 
-					"to": [ 6.22, 1.0, 8.24 ], 
-					"rotationOrigin": [ 5.225, 0.25, 7.7407 ],
-					"rotationX": -89.581,
-					"rotationY": 49.209,
-					"rotationZ": 132.888,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin18",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube3",
-					"from": [ 4.9, 0.15, 8.75 ], 
-					"to": [ 5.9, 1.15, 9.75 ], 
-					"rotationOrigin": [ 5.7, 0.65, 9.25 ],
-					"rotationZ": 22.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin19",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube4",
-					"from": [ 6.1, 1.35, 8.45 ], 
-					"to": [ 7.1, 2.35, 9.45 ], 
-					"rotationOrigin": [ 7.1, 1.85, 8.95 ],
-					"rotationX": -45.0,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin20",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube5",
-					"from": [ 6.1, 1.45, 4.65 ], 
-					"to": [ 7.1, 2.45, 5.65 ], 
-					"rotationOrigin": [ 6.9, 1.95, 5.15 ],
-					"rotationZ": -22.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin21",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube6",
-					"from": [ 9.8, 1.45, 9.25 ], 
-					"to": [ 10.8, 2.45, 10.25 ], 
-					"rotationOrigin": [ 10.8, 1.95, 9.75 ],
-					"rotationX": -45.0,
-					"rotationY": 10.0,
-					"rotationZ": -10.0,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin22",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube7",
-					"from": [ 8.1, 1.6, 5.45 ], 
-					"to": [ 9.1, 2.6, 6.45 ], 
-					"rotationOrigin": [ 9.1, 2.05, 5.95 ],
-					"rotationZ": -45.0,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin23",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube8",
-					"from": [ 7.6, 2.65, 7.85 ], 
-					"to": [ 8.6, 3.65, 8.85 ], 
-					"rotationOrigin": [ 7.6, 3.15, 8.35 ],
-					"rotationX": -45.0,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin24",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube9",
-					"from": [ 6.2, 2.95, 6.25 ], 
-					"to": [ 7.2, 3.95, 7.25 ], 
-					"rotationOrigin": [ 6.2, 3.45, 6.75 ],
-					"rotationX": -22.5,
-					"rotationZ": 22.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin25",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube10",
-					"from": [ 9.4, 2.45, 7.05 ], 
-					"to": [ 10.4, 3.45, 8.05 ], 
-					"rotationOrigin": [ 9.4, 2.95, 7.55 ],
-					"rotationY": 22.5,
-					"rotationZ": 22.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin26",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "Cube11",
-					"from": [ 7.9, 3.4, 6.55 ], 
-					"to": [ 8.9, 4.4, 7.55 ], 
-					"rotationOrigin": [ 7.9, 3.65, 7.05 ],
-					"rotationX": -45.0,
-					"rotationY": -22.5,
-					"rotationZ": 22.5,
-					"faces": {
-						"north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
-						"east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
-						"south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
-						"west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
-						"up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
-						"down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
-					},
-					"children": [
-						{
-							"name": "gelatin27",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 1.25, 1.25, 1.25 ], 
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-								"down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-							}
-						}
-					]
-				}
-			]
-		}
-	]}
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "pokeberrysyrup": [ 8,8],
+    "pokeberry": [ 16,16]
+  },
+  "textures": {
+    "pokeberrysyrup": "game:item/gelatin/pokeberry",
+    "pokeberry": "wildcraftfruit:items/fruit/pokeberry"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [ 0.0, 0.25, 0.4 ],
+      "to": [ 0.0, 0.25, 0.4 ],
+      "rotationOrigin": [ 0.0, 0.25, 0.4 ],
+      "faces": {
+        "north": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "south": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "west": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "up": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+        "down": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+      },
+      "children": [
+        {
+          "name": "Cube23",
+          "from": [ 5.82, -0.05, 7.73 ],
+          "to": [ 6.82, 0.95, 8.73 ],
+          "rotationOrigin": [ 6.625, 0.45, 8.2345 ],
+          "rotationX": -180.0,
+          "rotationY": -60.0,
+          "rotationZ": -157.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin1",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [ -1,-1,-1,-1] },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [ -1,-1,-1,-1] },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [ -1,-1,-1,-1] },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [ -1,-1,-1,-1] },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false, "windMode": [ -1,-1,-1,-1] }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube24",
+          "from": [ 6.42, -0.05, 6.63 ],
+          "to": [ 7.42, 0.95, 7.63 ],
+          "rotationOrigin": [ 7.425, 0.45, 7.1345 ],
+          "rotationX": -116.565,
+          "rotationY": -37.761,
+          "rotationZ": -129.232,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin2",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "rotationY": 0.0,
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube25",
+          "from": [ 8.32, -0.15, 7.03 ],
+          "to": [ 9.32, 0.85, 8.03 ],
+          "rotationOrigin": [ 9.125, 0.35, 7.5345 ],
+          "rotationX": 180.0,
+          "rotationY": -60.0,
+          "rotationZ": 157.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin3",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube26",
+          "from": [ 4.32, -0.15, 5.95 ],
+          "to": [ 5.32, 0.85, 6.95 ],
+          "rotationOrigin": [ 5.325, 0.35, 6.4541 ],
+          "rotationX": -105.857,
+          "rotationY": -43.622,
+          "rotationZ": -132.229,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin4",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "rotationZ": 9.0,
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube27",
+          "from": [ 7.77, -0.3, 4.69 ],
+          "to": [ 8.77, 0.7, 5.69 ],
+          "rotationOrigin": [ 8.775, 0.15, 5.1871 ],
+          "rotationX": -180.0,
+          "rotationY": -60.0,
+          "rotationZ": 135.0,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin5",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube28",
+          "from": [ 7.37, -0.05, 8.97 ],
+          "to": [ 8.37, 0.95, 9.97 ],
+          "rotationOrigin": [ 7.375, 0.45, 9.4655 ],
+          "rotationX": -116.565,
+          "rotationY": -37.761,
+          "rotationZ": -129.232,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin6",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "rotationY": 0.0,
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube29",
+          "from": [ 10.58, -0.05, 8.49 ],
+          "to": [ 11.58, 0.95, 9.49 ],
+          "rotationOrigin": [ 10.575, 0.45, 8.9923 ],
+          "rotationX": 180.0,
+          "rotationY": -60.0,
+          "rotationZ": 157.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin7",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube30",
+          "from": [ 9.28, -0.25, 9.19 ],
+          "to": [ 10.28, 0.75, 10.19 ],
+          "rotationOrigin": [ 9.275, 0.25, 9.6923 ],
+          "rotationX": -180.0,
+          "rotationY": -60.0,
+          "rotationZ": -157.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin8",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube31",
+          "from": [ 11.13, 0.0, 6.86 ],
+          "to": [ 12.13, 1.0, 7.86 ],
+          "rotationOrigin": [ 11.125, 0.25, 7.3593 ],
+          "rotationX": -135.209,
+          "rotationY": -21.988,
+          "rotationZ": -116.169,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin9",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube13",
+          "from": [ 9.43, -0.05, 4.87 ],
+          "to": [ 10.43, 0.95, 5.87 ],
+          "rotationOrigin": [ 10.225, 0.45, 5.3655 ],
+          "rotationX": 180.0,
+          "rotationY": 60.0,
+          "rotationZ": -157.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin10",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube14",
+          "from": [ 7.83, 1.25, 7.27 ],
+          "to": [ 8.83, 2.25, 8.27 ],
+          "rotationOrigin": [ 8.825, 1.75, 7.7655 ],
+          "rotationX": -116.565,
+          "rotationY": 37.761,
+          "rotationZ": 129.232,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin11",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "rotationY": 0.0,
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube15",
+          "from": [ 7.42, 1.25, 8.87 ],
+          "to": [ 8.42, 2.25, 9.87 ],
+          "rotationOrigin": [ 8.225, 1.75, 9.3655 ],
+          "rotationX": -180.0,
+          "rotationY": 60.0,
+          "rotationZ": 157.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin12",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube16",
+          "from": [ 9.23, 1.15, 5.65 ],
+          "to": [ 10.23, 2.15, 6.65 ],
+          "rotationOrigin": [ 10.225, 1.65, 6.1459 ],
+          "rotationX": -125.601,
+          "rotationY": 31.081,
+          "rotationZ": 124.355,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin13",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube17",
+          "from": [ 6.38, 1.3, 6.41 ],
+          "to": [ 7.38, 2.3, 7.41 ],
+          "rotationOrigin": [ 7.375, 1.75, 6.9129 ],
+          "rotationX": -180.0,
+          "rotationY": 60.0,
+          "rotationZ": 135.0,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin14",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube18",
+          "from": [ 8.58, -0.05, 8.53 ],
+          "to": [ 9.58, 0.95, 9.53 ],
+          "rotationOrigin": [ 8.575, 0.45, 9.0345 ],
+          "rotationX": -116.565,
+          "rotationY": 37.761,
+          "rotationZ": 129.232,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin15",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "rotationY": 0.0,
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube19",
+          "from": [ 6.18, 1.65, 7.31 ],
+          "to": [ 7.18, 2.65, 8.31 ],
+          "rotationOrigin": [ 6.175, 2.15, 7.8077 ],
+          "rotationX": -180.0,
+          "rotationY": 60.0,
+          "rotationZ": 157.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin16",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube20",
+          "from": [ 7.17, -0.25, 4.51 ],
+          "to": [ 8.17, 0.75, 5.51 ],
+          "rotationOrigin": [ 7.175, 0.25, 5.0077 ],
+          "rotationX": 180.0,
+          "rotationY": 60.0,
+          "rotationZ": -157.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin17",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube21",
+          "from": [ 5.22, 0.0, 7.24 ],
+          "to": [ 6.22, 1.0, 8.24 ],
+          "rotationOrigin": [ 5.225, 0.25, 7.7407 ],
+          "rotationX": -89.581,
+          "rotationY": 49.209,
+          "rotationZ": 132.888,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin18",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube3",
+          "from": [ 4.9, 0.15, 8.75 ],
+          "to": [ 5.9, 1.15, 9.75 ],
+          "rotationOrigin": [ 5.7, 0.65, 9.25 ],
+          "rotationZ": 22.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin19",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube4",
+          "from": [ 6.1, 1.35, 8.45 ],
+          "to": [ 7.1, 2.35, 9.45 ],
+          "rotationOrigin": [ 7.1, 1.85, 8.95 ],
+          "rotationX": -45.0,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin20",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube5",
+          "from": [ 6.1, 1.45, 4.65 ],
+          "to": [ 7.1, 2.45, 5.65 ],
+          "rotationOrigin": [ 6.9, 1.95, 5.15 ],
+          "rotationZ": -22.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin21",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube6",
+          "from": [ 9.8, 1.45, 9.25 ],
+          "to": [ 10.8, 2.45, 10.25 ],
+          "rotationOrigin": [ 10.8, 1.95, 9.75 ],
+          "rotationX": -45.0,
+          "rotationY": 10.0,
+          "rotationZ": -10.0,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin22",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube7",
+          "from": [ 8.1, 1.6, 5.45 ],
+          "to": [ 9.1, 2.6, 6.45 ],
+          "rotationOrigin": [ 9.1, 2.05, 5.95 ],
+          "rotationZ": -45.0,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin23",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube8",
+          "from": [ 7.6, 2.65, 7.85 ],
+          "to": [ 8.6, 3.65, 8.85 ],
+          "rotationOrigin": [ 7.6, 3.15, 8.35 ],
+          "rotationX": -45.0,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin24",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube9",
+          "from": [ 6.2, 2.95, 6.25 ],
+          "to": [ 7.2, 3.95, 7.25 ],
+          "rotationOrigin": [ 6.2, 3.45, 6.75 ],
+          "rotationX": -22.5,
+          "rotationZ": 22.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin25",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube10",
+          "from": [ 9.4, 2.45, 7.05 ],
+          "to": [ 10.4, 3.45, 8.05 ],
+          "rotationOrigin": [ 9.4, 2.95, 7.55 ],
+          "rotationY": 22.5,
+          "rotationZ": 22.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin26",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube11",
+          "from": [ 7.9, 3.4, 6.55 ],
+          "to": [ 8.9, 4.4, 7.55 ],
+          "rotationOrigin": [ 7.9, 3.65, 7.05 ],
+          "rotationX": -45.0,
+          "rotationY": -22.5,
+          "rotationZ": 22.5,
+          "faces": {
+            "north": { "texture": "#pokeberry", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "autoUv": false },
+            "east": { "texture": "#pokeberry", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+            "south": { "texture": "#pokeberry", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+            "west": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false },
+            "up": { "texture": "#pokeberry", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+            "down": { "texture": "#pokeberry", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "autoUv": false }
+          },
+          "children": [
+            {
+              "name": "gelatin27",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 1.25, 1.25, 1.25 ],
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "east": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "south": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "west": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "up": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+                "down": { "texture": "#pokeberrysyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]}

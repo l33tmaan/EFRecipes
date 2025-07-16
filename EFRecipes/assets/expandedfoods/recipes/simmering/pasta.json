@@ -1,27 +1,27 @@
 ﻿[
 {
-	Ingredients: [
-		{
-			type: "item",
-			code: "waterportion",
-			quantity: 100
-		},
-		{
-			type: "item",
-			code: "expandedfoods:pasta-cut",
-			quantity: 1
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 150,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:pasta-cooked"
-		},
-		requiresContainer: false
-	}
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "waterportion",
+      "quantity": 100
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:pasta-cut",
+      "quantity": 1
+    },
+  ],
+  "simmering": {
+    "meltingPoint": 150,
+    "meltingDuration": 150,
+    "smeltedRatio": 1,
+    "smeltingType": "bake",
+    "smeltedStack": {
+      "type": "item",
+      "code": "expandedfoods:pasta-cooked"
+    },
+    "requiresContainer": false
+  }
 },
 ]

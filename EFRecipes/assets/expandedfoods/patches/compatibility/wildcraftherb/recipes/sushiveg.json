@@ -1,18 +1,18 @@
 ﻿[
  {
-   file: "expandedfoods:recipes/kneading/wildcraftherb/wildsushiveg.json",
-    op: "addmerge", 
-    path: "/0/enabled", 
-    value: "false",
+  "file": "expandedfoods:recipes/kneading/wildcraftherb/wildsushiveg.json",
+   "op": "addmerge",
+   "path": "/0/enabled",
+   "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftherb", "invert": true }]
+   "dependsOn": [ { "modid": "wildcraftherb", "invert": true }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraftherb/wildsushiveg.json",
-    op: "addmerge", 
-    path: "/1/enabled", 
-    value: "false",
+  "file": "expandedfoods:recipes/kneading/wildcraftherb/wildsushiveg.json",
+   "op": "addmerge",
+   "path": "/1/enabled",
+   "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "wildcraftherb", "invert": true }]
+   "dependsOn": [ { "modid": "wildcraftherb", "invert": true }]
  },
 ]

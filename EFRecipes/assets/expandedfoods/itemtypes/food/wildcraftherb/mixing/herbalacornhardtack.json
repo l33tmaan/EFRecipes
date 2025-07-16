@@ -1,179 +1,179 @@
 {
-	"enabled":  false,
-	code: "herbalacornhardtack",
-  	class: "ExpandedFood",
-	maxstacksize: 128,
-	variantgroups: [
-		{
-			code: "type",
-			states: [ "spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower",
-				"birch", "pine", "maple"]},
-		{ code: "state", states: ["raw", "bake1", "bake2", "bake3", "bake4"] },
-	],
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		handbook: { "groupBy": [ "herbalacornhardtack-*" ] },
-		expandedNutritionProps: {
-      		"game:salt" : { saturation: 0, foodcategory: "Grain" },
-			"expandedfoods:brothportion-bone": { saturation: 1, "health": 0.1, foodcategory: "Protein"},
-			"expandedfoods:brothportion-meat": { saturation: 1.25, "health": 0.1, foodcategory: "Protein"},
-			"expandedfoods:brothportion-fish": { saturation: 1, "health": 0.1, foodcategory: "Protein"},
-			"expandedfoods:brothportion-vegetable": { saturation: 1, "health": 0.1, foodcategory: "Vegetable"},
-			"expandedfoods:clarifiedbrothportion-bone": { saturation: 1, "health": 0.1, foodcategory: "Protein"},
-			"expandedfoods:clarifiedbrothportion-vegetable": { saturation: 1, "health": 0.1, foodcategory: "Vegetable"},
-			"expandedfoods:clarifiedbrothportion-meat": { saturation: 1.25, "health": 0.1, foodcategory: "Protein"},
-			"expandedfoods:clarifiedbrothportion-fish": { saturation: 1, "health": 0.1, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkfullportion-chicken": { saturation: 20, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkfullportion-pheasant": { saturation: 28, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkfullportion-goldenpheasant": { saturation: 28, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkfullportion-capercaillie": { saturation: 28, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkfullportion-wildturkey": { saturation: 28, foodcategory: "Protein"},
-      		"expandedfoods:foodoilportion-*" : { saturation: 6, "health": 0.1, foodcategory: "Vegetable" }, 
-		},
-		bakingPropertiesByType: {
-			"*-raw": {
-				temp: 150,
-				levelFrom: 0.0,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 0.95,
-				resultCode: "expandedfoods:herbalacornhardtack-{type}-bake1",
-			},
-			"*-bake1": {
-				temp: 150,
-				levelFrom: 0.75,
-				levelTo: 1.5,
-				startScaleY: 0.95,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:herbalacornhardtack-{type}-bake2",
-				initialCode: "expandedfoods:herbalacornhardtack-{type}-raw",
-			},
-			"*-bake2": {
-				temp: 150,
-				levelFrom: 1.5,
-				levelTo: 2.25,
-				startScaleY: 0.9,
-				endScaleY: 0.85,
-				resultCode: "expandedfoods:herbalacornhardtack-{type}-bake3",
-				initialCode: "expandedfoods:herbalacornhardtack-{type}-bake1",
-			},
-			"*-bake3": {
-				temp: 150,
-				levelFrom: 2.25,
-				levelTo: 3.0,
-				startScaleY: 0.85,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:herbalacornhardtack-{type}-bake4",
-				initialCode: "expandedfoods:herbalacornhardtack-{type}-bake2",
-			},
-			"*-bake4": {
-				temp: 150,
-				levelFrom: 3.0,
-				levelTo: 4.0,
-				startScaleY: 0.8,
-				endScaleY: 0.75,
-				initialCode: "expandedfoods:herbalacornhardtack-{type}-bake3",
-			},
-		},
-		onDisplayTransform: { 
-			translation: { x: 0, y: -0.3, z: 0.04 },
-			scale: 0.4
-		},
-		satMultByType: {
-			"*-bake1": 1,
-			"*-bake2": 0.8,
-			"*-bake3": 0.6,
-			"*-bake4": 0.4
-		},
-	},
-	shapebytype: {
-		"*-raw": { base: "item/food/hardtack/hardtack-raw"},
-		"*": { base: "item/food/hardtack/hardtack-baked"},
-	},
-  	texturesByType: {
-		"*-bake1": {
-    			"bread": {base: "item/food/grain/herbal/acornbread2" },
-		},
-		"*-bake4": {
-    			"bread": {base: "item/food/grain/herbal/acornbread1" },
-		},
-		"*": {
-    			"bread": {base: "item/food/grain/herbal/acornbread" },
-		},
-  	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"@*-(birch|pine|maple)-bake1": { saturation: 160, foodcategory: "Grain" },
-		"*-flax-bake1": { saturation: 220, foodcategory: "Grain" },
-		"*-rice-bake1": { saturation: 440, foodcategory: "Grain" },
-		"*-bake1": { saturation: 400, foodcategory: "Grain"  },
-		"@*-(birch|pine|maple)-bake2": { saturation: 140, foodcategory: "Grain" },
-		"*-flax-bake2": { saturation: 190, foodcategory: "Grain" },
-		"*-rice-bake2": { saturation: 390, foodcategory: "Grain" },
-		"*-bake2": { saturation: 350, foodcategory: "Grain"  },
-		"@*-(birch|pine|maple)-bake3": { saturation: 120, foodcategory: "Grain" },
-		"*-flax-bake3": { saturation: 160, foodcategory: "Grain" },
-		"*-rice-bake3": { saturation: 340, foodcategory: "Grain" },
-		"*-bake3": { saturation: 300, foodcategory: "Grain"  },
-		"@*-(birch|pine|maple)-bake4": { saturation: 100, foodcategory: "Grain" },
-		"*-flax-bake4": { saturation: 130, foodcategory: "Grain" },
-		"*-rice-bake4": { saturation: 290, foodcategory: "Grain" },
-		"*-bake4": { saturation: 250, foodcategory: "Grain"  },
-	},
-	transitionablePropsByType: {
-	"*-raw":[{
-		type: "Perish",
-		freshHours: { avg: 144 },
-		transitionHours: { avg: 36 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 1
-		}],
-	"*-bake1":[{
-		type: "Perish",
-		freshHours: { avg: 432 },
-		transitionHours: { avg: 56 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 1
-		}],
-	"*-bake2":[{
-		type: "Perish",
-		freshHours: { avg: 1296 },
-		transitionHours: { avg: 56 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 1
-		}],
-	"*-bake3":[{
-		type: "Perish",
-		freshHours: { avg: 3888 },
-		transitionHours: { avg: 56 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 1
-		}],
-	"*-bake4":[{
-		type: "Perish",
-		freshHours: { avg: 11664 },
-		transitionHours: { avg: 56 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 1
-		}],
-	},
-	guiTransform: {
-		translation: { x: 3, y: 0, z: 0 },
-		rotation: { x: -28, y: 203, z: 180 },
-		origin: { x: 0.5, y: 0.07, z: 0.5 },
-		scale: 2
-	},
-	groundTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 0, y: 0, z: 1 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 2
-	},
-	tpHandTransform: {
-		translation: { x: -0.5, y: -0.22, z: 0.6 },
-		rotation: { x: 0, y: -83, z: 0 },
-		origin: { x: 0, y: 0, z: 0 },
-		scale: 0.25
-	}
+  "enabled": false,
+  "code": "herbalacornhardtack",
+    "class": "ExpandedFood",
+  "maxStackSize": 128,
+  "variantGroups": [
+    {
+      "code": "type",
+      "states": [ "spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower",
+        "birch", "pine", "maple" ]},
+    { "code": "state", "states": [ "raw", "bake1", "bake2", "bake3", "bake4" ] },
+  ],
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+   "handbook": { "groupBy": [ "herbalacornhardtack-*" ] },
+   "expandedNutritionProps": {
+          "game:salt" : { "saturation": 0, "foodCategory": "Grain" },
+      "expandedfoods:brothportion-bone": { "saturation": 1, "health": 0.1, "foodCategory": "Protein" },
+      "expandedfoods:brothportion-meat": { "saturation": 1.25, "health": 0.1, "foodCategory": "Protein" },
+      "expandedfoods:brothportion-fish": { "saturation": 1, "health": 0.1, "foodCategory": "Protein" },
+      "expandedfoods:brothportion-vegetable": { "saturation": 1, "health": 0.1, "foodCategory": "Vegetable" },
+      "expandedfoods:clarifiedbrothportion-bone": { "saturation": 1, "health": 0.1, "foodCategory": "Protein" },
+      "expandedfoods:clarifiedbrothportion-vegetable": { "saturation": 1, "health": 0.1, "foodCategory": "Vegetable" },
+      "expandedfoods:clarifiedbrothportion-meat": { "saturation": 1.25, "health": 0.1, "foodCategory": "Protein" },
+      "expandedfoods:clarifiedbrothportion-fish": { "saturation": 1, "health": 0.1, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkfullportion-chicken": { "saturation": 20, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkfullportion-pheasant": { "saturation": 28, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkfullportion-goldenpheasant": { "saturation": 28, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkfullportion-capercaillie": { "saturation": 28, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkfullportion-wildturkey": { "saturation": 28, "foodCategory": "Protein" },
+          "expandedfoods:foodoilportion-*" : { "saturation": 6, "health": 0.1, "foodCategory": "Vegetable" },
+    },
+    "bakingPropertiesByType": {
+      "*-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 0.95,
+        "resultCode": "expandedfoods:herbalacornhardtack-{type}-bake1",
+      },
+      "*-bake1": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.5,
+        "startScaleY": 0.95,
+        "endScaleY": 0.9,
+        "resultCode": "expandedfoods:herbalacornhardtack-{type}-bake2",
+        "initialCode": "expandedfoods:herbalacornhardtack-{type}-raw",
+      },
+      "*-bake2": {
+        "temp": 150,
+        "levelFrom": 1.5,
+        "levelTo": 2.25,
+        "startScaleY": 0.9,
+        "endScaleY": 0.85,
+        "resultCode": "expandedfoods:herbalacornhardtack-{type}-bake3",
+        "initialCode": "expandedfoods:herbalacornhardtack-{type}-bake1",
+      },
+      "*-bake3": {
+        "temp": 150,
+        "levelFrom": 2.25,
+        "levelTo": 3.0,
+        "startScaleY": 0.85,
+        "endScaleY": 0.8,
+        "resultCode": "expandedfoods:herbalacornhardtack-{type}-bake4",
+        "initialCode": "expandedfoods:herbalacornhardtack-{type}-bake2",
+      },
+      "*-bake4": {
+        "temp": 150,
+        "levelFrom": 3.0,
+        "levelTo": 4.0,
+        "startScaleY": 0.8,
+        "endScaleY": 0.75,
+        "initialCode": "expandedfoods:herbalacornhardtack-{type}-bake3",
+      },
+    },
+    "onDisplayTransform": {
+      "translation": { "x": 0, "y": -0.3, "z": 0.04 },
+      "scale": 0.4
+    },
+   "satMultByType": {
+      "*-bake1": 1,
+      "*-bake2": 0.8,
+      "*-bake3": 0.6,
+      "*-bake4": 0.4
+    },
+  },
+  "shapeByType": {
+    "*-raw": { "base": "item/food/hardtack/hardtack-raw" },
+    "*": { "base": "item/food/hardtack/hardtack-baked" },
+  },
+    "texturesByType": {
+    "*-bake1": {
+          "bread": { "base": "item/food/grain/herbal/acornbread2" },
+    },
+    "*-bake4": {
+          "bread": { "base": "item/food/grain/herbal/acornbread1" },
+    },
+    "*": {
+          "bread": { "base": "item/food/grain/herbal/acornbread" },
+    },
+    },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
+  "nutritionPropsByType": {
+    "@*-(birch|pine|maple)-bake1": { "saturation": 160, "foodCategory": "Grain" },
+    "*-flax-bake1": { "saturation": 220, "foodCategory": "Grain" },
+    "*-rice-bake1": { "saturation": 440, "foodCategory": "Grain" },
+    "*-bake1": { "saturation": 400, "foodCategory": "Grain" },
+    "@*-(birch|pine|maple)-bake2": { "saturation": 140, "foodCategory": "Grain" },
+    "*-flax-bake2": { "saturation": 190, "foodCategory": "Grain" },
+    "*-rice-bake2": { "saturation": 390, "foodCategory": "Grain" },
+    "*-bake2": { "saturation": 350, "foodCategory": "Grain" },
+    "@*-(birch|pine|maple)-bake3": { "saturation": 120, "foodCategory": "Grain" },
+    "*-flax-bake3": { "saturation": 160, "foodCategory": "Grain" },
+    "*-rice-bake3": { "saturation": 340, "foodCategory": "Grain" },
+    "*-bake3": { "saturation": 300, "foodCategory": "Grain" },
+    "@*-(birch|pine|maple)-bake4": { "saturation": 100, "foodCategory": "Grain" },
+    "*-flax-bake4": { "saturation": 130, "foodCategory": "Grain" },
+    "*-rice-bake4": { "saturation": 290, "foodCategory": "Grain" },
+    "*-bake4": { "saturation": 250, "foodCategory": "Grain" },
+  },
+  "transitionablePropsByType": {
+  "*-raw":[ {
+    "type": "Perish",
+    "freshHours": { "avg": 144 },
+    "transitionHours": { "avg": 36 },
+    "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 1
+    }],
+  "*-bake1":[ {
+    "type": "Perish",
+    "freshHours": { "avg": 432 },
+    "transitionHours": { "avg": 56 },
+    "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 1
+    }],
+  "*-bake2":[ {
+    "type": "Perish",
+    "freshHours": { "avg": 1296 },
+    "transitionHours": { "avg": 56 },
+    "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 1
+    }],
+  "*-bake3":[ {
+    "type": "Perish",
+    "freshHours": { "avg": 3888 },
+    "transitionHours": { "avg": 56 },
+    "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 1
+    }],
+  "*-bake4":[ {
+    "type": "Perish",
+    "freshHours": { "avg": 11664 },
+    "transitionHours": { "avg": 56 },
+    "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 1
+    }],
+  },
+  "guiTransform": {
+    "translation": { "x": 3, "y": 0, "z": 0 },
+    "rotation": { "x": -28, "y": 203, "z": 180 },
+    "origin": { "x": 0.5, "y": 0.07, "z": 0.5 },
+    "scale": 2
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 1 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 2
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.5, "y": -0.22, "z": 0.6 },
+    "rotation": { "x": 0, "y": -83, "z": 0 },
+    "origin": { "x": 0, "y": 0, "z": 0 },
+    "scale": 0.25
+  }
 }

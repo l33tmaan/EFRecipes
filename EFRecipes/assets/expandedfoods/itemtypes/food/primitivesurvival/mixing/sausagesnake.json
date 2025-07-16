@@ -1,256 +1,256 @@
 {
-	code: "sausagesnake",
-  	class: "ExpandedFood",
-	maxstacksize: 32,
-	variantgroups: [
-		{ code: "type", states: ["normal", "cheese" ]},
-		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "dried", "driedpartbaked", "driedcooked", "driedcharred", "curing", "cured"]}
-	],
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		handbook: { "groupBy": [ "sausagesnake-*" ] },
-		meathookable: true,
-		meatHookTransform: {
-  			translation: { x: 0.01, y: -1.27, z: -0.04 },
-  			rotation: { x: 0, y: 0, z: 0 },
-  			origin: { x: 0.5, y: 0, z: 0.5 },
-  			scale: 0.75
-		},
-    	"expandedNutritionProps": {
-			"expandedfoods:snakenugget-raw": {saturation: 150, foodcategory: "Protein"},
-			"game:fat": {saturation: 200, foodcategory: "Protein"},
-			"expandedfoods:lard": { saturation: 10, "health":  0.05, foodcategory: "Protein"},
-			"game:cheese-cheddar-1slice" : { saturation: 240, foodcategory: "Dairy" },
-			"game:cheese-blue-1slice" : {saturation: 200, foodcategory: "Dairy" },
-		},
-    	renderIngredients: {
-			"expandedfoods:snakenugget-raw": "expandedfoods:shapes/item/food/meat/sausage-poultry.json",
-		},
-    	inPiePropertiesByType: {
-			"@*-(raw|dried|cured)": { texture: "game:block/food/pie/fill-snake", partType: 'Filling' },
-    	},
-		bakingPropertiesByType: {
-			"*-raw": {
-				temp: 150,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1,
-				endScaleY: 1,
-				resultCode: "expandedfoods:sausagesnake-{type}-partbaked",
-			},
-			"*-partbaked": {
-				temp: 150,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:sausagesnake-{type}-cooked",
-				initialCode: "expandedfoods:sausagesnake-{type}-raw"
-			},
-			"*-cooked": {
-				temp: 150,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:sausagesnake-{type}-charred",
-				initialCode: "expandedfoods:sausagesnake-{type}-partbaked"
-			},
-			"*-charred": {
-				temp: 150,
-				levelFrom: 0.75,
-				levelTo: 1.0,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				initialCode: "expandedfoods:sausagesnake-{type}-cooked"
-			},
-			"*-dried": {
-				temp: 150,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1,
-				endScaleY: 1,
-				resultCode: "expandedfoods:sausagesnake-{type}-driedpartbaked",
-			},
-			"*-driedpartbaked": {
-				temp: 150,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:sausagesnake-{type}-driedcooked",
-				initialCode: "expandedfoods:sausagesnake-{type}-dried"
-			},
-			"*-driedcooked": {
-				temp: 150,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:sausagesnake-{type}-driedcharred",
-				initialCode: "expandedfoods:sausagesnake-{type}-driedpartbaked"
-			},
-			"*-driedcharred": {
-				temp: 150,
-				levelFrom: 0.75,
-				levelTo: 1.0,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				initialCode: "expandedfoods:sausagesnake-{type}-driedcooked"
-			},
-		},
-		satMultByType: {
-			"@*-(partbaked|driedpartbaked)": 0.5,
-			"@*-(cooked|driedcooked)": 1,
-			"@*-(charred|driedcharred|cured)": 0.75,
-		},
-		onDisplayTransform: {
-			translation: { x: 0, y: -0.48, z: 0 },
-			rotation: { x: 90, y: 0, z: 45 },
-			scale: 0.65
-		},
-	},
-	shape: { base: "expandedfoods:item/food/meat/sausage-poultry" },
-  	texturesByType: {
-		"@*-normal- (partbaked|driedpartbaked)": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "primitivesurvival:item/snake/snakemeat-partbaked" },
-		},
-		"@*-normal-(cooked|driedcooked)": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "primitivesurvival:item/snake/snakemeat-cooked" },
-		},
-		"@*-normal-(charred|driedcharred)": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "primitivesurvival:item/snake/snakemeat-charred" },
-		},
-		"@*-normal-(raw|dried|cured|curing)": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "primitivesurvival:item/snake/snakemeat-raw" },
-		},
-		"@*-cheese-(partbaked|driedpartbaked)": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/sausage/snake-cheese-partbaked" },
-		},
-		"@*-cheese-(cooked|driedcooked)": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/sausage/snake-cheese-cooked" },
-		},
-		"@*-cheese-(charred|driedcharred)": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/sausage/snake-cheese-charred" },
-		},
-		"@*-cheese-(raw|dried|cured|curing)": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "item/food/sausage/snake-cheese" },
-		},
-		"*": {
-    			"white1": {base: "game:block/cloth/wool/white1" },
-    			"cured": {base: "primitivesurvival:item/snake/snakemeat-raw" },
-		},
-  	},
-	nutritionPropsByType: {
-		"*-partbaked": { saturation: 90, foodcategory: "Protein"},
-		"*-cooked": { saturation: 100, foodcategory: "Protein"},
-		"*-charred": { saturation: 80, foodcategory: "Protein"},
-		"*-driedpartbaked": { saturation: 90, "health": 0.5, foodcategory: "Protein"},
-		"*-driedcooked": { saturation: 100, "health": 0.5, foodcategory: "Protein"},
-		"*-driedcharred": { saturation: 80, "health": 0.5, foodcategory: "Protein"},
-		"*-cured": { saturation: 75, foodcategory: "Protein"},
-	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	transitionablePropsByType: {
-		"*-raw": [{
-        	type: "Dry",
-        	freshHours: { avg: 480 },
-        	transitionHours: { avg: 20 },
-        	transitionedStack: { type: "item", code: "expandedfoods:sausagesnake-{type}-dried" },
-        	transitionRatio: 1
-      	},{
-        	type: "Perish",
-			freshHours: { avg: 168 },
-        	transitionHours: { avg: 108 },
-        	transitionedStack: { type: "item", code: "game:rot" },
-        	transitionRatio: 1
-      	}],
-		"*-dried": [{
-			type: "Perish",
-			freshHours: { avg: 168 },
-        	transitionHours: { avg: 108 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"@*-(charred|driedcharred)": [{
-			type: "Perish",
-			freshHours: { avg: 1344 },
-			transitionHours: { avg: 216 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-curing": [{
-        	type: "Cure",
-        	freshHours: { avg: 480 },
-        	transitionHours: { avg: 20 },
-        	transitionedStack: { type: "item", code: "expandedfoods:sausagecrab-{type}-cured" },
-        	transitionRatio: 1
-      	},{
-        	type: "Perish",
-        	freshHours: { avg: 168 },
-        	transitionHours: { avg: 108 },
-       		transitionedStack: { type: "item", code: "game:rot" },
-       		transitionRatio: 1
-      	}],
-		"*-cured": [{
-        	type: "Perish",
-			freshHours: { avg: 13440 },
-			transitionHours: { avg: 8640 },
-       		transitionedStack: { type: "item", code: "game:rot" },
-       		transitionRatio: 1
-      	}],
-		"*": [{
-			type: "Perish",
-			freshHours: { avg: 672 },
-			transitionHours: { avg: 108 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-	},
-	combustiblePropsByType: {
-		"@*-(raw|partbaked|cooked)": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:sausagesnake-{type}-charred" },
-			requiresContainer: false
-		},
-		"@*-(dried|driedpartbaked|driedcooked)": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:sausagesnake-{type}-driedcharred" },
-			requiresContainer: false
-		},
-	},
-	materialDensity: 600,
-	guiTransform: {
-		translation: { x: -4, y: 0, z: 0 },
-		rotation: { x: -37, y: 150, z: -180 },
-		origin: { x: 0.26, y: 0.24, z: 0.65 },
-		scale: 2
-	},
-	tpHandTransform: {
-		translation: { x: -0.1, y: -0.8, z: -0.6 },
-		rotation: { x: -2, y: 85, z: -11 },
-		origin: { x: 0.23, y: 0, z: 0.13 },
-		scale: 0.5
-	},
-	groundTransform: {
-		translation: { x: 0, y: -0.18, z: 0 },
-		rotation: { x: -90, y: 0, z: 0 },
-		origin: { x: 0, y: 0, z: 0 },
-		scale: 2
-	}
+  "code": "sausagesnake",
+    "class": "ExpandedFood",
+  "maxStackSize": 32,
+  "variantGroups": [
+    { "code": "type", "states": [ "normal", "cheese" ]},
+    { "code": "state", "states": [ "raw", "partbaked", "cooked", "charred", "dried", "driedpartbaked", "driedcooked", "driedcharred", "curing", "cured" ]}
+  ],
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+   "handbook": { "groupBy": [ "sausagesnake-*" ] },
+   "meathookable": true,
+   "meatHookTransform": {
+        "translation": { "x": 0.01, "y": -1.27, "z": -0.04 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 0.75
+    },
+      "expandedNutritionProps": {
+      "expandedfoods:snakenugget-raw": { "saturation": 150, "foodCategory": "Protein" },
+      "game:fat": { "saturation": 200, "foodCategory": "Protein" },
+      "expandedfoods:lard": { "saturation": 10, "health":  0.05, "foodCategory": "Protein" },
+      "game:cheese-cheddar-1slice" : { "saturation": 240, "foodCategory": "Dairy" },
+      "game:cheese-blue-1slice" : { "saturation": 200, "foodCategory": "Dairy" },
+    },
+     "renderIngredients": {
+      "expandedfoods:snakenugget-raw": "expandedfoods:shapes/item/food/meat/sausage-poultry.json",
+    },
+      "inPiePropertiesByType": {
+      "@*-(raw|dried|cured)": { "texture": "game:block/food/pie/fill-snake", "partType": "Filling" },
+      },
+    "bakingPropertiesByType": {
+      "*-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1,
+        "endScaleY": 1,
+        "resultCode": "expandedfoods:sausagesnake-{type}-partbaked",
+      },
+      "*-partbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:sausagesnake-{type}-cooked",
+        "initialCode": "expandedfoods:sausagesnake-{type}-raw"
+      },
+      "*-cooked": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:sausagesnake-{type}-charred",
+        "initialCode": "expandedfoods:sausagesnake-{type}-partbaked"
+      },
+      "*-charred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "expandedfoods:sausagesnake-{type}-cooked"
+      },
+      "*-dried": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1,
+        "endScaleY": 1,
+        "resultCode": "expandedfoods:sausagesnake-{type}-driedpartbaked",
+      },
+      "*-driedpartbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:sausagesnake-{type}-driedcooked",
+        "initialCode": "expandedfoods:sausagesnake-{type}-dried"
+      },
+      "*-driedcooked": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:sausagesnake-{type}-driedcharred",
+        "initialCode": "expandedfoods:sausagesnake-{type}-driedpartbaked"
+      },
+      "*-driedcharred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "expandedfoods:sausagesnake-{type}-driedcooked"
+      },
+    },
+   "satMultByType": {
+      "@*-(partbaked|driedpartbaked)": 0.5,
+      "@*-(cooked|driedcooked)": 1,
+      "@*-(charred|driedcharred|cured)": 0.75,
+    },
+    "onDisplayTransform": {
+      "translation": { "x": 0, "y": -0.48, "z": 0 },
+      "rotation": { "x": 90, "y": 0, "z": 45 },
+      "scale": 0.65
+    },
+  },
+  "shape": { "base": "expandedfoods:item/food/meat/sausage-poultry" },
+    "texturesByType": {
+    "@*-normal- (partbaked|driedpartbaked)": {
+          "white1": { "base": "game:block/cloth/wool/white1" },
+          "cured": { "base": "primitivesurvival:item/snake/snakemeat-partbaked" },
+    },
+    "@*-normal-(cooked|driedcooked)": {
+          "white1": { "base": "game:block/cloth/wool/white1" },
+          "cured": { "base": "primitivesurvival:item/snake/snakemeat-cooked" },
+    },
+    "@*-normal-(charred|driedcharred)": {
+          "white1": { "base": "game:block/cloth/wool/white1" },
+          "cured": { "base": "primitivesurvival:item/snake/snakemeat-charred" },
+    },
+    "@*-normal-(raw|dried|cured|curing)": {
+          "white1": { "base": "game:block/cloth/wool/white1" },
+          "cured": { "base": "primitivesurvival:item/snake/snakemeat-raw" },
+    },
+    "@*-cheese-(partbaked|driedpartbaked)": {
+          "white1": { "base": "game:block/cloth/wool/white1" },
+          "cured": { "base": "item/food/sausage/snake-cheese-partbaked" },
+    },
+    "@*-cheese-(cooked|driedcooked)": {
+          "white1": { "base": "game:block/cloth/wool/white1" },
+          "cured": { "base": "item/food/sausage/snake-cheese-cooked" },
+    },
+    "@*-cheese-(charred|driedcharred)": {
+          "white1": { "base": "game:block/cloth/wool/white1" },
+          "cured": { "base": "item/food/sausage/snake-cheese-charred" },
+    },
+    "@*-cheese-(raw|dried|cured|curing)": {
+          "white1": { "base": "game:block/cloth/wool/white1" },
+          "cured": { "base": "item/food/sausage/snake-cheese" },
+    },
+    "*": {
+          "white1": { "base": "game:block/cloth/wool/white1" },
+          "cured": { "base": "primitivesurvival:item/snake/snakemeat-raw" },
+    },
+    },
+  "nutritionPropsByType": {
+    "*-partbaked": { "saturation": 90, "foodCategory": "Protein" },
+    "*-cooked": { "saturation": 100, "foodCategory": "Protein" },
+    "*-charred": { "saturation": 80, "foodCategory": "Protein" },
+    "*-driedpartbaked": { "saturation": 90, "health": 0.5, "foodCategory": "Protein" },
+    "*-driedcooked": { "saturation": 100, "health": 0.5, "foodCategory": "Protein" },
+    "*-driedcharred": { "saturation": 80, "health": 0.5, "foodCategory": "Protein" },
+    "*-cured": { "saturation": 75, "foodCategory": "Protein" },
+  },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
+  "transitionablePropsByType": {
+    "*-raw": [ {
+          "type": "Dry",
+          "freshHours": { "avg": 480 },
+          "transitionHours": { "avg": 20 },
+          "transitionedStack": { "type": "item", "code": "expandedfoods:sausagesnake-{type}-dried" },
+          "transitionRatio": 1
+        },{
+          "type": "Perish",
+      "freshHours": { "avg": 168 },
+          "transitionHours": { "avg": 108 },
+          "transitionedStack": { "type": "item", "code": "game:rot" },
+          "transitionRatio": 1
+        }],
+    "*-dried": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 168 },
+          "transitionHours": { "avg": 108 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }],
+    "@*-(charred|driedcharred)": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 1344 },
+      "transitionHours": { "avg": 216 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }],
+    "*-curing": [ {
+          "type": "Cure",
+          "freshHours": { "avg": 480 },
+          "transitionHours": { "avg": 20 },
+          "transitionedStack": { "type": "item", "code": "expandedfoods:sausagecrab-{type}-cured" },
+          "transitionRatio": 1
+        },{
+          "type": "Perish",
+          "freshHours": { "avg": 168 },
+          "transitionHours": { "avg": 108 },
+           "transitionedStack": { "type": "item", "code": "game:rot" },
+           "transitionRatio": 1
+        }],
+    "*-cured": [ {
+          "type": "Perish",
+      "freshHours": { "avg": 13440 },
+      "transitionHours": { "avg": 8640 },
+           "transitionedStack": { "type": "item", "code": "game:rot" },
+           "transitionRatio": 1
+        }],
+    "*": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 672 },
+      "transitionHours": { "avg": 108 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }],
+  },
+  "combustiblePropsByType": {
+    "@*-(raw|partbaked|cooked)": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": { "type": "item", "code": "expandedfoods:sausagesnake-{type}-charred" },
+      "requiresContainer": false
+    },
+    "@*-(dried|driedpartbaked|driedcooked)": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": { "type": "item", "code": "expandedfoods:sausagesnake-{type}-driedcharred" },
+      "requiresContainer": false
+    },
+  },
+  "materialDensity": 600,
+  "guiTransform": {
+    "translation": { "x": -4, "y": 0, "z": 0 },
+    "rotation": { "x": -37, "y": 150, "z": -180 },
+    "origin": { "x": 0.26, "y": 0.24, "z": 0.65 },
+    "scale": 2
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.1, "y": -0.8, "z": -0.6 },
+    "rotation": { "x": -2, "y": 85, "z": -11 },
+    "origin": { "x": 0.23, "y": 0, "z": 0.13 },
+    "scale": 0.5
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": -0.18, "z": 0 },
+    "rotation": { "x": -90, "y": 0, "z": 0 },
+    "origin": { "x": 0, "y": 0, "z": 0 },
+    "scale": 2
+  }
 }

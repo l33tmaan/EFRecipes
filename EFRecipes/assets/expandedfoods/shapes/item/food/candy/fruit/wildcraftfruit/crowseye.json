@@ -1,81 +1,81 @@
 {
-	"editor": {
-		"allAngles": false,
-		"entityTextureMode": false
-	},
-	"textureWidth": 16,
-	"textureHeight": 16,
-	"textureSizes": {
-		"crowseye": [16,16],
-		"crowseyesyrup": [8,8]
-	},
-	"textures": {
-		"crowseye": "wildcraftfruit:items/fruit/crowseye",
-		"crowseyesyrup": "game:item/gelatin/crowseye"
-	},
-	"elements": [
-		{
-			"name": "Apricot12",
-			"from": [ 5.6, 2.0, 6.7 ], 
-			"to": [ 7.1, 4.5, 9.2 ], 
-			"rotationOrigin": [ 7.6, 2.0, 8.7 ],
-			"rotationX": 4.0,
-			"rotationY": -3.0,
-			"rotationZ": 86.0,
-			"faces": {
-				"north": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"east": { "texture": "#crowseye", "uv": [ 0.0, 6.0, 5.0, 11.0 ], "autoUv": false },
-				"south": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"west": { "texture": "#crowseye", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
-				"up": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"down": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false }
-			},
-			"children": [
-				{
-					"name": "Cube1",
-					"from": [ -0.25, -0.25, -0.25 ], 
-					"to": [ 1.75, 2.75, 2.75 ], 
-					"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-					"faces": {
-						"north": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"east": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"south": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"west": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"down": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-					}
-				}
-			]
-		},
-		{
-			"name": "Apricot13",
-			"from": [ 8.7, 2.3, 6.7 ], 
-			"to": [ 10.2, 4.8, 9.2 ], 
-			"rotationOrigin": [ 10.7, 2.3, 8.7 ],
-			"rotationZ": 96.0,
-			"faces": {
-				"north": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"east": { "texture": "#crowseye", "uv": [ 0.0, 6.0, 5.0, 11.0 ], "autoUv": false },
-				"south": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"west": { "texture": "#crowseye", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
-				"up": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
-				"down": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false }
-			},
-			"children": [
-				{
-					"name": "Cube4",
-					"from": [ -0.25, -0.25, -0.25 ], 
-					"to": [ 1.75, 2.75, 2.75 ], 
-					"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-					"faces": {
-						"north": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"east": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"south": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"west": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"up": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
-						"down": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
-					}
-				}
-			]
-		}
-	]}
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "crowseye": [ 16,16],
+    "crowseyesyrup": [ 8,8]
+  },
+  "textures": {
+    "crowseye": "wildcraftfruit:items/fruit/crowseye",
+    "crowseyesyrup": "game:item/gelatin/crowseye"
+  },
+  "elements": [
+    {
+      "name": "Apricot12",
+      "from": [ 5.6, 2.0, 6.7 ],
+      "to": [ 7.1, 4.5, 9.2 ],
+      "rotationOrigin": [ 7.6, 2.0, 8.7 ],
+      "rotationX": 4.0,
+      "rotationY": -3.0,
+      "rotationZ": 86.0,
+      "faces": {
+        "north": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "east": { "texture": "#crowseye", "uv": [ 0.0, 6.0, 5.0, 11.0 ], "autoUv": false },
+        "south": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "west": { "texture": "#crowseye", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
+        "up": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "down": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false }
+      },
+      "children": [
+        {
+          "name": "Cube1",
+          "from": [ -0.25, -0.25, -0.25 ],
+          "to": [ 1.75, 2.75, 2.75 ],
+          "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+          "faces": {
+            "north": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "east": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "south": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "west": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "down": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Apricot13",
+      "from": [ 8.7, 2.3, 6.7 ],
+      "to": [ 10.2, 4.8, 9.2 ],
+      "rotationOrigin": [ 10.7, 2.3, 8.7 ],
+      "rotationZ": 96.0,
+      "faces": {
+        "north": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "east": { "texture": "#crowseye", "uv": [ 0.0, 6.0, 5.0, 11.0 ], "autoUv": false },
+        "south": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "west": { "texture": "#crowseye", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
+        "up": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false },
+        "down": { "texture": "#crowseye", "uv": [ 6.0, 0.0, 11.0, 3.0 ], "rotation": 90, "autoUv": false }
+      },
+      "children": [
+        {
+          "name": "Cube4",
+          "from": [ -0.25, -0.25, -0.25 ],
+          "to": [ 1.75, 2.75, 2.75 ],
+          "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+          "faces": {
+            "north": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "east": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "south": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "west": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "up": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
+            "down": { "texture": "#crowseyesyrup", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false }
+          }
+        }
+      ]
+    }
+  ]}

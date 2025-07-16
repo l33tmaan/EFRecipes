@@ -38,7 +38,7 @@
         "fruit",
         "group4"
       ]
-    },   
+    },
      {
       "type": "item",
       "code": "expandedfoods:dryfruit-blackcurrant",
@@ -326,7 +326,7 @@
         "fruit",
         "fruit-pomegranate"
       ]
-    },
+    }
     ],
     "side": "server",
     "file": "recipes/cooking/porridge.json"
@@ -658,7 +658,7 @@
         "fruit",
         "fruit-pomegranate"
       ]
-    },
+    }
     ],
     "side": "server",
     "file": "recipes/cooking/porridge.json"
@@ -1201,7 +1201,7 @@
             "fruit",
             "group8"
           ]
-        },
+        }
       ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -1936,15 +1936,15 @@
             "topping",
             "pomegranatesyrup"
           ]
-        },        
+        },
         {
           "type": "item",
           "code": "expandedfoods:lard",
           "shapeElement": "bowl/topping/*",
-	        "textureMapping": [
-	            "topping",
-	            "lard"
-	        ]
+          "textureMapping": [
+              "topping",
+              "lard"
+          ]
         },
         {
           "type": "item",
@@ -2004,10 +2004,10 @@
           "type": "item",
           "code": "expandedfoods:foodoilportion-*",
           "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
+    "textureMapping": [
+      "topping",
+      "foodoil"
+   ]
         },
         {
           "type": "item",
@@ -2036,7 +2036,7 @@
                 "topping",
                 "fishbroth"
             ]
-        },
+        }
       ],
       "minQuantity": 0,
         "maxQuantity": 1,
@@ -2045,7 +2045,7 @@
     "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
-  
+
  {
     "op": "addeach",
     "path": "/ingredients/6/validStacks/-",
@@ -2787,11 +2787,11 @@
             "topping",
             "wolfberrysyrup"
           ]
-        },
+        }
     ],
     "side": "server",
     "file": "recipes/cooking/porridge.json",
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+    "dependsOn": [ { "modid": "wildcraftfruit" }]
   },
   {
     "op": "addmerge",
@@ -2799,9 +2799,9 @@
     "value": {
       "code": "nuts-extra1",
       "validStacks": [
-            { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },
-            { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },      
-            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "peanut" ] },      
+            { "type": "item", "code": "game:legume-peanut", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },
+            { "type": "item", "code": "expandedfoods:peanut-cooked", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },
+            { "type": "item", "code": "expandedfoods:peanut-kernels", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] }
         ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -2816,39 +2816,39 @@
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
     "side": "server",
     "file": "recipes/cooking/porridge.json",
-    dependsOn: [{ "modid": "acorns" }]
+    "dependsOn": [ { "modid": "acorns" }]
   },
  {
     "op": "addeach",
     "path": "/ingredients/7/validStacks/-",
     "value": [
-            { "type": "item", "code": "wildcraftfruit:nut-acornleached",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acornleached" ] },    
-            { "type": "item", "code": "wildcraftfruit:nut-almond",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "almond" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-apricotpit",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "apricotpit" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-beachalmond",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "beachalmond" ] }, 
-            { "type": "item", "code": "wildcraftfruit:nut-bluequandong",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "bluequandong" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-breadnut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "breadnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-breadnutbaked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "breadnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-bunya",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "bunya" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-cashewnut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "cashewnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-cherrypit",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "cherrypit" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-chestnut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "chestnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-chestnutbaked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "chestnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-commonhackberry",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "commonhackberry" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-deserthackberry",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "deserthackberry" ] },   
-            { "type": "item", "code": "wildcraftfruit:nut-hackberrypit",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "hackberrypit" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-hazelnut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "hazelnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-macadamiashelled",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "macadamiashelled" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-oldmansaltbush",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "oldmansaltbush" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-pinenut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pinenut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-pistachioberry",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pistachionut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-pistachionut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pistachionut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pumpkinseed" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "sugarhackberry" ] },  
+            { "type": "item", "code": "wildcraftfruit:nut-acornleached", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acornleached" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-almond", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "almond" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-apricotpit", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "apricotpit" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-beachalmond", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "beachalmond" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-bluequandong", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "bluequandong" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-breadnut", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "breadnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-breadnutbaked", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "breadnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-bunya", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "bunya" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-cashewnut", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "cashewnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-cherrypit", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "cherrypit" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-chestnut", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "chestnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-chestnutbaked", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "chestnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-commonhackberry", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "commonhackberry" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-deserthackberry", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "deserthackberry" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-hackberrypit", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "hackberrypit" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-hazelnut", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "hazelnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-macadamiashelled", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "macadamiashelled" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-oldmansaltbush", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "oldmansaltbush" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-pinenut", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pinenut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-pistachioberry", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pistachionut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-pistachionut", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pistachionut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "pumpkinseed" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "sugarhackberry" ] }
         ],
     "side": "server",
     "file": "game:recipes/cooking/porridge.json",
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+    "dependsOn": [ { "modid": "wildcraftfruit" }]
   },
   {
     "op": "addmerge",
@@ -2856,9 +2856,9 @@
     "value": {
       "code": "nuts-extra2",
       "validStacks": [
-            { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
-            { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },      
-            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "acorns" ] },      
+            { "type": "item", "code": "game:legume-peanut", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
+            { "type": "item", "code": "expandedfoods:peanut-cooked", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
+            { "type": "item", "code": "expandedfoods:peanut-kernels", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] }
 ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -2869,43 +2869,43 @@
  {
     "op": "addmerge",
     "path": "/ingredients/8/validStacks/-",
-    "value": 
+    "value":
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
     "side": "server",
     "file": "recipes/cooking/porridge.json",
-    dependsOn: [{ "modid": "acorns" }]
+    "dependsOn": [ { "modid": "acorns" }]
   },
  {
     "op": "addeach",
     "path": "/ingredients/8/validStacks/-",
     "value": [
-            { "type": "item", "code": "wildcraftfruit:nut-acornleached",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acornleached" ] },    
-            { "type": "item", "code": "wildcraftfruit:nut-almond",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "almond" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-apricotpit",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "apricotpit" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-beachalmond",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "beachalmond" ] }, 
-            { "type": "item", "code": "wildcraftfruit:nut-bluequandong",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "bluequandong" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-breadnut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "breadnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-breadnutbaked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "breadnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-bunya",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "bunya" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-cashewnut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "cashewnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-cherrypit",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "cherrypit" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-chestnut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "chestnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-chestnutbaked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "chestnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-commonhackberry",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "commonhackberry" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-deserthackberry",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "deserthackberry" ] },   
-            { "type": "item", "code": "wildcraftfruit:nut-hackberrypit",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "hackberrypit" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-hazelnut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "hazelnut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-macadamiashelled",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "macadamiashelled" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-oldmansaltbush",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "oldmansaltbush" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-pinenut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pinenut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-pistachioberry",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pistachionut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-pistachionut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pistachionut" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pumpkinseed" ] },  
-            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "sugarhackberry" ] },   
+            { "type": "item", "code": "wildcraftfruit:nut-acornleached", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acornleached" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-almond", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "almond" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-apricotpit", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "apricotpit" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-beachalmond", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "beachalmond" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-bluequandong", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "bluequandong" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-breadnut", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "breadnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-breadnutbaked", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "breadnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-bunya", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "bunya" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-cashewnut", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "cashewnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-cherrypit", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "cherrypit" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-chestnut", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "chestnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-chestnutbaked", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "chestnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-commonhackberry", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "commonhackberry" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-deserthackberry", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "deserthackberry" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-hackberrypit", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "hackberrypit" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-hazelnut", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "hazelnut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-macadamiashelled", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "macadamiashelled" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-oldmansaltbush", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "oldmansaltbush" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-pinenut", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pinenut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-pistachioberry", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pistachionut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-pistachionut", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pistachionut" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "pumpkinseed" ] },
+            { "type": "item", "code": "wildcraftfruit:nut-sugarhackberry", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "sugarhackberry" ] }
         ],
     "side": "server",
     "file": "game:recipes/cooking/porridge.json",
-    dependsOn: [{ "modid": "wildcraftfruit" }]
+    "dependsOn": [ { "modid": "wildcraftfruit" }]
   },
   {
     "op": "addmerge",
@@ -3336,7 +3336,7 @@
                 "code": "expandedfoods:sausagefish-*-dried",
                 "shapeElement": "bowl/meatnugget 1/*",
                 "textureMapping": [ "meatnugget", "group1" ]
-            },   
+            },
             {
                 "type": "item",
                 "code": "expandedfoods:sausagefish-*-curing",
@@ -3348,7 +3348,7 @@
                 "code": "expandedfoods:sausagefish-*-cured",
                 "shapeElement": "bowl/meatnugget 1/*",
                 "textureMapping": [ "meatnugget", "group1" ]
-            },
+            }
         ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -3452,11 +3452,11 @@
                 "meat",
                 "group3"
             ]
-        },
+        }
     ],
     "side": "server",
-    "file": "recipes/cooking/porridge.json",	
-    dependsOn: [{ "modid": "ancienttools" }]
+    "file": "recipes/cooking/porridge.json",
+    "dependsOn": [ { "modid": "ancienttools" }]
   },
  {
     "op": "addeach",
@@ -3466,19 +3466,19 @@
         {"type": "item", "code": "primitivesurvival:crabmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
         {"type": "item", "code": "primitivesurvival:snakemeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
         {"type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
-        {"type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]}, 
-        {"type": "item", "code": "expandedfoods:sausagecrab-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},    
-        {"type": "item", "code": "expandedfoods:sausagecrab-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget","crabmeat" ]},    
-        {"type": "item", "code": "expandedfoods:sausagecrab-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget","crabmeat" ]},    
-        {"type": "item", "code": "expandedfoods:sausagecrab-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget","crabmeat" ]},    
-        {"type": "item", "code": "expandedfoods:sausagesnake-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},    
+        {"type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagecrab-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagecrab-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget","crabmeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagecrab-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget","crabmeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagecrab-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget","crabmeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagesnake-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
         {"type": "item", "code": "expandedfoods:sausagesnake-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
         {"type": "item", "code": "expandedfoods:sausagesnake-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
-        {"type": "item", "code": "expandedfoods:sausagesnake-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagesnake-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]}
     ],
-    side: "server",
-    "file": "recipes/cooking/porridge.json",	
-	dependsOn: [{ "modid": "primitivesurvival" }]
+    "side": "server",
+    "file": "recipes/cooking/porridge.json",
+  "dependsOn": [ { "modid": "primitivesurvival" }]
   },
   {
     "op": "addeach",
@@ -3489,13 +3489,13 @@
         {"type": "item", "code": "expandedfoods:sausagecrabherb-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
         {"type": "item", "code": "expandedfoods:sausagecrabherb-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
         {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
-        {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},    
-        {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},     
-        {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},   
+        {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
+        {"type": "item", "code": "expandedfoods:sausagesnakeherb-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]}
     ],
     "file": "game:recipes/cooking/porridge.json",
-    side: "server",
-    dependsOn: [ { "modid": "primitivesurvival" }, { "modid": "wildcraft" } ]
+    "side": "server",
+    "dependsOn": [ { "modid": "primitivesurvival" }, { "modid": "wildcraft" } ]
   },
   {
     "op": "addeach",
@@ -3510,28 +3510,28 @@
         {"type": "item", "code": "expandedfoods:sausageherb-bushmeatcheese-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
         {"type": "item", "code": "expandedfoods:sausageherb-bushmeatcheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
         {"type": "item", "code": "expandedfoods:sausageherb-poultry-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},
-        {"type": "item", "code": "expandedfoods:sausageherb-poultry-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5"]},
+        {"type": "item", "code": "expandedfoods:sausageherb-poultry-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},
         {"type": "item", "code": "expandedfoods:sausageherb-poultry-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},
         {"type": "item", "code": "expandedfoods:sausageherb-poultry-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},
         {"type": "item", "code": "expandedfoods:sausageherb-poultrycheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},
-        {"type": "item", "code": "expandedfoods:sausageherb-poultrycheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]}, 
+        {"type": "item", "code": "expandedfoods:sausageherb-poultrycheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},
         {"type": "item", "code": "expandedfoods:sausageherb-poultrycheese-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},
-        {"type": "item", "code": "expandedfoods:sausageherb-poultrycheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},  
-        {"type": "item", "code": "expandedfoods:sausageherb-redmeat-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "group6" ]},    
-        {"type": "item", "code": "expandedfoods:sausageherb-redmeat-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},   
-        {"type": "item", "code": "expandedfoods:sausageherb-redmeat-curing", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "group6" ]},    
-        {"type": "item", "code": "expandedfoods:sausageherb-redmeat-cured", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "group6" ]},     
-        {"type": "item", "code": "expandedfoods:sausageherb-redmeatcheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},    
-        {"type": "item", "code": "expandedfoods:sausageherb-redmeatcheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]}, 
-        {"type": "item", "code": "expandedfoods:sausageherb-redmeatcheese-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},  
-        {"type": "item", "code": "expandedfoods:sausageherb-redmeatcheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},  
+        {"type": "item", "code": "expandedfoods:sausageherb-poultrycheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group5" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeat-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeat-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeat-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeatcheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeatcheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeatcheese-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
+        {"type": "item", "code": "expandedfoods:sausageherb-redmeatcheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group6" ]},
         {"type": "item", "code": "expandedfoods:sausagefishherb-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]},
-        {"type": "item", "code": "expandedfoods:sausagefishherb-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]},   
+        {"type": "item", "code": "expandedfoods:sausagefishherb-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]},
         {"type": "item", "code": "expandedfoods:sausagefishherb-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]},
-        {"type": "item", "code": "expandedfoods:sausagefishherb-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]},
+        {"type": "item", "code": "expandedfoods:sausagefishherb-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group4" ]}
     ],
     "file": "game:recipes/cooking/porridge.json",
     "side": "server",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
+    "dependsOn": [ { "modid": "wildcraft" } ]
+  }
 ]

@@ -1,227 +1,226 @@
 {
-	code: "fishnugget",
-	maxstacksize: 64,
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		"handbook": { "groupBy": [ "fishnugget-*" ] },
-		nutritionPropsWhenInMealByType: { 
-			"@*-(raw|smashed|curedsmashed|curedchopped)": {satiety: 400, foodcategory: "Protein"},
-		},
-		bakingPropertiesByType: {
-			"*-smashed": {
-				temp: 150,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:fishnugget-tenderpartbaked",
-			},
-			"*-tenderpartbaked": {
-				temp: 150,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:fishnugget-tender",
-				initialCode: "expandedfoods:fishnugget-smashed"
-			},
-			"*-tender": {
-				temp: 150,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:fishnugget-tendercharred",
-				initialCode: "expandedfoods:fishnugget-tenderpartbaked"
-			},
-			"*-tendercharred": {
-				temp: 150,
-				levelFrom: 0.75,
-				levelTo: 1.0,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				initialCode: "expandedfoods:fishnugget-tender"
-			},
-			"*-raw": {
-				temp: 150,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:fishnugget-cookedpartbaked",
-			},
-			"*-cookedpartbaked": {
-				temp: 150,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:fishnugget-cooked",
-				initialCode: "expandedfoods:fishnugget-raw"
-			},
-			"*-cooked": {
-				temp: 150,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:fishnugget-cookedcharred",
-				initialCode: "expandedfoods:fishnugget-cookedpartbaked"
-			},
-			"*-cookedcharred": {
-				temp: 150,
-				levelFrom: 0.75,
-				levelTo: 1.0,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				initialCode: "expandedfoods:fishnugget-cooked"
-			},
-		},
-		onDisplayTransformByType: { 
-			"@*-(raw|cookedpartbaked|cooked|cookedcharred|curedchopped)": {
-				translation: { x: 0, y: 0.25, z: 0 },
-				scale: 1.5 
-			},
-			"*": {
-				translation: { x: 0, y: -0.1525, z: 0 },
-				rotation: { x: 0, y: -45, z: 0 }, 
-				scale: 0.66
-			},
-		},
-    	inPiePropertiesByType: {
-      		"@*-(raw|smashed|curedsmashed|curedchopped)": { texture: "game:block/food/pie/fill-fish", partType: 'Filling' },
-    	},
-	},
-	variantgroups: [
-		{ code: "type", states: ["smashed", "raw", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred", "curedsmashed", "curedchopped" ] },
-	],
-	shapebytype:	{
-		"@*-(smashed|curedsmashed)": {base: "item/food/meat/fish-smash"},
-		"@*-(tenderpartbaked|tender|tendercharred)": {base: "item/food/meat/fish-tender"},
-		"@*-(raw|cured|curedchopped)": {base: "item/food/meat/fish-nugget"},
-		"@*-(cookedpartbaked|cooked|cookedcharred)": {base: "item/food/meat/fish-cooked"},
-	},
-	texturesByType: {
-		"@*-(cookedpartbaked|tenderpartbaked)": {
-			"cooked": {base: "game:item/food/meat/partbaked" },
-		},
-		"@*-(cookedcharred|tendercharred)": {
-			"cooked": {base: "game:item/food/meat/charred" },
-		},
-		"@*-(curedsmashed|curedchopped)": {
-			"meat": {base: "game:item/food/meat/cured" },
-			"raw": {base: "game:item/food/meat/cured" },
-		},
-		"*": {
-			"partbaked": {base: "game:item/food/meat/partbaked" },
-			"cooked": {base: "game:item/food/meat/cooked" },
-			"charred": {base: "game:item/food/meat/charred" },
-			"meat": {base: "game:item/food/meat/raw" },
-			"raw": {base: "game:item/food/meat/raw" },
-		},
-	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"@*-(smashed|raw)": {satiety: 115, foodcategory: "Protein"},
-		"@*-(cookedpartbaked|tenderpartbaked)": {satiety: 215, foodcategory: "Protein"},
-		"@*-(cooked|tender)": {satiety: 220, foodcategory: "Protein"},
-		"@*-(tendercharred|cookedcharred)": {satiety: 210, foodcategory: "Protein"},
-		"@*-(curedsmashed|curedchopped)": {satiety: 165, foodcategory: "Protein"},
-	},
-	transitionablePropsByType: {
-		"@*-(smashed|raw)": [{	
-			type: "Perish",
-			freshHours: { avg: 48 },
-			transitionHours: { avg: 12 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-			}
-		],
-		"@*-(tenderpartbaked|tender|cookedpartbaked|cooked)": [{
-			type: "Perish",
-			freshHours: { avg: 120 },
-			transitionHours: { avg: 36 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"@*-(tendercharred|cookedcharred)": [{
-			type: "Perish",
-			freshHours: { avg: 240 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"@*-(curedsmashed|curedchopped)": [{
-			type: "Perish",
-			freshHours: { avg: 8760 },
-			spoilHours: { avg: 4380 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-	},
-	materialDensity: 600,
-	guiTransformByType: {
-		"@*-(cookedpartbaked|cooked|cookedcharred|raw|curedchopped)": {
-			rotate: false,
-			translation: { x: 0.0, y: 0, z: 0 },
-			rotation: { x: 171, y: -122, z: 28 },
-			origin: { x: 0.43, y: 0.04, z: 0.53 },
-			scale: 7
-		},
-		"@*-(tenderpartbaked|tender|tendercharred|smashed|curedsmashed)": {
-			rotate: false,
-			translation: { x: 3, y: 0, z: 0 },
-			rotation: { x: -22.5, y: -44.6875, z: -158 },
-			origin: { x: 0.55, y: 0.03, z: 0.51 },
-			scale: 2.31
-		},
-	},
-	tpHandTransformByType: {
-		"@*-(tenderpartbaked|tender|tendercharred|smashed|curedsmashed)": {
-			translation: { x: -0.99, y: -0.2, z: -1.08 },
-			rotation: { x: -106, y: -1, z: -5 },
-			origin: { x: 0.5, y: 0.12, z: 0.54 },
-			scale: 0.55
-		},
-		"*": {
-			translation: { x: 0.05, y: -0.05, z: 0.1 },
-			rotation: { x: 1, y: 9, z: -11 },
-			origin: { x: 0.21, y: -0.2, z: 0.15 },
-			scale: 1	
-		},
-	},
-	groundTransformByType: {
-		"@*-(tenderpartbaked|tender|tendercharred|smashed|curedsmashed)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-		},
-		"*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 180, y: 33, z: -180 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 5
-
-		},
-	},
-	combustiblePropsByType: {
-		"@*-(raw|cookedpartbaked|cooked)": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "fishnugget-cookedcharred" },
-			requiresContainer: false
-		},
-		"@*-(smashed|tenderpartbaked|tender)": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "fishnugget-tendercharred" },
-			requiresContainer: false
-		},
-	}
+  "code": "fishnugget",
+  "maxStackSize": 64,
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+    "handbook": { "groupBy": [ "fishnugget-*" ] },
+    "nutritionPropsWhenInMealByType": {
+      "@*-(raw|smashed|curedsmashed|curedchopped)": { "satiety": 400, "foodCategory": "Protein" }
+    },
+    "bakingPropertiesByType": {
+      "*-smashed": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:fishnugget-tenderpartbaked"
+      },
+      "*-tenderpartbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:fishnugget-tender",
+        "initialCode": "expandedfoods:fishnugget-smashed"
+      },
+      "*-tender": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:fishnugget-tendercharred",
+        "initialCode": "expandedfoods:fishnugget-tenderpartbaked"
+      },
+      "*-tendercharred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "expandedfoods:fishnugget-tender"
+      },
+      "*-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:fishnugget-cookedpartbaked"
+      },
+      "*-cookedpartbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:fishnugget-cooked",
+        "initialCode": "expandedfoods:fishnugget-raw"
+      },
+      "*-cooked": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:fishnugget-cookedcharred",
+        "initialCode": "expandedfoods:fishnugget-cookedpartbaked"
+      },
+      "*-cookedcharred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "expandedfoods:fishnugget-cooked"
+      }
+    },
+    "onDisplayTransformByType": {
+      "@*-(raw|cookedpartbaked|cooked|cookedcharred|curedchopped)": {
+        "translation": { "x": 0, "y": 0.25, "z": 0 },
+        "scale": 1.5
+      },
+      "*": {
+        "translation": { "x": 0, "y": -0.1525, "z": 0 },
+        "rotation": { "x": 0, "y": -45, "z": 0 },
+        "scale": 0.66
+      }
+    },
+      "inPiePropertiesByType": {
+          "@*-(raw|smashed|curedsmashed|curedchopped)": { "texture": "game:block/food/pie/fill-fish", "partType": "Filling" }
+      }
+  },
+  "variantGroups": [
+    { "code": "type", "states": [ "smashed", "raw", "cookedpartbaked", "cooked", "cookedcharred", "tenderpartbaked", "tender", "tendercharred", "curedsmashed", "curedchopped" ] }
+  ],
+  "shapeByType":  {
+    "@*-(smashed|curedsmashed)": { "base": "item/food/meat/fish-smash" },
+    "@*-(tenderpartbaked|tender|tendercharred)": { "base": "item/food/meat/fish-tender" },
+    "@*-(raw|cured|curedchopped)": { "base": "item/food/meat/fish-nugget" },
+    "@*-(cookedpartbaked|cooked|cookedcharred)": { "base": "item/food/meat/fish-cooked" }
+  },
+  "texturesByType": {
+    "@*-(cookedpartbaked|tenderpartbaked)": {
+      "cooked": { "base": "game:item/food/meat/partbaked" }
+    },
+    "@*-(cookedcharred|tendercharred)": {
+      "cooked": { "base": "game:item/food/meat/charred" }
+    },
+    "@*-(curedsmashed|curedchopped)": {
+      "meat": { "base": "game:item/food/meat/cured" },
+      "raw": { "base": "game:item/food/meat/cured" }
+    },
+    "*": {
+      "partbaked": { "base": "game:item/food/meat/partbaked" },
+      "cooked": { "base": "game:item/food/meat/cooked" },
+      "charred": { "base": "game:item/food/meat/charred" },
+      "meat": { "base": "game:item/food/meat/raw" },
+      "raw": { "base": "game:item/food/meat/raw" }
+    }
+  },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
+  "nutritionPropsByType": {
+    "@*-(smashed|raw)": { "satiety": 115, "foodCategory": "Protein" },
+    "@*-(cookedpartbaked|tenderpartbaked)": { "satiety": 215, "foodCategory": "Protein" },
+    "@*-(cooked|tender)": { "satiety": 220, "foodCategory": "Protein" },
+    "@*-(tendercharred|cookedcharred)": { "satiety": 210, "foodCategory": "Protein" },
+    "@*-(curedsmashed|curedchopped)": { "satiety": 165, "foodCategory": "Protein" }
+  },
+  "transitionablePropsByType": {
+    "@*-(smashed|raw)": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 48 },
+      "transitionHours": { "avg": 12 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+      }
+    ],
+    "@*-(tenderpartbaked|tender|cookedpartbaked|cooked)": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 120 },
+      "transitionHours": { "avg": 36 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }],
+    "@*-(tendercharred|cookedcharred)": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 240 },
+      "transitionHours": { "avg": 72 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }],
+    "@*-(curedsmashed|curedchopped)": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 8760 },
+      "spoilHours": { "avg": 4380 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }]
+  },
+  "materialDensity": 600,
+  "guiTransformByType": {
+    "@*-(cookedpartbaked|cooked|cookedcharred|raw|curedchopped)": {
+      "rotate": false,
+      "translation": { "x": 0.0, "y": 0, "z": 0 },
+      "rotation": { "x": 171, "y": -122, "z": 28 },
+      "origin": { "x": 0.43, "y": 0.04, "z": 0.53 },
+      "scale": 7
+    },
+    "@*-(tenderpartbaked|tender|tendercharred|smashed|curedsmashed)": {
+      "rotate": false,
+      "translation": { "x": 3, "y": 0, "z": 0 },
+      "rotation": { "x": -22.5, "y": -44.6875, "z": -158 },
+      "origin": { "x": 0.55, "y": 0.03, "z": 0.51 },
+      "scale": 2.31
+    }
+  },
+  "tpHandTransformByType": {
+    "@*-(tenderpartbaked|tender|tendercharred|smashed|curedsmashed)": {
+      "translation": { "x": -0.99, "y": -0.2, "z": -1.08 },
+      "rotation": { "x": -106, "y": -1, "z": -5 },
+      "origin": { "x": 0.5, "y": 0.12, "z": 0.54 },
+      "scale": 0.55
+    },
+    "*": {
+      "translation": { "x": 0.05, "y": -0.05, "z": 0.1 },
+      "rotation": { "x": 1, "y": 9, "z": -11 },
+      "origin": { "x": 0.21, "y": -0.2, "z": 0.15 },
+      "scale": 1
+    }
+  },
+  "groundTransformByType": {
+    "@*-(tenderpartbaked|tender|tendercharred|smashed|curedsmashed)": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 2.5
+    },
+    "*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 180, "y": 33, "z": -180 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 5
+    }
+  },
+  "combustiblePropsByType": {
+    "@*-(raw|cookedpartbaked|cooked)": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": { "type": "item", "code": "fishnugget-cookedcharred" },
+      "requiresContainer": false
+    },
+    "@*-(smashed|tenderpartbaked|tender)": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": { "type": "item", "code": "fishnugget-tendercharred" },
+      "requiresContainer": false
+    }
+  }
 }

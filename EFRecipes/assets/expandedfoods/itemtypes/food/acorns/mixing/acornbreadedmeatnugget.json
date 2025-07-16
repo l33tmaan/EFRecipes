@@ -1,240 +1,239 @@
 {
-	code: "acornbreadedmeatnugget",
-  	class: "ExpandedFood",
-	maxstacksize: 64,
-	variantgroups: [
-		{ code: "meat", states: ["bushmeat", "poultry", "redmeat"] },	
-		{ code: "state", states: ["smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled"] },
-	],
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		handbook: { "groupBy": [ "acornbreadedmeatnugget-*" ] },
-  		"expandedNutritionProps": {
-			"game:flour-flax": {saturation: 80, foodcategory: "Grain"},
-			"game:flour-rye": {saturation: 150, foodcategory: "Grain"},
-			"game:flour-spelt": {saturation: 150, foodcategory: "Grain"},
-			"game:flour-cassava": {saturation: 150, foodcategory: "Grain"},
-			"game:flour-amaranth": {saturation: 150, foodcategory: "Grain"},
-			"game:flour-sunflower": {saturation: 150, foodcategory: "Grain"},
-			"game:flour-rice": {saturation: 165, foodcategory: "Grain"},
-      		"game:flour-birch" : { saturation: 50, foodcategory: "Grain" },
-      		"game:flour-pine" : { saturation: 50, foodcategory: "Grain" },
-      		"game:flour-maple" : { saturation: 50, foodcategory: "Grain" },
-			"acorns:flour-acorn": {saturation: 150, foodcategory: "Grain"},
-			"expandedfoods:acornbreadcrumbs-acornflax": {saturation: 80, foodcategory: "Grain"},
-			"expandedfoods:acornbreadcrumbs-acornrice": {saturation: 160, foodcategory: "Grain"},
-			"expandedfoods:acornbreadcrumbs-acornspelt": {saturation: 150, foodcategory: "Grain"},
-			"expandedfoods:acornbreadcrumbs-acornrye": {saturation: 150, foodcategory: "Grain"},
-			"expandedfoods:acornbreadcrumbs-acorncassava": {saturation: 150, foodcategory: "Grain"},
-			"expandedfoods:acornbreadcrumbs-acornamaranth": {saturation: 150, foodcategory: "Grain"},
-			"expandedfoods:acornbreadcrumbs-acornsunflower": {saturation: 150, foodcategory: "Grain"},
-			"expandedfoods:acornbreadcrumbs-acornbirch": {saturation: 50, foodcategory: "Grain"},
-			"expandedfoods:acornbreadcrumbs-acornpine": {saturation: 50, foodcategory: "Grain"},
-			"expandedfoods:acornbreadcrumbs-acornmaple": {saturation: 50, foodcategory: "Grain"},
-			"aculinaryartillery:eggwhiteportion": { saturation: 3, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkportion-chicken": { saturation: 17, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkportion-pheasant": { saturation: 25, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkportion-goldenpheasant": { saturation: 25, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkportion-capercaillie": { saturation: 25, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkportion-wildturkey": { saturation: 25, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkfullportion-chicken": { saturation: 20, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkfullportion-pheasant": { saturation: 28, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkfullportion-goldenpheasant": { saturation: 28, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkfullportion-capercaillie": { saturation: 28, foodcategory: "Protein"},
-			"aculinaryartillery:eggyolkfullportion-wildturkey": { saturation: 28, foodcategory: "Protein"},
-    		"expandedfoods:foodoilportion-*" : { saturation: 6.4, "health": 0.1, foodcategory: "Vegetable" },
-    		"expandedfoods:treesyrupportion-*" : { saturation: 9.6, "health": 0.1, foodcategory: "Fruit" },
-    		"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.2, foodcategory: "Fruit" }, 
-      		"expandedfoods:fruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-cloudberry" : { saturation: 12, "health": 0.5, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-husktomato" : { saturation: 12, "health": 0.3, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-juniper" : { saturation: 12, "health": 0.3, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-coralbead" : { saturation: 12, "health": -0.1, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-pokeberry" : { saturation: 12, "health": -0.25, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-snowberry" : { saturation: 12, "health": -0.25, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-falseorange" : { saturation: 12, "health": -0.25, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-blacknightshadeunripe" : { saturation: 12, "health": -1, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-bitternightshade" : { saturation: 12, "health": -2, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-wolfberry" : { saturation: 12, "health": -3, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-seamango" : { saturation: 12, "health": -4, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-crowseye" : { saturation: 12, "health": -5, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
-			"expandedfoods:lard": { saturation: 10, "health":  0.05, foodcategory: "Protein"},
-    		"expandedfoods:fishsauce" : { saturation: 5, foodcategory: "Protein" },
-    		"expandedfoods:soysauce" : { saturation: 6.4, "health": 0.1, foodcategory: "Protein" },
-    		"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
-			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Grain"},
-		},
-		bakingPropertiesByType: {
-			"@*-(smashed|oiled)": {
-				temp: 150,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:acornbreadedmeatnugget-{meat}-partbaked",
-			},
-			"*-partbaked": {
-				temp: 150,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:acornbreadedmeatnugget-{meat}-tender",
-			},
-			"*-tender": {
-				temp: 150,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:acornbreadedmeatnugget-{meat}-charred",
-				initialCode: "expandedfoods:acornbreadedmeatnugget-{meat}-partbaked",
-			},
-			"*-charred": {
-				temp: 150,
-				levelFrom: 0.75,
-				levelTo: 1.0,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				initialCode: "expandedfoods:acornbreadedmeatnugget-{meat}-tender",
-			},
-			"*-syruppartbaked": {
-				temp: 150,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:acornbreadedmeatnugget-{meat}-syrups"
-			},
-			"*-syrups": {
-				temp: 150,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:acornbreadedmeatnugget-{meat}-syrupcharred",
-				initialCode: "expandedfoods:acornbreadedmeatnugget-{meat}-syruppartbaked",
-			},
-			"*-syrupcharred": {
-				temp: 150,
-				levelFrom: 0.75,
-				levelTo: 1.0,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				initialCode: "expandedfoods:acornbreadedmeatnugget-{meat}-syrups",
-			},
-		},
-		onDisplayTransform: { 
-			translation: { x: 0, y: 0, z: 0 },
-			scale: 1 
-		},
-		satMultByType: {
-			"@*-(partbaked|syruppartbaked)": 0.5,
-			"@*-(cooked|syrups)": 1,
-			"@*-(charred|syrupcharred)": 0.75,
-		},
-	},
-	shapebytype:	{
-		"@*-(syruppartbaked|syrups|syrupcharred|partbaked|tender|charred)": {base: "item/food/meat/{meat}-tender"},
-		"@*-(smashed|oiled)": {base: "item/food/meat/{meat}-smash"},
-	},
-	texturesbytype: {
-		"*-oiled":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-oiled" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-oiled" },
-		},
-		"@*-(syruppartbaked|syrups|syrupcharred)":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
-		},
-		"@*-(smashed|tender)":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-cooked" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-raw" },
-		},
-		"*-partbaked":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-partbaked" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-partbaked" },
-		},
-		"*-charred":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-charred" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-charred" },
-		},
-	},
-	nutritionPropsByType: {
-		"@*-(partbaked|syruppartbaked)": { satiety: 80, foodcategory: "Protein" },
-		"@*-(syrups|tender)": { satiety: 90, foodcategory: "Protein" },
-		"@*-(syrupcharred|charred)": { satiety: 70, foodcategory: "Protein" },
-	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	materialDensity: 600,
-	transitionablePropsByType: {
-		"@*-(oiled|smashed)": [{
-			type: "Perish",
-			freshHours: { avg: 24 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-			}
-		],
-		"@*-(charred|syrupcharred)": [{
-			type: "Perish",
-			freshHours: { avg: 200 },
-			transitionHours: { avg: 144 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*": [{
-			type: "Perish",
-			freshHours: { avg: 100 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-	},
-	materialDensity: 600,
-	guiTransformByType: {
-		"*": {
-			rotate: false,
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 171, y: -122, z: 33 },
-			origin: { x: 0.5, y: 0.04, z: 0.56 },
-			scale: 5
-		}
-	},
-	tpHandTransformByType: {
-		"*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 27, z: -14 },
-			origin: { x: 0.28, y: -0.2, z: 0.13 },
-			scale: 0.75
-		},
-	},
-	groundTransformByType: {
-		"*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 180, y: 33, z: -180 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 5
-		},
-	},
-	combustiblePropsByType: {
-		"@*-(smashed|oiled|partbaked|tender)": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-charred" },
-			requiresContainer: false
-		},
-		"@*-(syruppartbaked|syrups)": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-syrupcharred" },
-			requiresContainer: false
-		},
-	}
+  "code": "acornbreadedmeatnugget",
+    "class": "ExpandedFood",
+  "maxStackSize": 64,
+  "variantGroups": [
+    { "code": "meat", "states": [ "bushmeat", "poultry", "redmeat" ] },
+    { "code": "state", "states": [ "smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled" ] }
+  ],
+  "attributes": {
+    "displayCaseable": true,
+    "shelvable": true,
+   "handbook": { "groupBy": [ "acornbreadedmeatnugget-*" ] },
+      "expandedNutritionProps": {
+      "game:flour-flax": { "saturation": 80, "foodCategory": "Grain" },
+      "game:flour-rye": { "saturation": 150, "foodCategory": "Grain" },
+      "game:flour-spelt": { "saturation": 150, "foodCategory": "Grain" },
+      "game:flour-cassava": { "saturation": 150, "foodCategory": "Grain" },
+      "game:flour-amaranth": { "saturation": 150, "foodCategory": "Grain" },
+      "game:flour-sunflower": { "saturation": 150, "foodCategory": "Grain" },
+      "game:flour-rice": { "saturation": 165, "foodCategory": "Grain" },
+      "game:flour-birch" : { "saturation": 50, "foodCategory": "Grain" },
+      "game:flour-pine" : { "saturation": 50, "foodCategory": "Grain" },
+      "game:flour-maple" : { "saturation": 50, "foodCategory": "Grain" },
+      "acorns:flour-acorn": { "saturation": 150, "foodCategory": "Grain" },
+      "expandedfoods:acornbreadcrumbs-acornflax": { "saturation": 80, "foodCategory": "Grain" },
+      "expandedfoods:acornbreadcrumbs-acornrice": { "saturation": 160, "foodCategory": "Grain" },
+      "expandedfoods:acornbreadcrumbs-acornspelt": { "saturation": 150, "foodCategory": "Grain" },
+      "expandedfoods:acornbreadcrumbs-acornrye": { "saturation": 150, "foodCategory": "Grain" },
+      "expandedfoods:acornbreadcrumbs-acorncassava": { "saturation": 150, "foodCategory": "Grain" },
+      "expandedfoods:acornbreadcrumbs-acornamaranth": { "saturation": 150, "foodCategory": "Grain" },
+      "expandedfoods:acornbreadcrumbs-acornsunflower": { "saturation": 150, "foodCategory": "Grain" },
+      "expandedfoods:acornbreadcrumbs-acornbirch": { "saturation": 50, "foodCategory": "Grain" },
+      "expandedfoods:acornbreadcrumbs-acornpine": { "saturation": 50, "foodCategory": "Grain" },
+      "expandedfoods:acornbreadcrumbs-acornmaple": { "saturation": 50, "foodCategory": "Grain" },
+      "aculinaryartillery:eggwhiteportion": { "saturation": 3, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkportion-chicken": { "saturation": 17, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkportion-pheasant": { "saturation": 25, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkportion-goldenpheasant": { "saturation": 25, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkportion-capercaillie": { "saturation": 25, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkportion-wildturkey": { "saturation": 25, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkfullportion-chicken": { "saturation": 20, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkfullportion-pheasant": { "saturation": 28, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkfullportion-goldenpheasant": { "saturation": 28, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkfullportion-capercaillie": { "saturation": 28, "foodCategory": "Protein" },
+      "aculinaryartillery:eggyolkfullportion-wildturkey": { "saturation": 28, "foodCategory": "Protein" },
+      "expandedfoods:foodoilportion-*" : { "saturation": 6.4, "health": 0.1, "foodCategory": "Vegetable" },
+      "expandedfoods:treesyrupportion-*" : { "saturation": 9.6, "health": 0.1, "foodCategory": "Fruit" },
+      "expandedfoods:fruitsyrupportion-saguaro" : { "saturation": 12, "health": 0.2, "foodCategory": "Fruit" },
+      "expandedfoods:fruitsyrupportion-*" : { "saturation": 12, "health": 0.1, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-cloudberry" : { "saturation": 12, "health": 0.5, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-husktomato" : { "saturation": 12, "health": 0.3, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-juniper" : { "saturation": 12, "health": 0.3, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-coralbead" : { "saturation": 12, "health": -0.1, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-pokeberry" : { "saturation": 12, "health": -0.25, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-snowberry" : { "saturation": 12, "health": -0.25, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-falseorange" : { "saturation": 12, "health": -0.25, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-blacknightshadeunripe" : { "saturation": 12, "health": -1, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-bitternightshade" : { "saturation": 12, "health": -2, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-wolfberry" : { "saturation": 12, "health": -3, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-seamango" : { "saturation": 12, "health": -4, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-crowseye" : { "saturation": 12, "health": -5, "foodCategory": "Fruit" },
+      "expandedfoods:wildfruitsyrupportion-*" : { "saturation": 12, "health": 0.1, "foodCategory": "Fruit" },
+      "expandedfoods:lard": { "saturation": 10, "health":  0.05, "foodCategory": "Protein" },
+      "expandedfoods:fishsauce" : { "saturation": 5, "foodCategory": "Protein" },
+      "expandedfoods:soysauce" : { "saturation": 6.4, "health": 0.1, "foodCategory": "Protein" },
+      "game:honeyportion" : { "saturation": 4, "foodCategory": "Fruit" },
+      "game:salt": { "saturation": 10, "health": 0.5, "foodCategory": "Grain" }
+    },
+    "bakingPropertiesByType": {
+      "@*-(smashed|oiled)": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:acornbreadedmeatnugget-{meat}-partbaked"
+      },
+      "*-partbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:acornbreadedmeatnugget-{meat}-tender"
+      },
+      "*-tender": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:acornbreadedmeatnugget-{meat}-charred",
+        "initialCode": "expandedfoods:acornbreadedmeatnugget-{meat}-partbaked"
+      },
+      "*-charred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "expandedfoods:acornbreadedmeatnugget-{meat}-tender"
+      },
+      "*-syruppartbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:acornbreadedmeatnugget-{meat}-syrups"
+      },
+      "*-syrups": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:acornbreadedmeatnugget-{meat}-syrupcharred",
+        "initialCode": "expandedfoods:acornbreadedmeatnugget-{meat}-syruppartbaked"
+      },
+      "*-syrupcharred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "expandedfoods:acornbreadedmeatnugget-{meat}-syrups"
+      }
+    },
+    "onDisplayTransform": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1
+    },
+   "satMultByType": {
+      "@*-(partbaked|syruppartbaked)": 0.5,
+      "@*-(cooked|syrups)": 1,
+      "@*-(charred|syrupcharred)": 0.75
+    }
+  },
+  "shapeByType":  {
+    "@*-(syruppartbaked|syrups|syrupcharred|partbaked|tender|charred)": { "base": "item/food/meat/{meat}-tender" },
+    "@*-(smashed|oiled)": { "base": "item/food/meat/{meat}-smash" }
+  },
+  "texturesByType": {
+    "*-oiled":  {
+      "cooked": { "base": "expandedfoods:item/food/grain/breading/acorn-oiled" },
+      "meat": { "base": "expandedfoods:item/food/grain/breading/acorn-oiled" }
+    },
+    "@*-(syruppartbaked|syrups|syrupcharred)":  {
+      "cooked": { "base": "expandedfoods:item/food/grain/breading/acorn-fish" },
+      "meat": { "base": "expandedfoods:item/food/grain/breading/acorn-fish" }
+    },
+    "@*-(smashed|tender)":  {
+      "cooked": { "base": "expandedfoods:item/food/grain/breading/acorn-cooked" },
+      "meat": { "base": "expandedfoods:item/food/grain/breading/acorn-raw" }
+    },
+    "*-partbaked":  {
+      "cooked": { "base": "expandedfoods:item/food/grain/breading/acorn-partbaked" },
+      "meat": { "base": "expandedfoods:item/food/grain/breading/acorn-partbaked" }
+    },
+    "*-charred":  {
+      "cooked": { "base": "expandedfoods:item/food/grain/breading/acorn-charred" },
+      "meat": { "base": "expandedfoods:item/food/grain/breading/acorn-charred" }
+    }
+  },
+  "nutritionPropsByType": {
+    "@*-(partbaked|syruppartbaked)": { "satiety": 80, "foodCategory": "Protein" },
+    "@*-(syrups|tender)": { "satiety": 90, "foodCategory": "Protein" },
+    "@*-(syrupcharred|charred)": { "satiety": 70, "foodCategory": "Protein" }
+  },
+  "creativeInventory": { "general": [ "*" ], "items": [ "*" ], "expandedfoods": [ "*" ] },
+  "materialDensity": 600,
+  "transitionablePropsByType": {
+    "@*-(oiled|smashed)": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 24 },
+      "transitionHours": { "avg": 48 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+      }
+    ],
+    "@*-(charred|syrupcharred)": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 200 },
+      "transitionHours": { "avg": 144 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }],
+    "*": [ {
+      "type": "Perish",
+      "freshHours": { "avg": 100 },
+      "transitionHours": { "avg": 72 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }]
+  },
+  "guiTransformByType": {
+    "*": {
+      "rotate": false,
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 171, "y": -122, "z": 33 },
+      "origin": { "x": 0.5, "y": 0.04, "z": 0.56 },
+      "scale": 5
+    }
+  },
+  "tpHandTransformByType": {
+    "*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 27, "z": -14 },
+      "origin": { "x": 0.28, "y": -0.2, "z": 0.13 },
+      "scale": 0.75
+    }
+  },
+  "groundTransformByType": {
+    "*": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 180, "y": 33, "z": -180 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 5
+    }
+  },
+  "combustiblePropsByType": {
+    "@*-(smashed|oiled|partbaked|tender)": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": { "type": "item", "code": "acornbreadedmeatnugget-{meat}-charred" },
+      "requiresContainer": false
+    },
+    "@*-(syruppartbaked|syrups)": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": { "type": "item", "code": "acornbreadedmeatnugget-{meat}-syrupcharred" },
+      "requiresContainer": false
+    }
+  }
 }

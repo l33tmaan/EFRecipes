@@ -1,10 +1,10 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/food/breadcrumbs.json",
-    op: "addeach", 
-    path: "/skipVariants/-",
-    value: [ "breadcrumbs-birch", "breadcrumbs-pine", "breadcrumbs-maple"],
-    side: "server",
-    dependsOn: [{ "modid": "ancienttools", "invert": true }]
+   "op": "addeach",
+   "path": "/skipVariants/-",
+   "value": [ "breadcrumbs-birch", "breadcrumbs-pine", "breadcrumbs-maple" ],
+   "side": "server",
+   "dependsOn": [ { "modid": "ancienttools", "invert": true }]
  },
 ]

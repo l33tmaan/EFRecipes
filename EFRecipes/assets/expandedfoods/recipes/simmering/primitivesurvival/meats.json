@@ -1,58 +1,58 @@
 [
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "primitivesurvival:*-raw",
-				allowedVariants: ["snakemeat", "crabmeat", "fishfillet"],
-				name: "meat",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "primitivesurvival:{meat}-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "primitivesurvival:*-partbaked",
-				allowedVariants: ["snakemeat", "crabmeat", "fishfillet"], 
-				name: "meat",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "primitivesurvival:{meat}-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	}		
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "primitivesurvival:*-raw",
+        "allowedVariants": [ "snakemeat", "crabmeat", "fishfillet" ],
+        "name": "meat",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "primitivesurvival:{meat}-cooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "primitivesurvival:*-partbaked",
+        "allowedVariants": [ "snakemeat", "crabmeat", "fishfillet" ],
+        "name": "meat",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "primitivesurvival:{meat}-cooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  }
 ]

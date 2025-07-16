@@ -1,127 +1,127 @@
 {
-	"editor": {
-		"allAngles": false,
-		"entityTextureMode": false
-	},
-	"textureWidth": 16,
-	"textureHeight": 16,
-	"textureSizes": {
-	},
-	"textures": {
-		"pineapple": "game:item/food/fruit/pineapple",
-		"pineapplesyrup": "game:item/gelatin/pineapple"
-	},
-	"elements": [
-		{
-			"name": "origin",
-			"from": [ 8.0, 0.0, 8.0 ], 
-			"to": [ 8.0, 0.0, 8.0 ], 
-			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
-			"faces": {
-				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
-				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
-			},
-			"children": [
-				{
-					"name": "slice1",
-					"from": [ 1.0, 0.25, -5.0 ], 
-					"to": [ 5.0, 1.25, 1.0 ], 
-					"rotationOrigin": [ 1.0, 0.25, -2.0 ],
-					"rotationY": 45.0,
-					"faces": {
-						"north": { "texture": "#pineapple", "uv": [ 3.0, 1.0, 7.0, 2.0 ], "rotation": 180 },
-						"east": { "texture": "#pineapple", "uv": [ 7.0, 1.0, 8.0, 7.0 ], "rotation": 90 },
-						"south": { "texture": "#pineapple", "uv": [ 3.0, 4.0, 7.0, 5.0 ] },
-						"west": { "texture": "#pineapple", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
-						"up": { "texture": "#pineapple", "uv": [ 3.0, 1.0, 7.0, 7.0 ] },
-						"down": { "texture": "#pineapple", "uv": [ 1.0, 1.0, 5.0, 7.0 ] }
-					},
-					"children": [
-						{
-							"name": "syrup1",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 4.25, 1.25, 6.25 ], 
-							"renderPass": 3,
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"east": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"south": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"west": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"up": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"down": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "slice2",
-					"from": [ -4.2, 0.25, -2.3 ], 
-					"to": [ -1.2, 1.25, 1.7 ], 
-					"rotationOrigin": [ -2.2, 0.25, -0.3 ],
-					"rotationY": 22.5,
-					"faces": {
-						"north": { "texture": "#pineapple", "uv": [ 4.0, 4.0, 7.0, 5.0 ] },
-						"east": { "texture": "#pineapple", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
-						"south": { "texture": "#pineapple", "uv": [ 4.0, 4.0, 7.0, 5.0 ], "rotation": 180 },
-						"west": { "texture": "#pineapple", "uv": [ 7.0, 3.0, 8.0, 7.0 ], "rotation": 90 },
-						"up": { "texture": "#pineapple", "uv": [ 4.0, 3.0, 7.0, 7.0 ], "rotation": 180 },
-						"down": { "texture": "#pineapple", "uv": [ 0.0, 0.0, 3.0, 4.0 ] }
-					},
-					"children": [
-						{
-							"name": "syrup2",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 3.25, 1.25, 4.25 ], 
-							"renderPass": 3,
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"east": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"south": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"west": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"up": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"down": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
-							}
-						}
-					]
-				},
-				{
-					"name": "slice3",
-					"from": [ -1.2, 0.25, 1.5 ], 
-					"to": [ 2.8, 0.75, 3.5 ], 
-					"rotationOrigin": [ 0.8, 0.25, 1.5 ],
-					"rotationY": 22.5,
-					"faces": {
-						"north": { "texture": "#pineapple", "uv": [ 2.0, 4.0, 6.0, 5.0 ] },
-						"east": { "texture": "#pineapple", "uv": [ 5.0, 3.0, 7.0, 4.0 ], "rotation": 180 },
-						"south": { "texture": "#pineapple", "uv": [ 7.0, 4.0, 8.0, 8.0 ], "rotation": 90 },
-						"west": { "texture": "#pineapple", "uv": [ 5.0, 3.0, 7.0, 4.0 ] },
-						"up": { "texture": "#pineapple", "uv": [ 5.0, 1.0, 7.0, 5.0 ], "rotation": 90 },
-						"down": { "texture": "#pineapple", "uv": [ 5.0, 3.0, 7.0, 7.0 ], "rotation": 270 }
-					},
-					"children": [
-						{
-							"name": "syrup3",
-							"from": [ -0.25, -0.25, -0.25 ], 
-							"to": [ 4.25, 0.75, 2.25 ], 
-							"renderPass": 3,
-							"rotationOrigin": [ -0.25, -0.25, -0.25 ],
-							"faces": {
-								"north": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"east": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"south": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"west": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"up": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-								"down": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
-							}
-						}
-					]
-				}
-			]
-		}
-	]}
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+  },
+  "textures": {
+    "pineapple": "game:item/food/fruit/pineapple",
+    "pineapplesyrup": "game:item/gelatin/pineapple"
+  },
+  "elements": [
+    {
+      "name": "origin",
+      "from": [ 8.0, 0.0, 8.0 ],
+      "to": [ 8.0, 0.0, 8.0 ],
+      "rotationOrigin": [ 8.0, 0.0, 8.0 ],
+      "faces": {
+        "north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+        "east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+        "south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+        "west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+        "up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+        "down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+      },
+      "children": [
+        {
+          "name": "slice1",
+          "from": [ 1.0, 0.25, -5.0 ],
+          "to": [ 5.0, 1.25, 1.0 ],
+          "rotationOrigin": [ 1.0, 0.25, -2.0 ],
+          "rotationY": 45.0,
+          "faces": {
+            "north": { "texture": "#pineapple", "uv": [ 3.0, 1.0, 7.0, 2.0 ], "rotation": 180 },
+            "east": { "texture": "#pineapple", "uv": [ 7.0, 1.0, 8.0, 7.0 ], "rotation": 90 },
+            "south": { "texture": "#pineapple", "uv": [ 3.0, 4.0, 7.0, 5.0 ] },
+            "west": { "texture": "#pineapple", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+            "up": { "texture": "#pineapple", "uv": [ 3.0, 1.0, 7.0, 7.0 ] },
+            "down": { "texture": "#pineapple", "uv": [ 1.0, 1.0, 5.0, 7.0 ] }
+          },
+          "children": [
+            {
+              "name": "syrup1",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 4.25, 1.25, 6.25 ],
+              "renderPass": 3,
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "east": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "south": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "west": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "up": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "down": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "slice2",
+          "from": [ -4.2, 0.25, -2.3 ],
+          "to": [ -1.2, 1.25, 1.7 ],
+          "rotationOrigin": [ -2.2, 0.25, -0.3 ],
+          "rotationY": 22.5,
+          "faces": {
+            "north": { "texture": "#pineapple", "uv": [ 4.0, 4.0, 7.0, 5.0 ] },
+            "east": { "texture": "#pineapple", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+            "south": { "texture": "#pineapple", "uv": [ 4.0, 4.0, 7.0, 5.0 ], "rotation": 180 },
+            "west": { "texture": "#pineapple", "uv": [ 7.0, 3.0, 8.0, 7.0 ], "rotation": 90 },
+            "up": { "texture": "#pineapple", "uv": [ 4.0, 3.0, 7.0, 7.0 ], "rotation": 180 },
+            "down": { "texture": "#pineapple", "uv": [ 0.0, 0.0, 3.0, 4.0 ] }
+          },
+          "children": [
+            {
+              "name": "syrup2",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 3.25, 1.25, 4.25 ],
+              "renderPass": 3,
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "east": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "south": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "west": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "up": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "down": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+              }
+            }
+          ]
+        },
+        {
+          "name": "slice3",
+          "from": [ -1.2, 0.25, 1.5 ],
+          "to": [ 2.8, 0.75, 3.5 ],
+          "rotationOrigin": [ 0.8, 0.25, 1.5 ],
+          "rotationY": 22.5,
+          "faces": {
+            "north": { "texture": "#pineapple", "uv": [ 2.0, 4.0, 6.0, 5.0 ] },
+            "east": { "texture": "#pineapple", "uv": [ 5.0, 3.0, 7.0, 4.0 ], "rotation": 180 },
+            "south": { "texture": "#pineapple", "uv": [ 7.0, 4.0, 8.0, 8.0 ], "rotation": 90 },
+            "west": { "texture": "#pineapple", "uv": [ 5.0, 3.0, 7.0, 4.0 ] },
+            "up": { "texture": "#pineapple", "uv": [ 5.0, 1.0, 7.0, 5.0 ], "rotation": 90 },
+            "down": { "texture": "#pineapple", "uv": [ 5.0, 3.0, 7.0, 7.0 ], "rotation": 270 }
+          },
+          "children": [
+            {
+              "name": "syrup3",
+              "from": [ -0.25, -0.25, -0.25 ],
+              "to": [ 4.25, 0.75, 2.25 ],
+              "renderPass": 3,
+              "rotationOrigin": [ -0.25, -0.25, -0.25 ],
+              "faces": {
+                "north": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "east": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "south": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "west": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "up": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+                "down": { "texture": "#pineapplesyrup", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]}

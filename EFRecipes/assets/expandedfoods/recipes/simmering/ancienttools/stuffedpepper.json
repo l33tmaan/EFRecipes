@@ -1,54 +1,54 @@
 ﻿[
 {
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:foodoilportion-*",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:stuffedpepper-*-raw",
-			quantity: 1,
-			"name": "grain"
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:stuffedpepper-{grain}-cooked"
-		},
-		requiresContainer: false
-	}
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "expandedfoods:foodoilportion-*",
+      "quantity": 10
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:stuffedpepper-*-raw",
+      "quantity": 1,
+      "name": "grain"
+    },
+  ],
+  "simmering": {
+    "meltingPoint": 150,
+    "meltingDuration": 100,
+    "smeltedRatio": 1,
+    "smeltingType": "bake",
+    "smeltedStack": {
+      "type": "item",
+      "code": "expandedfoods:stuffedpepper-{grain}-cooked"
+    },
+    "requiresContainer": false
+  }
 },
 {
-	Ingredients: [
-		{
-			type: "item",
-			code: "expandedfoods:lard",
-			quantity: 10
-		},
-		{
-			type: "item",
-			code: "expandedfoods:stuffedpepper-*-raw",
-			quantity: 1,
-			"name": "grain"
-		},
-	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:stuffedpepper-{grain}-cooked"
-		},
-		requiresContainer: false
-	}
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "expandedfoods:lard",
+      "quantity": 10
+    },
+    {
+      "type": "item",
+      "code": "expandedfoods:stuffedpepper-*-raw",
+      "quantity": 1,
+      "name": "grain"
+    },
+  ],
+  "simmering": {
+    "meltingPoint": 150,
+    "meltingDuration": 100,
+    "smeltedRatio": 1,
+    "smeltingType": "bake",
+    "smeltedStack": {
+      "type": "item",
+      "code": "expandedfoods:stuffedpepper-{grain}-cooked"
+    },
+    "requiresContainer": false
+  }
 },
 ]

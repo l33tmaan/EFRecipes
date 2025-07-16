@@ -3,7 +3,7 @@
     "op": "addmerge",
     "path": "/attributesbytype/*",
     "value": {
-        meathookable: true,
+       "meathookable": true,
         "meatHookTransform": {
             "translation": { "x": 0.025, "y": -0.8, "z": 0.02 },
             "rotation": { "x": -90, "y": 90, "z": 0 },
@@ -51,30 +51,30 @@
             "scale": 1
         },
         "inPiePropertiesByType": {
-      		"*-redmeat-raw": { texture: "game:block/food/pie/fill-redmeat", partType: 'Filling' },
-      		"*-bushmeat-raw": { texture: "game:block/food/pie/fill-bushmeat", partType: 'Filling' },
-      		"*-poultry-raw": { texture: "game:block/food/pie/fill-poultry", partType: 'Filling' },
-    	},
-		inFirePitProps: {
-			transform: {
-				scale: 0.9,
-				origin: { x: 0.5, y: 0.0625, z: 0.5 },
-				translation: { x: 0.03125, y: 0.3125, z: 0 },
-				rotation: { x: 0, y: 53, z: 90 }
-			},
-			useFirepitModel: "Spit"
-		},
-		onCuringRackProps: {
-			transform: {
-				scale: { x: 0.8, y: 0.8, z: 0.8 },
-				rotation: { x: 0.0, y: 180.0, z: 90.0},
-				translation: { x: 0.175, y: -0.2, z: 0.0 },
-				depthOffset: 0.1,
-				horizontalOffset: 0.05,
-				verticalOffset: 0.0,
-				rotateAround: { x: 0, y: 1, z: 0 }
-			},
-		},
+          "*-redmeat-raw": { "texture": "game:block/food/pie/fill-redmeat", "partType": "Filling" },
+          "*-bushmeat-raw": { "texture": "game:block/food/pie/fill-bushmeat", "partType": "Filling" },
+          "*-poultry-raw": { "texture": "game:block/food/pie/fill-poultry", "partType": "Filling" },
+      },
+   "inFirePitProps": {
+     "transform": {
+        "scale": 0.9,
+        "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+        "translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
+        "rotation": { "x": 0, "y": 53, "z": 90 }
+      },
+     "useFirepitModel": "Spit"
+    },
+   "onCuringRackProps": {
+     "transform": {
+        "scale": { "x": 0.8, "y": 0.8, "z": 0.8 },
+        "rotation": { "x": 0.0, "y": 180.0, "z": 90.0},
+        "translation": { "x": 0.175, "y": -0.2, "z": 0.0 },
+       "depthOffset": 0.1,
+       "horizontalOffset": 0.05,
+       "verticalOffset": 0.0,
+       "rotateAround": { "x": 0, "y": 1, "z": 0 }
+      },
+    },
     },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
@@ -425,7 +425,7 @@
     "op": "addmerge",
     "path": "/texturesbytype/*-charred",
     "value": {
-	    "meat": { base: "expandedfoods:item/food/saltedmeat/saltedcharred" }
+      "meat": { "base": "expandedfoods:item/food/saltedmeat/saltedcharred" }
     },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
@@ -434,7 +434,7 @@
     "op": "addmerge",
     "path": "/texturesbytype/*-partbaked",
     "value": {
-	    "meat": { base: "expandedfoods:item/food/saltedmeat/saltedpartbaked" }
+      "meat": { "base": "expandedfoods:item/food/saltedmeat/saltedpartbaked" }
     },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
@@ -478,13 +478,13 @@
     "op": "addmerge",
     "path": "/combustiblePropsByType/@*-(partbaked|cooked)",
     "value": {
-		meltingPoint: 150,
-		meltingDuration: 30,
-		smeltedRatio: 1,
-		smeltingType: "cook",
-		smeltedStack: { type: "item", code: "saltedmeat-{type}-charred" },
-		requiresContainer: false
-	},
+    "meltingPoint": 150,
+    "meltingDuration": 30,
+    "smeltedRatio": 1,
+    "smeltingType": "cook",
+    "smeltedStack": { "type": "item", "code": "saltedmeat-{type}-charred" },
+    "requiresContainer": false
+  },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
   },

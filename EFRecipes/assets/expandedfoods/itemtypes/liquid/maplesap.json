@@ -1,42 +1,42 @@
 {
-	code: "maplesapportion",
-	class: "ItemLiquidPortion",
-	matterState: "liquid",
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
-		},
-		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-			texture: { base: "game:block/liquid/brine" },
-			allowSpill: true,
-			whenSpilled: {
-				action: "DropContents",
-				stack: { type: "item", code: "expandedfoods:maplesapportion" }
-			}
-		}
-	},
-	shape: { base: "game:item/liquid" },
-	texture: { base: "game:block/liquid/brine" },
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:maplesapportion", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	combustibleProps: {
-		meltingPoint: 150,
-		meltingDuration: 5,
-		smeltedRatio: 4,
-		smeltingType: "cook",
-		smeltedStack: { type: "item", code: "expandedfoods:treesyrupportion-maple" },
-		requiresContainer: true
-	},
-	guiTransform: {
-		rotation: { x: 128, y: 40, z: 7 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
-	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 },
-	},
+  "code": "maplesapportion",
+  "class": "ItemLiquidPortion",
+ "matterState": "liquid",
+  "attributes": {
+   "handbook": {
+     "ignoreCreativeInvStacks": true
+    },
+    "inBowlShape": { "base": "game:block/food/meal/liquid" },
+   "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "texture": { "base": "game:block/liquid/brine" },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": { "type": "item", "code": "expandedfoods:maplesapportion" }
+      }
+    }
+  },
+  "shape": { "base": "game:item/liquid" },
+  "texture": { "base": "game:block/liquid/brine" },
+ "creativeinventoryStacks": [ { "tabs": [ "general", "liquids", "expandedfoods" ], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:maplesapportion", "makefull": true } ] } } ] } ],
+  "maxStackSize": 5000,
+  "materialDensity": 200,
+  "combustibleProps": {
+    "meltingPoint": 150,
+    "meltingDuration": 5,
+    "smeltedRatio": 4,
+    "smeltingType": "cook",
+    "smeltedStack": { "type": "item", "code": "expandedfoods:treesyrupportion-maple" },
+    "requiresContainer": true
+  },
+  "guiTransform": {
+    "rotation": { "x": 128, "y": 40, "z": 7 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.5, "y": -1, "z": -1.4 },
+  },
 }

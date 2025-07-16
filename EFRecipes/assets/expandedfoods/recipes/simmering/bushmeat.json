@@ -1,54 +1,54 @@
 ﻿[
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "game:bushmeat-raw",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "game:bushmeat-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
-	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "game:bushmeat-partbaked",
-				quantity: 1
-			}
-		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "game:bushmeat-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
-		}
-	},
+  {
+    "ingredients": [
+      {
+      "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "game:bushmeat-raw",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "game:bushmeat-cooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
+  {
+    "ingredients": [
+      {
+      "type": "item",
+        "code": "waterportion",
+        "quantity": 50
+      },
+      {
+        "type": "item",
+        "code": "game:bushmeat-partbaked",
+        "quantity": 1
+      }
+    ],
+    "simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "game:bushmeat-cooked",
+        "quantity":  1
+      },
+      "requiresContainer": false
+    }
+  },
 ]

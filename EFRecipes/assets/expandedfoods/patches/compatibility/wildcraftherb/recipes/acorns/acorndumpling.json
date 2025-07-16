@@ -1,34 +1,34 @@
 ﻿[
  {
-   file: "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
+  "file": "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/1/ingredients/1/inputs/-", 
-    value: { type: "item", code: "wildcraftherb:herb-minerslettuce", quantity: 1 },
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }, { "modid": "acorns120", "invert": true }]
+   "op": "addmerge",
+   "path": "/1/ingredients/1/inputs/-",
+   "value": { "type": "item", "code": "wildcraftherb:herb-minerslettuce", "quantity": 1 },
+   "dependsOn": [ { "modid": "acorns" }, { "modid": "wildcraftherb" }, { "modid": "acorns120", "invert": true }]
  },
  {
-   file: "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
+  "file": "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/3/ingredients/1/inputs/-", 
-    value: { type: "item", code: "wildcraftherb:herb-minerslettuce", quantity: 1 },
-    dependsOn: [{ "modid": "acorns" }, { "modid": "wildcraftherb" }, { "modid": "acorns120", "invert": true }]
+   "op": "addmerge",
+   "path": "/3/ingredients/1/inputs/-",
+   "value": { "type": "item", "code": "wildcraftherb:herb-minerslettuce", "quantity": 1 },
+   "dependsOn": [ { "modid": "acorns" }, { "modid": "wildcraftherb" }, { "modid": "acorns120", "invert": true }]
  },
  {
-   file: "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
+  "file": "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/1/ingredients/1/inputs/-", 
-    value: { type: "item", code: "wildcraftherb:herb-minerslettuce", quantity: 1 },
-    dependsOn: [{ "modid": "acorns120" }, { "modid": "wildcraftherb" }, { "modid": "acorns", "invert": true }]
+   "op": "addmerge",
+   "path": "/1/ingredients/1/inputs/-",
+   "value": { "type": "item", "code": "wildcraftherb:herb-minerslettuce", "quantity": 1 },
+   "dependsOn": [ { "modid": "acorns120" }, { "modid": "wildcraftherb" }, { "modid": "acorns", "invert": true }]
  },
  {
-   file: "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
+  "file": "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
     "side": "server",
-    op: "addmerge", 
-    path: "/3/ingredients/1/inputs/-", 
-    value: { type: "item", code: "wildcraftherb:herb-minerslettuce", quantity: 1 },
-    dependsOn: [{ "modid": "acorns120" }, { "modid": "wildcraftherb" }, { "modid": "acorns", "invert": true }]
+   "op": "addmerge",
+   "path": "/3/ingredients/1/inputs/-",
+   "value": { "type": "item", "code": "wildcraftherb:herb-minerslettuce", "quantity": 1 },
+   "dependsOn": [ { "modid": "acorns120" }, { "modid": "wildcraftherb" }, { "modid": "acorns", "invert": true }]
  },
 ]
