@@ -79,7 +79,7 @@
 	"glowLevel": 30,
 	shape: { base: "game:item/liquid" },
 	texture: {base: "game:item/liquid/soulstormbrew/{type}" },
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "aculinaryartillery:bottle-green-burned", attributes: { ucontents: [ { type:"item", code: "expandedfoods:soulstormbrew-{type}", makefull: true } ] } } ] } ],
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "aculinaryartillery:bottle-glass-green-corked", attributes: { ucontents: [ { type:"item", code: "expandedfoods:soulstormbrew-{type}", makefull: true } ] } } ] } ],
 	maxstacksize: 5000,
 	materialDensity: 200,
 	nutritionPropsByType: {

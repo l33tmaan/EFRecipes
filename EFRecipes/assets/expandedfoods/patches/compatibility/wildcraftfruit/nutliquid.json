@@ -1,8 +1,8 @@
 ﻿[
  {
     "file": "expandedfoods:itemtypes/liquid/nutliquid.json",
-    op: "addeach", 
-    path: "/skipVariants/-",
+    op: "addmerge", 
+    path: "/skipVariants",
     value: [ "stuffedpepper-acorn-*"],
     side: "server",
     dependsOn: [{ "modid": "wildcraftfruit", "invert": true }]

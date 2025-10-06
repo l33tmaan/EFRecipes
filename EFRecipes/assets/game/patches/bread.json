@@ -169,6 +169,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornamaranth-charred",
     "value": {
       "displaycaseable": true,
@@ -190,6 +191,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornamaranth-partbaked",
     "value": {
       "displaycaseable": true,
@@ -212,6 +214,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornamaranth-perfect",
     "value": {
       "displaycaseable": true,
@@ -234,6 +237,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acorncassava-charred",
     "value": {
       "displaycaseable": true,
@@ -255,6 +259,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acorncassava-partbaked",
     "value": {
       "displaycaseable": true,
@@ -277,6 +282,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acorncassava-perfect",
     "value": {
       "displaycaseable": true,
@@ -299,6 +305,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornflax-charred",
     "value": {
       "displaycaseable": true,
@@ -320,6 +327,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornflax-partbaked",
     "value": {
       "displaycaseable": true,
@@ -342,6 +350,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornflax-perfect",
     "value": {
       "displaycaseable": true,
@@ -364,6 +373,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornrice-charred",
     "value": {
       "displaycaseable": true,
@@ -385,6 +395,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornrice-partbaked",
     "value": {
       "displaycaseable": true,
@@ -407,6 +418,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornrice-perfect",
     "value": {
       "displaycaseable": true,
@@ -429,6 +441,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornrye-charred",
     "value": {
       "displaycaseable": true,
@@ -450,6 +463,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornrye-partbaked",
     "value": {
       "displaycaseable": true,
@@ -472,6 +486,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornrye-perfect",
     "value": {
       "displaycaseable": true,
@@ -494,6 +509,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornspelt-charred",
     "value": {
       "displaycaseable": true,
@@ -515,6 +531,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornspelt-partbaked",
     "value": {
       "displaycaseable": true,
@@ -537,6 +554,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornspelt-perfect",
     "value": {
       "displaycaseable": true,
@@ -559,6 +577,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornsunflower-charred",
     "value": {
       "displaycaseable": true,
@@ -580,6 +599,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornsunflower-partbaked",
     "value": {
       "displaycaseable": true,
@@ -602,6 +622,7 @@
   },
   {
     "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
     "path": "/attributesByType/*-acornsunflower-perfect",
     "value": {
       "displaycaseable": true,
@@ -800,7 +821,22 @@
       }
     },
     "side": "server",
-    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "dependsOn": [
+      { "modid": "acorns" },
+      { "modid": "ancienttools" }
+    ],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-partBaked": { "satMult": 0.5 },
+      "*-perfect": { "satMult": 1.0 },
+      "*-charred": {"satMult":  0.75},
+      "*": { "satMult": 1.0 }
+    },
+    "side": "server",
     "file": "itemtypes/food/bread.json"
   },
   {
@@ -827,114 +863,21 @@
     "file": "itemtypes/food/bread.json"
   },
   {
-    "op": "remove",
-    "path": "/attributesByType/*-charred",
-    "side": "server",
-    "file": "itemtypes/food/bread.json"
-  },
-  {
-    "op": "remove",
-    "path": "/attributesByType/*-partbaked",
-    "side": "server",
-    "file": "itemtypes/food/bread.json"
-  },
-  {
-    "op": "remove",
-    "path": "/attributesByType/*-perfect",
-    "side": "server",
-    "file": "itemtypes/food/bread.json"
-  },
-  {
     "op": "addmerge",
-    "path": "/attributesByType/*-partbaked",
+    "path": "/attributes/",
     "value": {
-		displaycaseable: true,
-        shelvable: true,
-        "satMult": 0.5,
-		bakingProperties: {
-			temp: 160,
-			levelFrom: 0.25,
-			levelTo: 0.5,
-			startScaleY: 0.95,
-			endScaleY: 1.10,
-			resultCode: "bread-{type}-perfect",
-			initialCode: "dough-{type}"
-		},
-		renderIngredients: {
-      			"game:flour-spelt": "game:shapes/item/food/bread/speltbread.json",
-      			"game:flour-rye": "game:shapes/item/food/bread/ryebread.json",
-      			"game:flour-flax": "game:shapes/item/food/bread/flaxbread.json",
-      			"game:flour-rice": "game:shapes/item/food/bread/ricebread.json",
-      			"game:flour-cassava": "game:shapes/item/food/bread/cassavabread.json",
-      			"game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread.json",
-      			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
-      			"game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
-      			"game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
-      			"game:flour-maple": "game:shapes/item/food/bread/maplebread.json",
-		},
-    },
-    "side": "server",
-    "file": "itemtypes/food/bread.json"
-  },
-  {
-    "op": "addmerge",
-    "path": "/attributesByType/*-perfect",
-    "value": {
-		displaycaseable: true,
-		shelvable: true,
-        "satMult": 1.0,
-		bakingProperties: {
-			temp: 160,
-			levelFrom: 0.5,
-			levelTo: 0.75,
-			startScaleY: 1.10,
-			endScaleY: 1.13,
-			resultCode: "bread-{type}-charred",
-			initialCode: "bread-{type}-partbaked"
-		},
-		renderIngredients: {
-      			"game:flour-spelt": "game:shapes/item/food/bread/speltbread.json",
-      			"game:flour-rye": "game:shapes/item/food/bread/ryebread.json",
-      			"game:flour-flax": "game:shapes/item/food/bread/flaxbread.json",
-      			"game:flour-rice": "game:shapes/item/food/bread/ricebread.json",
-      			"game:flour-cassava": "game:shapes/item/food/bread/cassavabread.json",
-      			"game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread.json",
-      			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
-      			"game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
-      			"game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
-      			"game:flour-maple": "game:shapes/item/food/bread/maplebread.json",
-		},
-    },
-    "side": "server",
-    "file": "itemtypes/food/bread.json"
-  },
-  {
-    "op": "addmerge",
-    "path": "/attributesByType/*-charred",
-    "value": {
-		displaycaseable: true,
-		shelvable: true,
-        "satMult": 0.75,
-		bakingProperties: {
-			temp: 160,
-			levelFrom: 0.75,
-			levelTo: 1,
-			startScaleY: 1.13,
-			endScaleY: 1.10,
-			initialCode: "bread-{type}-perfect"
-		},
-		renderIngredients: {
-      			"game:flour-spelt": "game:shapes/item/food/bread/speltbread.json",
-      			"game:flour-rye": "game:shapes/item/food/bread/ryebread.json",
-      			"game:flour-flax": "game:shapes/item/food/bread/flaxbread.json",
-      			"game:flour-rice": "game:shapes/item/food/bread/ricebread.json",
-      			"game:flour-cassava": "game:shapes/item/food/bread/cassavabread.json",
-      			"game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread.json",
-      			"game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
-      			"game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
-      			"game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
-      			"game:flour-maple": "game:shapes/item/food/bread/maplebread.json",
-		},
+      "renderIngredients": {
+        "game:flour-spelt": "game:shapes/item/food/bread/speltbread.json",
+        "game:flour-rye": "game:shapes/item/food/bread/ryebread.json",
+        "game:flour-flax": "game:shapes/item/food/bread/flaxbread.json",
+        "game:flour-rice": "game:shapes/item/food/bread/ricebread.json",
+        "game:flour-cassava": "game:shapes/item/food/bread/cassavabread.json",
+        "game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread.json",
+        "game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
+        "game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
+        "game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
+        "game:flour-maple": "game:shapes/item/food/bread/maplebread.json"
+      }
     },
     "side": "server",
     "file": "itemtypes/food/bread.json"

@@ -17,7 +17,7 @@ namespace EFRecipes
 		 {
             _harmony = new Harmony("ExpandedFoods.Patches");
             _harmony.PatchAll(typeof(EFRecipes).Assembly);
-
+            /*
 			CookingRecipe.NamingRegistry["compote"] = new acaRecipeNames();
             CookingRecipe.NamingRegistry["augratin"] = new acaRecipeNames();
             CookingRecipe.NamingRegistry["riceandbeans"] = new acaRecipeNames();
@@ -25,6 +25,7 @@ namespace EFRecipes
             CookingRecipe.NamingRegistry["yogurtmeal"] = new acaRecipeNames();
             CookingRecipe.NamingRegistry["pastahot"] = new acaRecipeNames();
             CookingRecipe.NamingRegistry["pastacold"] = new acaRecipeNames();
+            */
 		} 
 
         public override void Dispose() {
