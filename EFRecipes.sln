@@ -5,11 +5,6 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFRecipes", "EFRecipes\EFRecipes.csproj", "{CBE12684-8676-4028-97DE-AC8B7D70625A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Start", "Start\Start.csproj", "{2719D595-B08B-405C-90EF-6A9DCA93B97C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{CBE12684-8676-4028-97DE-AC8B7D70625A} = {CBE12684-8676-4028-97DE-AC8B7D70625A}
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,10 +15,6 @@ Global
 		{CBE12684-8676-4028-97DE-AC8B7D70625A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBE12684-8676-4028-97DE-AC8B7D70625A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBE12684-8676-4028-97DE-AC8B7D70625A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2719D595-B08B-405C-90EF-6A9DCA93B97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2719D595-B08B-405C-90EF-6A9DCA93B97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2719D595-B08B-405C-90EF-6A9DCA93B97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2719D595-B08B-405C-90EF-6A9DCA93B97C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

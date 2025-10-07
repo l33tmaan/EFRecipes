@@ -3,6 +3,9 @@
     <TargetFramework>net7.0</TargetFramework>
     <LangVersion>9</LangVersion>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Remove="publish\**" />
     <EmbeddedResource Remove="publish\**" />
@@ -27,26 +30,8 @@
     <None Update="assets\expandedfoods\recipes\simmering\primitivesurvival\broth.tt">
       <LastGenOutput>broth.json</LastGenOutput>
     </None>
-    <None Update="assets\exper\itemtypes\wand.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\exper\textures\item\four.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\exper\textures\item\one.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\exper\textures\item\three.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\exper\textures\item\two.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
     <None Update="changelog.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Properties\launchSettings.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -90,9 +75,6 @@
       <HintPath>$(AppData)\Vintagestory\Mods\VSSurvivalMod.dll</HintPath>
       <Private>false</Private>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assets\expandedfoods\textures\item\food\nut\" />
   </ItemGroup>
   <ProjectExtensions><VisualStudio><UserProperties assets_4expandedfoods_4lang_4en_1json__JsonSchema="https://carafe.fm/schema/draft-02/bundle.schema.json" /></VisualStudio></ProjectExtensions>  
 </Project>
