@@ -5,16 +5,9 @@
     "value": [
       {
         "type": "Cure",
-        "freshHours": {
-          "avg": 6720
-        },
-        "transitionHours": {
-          "avg": 2016
-        },
-        "transitionedStack": {
-          "type": "item",
-          "code": "expandedfoods:strongspiritportion-{fruit}"
-        },
+        "freshHours": { "avg": 6720 },
+        "transitionHours": { "avg": 2016 },
+        "transitionedStack": { "type": "item", "code": "expandedfoods:strongspiritportion-{fruit}" },
         "transitionRatio": 1
       }
     ],
@@ -33,10 +26,10 @@
             "*-amaranth": "grain", 
             "*-cassava": "grain", 
             "*-breadfruit": "grain", 
-            "*": "fruit", 
-        },
+            "*": "fruit"
+        }
     },
     "side": "server",
     "file": "itemtypes/liquid/spirit.json"
-  },
+  }
 ]

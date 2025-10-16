@@ -1,112 +1,58 @@
 ﻿[
-
 	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:agedmeat-*-cut",
-				quantity: 1,
-				"name": "meat",
-			}
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 50 },
+			{ "type": "item", "code": "expandedfoods:agedmeat-*-cut", "quantity": 1, "name": "meat" }
 		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:agedmeat-{meat}-tender",
-				"quantity":  1
-			},
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 110,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:agedmeat-{meat}-tender", "quantity":  1 },
+			"requiresContainer": false
 		}
 	},
 	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:agedmeat-*-tenderpartbaked",
-				quantity: 1,
-				"name": "meat",
-			}
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 50 },
+			{ "type": "item", "code": "expandedfoods:agedmeat-*-tenderpartbaked", "quantity": 1, "name": "meat" }
 		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:agedmeat-{meat}-tender",
-				"quantity":  1
-			},
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 110,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:agedmeat-{meat}-tender", "quantity":  1 },
+			"requiresContainer": false
 		}
 	},
 	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:agedmeat-*-raw",
-				quantity: 1,
-				"name": "meat",
-			}
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 50 },
+			{ "type": "item", "code": "expandedfoods:agedmeat-*-raw", "quantity": 1, "name": "meat" }
 		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:agedmeat-{meat}-meatball",
-				"quantity":  1
-			},
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 110,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:agedmeat-{meat}-meatball", "quantity":  1 },
+			"requiresContainer": false
 		}
 	},
 	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:agedmeat-*-meatballpartbaked",
-				quantity: 1,
-				"name": "meat",
-			}
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 50 },
+			{ "type": "item", "code": "expandedfoods:agedmeat-*-meatballpartbaked", "quantity": 1, "name": "meat" }
 		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:agedmeat-{meat}-meatball",
-				"quantity":  1
-			},
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 110,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:agedmeat-{meat}-meatball", "quantity":  1 },
+			"requiresContainer": false
 		}
-	},
-
+	}
 ]

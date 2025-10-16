@@ -1,45 +1,45 @@
 {
-	code: "breadstarter",
-	class: "ItemLiquidPortion",
-	matterState: "liquid",
-	maxstacksize: 5000,
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
+	"code": "breadstarter",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"maxstacksize": 5000,
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-			texture: { base: "game:block/liquid/starter" },
-			allowSpill: true,
-			whenSpilled: {
-				action: "DropContents",
-				stack: { type: "item", code: "expandedfoods:breadstarter-wild" }
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texture": { "base": "game:block/liquid/starter" },
+			"allowSpill": true,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": { "type": "item", "code": "expandedfoods:breadstarter-wild" }
 			}
 		},
-		nutritionPropsWhenInMeal: { satiety: 2.5, health: 0.15, foodcategory: "Grain" }
+		"nutritionPropsWhenInMeal": { "satiety": 2.5, "health": 0.15, "foodcategory": "Grain" }
 	},
-	variantgroups: [
-		{ code: "type", states: ["wild"] },
+	"variantgroups": [
+		{ "code": "type", "states": ["wild"] }
 	],
-	shape: { base: "game:item/liquid" },
-	texture:  {base: "game:block/liquid/starter"},
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:breadstarter-wild", makefull: true } ] } } ] } ],
-	transitionableProps: [{
-		type: "Perish",
-		freshHours: { avg: 48 },
-		transitionHours: { avg: 48 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.005
+	"shape": { "base": "game:item/liquid" },
+	"texture":  {"base": "game:block/liquid/starter"},
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:breadstarter-wild", "makefull": true } ] } } ] } ],
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 48 },
+		"transitionHours": { "avg": 48 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 0.005
 	}],
-	materialDensity: 200,
-	guiTransform: {
-		rotation: { x: 128, y: 40, z: 7 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
+	"materialDensity": 200,
+	"guiTransform": {
+		"rotation": { "x": 128, "y": 40, "z": 7 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
 	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 },
-	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	}
 }

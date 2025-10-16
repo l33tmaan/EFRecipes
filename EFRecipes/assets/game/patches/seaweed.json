@@ -4,20 +4,12 @@
     "side": "server",
     "op": "addmerge",
     "path": "/drops/0",
-    "value": {
-      "type": "block",
-      "code": "seaweed-{part}"
-    }
+    "value": { "type": "block", "code": "seaweed-{part}" }
   },
   {
     "op": "addmerge",
     "path": "/grindingProps",
-    "value": {
-      "groundStack": {
-        "type": "item",
-        "code": "expandedfoods:driedseaweed-mash"
-      }
-    },
+    "value": { "groundStack": { "type": "item", "code": "expandedfoods:driedseaweed-mash" } },
     "side": "server",
     "file": "game:blocktypes/plant/aquatic/seaweed.json"
   }

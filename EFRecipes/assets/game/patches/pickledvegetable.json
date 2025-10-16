@@ -95,34 +95,26 @@
     "path": "/attributes/onDisplayTransformByType",
     "value": {
       "*-carrot": {
-			rotation: { x: 0, y: -45, z: 90 },
-			translation: { x: -0.2, y: -0.225, z: 0 },
-			scale: 1 
+			"rotation": { "x": 0, "y": -45, "z": 90 },
+			"translation": { "x": -0.2, "y": -0.225, "z": 0 },
+			"scale": 1 
       },
       "*-parsnip": {
-			rotation: { x: 0, y: -45, z: 90 },
-			translation: { x: -0.2, y: -0.225, z: 0 },
-			scale: 1 
+			"rotation": { "x": 0, "y": -45, "z": 90 },
+			"translation": { "x": -0.2, "y": -0.225, "z": 0 },
+			"scale": 1 
       },
       "*-turnip": {
-			rotation: { x: 0, y: -45, z: 90 },
-			translation: { x: -0.2, y: -0.225, z: 0 },
-			scale: 1 
+			"rotation": { "x": 0, "y": -45, "z": 90 },
+			"translation": { "x": -0.2, "y": -0.225, "z": 0 },
+			"scale": 1 
       },
       "*-bellpepper": {
-        "translation": {
-          "x": 0,
-          "y": -0.125,
-          "z": 0
-        },
+        "translation": { "x": 0, "y": -0.125, "z": 0 },
         "scale": 0.75
       },
       "*": {
-        "translation": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
+        "translation": { "x": 0, "y": 0, "z": 0 },
         "scale": 1
       }
     },
@@ -138,10 +130,7 @@
         "meltingDuration": 30,
         "smeltedRatio": 1,
         "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "expandedfoods:cookedveggie-pickledcarrot-charred"
-        },
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-pickledcarrot-charred" },
         "requiresContainer": false
       },
       "*-onion": {
@@ -149,10 +138,7 @@
         "meltingDuration": 30,
         "smeltedRatio": 1,
         "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "expandedfoods:cookedveggie-pickledonion-charred"
-        },
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-pickledonion-charred" },
         "requiresContainer": false
       },
       "*-turnip": {
@@ -160,10 +146,7 @@
         "meltingDuration": 30,
         "smeltedRatio": 1,
         "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "expandedfoods:cookedveggie-pickledturnip-charred"
-        },
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-pickledturnip-charred" },
         "requiresContainer": false
       },
       "*-parsnip": {
@@ -171,10 +154,7 @@
         "meltingDuration": 30,
         "smeltedRatio": 1,
         "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "expandedfoods:cookedveggie-pickledparsnip-charred"
-        },
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-pickledparsnip-charred" },
         "requiresContainer": false
       },
       "*-pumpkin": {
@@ -182,10 +162,7 @@
         "meltingDuration": 30,
         "smeltedRatio": 1,
         "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "expandedfoods:cookedveggie-pickledpumpkin-charred"
-        },
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-pickledpumpkin-charred" },
         "requiresContainer": false
       },
       "*-bellpepper": {
@@ -193,10 +170,7 @@
         "meltingDuration": 30,
         "smeltedRatio": 1,
         "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "Code": "expandedfoods:cookedchoppedvegetable-pickledbellpepper-charred"
-        },
+        "smeltedStack": { "type": "item", "Code": "expandedfoods:cookedchoppedvegetable-pickledbellpepper-charred" },
         "requiresContainer": false
       }
     },

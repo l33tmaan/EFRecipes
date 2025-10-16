@@ -1,33 +1,33 @@
 ﻿{
-	code: "limeegg",
-	maxstacksize: 32,
-	variantgroups: [
-		{ code: "source", states: ["chicken", "pheasant", "goldenpheasant", "capercaillie", "wildturkey"] },
+	"code": "limeegg",
+	"maxstacksize": 32,
+	"variantgroups": [
+		{ "code": "source", "states": ["chicken", "pheasant", "goldenpheasant", "capercaillie", "wildturkey"] }
 	],
-	texture: { base: "item/food/limeegg" },
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	attributes: {
+	"texture": { "base": "item/food/limeegg" },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"attributes": {
 		"nutritionPropsWhenInMealByType": {
 			"@*-(pheasant|goldenpheasant|capercaillie|wildturkey)": {
-				saturation: 280,
-				foodcategory: "Protein"
+				"saturation": 280,
+				"foodcategory": "Protein"
 			},
 			"*-chicken": {
-				saturation: 200,
-				foodcategory: "Protein"
-			},
+				"saturation": 200,
+				"foodcategory": "Protein"
+			}
 		},
 		"inPieProperties": {
 			"texture": "game:block/food/pie/fill-egg",
 			"partType": "Filling"
 		}
 	},
-	materialDensity: 200,
-	transitionableProps: [{
-		type: "Perish",
-		freshHours: { avg: 168 },
-		transitionHours: { avg: 36 },
-		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.5
+	"materialDensity": 200,
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 168 },
+		"transitionHours": { "avg": 36 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 0.5
 	}]
 }

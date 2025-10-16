@@ -1,9 +1,9 @@
 ﻿[
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "aculinaryartillery:eggwhiteportion",  quantity: 10 }]},
-		{inputs: [{ type: "item", code: "aculinaryartillery:eggyolkportion-*", "name": "source", quantity: 10 }]},
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "aculinaryartillery:eggwhiteportion",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "name": "source", "quantity": 10 }]}
 	],
-	output: { type: "item", code: "aculinaryartillery:eggyolkfullportion-{source}", stackSize: 10}
- },
+	"output": { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-{source}", "stackSize": 10}
+ }
 ]

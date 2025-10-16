@@ -1,104 +1,104 @@
 ﻿{
-	code: "soulstormbrew",
-	matterState: "liquid",
-	variantgroups: [
-		{ code: "type",	states: [ "slop", "refinedslop", "basic" ]	},
+	"code": "soulstormbrew",
+	"matterState": "liquid",
+	"variantgroups": [
+		{ "code": "type", "states": [ "slop", "refinedslop", "basic" ] }
 	],
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true
 		},
-		distillationPropsByType: {
-			"*-refinedslop": { distilledStack: { type: "item", code: "expandedfoods:soulstormbrew-basic" }, ratio: 0.5 },
+		"distillationPropsByType": {
+			"*-refinedslop": { "distilledStack": { "type": "item", "code": "expandedfoods:soulstormbrew-basic" }, "ratio": 0.5 }
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMealByType: {
+		"nutritionPropsWhenInMealByType": {
 			"@-(slop|refinedslop)": {
-				health: -10,
-				foodcategory: "NoNutrition"
+				"health": -10,
+				"foodcategory": "NoNutrition"
 			},
 			"*-basic": {
-				satiety: -100,
-				health: 10,
-				foodcategory: "NoNutrition"
-			},
+				"satiety": -100,
+				"health": 10,
+				"foodcategory": "NoNutrition"
+			}
 		},
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-			texture: { base: "game:item/liquid/soulstormbrew/{type}" },
-			allowSpill: true,
-			whenSpilled: {
-				action: "DropContents",
-				stack: {
-					type: "item",
-					code: "expandedfoods:soulstormbrew-{type}"
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texture": { "base": "game:item/liquid/soulstormbrew/{type}" },
+			"allowSpill": true,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": {
+					"type": "item",
+					"code": "expandedfoods:soulstormbrew-{type}"
 				}
 			},
-			nutritionPropsPerLitreByType: {
+			"nutritionPropsPerLitreByType": {
 				"@*-(slop|refinedslop)": {
 					"health": -100,
-					foodcategory: "NoNutrition"
+					"foodcategory": "NoNutrition"
 				},
 				"*-basic": {
-					saturation: -1000,
+					"saturation": -1000,
 					"health": 100,
-					foodcategory: "NoNutrition"
-				},
-			},
+					"foodcategory": "NoNutrition"
+				}
+			}
 		},
 		"inPiePropertiesByType": {
 			"@*-(slop|refinedslop)": {
 				"texture": "game:item/liquid/soulstormbrew/{type}",
 				"partType": "Filling"
 			}
-		},
+		}
 	},
-	transitionablePropsByType: {
+	"transitionablePropsByType": {
 		"*-basic":[{
-			type: "perish",
-			freshHours: { avg: 336 },
-			transitionHours: { avg: 84 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "perish",
+			"freshHours": { "avg": 336 },
+			"transitionHours": { "avg": 84 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*":[{
-			type: "perish",
-			freshHours: { avg: 24 },
-			transitionHours: { avg: 24 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
+			"type": "perish",
+			"freshHours": { "avg": 24 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
 	},
-    lightAbsorption: 0,
-	lightHsvByType: {
+    "lightAbsorption": 0,
+	"lightHsvByType": {
 		"*-slop": [ 22, 6, 6 ],
 		"*-refinedslop": [ 22, 6, 12 ],
-		"*-basic": [ 22, 6, 2 ],
+		"*-basic": [ 22, 6, 2 ]
 	},
 	"glowLevel": 30,
-	shape: { base: "game:item/liquid" },
-	texture: {base: "game:item/liquid/soulstormbrew/{type}" },
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "aculinaryartillery:bottle-glass-green-corked", attributes: { ucontents: [ { type:"item", code: "expandedfoods:soulstormbrew-{type}", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	nutritionPropsByType: {
-		"@*-(slop|refinedslop)": { health: -1, foodcategory: "NoNutrition" },
-		"*-basic": { saturation: -10, health: 1, foodcategory: "NoNutrition" },
+	"shape": { "base": "game:item/liquid" },
+	"texture": {"base": "game:item/liquid/soulstormbrew/{type}" },
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "aculinaryartillery:bottle-glass-green-corked", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:soulstormbrew-{type}", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 200,
+	"nutritionPropsByType": {
+		"@*-(slop|refinedslop)": { "health": -1, "foodcategory": "NoNutrition" },
+		"*-basic": { "saturation": -10, "health": 1, "foodcategory": "NoNutrition" }
 	},
-	guiTransform: {
-		rotation: { x: 128, y: 40, z: 7 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
+	"guiTransform": {
+		"rotation": { "x": 128, "y": 40, "z": 7 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
 	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1.15, z: -1.4 },
-		rotation: { x: 0, y: -62, z: 0 }
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1.15, "z": -1.4 },
+		"rotation": { "x": 0, "y": -62, "z": 0 }
 	},
-	groundTransform: {
-		translation: { x: 0, y: 0.175, z: 0 },
-		rotation: { x: 0, y: 0, z: 0 },
-		origin: { x: 0.5, y: 0.5, z: 0.5 },
-		scale: 1.5
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.175, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+		"scale": 1.5
 	}
 }

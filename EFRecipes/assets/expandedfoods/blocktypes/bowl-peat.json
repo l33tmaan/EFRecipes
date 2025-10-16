@@ -1,49 +1,49 @@
 ﻿{
-	code: "bowl-peat",
-	behaviors: [
-		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } },
-		{ name: "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" },	
-		{ name: "RightClickPickup"} 
+	"code": "bowl-peat",
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+		{ "name": "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" },	
+		{ "name": "RightClickPickup"} 
 	],
-	attributes: {
-		shelvable: true,
+	"attributes": {
+		"shelvable": true
 	},
-	heldTpIdleAnimation: "holdbothhands",
-	shape: { base: "block/bowl-peat" },
-	doNotRenderAtLod2: true,
-	blockmaterial: "Ceramic",
-	creativeinventory: { "general": ["*"], "decorative": ["*"], "expandedfoods": ["*"] },
-	replaceable: 300,
-	resistance: 0.75,
-	maxStackSize: 8,
-	lightAbsorption: 0,
-	sounds: {
-		walk: "game:walk/stone",
+	"heldTpIdleAnimation": "holdbothhands",
+	"shape": { "base": "block/bowl-peat" },
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "expandedfoods": ["*"] },
+	"replaceable": 300,
+	"resistance": 0.75,
+	"maxStackSize": 8,
+	"lightAbsorption": 0,
+	"sounds": {
+		"walk": "game:walk/stone"
 	},
-	textures: {
-		"transparent": { base: "game:block/soil/peat" },
-		"ceramic": { base: "game:block/clay/ceramic" },
+	"textures": {
+		"transparent": { "base": "game:block/soil/peat" },
+		"ceramic": { "base": "game:block/clay/ceramic" }
 	},
-	sideopaque: {
-		all: false
+	"sideopaque": {
+		"all": false
 	},
-	sidesolid: {
-		all: false
+	"sidesolid": {
+		"all": false
 	},
-	collisionbox: { x1: 0.3125, y1: 0, z1: 0.3125, x2: 0.6875, y2: 0.125, z2: 0.6875 },
-	selectionbox: { x1: 0.3125, y1: 0, z1: 0.3125, x2: 0.6875, y2: 0.125, z2: 0.6875 },
-	guiTransform: {
-		translation: { x: 0, y: 3, z: 0 },
-		origin: { x: 0.5, y: 0.0625, z: 0.5 },
-		scale: 3
+	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+		"scale": 3
 	},
-	groundTransform: {
-		scale: 3.5
+	"groundTransform": {
+		"scale": 3.5
 	},
-	tpHandTransform: {
-		translation: { x: -0.84, y: -0.2, z: -0.58 },
-		rotation: { x: 90, y: 0, z: -60 },
-		origin: { x: 0.5, y: 0.1, z: 0.5 },
-		scale: 0.66
+	"tpHandTransform": {
+		"translation": { "x": -0.84, "y": -0.2, "z": -0.58 },
+		"rotation": { "x": 90, "y": 0, "z": -60 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.66
 	}
 }

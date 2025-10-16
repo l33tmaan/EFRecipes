@@ -1,98 +1,98 @@
 [
   {
-	ingredientPattern: "K,P",
-    recipeGroup: 1,
-	ingredients: {
+	"ingredientPattern": "K,P",
+    "recipeGroup": 1,
+	"ingredients": {
 		"P": { 
-			type: "item", 
-			code: "pasta-flat", 
-			name: "pasta",
+			"type": "item", 
+			"code": "pasta-flat", 
+			"name": "pasta"
 		},
     		"K": {
-        		type: "item",
-        		code: "game:knife-*",
-        		isTool: true
-      		},
+        		"type": "item",
+        		"code": "game:knife-*",
+        		"isTool": true
+      		}
 	},
-	width: 2,
-	height: 1,
-    	"shapeless": true,
-	output: { type: "item", code: "pasta-cut"  }
+	"width": 2,
+	"height": 1,
+    "shapeless": true,
+	"output": { "type": "item", "code": "pasta-cut"  }
   },
   {
     "ingredientPattern": "SP",
-    recipeGroup: 2,
+    "recipeGroup": 2,
     "ingredients": {
       "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
+        "type": "item",
+        "code": "game:cleaver-*",
+        "isTool": true
       },
       "P": {
-        type: "item",
-        code: "pasta-flat",
-        name: "pasta",
+        "type": "item",
+        "code": "pasta-flat",
+        "name": "pasta"
       }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "pasta-cut" }
+    "output": { "type": "item", "code": "pasta-cut" }
    },
   {
-	ingredientPattern: "R,M",
-    recipeGroup: 3,
-	ingredients: {
+	"ingredientPattern": "R,M",
+    "recipeGroup": 3,
+	"ingredients": {
 		"R": { 
-			type: "item", 
-			code: "game:stone-*"
+			"type": "item", 
+			"code": "game:stone-*"
 		},
 		"M": { 
-			type: "item", 
-			code: "pasta-dough", 
-			name: "pasta",
-		},
+			"type": "item", 
+			"code": "pasta-dough", 
+			"name": "pasta"
+		}
 	},
-	width: 1,
-	height: 2,
-	output: { type: "item", code: "pasta-flat"  }
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "pasta-flat"  }
   },
   {
-	ingredientPattern: "H,M",
-    recipeGroup: 4,
-	ingredients: {
+	"ingredientPattern": "H,M",
+    "recipeGroup": 4,
+	"ingredients": {
 		"H": { 
-			type: "item", 
-			code: "game:hammer-*",
-			isTool: true
+			"type": "item", 
+			"code": "game:hammer-*",
+			"isTool": true
 		},
 		"M": { 
-			type: "item", 
-			code: "pasta-dough", 
-			name: "pasta",
-		},
+			"type": "item", 
+			"code": "pasta-dough", 
+			"name": "pasta"
+		}
 	},
-	width: 1,
-	height: 2,
-	output: { type: "item", code: "pasta-flat"  }
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "pasta-flat"  }
   },
   {
-	ingredientPattern: "R,M",
-    recipeGroup: 5,
-	ingredients: {
+	"ingredientPattern": "R,M",
+    "recipeGroup": 5,
+	"ingredients": {
 		"R": { 
-			type: "item", 
-			code: "aculinaryartillery:rollingpin-*",
-       			isTool: true
+			"type": "item", 
+			"code": "aculinaryartillery:rollingpin-*",
+       			"isTool": true
 		},
 		"M": { 
-			type: "item", 
-			code: "pasta-dough", 
-			name: "pasta",
-		},
+			"type": "item", 
+			"code": "pasta-dough", 
+			"name": "pasta"
+		}
 	},
-	width: 1,
-	height: 2,
-	output: { type: "item", code: "pasta-flat"  }
-  },
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "pasta-flat"  }
+  }
 ]

@@ -23,8 +23,8 @@
       	        ]
             },
         ],
-        side: "server",
-        dependsOn: [{ "modid": "primitivesurvival" }]
+        "side": "server",
+        "dependsOn": [{ "modid": "primitivesurvival" }]
     },
     {
         "op": "addeach",
@@ -101,56 +101,10 @@
                 "meatnugget",
                 "snakemeat"
             ]
-        },    
+        }
     ],
     "file": "game:recipes/cooking/soup.json",
-    side: "server",
-    dependsOn: [ { "modid": "primitivesurvival" } ]
-  },
-  {
-    "op": "addeach",
-    "path": "/ingredients/4/validStacks/-",
-    "value": [
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrabherb-*-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrabherb-*-dried",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnakeherb-*-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnakeherb-*-dried",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },    
-    ],
-    "file": "game:recipes/cooking/soup.json",
-    side: "server",
-    dependsOn: [ { "modid": "primitivesurvival" }, { "modid": "wildcraftherb" } ]
-  },
-
+    "side": "server",
+    "dependsOn": [ { "modid": "primitivesurvival" } ]
+  }
 ]

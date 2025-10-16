@@ -1,14 +1,14 @@
 ﻿{
-	code: "fermentedfish",
-	maxstacksize: 16,
-	variantgroups: [
-		{ code: "type", states: ["slop"] },
+	"code": "fermentedfish",
+	"maxstacksize": 16,
+	"variantgroups": [
+		{ "code": "type", "states": ["slop"] }
 	],
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		inContainerTextureByType: {
-			"*-slop": { base: "block/wood/barrel/fermentedfish-{type}" },
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"inContainerTextureByType": {
+			"*-slop": { "base": "block/wood/barrel/fermentedfish-{type}" }
 		},
 		"juiceablePropertiesByType": {
 			"*-slop": {
@@ -22,42 +22,42 @@
 					"type": "item",
 					"code": "game:pressedmash-fish",
 					"stacksize": 1
-				},
-			},
+				}
+			}
 		},
-		onDisplayTransform: { 
-			translation: { x: 0, y: -0.25, z: 0 },
-			scale: 0.5 
-		},
+		"onDisplayTransform": { 
+			"translation": { "x": 0, "y": -0.25, "z": 0 },
+			"scale": 0.5 
+		}
 	},
-	materialDensity: 600,
-	shape: { base: "game:item/food/pickledvegetable/soypile" },
-	textures: { soypile: {base: "item/food/fermentedfish/{type}"} },
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	transitionableProps: [{
-			type: "Perish",
-			freshHours: { avg: 72 },
-			transitionHours: { avg: 24 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+	"materialDensity": 600,
+	"shape": { "base": "game:item/food/pickledvegetable/soypile" },
+	"textures": { "soypile": {"base": "item/food/fermentedfish/{type}"} },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"transitionableProps": [{
+			"type": "Perish",
+			"freshHours": { "avg": 72 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
-	guiTransform: {
-		translation: { x: 2.5, y: 1, z: 0 },
-		rotation: { x: 137, y: 131, z: 0 },
-		origin: { x: 0.5, y: 0.2, z: 0.5 },
-		scale: 1.38,
-		rotate: true,
+	"guiTransform": {
+		"translation": { "x": 2.5, "y": 1, "z": 0 },
+		"rotation": { "x": 137, "y": 131, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+		"scale": 1.38,
+		"rotate": true
 	},
-	tpHandTransform: {
-		translation: { x: -0.7, y: -0.14, z: -0.6 },
-		rotation: { x: 1, y: -1, z: -31 },
-		origin: { x: 0.5, y: 0.1, z: 0.5 },
-		scale: 0.79
+	"tpHandTransform": {
+		"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+		"rotation": { "x": 1, "y": -1, "z": -31 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.79
 	},
-	groundTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 0, y: 0, z: 0 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 3.5
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.5
 	}
 }

@@ -1,224 +1,200 @@
 [
     {
-    	ingredientPattern: "_H_,_WF,SLS",
-	    recipeGroup: 1,
-    	ingredients: {
-    		"H": { type: "item", code: "game:hammer-*", isTool: true },
-    		"W": { type: "item", code: "game:firewood", quantity: 4},
-    		"S": { type: "block", code: "game:metal-scraps"},
-		    "F": { 
-			    type: "block", 
-			    code: "game:woodbucket"
-			},
-    		"L": { type: "block", code: "game:oillamp-up" },
+    	"ingredientPattern": "_H_,_WF,SLS",
+	    "recipeGroup": 1,
+    	"ingredients": {
+    		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+    		"W": { "type": "item", "code": "game:firewood", "quantity": 4},
+    		"S": { "type": "block", "code": "game:metal-scraps"},
+		    "F": { "type": "block", "code": "game:woodbucket" },
+    		"L": { "type": "block", "code": "game:oillamp-up" }
     	},
-	    attributes: {
-		    liquidContainerProps: {
-		    	requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
-	    		requiresLitres: 0.2
+	    "attributes": {
+		    "liquidContainerProps": {
+		    	"requiresContent": { "type": "item", "code": "expandedfoods:foodoilportion-flax" },
+	    		"requiresLitres": 0.2
 		    }
 	    },
-    	width: 3,
-        height: 3,
+    	"width": 3,
+        "height": 3,
         "shapeless": true,
-    	output: { type: "block", code: "hqzlights:brazier-scrap" }
+    	"output": { "type": "block", "code": "hqzlights:brazier-scrap" }
     },
     {
-    	ingredientPattern: "_H_,_WF,SLS",
-	    recipeGroup: 2,
-    	ingredients: {
-    		"H": { type: "item", code: "game:hammer-*", isTool: true },
-    		"W": { type: "item", code: "game:firewood", quantity: 4},
-    		"S": { type: "item", code: "hqzlights:metalstrip-*", name: "metal"},
-		"F": { 
-			type: "block", 
-			code: "aculinaryartillery:bottle-*-burned"
-			},
-    		"L": { type: "block", code: "game:oillamp-up" },
+    	"ingredientPattern": "_H_,_WF,SLS",
+	    "recipeGroup": 2,
+    	"ingredients": {
+    		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+    		"W": { "type": "item", "code": "game:firewood", "quantity": 4},
+    		"S": { "type": "item", "code": "hqzlights:metalstrip-*", "name": "metal"},
+		    "F": { "type": "block", "code": "aculinaryartillery:bottle-*-burned" },
+    		"L": { "type": "block", "code": "game:oillamp-up" }
     	},	
-	    attributes: {
-		    liquidContainerProps: {
-		    	requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
-	    		requiresLitres: 0.2
+	    "attributes": {
+		    "liquidContainerProps": {
+		    	"requiresContent": { "type": "item", "code": "expandedfoods:foodoilportion-flax" },
+	    		"requiresLitres": 0.2
 		    }
 	    },
-    	width: 3,
-    	height: 3,
+    	"width": 3,
+    	"height": 3,
         "shapeless": true,
-    	output: { type: "block", code: "hqzlights:brazier-{metal}" }
+    	"output": { "type": "block", "code": "hqzlights:brazier-{metal}" }
     },
     {
-    	ingredientPattern: "_H_,_WF,SLS",
-	    recipeGroup: 1,
-    	ingredients: {
-    		"H": { type: "item", code: "game:hammer-*", isTool: true },
-    		"W": { type: "item", code: "game:firewood", quantity: 4},
-    		"S": { type: "block", code: "game:metal-scraps"},
-		    "F": { 
-		    	type: "block", 
-		    	code: "game:woodbucket"
-		   	},
-    		"L": { type: "block", code: "game:oillamp-up" },
+    	"ingredientPattern": "_H_,_WF,SLS",
+	    "recipeGroup": 1,
+    	"ingredients": {
+    		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+    		"W": { "type": "item", "code": "game:firewood", "quantity": 4},
+    		"S": { "type": "block", "code": "game:metal-scraps"},
+		    "F": {  "type": "block", "code": "game:woodbucket" },
+    		"L": { "type": "block", "code": "game:oillamp-up" }
     	},
-	    attributes: {
-	    	liquidContainerProps: {
-	    		requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
-	    		requiresLitres: 0.2
+	    "attributes": {
+	    	"liquidContainerProps": {
+	    		"requiresContent": { "type": "item", "code": "expandedfoods:foodoilportion-rice" },
+	    		"requiresLitres": 0.2
 	    	}
 	    },
-    	width: 3,
-    	height: 3,
+    	"width": 3,
+    	"height": 3,
         "shapeless": true,
-    	output: { type: "block", code: "hqzlights:brazier-scrap" }
+    	"output": { "type": "block", "code": "hqzlights:brazier-scrap" }
     },
     {
-    	ingredientPattern: "_H_,_WF,SLS",
-	    recipeGroup: 2,
-    	ingredients: {
-    		"H": { type: "item", code: "game:hammer-*", isTool: true },
-    		"W": { type: "item", code: "game:firewood", quantity: 4},
-    		"S": { type: "item", code: "hqzlights:metalstrip-*", name: "metal"},
-		    "F": { 
-		    	type: "block", 
-		    	code: "aculinaryartillery:bottle-*-burned"
-			},
-    		"L": { type: "block", code: "game:oillamp-up" },
+    	"ingredientPattern": "_H_,_WF,SLS",
+	    "recipeGroup": 2,
+    	"ingredients": {
+    		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+    		"W": { "type": "item", "code": "game:firewood", "quantity": 4},
+    		"S": { "type": "item", "code": "hqzlights:metalstrip-*", "name": "metal"},
+		    "F": { "type": "block", "code": "aculinaryartillery:bottle-*-burned" },
+    		"L": { "type": "block", "code": "game:oillamp-up" }
     	},	
-	    attributes: {
-	    	liquidContainerProps: {
-	    		requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
-	    		requiresLitres: 0.2
+	    "attributes": {
+	    	"liquidContainerProps": {
+	    		"requiresContent": { "type": "item", "code": "expandedfoods:foodoilportion-rice" },
+	    		"requiresLitres": 0.2
 	    	}
 	    },
-    	width: 3,
-    	height: 3,
+    	"width": 3,
+    	"height": 3,
         "shapeless": true,
-    	output: { type: "block", code: "hqzlights:brazier-{metal}" }
+    	"output": { "type": "block", "code": "hqzlights:brazier-{metal}" }
     },
     {
-    	ingredientPattern: "_H_,_WF,SLS",
-	    recipeGroup: 1,
-    	ingredients: {
-    		"H": { type: "item", code: "game:hammer-*", isTool: true },
-    		"W": { type: "item", code: "game:firewood", quantity: 4},
-    		"S": { type: "block", code: "game:metal-scraps"},
-		    "F": { 
-		    	type: "block", 
-		    	code: "game:woodbucket"
-			},
-    		"L": { type: "block", code: "game:oillamp-up" },
+    	"ingredientPattern": "_H_,_WF,SLS",
+	    "recipeGroup": 1,
+    	"ingredients": {
+    		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+    		"W": { "type": "item", "code": "game:firewood", "quantity": 4},
+    		"S": { "type": "block", "code": "game:metal-scraps"},
+		    "F": { "type": "block", "code": "game:woodbucket" },
+    		"L": { "type": "block", "code": "game:oillamp-up" }
     	},
-	    attributes: {
-	    	liquidContainerProps: {
-	    		requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
-	    		requiresLitres: 0.2
+	    "attributes": {
+	    	"liquidContainerProps": {
+	    		"requiresContent": { "type": "item", "code": "expandedfoods:foodoilportion-seed" },
+	    		"requiresLitres": 0.2
 	    	}
 	    },
-    	width: 3,
-    	height: 3,
+    	"width": 3,
+    	"height": 3,
         "shapeless": true,
-    	output: { type: "block", code: "hqzlights:brazier-scrap" }
+    	"output": { "type": "block", "code": "hqzlights:brazier-scrap" }
     },
     {
-    	ingredientPattern: "_H_,_WF,SLS",
-	    recipeGroup: 2,
-    	ingredients: {
-    		"H": { type: "item", code: "game:hammer-*", isTool: true },
-    		"W": { type: "item", code: "game:firewood", quantity: 4},
-    		"S": { type: "item", code: "hqzlights:metalstrip-*", name: "metal"},
-		    "F": { 
-		    	type: "block", 
-		    	code: "aculinaryartillery:bottle-*-burned"
-			},
-    		"L": { type: "block", code: "game:oillamp-up" },
+    	"ingredientPattern": "_H_,_WF,SLS",
+	    "recipeGroup": 2,
+    	"ingredients": {
+    		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+    		"W": { "type": "item", "code": "game:firewood", "quantity": 4},
+    		"S": { "type": "item", "code": "hqzlights:metalstrip-*", "name": "metal"},
+		    "F": { "type": "block", "code": "aculinaryartillery:bottle-*-burned" },
+    		"L": { "type": "block", "code": "game:oillamp-up" }
     	},	
-	    attributes: {
-		    liquidContainerProps: {
-		    	requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
-	    		requiresLitres: 0.2
+	    "attributes": {
+		    "liquidContainerProps": {
+		    	"requiresContent": { "type": "item", "code": "expandedfoods:foodoilportion-seed" },
+	    		"requiresLitres": 0.2
 		    }
 	    },
-    	width: 3,
-    	height: 3,
+    	"width": 3,
+    	"height": 3,
         "shapeless": true,
-    	output: { type: "block", code: "hqzlights:brazier-{metal}" }
+    	"output": { "type": "block", "code": "hqzlights:brazier-{metal}" }
     },
     {
-    	ingredientPattern: "_H_,_WF,SLS",
-	    recipeGroup: 1,
-    	ingredients: {
-    		"H": { type: "item", code: "game:hammer-*", isTool: true },
-    		"W": { type: "item", code: "game:firewood", quantity: 4},
-    		"S": { type: "block", code: "game:metal-scraps"},
-		    "F": { 
-		    	type: "block", 
-		    	code: "game:woodbucket"
-		    	},
-    		"L": { type: "block", code: "game:oillamp-up" },
+    	"ingredientPattern": "_H_,_WF,SLS",
+	    "recipeGroup": 1,
+    	"ingredients": {
+    		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+    		"W": { "type": "item", "code": "game:firewood", "quantity": 4 },
+    		"S": { "type": "block", "code": "game:metal-scraps" },
+		    "F": { "type": "block", "code": "game:woodbucket" },
+    		"L": { "type": "block", "code": "game:oillamp-up" }
     	},
-	    attributes: {
-	    	liquidContainerProps: {
-	    		requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
-	    		requiresLitres: 0.2
+	    "attributes": {
+	    	"liquidContainerProps": {
+	    		"requiresContent": { "type": "item", "code": "expandedfoods:foodoilportion-soy" },
+	    		"requiresLitres": 0.2
 	    	}
 	    },
-    	width: 3,
-    	height: 3,
+    	"width": 3,
+    	"height": 3,
         "shapeless": true,
-    	output: { type: "block", code: "hqzlights:brazier-scrap" }
+    	"output": { "type": "block", "code": "hqzlights:brazier-scrap" }
     },
     {
-    	ingredientPattern: "_H_,_WF,SLS",
-	    recipeGroup: 2,
-    	ingredients: {
-    		"H": { type: "item", code: "game:hammer-*", isTool: true },
-    		"W": { type: "item", code: "game:firewood", quantity: 4},
-    		"S": { type: "item", code: "hqzlights:metalstrip-*", name: "metal"},
-		    "F": { 
-		    	type: "block", 
-		    	code: "aculinaryartillery:bottle-*-burned"
-		    	},
-    		"L": { type: "block", code: "game:oillamp-up" },
+    	"ingredientPattern": "_H_,_WF,SLS",
+	    "recipeGroup": 2,
+    	"ingredients": {
+    		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+    		"W": { "type": "item", "code": "game:firewood", "quantity": 4},
+    		"S": { "type": "item", "code": "hqzlights:metalstrip-*", "name": "metal"},
+		    "F": { "type": "block", "code": "aculinaryartillery:bottle-*-burned" },
+    		"L": { "type": "block", "code": "game:oillamp-up" }
     	},	
-	    attributes: {
-	    	liquidContainerProps: {
-	    		requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
-	    		requiresLitres: 0.2
+	    "attributes": {
+	    	"liquidContainerProps": {
+	    		"requiresContent": { "type": "item", "code": "expandedfoods:foodoilportion-soy" },
+	    		"requiresLitres": 0.2
 	    	}
 	    },
-    	width: 3,
-    	height: 3,
+    	"width": 3,
+    	"height": 3,
         "shapeless": true,
-    	output: { type: "block", code: "hqzlights:brazier-{metal}" }
+    	"output": { "type": "block", "code": "hqzlights:brazier-{metal}" }
     },
     {
-    	ingredientPattern: "_H_,FWF,SLS",
-	    recipeGroup: 1,
-    	ingredients: {
-    		"H": { type: "item", code: "game:hammer-*", isTool: true },
-    		"W": { type: "item", code: "game:firewood", quantity: 4},
-    		"S": { type: "block", code: "game:metal-scraps"},
-		    "F": { type: "block", code: "expandedfoods:hardlard" },
-    		"L": { type: "block", code: "game:oillamp-up" },
+    	"ingredientPattern": "_H_,FWF,SLS",
+	    "recipeGroup": 1,
+    	"ingredients": {
+    		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+    		"W": { "type": "item", "code": "game:firewood", "quantity": 4},
+    		"S": { "type": "block", "code": "game:metal-scraps"},
+		    "F": { "type": "block", "code": "expandedfoods:hardlard" },
+    		"L": { "type": "block", "code": "game:oillamp-up" }
     	},
-    	width: 3,
-    	height: 3,
+    	"width": 3,
+    	"height": 3,
         "shapeless": true,
-    	output: { type: "block", code: "hqzlights:brazier-scrap" }
+    	"output": { "type": "block", "code": "hqzlights:brazier-scrap" }
     },
     {
-    	ingredientPattern: "_H_,FWF,SLS",
-	    recipeGroup: 2,
-    	ingredients: {
-    		"H": { type: "item", code: "game:hammer-*", isTool: true },
-    		"W": { type: "item", code: "game:firewood", quantity: 4},
-    		"S": { type: "item", code: "hqzlights:metalstrip-*", name: "metal"},
-		    "F": { type: "block", code: "expandedfoods:hardlard" },
-    		"L": { type: "block", code: "game:oillamp-up" },
+    	"ingredientPattern": "_H_,FWF,SLS",
+	    "recipeGroup": 2,
+    	"ingredients": {
+    		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+    		"W": { "type": "item", "code": "game:firewood", "quantity": 4},
+    		"S": { "type": "item", "code": "hqzlights:metalstrip-*", "name": "metal"},
+		    "F": { "type": "block", "code": "expandedfoods:hardlard" },
+    		"L": { "type": "block", "code": "game:oillamp-up" }
     	},
-    	width: 3,
-    	height: 3,
+    	"width": 3,
+    	"height": 3,
         "shapeless": true,
-    	output: { type: "block", code: "hqzlights:brazier-{metal}" }
-    },
+    	"output": { "type": "block", "code": "hqzlights:brazier-{metal}" }
+    }
 ]

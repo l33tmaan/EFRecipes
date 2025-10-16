@@ -1,568 +1,568 @@
 {
-	code: "cookedchoppedvegetable",
-	maxstacksize: 64,
-	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper", "pickledbellpepper"] },
-		{ code: "state", states: ["partbaked", "perfect", "charred" ] }
+	"code": "cookedchoppedvegetable",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper", "pickledbellpepper"] },
+		{ "code": "state", "states": ["partbaked", "perfect", "charred" ] }
 	],
-	shape: { base: "item/food/veggies/chopped/cooked/{type}"},
-	textures: {
-		"cabbage": {base: "item/food/veggie/{state}/chopped/cabbage"},
-		"carrot": {base: "item/food/veggie/{state}/carrot"},
-		"pickledcarrot": {base: "item/food/veggie/{state}/pickledcarrot"},
-		"pumpkin": {base: "item/food/veggie/{state}/pumpkin"},
-		"pickledpumpkin": {base: "item/food/veggie/{state}/pumpkin"},
-		"turnip": {base: "item/food/veggie/{state}/turnip"},
-		"pickledturnip": {base: "item/food/veggie/{state}/pickledturnip"},
-		"onion": {base: "item/food/veggie/{state}/onion"},
-		"pickledonion": {base: "item/food/veggie/{state}/pickledonion"},
-		"parsnip": {base: "item/food/veggie/{state}/parsnip"},
-		"pickledparsnip": {base: "item/food/veggie/{state}/pickledparsnip"},
-		"cassava": {base: "item/food/veggie/{state}/cassava"},
-		"reeds": {base: "item/food/veggie/{state}/reeds"},
-		"bellpepper": {base: "item/food/veggie/{state}/bellpepper"},
-		"pickledbellpepper": {base: "item/food/veggie/{state}/pickledbellpepper"},
+	"shape": { "base": "item/food/veggies/chopped/cooked/{type}"},
+	"textures": {
+		"cabbage": {"base": "item/food/veggie/{state}/chopped/cabbage"},
+		"carrot": {"base": "item/food/veggie/{state}/carrot"},
+		"pickledcarrot": {"base": "item/food/veggie/{state}/pickledcarrot"},
+		"pumpkin": {"base": "item/food/veggie/{state}/pumpkin"},
+		"pickledpumpkin": {"base": "item/food/veggie/{state}/pumpkin"},
+		"turnip": {"base": "item/food/veggie/{state}/turnip"},
+		"pickledturnip": {"base": "item/food/veggie/{state}/pickledturnip"},
+		"onion": {"base": "item/food/veggie/{state}/onion"},
+		"pickledonion": {"base": "item/food/veggie/{state}/pickledonion"},
+		"parsnip": {"base": "item/food/veggie/{state}/parsnip"},
+		"pickledparsnip": {"base": "item/food/veggie/{state}/pickledparsnip"},
+		"cassava": {"base": "item/food/veggie/{state}/cassava"},
+		"reeds": {"base": "item/food/veggie/{state}/reeds"},
+		"bellpepper": {"base": "item/food/veggie/{state}/bellpepper"},
+		"pickledbellpepper": {"base": "item/food/veggie/{state}/pickledbellpepper"}
 	},
-	attributesByType: {
+	"attributesByType": {
 		"*-cabbage-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedchoppedvegetable-cabbage-perfect",
-				initialCode: "expandedfoods:choppedvegetable-cabbage"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-cabbage-perfect",
+				"initialCode": "expandedfoods:choppedvegetable-cabbage"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.125, "z": 0 },
+				"scale": 0.75 
 			}
 		},
 		"*-pickledbellpepper-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedchoppedvegetable-pickledbellpepper-perfect",
-				initialCode: "game:pickledvegetable-bellpepper"
-			},
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-pickledbellpepper-perfect",
+				"initialCode": "game:pickledvegetable-bellpepper"
+			}
 		},
 		"*-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-perfect",
-				initialCode: "expandedfoods:choppedvegetable-{type}"
-			},
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-perfect",
+				"initialCode": "expandedfoods:choppedvegetable-{type}"
+			}
 		},
 		"*-cabbage-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedchoppedvegetable-cabbage-charred",
-				initialCode: "expandedfoods:cookedchoppedvegetable-cabbage-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-cabbage-charred",
+				"initialCode": "expandedfoods:cookedchoppedvegetable-cabbage-partbaked"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.125, "z": 0 },
+				"scale": 0.75 
 			}
 		},
 		"*-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-charred",
-				initialCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-charred",
+				"initialCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
+			}
 		},
 		"*-cabbage-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedchoppedvegetable-cabbage-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedchoppedvegetable-cabbage-perfect"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.125, "z": 0 },
+				"scale": 0.75 
 			}
 		},
 		"*-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedchoppedvegetable-{type}-perfect"
-			},
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedchoppedvegetable-{type}-perfect"
+			}
 		}
 	},
-	combustiblePropsByType: {
+	"combustiblePropsByType": {
 		"@*-(partbaked|perfect)": {
-			meltingPoint: 150,
-			meltingDuration: 20,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "cookedchoppedvegetable-{type}-charred" },
-			requiresContainer: false
-		},
+			"meltingPoint": 150,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "cookedchoppedvegetable-{type}-charred" },
+			"requiresContainer": false
+		}
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"*-cabbage-partbaked": { satiety: 325, foodcategory: "Vegetable" },
-		"*-pumpkin-partbaked": { satiety: 150, foodcategory: "Vegetable" },
-		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-partbaked": { saturation: 90, foodcategory: "Vegetable" },
-		"*-partbaked": { satiety: 110, foodcategory: "Vegetable" },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"nutritionPropsByType": {
+		"*-cabbage-partbaked": { "satiety": 325, "foodcategory": "Vegetable" },
+		"*-pumpkin-partbaked": { "satiety": 150, "foodcategory": "Vegetable" },
+		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-partbaked": { "saturation": 90, "foodcategory": "Vegetable" },
+		"*-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
 
-		"*-cabbage-perfect": { satiety: 400, foodcategory: "Vegetable" },
-		"*-pumpkin-perfect": { satiety: 200, foodcategory: "Vegetable" },
-		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-perfect": { saturation: 120, foodcategory: "Vegetable" },
-		"*-perfect": { satiety: 140, foodcategory: "Vegetable" },
+		"*-cabbage-perfect": { "satiety": 400, "foodcategory": "Vegetable" },
+		"*-pumpkin-perfect": { "satiety": 200, "foodcategory": "Vegetable" },
+		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-perfect": { "saturation": 120, "foodcategory": "Vegetable" },
+		"*-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
 
-		"*-cabbage-charred": { satiety: 350, foodcategory: "Vegetable" },
-		"*-pumpkin-charred": { satiety: 175, foodcategory: "Vegetable" },
-		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-charred": { saturation: 100, foodcategory: "Vegetable" },
-		"*-charred": { satiety: 125, foodcategory: "Vegetable" },
+		"*-cabbage-charred": { "satiety": 350, "foodcategory": "Vegetable" },
+		"*-pumpkin-charred": { "satiety": 175, "foodcategory": "Vegetable" },
+		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-charred": { "saturation": 100, "foodcategory": "Vegetable" },
+		"*-charred": { "satiety": 125, "foodcategory": "Vegetable" }
 	},
-	transitionablePropsByType: {
+	"transitionablePropsByType": {
     	"@*-pumpkin-(partbaked|perfect)": [{
-      		type: "Perish",
-      		freshHours: { avg: 216 },
-      		transitionHours: { avg: 72 },
-      		transitionedStack: { type: "item", code: "game:rot" },
-      		transitionRatio: 1
+      		"type": "Perish",
+      		"freshHours": { "avg": 216 },
+      		"transitionHours": { "avg": 72 },
+      		"transitionedStack": { "type": "item", "code": "game:rot" },
+      		"transitionRatio": 1
     	}],
     	"@*-onion-(partbaked|perfect)": [{
-    		type: "Perish",
-    		freshHours: { avg: 672 },
-    		transitionHours: { avg: 120 },
-    		transitionedStack: { type: "item", code: "game:rot" },
-    		transitionRatio: 1
+    		"type": "Perish",
+    		"freshHours": { "avg": 672 },
+    		"transitionHours": { "avg": 120 },
+    		"transitionedStack": { "type": "item", "code": "game:rot" },
+    		"transitionRatio": 1
     	}],
     	"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-(partbaked|perfect)": [{
-    		type: "Perish",
-    		freshHours: { avg: 1800 },
-    		transitionHours: { avg: 240 },
-    		transitionedStack: { type: "item", code: "game:rot" },
-    		transitionRatio: 1
+    		"type": "Perish",
+    		"freshHours": { "avg": 1800 },
+    		"transitionHours": { "avg": 240 },
+    		"transitionedStack": { "type": "item", "code": "game:rot" },
+    		"transitionRatio": 1
     	}],
     	"@*-(partbaked|perfect)": [{
-    		type: "Perish",
-    		freshHours: { avg:  504 },
-    		transitionHours: { avg: 96 },
-    		transitionedStack: { type: "item", code: "game:rot" },
-    		transitionRatio: 1
+    		"type": "Perish",
+    		"freshHours": { "avg":  504 },
+    		"transitionHours": { "avg": 96 },
+    		"transitionedStack": { "type": "item", "code": "game:rot" },
+    		"transitionRatio": 1
     	}],
 		"*-pumpkin-charred": [{
-			type: "Perish",
-			freshHours: { avg: 756 },
-			transitionHours: { avg: 120 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 756 },
+			"transitionHours": { "avg": 120 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-onion-charred": [{
-			type: "Perish",
-			freshHours: { avg: 2352 },
-			transitionHours: { avg: 200 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 2352 },
+			"transitionHours": { "avg": 200 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-charred": [{
-			type: "Perish",
-			freshHours: { avg: 7300 },
-			transitionHours: { avg: 400 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 7300 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-charred": [{
-			type: "Perish",
-			freshHours: { avg:  1764 },
-			transitionHours: { avg: 160 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
+			"type": "Perish",
+			"freshHours": { "avg":  1764 },
+			"transitionHours": { "avg": 160 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
 	},
-	materialDensity: 600,
-	guiTransformByType: {
+	"materialDensity": 600,
+	"guiTransformByType": {
 		"*-cabbage-*": {
-			translation: { x: 2.5, y: 1, z: 0 },
-			rotation: { x: 137, y: 131, z: 0 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 1.38,
-			"rotate":  true,
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 1.38,
+			"rotate":  true
 		},
 		"*-carrot-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4,
+			"rotate":  true
 		},
 		"*-onion-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4,
+			"rotate":  true
 		},
 		"*-parsnip-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4,
+			"rotate":  true
 		},
 		"*-turnip-*": {
-			translation: { x: 2, y: 2, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3,
-			"rotate":  true,
+			"translation": { "x": 2, "y": 2, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3,
+			"rotate":  true
 		},
 		"*-pumpkin-*": {
-			translation: { x: 5, y: 1, z: 0 },
-			rotation: { x: 110, y: 169, z: 23 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 3.5,
-			"rotate":  true,
+			"translation": { "x": 5, "y": 1, "z": 0 },
+			"rotation": { "x": 110, "y": 169, "z": 23 },
+			"origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+			"scale": 3.5,
+			"rotate":  true
 		},
 		"*-pickledcarrot-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4,
+			"rotate":  true
 		},
 		"*-pickledonion-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4,
+			"rotate":  true
 		},
 		"*-pickledparsnip-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4,
+			"rotate":  true
 		},
 		"*-pickledturnip-*": {
-			translation: { x: 2, y: 2, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3,
-			"rotate":  true,
+			"translation": { "x": 2, "y": 2, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3,
+			"rotate":  true
 		},
 		"*-pickledpumpkin-*": {
-			translation: { x: 5, y: 1, z: 0 },
-			rotation: { x: 110, y: 169, z: 23 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 3.5,
-			"rotate":  true,
+			"translation": { "x": 5, "y": 1, "z": 0 },
+			"rotation": { "x": 110, "y": 169, "z": 23 },
+			"origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+			"scale": 3.5,
+			"rotate":  true
 		},
 		"*-pickledbellpepper-*": {
-			translation: { x: -7, y: 5, z: 0 },
-			rotation: { x: -37, y: 135, z: -155 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3,
-			"rotate":  true,
+			"translation": { "x": -7, "y": 5, "z": 0 },
+			"rotation": { "x": -37, "y": 135, "z": -155 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 3,
+			"rotate":  true
 		},
 		"*-cassava-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3,
+			"rotate":  true
 		},
 		"*-cassavadried-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3,
+			"rotate":  true
 		},
 		"*-cattailroot-*": {
-			translation: { x: -3.3, y: -3, z: 0 },
-			rotation: { x: 87, y: -28, z: 0 },
-			origin: { x: 0.47, y: 0.43, z: 0.6 },
-			scale: 2.5,
-			"rotate":  true,
+			"translation": { "x": -3.3, "y": -3, "z": 0 },
+			"rotation": { "x": 87, "y": -28, "z": 0 },
+			"origin": { "x": 0.47, "y": 0.43, "z": 0.6 },
+			"scale": 2.5,
+			"rotate":  true
 		},
 		"*-papyrusroot-*": {
-			translation: { x: -3.3, y: -3, z: 0 },
-			rotation: { x: 87, y: -28, z: 0 },
-			origin: { x: 0.47, y: 0.43, z: 0.6 },
-			scale: 2.5,
-			"rotate":  true,
+			"translation": { "x": -3.3, "y": -3, "z": 0 },
+			"rotation": { "x": 87, "y": -28, "z": 0 },
+			"origin": { "x": 0.47, "y": 0.43, "z": 0.6 },
+			"scale": 2.5,
+			"rotate":  true
 		},
 		"*-bellpepper-*": {
-			translation: { x: -2, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.45, y: 0, z: 0.6 },
-			scale: 2.5,
-			"rotate":  true,
+			"translation": { "x": -2, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.45, "y": 0, "z": 0.6 },
+			"scale": 2.5,
+			"rotate":  true
 		},
 		"*": {
-			translation: { x: 3, y: 4, z: 0 },
-			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 1.8,
-			"rotate":  true,
-		},
+			"translation": { "x": 3, "y": 4, "z": 0 },
+			"rotation": { "x": -44, "y": 180, "z": 2 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 1.8,
+			"rotate":  true
+		}
 	},
-	tpHandTransformByType: {
+	"tpHandTransformByType": {
 		"*-cabbage-*": {
-			translation: { x: -0.9, y: -0.14, z: -1 },
-			rotation: { x: 1, y: -1, z: -31 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
+			"translation": { "x": -0.9, "y": -0.14, "z": -1 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.5
 		},
 		"*-carrot-*": {
-			translation: { x: -0.65, y: -0.14, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.65, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-onion-*": {
-			translation: { x: -0.65, y: -0.14, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.65, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-parsnip-*": {
-			translation: { x: -0.65, y: -0.14, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.65, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-turnip-*": {
-			translation: { x: -0.65, y: -0.14, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.65, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-pumpkin-*": {
-			translation: { x: -0.95, y: -0.25, z: -0.93 },
-			rotation: { x: 56, y: -70, z: -59 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
+			"translation": { "x": -0.95, "y": -0.25, "z": -0.93 },
+			"rotation": { "x": 56, "y": -70, "z": -59 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.5
 		},
 		"*-pickledcarrot-*": {
-			translation: { x: -0.65, y: -0.14, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.65, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-pickledonion-*": {
-			translation: { x: -0.65, y: -0.14, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.65, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-pickledparsnip-*": {
-			translation: { x: -0.65, y: -0.14, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.65, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-pickledturnip-*": {
-			translation: { x: -0.65, y: -0.14, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.65, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-pickledpumpkin-*": {
-			translation: { x: -0.95, y: -0.25, z: -0.93 },
-			rotation: { x: 56, y: -70, z: -59 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
+			"translation": { "x": -0.95, "y": -0.25, "z": -0.93 },
+			"rotation": { "x": 56, "y": -70, "z": -59 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.5
 		},
 		"*-pickledbellpepper-*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -42 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-cassava-*": {
-			translation: { x: -0.75, y: -0.14, z: -0.8 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.6
+			"translation": { "x": -0.75, "y": -0.14, "z": -0.8 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.6
 		},
 		"*-cassavadried-*": {
-			translation: { x: -0.75, y: -0.14, z: -0.8 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.6
+			"translation": { "x": -0.75, "y": -0.14, "z": -0.8 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.6
 		},
 		"*-cattailroot-*": {
-			translation: { x: -1, y: -0.6, z: -1 },
-			rotation: { x: 180, y: 0, z: 180 },
-			scale: 0.5
+			"translation": { "x": -1, "y": -0.6, "z": -1 },
+			"rotation": { "x": 180, "y": 0, "z": 180 },
+			"scale": 0.5
 		},
 		"*-papyrusroot-*": {
-			translation: { x: -1, y: -0.6, z: -1 },
-			rotation: { x: 180, y: 0, z: 180 },
-			scale: 0.5
+			"translation": { "x": -1, "y": -0.6, "z": -1 },
+			"rotation": { "x": 180, "y": 0, "z": 180 },
+			"scale": 0.5
 		},
 		"*-bellpepper-*": {
-			translation: { x: -0.95, y: -0.25, z: -0.93 },
-			rotation: { x: 56, y: -70, z: -59 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
+			"translation": { "x": -0.95, "y": -0.25, "z": -0.93 },
+			"rotation": { "x": 56, "y": -70, "z": -59 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.5
 		},
 		"*": {
-			translation: { x: -1.73, y: -0.42, z: -2 },
-			rotation: { x: 1, y: -10, z: 0 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.25
-		},		
+			"translation": { "x": -1.73, "y": -0.42, "z": -2 },
+			"rotation": { "x": 1, "y": -10, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.25
+		}
 	},
-	groundTransformByType: {
+	"groundTransformByType": {
 		"*-cabbage-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3
 		},
 		"*-carrot-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-onion-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-parsnip-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-turnip-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-pumpkin-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3.8
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3.8
 		},
 		"*-pickledcarrot-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-pickledonion-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-pickledparsnip-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-pickledturnip-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-pickledpumpkin-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3.8
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3.8
 		},
 		"*-pickledbellpepper-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 83 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 83 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-cassava-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3
 		},
 		"*-cassavadried-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3
 		},
 		"*-cattailroot-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 2.5
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 2.5
 		},
 		"*-papyrusroot-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 2.5
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 2.5
 		},
 		"*-bellpepper-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3
 		},
 		"*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 1.5
-		},
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1.5
+		}
 	}
 }

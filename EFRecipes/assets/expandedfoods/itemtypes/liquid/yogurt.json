@@ -1,106 +1,93 @@
 {
-	code: "yogurt",
-	class: "ExpandedLiquid",
-	matterState: "liquid",
-	attributes: {
-		handbook: {
-			ignoreCreativeInvStacks: true
+	"code": "yogurt",
+	"class": "ExpandedLiquid",
+	"matterState": "liquid",
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMeal: { saturation: 150, Health: 5, foodcategory: "Dairy" },
-		waterTightContainerProps: {
-			containable: true,
-			itemsPerLitre: 100,
-			isopaque: true,
-			texture: { base: "game:item/liquid/yogurt/{type}" },
-			allowSpill: true,
-			whenSpilled: { 
-				action: "DropContents",
-				stack: { type: "item", code: "yogurt-{type}" } 
+		"nutritionPropsWhenInMeal": { "saturation": 150, "Health": 5, "foodcategory": "Dairy" },
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"isopaque": true,
+			"texture": { "base": "game:item/liquid/yogurt/{type}" },
+			"allowSpill": true,
+			"whenSpilled": { 
+				"action": "DropContents",
+				"stack": { "type": "item", "code": "yogurt-{type}" } 
 			},
-			nutritionPropsPerLitreByType: {
-				"@*-(plain|birch|maple|honey|apple|blueberry|cranberry|redcurrant|whitecurrant|blackcurrant|saguaro|pineapple|cherry|peach|pear|orange|mango|breadfruit|lychee|pomegranate|achacha|apricot|beautyberry|bitternightshade|blacknightshade|blacknightshadeunripe|blueraspberry|bluetongue|brambleberry|bunchberry|bushlawyer|cashewapple|cheeseberry|cherryplum|citron|cloudberry|cocoa|coralbead|creepingpine|crowberry|crowseye|dogrose|elderberry|engkala|falseorange|falsestrawberry|feijoa|fig|fingerlime|flaxlily|foxgrape|fractureberry|gardenstrawberry|gooseberry|guajava|hawthorn|honeypots|honeysuckle|huckleberry|husktomato|illawarra|jujube|juniper|kakaha|kawakawa|knyazberry|kumquat|lemonaspen|lillypillypink|lingonberry|loquat|midyimberry|mingimingi|munthari|naranjilla|numnum|pandanbits|pilo|pineheath|pittedbeachalmond|pittedchinaberry|pokeberry|pomelo|pricklyheath|purpleplum|quince|raspberry|redgrape|redquandong|roseapple|rowanberry|rubysaltbush|sallowthorn|seamango|silvernettle|snowberry|spindle|strawberry|sumac|turkscap|ugni|virgingrape|whitegrape|wolfberry)":
-				{ saturation: 300, "health": 10, foodcategory: "Dairy" }, 
-			}, 
+			"nutritionPropsPerLitreByType": {
+				"@*-(plain|birch|maple|honey|apple|blueberry|cranberry|redcurrant|whitecurrant|blackcurrant|saguaro|pineapple|cherry|peach|pear|orange|mango|breadfruit|lychee|pomegranate)":
+				{ "saturation": 300, "health": 10, "foodcategory": "Dairy" }
+			}
 		},
-		expandedNutritionPropsByType: {
-			"@*-(plain|birch|maple|honey|apple|blueberry|cranberry|redcurrant|whitecurrant|blackcurrant|saguaro|pineapple|cherry|peach|pear|orange|mango|breadfruit|lychee|pomegranate|achacha|apricot|beautyberry|bitternightshade|blacknightshade|blacknightshadeunripe|blueraspberry|bluetongue|brambleberry|bunchberry|bushlawyer|cashewapple|cheeseberry|cherryplum|citron|cloudberry|cocoa|coralbead|creepingpine|crowberry|crowseye|dogrose|elderberry|engkala|falseorange|falsestrawberry|feijoa|fig|fingerlime|flaxlily|foxgrape|fractureberry|gardenstrawberry|gooseberry|guajava|hawthorn|honeypots|honeysuckle|huckleberry|husktomato|illawarra|jujube|juniper|kakaha|kawakawa|knyazberry|kumquat|lemonaspen|lillypillypink|lingonberry|loquat|midyimberry|mingimingi|munthari|naranjilla|numnum|pandanbits|pilo|pineheath|pittedbeachalmond|pittedchinaberry|pokeberry|pomelo|pricklyheath|purpleplum|quince|raspberry|redgrape|redquandong|roseapple|rowanberry|rubysaltbush|sallowthorn|seamango|silvernettle|snowberry|spindle|strawberry|sumac|turkscap|ugni|virgingrape|whitegrape|wolfberry)": {
-				"expandedfoods:yogurt-starter": { saturation: 3, Health: 0.1, foodcategory: "Dairy" },
-				"expandedfoods:yogurt-ferment": { saturation: 3, Health: 0.1, foodcategory: "Dairy" },
-				"expandedfoods:yogurt-plain": { saturation: 3, Health: 0.1, foodcategory: "Dairy" },
-				"expandedfoods:pasteurizedmilkportion": { saturation: 0, health: 0.0, foodcategory: "Dairy" },
-				"game:honeyportion": { saturation: 4, "health": 0.1, foodcategory: "Fruit" },
-				"expandedfoods:fruitsyrupportion-saguaro": { saturation: 12, "health": 0.2, foodcategory: "Fruit" },
-				"expandedfoods:fruitsyrupportion-*": { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
-				"expandedfoods:treesyrupportion-*": { saturation: 9.6, "health": 0.1, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-cloudberry" : { saturation: 12, "health": 0.5, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-husktomato" : { saturation: 12, "health": 0.3, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-juniper" : { saturation: 12, "health": 0.3, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-coralbead" : { saturation: 12, "health": -0.1, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-pokeberry" : { saturation: 12, "health": -0.25, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-snowberry" : { saturation: 12, "health": -0.25, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-falseorange" : { saturation: 12, "health": -0.25, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-blacknightshadeunripe" : { saturation: 12, "health": -1, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-bitternightshade" : { saturation: 12, "health": -2, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-wolfberry" : { saturation: 12, "health": -3, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-seamango" : { saturation: 12, "health": -4, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-crowseye" : { saturation: 12, "health": -5, foodcategory: "Fruit" },
-      			"expandedfoods:wildfruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
-			},
-		},
+		"expandedNutritionPropsByType": {
+			"@*-(plain|birch|maple|honey|apple|blueberry|cranberry|redcurrant|whitecurrant|blackcurrant|saguaro|pineapple|cherry|peach|pear|orange|mango|breadfruit|lychee|pomegranate)": {
+				"expandedfoods:yogurt-starter": { "saturation": 3, "Health": 0.1, "foodcategory": "Dairy" },
+				"expandedfoods:yogurt-ferment": { "saturation": 3, "Health": 0.1, "foodcategory": "Dairy" },
+				"expandedfoods:yogurt-plain": { "saturation": 3, "Health": 0.1, "foodcategory": "Dairy" },
+				"expandedfoods:pasteurizedmilkportion": { "saturation": 0, "health": 0.0, "foodcategory": "Dairy" },
+				"game:honeyportion": { "saturation": 4, "health": 0.1, "foodcategory": "Fruit" },
+				"expandedfoods:fruitsyrupportion-saguaro": { "saturation": 12, "health": 0.2, "foodcategory": "Fruit" },
+				"expandedfoods:fruitsyrupportion-*": { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" },
+				"expandedfoods:treesyrupportion-*": { "saturation": 9.6, "health": 0.1, "foodcategory": "Fruit" }
+			}
+		}
 	},
-	variantgroups: [
-		{ code: "type", states: ["starter", "ferment", "plain", "birch", "maple", "honey", "apple", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "achacha", "apricot", "beautyberry", "bitternightshade", "blacknightshade", "blacknightshadeunripe", "blueraspberry", "bluetongue", "brambleberry", "bunchberry", "bushlawyer", "cashewapple", "cheeseberry", "cherryplum", "citron", "cloudberry", "cocoa", "coralbead", "creepingpine", "crowberry", "crowseye", "dogrose", "elderberry", "engkala", "falseorange", "falsestrawberry", "feijoa", "fig", "fingerlime", "flaxlily", "foxgrape", "fractureberry", "gardenstrawberry", "gooseberry", "guajava", "hawthorn", "honeypots", "honeysuckle", "huckleberry", "husktomato", "illawarra", "jujube", "juniper", "kakaha", "kawakawa", "knyazberry", "kumquat", "lemonaspen", "lillypillypink", "lingonberry", "loquat", "midyimberry", "mingimingi", "munthari", "naranjilla", "numnum", "pandanbits", "pilo", "pineheath", "pittedbeachalmond", "pittedchinaberry", "pokeberry", "pomelo", "pricklyheath", "purpleplum", "quince", "raspberry", "redgrape", "redquandong", "roseapple", "rowanberry", "rubysaltbush", "sallowthorn", "seamango", "silvernettle", "snowberry", "spindle", "strawberry", "sumac", "turkscap", "ugni", "virgingrape", "whitegrape", "wolfberry" ] },
+	"variantgroups": [
+		{ "code": "type", "states": ["starter", "ferment", "plain", "birch", "maple", "honey", "apple", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate"] }
 	],
-	shape: { base: "game:item/liquid" },
-	texture: { base: "game:item/liquid/yogurt/{type}" },
-	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:yogurt-{type}", makefull: true } ] } } ] } ],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	transitionablePropsByType: {
+	"shape": { "base": "game:item/liquid" },
+	"texture": { "base": "game:item/liquid/yogurt/{type}" },
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:yogurt-{type}", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 200,
+	"transitionablePropsByType": {
 		"*-ferment":[{
-    			type: "Perish",
-    			freshHours: { avg: 96 },
-    			transitionHours: { avg: 96 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-				transitionRatio: 0.005
+    			"type": "Perish",
+    			"freshHours": { "avg": 96 },
+    			"transitionHours": { "avg": 96 },
+    			"transitionedStack": { "type": "item", "code": "game:rot" },
+				"transitionRatio": 0.005
   		},
 		{
-    			type: "Cure",
-    			freshHours: { avg: 192 },
-    			transitionHours: { avg: 286 },
-    			transitionedStack: { type: "item", code: "yogurt-plain" },
-    			transitionRatio: 1
+    			"type": "Cure",
+    			"freshHours": { "avg": 192 },
+    			"transitionHours": { "avg": 286 },
+    			"transitionedStack": { "type": "item", "code": "yogurt-plain" },
+    			"transitionRatio": 1
   		}],
 		"*-starter":[{
-    			type: "Perish",
-    			freshHours: { avg: 96 },
-    			transitionHours: { avg: 96 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-				transitionRatio: 0.005
+    			"type": "Perish",
+    			"freshHours": { "avg": 96 },
+    			"transitionHours": { "avg": 96 },
+    			"transitionedStack": { "type": "item", "code": "game:rot" },
+				"transitionRatio": 0.005
   		}],
 		"*":[{
-    			type: "Perish",
-    			freshHours: { avg: 120 },
-    			transitionHours: { avg: 120 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-				transitionRatio: 0.005
+    			"type": "Perish",
+    			"freshHours": { "avg": 120 },
+    			"transitionHours": { "avg": 120 },
+    			"transitionedStack": { "type": "item", "code": "game:rot" },
+				"transitionRatio": 0.005
   		},
 		{
-    			type: "Cure",
-    			freshHours: { avg: 240 },
-    			transitionHours: { avg: 360 },
-    			transitionedStack: { type: "item", code: "yogurt-starter" },
-    			transitionRatio: 1
-  		}],
+    			"type": "Cure",
+    			"freshHours": { "avg": 240 },
+    			"transitionHours": { "avg": 360 },
+    			"transitionedStack": { "type": "item", "code": "yogurt-starter" },
+    			"transitionRatio": 1
+  		}]
 	},
-	nutritionProps: { saturation: 3, Health: 0.1, foodcategory: "Dairy" },
-	guiTransform: {
-		rotation: { x: 123, y: -33, z: -13 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 1.4
+	"nutritionProps": { "saturation": 3, "Health": 0.1, "foodcategory": "Dairy" },
+	"guiTransform": {
+		"rotation": { "x": 123, "y": -33, "z": -13 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
 	},
-	tpHandTransform: {
-		translation: { x: -1.5, y: -1, z: -1.4 }
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
 	}
 }

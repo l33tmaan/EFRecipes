@@ -1,34 +1,34 @@
 ﻿[
  {
-   file: "expandedfoods:itemtypes/food/acorns/acornbreadcrumbs.json",
-    op: "addmerge", 
-    path: "/enabled", 
-    value: "false",
+    "file": "expandedfoods:itemtypes/food/acorns/acornbreadcrumbs.json",
+    "op": "addmerge", 
+    "path": "/enabled", 
+    "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/grid/acorns/acornbreadcrumbs.json",
-    op: "addmerge", 
-    path: "/0/enabled", 
-    value: "false",
+    "op": "addmerge", 
+    "path": "/0/enabled", 
+    "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/grid/acorns/acornbreadcrumbs.json",
-    op: "addmerge", 
-    path: "/1/enabled", 
-    value: "false",
+    "op": "addmerge", 
+    "path": "/1/enabled", 
+    "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/grid/acorns/acornbreadcrumbs.json",
-    op: "addmerge", 
-    path: "/2/enabled", 
-    value: "false",
+    "op": "addmerge", 
+    "path": "/2/enabled", 
+    "value": "false",
     "side": "server",
-    dependsOn: [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
- },
+    "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+ }
 ]

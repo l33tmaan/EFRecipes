@@ -1,66 +1,65 @@
 ﻿[
 {
 	"enabled":  false,
-	ingredientPattern: "B",
-	ingredients: {
+	"ingredientPattern": "B",
+	"ingredients": {
 		"B": {
-			type: "item",
-			code: "game:bread-*-partbaked",
-			name: "type",
-			allowedVariants: [ "acornbirch", "acornpine", "acornmaple" ]
+			"type": "item",
+			"code": "game:bread-*-partbaked",
+			"name": "type",
+			"allowedVariants": [ "acornbirch", "acornpine", "acornmaple" ]
 		}
 	},
-	name: "acornbreadcrumbs",
-	width: 1,
-	height: 1,
-	shapeless: false,
-	output: {
-		type: "item",
-		code: "acornbreadcrumbs-{type}",
-		quantity: 4
+	"name": "acornbreadcrumbs",
+	"width": 1,
+	"height": 1,
+	"shapeless": false,
+	"output": {
+		"type": "item",
+		"code": "acornbreadcrumbs-{type}",
+		"quantity": 4
 	}
 },
 {
 	"enabled":  false,
-	ingredientPattern: "B",
-	ingredients: {
+	"ingredientPattern": "B",
+	"ingredients": {
 		"B": {
-			type: "item",
-			code: "game:bread-*-perfect",
-			name: "type",
-			allowedVariants: [ "acornbirch", "acornpine", "acornmaple" ]
+			"type": "item",
+			"code": "game:bread-*-perfect",
+			"name": "type",
+			"allowedVariants": [ "acornbirch", "acornpine", "acornmaple" ]
 		}
 	},
-	name: "acornbreadcrumbs",
-	width: 1,
-	height: 1,
-	shapeless: false,
-	output: {
-		type: "item",
-		code: "acornbreadcrumbs-{type}",
-		quantity: 4
+	"name": "acornbreadcrumbs",
+	"width": 1,
+	"height": 1,
+	"shapeless": false,
+	"output": {
+		"type": "item",
+		"code": "acornbreadcrumbs-{type}",
+		"quantity": 4
 	}
 },
 {
 	"enabled":  false,
-	ingredientPattern: "B",
-	ingredients: {
+	"ingredientPattern": "B",
+	"ingredients": {
 		"B": {
-			type: "item",
-			code: "game:bread-*-charred",
-			name: "type",
-			allowedVariants: [ "acornbirch", "acornpine", "acornmaple" ]
+			"type": "item",
+			"code": "game:bread-*-charred",
+			"name": "type",
+			"allowedVariants": [ "acornbirch", "acornpine", "acornmaple" ]
 		}
 	},
-	name: "acornbreadcrumbs",
-	width: 1,
-	height: 1,
-	shapeless: false,
-	output: {
-		type: "item",
-		code: "acornbreadcrumbs-{type}",
-		quantity: 4
+	"name": "acornbreadcrumbs",
+	"width": 1,
+	"height": 1,
+	"shapeless": false,
+	"output": {
+		"type": "item",
+		"code": "acornbreadcrumbs-{type}",
+		"quantity": 4
 	}
 }
-
 ]

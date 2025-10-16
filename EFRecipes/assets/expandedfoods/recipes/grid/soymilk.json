@@ -1,53 +1,53 @@
 [
  {
-	ingredientPattern: "S",
-	ingredients: {
-		"S": { type: "item", code: "expandedfoods:soyprep-soaked"  },
+	"ingredientPattern": "S",
+	"ingredients": {
+		"S": { "type": "item", "code": "expandedfoods:soyprep-soaked"  }
 	},
-	width: 1,
-	height: 1,
-	output: { type: "item", code: "expandedfoods:soyprep-shelled" }
+	"width": 1,
+	"height": 1,
+	"output": { "type": "item", "code": "expandedfoods:soyprep-shelled" }
  },
  {
-	ingredientPattern: "B,S",
-    recipeGroup: 1,
-	ingredients: {
+	"ingredientPattern": "B,S",
+    "recipeGroup": 1,
+	"ingredients": {
 		"B": { 
-			type: "block", 
-			code: "game:woodbucket"
+			"type": "block", 
+			"code": "game:woodbucket"
 		},
-		"S": { type: "item", code: "expandedfoods:soyprep-shelled"  },
-		},
-	attributes: {
-		liquidContainerProps: {
-			requiresContent: { type: "item", code: "game:waterportion" },
-			requiresLitres: 1
+		"S": { "type": "item", "code": "expandedfoods:soyprep-shelled"  }
+    },
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:waterportion" },
+			"requiresLitres": 1
 		}
 	},
-	width: 1,
-	height: 2,
-	shapeless: true,
-	output: { type: "item", code: "expandedfoods:soyprep-wetshell" }
+	"width": 1,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "item", "code": "expandedfoods:soyprep-wetshell" }
  },
  {
-	ingredientPattern: "B,S",
-    recipeGroup: 2,
-	ingredients: {
+	"ingredientPattern": "B,S",
+    "recipeGroup": 2,
+	"ingredients": {
 		"B": { 
-			type: "block", 
-			code: "aculinaryartillery:bottle-*-burned"
+			"type": "block", 
+			"code": "aculinaryartillery:bottle-*-burned"
 		},
-		"S": { type: "item", code: "expandedfoods:soyprep-shelled"  },
+		"S": { "type": "item", "code": "expandedfoods:soyprep-shelled"  }
 	},
-		attributes: {
-		liquidContainerProps: {
-			requiresContent: { type: "item", code: "game:waterportion" },
-			requiresLitres: 1
+		"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "game:waterportion" },
+			"requiresLitres": 1
 		}
 	},
-	width: 1,
-	height: 2,
-	shapeless: true,
-	output: { type: "item", code: "expandedfoods:soyprep-wetshell" }
+	"width": 1,
+	"height": 2,
+	"shapeless": true,
+	"output": { "type": "item", "code": "expandedfoods:soyprep-wetshell" }
  }
 ]

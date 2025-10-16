@@ -1,56 +1,30 @@
 ﻿[
 	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "item",
-				code: "expandedfoods:choppedmushroom-*",
-				quantity: 1,
-				"name": "mushroom",
-			}
+		"Ingredients": [
+			{ "type": "item", "code": "game:waterportion", "quantity": 50 },
+			{ "type": "item", "code": "expandedfoods:choppedmushroom-*", "quantity": 1, "name": "mushroom" }
 		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 100,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedchoppedmushroom-{mushroom}-perfect",
-				"quantity": 1
-			},
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 100,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:cookedchoppedmushroom-{mushroom}-perfect", "quantity": 1 },
+			"requiresContainer": false
 		}
 	},
 	{
-		Ingredients: [
-			{
-				type: "item",
-				code: "game:waterportion",
-				quantity: 50,
-			},
-			{
-				type: "item",
-				code: "expandedfoods:cookedchoppedmushroom-*-partbaked",
-				quantity: 1,
-				"name": "mushroom",
-			}
+		"Ingredients": [
+			{ "type": "item", "code": "game:waterportion", "quantity": 50 },
+			{ "type": "item", "code": "expandedfoods:cookedchoppedmushroom-*-partbaked", "quantity": 1, "name": "mushroom" }
 		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 100,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:cookedchoppedmushroom-{mushroom}-perfect",
-				"quantity": 1
-			},
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 100,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:cookedchoppedmushroom-{mushroom}-perfect", "quantity": 1 },
+			"requiresContainer": false
 		}
-	},
+	}
 ]

@@ -1,19 +1,18 @@
 {
-	ingredientPattern: "H,M",
-	ingredients: {
+	"ingredientPattern": "H,M",
+	"ingredients": {
 		"H": { 
-			type: "item", 
-			code: "acorns:mallet",
-			isTool: true
+			"type": "item", 
+			"code": "acorns:mallet",
+			"isTool": true
 		},
 		"M": { 
-			type: "item", 
-			code: "pasta-dough", 
-			name: "meat",
-		},
+			"type": "item", 
+			"code": "pasta-dough", 
+		}
 	},
-	width: 1,
-	height: 2,
-	name: "bushmeatsmash",
-	output: { type: "item", code: "pasta-flat"  }
+	"width": 1,
+	"height": 2,
+	"name": "bushmeatsmash",
+	"output": { "type": "item", "code": "pasta-flat"  }
 }

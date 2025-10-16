@@ -1,159 +1,159 @@
 {
-	code: "pasta",
-	maxstacksize: 32,
-  	class: "ExpandedFood",
-	variantgroups: [
-		{code: "type", states: ["dough", "flat", "cut", "cooked"]},
+	"code": "pasta",
+	"maxstacksize": 32,
+  	"class": "ExpandedFood",
+	"variantgroups": [
+		{"code": "type", "states": ["dough", "flat", "cut", "cooked"]}
 	],
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		handbook: { "groupBy": [ "pasta-*" ] },
-		inContainerTexture: { base: "item/food/pasta/ricepasta" },
-		nutritionPropsWhenInMealByType: {
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"handbook": { "groupBy": [ "pasta-*" ] },
+		"inContainerTexture": { "base": "item/food/pasta/ricepasta" },
+		"nutritionPropsWhenInMealByType": {
 			"*-cut": {
-				satiety: 240,
-				foodcategory: "Grain"
-			},
+				"satiety": 240,
+				"foodcategory": "Grain"
+			}
 		},
 		"onDisplayTransformByType": {
-			"@*-(flat|cut|cooked)": { translation: { x: 0, y: -0.25, z: 0 }, scale: 0.5 },
+			"@*-(flat|cut|cooked)": { "translation": { "x": 0, "y": -0.25, "z": 0 }, "scale": 0.5 }
 		},
 		"expandedNutritionPropsByType": {
 			"*-dough": {
-      			"game:flour-rice" : { saturation: 190, foodcategory: "Grain" },
-      			"game:flour-rye" : { saturation: 155, foodcategory: "Grain" },
-      			"game:flour-spelt" : { saturation: 155, foodcategory: "Grain" },
-      			"game:flour-cassava" : { saturation: 155, foodcategory: "Grain" },
-      			"game:flour-amaranth" : { saturation: 155, foodcategory: "Grain" },
-      			"game:flour-sunflower" : { saturation: 155, foodcategory: "Grain" },
-				"aculinaryartillery:eggyolkportion-chicken": { saturation: 17, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkportion-pheasant": { saturation: 25, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkportion-goldenpheasant": { saturation: 25, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkportion-capercaillie": { saturation: 25, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkportion-wildturkey": { saturation: 25, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkfullportion-chicken": { saturation: 20, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkfullportion-pheasant": { saturation: 28, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkfullportion-goldenpheasant": { saturation: 28, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkfullportion-capercaillie": { saturation: 28, foodcategory: "Protein"},
-				"aculinaryartillery:eggyolkfullportion-wildturkey": { saturation: 28, foodcategory: "Protein"},
-			},
+      			"game:flour-rice" : { "saturation": 190, "foodcategory": "Grain" },
+      			"game:flour-rye" : { "saturation": 155, "foodcategory": "Grain" },
+      			"game:flour-spelt" : { "saturation": 155, "foodcategory": "Grain" },
+      			"game:flour-cassava" : { "saturation": 155, "foodcategory": "Grain" },
+      			"game:flour-amaranth" : { "saturation": 155, "foodcategory": "Grain" },
+      			"game:flour-sunflower" : { "saturation": 155, "foodcategory": "Grain" },
+				"aculinaryartillery:eggyolkportion-chicken": { "saturation": 17, "foodcategory": "Protein"},
+				"aculinaryartillery:eggyolkportion-pheasant": { "saturation": 25, "foodcategory": "Protein"},
+				"aculinaryartillery:eggyolkportion-goldenpheasant": { "saturation": 25, "foodcategory": "Protein"},
+				"aculinaryartillery:eggyolkportion-capercaillie": { "saturation": 25, "foodcategory": "Protein"},
+				"aculinaryartillery:eggyolkportion-wildturkey": { "saturation": 25, "foodcategory": "Protein"},
+				"aculinaryartillery:eggyolkfullportion-chicken": { "saturation": 20, "foodcategory": "Protein"},
+				"aculinaryartillery:eggyolkfullportion-pheasant": { "saturation": 28, "foodcategory": "Protein"},
+				"aculinaryartillery:eggyolkfullportion-goldenpheasant": { "saturation": 28, "foodcategory": "Protein"},
+				"aculinaryartillery:eggyolkfullportion-capercaillie": { "saturation": 28, "foodcategory": "Protein"},
+				"aculinaryartillery:eggyolkfullportion-wildturkey": { "saturation": 28, "foodcategory": "Protein"}
+			}
 		},
-    	renderIngredientsByType: {
+    	"renderIngredientsByType": {
 			"*-dough": {
-				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastaball.json", "name": "flour", "textureMap": { "pastaraw": "{flour}raw" } },
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastaball.json", "name": "flour", "textureMap": { "pastaraw": "{flour}raw" } }
 			},
 			"*-flat": {
-				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pasta.json", "name": "flour", "textureMap": { "pastaraw": "{flour}raw" } },
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pasta.json", "name": "flour", "textureMap": { "pastaraw": "{flour}raw" } }
 			},
 			"*-cut": {
-				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacut.json", "name": "flour", "textureMap": { "pastaraw": "{flour}raw" } },
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacut.json", "name": "flour", "textureMap": { "pastaraw": "{flour}raw" } }
 			},
 			"*-cooked": {
-				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacooked.json", "name": "flour", "textureMap": { "pastacooked": "{flour}pasta" } },
-			},
-		},
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacooked.json", "name": "flour", "textureMap": { "pastacooked": "{flour}pasta" } }
+			}
+		}
 	},
-  	textures: {
-    	"flaxraw": {base: "item/food/dumpling/flaxraw" },
-    	"riceraw": {base: "item/food/dumpling/riceraw" },
-    	"speltraw": {base: "item/food/dumpling/speltraw" },
-    	"ryeraw": {base: "item/food/dumpling/ryeraw" },
-    	"cassavaraw": {base: "item/food/dumpling/cassavaraw" },
-    	"amaranthraw": {base: "item/food/dumpling/amaranthraw" },
-    	"sunflowerraw": {base: "item/food/dumpling/sunflowerraw" },
-    	"birchraw": {base: "item/food/dumpling/birchraw" },
-    	"pineraw": {base: "item/food/dumpling/pineraw" },
-    	"mapleraw": {base: "item/food/dumpling/mapleraw" },
-    	"flaxpasta": {base: "item/food/pasta/flaxpasta" },
-    	"ricepasta": {base: "item/food/pasta/ricepasta" },
-    	"speltpasta": {base: "item/food/pasta/speltpasta" },
-    	"ryepasta": {base: "item/food/pasta/ryepasta" },
-    	"cassavapasta": {base: "item/food/pasta/cassavapasta" },
-    	"amaranthpasta": {base: "item/food/pasta/amaranthpasta" },
-    	"sunflowerpasta": {base: "item/food/pasta/sunflowerpasta" },
-    	"birchpasta": {base: "item/food/pasta/birchpasta" },
-    	"pinepasta": {base: "item/food/pasta/pinepasta" },
-    	"maplepasta": {base: "item/food/pasta/maplepasta" },
-    	"pastaraw": {base: "item/food/dumpling/riceraw" },
-    	"pastacooked": {base: "item/food/pasta/ricepasta" },
+  	"textures": {
+    	"flaxraw": {"base": "item/food/dumpling/flaxraw" },
+    	"riceraw": {"base": "item/food/dumpling/riceraw" },
+    	"speltraw": {"base": "item/food/dumpling/speltraw" },
+    	"ryeraw": {"base": "item/food/dumpling/ryeraw" },
+    	"cassavaraw": {"base": "item/food/dumpling/cassavaraw" },
+    	"amaranthraw": {"base": "item/food/dumpling/amaranthraw" },
+    	"sunflowerraw": {"base": "item/food/dumpling/sunflowerraw" },
+    	"birchraw": {"base": "item/food/dumpling/birchraw" },
+    	"pineraw": {"base": "item/food/dumpling/pineraw" },
+    	"mapleraw": {"base": "item/food/dumpling/mapleraw" },
+    	"flaxpasta": {"base": "item/food/pasta/flaxpasta" },
+    	"ricepasta": {"base": "item/food/pasta/ricepasta" },
+    	"speltpasta": {"base": "item/food/pasta/speltpasta" },
+    	"ryepasta": {"base": "item/food/pasta/ryepasta" },
+    	"cassavapasta": {"base": "item/food/pasta/cassavapasta" },
+    	"amaranthpasta": {"base": "item/food/pasta/amaranthpasta" },
+    	"sunflowerpasta": {"base": "item/food/pasta/sunflowerpasta" },
+    	"birchpasta": {"base": "item/food/pasta/birchpasta" },
+    	"pinepasta": {"base": "item/food/pasta/pinepasta" },
+    	"maplepasta": {"base": "item/food/pasta/maplepasta" },
+    	"pastaraw": {"base": "item/food/dumpling/riceraw" },
+    	"pastacooked": {"base": "item/food/pasta/ricepasta" }
   	},
-	shapeByType: {
-		"*-dough": { base: "expandedfoods:item/food/bread/pasta/pastaball" },
-		"*-flat": { base: "expandedfoods:item/food/bread/pasta/pasta" },
-		"*-cut": { base: "expandedfoods:item/food/bread/pasta/pastacut" },
-		"*-cooked": { base: "expandedfoods:item/food/bread/pasta/pastacooked" },
+	"shapeByType": {
+		"*-dough": { "base": "expandedfoods:item/food/bread/pasta/pastaball" },
+		"*-flat": { "base": "expandedfoods:item/food/bread/pasta/pasta" },
+		"*-cut": { "base": "expandedfoods:item/food/bread/pasta/pastacut" },
+		"*-cooked": { "base": "expandedfoods:item/food/bread/pasta/pastacooked" }
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	materialDensity: 200,
-	nutritionPropsByType: {
-		"*-cooked": { satiety: 180, foodcategory: "Grain" },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"materialDensity": 200,
+	"nutritionPropsByType": {
+		"*-cooked": { "satiety": 180, "foodcategory": "Grain" }
 	},
-	guiTransformByType: {
+	"guiTransformByType": {
 		"*-dough": {
-			translation: { x: 2.5, y: -2.5, z: 0 },
-			rotation: { x: 180, y: -115, z: 26 },
-			origin: { x: 0.57, y: 0.07, z: 0.5 },
-			scale: 4.5
+			"translation": { "x": 2.5, "y": -2.5, "z": 0 },
+			"rotation": { "x": 180, "y": -115, "z": 26 },
+			"origin": { "x": 0.57, "y": 0.07, "z": 0.5 },
+			"scale": 4.5
 		},
 		"*-flat": {
-			translation: { x: 1.55, y: -4.5, z: 0 },
-			rotation: { x: 180, y: -131, z: 50 },
-			origin: { x: 0.57, y: 0.07, z: 0.5 },
-			scale: 2
+			"translation": { "x": 1.55, "y": -4.5, "z": 0 },
+			"rotation": { "x": 180, "y": -131, "z": 50 },
+			"origin": { "x": 0.57, "y": 0.07, "z": 0.5 },
+			"scale": 2
 		},
 		"*-cut": {
-			translation: { x: -1.5, y: -2.5, z: 0 },
-			rotation: { x: 158, y: 158, z: -10 },
-			origin: { x: 0.57, y: 0.07, z: 0.5 },
-			scale: 3
+			"translation": { "x": -1.5, "y": -2.5, "z": 0 },
+			"rotation": { "x": 158, "y": 158, "z": -10 },
+			"origin": { "x": 0.57, "y": 0.07, "z": 0.5 },
+			"scale": 3
 		},
 		"*-cooked": {
-			translation: { x: 1.5, y: -4.5, z: 0 },
-			rotation: { x: 180, y: -100, z: 60 },
-			origin: { x: 0.57, y: 0.07, z: 0.5 },
-			scale: 1.75
-		},
+			"translation": { "x": 1.5, "y": -4.5, "z": 0 },
+			"rotation": { "x": 180, "y": -100, "z": 60 },
+			"origin": { "x": 0.57, "y": 0.07, "z": 0.5 },
+			"scale": 1.75
+		}
 	},
-	groundTransformByType: {
+	"groundTransformByType": {
 		"*-dough": {
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0.0, z: 0.5 },
-			scale: 3
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+			"scale": 3
 		},
 		"*": {
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0.0, z: 0.5 },
-			scale: 2.5
-		},
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+			"scale": 2.5
+		}
 	},
-	tpHandTransformByType: {
+	"tpHandTransformByType": {
 		"*-cut": {
-			translation: { x: -0.2, y: -0.1, z: -0.45 },
-			rotation: { x: -10, y: 80, z: -11 },
-			origin: { x: 0.23, y: 0, z: 0.13 },
-			scale: 0.5
+			"translation": { "x": -0.2, "y": -0.1, "z": -0.45 },
+			"rotation": { "x": -10, "y": 80, "z": -11 },
+			"origin": { "x": 0.23, "y": 0, "z": 0.13 },
+			"scale": 0.5
 		},
 		"*-dough": {
-			translation: { x: -0.1, y: -0.15, z: -0.35 },
-			rotation: { x: -10, y: 75, z: -11 },
-			origin: { x: 0.23, y: 0, z: 0.13 },
-			scale: 0.7
+			"translation": { "x": -0.1, "y": -0.15, "z": -0.35 },
+			"rotation": { "x": -10, "y": 75, "z": -11 },
+			"origin": { "x": 0.23, "y": 0, "z": 0.13 },
+			"scale": 0.7
 		},
 		"*": {
-			translation: { x: -0.3, y: 0.1, z: 0.05 },
-			rotation: { x: -28, y: -2, z: 0 },
-			origin: { x: 0.23, y: 0, z: 0.13 },
-			scale: 0.35
-		},
+			"translation": { "x": -0.3, "y": 0.1, "z": 0.05 },
+			"rotation": { "x": -28, "y": -2, "z": 0 },
+			"origin": { "x": 0.23, "y": 0, "z": 0.13 },
+			"scale": 0.35
+		}
 	},
-	transitionablePropsByType: {
+	"transitionablePropsByType": {
 		"*": [{
-			type: "Perish",
-			freshHours: { avg: 72 },
-			transitionHours: { avg: 36 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
+			"type": "Perish",
+			"freshHours": { "avg": 72 },
+			"transitionHours": { "avg": 36 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
 	}
 }

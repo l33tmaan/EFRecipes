@@ -9,14 +9,8 @@
     "op": "addmerge",
     "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
-      "*-raw": {
-        "satiety": 180,
-        "foodcategory": "Protein"
-      },
-      "*-cured": {
-        "satiety": 135,
-        "foodcategory": "Protein"
-      }
+      "*-raw": { "satiety": 180, "foodcategory": "Protein" },
+      "*-cured": { "satiety": 135, "foodcategory": "Protein" }
     },
     "side": "server",
     "file": "itemtypes/food/bushmeat.json"
@@ -32,21 +26,9 @@
     "op": "addmerge",
     "path": "/attributes/meatHookTransform",
     "value": {
-      "translation": {
-        "x": 0,
-        "y": -0.8,
-        "z": -0.02
-      },
-      "rotation": {
-        "x": 0,
-        "y": -90,
-        "z": 90
-      },
-      "origin": {
-        "x": 0.5,
-        "y": 0,
-        "z": 0.5
-      },
+      "translation": { "x": 0, "y": -0.8, "z": -0.02 },
+      "rotation": { "x": 0, "y": -90, "z": 90 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
       "scale": 1
     },
     "side": "server",
@@ -57,16 +39,9 @@
     "path": "/transitionablePropsByType/*-raw/1",
     "value": {
       "type": "Dry",
-      "freshHours": {
-        "avg": 480
-      },
-      "transitionHours": {
-        "avg": 20
-      },
-      "transitionedStack": {
-        "type": "item",
-        "code": "expandedfoods:agedmeat-bushmeat-normal"
-      },
+      "freshHours": { "avg": 480 },
+      "transitionHours": { "avg": 20 },
+      "transitionedStack": { "type": "item", "code": "expandedfoods:agedmeat-bushmeat-normal" },
       "transitionRatio": 1
     },
     "side": "server",
@@ -118,11 +93,7 @@
     "op": "addmerge",
     "path": "/attributes/onDisplayTransform",
     "value": {
-      "translation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
+      "translation": { "x": 0, "y": 0, "z": 0 },
       "scale": 1
     },
     "side": "server",
@@ -139,12 +110,12 @@
     "op": "addmerge",
     "path": "/combustiblePropsByType/@*-(partbaked|cooked)",
     "value": {
-		meltingPoint: 150,
-		meltingDuration: 30,
-		smeltedRatio: 1,
-		smeltingType: "cook",
-		smeltedStack: { type: "item", code: "bushmeat-charred" },
-		requiresContainer: false
+		"meltingPoint": 150,
+		"meltingDuration": 30,
+		"smeltedRatio": 1,
+		"smeltingType": "cook",
+		"smeltedStack": { "type": "item", "code": "bushmeat-charred" },
+		"requiresContainer": false
 	},
     "side": "server",
     "file": "itemtypes/food/bushmeat.json"
@@ -152,20 +123,14 @@
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-charred",
-    "value": {
-      "satiety": 110,
-      "foodcategory": "Protein"
-    },
+    "value": { "satiety": 110, "foodcategory": "Protein" },
     "side": "server",
     "file": "itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-partbaked",
-    "value": {
-      "satiety": 115,
-      "foodcategory": "Protein"
-    },
+    "value": { "satiety": 115, "foodcategory": "Protein" },
     "side": "server",
     "file": "itemtypes/food/bushmeat.json"
   },
@@ -175,16 +140,9 @@
     "value": [
       {
         "type": "Perish",
-        "freshHours": {
-          "avg": 420
-        },
-        "transitionHours": {
-          "avg": 60
-        },
-        "transitionedStack": {
-          "type": "item",
-          "code": "rot"
-        },
+        "freshHours": { "avg": 420 },
+        "transitionHours": { "avg": 60 },
+        "transitionedStack": { "type": "item", "code": "rot" },
         "transitionRatio": 1
       }
     ],
@@ -197,16 +155,9 @@
     "value": [
       {
         "type": "Perish",
-        "freshHours": {
-          "avg": 120
-        },
-        "transitionHours": {
-          "avg": 36
-        },
-        "transitionedStack": {
-          "type": "item",
-          "code": "rot"
-        },
+        "freshHours": { "avg": 120 },
+        "transitionHours": { "avg": 36 },
+        "transitionedStack": { "type": "item", "code": "rot" },
         "transitionRatio": 1
       }
     ],
@@ -238,14 +189,8 @@
     "op": "addmerge",
     "path": "/attributes/inPiePropertiesByType",
     "value": {
-      "*-raw": {
-        "texture": "game:block/food/pie/fill-bushmeat",
-        "partType": "Filling"
-      },
-      "*-cured": {
-        "texture": "game:block/food/pie/fill-bushmeat",
-        "partType": "Filling"
-      }
+      "*-raw": { "texture": "game:block/food/pie/fill-bushmeat", "partType": "Filling" },
+      "*-cured": { "texture": "game:block/food/pie/fill-bushmeat", "partType": "Filling" }
     },
     "side": "server",
     "file": "itemtypes/food/bushmeat.json"

@@ -4,10 +4,7 @@
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "peanutskins",
-      "content": {
-        "type": "item",
-        "code": "expandedfoods:peanut-skins"
-      },
+      "content": { "type": "item", "code": "expandedfoods:peanut-skins" },
       "quantityPerFillLevel": 1,
       "maxFillLevels": 8,
       "shapesPerFillLevel": [
@@ -30,10 +27,7 @@
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "eggshell",
-      "content": {
-        "type": "item",
-        "code": "aculinaryartillery:eggshell"
-      },
+      "content": { "type": "item", "code": "aculinaryartillery:eggshell" },
       "quantityPerFillLevel": 1,
       "maxFillLevels": 8,
       "shapesPerFillLevel": [
@@ -48,24 +42,20 @@
       ],
       "textureCode": "contents-egg"
     },
-    side: "server",
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-peanut",
-    "value": {
-      "base": "block/wood/trough/small/peanut"
-    },
+    "value": { "base": "block/wood/trough/small/peanut" },
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-egg",
-    "value": {
-      "base": "block/wood/trough/small/egg"
-    },
-    side: "server",
+    "value": { "base": "block/wood/trough/small/egg" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
@@ -73,10 +63,7 @@
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "breadcrumbs",
-      "content": {
-        "type": "item",
-        "code": "expandedfoods:breadcrumbs-*"
-      },
+      "content": { "type": "item", "code": "expandedfoods:breadcrumbs-*" },
       "quantityPerFillLevel": 1,
       "maxFillLevels": 8,
       "shapesPerFillLevel": [
@@ -91,109 +78,84 @@
       ],
       "textureCode": "*"
     },
-    side: "server",
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-spelt",
-    "value": {
-      "base": "block/wood/trough/small/spelt"
-    },
+    "value": { "base": "block/wood/trough/small/spelt" },
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-rye",
-    "value": {
-      "base": "block/wood/trough/small/rye"
-    },
+    "value": { "base": "block/wood/trough/small/rye" },
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-flax",
-    "value": {
-      "base": "block/wood/trough/small/flax"
-    },
+    "value": { "base": "block/wood/trough/small/flax" },
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-rice",
-    "value": {
-      "base": "block/wood/trough/small/rice"
-    },
+    "value": { "base": "block/wood/trough/small/rice" },
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-cassava",
-    "value": {
-      "base": "block/wood/trough/small/cassava"
-    },
+    "value": { "base": "block/wood/trough/small/cassava" },
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-amaranth",
-    "value": {
-      "base": "block/wood/trough/small/amaranth"
-    },
+    "value": { "base": "block/wood/trough/small/amaranth" },
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-sunflower",
-    "value": {
-      "base": "block/wood/trough/small/sunflower"
-    },
+    "value": { "base": "block/wood/trough/small/sunflower" },
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-acorn",
-    "value": {
-      "base": "block/wood/trough/small/acorn"
-    },
-    "file": "blocktypes/wood/trough-small.json",
+    "value": { "base": "block/wood/trough/small/acorn" },
+    "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-birch",
-    "value": {
-      "base": "block/wood/trough/small/birch"
-    },
+    "value": { "base": "block/wood/trough/small/birch" },
     "file": "blocktypes/wood/trough-small.json",
-    dependsOn: [{ "modid": "ancienttools"}]
+    "dependsOn": [{ "modid": "ancienttools"}]
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-pine",
-    "value": {
-      "base": "block/wood/trough/small/pine"
-    },
+    "value": { "base": "block/wood/trough/small/pine" },
     "file": "blocktypes/wood/trough-small.json",
-    dependsOn: [{ "modid": "ancienttools"}]
+    "dependsOn": [{ "modid": "ancienttools"}]
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-maple",
-    "value": {
-      "base": "block/wood/trough/small/maple"
-    },
+    "value": { "base": "block/wood/trough/small/maple" },
     "file": "blocktypes/wood/trough-small.json",
-    dependsOn: [{ "modid": "ancienttools"}]
+    "dependsOn": [{ "modid": "ancienttools"}]
   },
   {
     "op": "addmerge",
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "breadcrumbs-feed",
-      "content": {
-        "type": "item",
-        "code": "expandedfoods:breadcrumbfeed"
-      },
+      "content": { "type": "item", "code": "expandedfoods:breadcrumbfeed" },
       "quantityPerFillLevel": 1,
       "maxFillLevels": 8,
       "shapesPerFillLevel": [
@@ -208,15 +170,13 @@
       ],
       "textureCode": "contents-expandedfoods:breadcrumbs-spelt"
     },
-    side: "server",
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-breadcrumbfeed",
-    "value": {
-      "base": "block/wood/trough/small/spelt"
-    },
+    "value": { "base": "block/wood/trough/small/spelt" },
     "file": "blocktypes/wood/trough-small.json"
   },
   {
@@ -224,10 +184,7 @@
     "path": "/attributes/contentConfig/-",
     "value": {
       "code": "acornbreadcrumbs",
-      "content": {
-        "type": "item",
-        "code": "expandedfoods:acornbreadcrumbs-*"
-      },
+      "content": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-*" },
       "quantityPerFillLevel": 1,
       "maxFillLevels": 8,
       "shapesPerFillLevel": [
@@ -242,62 +199,8 @@
       ],
       "textureCode": "contents-expandedfoods:breadcrumbs-acorn"
     },
-    side: "server",
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json",
-    dependsOn: [{ "modid": "acorns"}]
-  },
-  {
-    "op": "addmerge",
-    "path": "/attributes/contentConfig/-",
-    "value": {
-      "code": "herbalbreadcrumbs",
-      "content": {
-        "type": "item",
-        "code": "expandedfoods:herbalbreadcrumbs"
-      },
-      "quantityPerFillLevel": 1,
-      "maxFillLevels": 8,
-      "shapesPerFillLevel": [
-        "block/wood/trough/small/eggfill1",
-        "block/wood/trough/small/eggfill1",
-        "block/wood/trough/small/eggfill2",
-        "block/wood/trough/small/eggfill2",
-        "block/wood/trough/small/eggfill3",
-        "block/wood/trough/small/eggfill3",
-        "block/wood/trough/small/eggfill4",
-        "block/wood/trough/small/eggfill4"
-      ],
-      "textureCode": "contents-expandedfoods:breadcrumbs-spelt"
-    },
-    side: "server",
-    "file": "blocktypes/wood/trough-small.json",
-    dependsOn: [{ "modid": "wildcraftherb"}]
-  },
-  {
-    "op": "addmerge",
-    "path": "/attributes/contentConfig/-",
-    "value": {
-      "code": "herbalacornbreadcrumbs",
-      "content": {
-        "type": "item",
-        "code": "expandedfoods:herbalacornbreadcrumbs"
-      },
-      "quantityPerFillLevel": 1,
-      "maxFillLevels": 8,
-      "shapesPerFillLevel": [
-        "block/wood/trough/small/eggfill1",
-        "block/wood/trough/small/eggfill1",
-        "block/wood/trough/small/eggfill2",
-        "block/wood/trough/small/eggfill2",
-        "block/wood/trough/small/eggfill3",
-        "block/wood/trough/small/eggfill3",
-        "block/wood/trough/small/eggfill4",
-        "block/wood/trough/small/eggfill4"
-      ],
-      "textureCode": "contents-expandedfoods:breadcrumbs-acorn"
-    },
-    side: "server",
-    "file": "blocktypes/wood/trough-small.json",
-    dependsOn: [{ "modid": "wildcraftherb"}, { "modid": "acorns"}]
-  },
+    "dependsOn": [{ "modid": "acorns"}]
+  }
 ]

@@ -7,10 +7,7 @@
       "meltingDuration": 5,
       "smeltedRatio": 4,
       "smeltingType": "cook",
-      "smeltedStack": {
-        "type": "item",
-        "code": "expandedfoods:fruitsyrupportion-{fruit}"
-      },
+      "smeltedStack": { "type": "item", "code": "expandedfoods:fruitsyrupportion-{fruit}" },
       "requiresContainer": true
     },
     "side": "server",
@@ -22,30 +19,16 @@
     "value": [
       {
         "type": "Perish",
-        "freshHours": {
-          "avg": 168
-        },
-        "transitionHours": {
-          "avg": 72
-        },
-        "transitionedStack": {
-          "type": "item",
-          "code": "game:vinegarportion"
-        },
+        "freshHours": { "avg": 168 },
+        "transitionHours": { "avg": 72 },
+        "transitionedStack": { "type": "item", "code": "game:vinegarportion" },
         "transitionRatio": 1
       },
       {
         "type": "Cure",
-        "freshHours": {
-          "avg": 168
-        },
-        "transitionHours": {
-          "avg": 336
-        },
-        "transitionedStack": {
-          "type": "item",
-          "code": "ciderportion-{fruit}"
-        },
+        "freshHours": { "avg": 168 },
+        "transitionHours": { "avg": 336 },
+        "transitionedStack": { "type": "item", "code": "ciderportion-{fruit}" },
         "transitionRatio": 1
       }
     ],

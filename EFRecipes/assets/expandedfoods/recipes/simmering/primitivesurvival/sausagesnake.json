@@ -1,110 +1,58 @@
 ﻿[
 	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagesnake-*-raw",
-				quantity: 1,
-				"name": "type"
-			}
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 50 },
+			{ "type": "item", "code": "expandedfoods:sausagesnake-*-raw", "quantity": 1, "name": "type" }
 		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagesnake-{type}-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 110,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:sausagesnake-{type}-cooked", "quantity":  1 },
+			"requiresContainer": false
 		}
 	},
 	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagesnake-*-partbaked",
-				quantity: 1,
-				"name": "type"
-			}
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 50 },
+			{ "type": "item", "code": "expandedfoods:sausagesnake-*-partbaked", "quantity": 1, "name": "type" }
 		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagesnake-{type}-cooked",
-				"quantity":  1
-			},
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 110,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:sausagesnake-{type}-cooked", "quantity":  1 },
+			"requiresContainer": false
 		}
 	},
 	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagesnake-*-dried",
-				quantity: 1,
-				"name": "type"
-			}
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 50 },
+			{ "type": "item", "code": "expandedfoods:sausagesnake-*-dried", "quantity": 1, "name": "type" }
 		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagesnake-{type}-driedcooked",
-				"quantity":  1
-			},
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 110,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:sausagesnake-{type}-driedcooked", "quantity":  1 },
+			"requiresContainer": false
 		}
 	},
 	{
-		Ingredients: [
-			{
-			type: "item",
-				code: "waterportion",
-				quantity: 50
-			},
-			{
-				type: "item",
-				code: "expandedfoods:sausagesnake-*-driedpartbaked",
-				quantity: 1,
-				"name": "type"
-			}
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 50 },
+			{ "type": "item", "code": "expandedfoods:sausagesnake-*-driedpartbaked", "quantity": 1, "name": "type" }
 		],
-		Simmering: {
-			meltingPoint: 200,
-			meltingDuration: 110,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: {
-				type: "item",
-				code: "expandedfoods:sausagesnake-{type}-driedcooked",
-				"quantity":  1
-			},
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 110,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:sausagesnake-{type}-driedcooked", "quantity":  1 },
+			"requiresContainer": false
 		}
-	},
+	}
 ]

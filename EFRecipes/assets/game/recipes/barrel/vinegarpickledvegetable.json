@@ -1,20 +1,20 @@
 [
 	{
-		code: "pickledvegetable",
-		sealHours: 336,
-		ingredients: [
-			{ type: "item", code: "vinegarportion",  litres: 1.5, consumelitres: 1.5 },
-			{ type: "item", code: "vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "bellpepper", "olive" ] }
+		"code": "pickledvegetable",
+		"sealHours": 336,
+		"ingredients": [
+			{ "type": "item", "code": "vinegarportion",  "litres": 1.5, "consumelitres": 1.5 },
+			{ "type": "item", "code": "vegetable-*", "name": "vegetable", "quantity": 1, "allowedVariants": ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "bellpepper", "olive" ] }
 		],
-		output: { type: "item", code: "pickledvegetable-{vegetable}", stackSize: 1 }
+		"output": { "type": "item", "code": "pickledvegetable-{vegetable}", "stackSize": 1 }
 	},
 	{
-		code: "pickledvegetable",
-		sealHours: 336,
-		ingredients: [
-			{ type: "item", code: "vinegarportion",  litres: 1.5, consumelitres: 1.5 },
-			{ type: "item", code: "legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean"] }
+		"code": "pickledvegetable",
+		"sealHours": 336,
+		"ingredients": [
+			{ "type": "item", "code": "vinegarportion",  "litres": 1.5, "consumelitres": 1.5 },
+			{ "type": "item", "code": "legume-*", "name": "legume", "quantity": 1, "allowedVariants": ["soybean"] }
 		],
-		output: { type: "item", code: "pickledlegume-{legume}", stackSize: 1 }
+		"output": { "type": "item", "code": "pickledlegume-{legume}", "stackSize": 1 }
 	}
 ]

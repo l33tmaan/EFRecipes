@@ -18,102 +18,46 @@
     "path": "/attributes/onDisplayTransformByType",
     "value": {
       "*-breadfruit": {
-        "translation": {
-          "x": 0.0,
-          "y": -0.1,
-          "z": -0.05
-        },
-        "rotation": {
-          "x": 0,
-          "y": 45,
-          "z": 0
-        },
+        "translation": { "x": 0.0, "y": -0.1, "z": -0.05 },
+        "rotation": { "x": 0, "y": 45, "z": 0 },
         "scale": 0.8
       },
       "*-saguaro": {
-        "translation": {
-          "x": 0.4,
-          "y": -0.25,
-          "z": -0.4
-        },
-        "rotation": {
-          "x": 0,
-          "y": 45,
-          "z": 90
-        },
+        "translation": { "x": 0.4, "y": -0.25, "z": -0.4 },
+        "rotation": { "x": 0, "y": 45, "z": 90 },
         "scale": 0.75
       },
       "*-pomegranate": {
-        "translation": {
-          "x": 0.0,
-          "y": -0.15,
-          "z": 0.05
-        },
-        "rotation": {
-          "x": 0,
-          "y": -45,
-          "z": 0
-        },
+        "translation": { "x": 0.0, "y": -0.15, "z": 0.05 },
+        "rotation": { "x": 0, "y": -45, "z": 0 },
         "scale": 0.7
       },
       "*-lychee": {
-        "translation": {
-          "x": 0.0,
-          "y": -0.205,
-          "z": 0.0
-        },
+        "translation": { "x": 0.0, "y": -0.205, "z": 0.0 },
         "scale": 0.6
       },
       "*-mango": {
-        "rotation": {
-          "x": 0,
-          "y": 45,
-          "z": 0
-        },
-        "translation": {
-          "x": 0.0,
-          "y": -0.11,
-          "z": 0.0
-        },
+        "rotation": { "x": 0, "y": 45, "z": 0 },
+        "translation": { "x": 0.0, "y": -0.11, "z": 0.0 },
         "scale": 0.8
       },
       "*-pineapple": {
-        "translation": {
-          "x": 0.0,
-          "y": -0.15,
-          "z": 0.1
-        },
+        "translation": { "x": 0.0, "y": -0.15, "z": 0.1 },
         "scale": 0.7
       },
       "@*-(redcurrant|whitecurrant|blackcurrant)": {
-        "translation": {
-          "x": 0.0,
-          "y": -0.12,
-          "z": 0.05
-        },
+        "translation": { "x": 0.0, "y": -0.12, "z": 0.05 },
         "scale": 0.8
       },
       "*-blueberry": {
-        "origin": {
-          "x": 0.5,
-          "y": 0.05,
-          "z": 0.5
-        },
-        "rotation": {
-          "x": 0,
-          "y": 0,
-          "z": 90
-        },
+        "origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+        "rotation": { "x": 0, "y": 0, "z": 90 },
         "scale": 0.8
       },
       "*": {
-        "translation": {
-          "x": 0.0,
-          "y": -0.1,
-          "z": 0.05
-        },
+        "translation": { "x": 0.0, "y": -0.1, "z": 0.05 },
         "scale": 0.8
-      },
+      }
     },
     "side": "server",
     "file": "itemtypes/food/fruit.json"
@@ -122,12 +66,8 @@
     "op": "addmerge",
     "path": "/attributes/inContainerTextureByType",
     "value": {
-      "@*-(redapple|pinkapple|yellowapple)": {
-        "base": "game:block/barrel/apple"
-      },
-      "*": {
-        "base": "game:block/barrel/{fruit}"
-      }
+      "@*-(redapple|pinkapple|yellowapple)": { "base": "game:block/barrel/apple" },
+      "*": { "base": "game:block/barrel/{fruit}" }
     },
     "side": "server",
     "file": "itemtypes/food/fruit.json"

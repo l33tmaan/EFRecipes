@@ -1,31 +1,31 @@
 [
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:sushiveg-*-nooil", name: "type" }]},
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "expandedfoods:sushiveg-*-nooil", "name": "type" }]}
 	],
-	output: { type: "item", code: "expandedfoods:sushiveg-{type}-peanut", stackSize: 1}
+	"output": { "type": "item", "code": "expandedfoods:sushiveg-{type}-peanut", "stackSize": 1}
  },
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:sushiveg-*-nooil", name: "type" }]},
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "expandedfoods:sushiveg-*-nooil", "name": "type" }]}
 	],
-	output: { type: "item", code: "expandedfoods:sushiveg-{type}-honey", stackSize: 1}
+	"output": { "type": "item", "code": "expandedfoods:sushiveg-{type}-honey", "stackSize": 1}
  },
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:soysauce",  quantity: 10 }, { type: "item", code: "expandedfoods:fishsauce",  quantity: 10 },]},
-		{inputs: [{ type: "item", code: "expandedfoods:sushiveg-*-nooil", name: "type" }]},
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:soysauce",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fishsauce",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "expandedfoods:sushiveg-*-nooil", "name": "type" }]}
 	],
-	output: { type: "item", code: "expandedfoods:sushiveg-{type}-oil", stackSize: 1}
+	"output": { "type": "item", "code": "expandedfoods:sushiveg-{type}-oil", "stackSize": 1}
  },
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:sushiveg-*-nooil", name: "type" }]},
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "expandedfoods:sushiveg-*-nooil", "name": "type" }]}
 	],
-	output: { type: "item", code: "expandedfoods:sushiveg-{type}-peanut", stackSize: 1}
- },
+	"output": { "type": "item", "code": "expandedfoods:sushiveg-{type}-peanut", "stackSize": 1}
+ }
 ]
 

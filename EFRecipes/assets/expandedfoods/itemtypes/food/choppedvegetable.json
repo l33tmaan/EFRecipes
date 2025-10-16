@@ -1,402 +1,402 @@
 {
-	code: "choppedvegetable",
-	maxstacksize: 64,
-	attributesByType: {
+	"code": "choppedvegetable",
+	"maxstacksize": 64,
+	"attributesByType": {
 		"*-cassavadried": {
-			displaycaseable: true,
-			shelvable: true,
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			"displaycaseable": true,
+			"shelvable": true,
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] }
 		},
 		"*-cabbage": {
-			displaycaseable: true,
-			shelvable: true,
-			nutritionPropsWhenInMeal: { satiety: 450, foodcategory: "Vegetable" },
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": { "satiety": 450, "foodcategory": "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.125, "z": 0 },
+				"scale": 0.75 
 			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-cabbage", partType: 'Filling' },
+            "inPieProperties": { "texture": "game:block/food/pie/fill-cabbage", "partType": "Filling" }
 		},
 		"*-pumpkin": {
-			displaycaseable: true,
-			shelvable: true,
-			nutritionPropsWhenInMeal: { satiety: 180, foodcategory: "Vegetable" },
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": { "satiety": 180, "foodcategory": "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-pumpkin", partType: 'Filling' },
+            "inPieProperties": { "texture": "game:block/food/pie/fill-pumpkin", "partType": "Filling" }
 		},
 		"*-pickledcarrot": {
-			displaycaseable: true,
-			shelvable: true,
-			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Vegetable" },
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-carrot", partType: 'Filling' },
+            "inPieProperties": { "texture": "game:block/food/pie/fill-carrot", "partType": "Filling" }
 		},
 		"*-pickledonion": {
-			displaycaseable: true,
-			shelvable: true,
-			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Vegetable" },
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-onion", partType: 'Filling' },
+            "inPieProperties": { "texture": "game:block/food/pie/fill-onion", "partType": "Filling" }
 		},
 		"*-pickledparsnip": {
-			displaycaseable: true,
-			shelvable: true,
-			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Vegetable" },
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-parsnip", partType: 'Filling' },
+            "inPieProperties": { "texture": "game:block/food/pie/fill-parsnip", "partType": "Filling" }
 		},
 		"*-pickledturnip": {
-			displaycaseable: true,
-			shelvable: true,
-			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Vegetable" },
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-turnip", partType: 'Filling' },
+            "inPieProperties": { "texture": "game:block/food/pie/fill-turnip", "partType": "Filling" }
 		},
 		"*-pickledpumpkin": {
-			displaycaseable: true,
-			shelvable: true,
-			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Vegetable" },
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-pumpkin", partType: 'Filling' },
+            "inPieProperties": { "texture": "game:block/food/pie/fill-pumpkin", "partType": "Filling" }
 		},
 		"*-papyrusroot": {
-			displaycaseable: true,
-			shelvable: true,
-			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-roots", partType: 'Filling' },
+            "inPieProperties": { "texture": "game:block/food/pie/fill-roots", "partType": "Filling" }
 		},
 		"*-cattailroot": {
-			displaycaseable: true,
-			shelvable: true,
-			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-roots", partType: 'Filling' },
+            "inPieProperties": { "texture": "game:block/food/pie/fill-roots", "partType": "Filling" }
 		},
 		"*": {
-			displaycaseable: true,
-			shelvable: true,
-			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-{type}", partType: 'Filling' },
-		},
+            "inPieProperties": { "texture": "game:block/food/pie/fill-{type}", "partType": "Filling" }
+		}
 	},
-	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "cassavadried", "bellpepper"] },
+	"variantgroups": [
+		{ "code": "type", "states": ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "cassavadried", "bellpepper"] }
 	],
-	shape: { base: "item/food/veggies/chopped/{type}" },
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"@*-(cassavadried|cattailroot|papyrusroot)": { foodcategory: "Vegetable" },
-		"*-cabbage": { satiety: 300, foodcategory: "Vegetable" },
-		"*-pumpkin": { satiety: 140, foodcategory: "Vegetable" },
-		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)": { saturation: 80, foodcategory: "Vegetable" },
-		"*": { satiety: 100, foodcategory: "Vegetable" },
+	"shape": { "base": "item/food/veggies/chopped/{type}" },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"nutritionPropsByType": {
+		"@*-(cassavadried|cattailroot|papyrusroot)": { "foodcategory": "Vegetable" },
+		"*-cabbage": { "satiety": 300, "foodcategory": "Vegetable" },
+		"*-pumpkin": { "satiety": 140, "foodcategory": "Vegetable" },
+		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)": { "saturation": 80, "foodcategory": "Vegetable" },
+		"*": { "satiety": 100, "foodcategory": "Vegetable" }
 	},
-	combustiblePropsByType: {
+	"combustiblePropsByType": {
 		"*-cassavadried": {},
 		"*": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "cookedchoppedvegetable-{type}-charred" },
-			requiresContainer: false
-		},
+			"meltingPoint": 150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "cookedchoppedvegetable-{type}-charred" },
+			"requiresContainer": false
+		}
 	},
-  	grindingPropsByType: {
-    	"*-cassavadried": { groundStack: { type: "item", code: "game:flour-cassava" }}
+  	"grindingPropsByType": {
+    	"*-cassavadried": { "groundStack": { "type": "item", "code": "game:flour-cassava" }}
   	},
-	transitionablePropsByType: {
+	"transitionablePropsByType": {
 		"*-pumpkin": [{
-			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.55
+			"type": "Perish",
+			"freshHours": { "avg": 216 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
 		}],
 		"*-onion": [{
-			type: "Perish",
-			freshHours: { avg: 672 },
-			transitionHours: { avg: 120 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg": 672 },
+			"transitionHours": { "avg": 120 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}],
 		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|1800)": [{
-			type: "Perish",
-			freshHours: { avg: 1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}],
 		"@*-(cattailroot|papyrusroot)": [{
-			type: "Perish",
-			freshHours: { avg: 48 },
-			transitionHours: { avg: 18 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 18 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}],
 		"*-cassava": [{
-			type: "Dry",
-			freshHours: { avg:  6 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "expandedfoods:choppedvegetable-cassavadried" },
-			transitionRatio: 1
+			"type": "Dry",
+			"freshHours": { "avg":  6 },
+			"transitionHours": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "expandedfoods:choppedvegetable-cassavadried" },
+			"transitionRatio": 1
 		}],
 		"*-cassavadried": [{
-      	  	type: "Perish",
-        	freshHours: { avg: 2688 },
-        	transitionHours: { avg: 120 },
-        	transitionedStack: { type: "item", code: "game:rot" },
-        	transitionRatio: 0.5
+      	  	"type": "Perish",
+        	"freshHours": { "avg": 2688 },
+        	"transitionHours": { "avg": 120 },
+        	"transitionedStack": { "type": "item", "code": "game:rot" },
+        	"transitionRatio": 0.5
 		}],
 		"*-bellpepper": [{
-			type: "Perish",
-			freshHours: { avg: 288 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg": 288 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}],
 		"*": [{
-			type: "Perish",
-			freshHours: { avg:  504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg":  504 },
+			"transitionHours": { "avg": 96 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}]
 	},
-	materialDensity: 600,
-	guiTransformByType: {
+	"materialDensity": 600,
+	"guiTransformByType": {
 		"*-cabbage": {
-			translation: { x: 2.5, y: 1, z: 0 },
-			rotation: { x: 137, y: 131, z: 0 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 1.38,
-			"rotate":  true,
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 1.38,
+			"rotate":  true
 		},
 		"@*-(carrot|onion|parsnip|)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4,
+			"rotate":  true
 		},
 		"@*-(turnip|pickledturnip)": {
-			translation: { x: 2, y: 2, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3,
-			"rotate":  true,
+			"translation": { "x": 2, "y": 2, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3,
+			"rotate":  true
 		},
 		"@*-(pumpkin|pickledpumpkin)": {
-			translation: { x: 5, y: 1, z: 0 },
-			rotation: { x: 110, y: 169, z: 23 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 3.5,
-			"rotate":  true,
+			"translation": { "x": 5, "y": 1, "z": 0 },
+			"rotation": { "x": 110, "y": 169, "z": 23 },
+			"origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+			"scale": 3.5,
+			"rotate":  true
 		},
 		"@*-(pickledcarrot|pickledonion|pickledparsnip)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4,
+			"rotate":  true
 		},
 		"@*-(cassava|cassavadried)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3,
-			"rotate":  true,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3,
+			"rotate":  true
 		},
 		"@*-(cattailroot|papyrusroot)": {
-			translation: { x: -3.3, y: -3, z: 0 },
-			rotation: { x: 87, y: -28, z: 0 },
-			origin: { x: 0.47, y: 0.43, z: 0.6 },
-			scale: 2.5,
-			"rotate":  true,
+			"translation": { "x": -3.3, "y": -3, "z": 0 },
+			"rotation": { "x": 87, "y": -28, "z": 0 },
+			"origin": { "x": 0.47, "y": 0.43, "z": 0.6 },
+			"scale": 2.5,
+			"rotate":  true
 		},
 		"*-bellpepper": {
-			translation: { x: -2, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.45, y: 0, z: 0.6 },
-			scale: 2.5,
-			"rotate":  true,
+			"translation": { "x": -2, "y": 0, "z": 0 },
+			"rotation": { "x": -60, "y": 29, "z": 0 },
+			"origin": { "x": 0.45, "y": 0, "z": 0.6 },
+			"scale": 2.5,
+			"rotate":  true
 		},
 		"*": {
-			translation: { x: 3, y: 4, z: 0 },
-			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 1.8,
-			"rotate":  true,
-		},
+			"translation": { "x": 3, "y": 4, "z": 0 },
+			"rotation": { "x": -44, "y": 180, "z": 2 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 1.8,
+			"rotate":  true
+		}
 	},
-	tpHandTransformByType: {
+	"tpHandTransformByType": {
 		"*-cabbage": {
-			translation: { x: -0.9, y: -0.14, z: -1 },
-			rotation: { x: 1, y: -1, z: -31 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
+			"translation": { "x": -0.9, "y": -0.14, "z": -1 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.5
 		},
 		"@*-(carrot|onion|parsnip|turnip|pickledcarrot|pickledonion|pickledparsnip|pickledturnip)": {
-			translation: { x: -0.65, y: -0.14, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.65, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"@*-(pumpkin|pickledpumpkin)": {
-			translation: { x: -0.95, y: -0.25, z: -0.93 },
-			rotation: { x: 56, y: -70, z: -59 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
+			"translation": { "x": -0.95, "y": -0.25, "z": -0.93 },
+			"rotation": { "x": 56, "y": -70, "z": -59 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.5
 		},
 		"@*-(cassava|cassavadried)": {
-			translation: { x: -0.75, y: -0.14, z: -0.8 },
-			rotation: { x: 0, y: 0, z: -18 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.6
+			"translation": { "x": -0.75, "y": -0.14, "z": -0.8 },
+			"rotation": { "x": 0, "y": 0, "z": -18 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.6
 		},
 		"@*-(cattailroot|papyrusroot)": {
-			translation: { x: -1, y: -0.6, z: -1 },
-			rotation: { x: 180, y: 0, z: 180 },
-			scale: 0.5
+			"translation": { "x": -1, "y": -0.6, "z": -1 },
+			"rotation": { "x": 180, "y": 0, "z": 180 },
+			"scale": 0.5
 		},
 		"*-bellpepper": {
-			translation: { x: -0.95, y: -0.25, z: -0.93 },
-			rotation: { x: 56, y: -70, z: -59 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
+			"translation": { "x": -0.95, "y": -0.25, "z": -0.93 },
+			"rotation": { "x": 56, "y": -70, "z": -59 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.5
 		},
 		"*": {
-			translation: { x: -1.73, y: -0.42, z: -2 },
-			rotation: { x: 1, y: -10, z: 0 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.25
-		},		
+			"translation": { "x": -1.73, "y": -0.42, "z": -2 },
+			"rotation": { "x": 1, "y": -10, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.25
+		}
 	},
-	groundTransformByType: {
+	"groundTransformByType": {
 		"*-cabbage": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3
 		},
 		"@*-(carrot|onion|parsnip|turnip|pickledcarrot|pickledonion|pickledparsnip|pickledturnip)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"@*-(pumpkin|pickledpumpkin)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3.8
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3.8
 		},
 		"@*-(cassava|cassavadried)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3
 		},
 		"@*-(cattailroot|papyrusroot)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 2.5
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 2.5
 		},
 		"*-bellpepper": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3
 		},
 		"*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 1.5
-		},
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1.5
+		}
 	}
 }

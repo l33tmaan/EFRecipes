@@ -1,52 +1,30 @@
 ﻿[
 {
-	Ingredients: [
-		{
-			type: "item",
-			code: "waterportion",
-			quantity: 50
-		},
-		{
-			type: "item",
-			code: "egg-chicken-raw",
-			quantity: 1
-		},
+	"Ingredients": [
+		{ "type": "item", "code": "waterportion", "quantity": 50 },
+		{ "type": "item", "code": "egg-chicken-raw", "quantity": 1 }
 	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "egg-chicken-boiled"
-		},
-		requiresContainer: false
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 100,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "egg-chicken-boiled" },
+		"requiresContainer": false
 	}
 },
 {
-	Ingredients: [
-		{
-			type: "item",
-			code: "waterportion",
-			quantity: 50
-		},
-		{
-			type: "item",
-			code: "expandedfoods:limeegg-chicken",
-			quantity: 1,
-		},
+	"Ingredients": [
+		{ "type": "item", "code": "waterportion", "quantity": 50 },
+		{ "type": "item", "code": "expandedfoods:limeegg-chicken", "quantity": 1 }
 	],
-	Simmering: {
-		meltingPoint: 150,
-		meltingDuration: 100,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "egg-chicken-boiled"
-		},
-		requiresContainer: false
+	"Simmering": {
+		"meltingPoint": 150,
+		"meltingDuration": 100,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "egg-chicken-boiled" },
+		"requiresContainer": false
 	}
 }
 ]

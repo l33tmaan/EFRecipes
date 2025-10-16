@@ -71,49 +71,28 @@
   {
     "op": "addmerge",
     "path": "/attributes/handbook",
-    "value": {
-      "groupBy": [
-        "fish-*"
-      ]
-    },
+    "value": { "groupBy": [ "fish-*" ] },
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/attributes/inPiePropertiesByType",
-    "value": {
-      "@*-(raw|cured|smoked|cured-smoked)": {
-        "texture": "game:block/food/pie/fill-fish",
-        "partType": "Filling"
-      }
-    },
+    "value": { "@*-(raw|cured|smoked|cured-smoked)": { "texture": "game:block/food/pie/fill-fish", "partType": "Filling" } },
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/attributes/nutritionPropsWhenInMealByType",
-    "value": {
-      "*-raw": {
-        "satiety": 375,
-        "foodcategory": "Protein"
-      }
-    },
+    "value": { "*-raw": { "satiety": 375, "foodcategory": "Protein" } },
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/attributes/onDisplayTransform",
-    "value": {
-      "rotation": {
-        "x": 0,
-        "y": -45,
-        "z": 0
-      },
-      "scale": 1
-    },
+    "value": { "rotation": { "x": 0, "y": -45, "z": 0 }, "scale": 1 },
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   },
@@ -131,10 +110,7 @@
       "meltingDuration": 30,
       "smeltedRatio": 1,
       "smeltingType": "cook",
-      "smeltedStack": {
-        "type": "item",
-        "code": "fish-charred"
-      },
+      "smeltedStack": { "type": "item", "code": "fish-charred" },
       "requiresContainer": false
     },
     "file": "game:itemtypes/food/fish.json",
@@ -185,20 +161,14 @@
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-charred",
-    "value": {
-      "satiety": 180,
-      "foodcategory": "Protein"
-    },
+    "value": { "satiety": 180, "foodcategory": "Protein" },
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-partbaked",
-    "value": {
-      "satiety": 190,
-      "foodcategory": "Protein"
-    },
+    "value": { "satiety": 190, "foodcategory": "Protein" },
     "file": "game:itemtypes/food/fish.json",
     "side": "Server"
   },
@@ -214,16 +184,9 @@
     "value": [
       {
         "type": "Perish",
-        "freshHours": {
-          "avg": 240
-        },
-        "transitionHours": {
-          "avg": 72
-        },
-        "transitionedStack": {
-          "type": "item",
-          "code": "rot"
-        },
+        "freshHours": { "avg": 240 },
+        "transitionHours": { "avg": 72 },
+        "transitionedStack": { "type": "item", "code": "rot" },
         "transitionRatio": 1
       }
     ],
@@ -236,16 +199,9 @@
     "value": [
       {
         "type": "Perish",
-        "freshHours": {
-          "avg": 120
-        },
-        "transitionHours": {
-          "avg": 36
-        },
-        "transitionedStack": {
-          "type": "item",
-          "code": "rot"
-        },
+        "freshHours": { "avg": 120 },
+        "transitionHours": { "avg": 36 },
+        "transitionedStack": { "type": "item", "code": "rot" },
         "transitionRatio": 1
       }
     ],

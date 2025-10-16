@@ -13,7 +13,7 @@
     },
     "file": "recipes/cooking/vegetablestew.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
   },
   {
     "op": "addmerge",
@@ -29,15 +29,15 @@
     },
     "file": "recipes/cooking/vegetablestew.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
   },
  {
     "op": "addmerge",
     "path": "/ingredients/11/validStacks/1",
-    "value": { type: "item", code: "expandedfoods:acornpasta-cooked",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "pasta"] },   
+    "value": { "type": "item", "code": "expandedfoods:acornpasta-cooked",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "pasta"] },   
     "file": "recipes/cooking/meatystew.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
   },
   {
     "op": "addmerge",
@@ -53,7 +53,7 @@
     },
     "file": "recipes/cooking/vegetablestew.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+    "dependsOn": [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
   },
   {
     "op": "addmerge",
@@ -69,14 +69,14 @@
     },
     "file": "recipes/cooking/vegetablestew.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+    "dependsOn": [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
   },
  {
     "op": "addmerge",
     "path": "/ingredients/11/validStacks/1",
-    "value": { type: "item", code: "expandedfoods:acornpasta-cooked",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "pasta"] },   
+    "value": { "type": "item", "code": "expandedfoods:acornpasta-cooked",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "pasta"] },   
     "file": "recipes/cooking/meatystew.json",
     "side": "server",
-    dependsOn: [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
-  },
+    "dependsOn": [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+  }
 ]

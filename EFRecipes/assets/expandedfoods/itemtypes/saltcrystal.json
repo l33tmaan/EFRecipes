@@ -1,14 +1,14 @@
 ﻿{
-	code: "saltcrystal",
-	maxstacksize: 64,
-	variantgroups: [
-		{ code: "type",	states: [ "damp", "dry" ] },
+	"code": "saltcrystal",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type",	"states": [ "damp", "dry" ] }
 	],
-	shape: { base: "item/saltcrystal" },
-	attributes: {
-		inContainerTexture: { base: "block/wood/barrel/salt" },
-		displaycaseable: true, shelvable: true,
-		bakingPropertiesByType: {
+	"shape": { "base": "item/saltcrystal" },
+	"attributes": {
+		"inContainerTexture": { "base": "block/wood/barrel/salt" },
+		"displaycaseable": true, "shelvable": true,
+		"bakingPropertiesByType": {
 			"*-damp": {
 				"temp": 120,
 				"levelFrom": 0,
@@ -16,60 +16,60 @@
 				"startScaleY": 1,
 				"endScaleY": 1,
 				"resultCode":  "expandedfoods:saltcrystal-dry"
-			},
-		},
+			}
+		}
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	transitionablePropsByType: {
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"transitionablePropsByType": {
 		"*-damp": [
 			{
-				type: "Dry",
-				freshHours: { avg: 24 },
-				transitionHours: { avg: 312 },
-				transitionedStack: {
-					type: "item",
-					code: "saltcrystal-dry"
+				"type": "Dry",
+				"freshHours": { "avg": 24 },
+				"transitionHours": { "avg": 312 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "saltcrystal-dry"
 				},
-				transitionRatio: 1,
+				"transitionRatio": 1
 			}
-		],
+		]
 	},	
-	grindingPropsByType: {
+	"grindingPropsByType": {
 		"*-dry": {
-			groundStack: {
-				type: "item",
-				code: "game:salt",
+			"groundStack": {
+				"type": "item",
+				"code": "game:salt",
 				"quantity":  1
 			}
-		},
+		}
 	},
-	combustiblePropsByType: {
+	"combustiblePropsByType": {
 		"*-damp": {
-			meltingPoint: 120,
-			meltingDuration: 15,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:saltcrystal-dry" },
-			requiresContainer: false
-		},
+			"meltingPoint": 120,
+			"meltingDuration": 15,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:saltcrystal-dry" },
+			"requiresContainer": false
+		}
 	},
-	materialDensity: 600,
-	guiTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 151, y: -3, z: 0 },
-		origin: { x: 0.487, y: 0.08, z: 0.5 },
-		scale: 6
+	"materialDensity": 600,
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 151, "y": -3, "z": 0 },
+		"origin": { "x": 0.487, "y": 0.08, "z": 0.5 },
+		"scale": 6
 	},
-	tpHandTransform: {
-		translation: { x: -0.78, y: -0.11, z: -0.7 },
-		rotation: { x: -41, y: -29, z: -60 },
-		origin: { x: 0.5, y: 0.09, z: 0.5 },
-		scale: 0.75
+	"tpHandTransform": {
+		"translation": { "x": -0.78, "y": -0.11, "z": -0.7 },
+		"rotation": { "x": -41, "y": -29, "z": -60 },
+		"origin": { "x": 0.5, "y": 0.09, "z": 0.5 },
+		"scale": 0.75
 	},
-	groundTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 0, y: 0, z: 0 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 4.5
-	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 4.5
 	}
+}

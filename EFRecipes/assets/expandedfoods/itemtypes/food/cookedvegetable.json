@@ -1,1206 +1,1206 @@
 {
-	code: "cookedveggie",
-	maxstacksize: 64,
-	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "cattailroot", "papyrusroot", "bellpepper"] },
-		{ code: "state", states: ["partbaked", "perfect", "charred" ] }
+	"code": "cookedveggie",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "cattailroot", "papyrusroot", "bellpepper"] },
+		{ "code": "state", "states": ["partbaked", "perfect", "charred" ] }
 	],
-	shapeByType: {
-		"*-pickledcarrot-*": {base: "game:item/food/pickledvegetable/carrot"},
-		"*-pickledonion-*": {base: "game:item/food/pickledvegetable/onion"},
-		"*-pickledturnip-*": {base: "game:item/food/pickledvegetable/turnip"},
-		"*-pickledparsnip-*": {base: "game:item/food/pickledvegetable/parsnip"},
-		"*-pickledpumpkin-*": {base: "item/food/veggies/pumpkin"},
-		"*-cattailroot-*": {base: "game:item/food/vegetable/cattailsroot-cooked"},
-		"*-papyrusroot-*": {base: "game:item/food/vegetable/papyrusroot-cooked"},
-		"*": { base: "item/food/veggies/{type}"},
+	"shapeByType": {
+		"*-pickledcarrot-*": {"base": "game:item/food/pickledvegetable/carrot"},
+		"*-pickledonion-*": {"base": "game:item/food/pickledvegetable/onion"},
+		"*-pickledturnip-*": {"base": "game:item/food/pickledvegetable/turnip"},
+		"*-pickledparsnip-*": {"base": "game:item/food/pickledvegetable/parsnip"},
+		"*-pickledpumpkin-*": {"base": "item/food/veggies/pumpkin"},
+		"*-cattailroot-*": {"base": "game:item/food/vegetable/cattailsroot-cooked"},
+		"*-papyrusroot-*": {"base": "game:item/food/vegetable/papyrusroot-cooked"},
+		"*": { "base": "item/food/veggies/{type}"}
 	},
-	textures: {
-		"cabbage": {base: "item/food/veggie/{state}/cabbage/cabbage"},
-		"bottom12": {base: "item/food/veggie/{state}/cabbage/bottom12"},
-		"top": {base: "item/food/veggie/{state}/cabbage/top"},
-		"carrot": {base: "item/food/veggie/{state}/carrot"},
-		"pickledcarrot": {base: "item/food/veggie/{state}/pickledcarrot"},
-		"pumpkin": {base: "item/food/veggie/{state}/pumpkin"},
-		"slicedpumpkin": {base: "item/food/veggie/{state}/pumpkin"},
-		"turnip": {base: "item/food/veggie/{state}/turnip"},
-		"pickledturnip": {base: "item/food/veggie/{state}/pickledturnip"},
-		"onion": {base: "item/food/veggie/{state}/onion"},
-		"pickledonion": {base: "item/food/veggie/{state}/pickledonion"},
-		"parsnip": {base: "item/food/veggie/{state}/parsnip"},
-		"pickledparsnip": {base: "item/food/veggie/{state}/pickledparsnip"},
-		"cassava": {base: "item/food/veggie/{state}/cassava"},
-		"reeds": {base: "item/food/veggie/{state}/reeds"},
-		"bellpepper": {base: "item/food/veggie/{state}/bellpepper"},
+	"textures": {
+		"cabbage": {"base": "item/food/veggie/{state}/cabbage/cabbage"},
+		"bottom12": {"base": "item/food/veggie/{state}/cabbage/bottom12"},
+		"top": {"base": "item/food/veggie/{state}/cabbage/top"},
+		"carrot": {"base": "item/food/veggie/{state}/carrot"},
+		"pickledcarrot": {"base": "item/food/veggie/{state}/pickledcarrot"},
+		"pumpkin": {"base": "item/food/veggie/{state}/pumpkin"},
+		"slicedpumpkin": {"base": "item/food/veggie/{state}/pumpkin"},
+		"turnip": {"base": "item/food/veggie/{state}/turnip"},
+		"pickledturnip": {"base": "item/food/veggie/{state}/pickledturnip"},
+		"onion": {"base": "item/food/veggie/{state}/onion"},
+		"pickledonion": {"base": "item/food/veggie/{state}/pickledonion"},
+		"parsnip": {"base": "item/food/veggie/{state}/parsnip"},
+		"pickledparsnip": {"base": "item/food/veggie/{state}/pickledparsnip"},
+		"cassava": {"base": "item/food/veggie/{state}/cassava"},
+		"reeds": {"base": "item/food/veggie/{state}/reeds"},
+		"bellpepper": {"base": "item/food/veggie/{state}/bellpepper"}
 	},
-	attributesByType: {
+	"attributesByType": {
 		"*-cabbage-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-cabbage-perfect",
-				initialCode: "game:vegetable-cabbage"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-cabbage-perfect",
+				"initialCode": "game:vegetable-cabbage"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.125, "z": 0 },
+				"scale": 0.75 
 			}
 		},
 		"*-carrot-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-carrot-perfect",
-				initialCode: "game:vegetable-carrot"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-carrot-perfect",
+				"initialCode": "game:vegetable-carrot"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledcarrot-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-pickledcarrot-perfect",
-				initialCode: "game:pickledvegetable-carrot"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-pickledcarrot-perfect",
+				"initialCode": "game:pickledvegetable-carrot"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-turnip-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-turnip-perfect",
-				initialCode: "game:vegetable-turnip"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-turnip-perfect",
+				"initialCode": "game:vegetable-turnip"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledturnip-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-pickledturnip-perfect",
-				initialCode: "game:pickledvegetable-turnip"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-pickledturnip-perfect",
+				"initialCode": "game:pickledvegetable-turnip"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-parsnip-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-parsnip-perfect",
-				initialCode: "game:vegetable-parsnip"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-parsnip-perfect",
+				"initialCode": "game:vegetable-parsnip"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledparsnip-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-pickledparsnip-perfect",
-				initialCode: "game:pickledvegetable-parsnip"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-pickledparsnip-perfect",
+				"initialCode": "game:pickledvegetable-parsnip"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledonion-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-pickledonion-perfect",
-				initialCode: "game:pickledvegetable-onion"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-pickledonion-perfect",
+				"initialCode": "game:pickledvegetable-onion"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1 
 			}
 		},
 		"*-pickledpumpkin-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-pickledpumpkin-perfect",
-				initialCode: "game:pickledvegetable-pumpkin"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-pickledpumpkin-perfect",
+				"initialCode": "game:pickledvegetable-pumpkin"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1 
 			}
 		},
 		"*-cattailroot-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-cattailroot-perfect",
-				initialCode: "game:cattailroot"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-cattailroot-perfect",
+				"initialCode": "game:cattailroot"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0.05, y: -0.25, z: 0.05 },
-				rotation: { x: 90, y: 0, z: -14 },
-				scale: 0.75 
+			"onDisplayTransform": { 
+				"translation": { "x": 0.05, "y": -0.25, "z": 0.05 },
+				"rotation": { "x": 90, "y": 0, "z": -14 },
+				"scale": 0.75 
 			}
 		},
 		"*-papyrusroot-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-papyrusroot-perfect",
-				initialCode: "game:papyrusroot"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-papyrusroot-perfect",
+				"initialCode": "game:papyrusroot"
 			},		
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.265, z: 0 },
-				rotation: { x: 0, y: -45, z: 90 },
-				scale: 0.75
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.265, "z": 0 },
+				"rotation": { "x": 0, "y": -45, "z": 90 },
+				"scale": 0.75
 			}
 		},
 		"*-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-{type}-perfect",
-				initialCode: "game:vegetable-{type}"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedveggie-{type}-perfect",
+				"initialCode": "game:vegetable-{type}"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1 
 			}
 		},
 		"*-cabbage-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-cabbage-charred",
-				initialCode: "expandedfoods:cookedveggie-cabbage-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-cabbage-charred",
+				"initialCode": "expandedfoods:cookedveggie-cabbage-partbaked"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.125, "z": 0 },
+				"scale": 0.75 
 			}
 		},
 		"*-carrot-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-carrot-charred",
-				initialCode: "expandedfoods:cookedveggie-carrot-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-carrot-charred",
+				"initialCode": "expandedfoods:cookedveggie-carrot-partbaked"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledcarrot-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-pickledcarrot-charred",
-				initialCode: "expandedfoods:cookedveggie-pickledcarrot-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-pickledcarrot-charred",
+				"initialCode": "expandedfoods:cookedveggie-pickledcarrot-partbaked"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-turnip-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-turnip-charred",
-				initialCode: "expandedfoods:cookedveggie-turnip-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-turnip-charred",
+				"initialCode": "expandedfoods:cookedveggie-turnip-partbaked"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledturnip-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-pickledturnip-charred",
-				initialCode: "expandedfoods:cookedveggie-pickledturnip-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-pickledturnip-charred",
+				"initialCode": "expandedfoods:cookedveggie-pickledturnip-partbaked"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-parsnip-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-parsnip-charred",
-				initialCode: "expandedfoods:cookedveggie-parsnip-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-parsnip-charred",
+				"initialCode": "expandedfoods:cookedveggie-parsnip-partbaked"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledparsnip-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-pickledparsnip-charred",
-				initialCode: "expandedfoods:cookedveggie-pickledparsnip-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-pickledparsnip-charred",
+				"initialCode": "expandedfoods:cookedveggie-pickledparsnip-partbaked"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledonion-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-pickledonion-charred",
-				initialCode: "expandedfoods:cookedveggie-pickledonion-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-pickledonion-charred",
+				"initialCode": "expandedfoods:cookedveggie-pickledonion-partbaked"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1 
 			}
 		},
 		"*-pickledpumpkin-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-pickledpumpkin-charred",
-				initialCode: "expandedfoods:cookedveggie-pickledpumpkin-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-pickledpumpkin-charred",
+				"initialCode": "expandedfoods:cookedveggie-pickledpumpkin-partbaked"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1 
 			}
 		},
 		"*-cattailroot-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-cattailroot-charred",
-				initialCode: "expandedfoods:cookedveggie-cattailroot-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-cattailroot-charred",
+				"initialCode": "expandedfoods:cookedveggie-cattailroot-partbaked"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.45, z: 0.05 },
-				rotation: { x: 90, y: 0, z: -14 },
-				scale: 0.75 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.45, "z": 0.05 },
+				"rotation": { "x": 90, "y": 0, "z": -14 },
+				"scale": 0.75 
 			}
 		},
 		"*-papyrusroot-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-papyrusroot-charred",
-				initialCode: "expandedfoods:cookedveggie-papyrusroot-partbaked",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-papyrusroot-charred",
+				"initialCode": "expandedfoods:cookedveggie-papyrusroot-partbaked"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.265, z: 0 },
-				rotation: { x: 0, y: -45, z: 90 },
-				scale: 0.75
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.265, "z": 0 },
+				"rotation": { "x": 0, "y": -45, "z": 90 },
+				"scale": 0.75
 			}
 		},
 		"*-perfect": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-{type}-charred",
-				initialCode: "expandedfoods:cookedveggie-{type}-partbaked"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedveggie-{type}-charred",
+				"initialCode": "expandedfoods:cookedveggie-{type}-partbaked"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1 
 			}
 		},
 		"*-cabbage-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-cabbage-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-cabbage-perfect"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.125, "z": 0 },
+				"scale": 0.75 
 			}
 		},
 		"*-carrot-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-carrot-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-carrot-perfect"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledcarrot-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-pickledcarrot-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-pickledcarrot-perfect"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-turnip-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-turnip-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-turnip-perfect"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledturnip-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-pickledturnip-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-pickledturnip-perfect"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-parsnip-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-parsnip-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-parsnip-perfect"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledparsnip-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-pickledparsnip-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-pickledparsnip-perfect"
 			},
-			onDisplayTransform: { 
-				rotation: { x: 0, y: 45, z: 90 },
-				translation: { x: -0.2, y: -0.45, z: 0.2 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"rotation": { "x": 0, "y": 45, "z": 90 },
+				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+				"scale": 1 
 			}
 		},
 		"*-pickledonion-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-pickledonion-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-pickledonion-perfect"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1 
 			}
 		},
 		"*-pickledpumpkin-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-pickledpumpkin-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-pickledpumpkin-perfect"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1 
 			}
 		},
 		"*-cattailroot-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1.0,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-cattailroot-perfect",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1.0,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-cattailroot-perfect"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.45, z: 0.05 },
-				rotation: { x: 90, y: 0, z: -14 },
-				scale: 0.75 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.45, "z": 0.05 },
+				"rotation": { "x": 90, "y": 0, "z": -14 },
+				"scale": 0.75 
 			}
 		},
 		"*-papyrusroot-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1.0,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-papyrusroot-perfect",
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1.0,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-papyrusroot-perfect"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.265, z: 0 },
-				rotation: { x: 0, y: -45, z: 90 },
-				scale: 0.75
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": -0.265, "z": 0 },
+				"rotation": { "x": 0, "y": -45, "z": 90 },
+				"scale": 0.75
 			}
 		},
 		"*-charred": {
-			displaycaseable: true,
-			shelvable: true,
+			"displaycaseable": true,
+			"shelvable": true,
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-{type}-perfect"
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedveggie-{type}-perfect"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			"onDisplayTransform": { 
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1 
 			}
 		}
 	},
-	combustiblePropsByType: {
+	"combustiblePropsByType": {
 		"@*-(partbaked|perfect)": {
-			meltingPoint: 150,
-			meltingDuration: 20,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "cookedveggie-{type}-charred" },
-			requiresContainer: false
-		},
+			"meltingPoint": 150,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "cookedveggie-{type}-charred" },
+			"requiresContainer": false
+		}
 	},
-	materialDensity: 600,
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	nutritionPropsByType: {
-		"*-cabbage-partbaked": { satiety: 325, foodcategory: "Vegetable" },
-		"*-pumpkin-partbaked": { satiety: 150, foodcategory: "Vegetable" },
-		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)-partbaked": { satiety: 90, foodcategory: "Vegetable" },
-		"*-partbaked": { satiety: 110, foodcategory: "Vegetable" },
+	"materialDensity": 600,
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"nutritionPropsByType": {
+		"*-cabbage-partbaked": { "satiety": 325, "foodcategory": "Vegetable" },
+		"*-pumpkin-partbaked": { "satiety": 150, "foodcategory": "Vegetable" },
+		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
+		"*-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
 
-		"*-cabbage-perfect": { satiety: 400, foodcategory: "Vegetable" },
-		"*-pumpkin-perfect": { satiety: 200, foodcategory: "Vegetable" },
-		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)-perfect": { satiety: 120, foodcategory: "Vegetable" },
-		"*-perfect": { satiety: 140, foodcategory: "Vegetable" },
+		"*-cabbage-perfect": { "satiety": 400, "foodcategory": "Vegetable" },
+		"*-pumpkin-perfect": { "satiety": 200, "foodcategory": "Vegetable" },
+		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)-perfect": { "satiety": 120, "foodcategory": "Vegetable" },
+		"*-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
 
-		"*-cabbage-charred": { satiety: 350, foodcategory: "Vegetable" },
-		"*-pumpkin-charred": { satiety: 175, foodcategory: "Vegetable" },
-		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)-charred": { satiety: 100, foodcategory: "Vegetable" },
-		"*-charred": { satiety: 125, foodcategory: "Vegetable" },
+		"*-cabbage-charred": { "satiety": 350, "foodcategory": "Vegetable" },
+		"*-pumpkin-charred": { "satiety": 175, "foodcategory": "Vegetable" },
+		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)-charred": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-charred": { "satiety": 125, "foodcategory": "Vegetable" }
 	},
-	guiTransformByType: {
+	"guiTransformByType": {
 		"*-cabbage-*": {
-			translation: { x: 2.5, y: 1, z: 0 },
-			rotation: { x: 137, y: 131, z: 0 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 2.6
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
 		},
 		"*-carrot-*": {
-			translation: { x: 2, y: 1, z: 0 },
-			rotation: { x: 180, y: 44, z: 56 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 4.75
+			"translation": { "x": 2, "y": 1, "z": 0 },
+			"rotation": { "x": 180, "y": 44, "z": 56 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 4.75
 		},
 		"*-pickledcarrot-*": {
-			translation: { x: 2, y: 1, z: 0 },
-			rotation: { x: 180, y: 44, z: 56 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 4.75
+			"translation": { "x": 2, "y": 1, "z": 0 },
+			"rotation": { "x": 180, "y": 44, "z": 56 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 4.75
 		},
 		"*-onion-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -37, y: 135, z: -155 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 5.35
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -37, "y": 135, "z": -155 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 5.35
 		},
 		"*-pickledonion-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -37, y: 135, z: -155 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 5.35
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -37, "y": 135, "z": -155 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 5.35
 		},
 		"*-parsnip-*": {
-			translation: { x: 2, y: 2, z: 0 },
-			rotation: { x: 180, y: 158, z: 38 },
-			origin: { x: 0.5, y: 0.23, z: 0.5 },
-			scale: 3.6
+			"translation": { "x": 2, "y": 2, "z": 0 },
+			"rotation": { "x": 180, "y": 158, "z": 38 },
+			"origin": { "x": 0.5, "y": 0.23, "z": 0.5 },
+			"scale": 3.6
 		},
 		"*-pickledparsnip-*": {
-			translation: { x: 2, y: 2, z: 0 },
-			rotation: { x: 180, y: 158, z: 38 },
-			origin: { x: 0.5, y: 0.23, z: 0.5 },
-			scale: 3.6
+			"translation": { "x": 2, "y": 2, "z": 0 },
+			"rotation": { "x": 180, "y": 158, "z": 38 },
+			"origin": { "x": 0.5, "y": 0.23, "z": 0.5 },
+			"scale": 3.6
 		},
 		"*-turnip-*": {
-			translation: { x: 1, y: 2, z: 0 },
-			rotation: { x: 180, y: 158, z: 38 },
-			origin: { x: 0.5, y: 0.18, z: 0.5 },
-			scale: 4.25
+			"translation": { "x": 1, "y": 2, "z": 0 },
+			"rotation": { "x": 180, "y": 158, "z": 38 },
+			"origin": { "x": 0.5, "y": 0.18, "z": 0.5 },
+			"scale": 4.25
 		},
 		"*-pickledturnip-*": {
-			translation: { x: 1, y: 2, z: 0 },
-			rotation: { x: 180, y: 158, z: 38 },
-			origin: { x: 0.5, y: 0.18, z: 0.5 },
-			scale: 4.25
+			"translation": { "x": 1, "y": 2, "z": 0 },
+			"rotation": { "x": 180, "y": 158, "z": 38 },
+			"origin": { "x": 0.5, "y": 0.18, "z": 0.5 },
+			"scale": 4.25
 		},
 		"*-pumpkin-*": {
-			translation: { x: 2, y: 2, z: 0 },
-			rotation: { x: 127, y: 180, z: 38 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 3.5999
+			"translation": { "x": 2, "y": 2, "z": 0 },
+			"rotation": { "x": 127, "y": 180, "z": 38 },
+			"origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+			"scale": 3.5999
 		},
 		"*-pickledpumpkin-*": {
-			translation: { x: 2, y: 2, z: 0 },
-			rotation: { x: 127, y: 180, z: 38 },
-			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 3.5999
+			"translation": { "x": 2, "y": 2, "z": 0 },
+			"rotation": { "x": 127, "y": 180, "z": 38 },
+			"origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
+			"scale": 3.5999
 		},
 		"*-cassava-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 134, y: -173, z: -8 },
-			origin: { x: 0.5, y: 0.09, z: 0.5 },
-			scale: 3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 134, "y": -173, "z": -8 },
+			"origin": { "x": 0.5, "y": 0.09, "z": 0.5 },
+			"scale": 3
 		},		
 		"*-cattailroot-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 43, y: 166, z: 98 },
-			origin: { x: 0.53, y: 0.43, z: 0.55 },
-			scale: 2.64
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 43, "y": 166, "z": 98 },
+			"origin": { "x": 0.53, "y": 0.43, "z": 0.55 },
+			"scale": 2.64
 		},
 		"*-papyrusroot-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -15, y: 27, z: 53 },
-			origin: { x: 0.51, y: 0.56, z: 0.43 },
-			scale: 2.33
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -15, "y": 27, "z": 53 },
+			"origin": { "x": 0.51, "y": 0.56, "z": 0.43 },
+			"scale": 2.33
 		},
 		"*-bellpepper-*": {
-			translation: { x: 3, y: 6, z: 0 },
-			rotation: { x: -37, y: 135, z: -155 },
-			origin: { x: 0.5, y: 0.15, z: 0.5 },
-			scale: 3
+			"translation": { "x": 3, "y": 6, "z": 0 },
+			"rotation": { "x": -37, "y": 135, "z": -155 },
+			"origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
+			"scale": 3
 		}
 	},
-	tpHandTransformByType: {
+	"tpHandTransformByType": {
 		"*-cabbage-*": {
-			translation: { x: -0.7, y: -0.14, z: -0.6 },
-			rotation: { x: 1, y: -1, z: -31 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.79
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
 		},
 		"*-carrot-*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -42 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-pickledcarrot-*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -42 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-onion-*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -42 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-pickledonion-*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -42 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-parsnip-*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -42 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-pickledparsnip-*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -42 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-turnip-*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -42 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-pickledturnip-*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -42 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		},
 		"*-pumpkin-*": {
-			translation: { x: -0.75, y: -0.13, z: -0.71 },
-			rotation: { x: 45, y: -42, z: -65 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.75
+			"translation": { "x": -0.75, "y": -0.13, "z": -0.71 },
+			"rotation": { "x": 45, "y": -42, "z": -65 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.75
 		},
 		"*-pickledpumpkin-*": {
-			translation: { x: -0.75, y: -0.13, z: -0.71 },
-			rotation: { x: 45, y: -42, z: -65 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.75
+			"translation": { "x": -0.75, "y": -0.13, "z": -0.71 },
+			"rotation": { "x": 45, "y": -42, "z": -65 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.75
 		},
 		"*-cassava-*": {
-			translation: { x: -1.5, y: -1.1, z: -1.4 },
-			rotation: { x: -55, y: -78, z: 56 },
-			scale: 0.36
+			"translation": { "x": -1.5, "y": -1.1, "z": -1.4 },
+			"rotation": { "x": -55, "y": -78, "z": 56 },
+			"scale": 0.36
 		},	
 		"*-cattailroot-*": {
-			translation: { x: -1, y: -1.1, z: -1 },
-			rotation: { x: 180, y: 9, z: 50 },
-			scale: 0.48
+			"translation": { "x": -1, "y": -1.1, "z": -1 },
+			"rotation": { "x": 180, "y": 9, "z": 50 },
+			"scale": 0.48
 		},
 		"*-papyrusroot-*": {
-			translation: { x: -1.13, y: -0.26, z: -0.83 },
-			rotation: { x: 180, y: 4, z: 76 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 0.59
+			"translation": { "x": -1.13, "y": -0.26, "z": -0.83 },
+			"rotation": { "x": 180, "y": 4, "z": 76 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 0.59
 		},
 		"*-bellpepper-*": {
-			translation: { x: -0.6, y: -0.18, z: -0.6 },
-			rotation: { x: 0, y: 0, z: -42 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.8
+			"translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+			"rotation": { "x": 0, "y": 0, "z": -42 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.8
 		}	
 	},
-	groundTransformByType: {
+	"groundTransformByType": {
 		"*-cabbage-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 3.5
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
 		},
 		"*-carrot-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 83 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 83 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-pickledcarrot-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 83 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 83 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-onion-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 83 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 83 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-pickledonion-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 83 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 83 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-parsnip-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 83 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 83 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-pickledparsnip-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 83 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4.3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 83 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
 		},
 		"*-turnip-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 75 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3.8
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 75 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3.8
 		},
 		"*-pickledturnip-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 75 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3.8
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 75 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3.8
 		},
 		"*-pumpkin-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 75 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3.8
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 75 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3.8
 		},
 		"*-pickledpumpkin-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 75 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3.8
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 75 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3.8
 		},
 		"*-cassava-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 97, y: -18, z: -16 },
-			origin: { x: 0.5, y: 0.5, z: 0.5299 },
-			scale: 2.8
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 97, "y": -18, "z": -16 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+			"scale": 2.8
 		},
 		"*-cattailroot-*": {
-			scale: 2.5
+			"scale": 2.5
 		},
 		"*-papyrusroot-*": {
-			scale: 2.5
+			"scale": 2.5
 		},
 		"*-bellpepper-*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 83 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 83 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3
 		}
 	},
-	transitionablePropsByType: {
+	"transitionablePropsByType": {
 		"*-pumpkin-partbaked": [{
-			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 216 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-onion-partbaked": [{
-			type: "Perish",
-			freshHours: { avg: 672 },
-			transitionHours: { avg: 120 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 672 },
+			"transitionHours": { "avg": 120 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
     		"*-pickledcarrot-partbaked": [{
-      			type: "Perish",
-      			freshHours: { avg: 1800 },
-      			transitionHours: { avg: 240 },
-      			transitionedStack: { type: "item", code: "game:rot" },
-      			transitionRatio: 1
+      			"type": "Perish",
+      			"freshHours": { "avg": 1800 },
+      			"transitionHours": { "avg": 240 },
+      			"transitionedStack": { "type": "item", "code": "game:rot" },
+      			"transitionRatio": 1
     		}],
     		"*-pickledonion-partbaked": [{
-      			type: "Perish",
-      			freshHours: { avg: 1800 },
-      			transitionHours: { avg: 240 },
-      			transitionedStack: { type: "item", code: "game:rot" },
-      			transitionRatio: 1
+      			"type": "Perish",
+      			"freshHours": { "avg": 1800 },
+      			"transitionHours": { "avg": 240 },
+      			"transitionedStack": { "type": "item", "code": "game:rot" },
+      			"transitionRatio": 1
     		}],
     		"*-pickledparsnip-partbaked": [{
-      			type: "Perish",
-      			freshHours: { avg: 1800 },
-      			transitionHours: { avg: 240 },
-      			transitionedStack: { type: "item", code: "game:rot" },
-      			transitionRatio: 1
+      			"type": "Perish",
+      			"freshHours": { "avg": 1800 },
+      			"transitionHours": { "avg": 240 },
+      			"transitionedStack": { "type": "item", "code": "game:rot" },
+      			"transitionRatio": 1
     		}],
     		"*-pickledturnip-partbaked": [{
-      			type: "Perish",
-      			freshHours: { avg: 1800 },
-      			transitionHours: { avg: 240 },
-      			transitionedStack: { type: "item", code: "game:rot" },
-      			transitionRatio: 1
+      			"type": "Perish",
+      			"freshHours": { "avg": 1800 },
+      			"transitionHours": { "avg": 240 },
+      			"transitionedStack": { "type": "item", "code": "game:rot" },
+      			"transitionRatio": 1
     		}],
     		"*-pickledpumpkin-partbaked": [{
-      			type: "Perish",
-      			freshHours: { avg: 1800 },
-      			transitionHours: { avg: 240 },
-      			transitionedStack: { type: "item", code: "game:rot" },
-      			transitionRatio: 1
+      			"type": "Perish",
+      			"freshHours": { "avg": 1800 },
+      			"transitionHours": { "avg": 240 },
+      			"transitionedStack": { "type": "item", "code": "game:rot" },
+      			"transitionRatio": 1
     		}],
 		"*-cattailroot-partbaked": [{
-			type: "Perish",
-			freshHours: { avg: 48 },
-			transitionHours: { avg: 18 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 18 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}],
 		"*-papyrusroot-partbaked": [{
-			type: "Perish",
-			freshHours: { avg: 48 },
-			transitionHours: { avg: 18 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 18 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}],
 		"*-partbaked": [{
-			type: "Perish",
-			freshHours: { avg: 504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 504 },
+			"transitionHours": { "avg": 96 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pumpkin-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 216 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-onion-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 672 },
-			transitionHours: { avg: 120 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 672 },
+			"transitionHours": { "avg": 120 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pickledcarrot-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pickledonion-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pickledparsnip-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pickledturnip-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pickledpumpkin-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-cattailroot-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 48 },
-			transitionHours: { avg: 18 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 18 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}],
 		"*-papyrusroot-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 48 },
-			transitionHours: { avg: 18 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 18 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}],
 		"*-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 504 },
-			transitionHours: { avg: 96 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 504 },
+			"transitionHours": { "avg": 96 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pumpkin-charred": [{
-			type: "Perish",
-			freshHours: { avg: 756 },
-			transitionHours: { avg: 120 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 756 },
+			"transitionHours": { "avg": 120 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-onion-charred": [{
-			type: "Perish",
-			freshHours: { avg: 2352 },
-			transitionHours: { avg: 200 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 2352 },
+			"transitionHours": { "avg": 200 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pickledcarrot-charred": [{
-			type: "Perish",
-			freshHours: { avg: 7300 },
-			transitionHours: { avg: 400 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 7300 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pickledonion-charred": [{
-			type: "Perish",
-			freshHours: { avg: 7300 },
-			transitionHours: { avg: 400 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 7300 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pickledparsnip-charred": [{
-			type: "Perish",
-			freshHours: { avg: 7300 },
-			transitionHours: { avg: 400 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 7300 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pickledturnip-charred": [{
-			type: "Perish",
-			freshHours: { avg: 7300 },
-			transitionHours: { avg: 400 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 7300 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-pickledpumpkin-charred": [{
-			type: "Perish",
-			freshHours: { avg: 7300 },
-			transitionHours: { avg: 400 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 7300 },
+			"transitionHours": { "avg": 400 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
 		"*-cattailroot-charred": [{
-			type: "Perish",
-			freshHours: { avg: 288 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg": 288 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}],
 		"*-papyrusroot-charred": [{
-			type: "Perish",
-			freshHours: { avg: 288 },
-			transitionHours: { avg: 72 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
+			"type": "Perish",
+			"freshHours": { "avg": 288 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
 		}],
 		"*-charred": [{
-			type: "Perish",
-			freshHours: { avg: 1764 },
-			transitionHours: { avg: 160 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			"type": "Perish",
+			"freshHours": { "avg": 1764 },
+			"transitionHours": { "avg": 160 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}]
 	}
 }

@@ -1,82 +1,82 @@
 ﻿[
   {
-	ingredientPattern: "H,M",
-	recipeGroup: 5,
-	ingredients: {
+	"ingredientPattern": "H,M",
+	"recipeGroup": 5,
+	"ingredients": {
 		"H": { 
-			type: "item", 
-			code: "acorns:mallet",
-			isTool: true
+			"type": "item", 
+			"code": "acorns:mallet",
+			"isTool": true
 		},
 		"M": { 
-			type: "item", 
-			code: "game:fish-raw", 
-			name: "meat",
-		},
+			"type": "item", 
+			"code": "game:fish-raw", 
+			"name": "meat"
+		}
 	},
-	width: 1,
-	height: 2,
-	name: "fishsmash",
-	output: { type: "item", code: "fishnugget-smashed"  }
+	"width": 1,
+	"height": 2,
+	"name": "fishsmash",
+	"output": { "type": "item", "code": "fishnugget-smashed"  }
   },
   {
-  ingredientPattern: "H,M",
-  recipeGroup: 11,
-  ingredients: {
+  "ingredientPattern": "H,M",
+  "recipeGroup": 11,
+  "ingredients": {
     "H": { 
-      type: "item", 
-      code: "acorns:mallet",
-      isTool: true
+      "type": "item", 
+      "code": "acorns:mallet",
+      "isTool": true
     },
     "M": { 
-      type: "item", 
-      code: "game:fish-partbaked", 
-      name: "meat",
-    },
+      "type": "item", 
+      "code": "game:fish-partbaked", 
+      "name": "meat"
+    }
   },
-  width: 1,
-  height: 2,
-  name: "fishsmash",
-  output: { type: "item", code: "fishnugget-tenderpartbaked"  }
+  "width": 1,
+  "height": 2,
+  "name": "fishsmash",
+  "output": { "type": "item", "code": "fishnugget-tenderpartbaked"  }
   },
   {
-  ingredientPattern: "H,M",
-  recipeGroup: 17,
-  ingredients: {
+  "ingredientPattern": "H,M",
+  "recipeGroup": 17,
+  "ingredients": {
     "H": { 
-      type: "item", 
-      code: "acorns:mallet",
-      isTool: true
+      "type": "item", 
+      "code": "acorns:mallet",
+      "isTool": true
     },
     "M": { 
-      type: "item", 
-      code: "game:fish-cooked", 
-      name: "meat",
-    },
+      "type": "item", 
+      "code": "game:fish-cooked", 
+      "name": "meat"
+    }
   },
-  width: 1,
-  height: 2,
-  name: "fishsmash",
-  output: { type: "item", code: "fishnugget-tender"  }
+  "width": 1,
+  "height": 2,
+  "name": "fishsmash",
+  "output": { "type": "item", "code": "fishnugget-tender"  }
   },
   {
-  ingredientPattern: "H,M",
-  recipeGroup: 23,
-  ingredients: {
+  "ingredientPattern": "H,M",
+  "recipeGroup": 23,
+  "ingredients": {
     "H": { 
-      type: "item", 
-      code: "acorns:mallet",
-      isTool: true
+      "type": "item", 
+      "code": "acorns:mallet",
+      "isTool": true
     },
     "M": { 
-      type: "item", 
-      code: "game:fish-charred", 
-      name: "meat",
-    },
+      "type": "item", 
+      "code": "game:fish-charred", 
+      "name": "meat"
+    }
   },
-  width: 1,
-  height: 2,
-  name: "fishsmash",
-  output: { type: "item", code: "fishnugget-tendercharred"  }
-  },
+  "width": 1,
+  "height": 2,
+  "name": "fishsmash",
+  "output": { "type": "item", "code": "fishnugget-tendercharred"  }
+  }
 ]

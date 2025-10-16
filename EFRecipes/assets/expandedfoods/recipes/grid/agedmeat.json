@@ -1,82 +1,50 @@
 [
   {
-    ingredientPattern: "K,M",
-    recipeGroup: 1,
-	ingredients: {
-		"M": { 
-			type: "item", 
-			code: "agedmeat-*-normal", 
-			name: "meat",
-		},
-    		"K": {
-        		type: "item",
-        		code: "game:knife-*",
-        		isTool: true
-      		},
+    "ingredientPattern": "K,M",
+    "recipeGroup": 1,
+	"ingredients": {
+		"M": { "type": "item", "code": "agedmeat-*-normal", "name": "meat" },
+        "K": { "type": "item", "code": "game:knife-*", "isTool": true }
 	},
-	width: 1,
-	height: 2,
-    	"shapeless": true,
-	output: { type: "item", code: "agedmeat-{meat}-cut"  }
+	"width": 1,
+	"height": 2,
+    "shapeless": true,
+	"output": { "type": "item", "code": "agedmeat-{meat}-cut"  }
   },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 1,
+    "recipeGroup": 1,
     "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:knife-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "agedmeat-*-cut",
-        name: "meat",
-      }
+      "S": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "M": { "type": "item", "code": "agedmeat-*-cut", "name": "meat" }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "agedmeat-{meat}-raw" }
+    "output": { "type": "item", "code": "agedmeat-{meat}-raw" }
    },
   {
     "ingredientPattern": "SM",
-    recipeGroup: 2,
+    "recipeGroup": 2,
     "ingredients": {
-      "S": {
-        type: "item",
-        code: "game:cleaver-*",
-        isTool: true
-      },
-      "M": {
-        type: "item",
-        code: "agedmeat-*-cut",
-        name: "meat",
-      }
+      "S": { "type": "item", "code": "game:cleaver-*", "isTool": true },
+      "M": { "type": "item", "code": "agedmeat-*-cut", "name": "meat" }
     },
     "width": 2,
     "height": 1,
     "shapeless": true,
-    "output": { type: "item", code: "agedmeat-{meat}-raw" }
+    "output": { "type": "item", "code": "agedmeat-{meat}-raw" }
    },
   {
-	ingredientPattern: "K,M",
-    recipeGroup: 2,
-	ingredients: {
-		"M": { 
-			type: "item", 
-			code: "agedmeat-*-normal", 
-			name: "meat",
-		},
-    		"K": {
-        		type: "item",
-       		 	code: "game:cleaver-*",
-        		isTool: true
-      		},
+	"ingredientPattern": "K,M",
+    "recipeGroup": 2,
+	"ingredients": {
+		"M": { "type": "item", "code": "agedmeat-*-normal", "name": "meat" },
+        "K": { "type": "item", "code": "game:cleaver-*", "isTool": true }
 	},
-	width: 1,
-	height: 2,
-    	"shapeless": true,
-	output: { type: "item", code: "agedmeat-{meat}-cut"  }
+	"width": 1,
+	"height": 2,
+    "shapeless": true,
+	"output": { "type": "item", "code": "agedmeat-{meat}-cut"  }
   }
 ]

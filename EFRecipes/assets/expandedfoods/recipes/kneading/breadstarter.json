@@ -1,20 +1,20 @@
 [
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "expandedfoods:yeastwaterportion",  quantity: 100 }]},
-		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "expandedfoods:yeastwaterportion",  "quantity": 100 }]},
+		{"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+		{"inputs": [{ "type": "item", "code": "game:salt", "quantity": 1 }]}
 	],
-	output: { type: "item", code: "expandedfoods:breadstarter-wild", stackSize: 100}
+	"output": { "type": "item", "code": "expandedfoods:breadstarter-wild", "stackSize": 100}
  },
  {
-	ingredients: [
-		{inputs: [{ type: "item", code: "game:waterportion", quantity: 100 }]},
-		{inputs: [{ type: "item", code: "game:waterportion", quantity: 100 }]},
-		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:breadstarter-wild", quantity: 100 }]},
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "game:waterportion", "quantity": 100 }]},
+		{"inputs": [{ "type": "item", "code": "game:waterportion", "quantity": 100 }]},
+		{"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+		{"inputs": [{ "type": "item", "code": "game:flour-*", "quantity": 1 }]},
+		{"inputs": [{ "type": "item", "code": "expandedfoods:breadstarter-wild", "quantity": 100 }]}
 	],
-	output: { type: "item", code: "expandedfoods:breadstarter-wild", stackSize: 300}
- },
+	"output": { "type": "item", "code": "expandedfoods:breadstarter-wild", "stackSize": 300}
+ }
 ]

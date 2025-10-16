@@ -21,10 +21,10 @@
       		        "meat",
         	        "snakemeat"
       	        ]
-            },  
+            }
         ],   
-        side: "server",
-        dependsOn: [{ "modid": "primitivesurvival"}]
+        "side": "server",
+        "dependsOn": [{ "modid": "primitivesurvival"}]
     },
     {
         "file": "game:recipes/cooking/meatystew.json",
@@ -48,10 +48,10 @@
       		        "meat",
         	        "snakemeat"
       	        ]
-            },
+            }
         ],
-        side: "server",
-        dependsOn: [{ "modid": "primitivesurvival" }]
+        "side": "server",
+        "dependsOn": [{ "modid": "primitivesurvival" }]
     },
     {
         "op": "addeach",
@@ -128,92 +128,11 @@
                 "meatnugget",
                 "snakemeat"
             ]
-        },   
+        }
     ],
     "file": "game:recipes/cooking/meatystew.json",
-    side: "server",
-    dependsOn: [ { "modid": "primitivesurvival" } ]
-  },
-  {
-    "op": "addeach",
-    "path": "/ingredients/2/validStacks/-",
-    "value": [
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrabherb-*-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrabherb-*-dried",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrabherb-*-curing",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrabherb-*-cured",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnakeherb-*-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnakeherb-*-dried",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },  
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnakeherb-*-curing",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnakeherb-*-cured",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },  
-    ],
-    "file": "game:recipes/cooking/meatystew.json",
-    side: "server",
-    dependsOn: [ { "modid": "primitivesurvival" }, { "modid": "wildcraftherb" } ]
+    "side": "server",
+    "dependsOn": [ { "modid": "primitivesurvival" } ]
   },
   {
     "file": "game:recipes/cooking/meatystew.json",
@@ -309,90 +228,9 @@
                 "meatnugget",
                 "snakemeat"
             ]
-        },    
+        }
     ],
-    side: "server",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "addeach",
-    "path": "/ingredients/3/validStacks/-",
-    "value": [
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrabherb-*-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrabherb-*-dried",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrabherb-*-curing",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrabherb-*-cured",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnakeherb-*-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnakeherb-*-dried",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        }, 
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnakeherb-*-curing",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnakeherb-*-cured",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },    
-    ],
-    "file": "game:recipes/cooking/meatystew.json",
-    side: "server",
-    dependsOn: [ { "modid": "primitivesurvival" }, { "modid": "wildcraftherb" } ]
-  },
+    "side": "server",
+    "dependsOn": [{ "modid": "primitivesurvival" }]
+  }
 ]

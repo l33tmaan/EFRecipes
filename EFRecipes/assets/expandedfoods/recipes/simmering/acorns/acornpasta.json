@@ -1,16 +1,16 @@
 ﻿[
 	{
-		Ingredients: [
-			{ type: "item", code: "waterportion",  quantity: 10 },
-			{ type: "item", code: "expandedfoods:acornpasta-cut", quantity: 1 },
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion",  "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:acornpasta-cut", "quantity": 1 }
 		],
-		Simmering: {
-			meltingPoint: 150,
-			meltingDuration: 15,
-			smeltedRatio: 1,
-			smeltingType: "bake",
-			smeltedStack: { type: "item", code: "expandedfoods:acornpasta-cooked" },
-			requiresContainer: false
+		"Simmering": {
+			"meltingPoint": 150,
+			"meltingDuration": 15,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:acornpasta-cooked" },
+			"requiresContainer": false
 		}
-	},
+	}
 ]

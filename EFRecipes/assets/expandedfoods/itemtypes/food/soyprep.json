@@ -1,17 +1,15 @@
 {
-	code: "soyprep",
-	maxstacksize: 64,
-	variantgroups: [
-		{ code: "type", states: ["soaked", "roasted", "powdered", "cultured", "slurry",
-												"shelled", "wetshell", "blended"] },
+	"code": "soyprep",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": ["soaked", "roasted", "powdered", "cultured", "slurry",
+												"shelled", "wetshell", "blended"] }
 	],
-	attributes: {
-		displaycaseable: true,
-		shelvable: true,
-		inContainerTextureByType: {
-			"*-slurry": { base: "block/wood/barrel/raw-soybean" },
-			"*-cultured": { base: "block/wood/barrel/raw-soybean" },
-			"*-soaked": { base: "block/wood/barrel/raw-soybean" },
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"inContainerTextureByType": {
+			"@*-(soaked|slurry|cultured)": { "base": "block/wood/barrel/raw-soybean" }
 		},
 		"juiceablePropertiesByType": {
 			"*-slurry": {
@@ -25,7 +23,7 @@
 					"type": "item",
 					"code": "game:pressedmash-soyslurry",
 					"stacksize": 1
-				},
+				}
 			},
 			"*-blended": {
 				"litresPerItem": 0.078125,
@@ -38,83 +36,74 @@
 					"type": "item",
 					"code": "game:pressedmash-soyblend",
 					"stacksize": 1
-				},
-			},
+				}
+			}
 		},
-		bakingPropertiesByType: {
+		"bakingPropertiesByType": {
 			"*-soaked": {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:soyprep-roasted",
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:soyprep-roasted"
 			},
 			"*-roasted": {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 1.0,
-				startScaleY: 0.9,
-				endScaleY: 0.9,
-				initialCode: "expandedfoods:soyprep-soaked",
-			},
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 1.0,
+				"startScaleY": 0.9,
+				"endScaleY": 0.9,
+				"initialCode": "expandedfoods:soyprep-soaked"
+			}
 		},
-		onDisplayTransform: { 
-			translation: { x: 0, y: -0.25, z: 0 },
-			scale: 0.5 
-		},
+		"onDisplayTransform": { 
+			"translation": { "x": 0, "y": -0.25, "z": 0 },
+			"scale": 0.5 
+		}
 	},
-	grindingPropsByType: {
-		"*-roasted": { groundStack: {type: "item", code: "expandedfoods:soyprep-powdered"} },
-		"*-wetshell": { groundStack: {type: "item", code: "expandedfoods:soyprep-blended"} }
+	"grindingPropsByType": {
+		"*-roasted": { "groundStack": {"type": "item", "code": "expandedfoods:soyprep-powdered"} },
+		"*-wetshell": { "groundStack": {"type": "item", "code": "expandedfoods:soyprep-blended"} }
 	},
-	materialDensity: 600,
-	shape: { base: "game:item/food/pickledvegetable/soypile" },
-	textures: { soypile: {base: "item/food/soyprep/{type}"} },
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
-	transitionableProps: [{
-			type: "Perish",
-			freshHours: { avg: 1170 },
-			transitionHours: { avg: 110 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+	"materialDensity": 600,
+	"shape": { "base": "game:item/food/pickledvegetable/soypile" },
+	"textures": { "soypile": {"base": "item/food/soyprep/{type}"} },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"transitionableProps": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1170 },
+			"transitionHours": { "avg": 110 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
 		}],
-	combustiblePropsByType: {
-
+	"combustiblePropsByType": {
 		"*-soaked": {
-
-			meltingPoint: 100,
-
-			meltingDuration: 20,
-
-			smeltedRatio: 1,
-
-			smeltingType: "cook",
-
-			smeltedStack: { type: "item", code: "soyprep-roasted" },
-
-			requiresContainer: false
-
-		},
-	}
-,
-	guiTransform: {
-		translation: { x: 2.5, y: 1, z: 0 },
-		rotation: { x: 137, y: 131, z: 0 },
-		origin: { x: 0.5, y: 0.2, z: 0.5 },
-		scale: 1.38,
-		rotate: true,
+			"meltingPoint": 100,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "soyprep-roasted" },
+			"requiresContainer": false
+		}
 	},
-	tpHandTransform: {
-		translation: { x: -0.7, y: -0.14, z: -0.6 },
-		rotation: { x: 1, y: -1, z: -31 },
-		origin: { x: 0.5, y: 0.1, z: 0.5 },
-		scale: 0.79
+	"guiTransform": {
+		"translation": { "x": 2.5, "y": 1, "z": 0 },
+		"rotation": { "x": 137, "y": 131, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+		"scale": 1.38,
+		"rotate": true
 	},
-	groundTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 0, y: 0, z: 0 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 3.5
+	"tpHandTransform": {
+		"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+		"rotation": { "x": 1, "y": -1, "z": -31 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.79
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.5
 	}
 }

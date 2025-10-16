@@ -1,28 +1,16 @@
 ﻿[
 {
-	Ingredients: [
-		{
-			type: "item",
-			code: "waterportion",
-			quantity: 50
-		},
-		{
-			type: "item",
-			code: "expandedfoods:acornpowder",
-			quantity: 1
-		}
+	"Ingredients": [
+		{ "type": "item", "code": "waterportion", "quantity": 50 },
+		{ "type": "item", "code": "expandedfoods:acornpowder", "quantity": 1 }
 	],
-	Simmering: {
-		meltingPoint: 200,
-		meltingDuration: 110,
-		smeltedRatio: 1,
-		smeltingType: "bake",
-		smeltedStack: {
-			type: "item",
-			code: "expandedfoods:acorncoffee",
-			"quantity":  50
-		},
-		requiresContainer: false
+	"Simmering": {
+		"meltingPoint": 200,
+		"meltingDuration": 110,
+		"smeltedRatio": 1,
+		"smeltingType": "bake",
+		"smeltedStack": { "type": "item", "code": "expandedfoods:acorncoffee", "quantity":  50 },
+		"requiresContainer": false
 	}
-},
+}
 ]
