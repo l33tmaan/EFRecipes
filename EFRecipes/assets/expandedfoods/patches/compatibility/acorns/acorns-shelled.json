@@ -8,10 +8,7 @@
         "meltingDuration": 30,
         "smeltedRatio": 1,
         "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "expandedfoods:acorns-roasted"
-        },
+        "smeltedStack": { "type": "item", "code": "expandedfoods:acorns-roasted" },
         "requiresContainer": false
       }
     },
@@ -31,38 +28,5 @@
     },
     "side": "server",
     "file": "acorns:itemtypes/resource/acorns-shelled.json"
-  },
-  {
-    "op": "addmerge",
-    "path": "/combustiblePropsByType",
-    "value": {
-      "*": {
-        "meltingPoint": 200,
-        "meltingDuration": 30,
-        "smeltedRatio": 1,
-        "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "expandedfoods:acorns-roasted"
-        },
-        "requiresContainer": false
-      }
-    },
-    "side": "server",
-    "file": "acorns120:itemtypes/resource/acorns-shelled.json"
-  },
-  {
-    "op": "addmerge",
-    "path": "/attributes/bakingProperties",
-    "value": {
-      "temp": 200,
-      "levelFrom": 0.0,
-      "levelTo": 0.25,
-      "startScaleY": 1.0,
-      "endScaleY": 1.0,
-      "resultCode": "expandedfoods:acorns-roasted"
-    },
-    "side": "server",
-    "file": "acorns120:itemtypes/resource/acorns-shelled.json"
   }
 ]

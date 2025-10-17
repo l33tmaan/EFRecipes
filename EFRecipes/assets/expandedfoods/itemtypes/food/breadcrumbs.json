@@ -15,7 +15,6 @@
 				"@*-(birch|pine|maple)": 50, 
 				"*-flax": 80, 
 				"*-rice": 160,
-				"*-acorn": 170,
 				"*":  150 
 			},
 			"foodcategory": "Grain" 
@@ -23,19 +22,18 @@
 	},
 	"variantgroups": [
 		{ "code": "type", "states": ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower", 
-			"birch", "pine", "maple", "acorn" ] }
+			"birch", "pine", "maple" ] }
 	],
 	"skipVariants": [ ],
 	"shape": { "base": "item/food/bread/breadcrumbs" },
   	"textures": {
-		"breadcrumbs": {"base": "item/food/grain/herbal/crumbs/breadcrumbs-{type}" }
+		"breadcrumbs": {"base": "item/food/grain/crumbs/breadcrumbs-{type}" }
   	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	"nutritionPropsByType": {
 		"@*-(birch|pine|maple)": { "saturation": 25, "foodcategory": "Grain" },
 		"*-flax": { "saturation": 40, "foodcategory": "Grain" },
 		"*-rice": { "saturation": 80, "foodcategory": "Grain" },
-		"*-acorn": { "saturation": 85, "foodcategory": "Grain" },
 		"*": { "saturation": 75, "foodcategory": "Grain" }
 	},
 	"transitionableProps": [{
@@ -51,7 +49,7 @@
 		"rotation": { "x": 137, "y": 131, "z": 0 },
 		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
 		"scale": 1.65,
-			"rotate":  true,
+        "rotate":  true
 	},
 	"tpHandTransform": {
 		"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
@@ -60,9 +58,9 @@
 		"scale": 0.79
 	},
 	"groundTransform": {
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": 0, "y": 0, "z": 0 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 1.25
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 1.25
 	}
 }

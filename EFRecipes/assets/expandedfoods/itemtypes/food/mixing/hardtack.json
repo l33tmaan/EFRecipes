@@ -6,7 +6,7 @@
 		{
 			"code": "type",
 			"states": [ "spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower",
-				"birch", "pine", "maple", "acorn" ]
+				"birch", "pine", "maple" ]
 		},
 		{ "code": "state", "states": ["raw", "bake1", "bake2", "bake3", "bake4"] }
 	],
@@ -91,9 +91,6 @@
 		"*": { "base": "item/food/hardtack/hardtack-baked"}
 	},
   	"texturesByType": {
-		"*-acorn-bake1": { "bread": { "base": "wildcraftfruit:items/grain/acornbread2" } },
-		"@*-acorn-(raw|bake2|bake3)": { "bread": { "base": "wildcraftfruit:items/grain/acornbread" } },
-		"*-acorn-bake4": { "bread": { "base": "wildcraftfruit:items/grain/acornbread1" } },
 		"*-bake1": { "bread": { "base": "game:item/food/grain/{type}bread2" } },
 		"@*-(raw|bake2|bake3)": { "bread": { "base": "game:item/food/grain/{type}bread" } },
 		"*-bake4": { "bread": { "base": "game:item/food/grain/{type}bread1" } }
@@ -103,22 +100,18 @@
 		"@*-(birch|pine|maple)-bake1": { "saturation": 100, "foodcategory": "Grain" },
 		"*-flax-bake1": { "saturation": 140, "foodcategory": "Grain" },
 		"*-rice-bake1": { "saturation": 300, "foodcategory": "Grain"},
-		"*-acorn-bake1": { "saturation": 320, "foodcategory": "Grain"},
 		"*-bake1": { "saturation": 270, "foodcategory": "Grain"  },
 		"@*-(birch|pine|maple)-bake2": { "saturation": 90, "foodcategory": "Grain" },
 		"*-flax-bake2": { "saturation": 120, "foodcategory": "Grain" },
 		"*-rice-bake2": { "saturation": 270, "foodcategory": "Grain"},
-		"*-acorn-bake2": { "saturation": 290, "foodcategory": "Grain"},
 		"*-bake2": { "saturation": 240, "foodcategory": "Grain"  },
 		"@*-(birch|pine|maple)-bake3": { "saturation": 80, "foodcategory": "Grain" },
 		"*-flax-bake3": { "saturation": 100, "foodcategory": "Grain" },
 		"*-rice-bake3": { "saturation": 240, "foodcategory": "Grain"},
-		"*-acorn-bake3": { "saturation": 260, "foodcategory": "Grain"},
 		"*-bake3": { "saturation": 210, "foodcategory": "Grain"  },
 		"@*-(birch|pine|maple)-bake4": { "saturation": 70, "foodcategory": "Grain" },
 		"*-flax-bake4": { "saturation": 80, "foodcategory": "Grain" },
 		"*-rice-bake4": { "saturation": 210, "foodcategory": "Grain"},
-		"*-acorn-bake4": { "saturation": 230, "foodcategory": "Grain"},
 		"*-bake4": { "saturation": 180, "foodcategory": "Grain"  }
 	},
 	"transitionablePropsByType": {

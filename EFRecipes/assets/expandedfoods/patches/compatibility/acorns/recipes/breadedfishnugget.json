@@ -5,7 +5,7 @@
     "path": "/0/ingredients/2/inputs/-", 
     "value": { "type": "item", "code": "acorns:flour-acorn", "quantity": 1 },
     "side": "server",
-    "dependsOn": [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns" } ]
  },
  {
     "file": "expandedfoods:recipes/kneading/breadedfishnugget.json",
@@ -13,22 +13,6 @@
     "path": "/1/ingredients/2/inputs/-", 
     "value": { "type": "item", "code": "acorns:flour-acorn", "quantity": 1 },
     "side": "server",
-    "dependsOn": [{ "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/breadedfishnugget.json",
-    "op": "addmerge", 
-    "path": "/0/ingredients/2/inputs/-", 
-    "value": { "type": "item", "code": "acorns:flour-acorn", "quantity": 1 },
-    "side": "server",
-    "dependsOn": [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/breadedfishnugget.json",
-    "op": "addmerge", 
-    "path": "/1/ingredients/2/inputs/-", 
-    "value": { "type": "item", "code": "acorns:flour-acorn", "quantity": 1 },
-    "side": "server",
-    "dependsOn": [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+    "dependsOn": [{ "modid": "acorns" } ]
  }
 ]

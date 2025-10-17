@@ -29,16 +29,8 @@
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {
-      "*-pickled": {
-        "all": {
-          "base": "game:item/food/egg/pickled"
-        }
-      },
-      "*": {
-        "all": {
-          "base": "game:item/food/egg/chicken"
-        }
-      }
+      "*-pickled": { "all": { "base": "game:item/food/egg/pickled" } },
+      "*": { "all": { "base": "game:item/food/egg/chicken" } }
     },
     "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
@@ -50,32 +42,18 @@
       "*-pickled": [
         {
           "type": "Perish",
-          "freshHours": {
-            "avg": 400
-          },
-          "transitionHours": {
-            "avg": 72
-          },
-          "transitionedStack": {
-            "type": "item",
-            "code": "game:rot"
-          },
+          "freshHours": { "avg": 400 },
+          "transitionHours": { "avg": 72 },
+          "transitionedStack": { "type": "item", "code": "game:rot" },
           "transitionRatio": 0.5
         }
       ],
       "*": [
         {
           "type": "Perish",
-          "freshHours": {
-            "avg": 120
-          },
-          "transitionHours": {
-            "avg": 24
-          },
-          "transitionedStack": {
-            "type": "item",
-            "code": "game:rot"
-          },
+          "freshHours": { "avg": 120 },
+          "transitionHours": { "avg": 24 },
+          "transitionedStack": { "type": "item", "code": "game:rot" },
           "transitionRatio": 0.5
         }
       ]
@@ -93,14 +71,8 @@
     "op": "addmerge",
     "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
-      "*-pickled": {
-        "saturation": 235,
-        "foodcategory": "Protein"
-      },
-      "*": {
-        "saturation": 280,
-        "foodcategory": "Protein"
-      }
+      "*-pickled": { "saturation": 235, "foodcategory": "Protein" },
+      "*": { "saturation": 280, "foodcategory": "Protein" }
     },
     "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
@@ -108,10 +80,7 @@
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-pickled",
-    "value": {
-      "saturation": 215,
-      "foodcategory": "Protein"
-    },
+    "value": { "saturation": 215, "foodcategory": "Protein" },
     "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
@@ -119,14 +88,8 @@
     "op": "addmerge",
     "path": "/attributes/inPiePropertiesByType",
     "value": {
-      "*-raw": {
-        "texture": "game:block/food/pie/fill-egg",
-        "partType": "Filling"
-      },
-      "*-boiled": {
-        "texture": "game:block/food/pie/fill-egg",
-        "partType": "Filling"
-      }
+      "*-raw": { "texture": "game:block/food/pie/fill-egg", "partType": "Filling" },
+      "*-boiled": { "texture": "game:block/food/pie/fill-egg", "partType": "Filling" }
     },
     "side": "server",
     "file": "moreanimals:itemtypes/egg.json"

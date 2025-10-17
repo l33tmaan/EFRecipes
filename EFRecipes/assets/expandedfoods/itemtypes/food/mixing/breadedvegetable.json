@@ -4,7 +4,7 @@
 	"maxstacksize": 64,
 	"variantgroups": [
 		{ "code": "type",	"states": [ "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower", 
-				"birch", "pine", "maple", "acorn" ]},
+				"birch", "pine", "maple" ]},
 		{ "code": "veggie", "states": ["carrot", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},	
 		{ "code": "state", "states": ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled"] }
 	],
@@ -24,7 +24,6 @@
       		"game:flour-pine" : { "saturation": 50, "foodcategory": "Grain" },
       		"game:flour-maple" : { "saturation": 50, "foodcategory": "Grain" },
 			"acorns:flour-acorn": {"saturation": 150, "foodcategory": "Grain"},
-			"wildcraft:flour-acorn": {"saturation": 150, "foodcategory": "Grain"},
 			"expandedfoods:breadcrumbs-flax": {"saturation": 80, "foodcategory": "Grain"},
 			"expandedfoods:breadcrumbs-rice": {"saturation": 160, "foodcategory": "Grain"},
 			"expandedfoods:breadcrumbs-spelt": {"saturation": 150, "foodcategory": "Grain"},
@@ -242,16 +241,16 @@
       		"origin": { "x": 0.5, "y": 0.05, "z": 0.5 },
       		"scale": 3.6
     	},
+        "*-bellpepper-*": {
+            "translation": { "x": 3, "y": 6, "z": 0 },
+            "rotation": { "x": -37, "y": 135, "z": -155 },
+            "origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
+            "scale": 3
+        },
 		"*-cassava-*": {
 			"translation": { "x": 0, "y": 0, "z": 0 },
 			"rotation": { "x": 134, "y": -173, "z": -8 },
 			"origin": { "x": 0.5, "y": 0.09, "z": 0.5 },
-			"scale": 3
-		},
-		"*-bellpepper-*": {
-			"translation": { "x": 3, "y": 6, "z": 0 },
-			"rotation": { "x": -37, "y": 135, "z": -155 },
-			"origin": { "x": 0.5, "y": 0.15, "z": 0.5 },
 			"scale": 3
 		},
 		"*": { 

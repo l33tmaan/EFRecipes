@@ -4,24 +4,8 @@
         "op": "addeach",
         "path": "/ingredients/0/validStacks/-",
         "value": [
-            {
-                "type": "item",
-                "code": "expandedfoods:crabnugget-raw",
-                "shapeElement": "bowl/meat stew/*",
-	            "textureMapping": [
-      		       "meat",
-        	        "crabmeat"
-      	        ]
-            },        
-            {
-                "type": "item",
-                "code": "expandedfoods:snakenugget-raw",
-                "shapeElement": "bowl/meat stew/*",
-	            "textureMapping": [
-      		        "meat",
-        	        "snakemeat"
-      	        ]
-            }
+            { "type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "crabmeat" ] },        
+            { "type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "snakemeat" ] }
         ],   
         "side": "server",
         "dependsOn": [{ "modid": "primitivesurvival"}]
@@ -31,24 +15,8 @@
         "op": "addeach",
         "path": "/ingredients/2/validStacks/-",
         "value": [
-            {
-                "type": "item",
-                "code": "expandedfoods:crabnugget-raw",
-                "shapeElement": "bowl/meatnugget 1/*",
-	            "textureMapping": [
-      		        "meat",
-        	        "crabmeat"
-      	        ]
-            },
-            {
-                "type": "item",
-                "code": "expandedfoods:snakenugget-raw",
-                "shapeElement": "bowl/meatnugget 1/*",
-	            "textureMapping": [
-      		        "meat",
-        	        "snakemeat"
-      	        ]
-            }
+            { "type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meat", "crabmeat" ] },
+            { "type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meat", "snakemeat" ] }
         ],
         "side": "server",
         "dependsOn": [{ "modid": "primitivesurvival" }]
@@ -57,78 +25,14 @@
         "op": "addeach",
         "path": "/ingredients/2/validStacks/-",
         "value": [
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrab-*-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrab-*-dried",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrab-*-curing",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },   
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrab-*-cured",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },   
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnake-*-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnake-*-dried",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnake-*-curing",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },   
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnake-*-cured",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        }
+        { "type": "item", "code": "expandedfoods:sausagecrab-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },    
+        { "type": "item", "code": "expandedfoods:sausagecrab-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },    
+        { "type": "item", "code": "expandedfoods:sausagecrab-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },   
+        { "type": "item", "code": "expandedfoods:sausagecrab-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },   
+        { "type": "item", "code": "expandedfoods:sausagesnake-*-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },    
+        { "type": "item", "code": "expandedfoods:sausagesnake-*-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagesnake-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },   
+        { "type": "item", "code": "expandedfoods:sausagesnake-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] }
     ],
     "file": "game:recipes/cooking/meatystew.json",
     "side": "server",
@@ -139,96 +43,16 @@
     "op": "addeach",
     "path": "/ingredients/3/validStacks/-",
     "value": [
-        {
-            "type": "item",
-            "code": "expandedfoods:crabnugget-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-	        "textureMapping": [
-      		    "meat",
-        	    "crabmeat"
-      	    ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:snakenugget-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-	        "textureMapping": [
-      		    "meat",
-        	    "snakemeat"
-      	    ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrab-*-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrab-*-dried",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrab-*-curing",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagecrab-*-cured",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "crabmeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnake-*-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnake-*-dried",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnake-*-curing",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        },    
-        {
-            "type": "item",
-            "code": "expandedfoods:sausagesnake-*-cured",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": [
-                "meatnugget",
-                "snakemeat"
-            ]
-        }
+        { "type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meat", "crabmeat" ] },
+        { "type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meat", "snakemeat" ] },
+        { "type": "item", "code": "expandedfoods:sausagecrab-*-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },    
+        { "type": "item", "code": "expandedfoods:sausagecrab-*-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },    
+        { "type": "item", "code": "expandedfoods:sausagecrab-*-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },    
+        { "type": "item",  "code": "expandedfoods:sausagecrab-*-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },    
+        { "type": "item", "code": "expandedfoods:sausagesnake-*-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },    
+        { "type": "item", "code": "expandedfoods:sausagesnake-*-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },    
+        { "type": "item", "code": "expandedfoods:sausagesnake-*-curing", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },    
+        { "type": "item", "code": "expandedfoods:sausagesnake-*-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] }
     ],
     "side": "server",
     "dependsOn": [{ "modid": "primitivesurvival" }]

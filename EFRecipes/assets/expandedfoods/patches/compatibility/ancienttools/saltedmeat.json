@@ -299,60 +299,42 @@
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-poultry-charred",
-    "value": {
-      "satiety": 80,
-      "foodcategory": "Protein"
-    },
+    "value": { "satiety": 80, "foodcategory": "Protein" },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-bushmeat-charred",
-    "value": {
-      "satiety": 50,
-      "foodcategory": "Protein"
-    },
+    "value": { "satiety": 50, "foodcategory": "Protein" },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-redmeat-charred",
-    "value": {
-      "satiety": 110,
-      "foodcategory": "Protein"
-    },
+    "value": { "satiety": 110, "foodcategory": "Protein" },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-poultry-partbaked",
-    "value": {
-      "satiety": 90,
-      "foodcategory": "Protein"
-    },
+    "value": { "satiety": 90, "foodcategory": "Protein" },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-bushmeat-partbaked",
-    "value": {
-      "satiety": 55,
-      "foodcategory": "Protein"
-    },
+    "value": { "satiety": 55, "foodcategory": "Protein" },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-redmeat-partbaked",
-    "value": {
-      "satiety": 125,
-      "foodcategory": "Protein"
-    },
+    "value": { "satiety": 125, "foodcategory": "Protein" },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
   },
@@ -362,16 +344,9 @@
     "value": [
       {
         "type": "Perish",
-        "freshHours": {
-          "avg": 1008
-        },
-        "transitionHours": {
-          "avg": 350
-        },
-        "transitionedStack": {
-          "type": "item",
-          "code": "game:rot"
-        },
+        "freshHours": { "avg": 1008 },
+        "transitionHours": { "avg": 350 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
         "transitionRatio": 1
       }
     ],
@@ -384,16 +359,9 @@
     "value": [
       {
         "type": "Perish",
-        "freshHours": {
-          "avg": 288
-        },
-        "transitionHours": {
-          "avg": 192
-        },
-        "transitionedStack": {
-          "type": "item",
-          "code": "game:rot"
-        },
+        "freshHours": { "avg": 288 },
+        "transitionHours": { "avg": 192 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
         "transitionRatio": 1
       }
     ],
@@ -424,18 +392,14 @@
   {
     "op": "addmerge",
     "path": "/texturesbytype/*-charred",
-    "value": {
-	    "meat": { "base": "expandedfoods:item/food/saltedmeat/saltedcharred" }
-    },
+    "value": { "meat": { "base": "expandedfoods:item/food/saltedmeat/saltedcharred" } },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/texturesbytype/*-partbaked",
-    "value": {
-	    "meat": { "base": "expandedfoods:item/food/saltedmeat/saltedpartbaked" }
-    },
+    "value": { "meat": { "base": "expandedfoods:item/food/saltedmeat/saltedpartbaked" } },
     "side": "server",
     "file": "ancienttools:itemtypes/food/saltedmeat.json"
   },

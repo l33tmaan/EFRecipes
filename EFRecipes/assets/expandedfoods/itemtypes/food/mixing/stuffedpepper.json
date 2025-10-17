@@ -6,7 +6,7 @@
 		{
 			"code": "type",
 			"states": [ "bare", "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower", 
-				"birch", "pine", "maple", "acorn" ]},
+				"birch", "pine", "maple" ]},
 		{ "code": "state", "states": ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupcooked", "syrupcharred", "oiled"] }
 	],
 	"skipVariants": [
@@ -32,7 +32,6 @@
       		"game:flour-pine" : { "saturation": 50, "foodcategory": "Grain" },
       		"game:flour-maple" : { "saturation": 50, "foodcategory": "Grain" },
 			"acorns:flour-acorn": {"saturation": 150, "foodcategory": "Grain"},
-			"wildcraft:flour-acorn": {"saturation": 150, "foodcategory": "Grain"},
 			"expandedfoods:breadcrumbs-flax": {"saturation": 80, "foodcategory": "Grain"},
 			"expandedfoods:breadcrumbs-rice": {"saturation": 160, "foodcategory": "Grain"},
 			"expandedfoods:breadcrumbs-spelt": {"saturation": 150, "foodcategory": "Grain"},

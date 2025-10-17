@@ -11,59 +11,23 @@
     "op": "addmerge",
     "path": "/attributes/herbRackTransformByType",
     "value": {
-	"*-bushmeat-*": {
-      		"translation": {
-        		"x": 0.04,
-        		"y": 0.35,
-        		"z": 0.03
-      		},
-      		"rotation": {
-        		"x": 0,
-        		"y": -90,
-        		"z": 90
-      		},
-      		"origin": {
-        		"x": 0.5,
-        		"y": 0,
-        		"z": 0.5
-      		},
-      		"scale": 1
-    	},
-	"*-poultry-*": {
-      		"translation": {
-        		"x": 0.02,
-        		"y": 0.35,
-        		"z": -0.02
-      		},
-      		"rotation": {
-        		"x": 0,
-        		"y": -90,
-        		"z": -90
-      		},
-      		"origin": {
-        		"x": 0.5,
-        		"y": 0,
-        		"z": 0.5
-      		},
-      		"scale": 1
-    	},
-	"*-redmeat-*": {
-      		"translation": {
-        		"x": -0.05,
-        		"y": 0.28,
-        		"z": -0.02
-      		},
-      		"rotation": {
-        		"x": 0,
-        		"y": -90,
-        		"z": -90
-      		},
-      		"origin": {
-        		"x": 0.5,
-        		"y": 0,
-        		"z": 0.5
-      		},
-      		"scale": 1
+	  "*-bushmeat-*": {
+        "translation": { "x": 0.04, "y": 0.35, "z": 0.03 },
+        "rotation": { "x": 0, "y": -90, "z": 90 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 1
+      },
+	  "*-poultry-*": {
+        "translation": { "x": 0.02, "y": 0.35, "z": -0.02 },
+        "rotation": { "x": 0, "y": -90, "z": -90 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 1
+      },
+	  "*-redmeat-*": {
+        "translation": { "x": -0.05, "y": 0.28, "z": -0.02 },
+        "rotation": { "x": 0, "y": -90, "z": -90 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 1
     	}
     },
     "file": "expandedfoods:itemtypes/food/agedmeat.json",

@@ -5,7 +5,7 @@
     "path": "/0/ingredients/1/inputs/-", 
     "value": [{ "type": "item", "code": "expandedfoods:saltedmeatnugget-*-raw", "quantity": 1}],
     "side": "server",
-    "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "ancienttools"}, { "modid": "acorns" }]
  },
  {
    "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
@@ -13,7 +13,7 @@
     "path": "/1/ingredients/1/inputs/-", 
     "value": [{ "type": "item", "code": "expandedfoods:saltedmeatnugget-*-raw", "quantity": 1}],
     "side": "server",
-    "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "ancienttools"}, { "modid": "acorns" }]
  },
  {
    "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
@@ -21,7 +21,7 @@
     "path": "/1/ingredients/2/inputs/-", 
     "value": [{ "type": "item", "code": "expandedfoods:saltedmeatnugget-*-raw", "quantity": 1}],
     "side": "server",
-    "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "ancienttools"}, { "modid": "acorns" }]
  },
  {
    "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
@@ -29,38 +29,6 @@
     "path": "/2/ingredients/1/inputs/-", 
     "value": [{ "type": "item", "code": "expandedfoods:saltedmeatnugget-*-raw", "quantity": 1}],
     "side": "server",
-    "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns" }, { "modid": "acorns120", "invert": true }]
- },
- {
-   "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
-    "op": "addeach", 
-    "path": "/0/ingredients/1/inputs/-", 
-    "value": [{ "type": "item", "code": "expandedfoods:saltedmeatnugget-*-raw", "quantity": 1}],
-    "side": "server",
-    "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
- },
- {
-   "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
-    "op": "addeach", 
-    "path": "/1/ingredients/1/inputs/-", 
-    "value": [{ "type": "item", "code": "expandedfoods:saltedmeatnugget-*-raw", "quantity": 1}],
-    "side": "server",
-    "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
- },
- {
-   "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
-    "op": "addeach", 
-    "path": "/1/ingredients/2/inputs/-", 
-    "value": [{ "type": "item", "code": "expandedfoods:saltedmeatnugget-*-raw", "quantity": 1}],
-    "side": "server",
-    "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
- },
- {
-   "file": "expandedfoods:recipes/kneading/acorns/acornstuffedpepper.json",
-    "op": "addeach", 
-    "path": "/2/ingredients/1/inputs/-", 
-    "value": [{ "type": "item", "code": "expandedfoods:saltedmeatnugget-*-raw", "quantity": 1}],
-    "side": "server",
-    "dependsOn": [{ "modid": "ancienttools" }, { "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
+    "dependsOn": [{ "modid": "ancienttools"}, { "modid": "acorns" }]
  }
 ]

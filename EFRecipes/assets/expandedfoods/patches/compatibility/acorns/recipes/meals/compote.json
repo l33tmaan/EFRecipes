@@ -5,7 +5,7 @@
     "value": { "type": "item", "code": "expandedfoods:acornportion",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["nuts", "acorns"]}, 
     "file": "game:recipes/cooking/compote.json",
     "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns"}]
   },
   {
     "op": "addmerge",
@@ -13,22 +13,6 @@
     "value": { "type": "item", "code": "expandedfoods:acornportion",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["nuts", "acorns"]}, 
     "file": "game:recipes/cooking/compote.json",
     "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
-  },
-  {
-    "op": "addmerge",
-    "path": "/ingredients/5/validStacks/-",
-    "value": { "type": "item", "code": "expandedfoods:acornportion",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["nuts", "acorns"]}, 
-    "file": "game:recipes/cooking/compote.json",
-    "side": "server",
-    "dependsOn": [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
-  },
-  {
-    "op": "addmerge",
-    "path": "/ingredients/6/validStacks/-",
-    "value": { "type": "item", "code": "expandedfoods:acornportion",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["nuts", "acorns"]}, 
-    "file": "game:recipes/cooking/compote.json",
-    "side": "server",
-    "dependsOn": [{ "modid": "acorns120" }, { "modid": "acorns", "invert": true }]
-  },
+    "dependsOn": [{ "modid": "acorns"}]
+  }
 ]

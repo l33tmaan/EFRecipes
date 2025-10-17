@@ -5,7 +5,7 @@
     "path": "/skipVariants",
     "value": [ "candy-acorn-raw" ],
     "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/candy.json",
@@ -13,7 +13,7 @@
     "path": "/0/enabled", 
     "value": "false",
     "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/candy.json",
@@ -21,6 +21,6 @@
     "path": "/1/enabled", 
     "value": "false",
     "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }, { "modid": "acorns120", "invert": true }]
+    "dependsOn": [{ "modid": "acorns", "invert": true }]
  }
 ]

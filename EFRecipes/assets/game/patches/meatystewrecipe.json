@@ -441,12 +441,6 @@
   },
   {
     "op": "addmerge",
-    "path": "/ingredients/8/validStacks/-",
-    "side": "server",
-    "file": "recipes/cooking/meatystew.json"
-  },
- {
-    "op": "addmerge",
     "path": "/ingredients/7",
     "value": {
       "code": "dryfruit-extra",
@@ -532,19 +526,19 @@
     "path": "/ingredients/11",
     "value": {
       "code": "broth",
-        "validStacks": [
-            { "type": "item", "code": "expandedfoods:brothportion-bone", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "bonebroth" ] },
-            { "type": "item", "code": "expandedfoods:brothportion-meat", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "meatbroth" ] },
-            { "type": "item", "code": "expandedfoods:brothportion-vegetable", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "vegetablebroth" ] },
-            { "type": "item", "code": "expandedfoods:clarifiedbrothportion-bone", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "bonebroth" ] },
-            { "type": "item", "code": "expandedfoods:clarifiedbrothportion-meat", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "meatbroth" ] },
-            { "type": "item", "code": "expandedfoods:clarifiedbrothportion-vegetable", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "vegetablebroth" ] },
-            { "type": "item", "code": "expandedfoods:brothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] },
-            { "type": "item", "code": "expandedfoods:clarifiedbrothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] }
-        ],
+      "validStacks": [
+        { "type": "item", "code": "expandedfoods:brothportion-bone", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "bonebroth" ] },
+        { "type": "item", "code": "expandedfoods:brothportion-meat", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "meatbroth" ] },
+        { "type": "item", "code": "expandedfoods:brothportion-vegetable", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "vegetablebroth" ] },
+        { "type": "item", "code": "expandedfoods:clarifiedbrothportion-bone", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "bonebroth" ] },
+        { "type": "item", "code": "expandedfoods:clarifiedbrothportion-meat", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "meatbroth" ] },
+        { "type": "item", "code": "expandedfoods:clarifiedbrothportion-vegetable", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "vegetablebroth" ] },
+        { "type": "item", "code": "expandedfoods:brothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] },
+        { "type": "item", "code": "expandedfoods:clarifiedbrothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] }
+      ],
       "minQuantity": 0,
-        "maxQuantity": 1,
-        "portionSizeLitres": 0.5
+      "maxQuantity": 1,
+      "portionSizeLitres": 0.5
     },
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
@@ -555,9 +549,9 @@
     "value": {
       "code": "nuts-extra1",
       "validStacks": [
-            { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },
-            { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },      
-            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "peanut" ] }    
+        { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },
+        { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },      
+        { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "peanut" ] }    
       ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -571,9 +565,9 @@
     "value": {
       "code": "nuts-extra2",
       "validStacks": [
-            { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "peanut" ] },
-            { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "peanut" ] },      
-            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "peanut" ] }     
+        { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "peanut" ] },
+        { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "peanut" ] },      
+        { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "peanut" ] }     
       ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -587,11 +581,7 @@
     "value": {
       "code": "eggyolk",
       "validStacks": [
-        {
-          "type": "item",
-          "code": "aculinaryartillery:eggyolkportion-chicken",
-          "textureMapping": [ "topping", "eggyolkchicken" ]
-        }
+        { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "textureMapping": [ "topping", "eggyolkchicken" ] }
       ],
       "minQuantity": 0,
         "maxQuantity": 1,
