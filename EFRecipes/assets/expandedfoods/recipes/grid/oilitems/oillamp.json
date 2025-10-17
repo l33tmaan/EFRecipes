@@ -3,8 +3,8 @@
 	"ingredientPattern": "P,B",
 	"recipeGroup": 1,
 	"ingredients": {
-		"P": { "type": "block", "code": "expandedfoods:bowl-peat" },
-		"B": { "type": "block", "code": "game:bowl-fired", "returnedStack": { "type": "block", "code": "game:air" } }
+		"P": { "type": "block", "code": "expandedfoods:bowl-peat-*" },
+		"B": { "type": "block", "code": "game:bowl-*-fired", "returnedStack": { "type": "block", "code": "game:air" }, "name": "bowl" }
 	},
 	"attributes": {
 		"liquidContainerProps": {
@@ -14,14 +14,14 @@
 	},
 	"width": 1,
 	"height": 2,
-	"output": { "type": "block", "code": "game:oillamp-up"  }
+	"output": { "type": "block", "code": "game:oillamp-{bowl}-up"  }
  },
   {
 	"ingredientPattern": "P,B",
 	"recipeGroup": 1,
 	"ingredients": {
-		"P": { "type": "block", "code": "expandedfoods:bowl-peat" },
-		"B": { "type": "block", "code": "game:bowl-fired", "returnedStack": { "type": "block", "code": "game:air" } }
+        "P": { "type": "block", "code": "expandedfoods:bowl-peat-*" },
+        "B": { "type": "block", "code": "game:bowl-*-fired", "returnedStack": { "type": "block", "code": "game:air" }, "name": "bowl" }
 	},
 	"attributes": {
 		"liquidContainerProps": {
@@ -31,14 +31,14 @@
 	},
 	"width": 1,
 	"height": 2,
-	"output": { "type": "block", "code": "game:oillamp-up"  }
+    "output": { "type": "block", "code": "game:oillamp-{bowl}-up"  }
  },
   {
 	"ingredientPattern": "P,B",
 	"recipeGroup": 1,
 	"ingredients": {
-		"P": { "type": "block", "code": "expandedfoods:bowl-peat" },
-		"B": { "type": "block", "code": "game:bowl-fired", "returnedStack": { "type": "block", "code": "game:air" } }
+        "P": { "type": "block", "code": "expandedfoods:bowl-peat-*" },
+        "B": { "type": "block", "code": "game:bowl-*-fired", "returnedStack": { "type": "block", "code": "game:air" }, "name": "bowl" }
 	},
 	"attributes": {
 		"liquidContainerProps": {
@@ -48,14 +48,14 @@
 	},
 	"width": 1,
 	"height": 2,
-	"output": { "type": "block", "code": "game:oillamp-up"  }
+    "output": { "type": "block", "code": "game:oillamp-{bowl}-up"  }
  },
   {
 	"ingredientPattern": "P,B",
 	"recipeGroup": 1,
 	"ingredients": {
-		"P": { "type": "block", "code": "expandedfoods:bowl-peat" },
-		"B": { "type": "block", "code": "game:bowl-fired" }
+        "P": { "type": "block", "code": "expandedfoods:bowl-peat-*" },
+        "B": { "type": "block", "code": "game:bowl-*-fired", "returnedStack": { "type": "block", "code": "game:air" }, "name": "bowl" }
 	},
 	"attributes": {
 		"liquidContainerProps": {
@@ -65,14 +65,14 @@
 	},
 	"width": 1,
 	"height": 2,
-	"output": { "type": "block", "code": "game:oillamp-up"  }
+    "output": { "type": "block", "code": "game:oillamp-{bowl}-up"  }
  },
   {
 	"ingredientPattern": "P,B",
 	"recipeGroup": 1,
 	"ingredients": {
-		"P": { "type": "block", "code": "expandedfoods:bowl-peat" },
-		"B": { "type": "block", "code": "game:bowl-fired", "returnedStack": { "type": "block", "code": "game:air" } }
+        "P": { "type": "block", "code": "expandedfoods:bowl-peat-*" },
+        "B": { "type": "block", "code": "game:bowl-*-fired", "returnedStack": { "type": "block", "code": "game:air" }, "name": "bowl" }
 	},
 	"attributes": {
 		"liquidContainerProps": {
@@ -82,14 +82,14 @@
 	},
 	"width": 1,
 	"height": 2,
-	"output": { "type": "block", "code": "game:oillamp-up"  }
+    "output": { "type": "block", "code": "game:oillamp-{bowl}-up"  }
  },
   {
 	"ingredientPattern": "P,B",
 	"recipeGroup": 1,
 	"ingredients": {
-		"P": { "type": "block", "code": "expandedfoods:bowl-peat" },
-		"B": { "type": "block", "code": "game:bowl-fired", "returnedStack": { "type": "block", "code": "game:air" } }
+        "P": { "type": "block", "code": "expandedfoods:bowl-peat-*" },
+        "B": { "type": "block", "code": "game:bowl-*-fired", "returnedStack": { "type": "block", "code": "game:air" }, "name": "bowl" }
 	},
 	"attributes": {
 		"liquidContainerProps": {
@@ -99,7 +99,7 @@
 	},
 	"width": 1,
 	"height": 2,
-	"output": { "type": "block", "code": "game:oillamp-up"  }
+    "output": { "type": "block", "code": "game:oillamp-{bowl}-up"  }
  },
   {
 	"ingredientPattern": "P,L,B",
@@ -107,10 +107,10 @@
 	"ingredients": {
 		"P": { "type": "block", "code": "game:peatbrick" },
 		"L": { "type": "block", "code": "expandedfoods:hardlard", "quantity": 2 },
-		"B": { "type": "block", "code": "game:bowl-fired" }
+		"B": { "type": "block", "code": "game:bowl-*-fired", "name": "bowl" }
 	},
 	"width": 1,
 	"height": 3,
-	"output": { "type": "block", "code": "game:oillamp-up"  }
+    "output": { "type": "block", "code": "game:oillamp-{bowl}-up"  }
  }
 ]

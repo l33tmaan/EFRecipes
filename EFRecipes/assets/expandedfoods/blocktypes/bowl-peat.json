@@ -1,5 +1,8 @@
 ﻿{
 	"code": "bowl-peat",
+    "variantgroups": [
+      { "code": "color", "states": ["blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan" ] }
+    ],
 	"behaviors": [
 		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
 		{ "name": "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" },	
@@ -22,7 +25,7 @@
 	},
 	"textures": {
 		"transparent": { "base": "game:block/soil/peat" },
-		"ceramic": { "base": "game:block/clay/ceramic" }
+		"ceramic": { "base": "game:block/clay/hardened/{color}" }
 	},
 	"sideopaque": {
 		"all": false
