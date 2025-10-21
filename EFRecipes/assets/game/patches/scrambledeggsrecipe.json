@@ -20,6 +20,20 @@
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json"
   },
+    {
+    "op": "addmerge",
+    "path": "/ingredients/1/portionSizeLitres",
+    "value": 0.2,
+    "side": "server",
+    "file": "game:recipes/cooking/scrambledeggs.json"
+  },
+    {
+    "op": "addmerge",
+    "path": "/ingredients/2/portionSizeLitres",
+    "value": 0.2,
+    "side": "server",
+    "file": "game:recipes/cooking/scrambledeggs.json"
+  },
   {
     "op": "replace",
     "path": "/ingredients/0/validStacks",
@@ -32,14 +46,30 @@
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
-    "op": "remove",
-    "path": "/ingredients/3",
+    "op": "replace",
+    "path": "/ingredients/1/validStacks",
+    "value": [
+      { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "shapeElement": "bowl/egg/*", "textureMapping": [ "scrambledegg", "group1" ] },
+      { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "shapeElement": "bowl/egg/*", "textureMapping": [ "scrambledegg", "group7" ] },
+      { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "shapeElement": "bowl/egg/*", "textureMapping": [ "scrambledegg", "group7" ] }
+    ],
     "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "replace",
-    "path": "/ingredients/3",
+    "path": "/ingredients/2/validStacks",
+    "value": [
+      { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "shapeElement": "bowl/egg/*", "textureMapping": [ "scrambledegg", "group1" ] },
+      { "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "shapeElement": "bowl/egg/*", "textureMapping": [ "scrambledegg", "group7" ] },
+      { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-*", "shapeElement": "bowl/egg/*", "textureMapping": [ "scrambledegg", "group7" ] }
+    ],
+    "side": "server",
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/-",
     "value": {
       "code": "milk-base",
       "validStacks": [
@@ -55,22 +85,9 @@
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
-    "op": "addmerge",
-    "path": "/ingredients/4",
-    "value": {
-      "code": "vegetable-extra",
-      "validStacks": [
-        { "type": "item", "code": "vegetable-cabbage", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-carrot", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-onion", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-parsnip", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-turnip", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-pumpkin", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-cassava", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-bellpepper", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "mushroom-*", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "legume-soybean", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "pickledvegetable-*", "shapeElement": "bowl/vegetable 1/*" },
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [
         { "type": "item", "code": "pickledlegume-soybean", "shapeElement": "bowl/vegetable 1/*" },
         { "type": "item", "code": "expandedfoods:choppedvegetable-carrot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group1" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-pickledcarrot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group1" ] },
@@ -126,31 +143,13 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-cattailroot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group11" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group11" ] }
       ],
-      "minQuantity": 0,
-      "maxQuantity": 1
-    },
     "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
-    "op": "addmerge",
-    "path": "/ingredients/5",
-    "value": {
-      "code": "vegetable-base2",
-      "validStacks": [
-
-        { "type": "item", "code": "vegetable-cabbage", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-carrot", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-onion", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-parsnip", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-turnip", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-pumpkin", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-cassava", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-bellpepper", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "mushroom-*", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "legume-soybean", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "pickledvegetable-*", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "pickledlegume-soybean", "shapeElement": "bowl/vegetable 2/*" },
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value":[
         { "type": "item", "code": "expandedfoods:choppedvegetable-carrot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group1" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-pickledcarrot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group1" ] },
         { "type": "item", "code": "expandedfoods:choppedmushroom-almondmushroom", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group3" ] },
@@ -205,15 +204,12 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-cattailroot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group11" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group11" ] }
       ],
-      "minQuantity": 0,
-      "maxQuantity": 1
-    },
     "side": "server",
     "file": "recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "addmerge",
-    "path": "/ingredients/6",
+    "path": "/ingredients/7",
     "value": {
       "code": "protein-extra",
       "validStacks": [
@@ -271,7 +267,7 @@
   },
  {
     "op": "addeach",
-    "path": "/ingredients/6/validStacks/-",
+    "path": "/ingredients/7/validStacks/-",
     "value": [
         { "type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "crabmeat"  ] },
         { "type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "snakemeat"  ] },
@@ -298,7 +294,7 @@
   },
  {
     "op": "addeach",
-    "path": "/ingredients/6/validStacks/-",
+    "path": "/ingredients/7/validStacks/-",
     "value": [
         { "type": "item", "code": "ancienttools:saltedmeat-bushmeat-raw",  "shapeElement": "bowl/redmeat/*", "textureMapping": ["meatnugget", "bushmeat-raw"] },
         { "type": "item", "code": "expandedfoods:saltedmeatnugget-bushmeat-raw",  "shapeElement": "bowl/meatnugget 1/*", "textureMapping": ["meatnugget", "bushmeat-raw"] },
@@ -316,7 +312,7 @@
   },
   {
     "op": "addmerge",
-    "path": "/ingredients/7",
+    "path": "/ingredients/8",
     "value": {
       "code": "meat-extra",
       "validStacks": [
@@ -374,7 +370,7 @@
   },
  {
     "op": "addeach",
-    "path": "/ingredients/7/validStacks/-",
+    "path": "/ingredients/8/validStacks/-",
     "value": [
         { "type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "crabmeat"  ] },
         { "type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "snakemeat"  ] },
@@ -401,7 +397,7 @@
   },
  {
     "op": "addeach",
-    "path": "/ingredients/7/validStacks/-",
+    "path": "/ingredients/8/validStacks/-",
     "value": [
         { "type": "item", "code": "ancienttools:saltedmeat-bushmeat-raw",  "shapeElement": "bowl/redmeat 2/*", "textureMapping": ["meatnugget", "bushmeat-raw"] },
         { "type": "item", "code": "expandedfoods:saltedmeatnugget-bushmeat-raw",  "shapeElement": "bowl/meatnugget 2/*", "textureMapping": ["meatnugget", "bushmeat-raw"] },
@@ -419,7 +415,7 @@
   },
   {
     "op": "addmerge",
-    "path": "/ingredients/8",
+    "path": "/ingredients/9",
     "value": {
       "code": "topping-sauce",
       "validStacks": [
@@ -437,7 +433,7 @@
   },
   {
     "op": "addmerge",
-    "path": "/ingredients/9",
+    "path": "/ingredients/10",
     "value": {
       "code": "salt",
       "validStacks": [
