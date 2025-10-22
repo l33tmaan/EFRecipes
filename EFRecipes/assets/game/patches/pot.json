@@ -1,1710 +1,1764 @@
 [
   {
-    "file": "game:blocktypes/clay/pot",
+    "file": "game:blocktypes/clay/fired/pot",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-redmeat-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meatnugget-redmeat-raw",
     "side": "server",
     "value": [ "meat", "group6" ]
   },
   {
-    "file": "game:blocktypes/clay/pot",
+    "file": "game:blocktypes/clay/fired/pot",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-bushmeat-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meatnugget-bushmeat-raw",
     "side": "server",
     "value": [ "meat", "group8" ]
   },
   {
-    "file": "game:blocktypes/clay/pot",
+    "file": "game:blocktypes/clay/fired/pot",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-poultry-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meatnugget-poultry-raw",
     "side": "server",
     "value": [ "meat", "group5" ]
   },
   {
-    "file": "game:blocktypes/clay/pot",
+    "file": "game:blocktypes/clay/fired/pot",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-redmeat-cured",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meatnugget-redmeat-cured",
     "side": "server",
     "value": [ "meat", "group6" ]
   },
   {
-    "file": "game:blocktypes/clay/pot",
+    "file": "game:blocktypes/clay/fired/pot",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-bushmeat-cured",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meatnugget-bushmeat-cured",
     "side": "server",
     "value": [ "meat", "group8" ]
   },
   {
-    "file": "game:blocktypes/clay/pot",
+    "file": "game:blocktypes/clay/fired/pot",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-poultry-cured",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meatnugget-poultry-cured",
     "side": "server",
     "value": [ "meat", "group5" ]
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/cheese-blue-1slice",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/cheese-blue-1slice",
     "value": [ "cheesebase", "cheese-blue-1slice" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/cheese-cheddar-1slice",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/cheese-cheddar-1slice",
     "value": [ "cheesebase", "cheese-cheddar-1slice" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "replace",
-    "path": "/attributesByType/claypot-cooked/textureMapping/cottagecheeseportion/0",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/cottagecheeseportion/0",
     "value": "cheesebase",
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "replace",
-    "path": "/attributesByType/claypot-cooked/textureMapping/cottagecheeseportion/1",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/cottagecheeseportion/1",
     "value": "cottagecheesemelt",
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "replace",
-    "path": "/attributesByType/claypot-cooked/textureMapping/milkportion/0",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/milkportion/0",
     "value": "cheesebase",
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "replace",
-    "path": "/attributesByType/claypot-cooked/textureMapping/milkportion/1",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/milkportion/1",
     "value": "cottagecheesemelt",
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/cheese-blue-1slice",
+    "path": "/textures/cheese-blue-1slice",
     "value": { "base": "block/dairy/bluemelt" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/cheese-cheddar-1slice",
+    "path": "/textures/cheese-cheddar-1slice",
     "value": { "base": "block/dairy/cheddarmelt" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/cottagecheesemelt",
+    "path": "/textures/cottagecheesemelt",
     "value": { "base": "block/dairy/cottagecheesemelt" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/primitivesurvival:fishfillet-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/primitivesurvival:fishfillet-raw",
     "value": [ "normal", "fishfillet-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fishnugget-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fishnugget-raw",
     "value": [ "meatnugget", "fishfillet-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
  {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fishnugget-smashed",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fishnugget-smashed",
     "value": [ "normal", "fishfillet-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/fishfillet-raw",
+    "path": "/textures/fishfillet-raw",
     "value": { "base": "item/fish/fillet" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:meatnugget-bushmeat-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:meatnugget-bushmeat-raw",
     "value": [ "meatnugget", "bushmeat-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:meatnugget-poultry-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:meatnugget-poultry-raw",
     "value": [ "meatnugget", "poultry-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:meatnugget-redmeat-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:meatnugget-redmeat-raw",
     "value": [ "meatnugget", "redmeat-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-bushmeat-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:agedmeat-bushmeat-raw",
     "value": [ "meatnugget", "bushmeat-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-poultry-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:agedmeat-poultry-raw",
     "value": [ "meatnugget", "poultry-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-redmeat-raw",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:agedmeat-redmeat-raw",
     "value": [ "meatnugget", "redmeat-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-bushmeat-cut",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:agedmeat-bushmeat-cut",
     "value": [ "meatnugget", "bushmeat-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-poultry-cut",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:agedmeat-poultry-cut",
     "value": [ "meatnugget", "poultry-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-redmeat-cut",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:agedmeat-redmeat-cut",
     "value": [ "meatnugget", "redmeat-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/poultry-raw",
+    "path": "/textures/poultry-raw",
     "value": { "base": "block/food/meal/group3-millet-bolete-cranberry-poultry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/redmeat-raw",
+    "path": "/textures/redmeat-raw",
     "value": { "base": "block/food/meal/group2-soup-flyagaric-cactifruit-redmeat" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/bushmeat-raw",
+    "path": "/textures/bushmeat-raw",
     "value": { "base": "block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/fishsauce",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fishsauce",
     "value": [ "topping", "fishsauce" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/fishsauce",
+    "path": "/textures/fishsauce",
     "value": { "base": "item/liquid/fishsauce" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/soysauce",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/soysauce",
     "value": [ "topping", "fishsauce" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/soysauce",
+    "path": "/textures/soysauce",
     "value": { "base": "item/liquid/fishsauce" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:dryfruit-blackcurrant",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dryfruit-blackcurrant",
     "value": [ "fruit", "group5" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:dryfruit-blueberry",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dryfruit-blueberry",
     "value": [ "fruit", "group1" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:dryfruit-cranberry",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dryfruit-cranberry",
     "value": [ "fruit", "group3" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:dryfruit-redcurrant",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dryfruit-redcurrant",
     "value": [ "fruit", "group6" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:dryfruit-saguaro",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dryfruit-saguaro",
     "value": [ "fruit", "group2" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:dryfruit-whitecurrant",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dryfruit-whitecurrant",
     "value": [ "fruit", "group4" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:dryfruit-pineapple",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dryfruit-pineapple",
     "value": [ "fruit", "group7" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/riceandbeans",
+    "path": "/textures/riceandbeans",
     "value": { "base": "block/riceandbeans" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-blackcurrant",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-blackcurrant",
     "value": [ "topping", "blackcurrantsyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-blueberry",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-blueberry",
     "value": [ "topping", "blueberrysyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-cranberry",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-cranberry",
     "value": [ "topping", "cranberrysyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-redcurrant",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-redcurrant",
     "value": [ "topping", "redcurrantsyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-whitecurrant",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-whitecurrant",
     "value": [ "topping", "whitecurrantsyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-pineapple",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-pineapple",
     "value": [ "topping", "pineapplesyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-apple",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-apple",
     "value": [ "topping", "applesyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-breadfruit",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-breadfruit",
     "value": [ "topping", "breadfruitsyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-cherry",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-cherry",
     "value": [ "topping", "cherrysyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-lychee",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-lychee",
     "value": [ "topping", "lycheesyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-mango",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-mango",
     "value": [ "topping", "mangosyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-orange",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-orange",
     "value": [ "topping", "orangesyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-peach",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-peach",
     "value": [ "topping", "peachsyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-pear",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-pear",
     "value": [ "topping", "pearsyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-pomegrante",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fruitsyrupportion-pomegrante",
     "value": [ "topping", "pomegranatesyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:treesyrupportion-birch",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:treesyrupportion-birch",
     "value": [ "topping", "birchsyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:treesyrupportion-maple",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:treesyrupportion-maple",
     "value": [ "topping", "maplesyrup" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/birchsyrup",
+    "path": "/textures/birchsyrup",
     "value": { "base": "block/liquid/weaktannin" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/maplesyrup",
+    "path": "/textures/maplesyrup",
     "value": { "base": "block/liquid/strongtannin" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/blackcurrantsyrup",
+    "path": "/textures/blackcurrantsyrup",
     "value": { "base": "item/gelatin/blackcurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/blueberrysyrup",
+    "path": "/textures/blueberrysyrup",
     "value": { "base": "item/gelatin/blueberry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/cranberrysyrup",
+    "path": "/textures/cranberrysyrup",
     "value": { "base": "item/gelatin/cranberry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/redcurrantsyrup",
+    "path": "/textures/redcurrantsyrup",
     "value": { "base": "item/gelatin/redcurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/whitecurrantsyrup",
+    "path": "/textures/whitecurrantsyrup",
     "value": { "base": "item/gelatin/whitecurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/pineapplesyrup",
+    "path": "/textures/pineapplesyrup",
     "value": { "base": "item/gelatin/pineapple" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/applesyrup",
+    "path": "/textures/applesyrup",
     "value": { "base": "item/gelatin/apple" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breadfruitsyrup",
+    "path": "/textures/breadfruitsyrup",
     "value": { "base": "item/gelatin/breadfruit" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/cherrysyrup",
+    "path": "/textures/cherrysyrup",
     "value": { "base": "item/gelatin/cherry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/lycheesyrup",
+    "path": "/textures/lycheesyrup",
     "value": { "base": "item/gelatin/lychee" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/mangosyrup",
+    "path": "/textures/mangosyrup",
     "value": { "base": "item/gelatin/mango" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/orangesyrup",
+    "path": "/textures/orangesyrup",
     "value": { "base": "item/gelatin/orange" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/peachsyrup",
+    "path": "/textures/peachsyrup",
     "value": { "base": "item/gelatin/peach" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/pearsyrup",
+    "path": "/textures/pearsyrup",
     "value": { "base": "item/gelatin/pear" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/pomegranatesyrup",
+    "path": "/textures/pomegranatesyrup",
     "value": { "base": "item/gelatin/pomegranate" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:foodoilportion-flax",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:foodoilportion-flax",
     "value": [ "topping", "foodoil" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:foodoilportion-rice",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:foodoilportion-rice",
     "value": [ "topping", "foodoil" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:foodoilportion-seed",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:foodoilportion-seed",
     "value": [ "topping", "foodoil" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:foodoilportion-soy",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:foodoilportion-soy",
     "value": [ "topping", "foodoil" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:foodoilportion-sunflower",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:foodoilportion-sunflower",
     "value": [ "topping", "foodoil" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:foodoilportion-peanut",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:foodoilportion-peanut",
     "value": [ "topping", "foodoil" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:lard",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:lard",
     "value": [ "topping", "lard" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/foodoil",
+    "path": "/textures/foodoil",
     "value": { "base": "item/liquid/foodoil" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/lard",
+    "path": "/textures/lard",
     "value": { "base": "block/fat" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:vegetablejuiceportion-cabbage",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:vegetablejuiceportion-cabbage",
     "value": [ "water", "cabbagejuice" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:vegetablejuiceportion-carrot",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:vegetablejuiceportion-carrot",
     "value": [ "water", "carrotjuice" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:vegetablejuiceportion-onion",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:vegetablejuiceportion-onion",
     "value": [ "water", "onionjuice" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:vegetablejuiceportion-parsnip",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:vegetablejuiceportion-parsnip",
     "value": [ "water", "parsnipjuice" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:vegetablejuiceportion-pumpkin",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:vegetablejuiceportion-pumpkin",
     "value": [ "water", "pumpkinjuice" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:vegetablejuiceportion-turnip",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:vegetablejuiceportion-turnip",
     "value": [ "water", "turnipjuice" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:vegetablejuiceportion-cassava",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:vegetablejuiceportion-cassava",
     "value": [ "water", "cassavajuice" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:vegetablejuiceportion-bellpepper",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:vegetablejuiceportion-bellpepper",
     "value": [ "water", "bellpepperjuice" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/cabbagejuice",
+    "path": "/textures/cabbagejuice",
     "value": { "base": "item/liquid/cabbage" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/carrotjuice",
+    "path": "/textures/carrotjuice",
     "value": { "base": "item/liquid/carrot" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/onionjuice",
+    "path": "/textures/onionjuice",
     "value": { "base": "item/liquid/onion" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/parsnipjuice",
+    "path": "/textures/parsnipjuice",
     "value": { "base": "item/liquid/parsnip" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/pumpkinjuice",
+    "path": "/textures/pumpkinjuice",
     "value": { "base": "item/liquid/pumpkin" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/turnipjuice",
+    "path": "/textures/turnipjuice",
     "value": { "base": "item/liquid/turnip" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/cassavajuice",
+    "path": "/textures/cassavajuice",
     "value": { "base": "item/liquid/cassava" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/bellpepperjuice",
+    "path": "/textures/bellpepperjuice",
     "value": { "base": "item/liquid/bellpepper" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/egg-chicken-boiled",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/egg-chicken-boiled",
     "value": [ "egg", "group6" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/vinegarportion",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vinegarportion",
     "value": [ "topping", "vinegar" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/vinegar",
+    "path": "/textures/vinegar",
     "value": { "base": "block/liquid/vinegar" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fishnugget-tender",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:fishnugget-tender",
     "value": [ "normal", "fishfillet-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:meatnugget-bushmeat-tender",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:meatnugget-bushmeat-tender",
     "value": [ "meat", "group8" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:meatnugget-poultry-tender",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:meatnugget-poultry-tender",
     "value": [ "meat", "group5" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:meatnugget-redmeat-tender",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:meatnugget-redmeat-tender",
     "value": [ "meat", "group6" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/primitivesurvival:fishfillet-cooked",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/primitivesurvival:fishfillet-cooked",
     "value": [ "normal", "fishfillet-raw" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-acorn",
+    "path": "/textures/breading-acorn",
     "value": { "base": "expandedfoods:item/food/grain/breading/acorn-cooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-acorn-partbaked",
+    "path": "/textures/breading-acorn-partbaked",
     "value": { "base": "expandedfoods:item/food/grain/breading/acorn-partbaked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-acorn-charred",
+    "path": "/textures/breading-acorn-charred",
     "value": { "base": "expandedfoods:item/food/grain/breading/acorn-charred" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-acorn-syrup",
+    "path": "/textures/breading-acorn-syrup",
     "value": { "base": "expandedfoods:item/food/grain/breading/acorn-fish" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-flax-partbaked",
+    "path": "/textures/breading-flax-partbaked",
     "value": { "base": "expandedfoods:item/food/grain/breading/flax-partbaked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-flax",
+    "path": "/textures/breading-flax",
     "value": { "base": "expandedfoods:item/food/grain/breading/flax-cooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-flax-charred",
+    "path": "/textures/breading-flax-charred",
     "value": { "base": "expandedfoods:item/food/grain/breading/flax-charred" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-flax-syrup",
+    "path": "/textures/breading-flax-syrup",
     "value": { "base": "expandedfoods:item/food/grain/breading/flax-fish" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-rice-partbaked",
+    "path": "/textures/breading-rice-partbaked",
     "value": { "base": "expandedfoods:item/food/grain/breading/rice-partbaked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-rice",
+    "path": "/textures/breading-rice",
     "value": { "base": "expandedfoods:item/food/grain/breading/rice-cooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-rice-charred",
+    "path": "/textures/breading-rice-charred",
     "value": { "base": "expandedfoods:item/food/grain/breading/rice-charred" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-rice-syrup",
+    "path": "/textures/breading-rice-syrup",
     "value": { "base": "expandedfoods:item/food/grain/breading/rice-fish" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-rye-partbaked",
+    "path": "/textures/breading-rye-partbaked",
     "value": { "base": "expandedfoods:item/food/grain/breading/rye-partbaked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-rye",
+    "path": "/textures/breading-rye",
     "value": { "base": "expandedfoods:item/food/grain/breading/rye-cooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-rye-charred",
+    "path": "/textures/breading-rye-charred",
     "value": { "base": "expandedfoods:item/food/grain/breading/rye-charred" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-rye-syrup",
+    "path": "/textures/breading-rye-syrup",
     "value": { "base": "expandedfoods:item/food/grain/breading/rye-fish" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-spelt-partbaked",
+    "path": "/textures/breading-spelt-partbaked",
     "value": { "base": "expandedfoods:item/food/grain/breading/spelt-partbaked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-spelt",
+    "path": "/textures/breading-spelt",
     "value": { "base": "expandedfoods:item/food/grain/breading/spelt-cooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-spelt-charred",
+    "path": "/textures/breading-spelt-charred",
     "value": { "base": "expandedfoods:item/food/grain/breading/spelt-charred" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-spelt-syrup",
+    "path": "/textures/breading-spelt-syrup",
     "value": { "base": "expandedfoods:item/food/grain/breading/spelt-fish" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-cassava-partbaked",
+    "path": "/textures/breading-cassava-partbaked",
     "value": { "base": "expandedfoods:item/food/grain/breading/cassava-partbaked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-cassava",
+    "path": "/textures/breading-cassava",
     "value": { "base": "expandedfoods:item/food/grain/breading/cassava-cooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-cassava-charred",
+    "path": "/textures/breading-cassava-charred",
     "value": { "base": "expandedfoods:item/food/grain/breading/cassava-charred" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-cassava-syrup",
+    "path": "/textures/breading-cassava-syrup",
     "value": { "base": "expandedfoods:item/food/grain/breading/cassava-fish" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-amaranth-partbaked",
+    "path": "/textures/breading-amaranth-partbaked",
     "value": { "base": "expandedfoods:item/food/grain/breading/amaranth-partbaked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-amaranth",
+    "path": "/textures/breading-amaranth",
     "value": { "base": "expandedfoods:item/food/grain/breading/amaranth-cooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-amaranth-charred",
+    "path": "/textures/breading-amaranth-charred",
     "value": { "base": "expandedfoods:item/food/grain/breading/amaranth-charred" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-amaranth-syrup",
+    "path": "/textures/breading-amaranth-syrup",
     "value": { "base": "expandedfoods:item/food/grain/breading/amaranth-fish" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-sunflower-partbaked",
+    "path": "/textures/breading-sunflower-partbaked",
     "value": { "base": "expandedfoods:item/food/grain/breading/sunflower-partbaked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-sunflower",
+    "path": "/textures/breading-sunflower",
     "value": { "base": "expandedfoods:item/food/grain/breading/sunflower-cooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-sunflower-charred",
+    "path": "/textures/breading-sunflower-charred",
     "value": { "base": "expandedfoods:item/food/grain/breading/sunflower-charred" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breading-sunflower-syrup",
+    "path": "/textures/breading-sunflower-syrup",
     "value": { "base": "expandedfoods:item/food/grain/breading/sunflower-fish" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/daisy",
+    "path": "/textures/daisy",
     "value": { "base": "block/plant/flower/petal/wilddaisy1" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/blackcurrantwine",
+    "path": "/textures/blackcurrantwine",
     "value": { "base": "game:block/food/pie/fill-blackcurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/blueberrywine",
+    "path": "/textures/blueberrywine",
     "value": { "base": "game:block/food/pie/fill-blueberry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/cranberrywine",
+    "path": "/textures/cranberrywine",
     "value": { "base": "game:block/food/pie/fill-cranberry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/redcurrantwine",
+    "path": "/textures/redcurrantwine",
     "value": { "base": "game:block/food/pie/fill-redcurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/whitecurrantwine",
+    "path": "/textures/whitecurrantwine",
     "value": { "base": "game:block/food/pie/fill-whitecurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/pineapplewine",
+    "path": "/textures/pineapplewine",
     "value": { "base": "game:block/food/pie/fill-pineapple" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/saguarowine",
+    "path": "/textures/saguarowine",
     "value": { "base": "game:block/food/pie/fill-saguaro" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/applewine",
+    "path": "/textures/applewine",
     "value": { "base": "game:block/food/pie/fill-apple" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/cherrywine",
+    "path": "/textures/cherrywine",
     "value": { "base": "game:block/food/pie/fill-cherry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/peachwine",
+    "path": "/textures/peachwine",
     "value": { "base": "game:block/food/pie/fill-peach" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/pearwine",
+    "path": "/textures/pearwine",
     "value": { "base": "game:block/food/pie/fill-pear" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/orangewine",
+    "path": "/textures/orangewine",
     "value": { "base": "game:block/food/pie/fill-orange" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/mangowine",
+    "path": "/textures/mangowine",
     "value": { "base": "game:block/food/pie/fill-mango" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/breadfruitwine",
+    "path": "/textures/breadfruitwine",
     "value": { "base": "game:block/food/pie/fill-breadfruit" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/lycheewine",
+    "path": "/textures/lycheewine",
     "value": { "base": "game:block/food/pie/fill-lychee" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/pomegranatewine",
+    "path": "/textures/pomegranatewine",
     "value": { "base": "game:block/food/pie/fill-pomegranate" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/saguarosyrup",
+    "path": "/textures/saguarosyrup",
     "value": { "base": "game:block/food/pie/fill-saguaro" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/bonebroth",
+    "path": "/textures/bonebroth",
     "value": { "base": "item/liquid/bonebroth" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/fishbroth",
+    "path": "/textures/fishbroth",
     "value": { "base": "item/liquid/fishbroth" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/meatbroth",
+    "path": "/textures/meatbroth",
     "value": { "base": "item/liquid/meatbroth" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/vegetablebroth",
+    "path": "/textures/vegetablebroth",
     "value": { "base": "item/liquid/vegetablebroth" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-birch",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-birch",
     "value": [ "topping", "gelatinbirch" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-blackcurrant",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-blackcurrant",
     "value": [ "topping", "gelatinblackcurrant" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-blueberry",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-blueberry",
     "value": [ "topping", "gelatinblueberry" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-cranberry",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-cranberry",
     "value": [ "topping", "gelatincranberry" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-honey",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-honey",
     "value": [ "topping", "gelatinhoney" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-maple",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-maple",
     "value": [ "topping", "gelatinmaple" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-plain",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-plain",
     "value": [ "topping", "gelatinplain" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-redcurrant",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-redcurrant",
     "value": [ "topping", "gelatinredcurrant" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-saguaro",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-saguaro",
     "value": [ "topping", "gelatinsaguaro" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-whitecurrant",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-whitecurrant",
     "value": [ "topping", "gelatinwhitecurrant" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pineapple",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-pineapple",
     "value": [ "topping", "gelatinpineapple" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-apple",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-apple",
     "value": [ "topping", "gelatinapple" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-breadfruit",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-breadfruit",
     "value": [ "topping", "gelatinbreadfruit" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-cherry",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-cherry",
     "value": [ "topping", "gelatincherry" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-lychee",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-lychee",
     "value": [ "topping", "gelatinlychee" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-mango",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-mango",
     "value": [ "topping", "gelatinmango" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-orange",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-orange",
     "value": [ "topping", "gelatinorange" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-peach",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-peach",
     "value": [ "topping", "gelatinpeach" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pear",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-pear",
     "value": [ "topping", "gelatinpear" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pomegranate",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:gelatin-pomegranate",
     "value": [ "topping", "gelatinpomegranate" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:yogurt-plain",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:yogurt-plain",
     "value": [ "liquid", "yogurtplain" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinbirch",
+    "path": "/textures/gelatinbirch",
     "value": { "base": "item/gelatin/birch" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinblackcurrant",
+    "path": "/textures/gelatinblackcurrant",
     "value": { "base": "item/gelatin/blackcurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinblueberry",
+    "path": "/textures/gelatinblueberry",
     "value": { "base": "item/gelatin/blueberry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatincranberry",
+    "path": "/textures/gelatincranberry",
     "value": { "base": "item/gelatin/cranberry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinhoney",
+    "path": "/textures/gelatinhoney",
     "value": { "base": "item/gelatin/honey" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinmaple",
+    "path": "/textures/gelatinmaple",
     "value": { "base": "item/gelatin/maple" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinplain",
+    "path": "/textures/gelatinplain",
     "value": { "base": "item/gelatin/plain" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinredcurrant",
+    "path": "/textures/gelatinredcurrant",
     "value": { "base": "item/gelatin/redcurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinsaguaro",
+    "path": "/textures/gelatinsaguaro",
     "value": { "base": "item/gelatin/saguaro" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinwhitecurrant",
+    "path": "/textures/gelatinwhitecurrant",
     "value": { "base": "item/gelatin/whitecurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinpineapple",
+    "path": "/textures/gelatinpineapple",
     "value": { "base": "item/gelatin/pineapple" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinapple",
+    "path": "/textures/gelatinapple",
     "value": { "base": "item/gelatin/apple" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinbreadfruit",
+    "path": "/textures/gelatinbreadfruit",
     "value": { "base": "item/gelatin/breadfruit" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatincherry",
+    "path": "/textures/gelatincherry",
     "value": { "base": "item/gelatin/cherry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinlychee",
+    "path": "/textures/gelatinlychee",
     "value": { "base": "item/gelatin/lychee" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinmango",
+    "path": "/textures/gelatinmango",
     "value": { "base": "item/gelatin/mango" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinorange",
+    "path": "/textures/gelatinorange",
     "value": { "base": "item/gelatin/orange" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinpeach",
+    "path": "/textures/gelatinpeach",
     "value": { "base": "item/gelatin/peach" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinpear",
+    "path": "/textures/gelatinpear",
     "value": { "base": "item/gelatin/pear" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/gelatinpomegranate",
+    "path": "/textures/gelatinpomegranate",
     "value": { "base": "item/gelatin/pomegranate" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtplain",
+    "path": "/textures/yogurtplain",
     "value": { "base": "item/liquid/yogurt/plain" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:acornportion",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:acornportion",
     "value": [ "acorns", "acorns" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json",
+    "file": "blocktypes/clay/fired/pot.json",
     "dependsOn": [{ "modid": "acorns" }]
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/acorns",
+    "path": "/textures/acorns",
     "value": { "base": "acorns:block/resource/acorns-dry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json",
+    "file": "blocktypes/clay/fired/pot.json",
     "dependsOn": [{ "modid": "acorns" }]
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:pasta-cut",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:pasta-cut",
     "value": [ "pasta", "pasta" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/pasta",
+    "path": "/textures/pasta",
     "value": { "base": "expandedfoods:item/food/pasta/pasta" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtbirch",
+    "path": "/textures/yogurtbirch",
     "value": { "base": "item/liquid/yogurt/birch" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtblackcurrant",
+    "path": "/textures/yogurtblackcurrant",
     "value": { "base": "item/liquid/yogurt/blackcurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtblueberry",
+    "path": "/textures/yogurtblueberry",
     "value": { "base": "item/liquid/yogurt/blueberry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtcranberry",
+    "path": "/textures/yogurtcranberry",
     "value": { "base": "item/liquid/yogurt/cranberry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurthoney",
+    "path": "/textures/yogurthoney",
     "value": { "base": "item/liquid/yogurt/honey" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtmaple",
+    "path": "/textures/yogurtmaple",
     "value": { "base": "item/liquid/yogurt/maple" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtredcurrant",
+    "path": "/textures/yogurtredcurrant",
     "value": { "base": "item/liquid/yogurt/redcurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtsaguaro",
+    "path": "/textures/yogurtsaguaro",
     "value": { "base": "item/liquid/yogurt/saguaro" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtwhitecurrant",
+    "path": "/textures/yogurtwhitecurrant",
     "value": { "base": "item/liquid/yogurt/whitecurrant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtpineapple",
+    "path": "/textures/yogurtpineapple",
     "value": { "base": "item/liquid/yogurt/pineapple" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtapple",
+    "path": "/textures/yogurtapple",
     "value": { "base": "item/liquid/yogurt/apple" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtcherry",
+    "path": "/textures/yogurtcherry",
     "value": { "base": "item/liquid/yogurt/cherry" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtpeach",
+    "path": "/textures/yogurtpeach",
     "value": { "base": "item/liquid/yogurt/peach" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtpear",
+    "path": "/textures/yogurtpear",
     "value": { "base": "item/liquid/yogurt/pear" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtorange",
+    "path": "/textures/yogurtorange",
     "value": { "base": "item/liquid/yogurt/orange" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtmango",
+    "path": "/textures/yogurtmango",
     "value": { "base": "item/liquid/yogurt/mango" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtbreadfruit",
+    "path": "/textures/yogurtbreadfruit",
     "value": { "base": "item/liquid/yogurt/breadfruit" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtlychee",
+    "path": "/textures/yogurtlychee",
     "value": { "base": "item/liquid/yogurt/lychee" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/yogurtpomegranate",
+    "path": "/textures/yogurtpomegranate",
     "value": { "base": "item/liquid/yogurt/pomegranate" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/bugs",
+    "path": "/textures/bugs",
     "value": { "base": "block/eatthebugs" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/grubs",
+    "path": "/textures/grubs",
     "value": { "base": "entity/grub" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/egg-chicken-pickled",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/egg-chicken-pickled",
     "value": [ "egg", "pickledegg" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/pickledegg",
+    "path": "/textures/pickledegg",
     "value": { "base": "block/food/meal/pickledegg" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/snakemeat",
+    "path": "/textures/snakemeat",
     "value": { "base": "primitivesurvival:item/snake/snakemeat-cooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json",
+    "file": "blocktypes/clay/fired/pot.json",
     "dependsOn": [{ "modid": "primitivesurvival" }]
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/crabmeat",
+    "path": "/textures/crabmeat",
     "value": { "base": "primitivesurvival:item/crab/crabmeat-cooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json",
+    "file": "blocktypes/clay/fired/pot.json",
     "dependsOn": [{ "modid": "primitivesurvival" }]
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/peanut",
+    "path": "/textures/peanut",
     "value": { "base": "game:item/food/legume/peanut" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/eggyolkchicken",
+    "path": "/textures/eggyolkchicken",
     "value": { "base": "item/liquid/eggyolk/chicken" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/eggyolkcapercaillie",
+    "path": "/textures/eggwhite",
+    "value": { "base": "item/liquid/eggyolk/eggwhite" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/eggyolkfullchicken",
+    "value": { "base": "item/liquid/eggyolkfull/chicken" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/eggyolkcapercaillie",
     "value": { "base": "item/liquid/eggyolk/capercaillie" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json",
+    "file": "blocktypes/clay/fired/pot.json",
     "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/eggyolkgoldenpheasant",
+    "path": "/textures/eggyolkgoldenpheasant",
     "value": { "base": "item/liquid/eggyolk/goldenpheasant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json",
+    "file": "blocktypes/clay/fired/pot.json",
     "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/eggyolkpheasant",
+    "path": "/textures/eggyolkpheasant",
     "value": { "base": "item/liquid/eggyolk/pheasant" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json",
+    "file": "blocktypes/clay/fired/pot.json",
     "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:dressing-salad",
+    "path": "/textures/eggyolkwildturkey",
+    "value": { "base": "item/liquid/eggyolk/pheasant" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json",
+    "dependsOn": [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/eggyolkfullcapercaillie",
+    "value": { "base": "item/liquid/eggyolkfull/capercaillie" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json",
+    "dependsOn": [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/eggyolkfullgoldenpheasant",
+    "value": { "base": "item/liquid/eggyolkfull/goldenpheasant" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json",
+    "dependsOn": [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/eggyolkfullpheasant",
+    "value": { "base": "item/liquid/eggyolkfull/pheasant" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json",
+    "dependsOn": [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/eggyolkfullwildturkey",
+    "value": { "base": "item/liquid/eggyolkfull/pheasant" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json",
+    "dependsOn": [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dressing-salad",
     "value": [ "topping", "saladdressing" ],
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/saladdressing",
+    "path": "/textures/saladdressing",
     "value": { "base": "expandedfoods:item/liquid/dressing/salad" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   },
   {
     "op": "addmerge",
-    "path": "/texturesByType/*/dumpling",
+    "path": "/textures/dumpling",
     "value": { "base": "expandedfoods:item/food/dumpling/ricecooked" },
     "side": "server",
-    "file": "blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/fired/pot.json"
   }
 ]
