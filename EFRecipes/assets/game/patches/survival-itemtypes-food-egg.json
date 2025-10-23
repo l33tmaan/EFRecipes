@@ -29,8 +29,9 @@
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {
-      "*-pickled": { "all": { "base": "item/food/egg/pickled" } },
-      "*": { "all": { "base": "item/food/egg/chicken" } }
+      "*-boiled": { "hay-egg": { "base": "expandedfoods:item/food/boiledegg" } },
+      "*-pickled": { "hay-egg": { "base": "expandedfoods:item/food/pickledegg" } },
+      "*": { "hay-egg": { "base": "block/wood/henbox/egg" } }
     },
     "side": "server",
     "file": "game:itemtypes/food/egg.json"

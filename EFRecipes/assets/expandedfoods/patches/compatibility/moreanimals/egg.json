@@ -15,7 +15,7 @@
   },
   {
     "op": "remove",
-    "path": "/texture",
+    "path": "/texturesByType",
     "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
   },
@@ -29,8 +29,18 @@
     "op": "addmerge",
     "path": "/texturesByType",
     "value": {
-      "*-pickled": { "all": { "base": "game:item/food/egg/pickled" } },
-      "*": { "all": { "base": "game:item/food/egg/chicken" } }
+      "*-pheasant-boiled": { "hay-egg": { "base": "expandedfoods:item/food/boiledegg" , "blendedOverlays": [ { "base": "item/egg/pheasant-color", "blendMode": "Overlay" } ] }},
+      "*-goldenpheasant-boiled": { "hay-egg": { "base": "expandedfoods:item/food/boiledegg" , "blendedOverlays": [ { "base": "item/egg/goldenpheasant-color", "blendMode": "Overlay" } ] }},
+      "*-capercaillie-boiled": { "hay-egg": { "base": "expandedfoods:item/food/boiledegg" , "blendedOverlays": [ { "base": "item/egg/capercaillie-speckles", "blendMode": "Normal" } ] }},
+      "*-wildturkey-boiled": { "hay-egg": { "base": "expandedfoods:item/food/boiledegg" , "blendedOverlays": [ { "base": "item/egg/turkey-speckles", "blendMode": "Normal" } ] }},
+      "*-pheasant-pickled": { "hay-egg": { "base": "expandedfoods:item/food/pickledegg" , "blendedOverlays": [ { "base": "item/egg/pheasant-color", "blendMode": "Overlay" } ] }},
+      "*-goldenpheasant-pickled": { "hay-egg": { "base": "expandedfoods:item/food/pickledegg" , "blendedOverlays": [ { "base": "item/egg/goldenpheasant-color", "blendMode": "Overlay" } ] }},
+      "*-capercaillie-pickled": { "hay-egg": { "base": "expandedfoods:item/food/pickledegg" , "blendedOverlays": [ { "base": "item/egg/capercaillie-speckles", "blendMode": "Normal" } ] }},
+      "*-wildturkey-pickled": { "hay-egg": { "base": "expandedfoods:item/food/pickledegg" , "blendedOverlays": [ { "base": "item/egg/turkey-speckles", "blendMode": "Normal" } ] }},
+      "*-pheasant-raw": { "hay-egg": { "base": "game:block/wood/henbox/hay-egg", "blendedOverlays": [ { "base": "item/egg/pheasant-color", "blendMode": "Overlay" } ] }},
+      "*-goldenpheasant-raw": { "hay-egg": { "base": "game:block/wood/henbox/hay-egg", "blendedOverlays": [ { "base": "item/egg/goldenpheasant-color", "blendMode": "Overlay" } ] }},
+      "*-capercaillie-raw": { "hay-egg": { "base": "game:block/wood/henbox/hay-egg", "blendedOverlays": [ { "base": "item/egg/capercaillie-speckles", "blendMode": "Normal" } ] }},
+      "*-wildturkey-raw": { "hay-egg": { "base": "game:block/wood/henbox/hay-egg", "blendedOverlays": [ { "base": "item/egg/turkey-speckles", "blendMode": "Normal" } ] }}
     },
     "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
