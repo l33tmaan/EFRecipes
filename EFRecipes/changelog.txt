@@ -70,29 +70,37 @@ Vityuri suggestions:
 
 CHECK https://github.com/AreYSerious/VintageTranslation FOR TRANSLATIONS....
 
-2.0.0
+TO-DO WILDCRAFT STUFF:
+-- Wildcraft fruits updated
+-- Wildcraft nut butter added (like peanut butter, but with other nuts)
+On hiatus until Wildcraft Herbs & Spices is updated
+-- added herbs to Dressing
+-- mixed herbs added
+-- herbal soft dough added
+-- pomace wine no longer crashes
+
+
+2.0.0-dev.4
 - Meathook placements adjusted yet again
-- Wildcraft stuff removed; will be added as a separate module (don't worry, I've put too much work into it to abandon it) - DONE???
-- Fixed client errors from vanilla pot changes - DONE!!!
 - Soy milk changed to protein instead of dairy - MOSTLY DONE (check nutrition in foods/meals)
-- Removed honeycombs pressing into honey / pressed honeycomb being turnable into beeswax - DONE!!!
-- Bowl recipes updated (names and remapping later) - DONE!!!
-- Scrambled egg recipe fixed -DONE!!!
-- Scrambled egg shape updated & textures updated for all liquid egg variants - DONE!!!
-- All egg visuals updated; new boiled egg texture - DONE!!!
-- Water-glassed eggs can be cracked now - DONE!!!
-- More Animals compatibility updated, while we're doing all this egg stuff - DONE!!!
-- Fruit bread/muffins nerfed; accept a max of 2 fruits instead of 5 (and gelatin) - DONE!!!
-- New 1.20 clays integrated (thanks pizza2004!)
-- Rolling pin tool rack transform fixed; now actually in the rack (thanks pizza2004!)
-- Recipes using bottles require opened bottles now - DONE!!!
 - Yogurt can be added to fruit bars in place of gelatin
 - Pemmican can be placed in stacks
 - Soybean textures/shapes updated
 - Do stuff with bamboo shoots? idk
 - Muffins and fruit bread have default visuals in the handbook
-- Bushmeat meals have proper textures - DONE!!!
-- Salad perish timer reduced from 72 hours to 24 - DONE!!!
+- Recipe notes added to meals in the handbook
+- Meal names fixed in handbook
+- Meal descriptions added
+- Handbook item grouping tightened up
+- Fruit press handbook entry states the minimum amount needed to work
+- Salt crystals mention they can only be made with a cauldron
+- Salad meal guide mentions cooked meat is needed
+- Dried peat bowl remapping done - DONE!!!
+
+BUG FIXES:
+- Primitive survival meat patches corrected for meals (cold pasta specifically)
+- Hardened resin fixed so it hardens properly
+- Chopped veggies go into porridge
 
 NEW FOOD:
 - added meatloaf?
@@ -102,32 +110,45 @@ NEW FOOD:
 MISC: 
 - Dialogue added to Kitchenware Trader; readjusted code to push text to en.json
 - Food can be put on the ground, I guess?
+- en.json cleansed of wildcraft text; generally cleaned up and reorganized
 
-1.7.5
-NEW FOOD ADDITIONS FINALLY???
 
+2.0.0-dev.3
+- Scrambled egg recipe fixed
+- Scrambled egg shape updated & textures updated for all liquid egg variants
+- All egg visuals updated; new boiled egg texture 
+- Water-glassed eggs can be cracked now
+- More Animals compatibility updated, while we're doing all this egg stuff
+
+
+2.0.0-dev.2
+- Fixed old oil candle and other recipes crashing due to referencing the old bottles variant schema (new recipes dont account for whether a bottle is corked or not) 
+
+
+2.0.0-dev.1
+- New 1.20 clays integrated (thanks pizza2004!)
+- Bowl recipes updated (names and remapping later) - DONE!!!
+- Rolling pin tool rack transform fixed; now actually in the rack (thanks pizza2004!)
 - Acorns 1.20+ compatiblity added - DONE!!!
-
-- Wildcraft stuff:
--- Wildcraft fruits updated
--- Wildcraft nut butter added (like peanut butter, but with other nuts)
-On hiatus until Wildcraft Herbs & Spices is updated
--- added herbs to Dressing
--- mixed herbs added
--- herbal soft dough added
--- pomace wine no longer crashes
 
 BALANCING: 
 - Salads and cold pasta allow cured sausage - DONE!!!
 - Potent spirits do not cure into themselves anymore - DONE!!!
 - Alcohol nutrition nerfed when in meals - DONE!!!
 - Lard nutrition & healing nerfed; output doubled - DONE!!!
+- Fruit bread/muffins nerfed; accept a max of 2 fruits instead of 5 (and gelatin) - DONE!!!
+- Recipes using bottles require opened bottles now - DONE!!!
+- Removed honeycombs pressing into honey / pressed honeycomb being turnable into beeswax - DONE!!!
+- Salad perish timer reduced from 72 hours to 24 - DONE!!!
 
 BUG FIXES:
 - Wildcraft strong wine barrels into vinegar at the proper rate - DONE!!!
 - Acorn muffins don't crash when topping with honey - DONE!!!
+- Bushmeat meals have proper textures - DONE!!!
+- Fixed client errors from vanilla pot changes - DONE!!!
 
-
+MISC:
+- Wildcraft stuff removed; will be added as a separate module (don't worry, I've put too much work into it to abandon it) - DONE???
 
 
 1.7.4
