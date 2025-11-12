@@ -1,31 +1,4 @@
 [
-	{
-      "file": "game:recipes/cooking/meatystew", "op": "addeach",
-      "path": "/ingredients/0/validStacks/-",
-      "value": [
-        { "type": "item", "code": "bushmeat-raw",  "shapeElement": "bowl/meat stew/*" },
-        { "type": "item", "code": "bushmeat-cured",  "shapeElement": "bowl/meat stew/*" }
-      ],
-      "side": "server"
-	},
-	{ 
-      "file": "game:recipes/cooking/meatystew", "op": "addeach",
-      "path": "/ingredients/2/validStacks/-",
-      "value": [
-        { "type": "item", "code": "bushmeat-raw",  "shapeElement": "bowl/red meat/*", "textureMapping": ["meat", "group7"] },			
-        { "type": "item", "code": "bushmeat-cured",  "shapeElement": "bowl/red meat/*", "textureMapping": ["meat", "group7"] }
-      ],
-      "side": "server"
-	},
-	{ 
-      "file": "game:recipes/cooking/meatystew", "op": "addeach",
-      "path": "/ingredients/3/validStacks/-",
-      "value": [
-        { "type": "item", "code": "bushmeat-raw",  "shapeElement": "bowl/red meat 2/*", "textureMapping": ["meat", "group7"] },
-        { "type": "item", "code": "bushmeat-cured",  "shapeElement": "bowl/red meat 2/*", "textureMapping": ["meat", "group7"] }
-      ],
-      "side": "server"
-	},
 	{ 
       "file": "game:recipes/cooking/soup", "op": "addeach",
       "path": "/ingredients/4/validStacks/-",

@@ -3,6 +3,8 @@
      "op": "addeach",
      "path": "/ingredients/0/validStacks/-",
      "value": [
+        { "type": "item", "code": "bushmeat-raw",  "shapeElement": "bowl/meat stew/*" },
+        { "type": "item", "code": "bushmeat-cured",  "shapeElement": "bowl/meat stew/*" },
         { "type": "item", "code": "expandedfoods:meatnugget-bushmeat-smashed", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group7" ] },
         { "type": "item", "code": "expandedfoods:meatnugget-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group7" ] },
         { "type": "item", "code": "expandedfoods:meatnugget-poultry-smashed", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group3" ] },
@@ -49,8 +51,10 @@
   },
   {
     "op": "addeach",
-    "path": "/ingredients/2/validStacks/-",
+    "path": "/ingredients/3/validStacks/-",
     "value": [
+        { "type": "item", "code": "bushmeat-raw",  "shapeElement": "bowl/red meat/*", "textureMapping": ["meat", "group7"] },
+        { "type": "item", "code": "bushmeat-cured",  "shapeElement": "bowl/red meat/*", "textureMapping": ["meat", "group7"] },
         { "type": "item", "code": "expandedfoods:meatnugget-bushmeat-smashed", "shapeElement": "bowl/red meat/*", "textureMapping": [ "meat", "group7" ] },
         { "type": "item", "code": "expandedfoods:meatnugget-bushmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group7" ] },
         { "type": "item", "code": "expandedfoods:meatnugget-poultry-smashed", "shapeElement": "bowl/poultry/*", "textureMapping": [ "meat", "group3" ] },
@@ -101,16 +105,14 @@
         { "type": "item", "code": "expandedfoods:agedmeat-redmeat-cut", "shapeElement": "bowl/red meat/*", "textureMapping": [ "meat", "group2" ] },
         { "type": "item", "code": "insect-grub", "shapeElement": "bowl/bugs 1/*", "textureMapping": [ "grubs", "grubs" ] },
         { "type": "item", "code": "insect-termite", "shapeElement": "bowl/termites 1/*", "textureMapping": [ "grubs", "grubs" ] },
-        { "type": "item", "code": "insect-termite-stick", "shapeElement": "bowl/termites 1/*", "textureMapping": [ "grubs", "grubs" ] },
-        { "type": "item", "code": "egg-chicken-boiled", "shapeElement": "bowl/egg2/*" },
-        { "type": "item", "code": "egg-chicken-pickled", "shapeElement": "bowl/egg2/*" }
+        { "type": "item", "code": "insect-termite-stick", "shapeElement": "bowl/termites 1/*", "textureMapping": [ "grubs", "grubs" ] }
       ],
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
   },
   {
     "op": "addeach",
-    "path": "/ingredients/2/validStacks/-",
+    "path": "/ingredients/3/validStacks/-",
     "value": [
         { "type": "item", "code": "ancienttools:saltedmeat-redmeat-raw", "shapeElement": "bowl/redmeat/*", "textureMapping": [ "meat", "group2" ] },
         { "type": "item", "code": "ancienttools:saltedmeat-bushmeat-raw", "shapeElement": "bowl/redmeat/*", "textureMapping": [ "meat", "group7" ] },
@@ -128,14 +130,17 @@
   },
   {
     "op": "addeach",
-    "path": "/ingredients/3/validStacks/-",
+    "path": "/ingredients/4/validStacks/-",
     "value": [
+        { "type": "item", "code": "bushmeat-raw",  "shapeElement": "bowl/red meat 2/*", "textureMapping": ["meat", "group7"] },
+        { "type": "item", "code": "bushmeat-cured",  "shapeElement": "bowl/red meat 2/*", "textureMapping": ["meat", "group7"] },
         { "type": "item", "code": "expandedfoods:meatnugget-bushmeat-smashed", "shapeElement": "bowl/red meat 2/*", "textureMapping": [ "meat", "group7" ] },
         { "type": "item", "code": "expandedfoods:meatnugget-bushmeat-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "group7" ] },
         { "type": "item", "code": "expandedfoods:meatnugget-poultry-smashed", "shapeElement": "bowl/poultry 2/*", "textureMapping": [ "meat", "group3" ] },
         { "type": "item", "code": "expandedfoods:meatnugget-poultry-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "group5" ] },
         { "type": "item", "code": "expandedfoods:meatnugget-redmeat-smashed", "shapeElement": "bowl/red meat 2/*", "textureMapping": [ "meat", "group2" ] },
         { "type": "item", "code": "expandedfoods:meatnugget-redmeat-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "group6" ] },
+        { "type": "item", "code": "expandedfoods:dumpling-raw", "shapeElement": "bowl/dumplings2/*", "textureMapping": [ "dumpling", "dumpling" ] },
         { "type": "item", "code": "expandedfoods:fishnugget-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "group1" ] },
         { "type": "item", "code": "expandedfoods:fishnugget-curedchopped", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "group1" ] },
         { "type": "item", "code": "expandedfoods:fishnugget-smashed", "shapeElement": "bowl/fish 2/*", "textureMapping": [ "normal", "group1" ] },
@@ -186,7 +191,7 @@
   },
   {
     "op": "addeach",
-    "path": "/ingredients/3/validStacks/-",
+    "path": "/ingredients/4/validStacks/-",
     "value": [
         { "type": "item", "code": "ancienttools:saltedmeat-redmeat-raw", "shapeElement": "bowl/redmeat 2/*", "textureMapping": [ "meat", "group2" ] },
         { "type": "item", "code": "ancienttools:saltedmeat-bushmeat-raw", "shapeElement": "bowl/redmeat 2/*", "textureMapping": [ "meat", "group7" ] },
@@ -204,9 +209,8 @@
   },
  {
     "op": "addeach",
-    "path": "/ingredients/4/validStacks/-",
+    "path": "/ingredients/5/validStacks/-",
     "value": [
-        { "type": "item", "code": "expandedfoods:dumpling-raw", "shapeElement": "bowl/dumplings2/*", "textureMapping": [ "dumpling", "dumpling" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-carrot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group1" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-pickledcarrot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group1" ] },
         { "type": "item", "code": "expandedfoods:choppedmushroom-almondmushroom", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group3" ] },
@@ -245,7 +249,7 @@
         { "type": "item", "code": "expandedfoods:choppedmushroom-tinderhoof", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group7" ] },
         { "type": "item", "code": "expandedfoods:choppedmushroom-violetwebcap", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group3" ] },
         { "type": "item", "code": "expandedfoods:choppedmushroom-whiteoyster", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group7" ] },
-        { "type": "item",  "code": "expandedfoods:choppedmushroom-witchhat", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group7" ] },
+        { "type": "item", "code": "expandedfoods:choppedmushroom-witchhat", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group7" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-parsnip", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group4" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-pickledparsnip", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group4" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-turnip", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group5" ] },
@@ -266,7 +270,7 @@
   },
   {
     "op": "addeach",
-    "path": "/ingredients/5/validStacks/-",
+    "path": "/ingredients/6/validStacks/-",
     "value": [
         { "type": "item", "code": "expandedfoods:choppedvegetable-carrot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group1" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-pickledcarrot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group1" ] },
@@ -326,11 +330,9 @@
     "file": "recipes/cooking/meatystew.json"
   },
  {
-    "op": "addmerge",
-    "path": "/ingredients/8",
-    "value": {
-      "code": "topping-sauce",
-      "validStacks": [
+    "op": "addeach",
+    "path": "/ingredients/8/validStacks/-",
+    "value": [
         { "type": "item", "code": "expandedfoods:soysauce", "shapeElement": "bowl/topping/*" },
         { "type": "item", "code": "expandedfoods:foodoilportion-*", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "foodoil" ] },
         { "type": "item", "code": "expandedfoods:lard", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "lard" ] },
@@ -432,19 +434,13 @@
         { "type": "item", "code": "expandedfoods:potentspiritportion-lychee", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "lycheewine" ] },
         { "type": "item", "code": "expandedfoods:potentspiritportion-pomegranate", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "pomegranatewine" ] }
       ],
-      "minQuantity": 0,
-      "maxQuantity": 1,
-      "portionSizeLitres": 0.1
-    },
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
   },
   {
-    "op": "addmerge",
-    "path": "/ingredients/7",
-    "value": {
-      "code": "dryfruit-extra",
-      "validStacks": [
+    "op": "addeach",
+    "path": "/ingredients/7/validStacks/-",
+    "value": [
         { "type": "item", "code": "expandedfoods:dryfruit-blueberry", "shapeElement": "bowl/fruit 1/*", "textureMapping": [ "fruit", "group1" ] },
         { "type": "item", "code": "expandedfoods:dryfruit-saguaro", "shapeElement": "bowl/fruit 1/*", "textureMapping": [ "fruit", "group2" ] },
         { "type": "item", "code": "expandedfoods:dryfruit-cranberry", "shapeElement": "bowl/fruit 1/*", "textureMapping": [ "fruit", "group3" ] },
@@ -482,9 +478,6 @@
         { "type": "item", "code": "expandedfoods:dehydratedfruit-lychee", "shapeElement": "bowl/fruit 1/*", "textureMapping": [ "fruit", "fruit-lychee" ] },
         { "type": "item", "code": "expandedfoods:dehydratedfruit-pomegranate", "shapeElement": "bowl/fruit 1/*", "textureMapping": [ "fruit", "fruit-pomegranate" ] }
       ],
-      "minQuantity": 0,
-      "maxQuantity": 1
-    },
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
   },
