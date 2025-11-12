@@ -15,5 +15,22 @@
     "file": "recipes/mixing/pastacold.json",
     "side": "server",
     "dependsOn": [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { "type": "item", "code": "moreanimals:egg-*-boiled", "shapeElement": "bowl/egg/*", "texturemapping": [ "egg", "group6" ] },
+    "file": "recipes/mixing/pastacold.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { "type": "item", "code": "moreanimals:egg-*-pickled", "shapeElement": "bowl/egg/*", "texturemapping": [ "egg", "group6" ]
+    },
+    "file": "recipes/mixing/pastacold.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "moreanimals" }]
   }
 ]

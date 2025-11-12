@@ -40,8 +40,24 @@
 				{ "type": "item", "code": "vegetable-bellpepper",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["fruit", "group8"] },
 				{ "type": "item", "code": "mushroom-*", "shapeElement": "bowl/vegetable base 1/*" },
 				{ "type": "block", "code": "pumpkin-fruit-4",  "shapeElement": "bowl/vegetable 1/*" },
+                { "type": "item", "code": "legume-soybean",  "shapeElement": "bowl/vegetable 1/*" },
 				{ "type": "item", "code": "pickledvegetable-*",  "shapeElement": "bowl/vegetable 1/*" },
-				{ "type": "item", "code": "pickledlegume-soybean",  "shapeElement": "bowl/vegetable 1/*" },
+                { "type": "item", "code": "pickledlegume-soybean",  "shapeElement": "bowl/vegetable 1/*" },
+                { "type": "item", "code": "expandedfoods:choppedvegetable-carrot",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group1"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-pickledcarrot",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group1"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-parsnip",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group4"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-pickledparsnip",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group4"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-turnip",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group5"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-pickledturnip",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group5"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-onion",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group6"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-pickledonion",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group6"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-pumpkin",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group8"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-pickledpumpkin",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group8"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-cabbage",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group10"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-cassava",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group11"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-bellpepper",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["fruit", "group8"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-cattailroot",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group11"]},
+                { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group11"]},
 				{ "type": "item", "code": "expandedfoods:choppedmushroom-almondmushroom",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group3"]},
 				{ "type": "item", "code": "expandedfoods:choppedmushroom-beardedtooth",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group7"]},
 				{ "type": "item", "code": "expandedfoods:choppedmushroom-bitterbolete",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group3"]},
@@ -86,7 +102,6 @@
 		{
 			"code": "vegetable-base2", 
 			"validStacks": [ 
-				{ "type": "item", "code": "game:herbbundle-*",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group10"] },
 				{ "type": "item", "code": "vegetable-cabbage",  "shapeElement": "bowl/vegetable 2/*" },
 				{ "type": "item", "code": "vegetable-carrot",  "shapeElement": "bowl/vegetable 2/*" },
 				{ "type": "item", "code": "vegetable-onion",  "shapeElement": "bowl/vegetable 2/*" },
@@ -164,6 +179,15 @@
 			"minQuantity": 0,
 			"maxQuantity": 1
 		},
+        {
+            "code": "egg-extra-2",
+            "validStacks": [
+                { "type": "item", "code": "egg-chicken-boiled",  "shapeElement": "bowl/egg2/*" },
+                { "type": "item", "code": "egg-chicken-pickled",  "shapeElement": "bowl/egg2/*" }
+            ],
+            "minQuantity": 0,
+            "maxQuantity": 1
+        },
 		{
 			"code": "protein-extra",
 			"validStacks": [ 
@@ -171,8 +195,6 @@
 				{ "type": "item", "code": "redmeat-cured",  "shapeElement": "bowl/red meat/*", "textureMapping": ["meat", "group2"] },
 				{ "type": "item", "code": "bushmeat-raw",  "shapeElement": "bowl/red meat/*", "textureMapping": ["meat", "group7"] },
 				{ "type": "item", "code": "bushmeat-cured",  "shapeElement": "bowl/red meat/*", "textureMapping": ["meat", "group7"] },
-				{ "type": "item", "code": "egg-chicken-boiled",  "shapeElement": "bowl/egg2/*" },
-				{ "type": "item", "code": "egg-chicken-pickled",  "shapeElement": "bowl/egg2/*" },
 				{ "type": "item", "code": "poultry-raw",  "shapeElement": "bowl/poultry/*", "textureMapping": ["meat", "group3"] },
 				{ "type": "item", "code": "poultry-cured",  "shapeElement": "bowl/poultry/*", "textureMapping": ["meat", "group3"] },
 				{ "type": "item", "code": "fish-raw",  "shapeElement": "bowl/fish/*", "textureMapping": ["normal", "group1"] },

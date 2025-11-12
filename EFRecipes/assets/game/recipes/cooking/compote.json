@@ -211,6 +211,17 @@
 			"maxQuantity": 1,
 			"portionSizeLitres": 0.1
 		},
+        {
+          "code": "wine",
+          "validStacks": [
+            { "type": "item", "code": "game:ciderportion-*" },
+            { "type": "item", "code": "expandedfoods:strongwineportion-*" },
+            { "type": "item", "code": "expandedfoods:potentwineportion-*" }
+          ],
+          "minQuantity": 0,
+          "maxQuantity": 1,
+          "portionSizeLitres": 0.1
+        },
   		{
       		"code": "nuts-extra1",
       		"validStacks": [
