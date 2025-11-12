@@ -488,7 +488,8 @@
       "code": "breadcrumbs-extra",
       "validStacks": [ { "type": "item", "code": "expandedfoods:breadcrumbs-*" } ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "breadcrumbs"
     },
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
@@ -509,7 +510,8 @@
       "code": "salt",
       "validStacks": [ { "type": "item", "code": "salt" } ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "salt"
     },
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
@@ -531,7 +533,8 @@
       ],
       "minQuantity": 0,
       "maxQuantity": 1,
-      "portionSizeLitres": 0.5
+      "portionSizeLitres": 0.5,
+      "typeName": "broth"
     },
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
@@ -547,7 +550,8 @@
         { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "peanut" ] }    
       ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "nuts"
     },
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
@@ -563,7 +567,8 @@
         { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "peanut" ] }     
       ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "nuts"
     },
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
@@ -577,8 +582,9 @@
         { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "textureMapping": [ "topping", "eggyolkchicken" ] }
       ],
       "minQuantity": 0,
-        "maxQuantity": 1,
-        "portionSizeLitres": 0.1
+      "maxQuantity": 1,
+      "portionSizeLitres": 0.1,
+      "typeName": "liquidegg"
     },
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
@@ -604,7 +610,8 @@
             { "type": "item", "code": "expandedfoods:pasta-cooked",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "pasta"] }    
         ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "cookedpasta"
     },
     "side": "server",
     "file": "recipes/cooking/meatystew.json"

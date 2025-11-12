@@ -20,6 +20,13 @@
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json"
   },
+  {
+    "op": "replace",
+    "path": "/ingredients/0/typeName",
+    "value": "liquidegg",
+    "side": "server",
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
     {
     "op": "addmerge",
     "path": "/ingredients/1/portionSizeLitres",
@@ -27,12 +34,26 @@
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json"
   },
+  {
+    "op": "replace",
+    "path": "/ingredients/1/typeName",
+    "value": "liquidegg",
+    "side": "server",
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
     {
     "op": "addmerge",
     "path": "/ingredients/2/portionSizeLitres",
     "value": 0.2,
     "side": "server",
     "file": "game:recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/2/typeName",
+    "value": "liquidegg",
+    "side": "server",
+    "file": "recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "replace",

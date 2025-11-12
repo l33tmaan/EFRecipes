@@ -11,10 +11,11 @@
 		{
           "code": "rice-base", 
           "validStacks": [ 
-            { "type": "item", "code": "grain-rice",  "shapeElement": "bowl/riceandbeans", "textureMapping": ["riceandbeans", "riceandbeans"], "quantity": 2, }
+            { "type": "item", "code": "grain-rice",  "shapeElement": "bowl/riceandbeans", "textureMapping": ["riceandbeans", "riceandbeans"], "quantity": 2 }
           ],
           "minQuantity": 1,
-          "maxQuantity": 1
+          "maxQuantity": 1,
+          "typeName": "rice"
         },
         {
           "code": "broth-base",
@@ -25,7 +26,8 @@
           ],
           "minQuantity": 1,
           "maxQuantity": 1,
-          "portionSizeLitres": 0.5
+          "portionSizeLitres": 0.5,
+          "typeName": "stock"
         },
 		{
 			"code": "vegetable-base", 
@@ -96,7 +98,8 @@
 				{ "type": "item", "code": "expandedfoods:choppedmushroom-witchhat",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group7"]}
 			],
 			"minQuantity": 0,
-			"maxQuantity": 1
+			"maxQuantity": 1,
+            "typeName": "vegetable"
 		},
 		{
 			"code": "vegetable-base2", 
@@ -167,7 +170,8 @@
 				{ "type": "item", "code": "expandedfoods:choppedmushroom-witchhat",  "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group7"]}
 			],
 			"minQuantity": 0,
-			"maxQuantity": 1
+			"maxQuantity": 1,
+            "typeName": "vegetable"
 		},
 		{ 
 			"code": "egg-extra", 
@@ -176,7 +180,8 @@
 				{ "type": "item", "code": "egg-chicken-pickled",  "shapeElement": "bowl/egg/*" }
 			],
 			"minQuantity": 0,
-			"maxQuantity": 1
+			"maxQuantity": 1,
+            "typeName": "cookedegg"
         },
         {
           "code": "egg-extra2",
@@ -185,7 +190,8 @@
             { "type": "item", "code": "egg-chicken-pickled",  "shapeElement": "bowl/egg2/*" }
           ],
           "minQuantity": 0,
-          "maxQuantity": 1
+          "maxQuantity": 1,
+          "typeName": "cookedegg"
         },
 		{
 			"code": "protein-extra",
@@ -253,7 +259,8 @@
 				{ "type": "item", "code": "expandedfoods:agedmeat-poultry-raw",  "shapeElement": "bowl/meatnugget 1/*", "textureMapping": ["meatnugget", "poultry-raw"]  }
 			],
 			"minQuantity": 0,
-			"maxQuantity": 1
+			"maxQuantity": 1,
+            "typeName": "meat"
 		},
 		{
 			"code": "meat-extra",
@@ -321,7 +328,8 @@
 				{ "type": "item", "code": "expandedfoods:agedmeat-poultry-raw",  "shapeElement": "bowl/meatnugget 2/*", "textureMapping": ["meatnugget", "poultry-raw"]  }
 			],
 			"minQuantity": 0,
-			"maxQuantity": 1
+			"maxQuantity": 1,
+            "typeName": "meat"
 		},
 		{
 			"code": "topping-sauce", 
@@ -333,7 +341,8 @@
 			],
 			"minQuantity": 0,
 			"maxQuantity": 1,
-			"portionSizeLitres": 0.1
+			"portionSizeLitres": 0.1,
+            "typeName": "topping"
 		},
   		{
       		"code": "nuts-extra1",
@@ -343,7 +352,8 @@
         		{ "type": "item", "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["acorns", "peanut"]}
       		],
       		"minQuantity": 0,
-      		"maxQuantity": 1
+      		"maxQuantity": 1,
+            "typeName": "nuts"
     	},
     	{
       		"code": "nuts-extra2",
@@ -353,13 +363,15 @@
         		{ "type": "item", "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["acorns", "peanut"]}
       		],
       		"minQuantity": 0,
-      		"maxQuantity": 1
+      		"maxQuantity": 1,
+            "typeName": "nuts"
     	},
 		{
 			"code": "salt", 
 			"validStacks": [ { "type": "item", "code": "salt"}],
 			"minQuantity": 0,
-			"maxQuantity": 1
+			"maxQuantity": 1,
+            "typeName": "salt"
 		}
 	]
 }

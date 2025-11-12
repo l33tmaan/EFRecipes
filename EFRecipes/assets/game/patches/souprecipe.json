@@ -288,7 +288,8 @@
         { "type": "item", "code": "expandedfoods:breadcrumbs-*" }
       ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "breadcrumbs"
     },
     "side": "server",
     "file": "recipes/cooking/soup.json"
@@ -308,7 +309,8 @@
       "code": "salt",
       "validStacks": [ { "type": "item", "code": "salt" } ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "salt"
     },
     "side": "server",
     "file": "recipes/cooking/soup.json"
@@ -321,7 +323,8 @@
       "validStacks": [ { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "textureMapping": [ "topping", "eggyolkchicken" ] } ],
       "minQuantity": 0,
       "maxQuantity": 1,
-      "portionSizeLitres": 0.1
+      "portionSizeLitres": 0.1,
+      "typeName": "liquidegg"
     },
     "side": "server",
     "file": "recipes/cooking/soup.json"
@@ -345,7 +348,8 @@
       "code": "noodles",
       "validStacks": [ { "type": "item", "code": "expandedfoods:pasta-cut", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] } ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "uncookedpasta"
     },
     "side": "server",
     "file": "recipes/cooking/soup.json"

@@ -30,7 +30,8 @@
 			],
 			"minQuantity": 1,
 			"maxQuantity": 1,
-			"portionSizeLitres": 0.1
+			"portionSizeLitres": 0.1,
+            "typeName": "fruitsyrup"
 		},
 		{
 			"code": "fruit-base",
@@ -74,7 +75,8 @@
 				{ "type": "item", "code": "expandedfoods:dehydratedfruit-pomegranate",  "shapeElement": "bowl/fruit 1/*", "textureMapping": ["fruit", "fruit-pomegranate"] }
  			], 
 			"minQuantity": 1,
-			"maxQuantity": 1
+			"maxQuantity": 1,
+            "typeName": "fruit"
 		},
 		{
 			"code": "fruit-extra",
@@ -118,7 +120,8 @@
 				{ "type": "item", "code": "expandedfoods:dehydratedfruit-pomegranate",  "shapeElement": "bowl/fruit 2/*", "textureMapping": ["fruit", "fruit-pomegranate"] }
  			], 
 			"minQuantity": 0,
-			"maxQuantity": 1
+			"maxQuantity": 1,
+            "typeName": "fruit"
 		},
 		{
 			"code": "fruit-extra2",
@@ -162,7 +165,8 @@
 				{ "type": "item", "code": "expandedfoods:dehydratedfruit-pomegranate",  "shapeElement": "bowl/fruit 3/*", "textureMapping": ["fruit", "fruit-pomegranate"] }
  			], 
 			"minQuantity": 0,
-			"maxQuantity": 1
+			"maxQuantity": 1,
+            "typeName": "fruit"
 		},
 		{
 			"code": "topping-sauce", 
@@ -209,7 +213,8 @@
 			],
 			"minQuantity": 0,
 			"maxQuantity": 1,
-			"portionSizeLitres": 0.1
+			"portionSizeLitres": 0.1,
+            "typeName": "sweetener"
 		},
         {
           "code": "wine",
@@ -220,7 +225,8 @@
           ],
           "minQuantity": 0,
           "maxQuantity": 1,
-          "portionSizeLitres": 0.1
+          "portionSizeLitres": 0.1,
+          "typeName": "wine"
         },
   		{
       		"code": "nuts-extra1",
@@ -230,7 +236,8 @@
         		{ "type": "item", "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*", "textureMapping": ["nuts", "peanut"]}
       		],
       		"minQuantity": 0,
-      		"maxQuantity": 1
+      		"maxQuantity": 1,
+            "typeName": "nuts"
     	},
     	{
       		"code": "nuts-extra2",
@@ -240,7 +247,8 @@
         		{ "type": "item", "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*", "textureMapping": ["nuts", "peanut"]}
       		],
       		"minQuantity": 0,
-      		"maxQuantity": 1
+      		"maxQuantity": 1,
+            "typeName": "nuts"
     	},
 		{
 			"code": "vegetable-base", 
@@ -248,7 +256,8 @@
 				{ "type": "item", "code": "game:herbbundle-*",  "shapeElement": "bowl/herb/*", "textureMapping": ["vegetable", "group10"] }
 			],
 			"minQuantity": 0,
-			"maxQuantity": 1
+			"maxQuantity": 1,
+            "typeName": "herb"
 		}
 	]
 }

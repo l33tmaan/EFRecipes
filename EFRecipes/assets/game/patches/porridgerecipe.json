@@ -165,7 +165,8 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-bellpepper", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "fruit", "group8" ] }
       ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "vegetable"
     },
     "side": "server",
     "file": "recipes/cooking/porridge.json"
@@ -242,17 +243,16 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-bellpepper", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "fruit", "group8" ] }
       ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "vegetable"
     },
     "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
   {
-    "op": "addmerge",
-    "path": "/ingredients/6",
-    "value": {
-      "code": "topping-extra",
-      "validStacks": [
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [
         { "type": "item", "code": "milkportion", "shapeElement": "bowl/topping/*" },
         { "type": "item", "code": "expandedfoods:pasteurizedmilkportion", "shapeElement": "bowl/topping/*" },
         { "type": "item", "code": "expandedfoods:soymilk-edible", "shapeElement": "bowl/topping/*" },
@@ -287,16 +287,12 @@
         { "type": "item", "code": "expandedfoods:brothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] },
         { "type": "item", "code": "expandedfoods:clarifiedbrothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] }
       ],
-      "minQuantity": 0,
-      "maxQuantity": 1,
-      "portionSizeLitres":  0.1
-    },
     "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
   {
     "op": "addmerge",
-    "path": "/ingredients/7",
+    "path": "/ingredients/6",
     "value": {
       "code": "nuts-extra1",
       "validStacks": [
@@ -305,14 +301,15 @@
             { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "peanut" ] }      
         ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "nuts"
     },
     "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
  {
     "op": "addmerge",
-    "path": "/ingredients/7/validStacks/-",
+    "path": "/ingredients/6/validStacks/-",
     "value":
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
     "side": "server",
@@ -321,7 +318,7 @@
   },
   {
     "op": "addmerge",
-    "path": "/ingredients/8",
+    "path": "/ingredients/7",
     "value": {
       "code": "nuts-extra2",
       "validStacks": [
@@ -330,14 +327,15 @@
             { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "acorns" ] }      
 ],
       "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "nuts"
     },
     "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
  {
     "op": "addmerge",
-    "path": "/ingredients/8/validStacks/-",
+    "path": "/ingredients/7/validStacks/-",
     "value": 
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
     "side": "server",
@@ -346,7 +344,7 @@
   },
   {
     "op": "addmerge",
-    "path": "/ingredients/9",
+    "path": "/ingredients/8",
     "value": {
       "code": "meat",
         "validStacks": [
@@ -403,26 +401,15 @@
             { "type": "item", "code": "expandedfoods:sausagefish-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "group1" ] }
         ],
       "minQuantity": 0,
-      "maxQuantity": 1
-    },
-    "side": "server",
-    "file": "recipes/cooking/porridge.json"
-  },
-  {
-    "op": "addmerge",
-    "path": "/ingredients/10",
-    "value": {
-      "code": "salt",
-      "validStacks": [ { "type": "item", "code": "salt" } ],
-      "minQuantity": 0,
-      "maxQuantity": 1
+      "maxQuantity": 1,
+      "typeName": "meat"
     },
     "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
   {
     "op": "addeach",
-    "path": "/ingredients/9/validStacks/-",
+    "path": "/ingredients/8/validStacks/-",
     "value": [
         { "type": "item", "code": "ancienttools:saltedmeat-redmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group2" ] },
         { "type": "item", "code": "ancienttools:saltedmeat-bushmeat-raw", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group7" ] },
@@ -440,7 +427,7 @@
   },
  {
     "op": "addeach",
-    "path": "/ingredients/9/validStacks/-",
+    "path": "/ingredients/8/validStacks/-",
     "value": [
         {"type": "item", "code": "primitivesurvival:fishfillet-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
         {"type": "item", "code": "primitivesurvival:crabmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
@@ -459,5 +446,18 @@
     "side": "server",
     "file": "recipes/cooking/porridge.json",	
 	"dependsOn": [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/9",
+    "value": {
+      "code": "salt",
+      "validStacks": [ { "type": "item", "code": "salt" } ],
+      "minQuantity": 0,
+      "maxQuantity": 1,
+      "typeName": "salt"
+    },
+    "side": "server",
+    "file": "recipes/cooking/porridge.json"
   }
 ]
