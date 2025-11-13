@@ -17,8 +17,16 @@
 				"endScaleY": 1,
 				"resultCode":  "expandedfoods:saltcrystal-dry"
 			}
-		}
-	},
+        },
+        "handbook": {
+          "extraSectionsByType": {
+            "*-dry": [{
+              "title": "expandedfoods:item-handbooktitle-saltcrystal-dry" ,
+              "text": "expandedfoods:item-handbooktext-saltcrystal-dry"
+            }]
+          }
+        }
+    },
 	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	"transitionablePropsByType": {
 		"*-damp": [
