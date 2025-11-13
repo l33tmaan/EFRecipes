@@ -50,6 +50,76 @@
     "dependsOn": [{ "modid": "ancienttools" }]
   },
   {
+    "op": "replace",
+    "path": "/ingredients/1/validStacks",
+    "value": [
+      { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkchicken" ] }
+    ],
+    "side": "server",
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/1/portionSizeLitres",
+    "value": 0.1,
+    "side": "server",
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/1/typeName",
+    "value": "liquidegg",
+    "side": "server",
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "shapeElement":"bowl/egg/*",  "textureMapping": [ "topping", "eggyolkpheasant" ]}
+    ],
+    "side": "server",
+    "file": "recipes/cooking/meatystew.json",
+    "dependsOn": [{ "modid": "moreanimals" }]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/2/validStacks",
+    "value": [
+      { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkchicken" ] }
+    ],
+    "side": "server",
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/2/portionSizeLitres",
+    "value": 0.1,
+    "side": "server",
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/2/typeName",
+    "value": "liquidegg",
+    "side": "server",
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/2/validStacks/-",
+    "value": [
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "shapeElement":"bowl/egg2/*",  "textureMapping": [ "topping", "eggyolkpheasant" ]}
+    ],
+    "side": "server",
+    "file": "recipes/cooking/meatystew.json",
+    "dependsOn": [{ "modid": "moreanimals" }]
+  },
+  {
     "op": "addeach",
     "path": "/ingredients/3/validStacks/-",
     "value": [
@@ -576,34 +646,6 @@
   {
     "op": "addmerge",
     "path": "/ingredients/14",
-    "value": {
-      "code": "eggyolk",
-      "validStacks": [
-        { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "textureMapping": [ "topping", "eggyolkchicken" ] }
-      ],
-      "minQuantity": 0,
-      "maxQuantity": 1,
-      "portionSizeLitres": 0.1,
-      "typeName": "liquidegg"
-    },
-    "side": "server",
-    "file": "recipes/cooking/meatystew.json"
-  },
- {
-    "op": "addeach",
-    "path": "/ingredients/14/validStacks/-",
-    "value": [
-        {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
-        {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
-        {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant",  "textureMapping": [ "topping", "eggyolkpheasant" ]}
-    ],
-    "side": "server",
-    "file": "recipes/cooking/meatystew.json",	
-	"dependsOn": [{ "modid": "moreanimals" }]
-  },
-  {
-    "op": "addmerge",
-    "path": "/ingredients/15",
     "value": {
       "code": "pasta",
       "validStacks": [
