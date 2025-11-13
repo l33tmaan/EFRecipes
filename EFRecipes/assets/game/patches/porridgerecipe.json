@@ -286,7 +286,9 @@
         { "type": "item", "code": "expandedfoods:fishsauce", "shapeElement": "bowl/topping/*" },
         { "type": "item", "code": "expandedfoods:brothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] },
         { "type": "item", "code": "expandedfoods:clarifiedbrothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] },
-        { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "eggyolkchicken" ] }
+        { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "eggwhite" ] },
+        { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "eggyolkchicken" ] },
+        { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-chicken", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "eggyolkfullchicken" ] }
     ],
     "side": "server",
     "file": "recipes/cooking/porridge.json"
@@ -296,8 +298,13 @@
     "path": "/ingredients/5/validStacks/-",
     "value": [
       {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "shapeElement":"bowl/topping/*", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-capercaillie", "shapeElement":"bowl/topping/*", "textureMapping": [ "topping", "eggyolkfullcapercaillie" ]},
       {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "shapeElement":"bowl/topping/*", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
-      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "shapeElement":"bowl/topping/*",  "textureMapping": [ "topping", "eggyolkpheasant" ]}
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-goldenpheasant", "shapeElement":"bowl/topping/*", "textureMapping": [ "topping", "eggyolkfullgoldenpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "shapeElement":"bowl/topping/*",  "textureMapping": [ "topping", "eggyolkpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-pheasant", "shapeElement":"bowl/topping/*",  "textureMapping": [ "topping", "eggyolkfullpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-wildturkey", "shapeElement":"bowl/topping/*",  "textureMapping": [ "topping", "eggyolkwildturkey" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey", "shapeElement":"bowl/topping/*",  "textureMapping": [ "topping", "eggyolkfullwildturkey" ]}
     ],
     "side": "server",
     "file": "recipes/cooking/porridge.json",

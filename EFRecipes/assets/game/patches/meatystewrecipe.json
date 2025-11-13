@@ -53,7 +53,9 @@
     "op": "replace",
     "path": "/ingredients/1/validStacks",
     "value": [
-      { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkchicken" ] }
+      { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggwhite" ] },
+      { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkchicken" ] },
+      { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-chicken", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkfullchicken" ] }
     ],
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
@@ -77,8 +79,13 @@
     "path": "/ingredients/1/validStacks/-",
     "value": [
       {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-capercaillie", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkfullcapercaillie" ]},
       {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
-      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "shapeElement":"bowl/egg/*",  "textureMapping": [ "topping", "eggyolkpheasant" ]}
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-goldenpheasant", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkfullgoldenpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "shapeElement":"bowl/egg/*",  "textureMapping": [ "topping", "eggyolkpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-pheasant", "shapeElement":"bowl/egg/*",  "textureMapping": [ "topping", "eggyolkfullpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-wildturkey", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkwildturkey" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkfullwildturkey" ]}
     ],
     "side": "server",
     "file": "recipes/cooking/meatystew.json",
@@ -88,7 +95,9 @@
     "op": "replace",
     "path": "/ingredients/2/validStacks",
     "value": [
-      { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkchicken" ] }
+      { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggwhite" ] },
+      { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkchicken" ] },
+      { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-chicken", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkfullchicken" ] }
     ],
     "side": "server",
     "file": "recipes/cooking/meatystew.json"
@@ -112,8 +121,13 @@
     "path": "/ingredients/2/validStacks/-",
     "value": [
       {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-capercaillie", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkfullcapercaillie" ]},
       {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
-      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "shapeElement":"bowl/egg2/*",  "textureMapping": [ "topping", "eggyolkpheasant" ]}
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-goldenpheasant", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkfullgoldenpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "shapeElement":"bowl/egg2/*",  "textureMapping": [ "topping", "eggyolkpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-pheasant", "shapeElement":"bowl/egg2/*",  "textureMapping": [ "topping", "eggyolkfullpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-wildturkey", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkwildturkey" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkfullwildturkey" ]}
     ],
     "side": "server",
     "file": "recipes/cooking/meatystew.json",

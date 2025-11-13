@@ -473,7 +473,9 @@
     "value": {
       "code": "eggyolk",
       "validStacks": [
-        { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "textureMapping": [ "topping", "eggyolkchicken" ] }
+        { "type": "item", "code": "aculinaryartillery:eggwhiteportion", "textureMapping": [ "topping", "eggwhite" ] },
+        { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "textureMapping": [ "topping", "eggyolkchicken" ] },
+        { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-chicken", "textureMapping": [ "topping", "eggyolkfullchicken" ] }
       ],
       "minQuantity": 0,
       "maxQuantity": 1,
@@ -488,8 +490,13 @@
     "path": "/ingredients/10/validStacks/-",
     "value": [
       {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-capercaillie", "textureMapping": [ "topping", "eggyolkfullcapercaillie" ]},
       {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
-      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "textureMapping": [ "topping", "eggyolkpheasant" ]}
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-goldenpheasant", "textureMapping": [ "topping", "eggyolkfullgoldenpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "textureMapping": [ "topping", "eggyolkpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-pheasant", "textureMapping": [ "topping", "eggyolkfullpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-wildturkey", "textureMapping": [ "topping", "eggyolkwildturkey" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey", "textureMapping": [ "topping", "eggyolkfullwildturkey" ]}
     ],
     "side": "server",
     "file": "recipes/cooking/vegetablestew.json",	
