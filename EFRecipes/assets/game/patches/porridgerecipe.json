@@ -285,10 +285,23 @@
         { "type": "item", "code": "expandedfoods:soysauce", "shapeElement": "bowl/topping/*" },
         { "type": "item", "code": "expandedfoods:fishsauce", "shapeElement": "bowl/topping/*" },
         { "type": "item", "code": "expandedfoods:brothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] },
-        { "type": "item", "code": "expandedfoods:clarifiedbrothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] }
-      ],
+        { "type": "item", "code": "expandedfoods:clarifiedbrothportion-fish", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "fishbroth" ] },
+        { "type": "item", "code": "aculinaryartillery:eggyolkportion-chicken", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "eggyolkchicken" ] }
+    ],
     "side": "server",
     "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-capercaillie", "shapeElement":"bowl/topping/*", "textureMapping": [ "topping", "eggyolkcapercaillie" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-goldenpheasant", "shapeElement":"bowl/topping/*", "textureMapping": [ "topping", "eggyolkgoldenpheasant" ]},
+      {"type": "item", "code": "aculinaryartillery:eggyolkportion-pheasant", "shapeElement":"bowl/topping/*",  "textureMapping": [ "topping", "eggyolkpheasant" ]}
+    ],
+    "side": "server",
+    "file": "recipes/cooking/porridge.json",
+    "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
     "op": "addmerge",
