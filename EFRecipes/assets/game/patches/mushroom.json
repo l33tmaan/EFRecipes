@@ -61,6 +61,13 @@
   },
   {
     "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["mushroom-*"] },
+    "side": "server",
+    "file": "blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "addmerge",
     "path": "/attributes/bakingProperties",
     "value": {
       "temp": 100,
@@ -103,6 +110,13 @@
 		"@*-(pinkbonnet|pinkoyster)-normal-north": { "texture": "game:block/food/pie/fill-mushroompink", "partType": "Filling" },
 		"@*-(dryadsaddle|reishi|shiitake)-normal-north": { "texture": "game:block/food/pie/fill-mushroombrown", "partType": "Filling" }
     },
+    "side": "server",
+    "file": "blocktypes/plant/mushroom-side.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["mushroom-*"] },
     "side": "server",
     "file": "blocktypes/plant/mushroom-side.json"
   }

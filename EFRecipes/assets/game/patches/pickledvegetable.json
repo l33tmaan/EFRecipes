@@ -176,5 +176,12 @@
     },
     "side": "server",
     "file": "itemtypes/food/pickledvegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["pickledvegetable-*"] },
+    "side": "server",
+    "file": "itemtypes/food/pickledvegetable.json"
   }
 ]

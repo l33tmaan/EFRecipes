@@ -12,7 +12,8 @@
 	"skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"],
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "groupBy": ["strongwineportion-*"]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"nutritionPropsWhenInMeal": { "satiety": 20, "health": 0.5, "foodcategory": "Fruit" },

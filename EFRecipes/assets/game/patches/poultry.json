@@ -191,5 +191,12 @@
     "value": { "texture": "game:block/food/pie/fill-poultry", "partType": "Filling" },
     "side": "server",
     "file": "itemtypes/food/poultry.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["poultry-*"] },
+    "side": "server",
+    "file": "itemtypes/food/poultry.json"
   }
 ]

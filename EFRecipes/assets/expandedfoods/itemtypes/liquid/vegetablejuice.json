@@ -7,7 +7,8 @@
 	],
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "groupBy": ["vegetablejuiceportion-*"]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"nutritionPropsWhenInMeal": { "satiety": 300, "foodcategory": "Vegetable" },

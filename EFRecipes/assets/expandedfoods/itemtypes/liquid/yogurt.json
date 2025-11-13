@@ -4,7 +4,8 @@
 	"matterState": "liquid",
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "groupBy": ["yogurt-*"]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"nutritionPropsWhenInMeal": { "saturation": 150, "Health": 5, "foodcategory": "Dairy" },

@@ -194,5 +194,12 @@
     },
     "side": "server",
     "file": "itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["bushmeat-*"] },
+    "side": "server",
+    "file": "itemtypes/food/bushmeat.json"
   }
 ]

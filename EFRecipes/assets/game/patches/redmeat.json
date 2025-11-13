@@ -234,5 +234,12 @@
     "value": 5,
     "side": "server",
     "file": "itemtypes/food/redmeat.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["redmeat-*"] },
+    "side": "server",
+    "file": "itemtypes/food/redmeat.json"
   }
 ]

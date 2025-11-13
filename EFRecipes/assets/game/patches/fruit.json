@@ -71,5 +71,12 @@
     },
     "side": "server",
     "file": "itemtypes/food/fruit.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["fruit-*"] },
+    "side": "server",
+    "file": "itemtypes/food/fruit.json"
   }
 ]

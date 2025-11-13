@@ -324,5 +324,12 @@
     "value": "cassava",
     "side": "server",
     "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/handbook",
+    "value": { "groupBy": ["vegetable-*"] },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
   }
 ]

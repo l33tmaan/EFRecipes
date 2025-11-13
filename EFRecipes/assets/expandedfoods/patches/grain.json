@@ -75,5 +75,12 @@
     "frompath": "/temp",
     "side": "server",
     "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["grain-*"] },
+    "side": "server",
+    "file": "game:itemtypes/food/grain.json"
   }
 ]

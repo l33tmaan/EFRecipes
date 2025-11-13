@@ -94,5 +94,12 @@
     "value": { "saturation": 140, "foodcategory": "Protein" },
     "side": "server",
     "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["egg-*"] },
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
   }
 ]

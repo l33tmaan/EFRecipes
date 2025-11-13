@@ -12,7 +12,8 @@
 	"skipVariants": ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"],
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "groupBy": ["potentspiritportion-*"]
 		},
 		"distillationProps": {
 			"distilledStack": { "type": "item", "code": "game:alcoholportion" },
