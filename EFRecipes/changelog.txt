@@ -80,42 +80,26 @@ On hiatus until Wildcraft Herbs & Spices is updated
 -- pomace wine no longer crashes
 
 
-2.0.0-dev.4
+2.0.0-dev.5
 - Meathook placements adjusted yet again
 - Yogurt can be added to fruit bars in place of gelatin
 - Pemmican can be placed in stacks
 - Do stuff with bamboo shoots? idk
 
 HANDBOOK THINGS:
-- Meal names fixed in handbook - DONE!!!
-- Recipe notes added to meals in the handbook - DONE!!!
-- Meal descriptions added - DONE!!!
-- Items grouped together for better handbook visibility - DONE!!!
 - Muffins and fruit bread have default visuals in the handbook
-- Meal recipes generally adjusted to look better in the handbook - DONE!!!
-- Recipe ingredient slots now utilize typeName property - DONE!!!
-- Dried peat bowl text fixed - DONE!!!
-- Fruit press handbook entry states the minimum amount needed to work - DONE!!!
-- Salt crystals mention they can only be made with a cauldron - DONE!!!
 
 REBALANCING:
-- Soy milk fully changed to protein instead of dairy - DONE!!!
-- Wine can be used in compote - DONE!!!
-- All fried items in salad and cold pasta moved to a single ingredient slot - DONE!!!
-- Cold pasta and yogurt meal perish timer reduced by 24 hours - DONE!!!
-- Pilaf recipe changed to require rice+broth instead of rice+solid ingredient; rice requirement doubled - DONE!!!
-- Whole raw eggs removed from meat stew recipe - DONE!!!
-- Liquid egg added to porridge recipe topping - DONE!!!
-- All egg liquids can be added to appropriate meals, not just yolk - DONE!!!
-- Resin harden timer cut in half; from 19 days to 10 - DONE!!!
-- Bread crumbs give half as much nutrition - DONE!!!
+- Chickens can eat eggshells again; eggshell and peanut skin requirements quadrupled for troughs - DONE!!!
+- Total review of how "nutritionPropsWhenInMeal" is used; removed from cheese patch since vanilla already has this property
+- Dried fruit rehydrates in meals via cookedStack property
 
 BUG FIXES:
 - Primitive survival meat patches corrected for meals (cold pasta specifically)
-- Peanut skins fixed so animals can eat them (egg shells fixed in ACA) - DONE!!!
 - Oven transforms reviewed for all items
 - SAUSAGE ONLY HAS HALF THE EXTRA NUTRIENTS WHEN BOILED??? WHY
-- Peanut skins fixed so some animals will eat them - DONE!!!
+- Fermented fish slop barrel textures fixed
+- Peanut butter fixed so it gives nutrients when in bowl/bucket
 
 NEW FOOD:
 - added meatloaf?
@@ -125,11 +109,44 @@ NEW FOOD:
 MISC: 
 - Dialogue added to Kitchenware Trader; readjusted code to push text to en.json
 - Food can be put on the ground, I guess?
-- en.json cleansed of wildcraft text - DONE!!!; generally cleaned up and reorganized 
 - Peanut skin model changed
 - Soybean textures/shapes updated
-- Dried peat bowl remapping done - DONE!!!
+- Primitive survival patches reviewed
+- FIX THE FUCKING TRADER SPAWNS!!! STOP SPAWNING IN WATER STOP IT STOP IT STOP ITTTTTTTTTTTTTTTTTT
+- Lime can be made by grinding a lot of eggshells
 
+
+
+2.0.0-dev.4
+HANDBOOK THINGS:
+- Meal names fixed in handbook 
+- Recipe notes added to meals in the handbook
+- Meal descriptions added
+- Items grouped together for better handbook visibility
+- Meal recipes generally adjusted to look better in the handbook
+- Recipe ingredient slots now utilize typeName property
+- Dried peat bowl text fixed
+- Fruit press handbook entry states the minimum amount needed to work
+- Salt crystals mention they can only be made with a cauldron
+
+REBALANCING:
+- Soy milk fully changed to protein instead of dairy
+- Wine can be used in compote
+- All fried items in salad and cold pasta moved to a single ingredient slot 
+- Cold pasta and yogurt meal perish timer reduced by 24 hours
+- Pilaf recipe changed to require rice+broth instead of rice+solid ingredient; rice requirement doubled
+- Whole raw eggs removed from meat stew recipe
+- Liquid egg added to porridge recipe topping
+- All egg liquids can be added to appropriate meals, not just yolk
+- Resin harden timer cut in half; from 19 days to 10
+- Bread crumbs give half as much nutrition
+
+BUG FIXES:
+- Peanut skins fixed so animals can eat them (egg shells fixed in ACA)
+
+MISC: 
+- en.json cleansed of wildcraft text
+- Dried peat bowl remapping done
 
 2.0.0-dev.3
 - Scrambled egg recipe fixed
