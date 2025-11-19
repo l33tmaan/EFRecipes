@@ -10,6 +10,9 @@
     <Compile Remove="publish\**" />
     <EmbeddedResource Remove="publish\**" />
     <None Remove="publish\**" />
+    <None Update="assets\game\textures\block\wood\barrel\fermentedfish-slop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>    
   <ItemGroup>
     <None Update="**\*.json">

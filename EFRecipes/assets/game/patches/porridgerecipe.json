@@ -108,7 +108,6 @@
         { "type": "item", "code": "vegetable-bellpepper", "shapeElement": "bowl/vegetable 1/*" },
         { "type": "item", "code": "vegetable-cassava", "shapeElement": "bowl/vegetable 1/*" },
         { "type": "item", "code": "mushroom-*", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "block", "code": "pumpkin-fruit-4", "shapeElement": "bowl/vegetable 1/*" },
         { "type": "item", "code": "pickledvegetable-*", "shapeElement": "bowl/vegetable 1/*" },
         { "type": "item", "code": "expandedfoods:choppedmushroom-almondmushroom", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group3" ] },
         { "type": "item", "code": "expandedfoods:choppedmushroom-beardedtooth", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group7" ] },
@@ -186,7 +185,6 @@
         { "type": "item", "code": "vegetable-bellpepper", "shapeElement": "bowl/vegetable 2/*" },
         { "type": "item", "code": "vegetable-cassava", "shapeElement": "bowl/vegetable 2/*" },
         { "type": "item", "code": "mushroom-*", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "block", "code": "pumpkin-fruit-4", "shapeElement": "bowl/vegetable 2/*" },
         { "type": "item", "code": "pickledvegetable-*", "shapeElement": "bowl/vegetable 2/*" },
         { "type": "item", "code": "expandedfoods:choppedmushroom-almondmushroom", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group3" ] },
         { "type": "item", "code": "expandedfoods:choppedmushroom-beardedtooth", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group7" ] },
@@ -314,7 +312,7 @@
     "op": "addmerge",
     "path": "/ingredients/6",
     "value": {
-      "code": "nuts-extra1",
+      "code": "nuts-extra1-ef",
       "validStacks": [
             { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },
             { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "peanut" ] },      
@@ -340,7 +338,7 @@
     "op": "addmerge",
     "path": "/ingredients/7",
     "value": {
-      "code": "nuts-extra2",
+      "code": "nuts-extra2-ef",
       "validStacks": [
             { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
             { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },      
