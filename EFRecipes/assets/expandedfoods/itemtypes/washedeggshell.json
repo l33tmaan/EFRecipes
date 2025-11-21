@@ -1,0 +1,47 @@
+{
+  "code": "washedeggshell",
+  "maxstacksize": 64,
+  "variantgroups": [
+    { "code": "source", "states": ["" ] }
+  ],
+  "attributes": {
+    "handbook": {
+      "extraSections": [
+        {
+          "title": "expandedfoods:item-handbooktitle-washedeggshell",
+          "text": "expandedfoods:item-handbooktext-washedeggshell"
+        }
+      ]
+    }
+  },
+  "shape": { "base": "item/washedeggshell" },
+  "texture": { "base": "game:block/wood/henbox/egg" },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "aculinaryartillery": ["*"] },
+  "grindingProps": {
+    "groundStack": {  "type": "item", "code": "game:lime", "quantity": 1 }
+  },
+  "guiTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": -30, "y": -20, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+    "scale": 3.5
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.725, "y": -1.25, "z": -0.7 },
+    "rotation": { "x": 0, "y": 15, "z": 180 },
+    "scale": 0.71
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 5
+  },
+  "transitionableProps": [{
+    "type": "Perish",
+    "freshHours": { "avg": 240 },
+    "transitionHours": { "avg": 48 },
+    "transitionedStack": { "type": "item", "code": "game:rot" },
+    "transitionRatio": 0.5
+  }]
+}
