@@ -1,16 +1,6 @@
 [
   {
     "op": "addmerge",
-    "path": "/attributes/nutritionPropsWhenInMeal",
-    "value": {
-      "satietyByType": { "*-blue-1slice": 375, "*-cheddar-1slice": 450 },
-      "foodcategory": "Dairy"
-    },
-    "side": "server",
-    "file": "itemtypes/food/cheese.json"
-  },
-  {
-    "op": "addmerge",
     "path": "/attributes/handbook",
     "value": { "groupBy": ["cheese-*"] },
     "side": "server",

@@ -79,8 +79,7 @@ On hiatus until Wildcraft Herbs & Spices is updated
 -- herbal soft dough added
 -- pomace wine no longer crashes
 
-
-2.0.0-dev.5
+2.0.0-dev.6
 - Meathook placements adjusted yet again
 - Yogurt can be added to fruit bars in place of gelatin
 - Pemmican can be placed in stacks
@@ -91,18 +90,17 @@ HANDBOOK THINGS:
 - Sap collecting info moved from handbook guide to spile and sap entries
 
 REBALANCING:
-- Chickens can eat eggshells again; eggshell and peanut skin requirements quadrupled for troughs - DONE!!!
 - Total review of how "nutritionPropsWhenInMeal" is used; removed from cheese patch since vanilla already has this property
+- All charred food has the worst nutrition value to compensate for having the longest perish timer
 - Dried fruit rehydrates in meals via cookedStack property
+- Cheese in meal patched removed; now handled in vanilla - DONE!!!
 
 BUG FIXES:
 - Primitive survival meat patches corrected for meals (cold pasta specifically)
 - Oven transforms reviewed for all items
 - SAUSAGE ONLY HAS HALF THE EXTRA NUTRIENTS WHEN BOILED??? WHY
-- Fermented fish slop barrel textures fixed - DONE!!!
+- WHY ARE FRIED BALLS DOING IT TOO????
 - Peanut butter fixed so it gives nutrients when in bowl/bucket
-- Whole pumpkins no longer usable for meals - DONE!!!
-- Porridge patch fixed so it cannot conflict with Wildcraft's nuts in porridge patch - DONE!!!
 
 NEW FOOD:
 - added meatloaf?
@@ -116,13 +114,23 @@ MISC:
 - Soybean textures/shapes updated
 - Primitive survival patches reviewed
 - FIX THE FUCKING TRADER SPAWNS!!! STOP SPAWNING IN WATER STOP IT STOP IT STOP ITTTTTTTTTTTTTTTTTT
-- Eggshells can be turned into washed eggshells, which grind into lime at an 8:1 ratio - DONE!!!
 - use the new 'NutritionPropertiesPerLitreInMeal' stuff
 - Healing over time implemented for all items
 - Soulstorm Brew makes you psychedelic now?
 - Items can go into crocks? New labels for everything?
 
 
+2.0.0-dev.5
+REBALANCING:
+- Chickens can eat eggshells again; eggshell and peanut skin requirements quadrupled for troughs
+
+BUG FIXES:
+- Fermented fish slop barrel textures fixed
+- Whole pumpkins no longer usable for meals
+- Porridge patch fixed so it cannot conflict with Wildcraft's nuts in porridge patch
+
+MISC: 
+- Eggshells can be turned into washed eggshells, which grind into lime at an 8:1 ratio 
 
 2.0.0-dev.4
 HANDBOOK THINGS:
