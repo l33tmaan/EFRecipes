@@ -5,14 +5,11 @@
     "attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"nutritionPropsWhenInMeal": { 
-			"satietyByType":  { 
-				"*-edible":  30
-			},
-			"foodcategory": "Vegetable" 
-		},
+        "nutritionPropsWhenInMealByType": {
+          "*-(edible)": {"satiety": 45, "foodcategory": "Vegetable"}
+        },
 		"bakingPropertiesByType": {
-			"*-sheet": {
+			"*-dried": {
 				"temp": 100,
 				"levelFrom": 0.0,
 				"levelTo": 0.5,
@@ -26,7 +23,7 @@
 				"levelTo": 1.0,
 				"startScaleY": 1.0,
 				"endScaleY": 1.0,
-				"initialCode": "expandedfoods:driedseaweed-sheet"
+				"initialCode": "expandedfoods:driedseaweed-dried"
 			}
 		},
 		"onDisplayTransformByType": {
@@ -35,22 +32,53 @@
 				"rotation": { "x": 0, "y": 0, "z": 0 },
 				"scale": 0.8 
 			}
-		},
+        },
+        "handbook": {
+          "extraSections": [
+            {
+              "title": "expandedfoods:item-handbooktitle-driedseaweed",
+              "text": "expandedfoods:item-handbooktext-driedseaweed"
+            }
+          ]
+        },
     	"inPieProperties": { "texture": "game:block/food/pie/fill-seaweed", "partType": "Filling" }
     },
 	"nutritionPropsByType": {
-		"*-edible": { "satiety": 20, "foodcategory": "Vegetable" }
+		"*-edible": { "satiety": 30, "foodcategory": "Vegetable" }
 	},
     "variantgroups": [
-    	{ "code": "type", "states": ["mash", "sheet", "edible"] }
+    	{ "code": "type", "states": ["mash", "washed", "sheet", "dried", "edible"] }
     ],
     "shapeByType": {
-	"*-mash": { "base": "item/food/sushi/seaweedmash" }
+	  "*-mash": { "base": "item/food/sushi/seaweedmash" }
     },
     "textures": { 
-	"seaweed": { "base": "item/food/seaweed/{type}" }
+	  "seaweed": { "base": "item/food/seaweed/{type}" }
 	},
     "creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+    "transitionablePropsByType": {
+      "*-sheet": [{
+          "type": "Dry",
+          "freshHours": { "avg": 24 },
+          "transitionHours": { "avg": 72},
+          "transitionedStack": { "type": "item", "code": "expandedfoods:driedseaweed-dried" },
+          "transitionRatio": 1
+        },
+        {
+          "type": "Perish",
+          "freshHours": { "avg": 72 },
+          "transitionHours": { "avg": 96},
+          "transitionedStack": { "type": "item", "code": "game:rot" },
+          "transitionRatio": 1
+        }],
+      "@*-(mash|washed)": [{
+        "type": "Perish",
+        "freshHours": { "avg": 72 },
+        "transitionHours": { "avg": 96},
+        "transitionedStack": { "type": "item", "code": "game:rot" },
+        "transitionRatio": 1
+      }]
+    },
 	"guiTransformByType": {
 		"*-mash": {
 			"translation": { "x": 1.5, "y": -4, "z": 0 },

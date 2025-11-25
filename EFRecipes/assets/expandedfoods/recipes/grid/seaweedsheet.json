@@ -1,11 +1,52 @@
- {
-	"ingredientPattern": "S",
-	"ingredients": {
-		"S": { "type": "item", "code": "expandedfoods:driedseaweed-mash" }
-	},
-	"name": "seaweed",
-	"width": 1,
-	"height": 1,
-	"shapeless": false,
-	"output": { "type": "item", "code": "expandedfoods:driedseaweed-sheet" }
-}
+[
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": { "type": "block", "code": "aculinaryartillery:bottle-*-fired" },
+      "S": { "type": "item", "code": "expandedfoods:driedseaweed-mash" }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:waterportion" },
+        "requiresLitres": 1
+      }
+    },
+    "name": "seaweed",
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": { "type": "item", "code": "expandedfoods:driedseaweed-washed" }
+  },
+  {
+    "ingredientPattern": "B,S",
+    "recipeGroup": 1,
+    "ingredients": {
+      "B": { "type": "block", "code": "game:woodbucket" },
+      "S": { "type": "item", "code": "expandedfoods:driedseaweed-mash" }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:waterportion" },
+        "requiresLitres": 1
+      }
+    },
+    "name": "seaweed",
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": { "type": "item", "code": "expandedfoods:driedseaweed-washed" }
+  },
+  {
+    "ingredientPattern": "S",
+    "recipeGroup": 2,
+    "ingredients": {
+      "S": { "type": "item", "code": "expandedfoods:driedseaweed-washed" }
+    },
+    "name": "seaweed",
+    "width": 1,
+    "height": 1,
+    "shapeless": false,
+    "output": { "type": "item", "code": "expandedfoods:driedseaweed-sheet" }
+  }
+]
