@@ -1118,8 +1118,18 @@
   "item-vegetablejuiceportion-cassava" : "Cassava juice portion",
   "item-vegetablejuiceportion-bellpepper" : "Bell pepper juice portion",
   "item-birchsapportion" : "Birch sap portion",
-    "item-maplesapportion" : "Maple sap portion",
-    "item-treesyrupportion-birch" : "Birch syrup portion",
+  "item-handbooktitle-birchsapportion": "Birch Sap",
+  "item-handbooktext-birchsapportion": "Collected by placing a <a href=\"handbook://block-aculinaryartillery:spile-steel-north\">spile</a> into a birch log and a liquid container directly beneath it. The tree will only produce sap in April, May, and June.",
+
+
+  "item-maplesapportion" : "Maple sap portion",
+  "item-handbooktitle-maplesapportion": "Maple Sap",
+  "item-handbooktext-maplesapportion": "Collected by placing a <a href=\"handbook://block-aculinaryartillery:spile-steel-north\">spile</a> into a maple log and a liquid container directly beneath it. The tree will only produce sap in January, Feburary, and March.",
+
+
+
+
+  "item-treesyrupportion-birch" : "Birch syrup portion",
     "item-treesyrupportion-maple" : "Maple syrup portion",
     "item-fruitsyrupportion-blueberry" : "Blueberry syrup portion",
     "item-fruitsyrupportion-cranberry" : "Cranberry syrup portion",
@@ -4383,13 +4393,13 @@
     "game:incontainer-item-lard": "Lard",
     "game:recipeingredient-item-lard": "lard",
     "expandedfoods:recipeingredient-item-lard-insturmentalcase": "lard",
-    "itemdesc-lard": "A good replacement for fat or food oil in cooking.",
+    "itemdesc-lard": "A good replacement for fat or food oil in cooking. Hardens into <a href=\"handbook://item-expandedfoods:hardlardliquid\">solid lard</a> after a week.",
 
     "item-hardlardliquid": "Hardened lard portion",
     "incontainer-item-hardlardliquid": "Hardened lard",
     "game:incontainer-item-hardlardliquid": "Hardened lard",
     "game:recipeingredient-item-hardlardliquid": "hardened lard",
-    "itemdesc-hardresin": "Dump out a bucket full of hardened resin to acquire it.",
+    "itemdesc-hardlardliquid": "Dump out a bucket full of hardened lard to acquire <a href=\"handbook://block-expandedfoods:hardlard\">a brick of lard</a>.",
 
     "itemdesc-breadedball-*-raw": "Something yummy's inside this.",
     "itemdesc-breadedball-*-partbaked": "Partially fried food.",
@@ -4443,12 +4453,14 @@
   "game:incontainer-item-softresin": "Fresh resin",
   "incontainer-item-resin": "resin",
   "game:incontainer-item-resin": "resin",
-  "itemdesc-softresin": "Needs 700-1000 mL and 2 weeks to harden into resin.",
-
+  "itemdesc-softresin": "Needs 700-1000 mL and 10 days to harden into <a href=\"handbook://item-expandedfoods:hardresin\">resin</a>.",
+  "item-handbooktitle-softresin": "Fresh Resin",
+  "item-handbooktext-softresin": "Collected by placing a <a href=\"handbook://block-aculinaryartillery:spile-steel-north\">spile</a> into an acacia or pine log and a liquid container directly beneath it.<br>Pine trees produce resin from March to November.<br>Acacia trees produce resin from April to September.",
+  
   "item-hardresin": "Resin portion",
   "incontainer-item-hardresin": "Hardened resin",
   "game:incontainer-item-hardresin": "Hardened resin",
-  "itemdesc-hardresin": "Dump out a bucket full of hardened resin to acquire it.",
+  "itemdesc-hardresin": "Dump out a bucket full of hardened resin to acquire <a href=\"handbook://item-resin\">resin</a>.",
 
   "item-pasta-dough": "Pasta dough",
   "item-pasta-flat": "Flattened pasta dough",
@@ -9587,10 +9599,12 @@
 
   "game:item-handbooktitle-fruitpress": "Fruitpress notes",
   "game:item-handbooktext-fruitpress": "You can only use the fruit press if it is at LEAST half-full. Anything less and the press will not squish any material.",
-
-
+  
   "item-washedeggshell": "Washed egg shells",
   "itemdesc-washedeggshell": "Purified by water, ready for pressure.",
   "item-handbooktitle-washedeggshell": "Washed Egg Shells",
-  "item-handbooktext-washedeggshell": "After being soaked, these egg shells have lost many nutrients. However, this loss has made it easier to grind the shells and utilize the lime left within."
+  "item-handbooktext-washedeggshell": "After being soaked, these egg shells have lost many nutrients. However, this loss has made it easier to grind the shells and utilize the lime left within.",
+  
+  "aculinaryartillery:block-handbooktext-spile": "A metal peg that broaches liquid from various trees. Whether or not a tree produces liquid depends on the time of year, as trees produce more or less sap, gum, or nectar during certain seasons. Tapping a tree creates a small wound in the bark that allows sap to flow like blood, albeit slowly.<br>It can produce <a href=\"handbook://item-expandedfoods:birchsapportion\">birch sap</a>, <a href=\"handbook://item-expandedfoods:maplesapportion\">maple sap</a>, or <a href=\"handbook://item-expandedfoods:softresin\">resin</a> - depending on the tree.",
+  "game:item-handbooktext-resin": "Resin is found leaking from the <a href=\"handbook://block-log-resin-pine-ud\">trunks</a> of pine and acacia trees. Pines can be found in all but the most inhospitable and extreme climates, while acacias are found in dry tropical climates only. Resin is also an ingredient for <a href=\"handbook://item-glueportion-pitch-hot\">pitch glue</a>.<br><br><a href=\"handbook://item-expandedfoods:softresin\">Liquid resin</a> can be collected from acacia/pine trees using a <a href=\"handbook://block-aculinaryartillery:spile-steel-north\">spile</a>.<br>Pine trees produce resin from March to November.<br>Acacia trees produce resin from April to September."
 }   

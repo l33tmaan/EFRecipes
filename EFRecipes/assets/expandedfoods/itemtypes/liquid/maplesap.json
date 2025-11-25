@@ -4,7 +4,13 @@
 	"matterState": "liquid",
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+          "ignoreCreativeInvStacks": true,
+          "extraSections": [
+            {
+              "title": "expandedfoods:item-handbooktitle-maplesapportion",
+              "text": "expandedfoods:item-handbooktext-maplesapportion"
+            }
+          ]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"waterTightContainerProps": {
