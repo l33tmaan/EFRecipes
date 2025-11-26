@@ -7,6 +7,15 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
+        "handbook": {
+          "groupBy": [ "fermentedfish-*" ],
+          "extraSections": [
+            {
+              "title": "expandedfoods:item-handbooktitle-fermentedfish",
+              "text": "expandedfoods:item-handbooktext-fermentedfish"
+            }
+          ]
+        },
 		"inContainerTextureByType": {
 			"*-slop": { "base": "block/wood/barrel/fermentedfish-{type}" }
 		},
@@ -31,33 +40,35 @@
 		}
 	},
 	"materialDensity": 600,
-	"shape": { "base": "game:item/food/pickledvegetable/soypile" },
-	"textures": { "soypile": {"base": "item/food/fermentedfish/{type}"} },
+	"shape": { "base": "item/food/fermentedfish/{type}" },
+	"textures": { "slop": {"base": "item/food/fermentedfish/{type}"} },
 	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	"transitionableProps": [{
-			"type": "Perish",
-			"freshHours": { "avg": 72 },
-			"transitionHours": { "avg": 24 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-	"guiTransform": {
-		"translation": { "x": 2.5, "y": 1, "z": 0 },
+        "type": "Perish",
+        "freshHours": { "avg": 72 },
+        "transitionHours": { "avg": 24 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
+        "transitionRatio": 1
+    }],
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "guiTransform": {
+		"translation": { "x": 3, "y": 3, "z": 0 },
 		"rotation": { "x": 137, "y": 131, "z": 0 },
-		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
-		"scale": 1.38,
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.25,
 		"rotate": true
 	},
 	"tpHandTransform": {
-		"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
-		"rotation": { "x": 1, "y": -1, "z": -31 },
+		"translation": { "x": -0.9, "y": -0.15, "z": -0.5 },
+		"rotation": { "x": 6, "y": 16, "z": -88 },
 		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
-		"scale": 0.79
+		"scale": 0.55
 	},
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },
 		"rotation": { "x": 0, "y": 0, "z": 0 },
 		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-		"scale": 3.5
+		"scale": 3
 	}
 }
