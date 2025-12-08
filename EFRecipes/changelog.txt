@@ -94,6 +94,7 @@ HANDBOOK THINGS:
 
 REBALANCING:
 - Total review of how "nutritionPropsWhenInMeal" is used; removed from cheese patch since vanilla already has this property
+- Total review of how "transitionableProps" is used; general nerfing
 - All charred food has the worst nutrition value to compensate for having the longest perish timer
 - Dried fruit rehydrates in meals via cookedStack property
 - Cheese in meal patched removed; now handled in vanilla - DONE!!!
@@ -105,6 +106,11 @@ REBALANCING:
 - All sauces are not drinkable; for food use only
 - Soaked soybeans require 3 days in barrel, down from 14 - DONE!!!
 - Cultured soybeans require 7 days in barrel, down from 14 - DONE!!!
+- Compote buffed; requires more ingredients
+- Salad dressing can be made just with vinegar + oil - DONE!!!
+- Fish/soy sauce can be added to salad dressing
+- Peanut sauce can be used in salad and pasta meals - DONE!!!
+- Peanut sauce can be made with fish sauce - DONE!!!
 
 BUG FIXES:
 - Primitive survival meat patches corrected for meals (cold pasta specifically)
@@ -113,11 +119,13 @@ BUG FIXES:
 - WHY ARE FRIED BALLS DOING IT TOO????
 - Peanut butter fixed so it gives nutrients when in bowl/bucket
 - NutritionProps removed from salad dressing - DONE!!!
+- Olives can be pressed into oil again
 
 NEW FOOD:
 - added meatloaf?
 - added walnut/sunflower butter?
 - Dehydrated yeast added (cook in cooking pot; grind result)
+- More salad dressing variants added
 
 MISC: 
 - Dialogue added to Kitchenware Trader; readjusted code to push text to en.json
@@ -133,6 +141,7 @@ MISC:
 - Items can go into crocks? New labels for everything?
 - Fermented fish slop pile voxelized to resemble pickled soybean pile - DONE!!!
 - Pickled cabbage transform reviewed
+- French translation added (thanks to Laerinok!) - DONE!!!
 
 
 2.0.0-dev.5
