@@ -1763,6 +1763,20 @@
   },
   {
     "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dressing-basic",
+    "value": [ "topping", "basicdressing" ],
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/basicdressing",
+    "value": { "base": "expandedfoods:item/liquid/dressing/basic" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
     "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dressing-salad",
     "value": [ "topping", "saladdressing" ],
     "side": "server",
@@ -1772,6 +1786,48 @@
     "op": "addmerge",
     "path": "/textures/saladdressing",
     "value": { "base": "expandedfoods:item/liquid/dressing/salad" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dressing-sweet",
+    "value": [ "topping", "sweetdressing" ],
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/sweetdressing",
+    "value": { "base": "expandedfoods:item/liquid/dressing/sweet" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dressing-savory",
+    "value": [ "topping", "savorydressing" ],
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/savorydressing",
+    "value": { "base": "expandedfoods:item/liquid/dressing/savory" },
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:dressing-deluxe",
+    "value": [ "topping", "deluxedressing" ],
+    "side": "server",
+    "file": "blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/deluxedressing",
+    "value": { "base": "expandedfoods:item/liquid/dressing/deluxe" },
     "side": "server",
     "file": "blocktypes/clay/fired/pot.json"
   },
