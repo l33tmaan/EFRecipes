@@ -14,6 +14,20 @@
 	}
   },
   {
+    "Ingredients": [
+      { "type": "item", "code": "waterportion", "quantity": 100 },
+      { "type": "item", "code": "game:bone-tiny", "quantity": 1 }
+    ],
+    "Simmering": {
+      "meltingPoint": 200,
+      "meltingDuration": 110,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": { "type": "item", "code": "expandedfoods:brothportion-bone", "quantity": 50 },
+      "requiresContainer": false
+    }
+  },
+  {
 	"Ingredients": [
       { "type": "item", "code": "waterportion", "quantity": 100 },
       { "type": "item", "code": "expandedfoods:cookedchoppedmushroom-*-partbaked", "quantity": 1 }
