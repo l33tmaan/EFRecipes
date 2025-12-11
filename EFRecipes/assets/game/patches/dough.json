@@ -114,5 +114,12 @@
     "side": "server",
     "value": 160,
     "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook/groupBy",
+    "value": ["dough-*"],
+    "side": "server",
+    "file": "itemtypes/food/dough.json"
   }
 ]
