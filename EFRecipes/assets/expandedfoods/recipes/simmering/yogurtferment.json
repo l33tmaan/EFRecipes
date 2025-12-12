@@ -1,0 +1,16 @@
+[
+  {
+    "Ingredients": [
+      { "type": "item", "code": "expandedfoods:pasteurizedmilkportion",  "quantity": 10 },
+      { "type": "item", "code": "expandedfoods:yogurt-starter",  "quantity": 10 }
+    ],
+    "Simmering": {
+      "meltingPoint": 40,
+      "meltingDuration": 60,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": { "type": "item", "code": "expandedfoods:yogurt-ferment", "quantity":  20 },
+      "requiresContainer": false
+    }
+  }
+]
