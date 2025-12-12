@@ -121,5 +121,12 @@
     "value": ["dough-*"],
     "side": "server",
     "file": "itemtypes/food/dough.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook/extraSections",
+    "value": [{ "title": "expandedfoods:item-handbooktitle-dough", "text": "expandedfoods:item-handbooktext-dough" }],
+    "side": "server",
+    "file": "itemtypes/food/dough.json"
   }
 ]
