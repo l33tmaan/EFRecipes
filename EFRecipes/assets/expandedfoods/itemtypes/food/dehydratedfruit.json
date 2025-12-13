@@ -8,7 +8,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "dehydratedfruit-*" ] },
+		"handbook": { 
+          "groupBy": [ "dehydratedfruit-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-dehydratedfruit", "text": "expandedfoods:item-handbooktext-dehydratedfruit" }]
+        },
 		"nutritionPropsWhenInMeal": { 
 			"satietyByType":  { 
 				"*-saguaro": 90, 

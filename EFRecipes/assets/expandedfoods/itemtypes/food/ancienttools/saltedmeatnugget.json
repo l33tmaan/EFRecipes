@@ -4,7 +4,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "saltedmeatnugget-*" ] },
+		"handbook": { 
+          "groupBy": [ "saltedmeatnugget-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-meatnugget", "text": "expandedfoods:item-handbooktext-meatnugget" }]
+        },
 		"bakingPropertiesByType": {
 			"*-smashed": {
 				"temp": 150,

@@ -7,7 +7,13 @@
 	],
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "groupBy": ["peanutliquid-*"],
+            "extraSectionsByType": {
+              "*-paste": [{ "title": "expandedfoods:item-handbooktitle-peanutliquid-paste", "text": "expandedfoods:item-handbooktext-peanutliquid-paste" }],
+              "*-butter": [{ "title": "expandedfoods:item-handbooktitle-peanutliquid-butter", "text": "expandedfoods:item-handbooktext-peanutliquid-butter" }],
+              "*-sauce": [{ "title": "expandedfoods:item-handbooktitle-peanutliquid-sauce", "text": "expandedfoods:item-handbooktext-peanutliquid-sauce" }]
+            }
 		},
 		"inBowlShape": { "base": "game:block/meal/liquid" },
 		"waterTightContainerProps": {

@@ -8,7 +8,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "berrybread-*" ] },
+		"handbook": { 
+          "groupBy": [ "berrybread-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-berrybread", "text": "expandedfoods:item-handbooktext-berrybread" }]
+        },
 		"expandedNutritionProps": {
       		"game:milkportion" : { "saturation": 1.5, "foodcategory": "Dairy" },
 			"expandedfoods:lard": { "saturation": 16, "health":  0.1, "foodcategory": "Protein"},
@@ -44,7 +47,7 @@
 				"expandedfoods:choppedvegetable-pumpkin" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "pumpkin" } },
 				"game:legume-peanut" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
 				"expandedfoods:peanut-cooked" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
-				"expandedfoods:peanut-kernelss" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } }
+				"expandedfoods:peanut-kernels" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } }
 		    },
 			"@*-(syruppartbaked|partbaked)": {
 				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/berrybread/partbaked.json", "name": "type", "textureMap": { "bread": "{type}bread2" } },
@@ -55,7 +58,7 @@
 				"expandedfoods:choppedvegetable-pumpkin" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "pumpkin" } },
 				"game:legume-peanut" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
 				"expandedfoods:peanut-cooked" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
-				"expandedfoods:peanut-kernelss" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
+				"expandedfoods:peanut-kernels" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
 				"game:honeyportion": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "textureMap": { "syrup": "honey" } },
 				"expandedfoods:peanutliquid-paste": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "textureMap": { "syrup": "peanutbutter" } },
 				"expandedfoods:treesyrupportion-birch": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "textureMap": { "syrup": "weaktannin" } },
@@ -71,7 +74,7 @@
 				"expandedfoods:choppedvegetable-pumpkin" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "pumpkin" } },
 				"game:legume-peanut" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
 				"expandedfoods:peanut-cooked" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
-				"expandedfoods:peanut-kernelss" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
+				"expandedfoods:peanut-kernels" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
 				"game:honeyportion": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "textureMap": { "syrup": "honey" } },
 				"expandedfoods:peanutliquid-paste": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "textureMap": { "syrup": "peanutbutter" } },
 				"expandedfoods:treesyrupportion-birch": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "textureMap": { "syrup": "weaktannin" } },
@@ -87,7 +90,7 @@
 				"expandedfoods:choppedvegetable-pumpkin" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "pumpkin" } },
 				"game:legume-peanut" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
 				"expandedfoods:peanut-cooked" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
-				"expandedfoods:peanut-kernelss" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
+				"expandedfoods:peanut-kernels" : { "shape": "expandedfoods:shapes/item/food/bread/overlays/fruit/bread.json", "name": "type", "textureMap": { "fruit": "peanut" } },
 				"game:honeyportion": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "textureMap": { "syrup": "honey" } },
 				"expandedfoods:peanutliquid-paste": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "textureMap": { "syrup": "peanutbutter" } },
 				"expandedfoods:treesyrupportion-birch": { "shape": "expandedfoods:shapes/item/food/bread/overlays/syrup/bread.json", "textureMap": { "syrup": "weaktannin" } },

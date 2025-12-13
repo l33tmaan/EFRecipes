@@ -6,7 +6,8 @@
 	],
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-soulstormbrew", "text": "expandedfoods:item-handbooktext-soulstormbrew" }, { "title": "expandedfoods:item-handbooktitle-soulstormbrew2", "text": "expandedfoods:item-handbooktext-soulstormbrew2" }]
 		},
 		"distillationPropsByType": {
 			"*-refinedslop": { "distilledStack": { "type": "item", "code": "expandedfoods:soulstormbrew-basic" }, "ratio": 0.5 }

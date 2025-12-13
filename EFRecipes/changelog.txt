@@ -79,7 +79,8 @@ On hiatus until Wildcraft Herbs & Spices is updated
 -- herbal soft dough added
 -- pomace wine no longer crashes
 
-2.0.0-dev.6
+
+2.0.0-dev.7
 - Meathook placements adjusted yet again
 - Yogurt can be added to fruit bars in place of gelatin
 - Pemmican can be placed in stacks
@@ -89,35 +90,16 @@ On hiatus until Wildcraft Herbs & Spices is updated
 
 HANDBOOK THINGS:
 - Muffins and fruit bread have default visuals in the handbook
-- Sap collecting info moved from handbook guide to spile and sap entries - DONE!!!
-- Handbook entries added for almost every item 
-- Vanilla dough grouped in handbook - DONE!!!
-- Text added to vanilla entries for cider/spirits to explain EF aging - DONE!!!
-- Text added to vanilla dough to explain EF expansions - DONE!!!
 
 REBALANCING:
 - Total review of how "nutritionPropsWhenInMeal" is used; removed from cheese patch since vanilla already has this property
 - Total review of how "transitionableProps" is used; general nerfing
 - All charred food has the worst nutrition value to compensate for having the longest perish timer
 - Dried fruit rehydrates in meals via cookedStack property
-- Cheese in meal patched removed; now handled in vanilla - DONE!!!
-- Dried seaweed production chain lengthened; now it must be washed and dried before roasting in the oven - DONE!!!
-- Dried seaweed nutrition buffed from 20 to 30; nutritionPropsWhenInMeal buffed from 30 to 45 - DONE!!!
-- Default gelatin nutrition turned from Protein back to Fruit - DONE!!!
 - Carrot can be added to fruit bread/muffins, similar to pumpkin
-- Cottage cheese patch adding "nutritionPropsWhenInMeal" removed - DONE!!!
 - All sauces are not drinkable; for food use only
-- Soaked soybeans require 3 days in barrel, down from 14 - DONE!!!
-- Cultured soybeans require 7 days in barrel, down from 14 - DONE!!!
 - Compote buffed; requires more ingredients
-- Salad dressing can be made just with vinegar + oil - DONE!!!
-- Peanut sauce can be used in salad and pasta meals - DONE!!!
-- Peanut sauce can be made with fish sauce - DONE!!!
-- Small bones can be used like bones to make broth/gelatin - DONE!!!
-- Lard harden timer reduced from 180 hours to 18 hours - DONE!!!
-- Legumes juice into more oil - DONE!!!
-- Syrup can no longer be drunk straight - DONE!!!
-- Yogurt starter must be simmered with pasteurized milk to create fermenting yogurt - DONE!!!
+- Hardtack & pemmican can be added to soup/stews
 
 BUG FIXES:
 - Primitive survival meat patches corrected for meals (cold pasta specifically)
@@ -125,15 +107,12 @@ BUG FIXES:
 - SAUSAGE ONLY HAS HALF THE EXTRA NUTRIENTS WHEN BOILED??? WHY
 - WHY ARE FRIED BALLS DOING IT TOO????
 - Peanut butter fixed so it gives nutrients when in bowl/bucket
-- NutritionProps removed from salad dressing - DONE!!!
-- Olives can be pressed into oil again - DONE!!!
-- Candied apple in fruit bar visual fixed - DONE!!!
+- Acorn muffin recipe fixed so it stops crashing in handbook
 
 NEW FOOD:
 - added meatloaf?
 - added walnut/sunflower butter?
 - Dehydrated yeast added (cook in cooking pot; grind result)
-- Salad dressing split into more variants (basic, savory, smooth, sweet, deluxe) - DONE!!!
 
 MISC: 
 - Dialogue added to Kitchenware Trader; readjusted code to push text to en.json
@@ -147,10 +126,45 @@ MISC:
 - Healing over time implemented for all items
 - Soulstorm Brew makes you psychedelic now?
 - Items can go into crocks? New labels for everything?
-- Fermented fish slop pile voxelized to resemble pickled soybean pile - DONE!!!
 - Pickled cabbage transform reviewed
-- French translation added (thanks to Laerinok!) - DONE!!!
 - Aged spirit/cider text and visuals revised and updated
+
+2.0.0-dev.6
+
+HANDBOOK THINGS:
+- Sap collecting info moved from handbook guide to spile and sap entries
+- Vanilla dough grouped in handbook
+- Handbook entries added for almost every item and food
+- Text added to vanilla entries for cider/spirits to explain EF aging
+- Text added to vanilla dough to explain EF expansions
+
+REBALANCING:
+- Cheese in meal patched removed; now handled in vanilla
+- Cottage cheese patch adding "nutritionPropsWhenInMeal" removed
+- Dried seaweed production chain lengthened; now it must be washed and dried before roasting in the oven
+- Dried seaweed nutrition buffed from 20 to 30; nutritionPropsWhenInMeal buffed from 30 to 45
+- Default gelatin nutrition turned from Protein back to Fruit
+- Soaked soybeans require 3 days in barrel, down from 14
+- Cultured soybeans require 7 days in barrel, down from 14
+- Peanut sauce can be used in salad and pasta meals
+- Peanut sauce can be made with fish sauce
+- Lard harden timer reduced from 180 hours to 18 hours 
+- Legumes juice into more oil
+- Syrup can no longer be drunk straight
+- Yogurt starter must be simmered with pasteurized milk to create fermenting yogurt
+
+BUG FIXES:
+- NutritionProps removed from salad dressing
+- Olives can be pressed into oil again
+- Candied apple in fruit bar visual fixed
+
+NEW FOOD:
+- Salad dressing split into more variants (basic, savory, smooth, sweet, deluxe)
+
+MISC: 
+- Small bones can be used like bones to make broth/gelatin
+- Fermented fish slop pile voxelized to resemble pickled soybean pile
+- French translation added (thanks to Laerinok!)
 
 
 2.0.0-dev.5

@@ -13,7 +13,8 @@
 	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true,
-            "groupBy": ["strongwineportion-*"]
+            "groupBy": ["strongwineportion-*"],
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" }]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"nutritionPropsWhenInMeal": { "satiety": 20, "health": 0.5, "foodcategory": "Fruit" },

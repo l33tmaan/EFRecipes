@@ -3,13 +3,15 @@
   	"class": "ExpandedFood",
 	"maxstacksize": 64,
 	"variantgroups": [
-
 		{ "code": "state", "states": ["smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled"] }
 	],
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "acornbreadedfishnugget-*" ] },
+		"handbook": { 
+          "groupBy": [ "acornbreadedfishnugget-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-fryingguide", "text": "expandedfoods:item-handbooktext-fryingguide" }]
+        },
   		"expandedNutritionProps": {
 			"game:flour-flax": {"saturation": 80, "foodcategory": "Grain"},
 			"game:flour-rye": {"saturation": 150, "foodcategory": "Grain"},

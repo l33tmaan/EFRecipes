@@ -34,5 +34,12 @@
     ],
     "side": "server",
     "file": "itemtypes/liquid/rawjuice.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook/extraSections",
+    "value": [{ "title": "expandedfoods:item-handbooktitle-juiceprocessingguide", "text": "expandedfoods:item-handbooktext-juiceprocessingguide" }],
+    "side": "server",
+    "file": "itemtypes/liquid/rawjuice.json"
   }
 ]

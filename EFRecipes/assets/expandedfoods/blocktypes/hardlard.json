@@ -4,8 +4,11 @@
 	"texture": { "base": "game:block/fat" },
 	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	"attributes": {
-		"placeSound": "game:block/snow"
-	},
+		"placeSound": "game:block/snow",
+        "handbook": {
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-hardlard", "text": "expandedfoods:item-handbooktext-hardlard" }]
+        }
+    },
 	"behaviors": [
 		{
 			"name": "GroundStorable",

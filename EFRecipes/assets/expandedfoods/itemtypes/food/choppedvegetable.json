@@ -1,25 +1,26 @@
 {
 	"code": "choppedvegetable",
 	"maxstacksize": 64,
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": {
+        "groupBy": [ "choppedvegetable-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-choppedvegetable", "text": "expandedfoods:item-handbooktext-choppedvegetable" }]
+      },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
+      }
+    },
 	"attributesByType": {
-		"*-cassavadried": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] }
-		},
+		"*-cassavadried": {		},
 		"*-cabbage": {
-			"displaycaseable": true,
-			"shelvable": true,
 			"nutritionPropsWhenInMeal": { "satiety": 450, "foodcategory": "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
 			"onDisplayTransform": { 
 				"translation": { "x": 0, "y": -0.125, "z": 0 },
 				"scale": 0.75 
@@ -27,138 +28,39 @@
             "inPieProperties": { "texture": "game:block/food/pie/fill-cabbage", "partType": "Filling" }
 		},
 		"*-pumpkin": {
-			"displaycaseable": true,
-			"shelvable": true,
 			"nutritionPropsWhenInMeal": { "satiety": 180, "foodcategory": "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
             "inPieProperties": { "texture": "game:block/food/pie/fill-pumpkin", "partType": "Filling" }
 		},
 		"*-pickledcarrot": {
-			"displaycaseable": true,
-			"shelvable": true,
 			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
             "inPieProperties": { "texture": "game:block/food/pie/fill-carrot", "partType": "Filling" }
 		},
 		"*-pickledonion": {
-			"displaycaseable": true,
-			"shelvable": true,
 			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
             "inPieProperties": { "texture": "game:block/food/pie/fill-onion", "partType": "Filling" }
 		},
 		"*-pickledparsnip": {
-			"displaycaseable": true,
-			"shelvable": true,
 			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
             "inPieProperties": { "texture": "game:block/food/pie/fill-parsnip", "partType": "Filling" }
 		},
 		"*-pickledturnip": {
-			"displaycaseable": true,
-			"shelvable": true,
 			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
             "inPieProperties": { "texture": "game:block/food/pie/fill-turnip", "partType": "Filling" }
 		},
 		"*-pickledpumpkin": {
-			"displaycaseable": true,
-			"shelvable": true,
 			"nutritionPropsWhenInMeal": { "satiety": 120, "foodcategory": "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
             "inPieProperties": { "texture": "game:block/food/pie/fill-pumpkin", "partType": "Filling" }
 		},
 		"*-papyrusroot": {
-			"displaycaseable": true,
-			"shelvable": true,
 			"nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
             "inPieProperties": { "texture": "game:block/food/pie/fill-roots", "partType": "Filling" }
 		},
 		"*-cattailroot": {
-			"displaycaseable": true,
-			"shelvable": true,
 			"nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
             "inPieProperties": { "texture": "game:block/food/pie/fill-roots", "partType": "Filling" }
 		},
 		"*": {
-			"displaycaseable": true,
-			"shelvable": true,
 			"nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 1.0,
-				"endScaleY": 1.0,
-				"resultCode": "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
-			},
             "inPieProperties": { "texture": "game:block/food/pie/fill-{type}", "partType": "Filling" }
 		}
 	},

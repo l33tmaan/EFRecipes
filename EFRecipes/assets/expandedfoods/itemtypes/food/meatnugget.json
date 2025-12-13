@@ -4,7 +4,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "meatnugget-*" ] },
+		"handbook": { 
+          "groupBy": [ "meatnugget-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-meatnugget", "text": "expandedfoods:item-handbooktext-meatnugget" }]
+        },
 		"nutritionPropsWhenInMealByType": { 
 			"@*-bushmeat-(raw|smashed)": {"satiety": 195, "foodcategory": "Protein"},
 			"@*-redmeat-(raw|smashed)": {"satiety": 465, "foodcategory": "Protein"},

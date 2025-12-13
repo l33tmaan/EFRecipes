@@ -8,7 +8,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "acornpasta-*" ] },
+		"handbook": { 
+          "groupBy": [ "acornpasta-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-pasta", "text": "expandedfoods:item-handbooktext-pasta" }]
+        },
 		"inContainerTexture": { "base": "item/food/pasta/acornpasta" },
 		"nutritionPropsWhenInMealByType": { 
 			"*-cut": { "satiety": 240, "foodcategory": "Grain" }

@@ -5,7 +5,8 @@
 	"maxstacksize": 5000,
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-breadstarter", "text": "expandedfoods:item-handbooktext-breadstarter" }]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"waterTightContainerProps": {

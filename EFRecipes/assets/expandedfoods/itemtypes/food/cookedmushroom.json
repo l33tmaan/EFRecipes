@@ -59,11 +59,20 @@
     		"poresfly": {"base": "item/food/mushroom/{state}/flyagaric/pores"}
 		}
 	},
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "onDisplayTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "scale": 1
+      },
+      "handbook": {
+        "groupBy": [ "cookedmushroom-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-cookedmushroom", "text": "expandedfoods:item-handbooktext-cookedmushroom" }]
+      }
+    },
 	"attributesByType": {
 		"@*-(beardedtooth|whiteoyster|pinkoyster|dryadsaddle|tinderhoof|chickenofthewoods|reishi|funeralbell|deerear|livermushroom|pinkbonnet|shiitake)-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedmushroom-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -72,16 +81,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedmushroom-{mushroom}-perfect",
 				"initialCode": "game:mushroom-{mushroom}-normal-north"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
 			}
 		},		
 		"*-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedmushroom-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -90,16 +92,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedmushroom-{mushroom}-perfect",
 				"initialCode": "game:mushroom-{mushroom}-normal"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
 			}
 		},
 		"*-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedmushroom-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.5,
@@ -108,16 +103,9 @@
 				"endScaleY": 0.8,
 				"resultCode": "expandedfoods:cookedmushroom-{mushroom}-charred",
 				"initialCode": "expandedfoods:cookedmushroom-{mushroom}-partbaked"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
 			}
 		},
 		"*-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedmushroom-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.75,
@@ -125,10 +113,6 @@
 				"startScaleY": 0.8,
 				"endScaleY": 0.7,
 				"initialCode": "expandedfoods:cookedmushroom-{mushroom}-perfect"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
 			}
 		}
 	},

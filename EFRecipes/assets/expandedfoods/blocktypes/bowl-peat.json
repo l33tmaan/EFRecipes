@@ -9,8 +9,12 @@
 		{ "name": "RightClickPickup"} 
 	],
 	"attributes": {
-		"shelvable": true
-	},
+		"shelvable": true,
+        "handbook": {
+          "groupBy": ["bowl-peat-*"],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-bowl-peat", "text": "expandedfoods:item-handbooktext-bowl-peat" }]
+        }
+    },
 	"heldTpIdleAnimation": "holdbothhands",
 	"shape": { "base": "block/bowl-peat" },
 	"doNotRenderAtLod2": true,

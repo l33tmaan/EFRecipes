@@ -8,7 +8,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "muffin-*" ] },
+		"handbook": { 
+          "groupBy": [ "muffin-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-muffin", "text": "expandedfoods:item-handbooktext-muffin" }]
+        },
     	"expandedNutritionProps": {
       		"game:milkportion" : { "saturation": 1.5, "foodcategory": "Dairy" },
 			"expandedfoods:lard": { "saturation": 10, "health":  0.05, "foodcategory": "Protein"},

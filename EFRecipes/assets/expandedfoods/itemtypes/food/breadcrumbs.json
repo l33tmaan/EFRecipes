@@ -9,7 +9,10 @@
 			"translation": { "x": 0, "y": -0.25, "z": 0 },
 			"scale": 0.5
 		},
-		"handbook": { "groupBy": ["breadcrumbs-*"] },
+		"handbook": { 
+          "groupBy": ["breadcrumbs-*"],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-breadcrumbs", "text": "expandedfoods:item-handbooktext-breadcrumbs" }]
+        },
 		"nutritionPropsWhenInMeal": { 
 			"satietyByType":  { 
 				"@*-(birch|pine|maple)": 25, 

@@ -4,7 +4,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "fishnugget-*" ] },
+		"handbook": { 
+          "groupBy": [ "fishnugget-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-fishnugget", "text": "expandedfoods:item-handbooktext-fishnugget" }]
+        },
 		"nutritionPropsWhenInMealByType": { 
 			"@*-(raw|smashed|curedsmashed|curedchopped)": {"satiety": 400, "foodcategory": "Protein"}
 		},

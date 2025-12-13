@@ -4,7 +4,8 @@
     "matterState": "liquid",
     "attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-hardlardliquid", "text": "expandedfoods:item-handbooktext-hardlardliquid" }]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
         "waterTightContainerProps": {
@@ -25,11 +26,11 @@
     "maxstacksize": 32,
     "materialDensity": 200,
     "transitionableProps": [{
-        "type": "Perish",
-        "freshHours": { "avg": 168 },
-        "transitionHours": { "avg": 72 },
-        "transitionedStack": { "type": "item", "code": "game:rot" },
-		"transitionRatio": 0.1
+      "type": "Perish",
+      "freshHours": { "avg": 1440 },
+      "transitionHours": { "avg": 1440 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 0.1
     }],
     "guiTransform": {
         "rotation": { "x": 128, "y": 40, "z": 7 },

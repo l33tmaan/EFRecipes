@@ -11,7 +11,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "plaindoughball-*" ] },
+		"handbook": { 
+          "groupBy": [ "plaindoughball-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-plaindoughball", "text": "expandedfoods:item-handbooktext-plaindoughball" }]
+        },
 		"inPiePropertiesByType": {
 			"*-dough": { "texture": "game:block/food/pie/rice{bakeLevel}", "partType": "Crust"  }
 		},

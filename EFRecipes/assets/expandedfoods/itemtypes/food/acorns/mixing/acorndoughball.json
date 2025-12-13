@@ -11,7 +11,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "acorndoughball-*" ] },
+		"handbook": { 
+          "groupBy": [ "acorndoughball-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-plaindoughball", "text": "expandedfoods:item-handbooktext-plaindoughball" }]
+        },
 		"inPiePropertiesByType": {
 			"*-dough": { "texture": "game:block/food/pie/acornflax{bakeLevel}", "partType": "Crust"  }
 		},

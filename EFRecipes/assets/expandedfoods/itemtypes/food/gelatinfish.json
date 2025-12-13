@@ -9,8 +9,11 @@
   	}],
 	"attributes": {
 		"displaycaseable": true,
-		"shelvable": true
-	},
+		"shelvable": true,
+        "handbook": {
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-gelatin", "text": "expandedfoods:item-handbooktext-gelatin" }]
+        }
+    },
 	"shape": { "base": "item/food/gelatinsolid" },
 	"textures": { "plain": { "base": "game:item/gelatin/fishgelatin" } },
 	"nutritionProps": { "saturation": 200, "health": 4, "foodcategory": "Protein" },

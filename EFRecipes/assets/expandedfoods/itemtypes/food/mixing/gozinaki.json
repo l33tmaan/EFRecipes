@@ -8,7 +8,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "gozinaki-*" ] },
+		"handbook": { 
+          "groupBy": [ "gozinaki-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-gozinaki", "text": "expandedfoods:item-handbooktext-gozinaki" }]
+        },
 		"expandedNutritionProps": {
 			"game:salt": { "saturation": 10, "health": 0.5, "foodcategory": "Fruit"},
       		"game:honeyportion" : { "saturation": 4, "foodcategory": "Fruit" },

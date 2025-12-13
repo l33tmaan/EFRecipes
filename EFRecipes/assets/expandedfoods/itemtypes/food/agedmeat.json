@@ -2,7 +2,10 @@
 	"code": "agedmeat",
 	"maxstacksize": 64,
 	"attributes": {
-		"handbook": { "groupBy": ["agedmeat-*"] },
+		"handbook": { 
+          "groupBy": ["agedmeat-*"],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-agedmeat", "text": "expandedfoods:item-handbooktext-agedmeat" }]
+        },
 		"displaycaseable": true,
 		"shelvable": true,
 		"meatHookTransformByType": {

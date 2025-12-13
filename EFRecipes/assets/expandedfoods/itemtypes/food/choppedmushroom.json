@@ -25,7 +25,10 @@
 			"*": 0
 			}	
 		},
-		"handbook": { "groupBy": [ "choppedmushroom-*" ] },
+		"handbook": { 
+          "groupBy": [ "choppedmushroom-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-choppedmushroom", "text": "expandedfoods:item-handbooktext-choppedmushroom" }]
+        },
 		"bakingProperties": {
 			"temp": 100,
 			"levelFrom": 0.0,

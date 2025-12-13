@@ -5,7 +5,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "sushiveg-*" ] },
+		"handbook": { 
+          "groupBy": [ "sushiveg-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-sushi", "text": "expandedfoods:item-handbooktext-sushi" }]
+        },
 		"expandedNutritionProps": {
 			"game:salt": {"saturation": 10, "health": 0.5, "foodcategory": "Grain"},
 			"game:grain-rice": {"saturation": 200, "foodcategory": "Grain"},

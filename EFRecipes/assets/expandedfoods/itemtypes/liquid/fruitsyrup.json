@@ -13,7 +13,8 @@
 	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true,
-            "groupBy": ["fruitsyrupportion-*"]
+            "groupBy": ["fruitsyrupportion-*"],
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-fruitsyrupportion", "text": "expandedfoods:item-handbooktext-fruitsyrupportion" }]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"nutritionPropsWhenInMealByType": { 
@@ -37,10 +38,6 @@
 				"action": "DropContents",
 				"stack": { "type": "item", "code": "expandedfoods:fruitsyrupportion-{type}" }
 			},
-			"nutritionPropsPerLitreByType": {
-				"*-saguaro":  {	"saturation": 800, "health": 2, "foodcategory": "Fruit" },
-				"*":  {	"saturation": 800, "health": 1, "foodcategory": "Fruit" }
-			}
 		}
 	},
 	"shape": { "base": "game:item/liquid" },

@@ -9,7 +9,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "trailmix-*" ] },
+		"handbook": { 
+          "groupBy": [ "trailmix-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-trailmix", "text": "expandedfoods:item-handbooktext-trailmix" }]
+        },
 		"renderIngredients": {
 			"game:legume-peanut": "expandedfoods:shapes/item/food/trailmix.json",
 			"expandedfoods:acornportion": "expandedfoods:shapes/item/food/trailmix.json",

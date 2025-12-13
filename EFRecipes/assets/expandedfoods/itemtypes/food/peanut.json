@@ -15,6 +15,9 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
+        "handbook": {
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-peanut", "text": "expandedfoods:item-handbooktext-peanut" }]
+        },
 		"inContainerTexture": { "base": "block/wood/barrel/raw-soybean" },
 		"foodTags": ["peanut"],
 		"fertilizerPropsByType": {

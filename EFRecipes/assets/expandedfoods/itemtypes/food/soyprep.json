@@ -8,6 +8,9 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
+        "handbook": {
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-soyprep", "text": "expandedfoods:item-handbooktext-soyprep" }]
+        },
 		"inContainerTextureByType": {
 			"@*-(soaked|slurry|cultured)": { "base": "block/wood/barrel/raw-soybean" }
 		},

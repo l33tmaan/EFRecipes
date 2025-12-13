@@ -4,7 +4,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "candiedfruit-*" ] },
+		"handbook": { 
+          "groupBy": [ "candiedfruit-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-candiedfruit", "text": "expandedfoods:item-handbooktext-candiedfruit" }]
+        },
 		"onDisplayTransformByType": {
 			"*": { 
 				"translation": { "x": 0.0, "y": -0.155, "z": 0.0 },

@@ -9,12 +9,7 @@
 		"shelvable": true,
         "handbook": {
           "groupBy": [ "fermentedfish-*" ],
-          "extraSections": [
-            {
-              "title": "expandedfoods:item-handbooktitle-fermentedfish",
-              "text": "expandedfoods:item-handbooktext-fermentedfish"
-            }
-          ]
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-fermentedfish", "text": "expandedfoods:item-handbooktext-fermentedfish" }]
         },
 		"inContainerTextureByType": {
 			"*-slop": { "base": "block/wood/barrel/fermentedfish-{type}" }

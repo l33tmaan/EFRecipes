@@ -5,7 +5,8 @@
 	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true,
-            "groupBy": ["yogurt-*"]
+            "groupBy": ["yogurt-*"],
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-yogurt", "text": "expandedfoods:item-handbooktext-yogurt" }]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"nutritionPropsWhenInMeal": { "saturation": 150, "Health": 5, "foodcategory": "Dairy" },

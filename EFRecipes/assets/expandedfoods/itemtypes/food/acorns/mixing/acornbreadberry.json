@@ -8,7 +8,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "acornberrybread-*" ] },
+		"handbook": { 
+          "groupBy": [ "acornberrybread-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-berrybread", "text": "expandedfoods:item-handbooktext-berrybread" }]
+        },
 		"expandedNutritionProps": {
       		"game:milkportion" : { "saturation": 1.5, "foodcategory": "Dairy" },
 			"expandedfoods:lard": { "saturation": 10, "health":  0.05, "foodcategory": "Protein"},

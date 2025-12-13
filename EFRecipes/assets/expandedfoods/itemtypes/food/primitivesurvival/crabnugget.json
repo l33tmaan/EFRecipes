@@ -4,7 +4,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "crabnugget-*" ] },
+		"handbook": { 
+          "groupBy": [ "crabnugget-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-meatnugget", "text": "expandedfoods:item-handbooktext-meatnugget" }]
+        },
 		"nutritionPropsWhenInMealByType": { 
 			"crabnugget-raw": {"satiety": 195, "foodcategory": "Protein"}
 			},

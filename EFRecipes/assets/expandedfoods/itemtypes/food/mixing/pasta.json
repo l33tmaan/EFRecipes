@@ -8,7 +8,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "pasta-*" ] },
+		"handbook": { 
+          "groupBy": [ "pasta-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-pasta", "text": "expandedfoods:item-handbooktext-pasta" }]
+        },
 		"inContainerTexture": { "base": "item/food/pasta/ricepasta" },
 		"nutritionPropsWhenInMealByType": {
 			"*-cut": {

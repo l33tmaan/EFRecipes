@@ -4,7 +4,8 @@
     "matterState": "liquid",
     "attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-lard", "text": "expandedfoods:item-handbooktext-lard" }]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
         "nutritionPropsWhenInMeal": { "satiety": 100, "health": 0.5, "foodcategory": "Protein" },
@@ -32,8 +33,8 @@
 		    "transitionRatio": 0.005
       },{
     		"type": "Harden",
-    		"freshHours": { "avg": 60 },
-    		"transitionHours": { "avg": 120},
+    		"freshHours": { "avg": 12 },
+    		"transitionHours": { "avg": 6},
     		"transitionedStack": { "type": "item", "code": "expandedfoods:hardlardliquid" },
     		"transitionRatio": 0.1
   	}],

@@ -36,8 +36,12 @@
 			"@*-(pheasant|goldenpheasant|capercaillie|wildturkey)": { "saturation": 280, "foodcategory": "Protein" },
 			"*-chicken": { "saturation": 200, "foodcategory": "Protein" }
 		},
-		"inPieProperties": { "texture": "game:block/food/pie/fill-egg", "partType": "Filling" }
-	},
+		"inPieProperties": { "texture": "game:block/food/pie/fill-egg", "partType": "Filling" },
+        "handbook": {
+          "groupBy": [ "limeegg-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-limeegg", "text": "expandedfoods:item-handbooktext-limeegg" }]
+        }
+    },
 	"materialDensity": 200,
     "guiTransform": {
       "translation": { "x": 0, "y": 0, "z": 0 },

@@ -23,11 +23,22 @@
 		"bellpepper": {"base": "item/food/veggie/{state}/bellpepper"},
 		"pickledbellpepper": {"base": "item/food/veggie/{state}/pickledbellpepper"}
 	},
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": { 
+        "groupBy": [ "cookedchoppedvegetable-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-cookedchoppedvegetable", "text": "expandedfoods:item-handbooktext-cookedchoppedvegetable" }]
+      },
+      "onDisplayTransformByType": {
+        "*-cabbage-*": {
+          "translation": { "x": 0, "y": -0.125, "z": 0 },
+          "scale": 0.75
+        }
+      }
+    },
 	"attributesByType": {
 		"*-cabbage-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -36,16 +47,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedchoppedvegetable-cabbage-perfect",
 				"initialCode": "expandedfoods:choppedvegetable-cabbage"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.125, "z": 0 },
-				"scale": 0.75 
 			}
 		},
 		"*-pickledbellpepper-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -57,9 +61,6 @@
 			}
 		},
 		"*-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -71,9 +72,6 @@
 			}
 		},
 		"*-cabbage-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.5,
@@ -82,16 +80,9 @@
 				"endScaleY": 0.8,
 				"resultCode": "expandedfoods:cookedchoppedvegetable-cabbage-charred",
 				"initialCode": "expandedfoods:cookedchoppedvegetable-cabbage-partbaked"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.125, "z": 0 },
-				"scale": 0.75 
 			}
 		},
 		"*-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.5,
@@ -103,9 +94,6 @@
 			}
 		},
 		"*-cabbage-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.75,
@@ -113,16 +101,9 @@
 				"startScaleY": 0.8,
 				"endScaleY": 0.7,
 				"initialCode": "expandedfoods:cookedchoppedvegetable-cabbage-perfect"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.125, "z": 0 },
-				"scale": 0.75 
 			}
 		},
 		"*-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.75,

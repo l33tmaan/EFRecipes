@@ -12,7 +12,8 @@
 	},
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-hardresin", "text": "expandedfoods:item-handbooktext-hardresin" }]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"waterTightContainerProps": {

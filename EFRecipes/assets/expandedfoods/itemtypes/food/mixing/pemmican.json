@@ -8,8 +8,11 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "pemmican-*" ] },
-    		"expandedNutritionPropsByType": {
+		"handbook": { 
+          "groupBy": [ "pemmican-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-pemmican", "text": "expandedfoods:item-handbooktext-pemmican" }]
+        },
+        "expandedNutritionPropsByType": {
 			"*-raw": {
 				"game:fat" : {"saturation": 100, "foodcategory": "Protein"},
 				"expandedfoods:lard" : {"saturation": 5, "health":  0.025, "foodcategory": "Protein"},

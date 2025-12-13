@@ -5,7 +5,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "snakenugget-*" ] },
+		"handbook": { 
+          "groupBy": [ "snakenugget-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-meatnugget", "text": "expandedfoods:item-handbooktext-meatnugget" }]
+        },
 		"nutritionPropsWhenInMealByType": { 
 			"snakenugget-raw": {"satiety": 225, "foodcategory": "Protein"}
 		},

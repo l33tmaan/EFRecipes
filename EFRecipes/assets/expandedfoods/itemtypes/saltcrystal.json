@@ -19,12 +19,8 @@
 			}
         },
         "handbook": {
-          "extraSectionsByType": {
-            "*-dry": [{
-              "title": "expandedfoods:item-handbooktitle-saltcrystal-dry" ,
-              "text": "expandedfoods:item-handbooktext-saltcrystal-dry"
-            }]
-          }
+            "extraSections": 
+               [{ "title": "expandedfoods:item-handbooktitle-saltcrystal-{type}" , "text": "expandedfoods:item-handbooktext-saltcrystal-{type}" }]
         }
     },
 	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },

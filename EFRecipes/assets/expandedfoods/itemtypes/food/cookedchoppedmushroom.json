@@ -56,11 +56,20 @@
     		"witchhat": {"base": "item/food/mushroom/{state}/{type}"}
 		}
 	},
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "onDisplayTransform": {
+        "translation": { "x": 0, "y": -0.125, "z": 0 },
+        "scale": 0.75
+      },
+      "handbook": { 
+        "groupBy": [ "cookedchoppedmushroom-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-cookedchoppedmushroom", "text": "expandedfoods:item-handbooktext-cookedchoppedmushroom" }]
+      }
+    },
 	"attributesByType": {
 		"*-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedchoppedmushroom-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -69,16 +78,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedchoppedmushroom-{type}-perfect",
 				"initialCode": "expandedfoods:choppedmushroom-{type}"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.125, "z": 0 },
-				"scale": 0.75 
 			}
 		},
 		"*-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedchoppedmushroom-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.5,
@@ -87,16 +89,9 @@
 				"endScaleY": 0.8,
 				"resultCode": "expandedfoods:cookedchoppedmushroom-{type}-charred",
 				"initialCode": "expandedfoods:cookedchoppedmushroom-{type}-partbaked"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.125, "z": 0 },
-				"scale": 0.75 
 			}
 		},
 		"*-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedchoppedmushroom-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.75,
@@ -104,23 +99,11 @@
 				"startScaleY": 0.8,
 				"endScaleY": 0.7,
 				"initialCode": "expandedfoods:cookedchoppedmushroom-{type}-perfect"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.125, "z": 0 },
-				"scale": 0.75 
 			}
 		}
 	},
 	"combustiblePropsByType": {
-		"*-partbaked": {
-			"meltingPoint": 150,
-			"meltingDuration": 20,
-			"smeltedRatio": 1,
-			"smeltingType": "bake",
-			"smeltedStack": { "type": "item", "code": "cookedchoppedmushroom-{type}-charred" },
-			"requiresContainer": false
-		},
-		"*-perfect": {
+		"@*-(partbaked|perfect)": {
 			"meltingPoint": 150,
 			"meltingDuration": 20,
 			"smeltedRatio": 1,

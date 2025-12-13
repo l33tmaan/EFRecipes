@@ -2,6 +2,9 @@
 	"code": "acornportion",
 	"maxstacksize": 32,
 	"attributes": {
+        "handbook": {
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-acornportion", "text": "expandedfoods:item-handbooktext-acornportion" }]
+        },
 		"nutritionPropsWhenInMeal": { "satiety": 105, "foodcategory": "Protein"},
 		"bakingproperties": {
 			"temp": 110,

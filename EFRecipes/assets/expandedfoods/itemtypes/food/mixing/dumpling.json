@@ -8,7 +8,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "dumpling-*" ] },
+		"handbook": { 
+          "groupBy": [ "dumpling-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-dumpling", "text": "expandedfoods:item-handbooktext-dumpling" }]
+        },
     	"expandedNutritionPropsByType": {
 			"*-raw": {
       			"game:milkportion" : { "saturation": 1.5, "foodcategory": "Dairy" },

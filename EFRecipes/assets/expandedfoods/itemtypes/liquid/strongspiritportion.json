@@ -13,7 +13,8 @@
 	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true,
-            "groupBy": ["strongspiritportion-*"]
+            "groupBy": ["strongspiritportion-*"],
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-alcoholagingguide", "text": "expandedfoods:item-handbooktext-alcoholagingguide" }]
 		},
 		"distillationProps": {
 			"distilledStack": { "type": "item", "code": "game:alcoholportion" },

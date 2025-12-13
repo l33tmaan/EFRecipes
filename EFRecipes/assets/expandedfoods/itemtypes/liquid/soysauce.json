@@ -4,7 +4,8 @@
 	"matterState": "liquid",
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-soysauce", "text": "expandedfoods:item-handbooktext-soysauce" }]
 		},
 		"inBowlShape": { "base": "game:block/meal/liquid" },
 		"nutritionPropsWhenInMeal": { "satiety": 64, "health": 1, "foodcategory": "Protein" },

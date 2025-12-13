@@ -8,7 +8,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "dryfruit-*" ] },
+		"handbook": { 
+          "groupBy": [ "dryfruit-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-dryfruit", "text": "expandedfoods:item-handbooktext-dryfruit" }]
+        },
 		"nutritionPropsWhenInMeal": { 
 			"satietyByType":  { 
 				"*-saguaro": 90, 

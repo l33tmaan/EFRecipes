@@ -8,7 +8,8 @@
 	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true,
-            "groupBy": ["clarifiedbrothportion-*"]
+            "groupBy": ["clarifiedbrothportion-*"],
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-broth", "text": "expandedfoods:item-handbooktext-broth" }]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"nutritionPropsWhenInMealByType": {

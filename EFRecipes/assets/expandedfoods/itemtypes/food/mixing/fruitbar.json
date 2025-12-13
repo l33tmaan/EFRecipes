@@ -15,7 +15,10 @@
 	"attributes": {
 		"displaycaseable": true,
 		"shelvable": true,
-		"handbook": { "groupBy": [ "fruitbar-*" ] },
+		"handbook": { 
+          "groupBy": [ "fruitbar-*" ],
+          "extraSections": [{ "title": "expandedfoods:item-handbooktitle-fruitbar", "text": "expandedfoods:item-handbooktext-fruitbar" }]
+        },
 	    "onDisplayTransform": { 
 			"translation": { "x": 0, "y": -0.25, "z": 0 },
 			"scale": 0.5 

@@ -3,11 +3,13 @@
 	"class": "ExpandedLiquid",
 	"matterState": "liquid",
 	"variantgroups": [
-		{ "code": "type", "states": ["salad"] }
+		{ "code": "type", "states": ["basic", "salad", "savory", "sweet", "deluxe"] }
 	],
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "groupBy": ["dressing-*"],
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-dressing", "text": "expandedfoods:item-handbooktext-dressing" }]
 		},
 		"inBowlShape": { "base": "game:block/meal/liquid" },
 		"waterTightContainerProps": {
@@ -23,20 +25,81 @@
 				}
 			}
 		},
-		"expandedNutritionProps": {
-      		"game:vinegarportion" : { "saturation": 4, "foodcategory": "Fruit" },
-			"aculinaryartillery:eggwhiteportion": { "saturation": 3, "foodcategory": "Protein"},
-    		"expandedfoods:foodoilportion-*" : { "saturation": 6.4, "health": 0.1, "foodcategory": "Fruit" },
-			"game:salt": { "saturation": 10, "health": 0.5, "foodcategory": "Fruit"	},
-      		"game:honeyportion" : { "saturation": 3, "health": 0.1, "foodcategory": "Fruit" },
-      		"expandedfoods:treesyrupportion-*" : { "saturation": 6.4, "health": 0.1, "foodcategory": "Fruit" }
-		}
+		"expandedNutritionPropsByType": {
+            "*-basic": {
+              "game:vinegarportion" : { "saturation": 5, "health": 0.025, "foodcategory": "Fruit" },
+              "expandedfoods:foodoilportion-*" : { "saturation": 6.4, "health": 0.1, "foodcategory": "Vegetable" },
+              "aculinaryartillery:eggwhiteportion": { "saturation": 3, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-chicken": { "saturation": 17, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-pheasant": { "saturation": 25, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-goldenpheasant": { "saturation": 25, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-capercaillie": { "saturation": 25, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-wildturkey": { "saturation": 25, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-chicken": { "saturation": 20, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-pheasant": { "saturation": 28, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-goldenpheasant": { "saturation": 28, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-capercaillie": { "saturation": 28, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-wildturkey": { "saturation": 28, "foodcategory": "Protein"},
+              "expandedfoods:fishsauce" : { "saturation": 5, "foodcategory": "Protein" },
+              "expandedfoods:soysauce" : { "saturation": 5, "health": 0.1, "foodcategory": "Protein" },
+              "game:salt": { "saturation": 10, "health": 0.5, "foodcategory": "Fruit"	},
+              "game:honeyportion" : { "saturation": 3, "health": 0.1, "foodcategory": "Fruit" },
+              "expandedfoods:fruitsyrupportion-saguaro" : { "saturation": 8, "health": 0.2, "foodcategory": "Fruit" },
+              "expandedfoods:fruitsyrupportion-*" : { "saturation": 8, "health": 0.1, "foodcategory": "Fruit" },
+              "expandedfoods:treesyrupportion-*" : { "saturation": 6.4, "health": 0.1, "foodcategory": "Fruit" }
+            },
+            "@*-(salad|savory|sweet)": {
+              "game:vinegarportion" : { "saturation": 3.3, "health": 0.016, "foodcategory": "Fruit" },
+              "expandedfoods:foodoilportion-*" : { "saturation": 4.25, "health": 0.066, "foodcategory": "Vegetable" },
+              "aculinaryartillery:eggwhiteportion": { "saturation": 2, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-chicken": { "saturation": 11.3, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-pheasant": { "saturation": 16.6, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-goldenpheasant": { "saturation": 16.6, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-capercaillie": { "saturation": 16.6, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-wildturkey": { "saturation": 16.6, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-chicken": { "saturation": 13.3, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-pheasant": { "saturation": 18.6, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-goldenpheasant": { "saturation": 18.6, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-capercaillie": { "saturation": 18.6, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-wildturkey": { "saturation": 18.6, "foodcategory": "Protein"},
+              "expandedfoods:fishsauce" : { "saturation": 3.3, "foodcategory": "Protein" },
+              "expandedfoods:soysauce" : { "saturation": 3.3, "health": 0.066, "foodcategory": "Protein" },
+              "game:salt": { "saturation": 6.6, "health": 0.033, "foodcategory": "Fruit"	},
+              "game:honeyportion" : { "saturation": 2.13, "health": 0.066, "foodcategory": "Fruit" },
+              "expandedfoods:fruitsyrupportion-saguaro" : { "saturation": 5.3, "health": 0.133, "foodcategory": "Fruit" },
+              "expandedfoods:fruitsyrupportion-*" : { "saturation": 5.3, "health": 0.066, "foodcategory": "Fruit" },
+              "expandedfoods:treesyrupportion-*" : { "saturation": 4.26, "health": 0.066, "foodcategory": "Fruit" }
+            },
+            "*-deluxe": {
+              "game:vinegarportion" : { "saturation": 2, "health": 0.01, "foodcategory": "Fruit" },
+              "expandedfoods:foodoilportion-*" : { "saturation": 2.6, "health": 0.04, "foodcategory": "Vegetable" },
+              "aculinaryartillery:eggwhiteportion": { "saturation": 1.2, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-chicken": { "saturation": 6.8, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-pheasant": { "saturation": 10, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-goldenpheasant": { "saturation": 10, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-capercaillie": { "saturation": 10, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkportion-wildturkey": { "saturation": 10, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-chicken": { "saturation": 8, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-pheasant": { "saturation": 11.2, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-goldenpheasant": { "saturation": 11.2, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-capercaillie": { "saturation": 11.2, "foodcategory": "Protein"},
+              "aculinaryartillery:eggyolkfullportion-wildturkey": { "saturation": 11.2, "foodcategory": "Protein"},
+              "expandedfoods:fishsauce" : { "saturation": 2, "foodcategory": "Protein" },
+              "expandedfoods:soysauce" : { "saturation": 2, "health": 0.04, "foodcategory": "Protein" },
+              "game:salt": { "saturation": 4, "health": 0.2, "foodcategory": "Fruit"	},
+              "game:honeyportion" : { "saturation": 1.2, "health": 0.04, "foodcategory": "Fruit" },
+              "expandedfoods:fruitsyrupportion-saguaro" : { "saturation": 3.2, "health": 0.08, "foodcategory": "Fruit" },
+              "expandedfoods:fruitsyrupportion-*" : { "saturation": 3.2, "health": 0.04, "foodcategory": "Fruit" },
+              "expandedfoods:treesyrupportion-*" : { "saturation": 2.6, "health": 0.04, "foodcategory": "Fruit" }
+            }
+        }
 	},
 	"shape": { "base": "game:item/liquid" },
 	"texture": { "base": "item/liquid/dressing/{type}" },
 	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:dressing-{type}", "makefull": true } ] } } ] } ],
 	"maxstacksize": 5000,
 	"materialDensity": 200,
+	"nutritionProps": { "saturation": 0, "foodcategory": "Fruit" },
 	"transitionablePropsByType": {
 		"*":[{
     			"type": "Perish",

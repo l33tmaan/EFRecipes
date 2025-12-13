@@ -33,48 +33,51 @@
 		"reeds": {"base": "item/food/veggie/{state}/reeds"},
 		"bellpepper": {"base": "item/food/veggie/{state}/bellpepper"}
 	},
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": {
+        "groupBy": [ "cookedveggie-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-cookedveggie", "text": "expandedfoods:item-handbooktext-cookedveggie" }]
+      },
+      "onDisplayTransformByType": {
+        "*-cabbage-*": {
+          "translation": { "x": 0, "y": -0.125, "z": 0 },
+          "scale": 0.75
+        },
+        "@*-(carrot|pickledcarrot|turnip|pickledturnip|parsnip|pickledparsnip)-partbaked": {
+          "rotation": { "x": 0, "y": 45, "z": 90 },
+          "translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+          "scale": 1
+        },
+        "@*-(carrot|pickledcarrot|turnip|pickledturnip|parsnip|pickledparsnip)-perfect": {
+          "rotation": { "x": 0, "y": 45, "z": 90 },
+          "translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+          "scale": 1
+        },
+        "@*-(carrot|pickledcarrot|turnip|pickledturnip|parsnip|pickledparsnip)-charred": {
+          "rotation": { "x": 0, "y": 45, "z": 90 },
+          "translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
+          "scale": 1
+        },
+        "*-cattailroot-*": {
+          "translation": { "x": -0.025, "y": -0.45, "z": 0.025 },
+          "rotation": { "x": 90, "y": 0, "z": -14 },
+          "scale": 0.75
+        },
+        "*-papyrusroot-*": {
+          "translation": { "x": 0, "y": -0.45, "z": 0 },
+          "rotation": { "x": 0, "y": 135, "z": 90 },
+          "scale": 0.75
+        },
+        "*": {
+          "translation": { "x": 0, "y": 0, "z": 0 },
+          "scale": 1
+        }
+      }
+    },
 	"attributesByType": {
-		"*-cabbage-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.25,
-				"levelTo": 0.5,
-				"startScaleY": 1.0,
-				"endScaleY": 0.9,
-				"resultCode": "expandedfoods:cookedveggie-cabbage-perfect",
-				"initialCode": "game:vegetable-cabbage"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.125, "z": 0 },
-				"scale": 0.75 
-			}
-		},
-		"*-carrot-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.25,
-				"levelTo": 0.5,
-				"startScaleY": 1.0,
-				"endScaleY": 0.9,
-				"resultCode": "expandedfoods:cookedveggie-carrot-perfect",
-				"initialCode": "game:vegetable-carrot"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
 		"*-pickledcarrot-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -83,36 +86,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedveggie-pickledcarrot-perfect",
 				"initialCode": "game:pickledvegetable-carrot"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-turnip-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.25,
-				"levelTo": 0.5,
-				"startScaleY": 1.0,
-				"endScaleY": 0.9,
-				"resultCode": "expandedfoods:cookedveggie-turnip-perfect",
-				"initialCode": "game:vegetable-turnip"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
 			}
 		},
 		"*-pickledturnip-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -121,36 +97,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedveggie-pickledturnip-perfect",
 				"initialCode": "game:pickledvegetable-turnip"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-parsnip-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.25,
-				"levelTo": 0.5,
-				"startScaleY": 1.0,
-				"endScaleY": 0.9,
-				"resultCode": "expandedfoods:cookedveggie-parsnip-perfect",
-				"initialCode": "game:vegetable-parsnip"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
 			}
 		},
 		"*-pickledparsnip-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -159,17 +108,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedveggie-pickledparsnip-perfect",
 				"initialCode": "game:pickledvegetable-parsnip"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
 			}
 		},
 		"*-pickledonion-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -178,16 +119,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedveggie-pickledonion-perfect",
 				"initialCode": "game:pickledvegetable-onion"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
 			}
 		},
 		"*-pickledpumpkin-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -196,16 +130,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedveggie-pickledpumpkin-perfect",
 				"initialCode": "game:pickledvegetable-pumpkin"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
 			}
 		},
 		"*-cattailroot-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -214,17 +141,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedveggie-cattailroot-perfect",
 				"initialCode": "game:cattailroot"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0.05, "y": -0.25, "z": 0.05 },
-				"rotation": { "x": 90, "y": 0, "z": -14 },
-				"scale": 0.75 
 			}
 		},
 		"*-papyrusroot-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -233,17 +152,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedveggie-papyrusroot-perfect",
 				"initialCode": "game:papyrusroot"
-			},		
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.265, "z": 0 },
-				"rotation": { "x": 0, "y": -45, "z": 90 },
-				"scale": 0.75
 			}
 		},
 		"*-partbaked": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.25,
@@ -252,222 +163,9 @@
 				"endScaleY": 0.9,
 				"resultCode": "expandedfoods:cookedveggie-{type}-perfect",
 				"initialCode": "game:vegetable-{type}"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
-			}
-		},
-		"*-cabbage-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-cabbage-charred",
-				"initialCode": "expandedfoods:cookedveggie-cabbage-partbaked"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.125, "z": 0 },
-				"scale": 0.75 
-			}
-		},
-		"*-carrot-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-carrot-charred",
-				"initialCode": "expandedfoods:cookedveggie-carrot-partbaked"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-pickledcarrot-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-pickledcarrot-charred",
-				"initialCode": "expandedfoods:cookedveggie-pickledcarrot-partbaked"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-turnip-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-turnip-charred",
-				"initialCode": "expandedfoods:cookedveggie-turnip-partbaked"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-pickledturnip-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-pickledturnip-charred",
-				"initialCode": "expandedfoods:cookedveggie-pickledturnip-partbaked"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-parsnip-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-parsnip-charred",
-				"initialCode": "expandedfoods:cookedveggie-parsnip-partbaked"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-pickledparsnip-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-pickledparsnip-charred",
-				"initialCode": "expandedfoods:cookedveggie-pickledparsnip-partbaked"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-pickledonion-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-pickledonion-charred",
-				"initialCode": "expandedfoods:cookedveggie-pickledonion-partbaked"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
-			}
-		},
-		"*-pickledpumpkin-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-pickledpumpkin-charred",
-				"initialCode": "expandedfoods:cookedveggie-pickledpumpkin-partbaked"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
-			}
-		},
-		"*-cattailroot-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-cattailroot-charred",
-				"initialCode": "expandedfoods:cookedveggie-cattailroot-partbaked"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.45, "z": 0.05 },
-				"rotation": { "x": 90, "y": 0, "z": -14 },
-				"scale": 0.75 
-			}
-		},
-		"*-papyrusroot-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.5,
-				"levelTo": 0.75,
-				"startScaleY": 0.9,
-				"endScaleY": 0.8,
-				"resultCode": "expandedfoods:cookedveggie-papyrusroot-charred",
-				"initialCode": "expandedfoods:cookedveggie-papyrusroot-partbaked"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.265, "z": 0 },
-				"rotation": { "x": 0, "y": -45, "z": 90 },
-				"scale": 0.75
 			}
 		},
 		"*-perfect": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.5,
@@ -476,211 +174,9 @@
 				"endScaleY": 0.8,
 				"resultCode": "expandedfoods:cookedveggie-{type}-charred",
 				"initialCode": "expandedfoods:cookedveggie-{type}-partbaked"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
-			}
-		},
-		"*-cabbage-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-cabbage-perfect"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.125, "z": 0 },
-				"scale": 0.75 
-			}
-		},
-		"*-carrot-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-carrot-perfect"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-pickledcarrot-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-pickledcarrot-perfect"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-turnip-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-turnip-perfect"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-pickledturnip-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-pickledturnip-perfect"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-parsnip-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-parsnip-perfect"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-pickledparsnip-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-pickledparsnip-perfect"
-			},
-			"onDisplayTransform": { 
-				"rotation": { "x": 0, "y": 45, "z": 90 },
-				"translation": { "x": -0.2, "y": -0.45, "z": 0.2 },
-				"scale": 1 
-			}
-		},
-		"*-pickledonion-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-pickledonion-perfect"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
-			}
-		},
-		"*-pickledpumpkin-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-pickledpumpkin-perfect"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
-			}
-		},
-		"*-cattailroot-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1.0,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-cattailroot-perfect"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.45, "z": 0.05 },
-				"rotation": { "x": 90, "y": 0, "z": -14 },
-				"scale": 0.75 
-			}
-		},
-		"*-papyrusroot-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
-			"bakingProperties": {
-				"temp": 100,
-				"levelFrom": 0.75,
-				"levelTo": 1.0,
-				"startScaleY": 0.8,
-				"endScaleY": 0.7,
-				"initialCode": "expandedfoods:cookedveggie-papyrusroot-perfect"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": -0.265, "z": 0 },
-				"rotation": { "x": 0, "y": -45, "z": 90 },
-				"scale": 0.75
 			}
 		},
 		"*-charred": {
-			"displaycaseable": true,
-			"shelvable": true,
-			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			"bakingProperties": {
 				"temp": 100,
 				"levelFrom": 0.75,
@@ -688,10 +184,6 @@
 				"startScaleY": 0.8,
 				"endScaleY": 0.7,
 				"initialCode": "expandedfoods:cookedveggie-{type}-perfect"
-			},
-			"onDisplayTransform": { 
-				"translation": { "x": 0, "y": 0, "z": 0 },
-				"scale": 1 
 			}
 		}
 	},
@@ -992,139 +484,48 @@
 		}
 	},
 	"transitionablePropsByType": {
-		"*-pumpkin-partbaked": [{
+		"@*-pumpkin-(partbaked|perfect)": [{
 			"type": "Perish",
 			"freshHours": { "avg": 216 },
 			"transitionHours": { "avg": 72 },
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 1
 		}],
-		"*-onion-partbaked": [{
+		"@*-onion-(partbaked|perfect)": [{
 			"type": "Perish",
 			"freshHours": { "avg": 672 },
 			"transitionHours": { "avg": 120 },
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 1
 		}],
-    		"*-pickledcarrot-partbaked": [{
-      			"type": "Perish",
-      			"freshHours": { "avg": 1800 },
-      			"transitionHours": { "avg": 240 },
-      			"transitionedStack": { "type": "item", "code": "game:rot" },
-      			"transitionRatio": 1
-    		}],
-    		"*-pickledonion-partbaked": [{
-      			"type": "Perish",
-      			"freshHours": { "avg": 1800 },
-      			"transitionHours": { "avg": 240 },
-      			"transitionedStack": { "type": "item", "code": "game:rot" },
-      			"transitionRatio": 1
-    		}],
-    		"*-pickledparsnip-partbaked": [{
-      			"type": "Perish",
-      			"freshHours": { "avg": 1800 },
-      			"transitionHours": { "avg": 240 },
-      			"transitionedStack": { "type": "item", "code": "game:rot" },
-      			"transitionRatio": 1
-    		}],
-    		"*-pickledturnip-partbaked": [{
-      			"type": "Perish",
-      			"freshHours": { "avg": 1800 },
-      			"transitionHours": { "avg": 240 },
-      			"transitionedStack": { "type": "item", "code": "game:rot" },
-      			"transitionRatio": 1
-    		}],
-    		"*-pickledpumpkin-partbaked": [{
-      			"type": "Perish",
-      			"freshHours": { "avg": 1800 },
-      			"transitionHours": { "avg": 240 },
-      			"transitionedStack": { "type": "item", "code": "game:rot" },
-      			"transitionRatio": 1
-    		}],
-		"*-cattailroot-partbaked": [{
+        "@*-(pickledcarrot|pickledonion|pickledparsnip-pickledturnip-pickledpumpkin)-partbaked": [{
+      		"type": "Perish",
+      		"freshHours": { "avg": 1800 },
+      		"transitionHours": { "avg": 240 },
+      		"transitionedStack": { "type": "item", "code": "game:rot" },
+      		"transitionRatio": 1
+    	}],
+        "@*-(pickledcarrot|pickledonion|pickledparsnip-pickledturnip-pickledpumpkin)-perfect": [{
+          "type": "Perish",
+          "freshHours": { "avg": 1800 },
+          "transitionHours": { "avg": 240 },
+          "transitionedStack": { "type": "item", "code": "game:rot" },
+          "transitionRatio": 1
+        }],
+		"@*-(cattailroot|papyrusroot)-partbaked": [{
 			"type": "Perish",
 			"freshHours": { "avg": 48 },
 			"transitionHours": { "avg": 18 },
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 0.5
 		}],
-		"*-papyrusroot-partbaked": [{
-			"type": "Perish",
-			"freshHours": { "avg": 48 },
-			"transitionHours": { "avg": 18 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 0.5
-		}],
-		"*-partbaked": [{
-			"type": "Perish",
-			"freshHours": { "avg": 504 },
-			"transitionHours": { "avg": 96 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-pumpkin-perfect": [{
-			"type": "Perish",
-			"freshHours": { "avg": 216 },
-			"transitionHours": { "avg": 72 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-onion-perfect": [{
-			"type": "Perish",
-			"freshHours": { "avg": 672 },
-			"transitionHours": { "avg": 120 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-pickledcarrot-perfect": [{
-			"type": "Perish",
-			"freshHours": { "avg": 1800 },
-			"transitionHours": { "avg": 240 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-pickledonion-perfect": [{
-			"type": "Perish",
-			"freshHours": { "avg": 1800 },
-			"transitionHours": { "avg": 240 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-pickledparsnip-perfect": [{
-			"type": "Perish",
-			"freshHours": { "avg": 1800 },
-			"transitionHours": { "avg": 240 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-pickledturnip-perfect": [{
-			"type": "Perish",
-			"freshHours": { "avg": 1800 },
-			"transitionHours": { "avg": 240 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-pickledpumpkin-perfect": [{
-			"type": "Perish",
-			"freshHours": { "avg": 1800 },
-			"transitionHours": { "avg": 240 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-cattailroot-perfect": [{
-			"type": "Perish",
-			"freshHours": { "avg": 48 },
-			"transitionHours": { "avg": 18 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 0.5
-		}],
-		"*-papyrusroot-perfect": [{
-			"type": "Perish",
-			"freshHours": { "avg": 48 },
-			"transitionHours": { "avg": 18 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 0.5
-		}],
+        "@*-(cattailroot|papyrusroot)-perfect": [{
+          "type": "Perish",
+          "freshHours": { "avg": 48 },
+          "transitionHours": { "avg": 18 },
+          "transitionedStack": { "type": "item", "code": "game:rot" },
+          "transitionRatio": 0.5
+        }],
 		"*-perfect": [{
 			"type": "Perish",
 			"freshHours": { "avg": 504 },
@@ -1146,49 +547,14 @@
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 1
 		}],
-		"*-pickledcarrot-charred": [{
+		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)-charred": [{
 			"type": "Perish",
 			"freshHours": { "avg": 7300 },
 			"transitionHours": { "avg": 400 },
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 1
 		}],
-		"*-pickledonion-charred": [{
-			"type": "Perish",
-			"freshHours": { "avg": 7300 },
-			"transitionHours": { "avg": 400 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-pickledparsnip-charred": [{
-			"type": "Perish",
-			"freshHours": { "avg": 7300 },
-			"transitionHours": { "avg": 400 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-pickledturnip-charred": [{
-			"type": "Perish",
-			"freshHours": { "avg": 7300 },
-			"transitionHours": { "avg": 400 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-pickledpumpkin-charred": [{
-			"type": "Perish",
-			"freshHours": { "avg": 7300 },
-			"transitionHours": { "avg": 400 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 1
-		}],
-		"*-cattailroot-charred": [{
-			"type": "Perish",
-			"freshHours": { "avg": 288 },
-			"transitionHours": { "avg": 72 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 0.5
-		}],
-		"*-papyrusroot-charred": [{
+		"@*-(cattailroot|papyrusroot)-charred": [{
 			"type": "Perish",
 			"freshHours": { "avg": 288 },
 			"transitionHours": { "avg": 72 },

@@ -8,7 +8,8 @@
 	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true,
-            "groupBy": ["vegetablejuiceportion-*"]
+            "groupBy": ["vegetablejuiceportion-*"],
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-vegetablejuiceportion", "text": "expandedfoods:item-handbooktext-vegetablejuiceportion" }]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"nutritionPropsWhenInMeal": { "satiety": 300, "foodcategory": "Vegetable" },

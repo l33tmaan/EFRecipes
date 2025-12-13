@@ -4,7 +4,8 @@
 	"matterState": "liquid",
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-pasteurizedmilkportion", "text": "expandedfoods:item-handbooktext-pasteurizedmilkportion" }]
 		},
 		"inBowlShape": { "base": "game:block/meal/liquid" },
 		"waterTightContainerProps": {

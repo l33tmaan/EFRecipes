@@ -4,7 +4,8 @@
 	"matterState": "liquid",
 	"attributes": {
 		"handbook": {
-			"ignoreCreativeInvStacks": true
+			"ignoreCreativeInvStacks": true,
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-soymilk", "text": "expandedfoods:item-handbooktext-soymilk" }]
 		},
 		"inBowlShape": { "base": "game:block/meal/liquid" },
 		"nutritionPropsWhenInMealByType": {
