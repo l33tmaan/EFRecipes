@@ -355,7 +355,11 @@
     "path": "/ingredients/8",
     "value": {
       "code": "noodles",
-      "validStacks": [ { "type": "item", "code": "expandedfoods:pasta-cut", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] } ],
+      "validStacks": [
+        { "type": "item", "code": "expandedfoods:pasta-cut", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] },
+        { "type": "item", "code": "expandedfoods:pasta-dried", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] },
+        { "type": "item", "code": "expandedfoods:pasta-charred", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] }
+      ],
       "minQuantity": 0,
       "maxQuantity": 1,
       "typeName": "uncookedpasta"
@@ -366,14 +370,11 @@
   {
     "op": "addmerge",
     "path": "/ingredients/8/validStacks/-",
-    "value": {
-        "type": "item",
-        "code": "expandedfoods:acornpasta-cut",
-        "shapeElement": "bowl/noodles/*",
-        "textureMapping": [ "noodles", "pasta" ],
-        "minQuantity": 0,
-        "maxQuantity": 1
-    },
+    "value": [
+        { "type": "item", "code": "expandedfoods:acornpasta-cut", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] },
+        { "type": "item", "code": "expandedfoods:acornpasta-dried", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] },
+        { "type": "item", "code": "expandedfoods:acornpasta-charred", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] }
+      ],
     "side": "server",
     "file": "recipes/cooking/soup.json",
 	"dependsOn": [{ "modid": "acorns" }]
