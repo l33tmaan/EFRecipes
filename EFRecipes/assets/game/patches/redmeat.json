@@ -3,7 +3,7 @@
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
@@ -13,14 +13,14 @@
       "*-cured": { "satiety": 300, "foodcategory": "Protein" }
     },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/meathookable",
     "value": true,
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
@@ -32,7 +32,7 @@
       "scale": 1
     },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
@@ -45,7 +45,7 @@
       "transitionRatio": 1
     },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
 
   {
@@ -88,7 +88,7 @@
       }
     },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
@@ -98,14 +98,14 @@
       "scale": 1
     },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/combustiblePropsByType/redmeat-raw/smeltedStack/code",
     "value": "redmeat-charred",
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
@@ -119,21 +119,21 @@
       "requiresContainer": false
 	},
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-charred",
     "value": { "satiety": 235, "foodcategory": "Protein" },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-partbaked",
     "value": { "satiety": 260, "foodcategory": "Protein" },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
@@ -148,7 +148,7 @@
       }
     ],
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
@@ -163,83 +163,83 @@
       }
     ],
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/variantgroups/0/states/1",
     "value": "partbaked",
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/variantgroups/0/states/-",
     "value": "cooked",
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/variantgroups/0/states/-",
     "value": "charred",
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/texturesbytype/redmeat-charred",
     "value": { "meat": { "base": "item/food/meat/charred" } },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/texturesbytype/redmeat-partbaked",
     "value": { "meat": { "base": "item/food/meat/partbaked" } },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/inPiePropertiesByType/*-cured",
     "value": { "texture": "game:block/food/pie/fill-redmeat", "partType": "Filling" },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/guiTransformByType/*-cured/translation/x",
     "value": 10.5,
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/guiTransformByType/*-cured/translation/y",
     "value": 5,
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/guiTransformByType/*/translation/x",
     "value": 10.5,
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "replace",
     "path": "/guiTransformByType/*/translation/y",
     "value": 5,
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/handbook",
     "value": { "groupBy": ["redmeat-*"] },
     "side": "server",
-    "file": "itemtypes/food/redmeat.json"
+    "file": "survival:itemtypes/food/redmeat.json"
   }
 ]

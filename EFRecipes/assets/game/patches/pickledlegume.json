@@ -4,13 +4,13 @@
     "path": "/attributes/nutritionPropsWhenInMeal",
     "value": { "satiety": 240, "foodcategory": "Protein" },
     "side": "server",
-    "file": "itemtypes/food/pickledlegume.json"
+    "file": "survival:itemtypes/food/pickledlegume.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/handbook",
     "value": { "groupBy": ["pickledlegume-*"] },
     "side": "server",
-    "file": "itemtypes/food/pickledlegume.json"
+    "file": "survival:itemtypes/food/pickledlegume.json"
   }
 ]

@@ -1,6 +1,6 @@
 ﻿[
     {
-        "file": "game:recipes/cooking/meatystew.json",
+        "file": "survival:recipes/cooking/meatystew.json",
         "op": "addeach",
         "path": "/ingredients/0/validStacks/-",
         "value": [
@@ -11,7 +11,7 @@
         "dependsOn": [{ "modid": "primitivesurvival"}]
     },
     {
-        "file": "game:recipes/cooking/meatystew.json",
+        "file": "survival:recipes/cooking/meatystew.json",
         "op": "addeach",
         "path": "/ingredients/2/validStacks/-",
         "value": [
@@ -34,12 +34,12 @@
         { "type": "item", "code": "expandedfoods:sausagesnake-*-curing", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },   
         { "type": "item", "code": "expandedfoods:sausagesnake-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] }
     ],
-    "file": "game:recipes/cooking/meatystew.json",
+    "file": "survival:recipes/cooking/meatystew.json",
     "side": "server",
     "dependsOn": [ { "modid": "primitivesurvival" } ]
   },
   {
-    "file": "game:recipes/cooking/meatystew.json",
+    "file": "survival:recipes/cooking/meatystew.json",
     "op": "addeach",
     "path": "/ingredients/3/validStacks/-",
     "value": [

@@ -8,7 +8,7 @@
       "shapeElement": "bowl/dumplings1/*",
       "textureMapping": [ "dumpling", "dumpling" ]
     },
-    "file": "recipes/cooking/vegetablestew.json",
+    "file": "survival:recipes/cooking/vegetablestew.json",
     "side": "server",
     "dependsOn": [{ "modid": "acorns" } ]
   },
@@ -21,7 +21,7 @@
       "shapeElement": "bowl/dumplings2/*",
       "textureMapping": [ "dumpling", "dumpling" ]
     },
-    "file": "recipes/cooking/vegetablestew.json",
+    "file": "survival:recipes/cooking/vegetablestew.json",
     "side": "server",
     "dependsOn": [{ "modid": "acorns" } ]
   },
@@ -29,7 +29,7 @@
     "op": "addmerge",
     "path": "/ingredients/11/validStacks/1",
     "value": { "type": "item", "code": "expandedfoods:acornpasta-cooked",  "shapeElement": "bowl/topping/*", "textureMapping": ["topping", "pasta"] },   
-    "file": "recipes/cooking/meatystew.json",
+    "file": "survival:recipes/cooking/meatystew.json",
     "side": "server",
     "dependsOn": [{ "modid": "acorns" } ]
   }

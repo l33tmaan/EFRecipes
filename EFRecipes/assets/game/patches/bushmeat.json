@@ -3,7 +3,7 @@
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
@@ -13,14 +13,14 @@
       "*-cured": { "satiety": 135, "foodcategory": "Protein" }
     },
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/meathookable",
     "value": true,
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
@@ -32,7 +32,7 @@
       "scale": 1
     },
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
@@ -45,7 +45,7 @@
       "transitionRatio": 1
     },
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
@@ -87,7 +87,7 @@
       }
     },
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
@@ -97,14 +97,14 @@
       "scale": 1
     },
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "replace",
     "path": "/combustiblePropsByType/bushmeat-raw/smeltedStack/code",
     "value": "bushmeat-charred",
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
@@ -118,21 +118,21 @@
 		"requiresContainer": false
 	},
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-charred",
     "value": { "satiety": 110, "foodcategory": "Protein" },
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-partbaked",
     "value": { "satiety": 115, "foodcategory": "Protein" },
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
@@ -147,7 +147,7 @@
       }
     ],
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
@@ -162,28 +162,28 @@
       }
     ],
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "replace",
     "path": "/variantgroups/0/states/1",
     "value": "partbaked",
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/variantgroups/0/states/-",
     "value": "cooked",
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/variantgroups/0/states/-",
     "value": "charred",
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
@@ -193,13 +193,13 @@
       "*-cured": { "texture": "game:block/food/pie/fill-bushmeat", "partType": "Filling" }
     },
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/handbook",
     "value": { "groupBy": ["bushmeat-*"] },
     "side": "server",
-    "file": "itemtypes/food/bushmeat.json"
+    "file": "survival:itemtypes/food/bushmeat.json"
   }
 ]

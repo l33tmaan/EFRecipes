@@ -22,7 +22,7 @@
       }
     },
     "side": "server",
-    "file": "game:itemtypes/food/grain.json"
+    "file": "survival:itemtypes/food/grain.json"
   },
   {
     "op": "addmerge",
@@ -41,7 +41,7 @@
       }
     },
     "side": "server",
-    "file": "game:itemtypes/food/grain.json"
+    "file": "survival:itemtypes/food/grain.json"
   },
   {
     "op": "addmerge",
@@ -60,27 +60,27 @@
       }
     },
     "side": "server",
-    "file": "game:itemtypes/food/grain.json"
+    "file": "survival:itemtypes/food/grain.json"
   },
   {
     "op": "move",
     "path": "/temp",
     "frompath": "/attributesByType/*",
     "side": "server",
-    "file": "game:itemtypes/food/grain.json"
+    "file": "survival:itemtypes/food/grain.json"
   },
   {
     "op": "move",
     "path": "/attributesByType/*",
     "frompath": "/temp",
     "side": "server",
-    "file": "game:itemtypes/food/grain.json"
+    "file": "survival:itemtypes/food/grain.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/handbook",
     "value": { "groupBy": ["grain-*"] },
     "side": "server",
-    "file": "game:itemtypes/food/grain.json"
+    "file": "survival:itemtypes/food/grain.json"
   }
 ]

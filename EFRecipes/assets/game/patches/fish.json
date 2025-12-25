@@ -3,27 +3,27 @@
     "op": "replace",
     "path": "/variantgroups/0/states/1",
     "value": "partbaked",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/variantgroups/0/states/-",
     "value": "cooked",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/variantgroups/0/states/-",
     "value": "charred",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
@@ -65,41 +65,41 @@
         "initialCode": "fish-cooked"
       }
     },
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/attributes/handbook",
     "value": { "groupBy": [ "fish-*" ] },
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/attributes/inPiePropertiesByType",
     "value": { "@*-(raw|cured|smoked|cured-smoked)": { "texture": "game:block/food/pie/fill-fish", "partType": "Filling" } },
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": { "*-raw": { "satiety": 375, "foodcategory": "Protein" } },
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/attributes/onDisplayTransform",
     "value": { "rotation": { "x": 0, "y": -45, "z": 0 }, "scale": 1 },
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "remove",
     "path": "/combustiblePropsByType/fish-raw",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
@@ -113,69 +113,69 @@
       "smeltedStack": { "type": "item", "code": "fish-charred" },
       "requiresContainer": false
     },
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/creativeinventory/general/1",
     "value": "*-partbaked",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/creativeinventory/general/2",
     "value": "*-cooked",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/creativeinventory/general/3",
     "value": "*-charred",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/creativeinventory/items/1",
     "value": "*-partbaked",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/creativeinventory/items/2",
     "value": "*-cooked",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/creativeinventory/items/3",
     "value": "*-charred",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-charred",
     "value": { "satiety": 180, "foodcategory": "Protein" },
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-partbaked",
     "value": { "satiety": 190, "foodcategory": "Protein" },
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
     "op": "remove",
     "path": "/transitionablePropsByType/*-cooked",
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
@@ -190,7 +190,7 @@
         "transitionRatio": 1
       }
     ],
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   },
   {
@@ -205,7 +205,7 @@
         "transitionRatio": 1
       }
     ],
-    "file": "game:itemtypes/food/fish.json",
+    "file": "survival:itemtypes/food/fish.json",
     "side": "Server"
   }
 ]

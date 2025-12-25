@@ -11,7 +11,7 @@
       "resultCode": "expandedfoods:dryfruit-{fruit}"
     },
     "side": "server",
-    "file": "itemtypes/food/fruit.json"
+    "file": "survival:itemtypes/food/fruit.json"
   },
   {
     "op": "addmerge",
@@ -60,7 +60,7 @@
       }
     },
     "side": "server",
-    "file": "itemtypes/food/fruit.json"
+    "file": "survival:itemtypes/food/fruit.json"
   },
   {
     "op": "addmerge",
@@ -70,13 +70,13 @@
       "*": { "base": "game:block/barrel/{fruit}" }
     },
     "side": "server",
-    "file": "itemtypes/food/fruit.json"
+    "file": "survival:itemtypes/food/fruit.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/handbook",
     "value": { "groupBy": ["fruit-*"] },
     "side": "server",
-    "file": "itemtypes/food/fruit.json"
+    "file": "survival:itemtypes/food/fruit.json"
   }
 ]

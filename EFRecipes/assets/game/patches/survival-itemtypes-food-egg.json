@@ -4,26 +4,26 @@
     "path": "/variantgroups/1/states/-",
     "value": "boiled",
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   },
   {
     "op": "addmerge",
     "path": "/variantgroups/1/states/-",
     "value": "pickled",
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   },
   {
     "op": "remove",
     "path": "/texture",
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   },
   {
     "op": "remove",
     "path": "/transitionableProps",
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   },
   {
     "op": "addmerge",
@@ -34,7 +34,7 @@
       "*": { "hay-egg": { "base": "block/wood/henbox/egg" } }
     },
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   },
   {
     "op": "addmerge",
@@ -60,13 +60,13 @@
       ]
     },
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   },
   {
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   },
   {
     "op": "addmerge",
@@ -76,7 +76,7 @@
       "*-boiled": { "texture": "game:block/food/pie/fill-egg", "partType": "Filling" }
     },
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   },
   {
     "op": "addmerge",
@@ -86,20 +86,20 @@
       "*": { "saturation": 200, "foodcategory": "Protein" }
     },
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-pickled",
     "value": { "saturation": 140, "foodcategory": "Protein" },
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/handbook",
     "value": { "groupBy": ["egg-*"] },
     "side": "server",
-    "file": "game:itemtypes/food/egg.json"
+    "file": "survival:itemtypes/food/egg.json"
   }
 ]

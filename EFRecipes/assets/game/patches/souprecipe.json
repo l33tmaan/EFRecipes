@@ -21,7 +21,7 @@
       { "type": "item", "code": "expandedfoods:clarifiedbrothportion-fish", "shapeElement": "bowl/water/*", "textureMapping": [ "water", "fishbroth" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/soup.json"
+    "file": "survival:recipes/cooking/soup.json"
   },
   {
     "op": "addeach",
@@ -83,7 +83,7 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable base 1/*", "textureMapping": [ "vegetable", "group11" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/soup.json"
+    "file": "survival:recipes/cooking/soup.json"
   },
   {
     "op": "addeach",
@@ -145,7 +145,7 @@
       { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable base 2/*", "textureMapping": [ "vegetable", "group11" ] }
     ], 
     "side": "server",
-    "file": "recipes/cooking/soup.json"
+    "file": "survival:recipes/cooking/soup.json"
   },
   {
     "op": "addeach",
@@ -206,7 +206,7 @@
       { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable base 3/*", "textureMapping": [ "vegetable", "group11" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/soup.json"
+    "file": "survival:recipes/cooking/soup.json"
   },
   {
     "op": "addeach",
@@ -261,7 +261,7 @@
         { "type": "item", "code": "egg-chicken-pickled", "shapeElement": "bowl/meat/*" }
     ],
     "side": "server",
-    "file": "recipes/cooking/soup.json"
+    "file": "survival:recipes/cooking/soup.json"
   },
  {
     "op": "addeach",
@@ -271,7 +271,7 @@
         {"type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/soup.json",	
+    "file": "survival:recipes/cooking/soup.json",	
 	"dependsOn": [{ "modid": "primitivesurvival" }]
   },
   {
@@ -292,14 +292,14 @@
       "typeName": "breadcrumbs"
     },
     "side": "server",
-    "file": "recipes/cooking/soup.json"
+    "file": "survival:recipes/cooking/soup.json"
   },
   {
     "op": "addmerge",
     "path": "/ingredients/5/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-*", "minQuantity": 0, "maxQuantity": 1 },
     "side": "server",
-    "file": "recipes/cooking/soup.json",
+    "file": "survival:recipes/cooking/soup.json",
 	"dependsOn": [{ "modid": "acorns" }]
   },
   {
@@ -313,7 +313,7 @@
       "typeName": "salt"
     },
     "side": "server",
-    "file": "recipes/cooking/soup.json"
+    "file": "survival:recipes/cooking/soup.json"
   },
   {
     "op": "addmerge",
@@ -331,7 +331,7 @@
       "typeName": "liquidegg"
     },
     "side": "server",
-    "file": "recipes/cooking/soup.json"
+    "file": "survival:recipes/cooking/soup.json"
   },
  {
     "op": "addeach",
@@ -347,7 +347,7 @@
       {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey", "shapeElement":"bowl/topping/*",  "textureMapping": [ "topping", "eggyolkfullwildturkey" ]}
     ],
     "side": "server",
-    "file": "recipes/cooking/soup.json",	
+    "file": "survival:recipes/cooking/soup.json",	
 	"dependsOn": [{ "modid": "moreanimals" }]
   },
   {
@@ -361,7 +361,7 @@
       "typeName": "uncookedpasta"
     },
     "side": "server",
-    "file": "recipes/cooking/soup.json"
+    "file": "survival:recipes/cooking/soup.json"
   },
   {
     "op": "addmerge",
@@ -375,7 +375,7 @@
         "maxQuantity": 1
     },
     "side": "server",
-    "file": "recipes/cooking/soup.json",
+    "file": "survival:recipes/cooking/soup.json",
 	"dependsOn": [{ "modid": "acorns" }]
   }
 ]

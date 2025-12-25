@@ -4,56 +4,56 @@
     "path": "/ingredients/0/minQuantity",
     "value": 1,
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "replace",
     "path": "/ingredients/0/maxQuantity",
     "value": 1,
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "addmerge",
     "path": "/ingredients/0/portionSizeLitres",
     "value": 0.2,
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "replace",
     "path": "/ingredients/0/typeName",
     "value": "liquidegg",
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
     {
     "op": "addmerge",
     "path": "/ingredients/1/portionSizeLitres",
     "value": 0.2,
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "replace",
     "path": "/ingredients/1/typeName",
     "value": "liquidegg",
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
     {
     "op": "addmerge",
     "path": "/ingredients/2/portionSizeLitres",
     "value": 0.2,
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "replace",
     "path": "/ingredients/2/typeName",
     "value": "liquidegg",
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "replace",
@@ -64,7 +64,7 @@
       { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-chicken", "shapeElement": "bowl/egg1/*", "textureMapping": [ "scrambledegg", "eggyolkfullchicken" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "addeach",
@@ -80,7 +80,7 @@
       { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey",  "shapeElement": "bowl/egg1/*", "textureMapping": ["scrambledegg", "eggyolkfullwildturkey"] }
     ],
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json",
+    "file": "survival:recipes/cooking/scrambledeggs.json",
     "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
@@ -92,7 +92,7 @@
       { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-chicken", "shapeElement": "bowl/egg2/*", "textureMapping": [ "scrambledegg", "eggyolkfullchicken" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "addeach",
@@ -108,7 +108,7 @@
       { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey",  "shapeElement": "bowl/egg2/*", "textureMapping": ["scrambledegg", "eggyolkfullwildturkey"] }
     ],
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json",
+    "file": "survival:recipes/cooking/scrambledeggs.json",
     "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
@@ -120,7 +120,7 @@
       { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-chicken", "shapeElement": "bowl/egg3/*", "textureMapping": [ "scrambledegg", "eggyolkfullchicken" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "addeach",
@@ -136,7 +136,7 @@
       { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey",  "shapeElement": "bowl/egg3/*", "textureMapping": ["scrambledegg", "eggyolkfullwildturkey"] }
     ],
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json",
+    "file": "survival:recipes/cooking/scrambledeggs.json",
     "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
@@ -199,7 +199,7 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable2/*", "textureMapping": [ "vegetable", "group11" ] }
       ],
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "addeach",
@@ -261,7 +261,7 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable3/*", "textureMapping": [ "vegetable", "group11" ] }
       ],
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "addmerge",
@@ -320,7 +320,7 @@
       "typeName": "meat"
     },
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
  {
     "op": "addeach",
@@ -346,7 +346,7 @@
         { "type": "item", "code": "expandedfoods:sausagesnake-cheese-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] }
     ],
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json",
+    "file": "survival:recipes/cooking/scrambledeggs.json",
     "dependsOn": [{ "modid": "primitivesurvival" }]
   },
  {
@@ -364,7 +364,7 @@
         { "type": "item", "code": "expandedfoods:saltedmeatnugget-redmeat-smashed",  "shapeElement": "bowl/meatnugget 1/*", "textureMapping": ["meatnugget", "redmeat-raw"] }
     ],
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json",
+    "file": "survival:recipes/cooking/scrambledeggs.json",
     "dependsOn": [{ "modid": "ancienttools" }]
   },
   {
@@ -424,7 +424,7 @@
       "typeName": "meat"
     },
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
  {
     "op": "addeach",
@@ -450,7 +450,7 @@
         { "type": "item", "code": "expandedfoods:sausagesnake-cheese-cured", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] }
     ],
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json",
+    "file": "survival:recipes/cooking/scrambledeggs.json",
     "dependsOn": [{ "modid": "primitivesurvival" }]
   },
  {
@@ -468,7 +468,7 @@
         { "type": "item", "code": "expandedfoods:saltedmeatnugget-redmeat-smashed",  "shapeElement": "bowl/meatnugget 2/*", "textureMapping": ["meatnugget", "redmeat-raw"] }
     ],
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json",
+    "file": "survival:recipes/cooking/scrambledeggs.json",
     "dependsOn": [{ "modid": "ancienttools" }]
   },
   {
@@ -488,7 +488,7 @@
       "typeName": "topping"
     },
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "addmerge",
@@ -503,7 +503,7 @@
       "typeName": "salt"
     },
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "add",
@@ -521,7 +521,7 @@
       "typeName": "milk"
     },
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "addmerge",
@@ -539,7 +539,7 @@
       "typeName": "egg"
     },
     "side": "server",
-    "file": "recipes/cooking/scrambledeggs.json"
+    "file": "survival:recipes/cooking/scrambledeggs.json"
   },
   {
     "op": "addeach",
@@ -555,7 +555,7 @@
       { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey",  "shapeElement": "bowl/egg4/*", "textureMapping": ["scrambledegg", "eggyolkfullwildturkey"] }
     ],
     "side": "server",
-    "file": "game:recipes/cooking/scrambledeggs.json",
+    "file": "survival:recipes/cooking/scrambledeggs.json",
     "dependsOn": [{ "modid": "moreanimals" }]
   }
 ]

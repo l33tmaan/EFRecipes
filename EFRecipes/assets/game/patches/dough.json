@@ -4,7 +4,7 @@
     "path": "/class",
     "value": "ExpandedDough",
     "side": "server",
-    "file": "itemtypes/food/dough.json"
+    "file": "survival:itemtypes/food/dough.json"
   },
   {
     "op": "addmerge",
@@ -31,7 +31,7 @@
       "expandedfoods:foodoilportion-*": { "saturation": 6, "health": 0.01, "foodcategory": "Vegetable" }
     },
     "side": "server",
-    "file": "itemtypes/food/dough.json"
+    "file": "survival:itemtypes/food/dough.json"
   },
     {
         "op": "addmerge",
@@ -56,77 +56,77 @@
             "*-acornsunflower": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread-dough.json" }
         },
     "side": "server",
-        "file": "itemtypes/food/dough.json"
+        "file": "survival:itemtypes/food/dough.json"
     },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-flax-charred",
     "side": "server",
-    "file": "itemtypes/food/bread.json"
+    "file": "survival:itemtypes/food/bread.json"
   },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-flax-partbaked",
     "side": "server",
-    "file": "itemtypes/food/bread.json"
+    "file": "survival:itemtypes/food/bread.json"
   },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-flax-perfect",
     "side": "server",
-    "file": "itemtypes/food/bread.json"
+    "file": "survival:itemtypes/food/bread.json"
   },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-rice-charred",
     "side": "server",
-    "file": "itemtypes/food/bread.json"
+    "file": "survival:itemtypes/food/bread.json"
   },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-rice-partbaked",
     "side": "server",
-    "file": "itemtypes/food/bread.json"
+    "file": "survival:itemtypes/food/bread.json"
   },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-rice-perfect",
     "side": "server",
-    "file": "itemtypes/food/bread.json"
+    "file": "survival:itemtypes/food/bread.json"
   },
   {
     "op": "replace",
     "path": "/nutritionPropsByType/*-charred/saturation",
     "side": "server",
     "value": 100,
-    "file": "itemtypes/food/bread.json"
+    "file": "survival:itemtypes/food/bread.json"
   },
   {
     "op": "replace",
     "path": "/nutritionPropsByType/*-partbaked/saturation",
     "side": "server",
     "value": 70,
-    "file": "itemtypes/food/bread.json"
+    "file": "survival:itemtypes/food/bread.json"
   },
   {
     "op": "replace",
     "path": "/nutritionPropsByType/*-perfect/saturation",
     "side": "server",
     "value": 160,
-    "file": "itemtypes/food/bread.json"
+    "file": "survival:itemtypes/food/bread.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/handbook/groupBy",
     "value": ["dough-*"],
     "side": "server",
-    "file": "itemtypes/food/dough.json"
+    "file": "survival:itemtypes/food/dough.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/handbook/extraSections",
     "value": [{ "title": "expandedfoods:item-handbooktitle-dough", "text": "expandedfoods:item-handbooktext-dough" }],
     "side": "server",
-    "file": "itemtypes/food/dough.json"
+    "file": "survival:itemtypes/food/dough.json"
   }
 ]

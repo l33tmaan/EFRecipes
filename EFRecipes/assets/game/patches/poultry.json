@@ -3,7 +3,7 @@
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
@@ -13,14 +13,14 @@
       "*-cured": { "satiety": 280, "foodcategory": "Protein" }
     },
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/meathookable",
     "value": true,
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
@@ -32,7 +32,7 @@
       "scale": 1
     },
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
@@ -45,7 +45,7 @@
       "transitionRatio": 1
     },
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
@@ -87,7 +87,7 @@
       }
     },
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
@@ -97,14 +97,14 @@
       "scale": 1
     },
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "replace",
     "path": "/combustiblePropsByType/poultry-raw/smeltedStack/code",
     "value": "poultry-charred",
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
@@ -118,21 +118,21 @@
 		"requiresContainer": false
 	},
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-charred",
     "value": { "satiety": 165, "foodcategory": "Protein" },
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-partbaked",
     "value": { "satiety": 185, "foodcategory": "Protein" },
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
@@ -147,7 +147,7 @@
       }
     ],
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
@@ -162,41 +162,41 @@
       }
     ],
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "replace",
     "path": "/variantgroups/0/states/1",
     "value": "partbaked",
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
     "path": "/variantgroups/0/states/-",
     "value": "cooked",
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
     "path": "/variantgroups/0/states/-",
     "value": "charred",
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/inPiePropertiesByType/*-cured",
     "value": { "texture": "game:block/food/pie/fill-poultry", "partType": "Filling" },
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   },
   {
     "op": "addmerge",
     "path": "/attributes/handbook",
     "value": { "groupBy": ["poultry-*"] },
     "side": "server",
-    "file": "itemtypes/food/poultry.json"
+    "file": "survival:itemtypes/food/poultry.json"
   }
 ]

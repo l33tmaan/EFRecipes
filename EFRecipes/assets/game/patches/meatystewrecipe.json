@@ -29,7 +29,7 @@
         { "type": "item", "code": "expandedfoods:fishnugget-curedsmashed", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group1" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addeach",
@@ -46,7 +46,7 @@
         { "type": "item", "code": "expandedfoods:saltedmeatnugget-poultry-smashed", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group3" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json",
+    "file": "survival:recipes/cooking/meatystew.json",
     "dependsOn": [{ "modid": "ancienttools" }]
   },
   {
@@ -58,21 +58,21 @@
       { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-chicken", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkfullchicken" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addmerge",
     "path": "/ingredients/1/portionSizeLitres",
     "value": 0.1,
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "replace",
     "path": "/ingredients/1/typeName",
     "value": "liquidegg",
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addeach",
@@ -88,7 +88,7 @@
       {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey", "shapeElement":"bowl/egg/*", "textureMapping": [ "topping", "eggyolkfullwildturkey" ]}
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json",
+    "file": "survival:recipes/cooking/meatystew.json",
     "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
@@ -100,21 +100,21 @@
       { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-chicken", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkfullchicken" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addmerge",
     "path": "/ingredients/2/portionSizeLitres",
     "value": 0.1,
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "replace",
     "path": "/ingredients/2/typeName",
     "value": "liquidegg",
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addeach",
@@ -130,7 +130,7 @@
       {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey", "shapeElement":"bowl/egg2/*", "textureMapping": [ "topping", "eggyolkfullwildturkey" ]}
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json",
+    "file": "survival:recipes/cooking/meatystew.json",
     "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
@@ -192,7 +192,7 @@
         { "type": "item", "code": "insect-termite-stick", "shapeElement": "bowl/termites 1/*", "textureMapping": [ "grubs", "grubs" ] }
       ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addeach",
@@ -209,7 +209,7 @@
         { "type": "item", "code": "expandedfoods:saltedmeatnugget-poultry-smashed", "shapeElement": "bowl/poultry/*", "textureMapping": [ "meat", "group3" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json",
+    "file": "survival:recipes/cooking/meatystew.json",
     "dependsOn": [{ "modid": "ancienttools" }]
   },
   {
@@ -271,7 +271,7 @@
         { "type": "item", "code": "insect-termite-stick", "shapeElement": "bowl/termites 2/*", "textureMapping": [ "grubs", "grubs" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addeach",
@@ -288,7 +288,7 @@
         { "type": "item", "code": "expandedfoods:saltedmeatnugget-poultry-smashed", "shapeElement": "bowl/poultry 2/*", "textureMapping": [ "meat", "group3" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json",
+    "file": "survival:recipes/cooking/meatystew.json",
     "dependsOn": [{ "modid": "ancienttools" }]
   },
  {
@@ -350,7 +350,7 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group11" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addeach",
@@ -411,7 +411,7 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group11" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
  {
     "op": "addeach",
@@ -519,7 +519,7 @@
         { "type": "item", "code": "expandedfoods:potentspiritportion-pomegranate", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "pomegranatewine" ] }
       ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addeach",
@@ -563,7 +563,7 @@
         { "type": "item", "code": "expandedfoods:dehydratedfruit-pomegranate", "shapeElement": "bowl/fruit 1/*", "textureMapping": [ "fruit", "fruit-pomegranate" ] }
       ],
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addmerge",
@@ -576,14 +576,14 @@
       "typeName": "breadcrumbs"
     },
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
  {
     "op": "addmerge",
     "path": "/ingredients/9/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-*" },
     "side": "server",
-    "file": "recipes/cooking/meatystew.json",
+    "file": "survival:recipes/cooking/meatystew.json",
     "dependsOn": [{ "modid": "acorns" }]
   },
   
@@ -598,7 +598,7 @@
       "typeName": "salt"
     },
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addmerge",
@@ -621,7 +621,7 @@
       "typeName": "broth"
     },
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addmerge",
@@ -638,7 +638,7 @@
       "typeName": "nuts"
     },
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addmerge",
@@ -655,7 +655,7 @@
       "typeName": "nuts"
     },
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   },
   {
     "op": "addmerge",
@@ -670,6 +670,6 @@
       "typeName": "cookedpasta"
     },
     "side": "server",
-    "file": "recipes/cooking/meatystew.json"
+    "file": "survival:recipes/cooking/meatystew.json"
   }
 ]

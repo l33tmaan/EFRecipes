@@ -1,0 +1,26 @@
+[
+ {
+	"enabled": false,
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:soysauce",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fishsauce",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "expandedfoods:acornbreadedvegetable-*-partbaked", "name": "vegetable" }]}
+	],
+	"output": { "type": "item", "code": "expandedfoods:acornbreadedvegetable-{vegetable}-syruppartbaked", "stackSize": 1}
+ },
+ {
+	"enabled": false,
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:soysauce",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fishsauce",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "expandedfoods:acornbreadedvegetable-*-cooked", "name": "vegetable" }]}
+	],
+	"output": { "type": "item", "code": "expandedfoods:acornbreadedvegetable-{vegetable}-syrupv", "stackSize": 1}
+ },
+ {
+	"enabled": false,
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "game:honeyportion",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:treesyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:soysauce",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fruitsyrupportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-butter",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:peanutliquid-sauce",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:fishsauce",  "quantity": 10 }]},
+		{"inputs": [{ "type": "item", "code": "expandedfoods:acornbreadedvegetable-*-charred", "name": "vegetable" }]}
+	],
+	"output": { "type": "item", "code": "expandedfoods:acornbreadedvegetable-{vegetable}-syrupcharred", "stackSize": 1}
+ }
+]

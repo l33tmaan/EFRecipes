@@ -41,7 +41,7 @@
       { "type": "item", "code": "expandedfoods:dehydratedfruit-pomegranate", "shapeElement": "bowl/fruit 1/*", "textureMapping": [ "fruit", "fruit-pomegranate" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/porridge.json"
+    "file": "survival:recipes/cooking/porridge.json"
   },
   {
     "op": "addeach",
@@ -85,13 +85,13 @@
       { "type": "item", "code": "expandedfoods:dehydratedfruit-pomegranate", "shapeElement": "bowl/fruit 2/*", "textureMapping": [ "fruit", "fruit-pomegranate" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/porridge.json"
+    "file": "survival:recipes/cooking/porridge.json"
   },
   {
     "op": "remove",
     "path": "/ingredients/3",
     "side": "server",
-    "file": "recipes/cooking/porridge.json"
+    "file": "survival:recipes/cooking/porridge.json"
   },
   {
     "op": "replace",
@@ -168,7 +168,7 @@
       "typeName": "vegetable"
     },
     "side": "server",
-    "file": "recipes/cooking/porridge.json"
+    "file": "survival:recipes/cooking/porridge.json"
   },
   {
     "op": "addmerge",
@@ -245,7 +245,7 @@
       "typeName": "vegetable"
     },
     "side": "server",
-    "file": "recipes/cooking/porridge.json"
+    "file": "survival:recipes/cooking/porridge.json"
   },
   {
     "op": "addeach",
@@ -289,7 +289,7 @@
         { "type": "item", "code": "aculinaryartillery:eggyolkfullportion-chicken", "shapeElement": "bowl/topping/*", "textureMapping": [ "topping", "eggyolkfullchicken" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/porridge.json"
+    "file": "survival:recipes/cooking/porridge.json"
   },
   {
     "op": "addeach",
@@ -305,7 +305,7 @@
       {"type": "item", "code": "aculinaryartillery:eggyolkfullportion-wildturkey", "shapeElement":"bowl/topping/*",  "textureMapping": [ "topping", "eggyolkfullwildturkey" ]}
     ],
     "side": "server",
-    "file": "recipes/cooking/porridge.json",
+    "file": "survival:recipes/cooking/porridge.json",
     "dependsOn": [{ "modid": "moreanimals" }]
   },
   {
@@ -323,7 +323,7 @@
       "typeName": "nuts"
     },
     "side": "server",
-    "file": "recipes/cooking/porridge.json"
+    "file": "survival:recipes/cooking/porridge.json"
   },
  {
     "op": "addmerge",
@@ -331,7 +331,7 @@
     "value":
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
     "side": "server",
-    "file": "recipes/cooking/porridge.json",
+    "file": "survival:recipes/cooking/porridge.json",
     "dependsOn": [{ "modid": "acorns" }]
   },
   {
@@ -349,7 +349,7 @@
       "typeName": "nuts"
     },
     "side": "server",
-    "file": "recipes/cooking/porridge.json"
+    "file": "survival:recipes/cooking/porridge.json"
   },
  {
     "op": "addmerge",
@@ -357,7 +357,7 @@
     "value": 
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
     "side": "server",
-    "file": "recipes/cooking/porridge.json",
+    "file": "survival:recipes/cooking/porridge.json",
     "dependsOn": [{ "modid": "acorns" }]
   },
   {
@@ -423,7 +423,7 @@
       "typeName": "meat"
     },
     "side": "server",
-    "file": "recipes/cooking/porridge.json"
+    "file": "survival:recipes/cooking/porridge.json"
   },
   {
     "op": "addeach",
@@ -440,7 +440,7 @@
         { "type": "item", "code": "expandedfoods:saltedmeatnugget-poultry-smashed", "shapeElement": "bowl/meat stew/*", "textureMapping": [ "meat", "group3" ] }
     ],
     "side": "server",
-    "file": "recipes/cooking/porridge.json",	
+    "file": "survival:recipes/cooking/porridge.json",	
     "dependsOn": [{ "modid": "ancienttools" }]
   },
  {
@@ -462,7 +462,7 @@
         {"type": "item", "code": "expandedfoods:sausagesnake-*-cured", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]}
     ],
     "side": "server",
-    "file": "recipes/cooking/porridge.json",	
+    "file": "survival:recipes/cooking/porridge.json",	
 	"dependsOn": [{ "modid": "primitivesurvival" }]
   },
   {
@@ -476,6 +476,6 @@
       "typeName": "salt"
     },
     "side": "server",
-    "file": "recipes/cooking/porridge.json"
+    "file": "survival:recipes/cooking/porridge.json"
   }
 ]
