@@ -3,7 +3,7 @@
 	"maxstacksize": 32,
   	"class": "ExpandedFood",
 	"variantgroups": [
-		{"code": "type", "states": ["dough", "flat", "cut", "cooked"]}
+		{"code": "type", "states": ["dough", "flat", "cut", "cooked", "dried", "charred"]}
 	],
 	"attributes": {
 		"displaycaseable": true,
@@ -14,8 +14,53 @@
         },
 		"inContainerTexture": { "base": "item/food/pasta/acornpasta" },
 		"nutritionPropsWhenInMealByType": { 
-			"*-cut": { "satiety": 240, "foodcategory": "Grain" }
+			"*-cut": { "satiety": 240, "foodcategory": "Grain" },
+			"*-dried": {
+				"satiety": 200,
+				"foodcategory": "Grain"
+			},
+			"*-charred": {
+				"satiety": 100,
+				"foodcategory": "Grain"
+			}
 		},
+		"bakingPropertiesByType": {
+			"*-cut": {
+        "temp": 160,
+        "levelFrom": 0,
+        "levelTo": 0.25,
+        "startScaleY": 1,
+        "endScaleY": 1,
+        "resultCode": "expandedfoods:acornpasta-dried"
+      },
+			"*-dried": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.75,
+        "startScaleY": 1,
+        "endScaleY": 1,
+        "resultCode": "expandedfoods:acornpasta-charred",
+        "initialCode": "expandedfoods:acornpasta-cut"
+      },
+    	"*-charred": {
+        "temp": 200,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1,
+        "endScaleY": 1,
+        "resultcode": "game:charcoal",
+        "initialCode": "expandedfoods:acornpasta-dried"
+      }
+    },
+		"onDisplayTransformByType": {
+			"@*-(cut|dried|charred)": {
+				"translation": { "x": 0.5, "y": 0, "z": 0.1 },
+				"rotation": { "x": 0, "y": -39, "z": 0 },
+				"origin": { "x": 0, "y": 0, "z": 0 },
+				"scale": 0.5
+				},
+				"*": { "translation": { "x": 0, "y": -0.25, "z": 0 }, "scale": 0.5 }
+			},
     	"expandedNutritionPropsByType": {
 			"*-dough": {
       			"acorns:flour-acorn" : { "saturation": 155, "foodcategory": "Grain" },
@@ -44,23 +89,33 @@
 			},
 			"*-cooked": {
 				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacooked.json", "textureMap": { "pastacooked": "pastacooked" } }
+			},
+			"*-dried": {
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacut.json", "textureMap": { "pastaraw": "pastadried" } }
+			},
+			"*-charred": {
+				"game:flour-*": { "shape": "expandedfoods:shapes/item/food/bread/pasta/pastacut.json", "textureMap": { "pastaraw": "pastacharred" } }
 			}
 		}
 	},
 	"textures": {
 		"pastaraw": { "base": "item/food/dumpling/acornraw" },
-		"pastacooked": { "base": "item/food/pasta/acornpasta" }
+		"pastacooked": { "base": "item/food/pasta/acornpasta" },
+		"pastadried": { "base": "item/food/dumpling/acornpartbaked" },
+		"pastacharred": { "base": "item/food/dumpling/acorncharred" }
 	},
 	"shapeByType": {
 		"*-dough": { "base": "expandedfoods:item/food/bread/pasta/pastaball" },
 		"*-flat": { "base": "expandedfoods:item/food/bread/pasta/pasta" },
-		"*-cut": { "base": "expandedfoods:item/food/bread/pasta/pastacut" },
+		"@*-(cut|dried|charred)": { "base": "expandedfoods:item/food/bread/pasta/pastacut" },
 		"*-cooked": { "base": "expandedfoods:item/food/bread/pasta/pastacooked" }
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	"materialDensity": 200,
 	"nutritionPropsByType": {
-		"*-cooked": { "satiety": 180, "foodcategory": "Grain" }
+		"*-cooked": { "satiety": 180, "foodcategory": "Grain" },
+		"*-dried": { "satiety": 120, "foodcategory": "Grain" },
+		"*-charred": { "satiety": 60, "foodcategory": "Grain" }
 	},
 	"guiTransformByType": {
 		"*-dough": {
@@ -75,7 +130,7 @@
 			"origin": { "x": 0.57, "y": 0.07, "z": 0.5 },
 			"scale": 2
 		},
-		"*-cut": {
+		"@*-(cut|dried|charred)": {
 			"translation": { "x": -1.5, "y": -2.5, "z": 0 },
 			"rotation": { "x": 158, "y": 158, "z": -10 },
 			"origin": { "x": 0.57, "y": 0.07, "z": 0.5 },
@@ -101,7 +156,7 @@
 		}
 	},
 	"tpHandTransformByType": {
-		"*-cut": {
+		"@*-(cut|dried|charred)": {
 			"translation": { "x": -0.2, "y": -0.1, "z": -0.45 },
 			"rotation": { "x": -10, "y": 80, "z": -11 },
 			"origin": { "x": 0.23, "y": 0, "z": 0.13 },
@@ -121,6 +176,20 @@
 		}
 	},
 	"transitionablePropsByType": {
+		"*-dried": [{
+        "type": "Perish",
+        "freshHours": { "avg": 2592 },
+        "transitionHours": { "avg": 1296 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
+        "transitionRatio": 1
+		}],
+    "*-charred": [{
+        "type": "Perish",
+        "freshHours": { "avg": 3888 },
+        "transitionHours": { "avg": 1296 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
+        "transitionRatio": 1
+		}],
 		"*": [{
 			"type": "Perish",
 			"freshHours": { "avg": 72 },

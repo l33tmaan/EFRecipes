@@ -1,16 +1,44 @@
 ﻿[
   {
-	"Ingredients": [
-		{ "type": "item", "code": "waterportion", "quantity": 100 },
-		{ "type": "item", "code": "expandedfoods:pasta-cut", "quantity": 1 }
-	],
-	"Simmering": {
-		"meltingPoint": 150,
-		"meltingDuration": 30,
-		"smeltedRatio": 1,
-		"smeltingType": "bake",
-		"smeltedStack": { "type": "item", "code": "expandedfoods:pasta-cooked" },
-		"requiresContainer": false
-	}
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 100 },
+			{ "type": "item", "code": "expandedfoods:pasta-cut", "quantity": 1 }
+		],
+		"Simmering": {
+			"meltingPoint": 150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:pasta-cooked" },
+			"requiresContainer": false
+		}
+  },
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 100 },
+			{ "type": "item", "code": "expandedfoods:pasta-dried", "quantity": 1 }
+		],
+		"Simmering": {
+			"meltingPoint": 150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:pasta-cooked" },
+			"requiresContainer": false
+		}
+  },
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion", "quantity": 100 },
+			{ "type": "item", "code": "expandedfoods:pasta-charred", "quantity": 1 }
+		],
+		"Simmering": {
+			"meltingPoint": 150,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:pasta-cooked" },
+			"requiresContainer": false
+		}
   }
 ]
