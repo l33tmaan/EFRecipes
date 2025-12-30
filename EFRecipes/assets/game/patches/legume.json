@@ -5,5 +5,12 @@
     "value": { "groupBy": ["legume-*"] },
     "side": "server",
     "file": "itemtypes/food/legume.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/satietyByType/*-peanut",
+    "value": 240,
+    "side": "server",
+    "file": "itemtypes/food/legume.json"
   }
 ]
