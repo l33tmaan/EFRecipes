@@ -1,0 +1,14 @@
+[ 
+ {
+	"ingredientPattern": "P,L,B",
+	"recipeGroup": 2,
+	"ingredients": {
+		"P": { "type": "block", "code": "superfuel:peatbrick-*" },
+		"L": { "type": "block", "code": "expandedfoods:hardlard", "quantity": 2 },
+		"B": { "type": "block", "code": "game:bowl-*-fired", "name": "bowl" }
+	},
+	"width": 1,
+	"height": 3,
+    "output": { "type": "block", "code": "game:oillamp-{bowl}-up"  }
+ }
+]
