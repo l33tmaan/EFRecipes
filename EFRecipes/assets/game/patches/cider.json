@@ -27,12 +27,7 @@
     "value": {
         "saturation": 15,
         "foodcategoryByType": {
-            "*-spelt": "grain", 
-            "*-rice": "grain",             
-            "*-rye": "grain", 
-            "*-amaranth": "grain", 
-            "*-cassava": "grain", 
-            "*-breadfruit": "grain", 
+            "@*-(spelt|rice|rye|amaranth|cassava|breadfruit)": "grain", 
             "*": "fruit"
         }
     },

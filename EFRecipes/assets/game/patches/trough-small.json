@@ -49,6 +49,7 @@
     "op": "addmerge",
     "path": "/textures/contents-peanut",
     "value": { "base": "block/wood/trough/small/peanut" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
@@ -84,69 +85,80 @@
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-spelt",
-    "value": { "base": "block/wood/trough/small/spelt" },
+    "value": { "base": "block/wood/trough/small/crumbs-spelt" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-rye",
-    "value": { "base": "block/wood/trough/small/rye" },
+    "value": { "base": "block/wood/trough/small/crumbs-rye" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-flax",
-    "value": { "base": "block/wood/trough/small/flax" },
+    "value": { "base": "block/wood/trough/small/crumbs-flax" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-rice",
-    "value": { "base": "block/wood/trough/small/rice" },
+    "value": { "base": "block/wood/trough/small/crumbs-rice" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-cassava",
-    "value": { "base": "block/wood/trough/small/cassava" },
+    "value": { "base": "block/wood/trough/small/crumbs-cassava" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-amaranth",
-    "value": { "base": "block/wood/trough/small/amaranth" },
+    "value": { "base": "block/wood/trough/small/crumbs-amaranth" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-sunflower",
-    "value": { "base": "block/wood/trough/small/sunflower" },
+    "value": { "base": "block/wood/trough/small/crumbs-sunflower" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-acorn",
-    "value": { "base": "block/wood/trough/small/acorn" },
+    "value": { "base": "block/wood/trough/small/crumbs-acorn" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-birch",
-    "value": { "base": "block/wood/trough/small/birch" },
+    "value": { "base": "block/wood/trough/small/crumbs-birch" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json",
     "dependsOn": [{ "modid": "ancienttools"}]
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-pine",
-    "value": { "base": "block/wood/trough/small/pine" },
+    "value": { "base": "block/wood/trough/small/crumbs-pine" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json",
     "dependsOn": [{ "modid": "ancienttools"}]
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-maple",
-    "value": { "base": "block/wood/trough/small/maple" },
+    "value": { "base": "block/wood/trough/small/crumbs-maple" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json",
     "dependsOn": [{ "modid": "ancienttools"}]
   },
@@ -176,7 +188,8 @@
   {
     "op": "addmerge",
     "path": "/textures/contents-breadcrumbfeed",
-    "value": { "base": "block/wood/trough/small/spelt" },
+    "value": { "base": "block/wood/trough/small/crumbs-spelt" },
+    "side": "server",
     "file": "blocktypes/wood/trough-small.json"
   },
   {
@@ -202,5 +215,138 @@
     "side": "server",
     "file": "blocktypes/wood/trough-small.json",
     "dependsOn": [{ "modid": "acorns"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-bellpepper",
+    "value": { "base": "block/food/pie/fill-mixedvegetable", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-cabbage",
+    "value": { "base": "block/food/pie/fill-cabbage", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-carrot",
+    "value": { "base": "block/food/pie/fill-carrot", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-cassava",
+    "value": { "base": "block/food/pie/fill-cassava", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-onion",
+    "value": { "base": "block/food/pie/fill-onion", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-parsnip",
+    "value": { "base": "block/food/pie/fill-parsnip", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-pumpkin",
+    "value": { "base": "block/food/pie/fill-pumpkin", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-turnip",
+    "value": { "base": "block/food/pie/fill-turnip", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-flax",
+    "value": { "base": "block/food/pie/fill-flax", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-rice",
+    "value": { "base": "block/food/pie/fill-rice", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-sunflower",
+    "value": { "base": "block/food/pie/fill-sunflower", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-seed",
+    "value": { "base": "block/food/pie/fill-seed", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-soybean",
+    "value": { "base": "block/food/pie/fill-soybean", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-peanut",
+    "value": { "base": "block/food/pie/fill-peanut", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-soyblend",
+    "value": { "base": "block/food/pie/fill-soyblend", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-soyslurry",
+    "value": { "base": "block/food/pie/fill-soyslurry", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-fish",
+    "value": { "base": "block/food/pie/fill-fish", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-olive",
+    "value": { "base": "block/food/pie/fill-olive", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-pressedmash-honey",
+    "value": { "base": "block/food/pie/fill-honey", "overlays": ["block/wood/trough/small/shadow"] },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
   }
 ]

@@ -107,16 +107,6 @@
   },
   {
     "op": "addmerge",
-    "path": "/textures/contents-pressedmash-honey",
-    "value": {
-      "base": "block/food/pie/fill-honey",
-	  "overlays": ["block/wood/trough/large/shadow"]
-    },
-    "side": "server",
-    "file": "blocktypes/wood/trough-large.json"
-  },
-  {
-    "op": "addmerge",
     "path": "/textures/contents-pressedmash-soybean",
     "value": {
       "base": "block/food/pie/fill-soybean",
@@ -284,69 +274,69 @@
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-spelt",
-    "value": { "base": "block/wood/trough/small/spelt" },
+    "value": { "base": "block/wood/trough/small/crumbs-spelt" },
     "file": "blocktypes/wood/trough-large.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-rye",
-    "value": { "base": "block/wood/trough/small/rye" },
+    "value": { "base": "block/wood/trough/small/crumbs-rye" },
     "file": "blocktypes/wood/trough-large.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-flax",
-    "value": { "base": "block/wood/trough/small/flax" },
+    "value": { "base": "block/wood/trough/small/crumbs-flax" },
     "file": "blocktypes/wood/trough-large.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-rice",
-    "value": { "base": "block/wood/trough/small/rice" },
+    "value": { "base": "block/wood/trough/small/crumbs-rice" },
     "file": "blocktypes/wood/trough-large.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-cassava",
-    "value": { "base": "block/wood/trough/small/cassava" },
+    "value": { "base": "block/wood/trough/small/crumbs-cassava" },
     "file": "blocktypes/wood/trough-large.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-amaranth",
-    "value": { "base": "block/wood/trough/small/amaranth" },
+    "value": { "base": "block/wood/trough/small/crumbs-amaranth" },
     "file": "blocktypes/wood/trough-large.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-sunflower",
-    "value": { "base": "block/wood/trough/small/sunflower" },
+    "value": { "base": "block/wood/trough/small/crumbs-sunflower" },
     "file": "blocktypes/wood/trough-large.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-acorn",
-    "value": { "base": "block/wood/trough/small/acorn" },
+    "value": { "base": "block/wood/trough/small/crumbs-acorn" },
     "file": "blocktypes/wood/trough-large.json"
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-birch",
-    "value": { "base": "block/wood/trough/small/birch" },
+    "value": { "base": "block/wood/trough/small/crumbs-birch" },
     "file": "blocktypes/wood/trough-large.json",
     "dependsOn": [{ "modid": "ancienttools"}]
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-pine",
-    "value": { "base": "block/wood/trough/small/pine" },
+    "value": { "base": "block/wood/trough/small/crumbs-pine" },
     "file": "blocktypes/wood/trough-large.json",
     "dependsOn": [{ "modid": "ancienttools"}]
   },
   {
     "op": "addmerge",
     "path": "/textures/contents-expandedfoods:breadcrumbs-maple",
-    "value": { "base": "block/wood/trough/small/maple" },
+    "value": { "base": "block/wood/trough/small/crumbs-maple" },
     "file": "blocktypes/wood/trough-large.json",
     "dependsOn": [{ "modid": "ancienttools"}]
   },
@@ -376,7 +366,7 @@
   {
     "op": "addmerge",
     "path": "/textures/contents-breadcrumbfeed",
-    "value": { "base": "block/wood/trough/small/spelt" },
+    "value": { "base": "block/wood/trough/small/crumbs-spelt" },
     "file": "blocktypes/wood/trough-large.json"
   },
   {
@@ -406,7 +396,7 @@
   {
     "op": "addmerge",
     "path": "/textures/contents-breadcrumbs-acorn",
-    "value": { "base": "block/wood/trough/small/acorn" },
+    "value": { "base": "block/wood/trough/small/crumbs-acorn" },
     "file": "blocktypes/wood/trough-large.json",
     "dependsOn": [{ "modid": "acorns"}]
   }
