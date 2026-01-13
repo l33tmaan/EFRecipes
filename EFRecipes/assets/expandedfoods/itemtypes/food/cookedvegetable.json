@@ -498,35 +498,21 @@
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 1
 		}],
-        "@*-(pickledcarrot|pickledonion|pickledparsnip-pickledturnip-pickledpumpkin)-partbaked": [{
+        "@*-(pickledcarrot|pickledonion|pickledparsnip-pickledturnip-pickledpumpkin)-(partbaked|perfect)": [{
       		"type": "Perish",
       		"freshHours": { "avg": 1800 },
       		"transitionHours": { "avg": 240 },
       		"transitionedStack": { "type": "item", "code": "game:rot" },
       		"transitionRatio": 1
     	}],
-        "@*-(pickledcarrot|pickledonion|pickledparsnip-pickledturnip-pickledpumpkin)-perfect": [{
-          "type": "Perish",
-          "freshHours": { "avg": 1800 },
-          "transitionHours": { "avg": 240 },
-          "transitionedStack": { "type": "item", "code": "game:rot" },
-          "transitionRatio": 1
-        }],
-		"@*-(cattailroot|papyrusroot)-partbaked": [{
+		"@*-(cattailroot|papyrusroot)-(partbaked|perfect)": [{
 			"type": "Perish",
 			"freshHours": { "avg": 48 },
 			"transitionHours": { "avg": 18 },
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 0.5
 		}],
-        "@*-(cattailroot|papyrusroot)-perfect": [{
-          "type": "Perish",
-          "freshHours": { "avg": 48 },
-          "transitionHours": { "avg": 18 },
-          "transitionedStack": { "type": "item", "code": "game:rot" },
-          "transitionRatio": 0.5
-        }],
-		"*-perfect": [{
+		"@*-(partbaked|perfect)": [{
 			"type": "Perish",
 			"freshHours": { "avg": 504 },
 			"transitionHours": { "avg": 96 },

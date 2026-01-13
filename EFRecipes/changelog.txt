@@ -80,7 +80,7 @@ On hiatus until Wildcraft Herbs & Spices is updated
 -- pomace wine no longer crashes
 
 
-2.0.0-dev.7
+2.0.0-dev.8
 - Meathook placements adjusted yet again
 - Yogurt can be added to fruit bars in place of gelatin
 - Pemmican can be placed in stacks
@@ -101,15 +101,8 @@ REBALANCING:
 - All sauces are not drinkable; for food use only
 - Compote buffed; requires more ingredients
 - Hardtack & pemmican can be added to soup/stews
-- Peanuts now receive +50% nutrition when in meals (seems like it not doing so in vanilla is an oversight) - DONE!!!
-- All simmering recipe meltingDurations changed - DONE!!!
--- All recipes with a meltingDuration of 450 seconds cut to 48 - DONE!!!
--- All recipes with a meltingDuration of 110 seconds cut to 24- DONE!!!
--- All recipes with a meltingDuration of 100 seconds cut to 10- DONE!!!
--- All recipes with a meltingDuration cut from 150 seconds to 30- DONE!!!
--- Yogurt simmering meltingDuration cut from 60 seconds to 12- DONE!!!
 - Trail mix changed to work like pemmican; outputs 2 items at 1/2 nutrition
-- Tree syrup cannot be drunk - DONE!!!
+
 
 BUG FIXES:
 - Primitive survival meat patches corrected for meals (cold pasta specifically)
@@ -118,15 +111,11 @@ BUG FIXES:
 - WHY ARE FRIED BALLS DOING IT TOO????
 - Peanut butter fixed so it gives nutrients when in bowl/bucket
 - Acorn muffin recipe fixed so it stops crashing in handbook
-- Apple syrup textures working in fruit bread/muffins - DONE!!!
-- Mash textures in troughs fixed
-- Clarified broth gives correct expanded nutrients - DONE!!!
 
 NEW FOOD:
 - added meatloaf?
 - added walnut/sunflower butter?
 - Dehydrated yeast added (cook in cooking pot; grind result)
-- Dried pasta added (thanks to Origami!) - DONE!!!
 
 MISC: 
 - Dialogue added to Kitchenware Trader; readjusted code to push text to en.json
@@ -142,7 +131,32 @@ MISC:
 - Items can go into crocks? New labels for everything?
 - Pickled cabbage transform reviewed
 - Aged spirit/cider text and visuals revised and updated
-- Food oil recipes compressed; Superfuel compatibility updated (thanks to Whiskey Sunshine!) - DONE!!!
+
+
+
+2.0.0-dev.7
+
+REBALANCING:
+- Peanuts now receive +50% nutrition when in meals (seems like it not doing so in vanilla is an oversight)
+- All simmering recipe meltingDurations changed
+-- All recipes with a meltingDuration of 450 seconds cut to 48
+-- All recipes with a meltingDuration of 110 seconds cut to 24
+-- All recipes with a meltingDuration of 100 seconds cut to 10
+-- All recipes with a meltingDuration cut from 150 seconds to 30
+-- Yogurt simmering meltingDuration cut from 60 seconds to 12
+- Tree syrup cannot be drunk
+
+BUG FIXES:
+- Apple syrup textures working in fruit bread/muffins
+- Mash textures in troughs fixed (thanks to Whiskey Sunshine)
+- Clarified broth gives correct expanded nutrients
+- Part-baked vegetables now expire properly
+
+NEW FOOD:
+- Dried pasta added (thanks to Origami!)
+
+MISC: 
+- Food oil recipes compressed; Superfuel compatibility updated (thanks to Whiskey Sunshine!)
 
 2.0.0-dev.6
 
@@ -167,7 +181,7 @@ REBALANCING:
 - Legumes juice into more oil
 - Syrup can no longer be drunk straight
 - Yogurt starter must be simmered with pasteurized milk to create fermenting yogurt
-- Remove lard from the "broth" ingredient of dough to avoid ordering issues (thanks to ividyon) - DONE!!!
+- Remove lard from the "broth" ingredient of dough to avoid ordering issues (thanks to ividyon)
 
 BUG FIXES:
 - NutritionProps removed from salad dressing
@@ -240,28 +254,28 @@ MISC:
 
 2.0.0-dev.1
 - New 1.20 clays integrated (thanks pizza2004!)
-- Bowl recipes updated (names and remapping later) - DONE!!!
+- Bowl recipes updated (names and remapping later)
 - Rolling pin tool rack transform fixed; now actually in the rack (thanks pizza2004!)
-- Acorns 1.20+ compatiblity added - DONE!!!
+- Acorns 1.20+ compatiblity added
 
 BALANCING: 
-- Salads and cold pasta allow cured sausage - DONE!!!
-- Potent spirits do not cure into themselves anymore - DONE!!!
-- Alcohol nutrition nerfed when in meals - DONE!!!
-- Lard nutrition & healing nerfed; output doubled - DONE!!!
-- Fruit bread/muffins nerfed; accept a max of 2 fruits instead of 5 (and gelatin) - DONE!!!
-- Recipes using bottles require opened bottles now - DONE!!!
-- Removed honeycombs pressing into honey / pressed honeycomb being turnable into beeswax - DONE!!!
-- Salad perish timer reduced from 72 hours to 24 - DONE!!!
+- Salads and cold pasta allow cured sausage
+- Potent spirits do not cure into themselves anymore
+- Alcohol nutrition nerfed when in meals
+- Lard nutrition & healing nerfed; output doubled
+- Fruit bread/muffins nerfed; accept a max of 2 fruits instead of 5 (and gelatin)
+- Recipes using bottles require opened bottles now
+- Removed honeycombs pressing into honey / pressed honeycomb being turnable into beeswax
+- Salad perish timer reduced from 72 hours to 24
 
 BUG FIXES:
-- Wildcraft strong wine barrels into vinegar at the proper rate - DONE!!!
-- Acorn muffins don't crash when topping with honey - DONE!!!
-- Bushmeat meals have proper textures - DONE!!!
-- Fixed client errors from vanilla pot changes - DONE!!!
+- Wildcraft strong wine barrels into vinegar at the proper rate
+- Acorn muffins don't crash when topping with honey
+- Bushmeat meals have proper textures
+- Fixed client errors from vanilla pot changes
 
 MISC:
-- Wildcraft stuff removed; will be added as a separate module (don't worry, I've put too much work into it to abandon it) - DONE???
+- Wildcraft stuff removed; will be added as a separate module (don't worry, I've put too much work into it to abandon it)
 
 
 1.7.4
