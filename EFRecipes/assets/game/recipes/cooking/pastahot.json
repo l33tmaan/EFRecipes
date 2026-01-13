@@ -11,7 +11,9 @@
 		{
 			"code": "pasta-base", 
 			"validStacks": [ 
-				{ "type": "item", "code": "expandedfoods:pasta-cut",  "shapeElement": "bowl/pasta", "textureMapping": ["pasta", "pasta"] }
+				{ "type": "item", "code": "expandedfoods:pasta-cut",  "shapeElement": "bowl/pasta", "textureMapping": ["pasta", "pasta"] },
+        { "type": "item", "code": "expandedfoods:pasta-dried", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] },
+        { "type": "item", "code": "expandedfoods:pasta-charred", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] }
 			],
 			"minQuantity": 1,
 			"maxQuantity": 1,

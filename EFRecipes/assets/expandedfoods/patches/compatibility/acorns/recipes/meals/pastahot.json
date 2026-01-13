@@ -1,8 +1,12 @@
 ﻿[
   {
-    "op": "addmerge",
+    "op": "addeach",
     "path": "/ingredients/0/validStacks/-",
-    "value": { "type": "item", "code": "expandedfoods:acornpasta-cut",  "shapeElement": "bowl/pasta", "textureMapping": ["pasta", "pasta"] }, 
+    "value": [
+        { "type": "item", "code": "expandedfoods:acornpasta-cut", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] },
+        { "type": "item", "code": "expandedfoods:acornpasta-dried", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] },
+        { "type": "item", "code": "expandedfoods:acornpasta-charred", "shapeElement": "bowl/noodles/*", "textureMapping": [ "noodles", "pasta" ] }
+    ], 
     "file": "game:recipes/cooking/pastahot.json",
     "side": "server",
     "dependsOn": [{ "modid": "acorns" } ]
