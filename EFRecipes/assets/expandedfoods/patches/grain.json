@@ -1,7 +1,7 @@
 ﻿[
   {
     "op": "addmerge",
-    "path": "/attributesByType/*-sunflower",
+    "path": "/attributes",
     "value": {
       "nutritionPropsWhenInMeal": {
         "satiety": 240,
@@ -22,11 +22,11 @@
       }
     },
     "side": "server",
-    "file": "game:itemtypes/food/grain.json"
+    "file": "game:blocktypes/plant/crop/sunflower.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/*-flax/juiceableProperties",
+    "path": "/attributes/juiceableProperties",
     "value": {
       "litresPerItem": 0.078125,
       "liquidStack": {
@@ -41,11 +41,11 @@
       }
     },
     "side": "server",
-    "file": "game:itemtypes/food/grain.json"
+    "file": "game:blocktypes/plant/crop/flax.json"
   },
   {
     "op": "addmerge",
-    "path": "/attributesByType/*-rice/juiceableProperties",
+    "path": "/attributes/juiceableProperties",
     "value": {
       "litresPerItem": 0.078125,
       "liquidStack": {
@@ -60,27 +60,6 @@
       }
     },
     "side": "server",
-    "file": "game:itemtypes/food/grain.json"
-  },
-  {
-    "op": "move",
-    "path": "/temp",
-    "frompath": "/attributesByType/*",
-    "side": "server",
-    "file": "game:itemtypes/food/grain.json"
-  },
-  {
-    "op": "move",
-    "path": "/attributesByType/*",
-    "frompath": "/temp",
-    "side": "server",
-    "file": "game:itemtypes/food/grain.json"
-  },
-  {
-    "op": "addmerge",
-    "path": "/attributes/handbook",
-    "value": { "groupBy": ["grain-*"] },
-    "side": "server",
-    "file": "game:itemtypes/food/grain.json"
+    "file": "game:blocktypes/plant/crop/rice.json"
   }
 ]

@@ -1,0 +1,1 @@
+dotnet build && pushd EFRecipes/bin/Debug/Mods/mod/net10.0/ && zip -r ExpandedFoods_net10.zip * && cp ExpandedFoods_net10.zip ~/vsmod-packages/ && cp ~/vsmod-packages/ExpandedFoods_net10.zip ~/.config/VintagestoryData/Mods/ && popd
