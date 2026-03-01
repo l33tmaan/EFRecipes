@@ -8,7 +8,7 @@
   },
   {
     "op": "addmerge",
-    "path": "/attributes/expandedNutritionProps",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
       "game:milkportion": { "satiety": 1.5, "foodcategory": "Dairy" },
       "game:flour-rice": { "satiety": 170, "foodcategory": "Grain" },
@@ -33,31 +33,13 @@
     "side": "server",
     "file": "itemtypes/food/dough.json"
   },
-    {
-        "op": "addmerge",
-        "path": "/attributes/renderIngredientsByType",
-        "value": {
-            "*-spelt": { "game:flour-spelt": "game:shapes/item/food/bread/speltbread-dough.json" },
-            "*-rye": { "game:flour-rye": "game:shapes/item/food/bread/ryebread-dough.json" },
-            "*-flax": { "game:flour-flax": "game:shapes/item/food/bread/flaxbread-dough.json" },
-            "*-rice": { "game:flour-rice": "game:shapes/item/food/bread/ricebread-dough.json" },
-            "*-cassava": { "game:flour-cassava": "game:shapes/item/food/bread/cassavabread-dough.json" },
-            "*-amaranth": { "game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread-dough.json" },
-            "*-sunflower": { "game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread-dough.json" },
-            "*-birch": { "game:flour-birch": "game:shapes/item/food/bread/birchbread-dough.json" },
-            "*-pine": { "game:flour-pine": "game:shapes/item/food/bread/pinebread-dough.json" },
-            "*-maple": { "game:flour-maple": "game:shapes/item/food/bread/maplebread-dough.json" },
-            "*-acornspelt": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornspeltbread-dough.json" },
-            "*-acornrye": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornryebread-dough.json" },
-            "*-acornflax": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornflaxbread-dough.json" },
-            "*-acornrice": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornricebread-dough.json" },
-            "*-acorncassava": { "acorns:flour-acorn": "game:shapes/item/food/bread/acorncassavabread-dough.json" },
-            "*-acornamaranth": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornamaranthbread-dough.json" },
-            "*-acornsunflower": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread-dough.json" }
-        },
-    "side": "server",
-        "file": "itemtypes/food/dough.json"
-    },
+  {
+      "op": "addmerge",
+      "path": "/matterState",
+      "value": "solid",
+      "side": "server",
+      "file": "itemtypes/food/dough.json"
+  },
   {
     "op": "remove",
     "path": "/nutritionPropsByType/*-flax-charred",
