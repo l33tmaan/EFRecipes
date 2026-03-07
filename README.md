@@ -5,7 +5,7 @@ Adds fruit compatability to Expanded Foods from Wildcraft Fruit.
 * ~~Yogurt Recipes~~
 * ~~Salad Recipes~~
 * Fruit Syrup
-* * Need Textures
+  * Need Textures
 * Candied Fruit
-* * Need Textures
+  * Need Textures
 * Gelatin
