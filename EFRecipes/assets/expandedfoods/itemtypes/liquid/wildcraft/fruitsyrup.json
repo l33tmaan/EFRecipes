@@ -1,0 +1,63 @@
+{
+	"code": "fruitsyrupportion",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{
+			"code": "type",
+			"loadFromProperties": "wildcraftfruit:block/fruit",
+		}
+	],
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true,
+            "groupBy": ["fruitsyrupportion-*"],
+            "extraSections": [{ "title": "expandedfoods:item-handbooktitle-fruitsyrupportion", "text": "expandedfoods:item-handbooktext-fruitsyrupportion" }]
+		},
+		"inBowlShape": { "base": "game:block/food/meal/liquid" },
+		"nutritionPropsWhenInMealByType": { 
+			"*-saguaro": { "satiety": 120, "health": 2, "foodcategory": "Fruit" },
+			"*": { "satiety": 120, "health": 1, "foodcategory": "Fruit" }
+		},
+		"inPiePropertiesByType": { 
+			"*": {
+				"texture": "wildcraftfruit:block/food/pie/fill-{fruit}",
+				"partType": "Filling"
+			}
+		},
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texturebytype": {
+				"*": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "overlays": ["game:item/liquid/syrup"] }
+			},
+			"allowSpill": true,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": { "type": "item", "code": "expandedfoods:fruitsyrupportion-{type}" }
+			}
+		}
+	},
+	"shape": { "base": "game:item/liquid" },
+	"texturebytype": {
+		"*": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "overlays": ["game:item/liquid/syrup"] }
+	},
+	"transitionableProps": [{
+    	"type": "Perish",
+    	"freshHours": { "avg": 17520 },
+    	"transitionHours": { "avg": 17520 },
+    	"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 0.005
+  	}],
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:fruitsyrupportion-{type}", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 200,
+	"guiTransform": {
+		"rotation": { "x": 128, "y": 40, "z": 7 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	}
+}
