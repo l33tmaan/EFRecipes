@@ -1,0 +1,16 @@
+[
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "expandedfoods:fruitsyrupportion-*", "name": "fruit", "quantity": 10 },
+			{ "type": "item", "code": "wildcraftfruit:fruit-*", "name": "fruit", "quantity": 1 }
+		],
+		"Simmering": {
+			"meltingPoint": 200,
+			"meltingDuration": 10,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:candiedfruit-{fruit}", "quantity": 1 },
+			"requiresContainer": false
+		}
+	}
+]
