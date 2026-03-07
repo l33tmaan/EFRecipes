@@ -1,0 +1,95 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.5,
+      "startScaleY": 1.0,
+      "endScaleY": 0.8,
+      "resultCode": "expandedfoods:dryfruit-{fruit}"
+    },
+    "side": "server",
+    "file": "wildcraftfruit:itemtypes/food/1-fruit.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/onDisplayTransformByType",
+    "value": {
+      "*": {
+        "translation": { "x": 0.0, "y": -0.1, "z": 0.05 },
+        "scale": 0.8
+      }
+    },
+    "side": "server",
+    "file": "wildcraftfruit:itemtypes/food/1-fruit.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/inContainerTextureByType",
+    "value": {
+       "*-ginkgowhole": { "base": "wildcraftfruit:block/food/pie/fill-ginkgopulp" },
+       "*-quincelet": { "base": "wildcraftfruit:block/food/pie/fill-quince" },
+       "*-wildtomato": { "base": "wildcraftfruit:block/food/pie/fill-tomato" },
+       "*-josta": { "base": "game:block/food/pie/fill-blackcurrant" },
+       "*-burgundyapple": { "base": "game:block/food/pie/fill-apple" },
+       "*-wildapple": { "base": "wildcraftfruit:block/food/pie/fill-crabapple" },
+       "*-pittedcherry": { "base": "game:block/food/pie/fill-cherry" },
+       "*-mazzard": { "base": "game:block/food/pie/fill-cherry" },
+       "*-pittedmazzard": { "base": "game:block/food/pie/fill-cherry" },
+       "*-nectarine": { "base": "game:block/food/pie/fill-peach" },
+       "*-bitterorange": { "base": "game:block/food/pie/fill-orange" },
+       "*-kasturi": { "base": "game:block/food/pie/fill-mango" },
+       "*-bilberry": { "base": "game:block/food/pie/fill-blueberry" },
+       "*-pittedbreadfruit": { "base": "game:block/food/pie/fill-breadfruit" },
+       "*-marang": { "base": "game:block/food/pie/fill-breadfruit" },
+       "*-pittedmarang": { "base": "game:block/food/pie/fill-breadfruit" },
+       "*-greenstrawberry": { "base": "wildcraftfruit:block/food/pie/fill-strawberry" },
+       "*-loganberry": { "base": "wildcraftfruit:block/food/pie/fill-raspberry" },
+       "*-boysenberry": { "base": "wildcraftfruit:block/food/pie/fill-brambleberry" },
+       "*-beachrose": { "base": "wildcraftfruit:block/food/pie/fill-dogrose" },
+       "*-pittedapricot": { "base": "wildcraftfruit:block/food/pie/fill-apricot" },
+       "*-damsonplum": { "base": "wildcraftfruit:block/food/pie/fill-purpleplum" },
+       "*-redplum": { "base": "wildcraftfruit:block/food/pie/fill-purpleplum" },
+       "*-redcherryplum": { "base": "wildcraftfruit:block/food/pie/fill-cherryplum" },
+       "*-pittedjackfruit": { "base": "wildcraftfruit:block/food/pie/fill-jackfruit" },
+       "*-cempedak": { "base": "wildcraftfruit:block/food/pie/fill-jackfruit" },
+       "*-pittedcempedak": { "base": "wildcraftfruit:block/food/pie/fill-jackfruit" },
+       "*-greatroseapple": { "base": "wildcraftfruit:block/food/pie/fill-roseapple" },
+       "*-waterapple": { "base": "wildcraftfruit:block/food/pie/fill-roseapple" },
+       "*-lillypillywhite": { "base": "wildcraftfruit:block/food/pie/fill-lillypillypink" },
+       "*-lillypillyblue": { "base": "wildcraftfruit:block/food/pie/fill-lillypillypink" },
+       "*-beachalmondwhole": { "base": "wildcraftfruit:block/food/pie/fill-pittedbeachalmond" },
+       "*-pulasan": { "base": "wildcraftfruit:block/food/pie/fill-rambutan" },
+       "*-lemon": { "base": "wildcraftfruit:block/food/pie/fill-citron" },
+       "*-meyerlemon": { "base": "wildcraftfruit:block/food/pie/fill-citron" },
+       "*-ber": { "base": "wildcraftfruit:block/food/pie/fill-jujube" },
+       "*-makrut": { "base": "wildcraftfruit:block/food/pie/fill-lime" },
+       "*-biasong": { "base": "wildcraftfruit:block/food/pie/fill-lime" },
+       "*-desertlime": { "base": "wildcraftfruit:block/food/pie/fill-fingerlime" },
+       "*-calamansi": { "base": "wildcraftfruit:block/food/pie/fill-kumquat" },
+       "*-shangjuan": { "base": "wildcraftfruit:block/food/pie/fill-yuzu" },
+       "*-tangerine": { "base": "wildcraftfruit:block/food/pie/fill-mandarin" },
+       "*-clementine": { "base": "wildcraftfruit:block/food/pie/fill-mandarin" },
+       "*-tangelo": { "base": "game:block/food/pie/fill-orange" },
+       "*-bloodorange": { "base": "wildcraftfruit:block/food/pie/fill-grapefruit" },
+       "*-oroblanco": { "base": "wildcraftfruit:block/food/pie/fill-pomelo" },
+       "*-cashewwhole": { "base": "wildcraftfruit:block/food/pie/fill-cashewapple" },
+       "*-swamphuckle": { "base": "wildcraftfruit:block/food/pie/fill-huckleberry" },
+       "*-hairyeggplant": { "base": "wildcraftfruit:block/food/pie/fill-naranjilla" },
+       "*-juaacu": { "base": "wildcraftfruit:block/food/pie/fill-cocona" },
+       "*-newhusktomato": { "base": "wildcraftfruit:block/food/pie/fill-husktomato" },
+       "*": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}" }
+    },
+    "side": "server",
+    "file": "wildcraftfruit:itemtypes/food/1-fruit.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["fruit-*"] },
+    "side": "server",
+    "file": "wildcraftfruit:itemtypes/food/1-fruit.json"
+  }
+]
