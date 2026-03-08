@@ -51,6 +51,14 @@
 		"*": { "base": "game:item/gelatin/{type}" }
 	},
 	"nutritionPropsByType": {
+		"@*-(pumpkin|parsnip|turnip|onion|cabbage|carrot|cassava|bellpepper)": { "saturation": 200, "health": 3, "foodcategory": "Vegetable" },
+		"*-vegetablemix": { "saturation": 230, "health": 5, "foodcategory": "Vegetable" },
+		"*-fruitmix": { "saturation": 230, "health": 5, "foodcategory": "Fruit" },
+		"*-saguaro": { "saturation": 200, "health": 4, "foodcategory": "Fruit" },
+		"@*-(birch|maple)": { "saturation": 200, "health": 4, "foodcategory": "Fruit" },
+		"*-honey": { "saturation": 200, "health": 3.5, "foodcategory": "Fruit" },
+		"*-soy": { "saturation": 200, "health": 3, "foodcategory": "Protein" },
+		"*-plain": { "saturation": 150, "health": 1, "foodcategory": "Protein" },
 		"*": { "saturation": 200, "health": 3, "foodcategory": "Fruit" }
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
