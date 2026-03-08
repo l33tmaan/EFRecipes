@@ -1,0 +1,644 @@
+{
+  "code": "fruitsyrupportion",
+  "class": "ItemLiquidPortion",
+  "matterState": "liquid",
+  "variantgroups": [
+    {
+      "code": "type",
+      "loadFromProperties": "wildcraftfruit:block/fruit"
+    }
+  ],
+  "attributes": {
+    "handbook": {
+      "ignoreCreativeInvStacks": true,
+      "groupBy": [
+        "fruitsyrupportion-*"
+      ],
+      "extraSections": [
+        {
+          "title": "expandedfoods:item-handbooktitle-fruitsyrupportion",
+          "text": "expandedfoods:item-handbooktext-fruitsyrupportion"
+        }
+      ]
+    },
+    "inBowlShape": {
+      "base": "game:block/food/meal/liquid"
+    },
+    "nutritionPropsWhenInMealByType": {
+      "*": {
+        "satiety": 120,
+        "health": 1,
+        "foodcategory": "Fruit"
+      }
+    },
+    "inPiePropertiesByType": {
+      "*-ginkgowhole": {
+        "base": "wildcraftfruit:block/food/pie/fill-ginkgopulp",
+        "partType": "Filling"
+      },
+      "*-quincelet": {
+        "base": "wildcraftfruit:block/food/pie/fill-quince",
+        "partType": "Filling"
+      },
+      "*-wildtomato": {
+        "base": "wildcraftfruit:block/food/pie/fill-tomato",
+        "partType": "Filling"
+      },
+      "*-josta": {
+        "base": "game:block/food/pie/fill-blackcurrant",
+        "partType": "Filling"
+      },
+      "*-burgundyapple": {
+        "base": "game:block/food/pie/fill-apple",
+        "partType": "Filling"
+      },
+      "*-wildapple": {
+        "base": "wildcraftfruit:block/food/pie/fill-crabapple",
+        "partType": "Filling"
+      },
+      "*-pittedcherry": {
+        "base": "game:block/food/pie/fill-cherry",
+        "partType": "Filling"
+      },
+      "*-mazzard": {
+        "base": "game:block/food/pie/fill-cherry",
+        "partType": "Filling"
+      },
+      "*-pittedmazzard": {
+        "base": "game:block/food/pie/fill-cherry",
+        "partType": "Filling"
+      },
+      "*-nectarine": {
+        "base": "game:block/food/pie/fill-peach",
+        "partType": "Filling"
+      },
+      "*-bitterorange": {
+        "base": "game:block/food/pie/fill-orange",
+        "partType": "Filling"
+      },
+      "*-kasturi": {
+        "base": "game:block/food/pie/fill-mango",
+        "partType": "Filling"
+      },
+      "*-bilberry": {
+        "base": "game:block/food/pie/fill-blueberry",
+        "partType": "Filling"
+      },
+      "*-pittedbreadfruit": {
+        "base": "game:block/food/pie/fill-breadfruit",
+        "partType": "Filling"
+      },
+      "*-marang": {
+        "base": "game:block/food/pie/fill-breadfruit",
+        "partType": "Filling"
+      },
+      "*-pittedmarang": {
+        "base": "game:block/food/pie/fill-breadfruit",
+        "partType": "Filling"
+      },
+      "*-greenstrawberry": {
+        "base": "wildcraftfruit:block/food/pie/fill-strawberry",
+        "partType": "Filling"
+      },
+      "*-loganberry": {
+        "base": "wildcraftfruit:block/food/pie/fill-raspberry",
+        "partType": "Filling"
+      },
+      "*-boysenberry": {
+        "base": "wildcraftfruit:block/food/pie/fill-brambleberry",
+        "partType": "Filling"
+      },
+      "*-beachrose": {
+        "base": "wildcraftfruit:block/food/pie/fill-dogrose",
+        "partType": "Filling"
+      },
+      "*-pittedapricot": {
+        "base": "wildcraftfruit:block/food/pie/fill-apricot",
+        "partType": "Filling"
+      },
+      "*-damsonplum": {
+        "base": "wildcraftfruit:block/food/pie/fill-purpleplum",
+        "partType": "Filling"
+      },
+      "*-redplum": {
+        "base": "wildcraftfruit:block/food/pie/fill-purpleplum",
+        "partType": "Filling"
+      },
+      "*-redcherryplum": {
+        "base": "wildcraftfruit:block/food/pie/fill-cherryplum",
+        "partType": "Filling"
+      },
+      "*-pittedjackfruit": {
+        "base": "wildcraftfruit:block/food/pie/fill-jackfruit",
+        "partType": "Filling"
+      },
+      "*-cempedak": {
+        "base": "wildcraftfruit:block/food/pie/fill-jackfruit",
+        "partType": "Filling"
+      },
+      "*-pittedcempedak": {
+        "base": "wildcraftfruit:block/food/pie/fill-jackfruit",
+        "partType": "Filling"
+      },
+      "*-greatroseapple": {
+        "base": "wildcraftfruit:block/food/pie/fill-roseapple",
+        "partType": "Filling"
+      },
+      "*-waterapple": {
+        "base": "wildcraftfruit:block/food/pie/fill-roseapple",
+        "partType": "Filling"
+      },
+      "*-lillypillywhite": {
+        "base": "wildcraftfruit:block/food/pie/fill-lillypillypink",
+        "partType": "Filling"
+      },
+      "*-lillypillyblue": {
+        "base": "wildcraftfruit:block/food/pie/fill-lillypillypink",
+        "partType": "Filling"
+      },
+      "*-beachalmondwhole": {
+        "base": "wildcraftfruit:block/food/pie/fill-pittedbeachalmond",
+        "partType": "Filling"
+      },
+      "*-pulasan": {
+        "base": "wildcraftfruit:block/food/pie/fill-rambutan",
+        "partType": "Filling"
+      },
+      "*-lemon": {
+        "base": "wildcraftfruit:block/food/pie/fill-citron",
+        "partType": "Filling"
+      },
+      "*-meyerlemon": {
+        "base": "wildcraftfruit:block/food/pie/fill-citron",
+        "partType": "Filling"
+      },
+      "*-ber": {
+        "base": "wildcraftfruit:block/food/pie/fill-jujube",
+        "partType": "Filling"
+      },
+      "*-makrut": {
+        "base": "wildcraftfruit:block/food/pie/fill-lime",
+        "partType": "Filling"
+      },
+      "*-biasong": {
+        "base": "wildcraftfruit:block/food/pie/fill-lime",
+        "partType": "Filling"
+      },
+      "*-desertlime": {
+        "base": "wildcraftfruit:block/food/pie/fill-fingerlime",
+        "partType": "Filling"
+      },
+      "*-calamansi": {
+        "base": "wildcraftfruit:block/food/pie/fill-kumquat",
+        "partType": "Filling"
+      },
+      "*-shangjuan": {
+        "base": "wildcraftfruit:block/food/pie/fill-yuzu",
+        "partType": "Filling"
+      },
+      "*-tangerine": {
+        "base": "wildcraftfruit:block/food/pie/fill-mandarin",
+        "partType": "Filling"
+      },
+      "*-clementine": {
+        "base": "wildcraftfruit:block/food/pie/fill-mandarin",
+        "partType": "Filling"
+      },
+      "*-tangelo": {
+        "base": "game:block/food/pie/fill-orange",
+        "partType": "Filling"
+      },
+      "*-bloodorange": {
+        "base": "wildcraftfruit:block/food/pie/fill-grapefruit",
+        "partType": "Filling"
+      },
+      "*-oroblanco": {
+        "base": "wildcraftfruit:block/food/pie/fill-pomelo",
+        "partType": "Filling"
+      },
+      "*-cashewwhole": {
+        "base": "wildcraftfruit:block/food/pie/fill-cashewapple",
+        "partType": "Filling"
+      },
+      "*-swamphuckle": {
+        "base": "wildcraftfruit:block/food/pie/fill-huckleberry",
+        "partType": "Filling"
+      },
+      "*-hairyeggplant": {
+        "base": "wildcraftfruit:block/food/pie/fill-naranjilla",
+        "partType": "Filling"
+      },
+      "*-juaacu": {
+        "base": "wildcraftfruit:block/food/pie/fill-cocona",
+        "partType": "Filling"
+      },
+      "*-newhusktomato": {
+        "base": "wildcraftfruit:block/food/pie/fill-husktomato",
+        "partType": "Filling"
+      },
+      "*": {
+        "base": "wildcraftfruit:block/food/pie/fill-{type}",
+        "partType": "Filling"
+      }
+    },
+    "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "texturebytype": {
+        "*": {
+          "base": "wildcraftfruit:block/food/pie/fill-{type}",
+          "overlays": [
+            "game:item/liquid/syrup"
+          ]
+        }
+      },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-{type}"
+        }
+      }
+    }
+  },
+  "shape": {
+    "base": "game:item/liquid"
+  },
+  "texturebytype": {
+    "*-ginkgowhole": {
+      "base": "wildcraftfruit:block/food/pie/fill-ginkgopulp",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-quincelet": {
+      "base": "wildcraftfruit:block/food/pie/fill-quince",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-wildtomato": {
+      "base": "wildcraftfruit:block/food/pie/fill-tomato",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-josta": {
+      "base": "game:block/food/pie/fill-blackcurrant",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-burgundyapple": {
+      "base": "game:block/food/pie/fill-apple",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-wildapple": {
+      "base": "wildcraftfruit:block/food/pie/fill-crabapple",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-pittedcherry": {
+      "base": "game:block/food/pie/fill-cherry",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-mazzard": {
+      "base": "game:block/food/pie/fill-cherry",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-pittedmazzard": {
+      "base": "game:block/food/pie/fill-cherry",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-nectarine": {
+      "base": "game:block/food/pie/fill-peach",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-bitterorange": {
+      "base": "game:block/food/pie/fill-orange",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-kasturi": {
+      "base": "game:block/food/pie/fill-mango",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-bilberry": {
+      "base": "game:block/food/pie/fill-blueberry",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-pittedbreadfruit": {
+      "base": "game:block/food/pie/fill-breadfruit",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-marang": {
+      "base": "game:block/food/pie/fill-breadfruit",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-pittedmarang": {
+      "base": "game:block/food/pie/fill-breadfruit",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-greenstrawberry": {
+      "base": "wildcraftfruit:block/food/pie/fill-strawberry",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-loganberry": {
+      "base": "wildcraftfruit:block/food/pie/fill-raspberry",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-boysenberry": {
+      "base": "wildcraftfruit:block/food/pie/fill-brambleberry",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-beachrose": {
+      "base": "wildcraftfruit:block/food/pie/fill-dogrose",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-pittedapricot": {
+      "base": "wildcraftfruit:block/food/pie/fill-apricot",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-damsonplum": {
+      "base": "wildcraftfruit:block/food/pie/fill-purpleplum",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-redplum": {
+      "base": "wildcraftfruit:block/food/pie/fill-purpleplum",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-redcherryplum": {
+      "base": "wildcraftfruit:block/food/pie/fill-cherryplum",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-pittedjackfruit": {
+      "base": "wildcraftfruit:block/food/pie/fill-jackfruit",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-cempedak": {
+      "base": "wildcraftfruit:block/food/pie/fill-jackfruit",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-pittedcempedak": {
+      "base": "wildcraftfruit:block/food/pie/fill-jackfruit",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-greatroseapple": {
+      "base": "wildcraftfruit:block/food/pie/fill-roseapple",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-waterapple": {
+      "base": "wildcraftfruit:block/food/pie/fill-roseapple",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-lillypillywhite": {
+      "base": "wildcraftfruit:block/food/pie/fill-lillypillypink",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-lillypillyblue": {
+      "base": "wildcraftfruit:block/food/pie/fill-lillypillypink",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-beachalmondwhole": {
+      "base": "wildcraftfruit:block/food/pie/fill-pittedbeachalmond",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-pulasan": {
+      "base": "wildcraftfruit:block/food/pie/fill-rambutan",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-lemon": {
+      "base": "wildcraftfruit:block/food/pie/fill-citron",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-meyerlemon": {
+      "base": "wildcraftfruit:block/food/pie/fill-citron",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-ber": {
+      "base": "wildcraftfruit:block/food/pie/fill-jujube",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-makrut": {
+      "base": "wildcraftfruit:block/food/pie/fill-lime",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-biasong": {
+      "base": "wildcraftfruit:block/food/pie/fill-lime",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-desertlime": {
+      "base": "wildcraftfruit:block/food/pie/fill-fingerlime",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-calamansi": {
+      "base": "wildcraftfruit:block/food/pie/fill-kumquat",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-shangjuan": {
+      "base": "wildcraftfruit:block/food/pie/fill-yuzu",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-tangerine": {
+      "base": "wildcraftfruit:block/food/pie/fill-mandarin",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-clementine": {
+      "base": "wildcraftfruit:block/food/pie/fill-mandarin",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-tangelo": {
+      "base": "game:block/food/pie/fill-orange",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-bloodorange": {
+      "base": "wildcraftfruit:block/food/pie/fill-grapefruit",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-oroblanco": {
+      "base": "wildcraftfruit:block/food/pie/fill-pomelo",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-cashewwhole": {
+      "base": "wildcraftfruit:block/food/pie/fill-cashewapple",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-swamphuckle": {
+      "base": "wildcraftfruit:block/food/pie/fill-huckleberry",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-hairyeggplant": {
+      "base": "wildcraftfruit:block/food/pie/fill-naranjilla",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-juaacu": {
+      "base": "wildcraftfruit:block/food/pie/fill-cocona",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*-newhusktomato": {
+      "base": "wildcraftfruit:block/food/pie/fill-husktomato",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    },
+    "*": {
+      "base": "wildcraftfruit:block/food/pie/fill-{type}",
+      "overlays": [
+        "game:item/liquid/syrup"
+      ]
+    }
+  },
+  "transitionableProps": [
+    {
+      "type": "Perish",
+      "freshHours": {
+        "avg": 17520
+      },
+      "transitionHours": {
+        "avg": 17520
+      },
+      "transitionedStack": {
+        "type": "item",
+        "code": "game:rot"
+      },
+      "transitionRatio": 0.005
+    }
+  ],
+  "creativeinventoryStacks": [
+    {
+      "tabs": [
+        "general",
+        "liquids",
+        "expandedfoods"
+      ],
+      "stacks": [
+        {
+          "type": "block",
+          "code": "game:woodbucket",
+          "attributes": {
+            "ucontents": [
+              {
+                "type": "item",
+                "code": "expandedfoods:fruitsyrupportion-{type}",
+                "makefull": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "maxstacksize": 5000,
+  "materialDensity": 200,
+  "guiTransform": {
+    "rotation": {
+      "x": 128,
+      "y": 40,
+      "z": 7
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 1.4
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.5,
+      "y": -1,
+      "z": -1.4
+    }
+  }
+}
