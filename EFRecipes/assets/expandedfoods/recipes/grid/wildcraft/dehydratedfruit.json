@@ -1,13 +1,13 @@
 ﻿[
  {
-	"enabled":  false,
+	"enabled":  true,
 	ingredientPattern: "F",
 	ingredients: {
 		"F": { type: "item", code: "wildcraftfruit:pressedmash-*", "name": "fruit" }
 	},
 	width: 1,
 	height: 1,
-	shapeless: false,
+	shapeless: true,
 	output: { type: "item", code: "expandedfoods:dehydratedfruit-{fruit}", quantity: 1 }
  }
 ]
