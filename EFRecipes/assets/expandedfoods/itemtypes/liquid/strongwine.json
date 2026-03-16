@@ -29,7 +29,7 @@
 				"*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
 				"*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
 				"*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
-				"*": { "base": "game:block/food/pie/fill-{fruit}", "alpha": 160, "overlays": ["game:item/liquid/syrup"] }
+				"strongwineportion-*": { "base": "game:block/food/pie/fill-{fruit}", "alpha": 160, "overlays": ["game:item/liquid/syrup"] }
 			},
 			"allowSpill": true,
 			"whenSpilled": {
@@ -71,7 +71,7 @@
 			"distilledStack": { "type": "item", "code": "game:spiritportion-cassava" }, 
 			"ratio": 0.1 
 			},			
-			"*": {
+			"strongwineportion-*": {
 			"distilledStack": { "type": "item", "code": "game:spiritportion-{fruit}" },
 			"ratio": 0.2
 			}
@@ -100,14 +100,14 @@
 		"*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
 		"*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
 		"*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 160, "overlays": ["game:item/liquid/syrup"] },
-		"*": { "base": "game:block/food/pie/fill-{fruit}", "alpha": 160, "overlays": ["game:item/liquid/syrup"] }
+		"strongwineportion-*": { "base": "game:block/food/pie/fill-{fruit}", "alpha": 160, "overlays": ["game:item/liquid/syrup"] }
 	},
 	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:strongwineportion-{fruit}", "makefull": true } ] } } ] } ],
 	"maxstacksize": 5000,
 	"materialDensity": 200,
 	"nutritionPropsByType": { 
 		"@*-(spelt|rice|rye|amaranth|cassava|breadfruit)": {"saturation": 0.9, "health": 0.005, "foodcategory": "Grain"},
-		"*": {"saturation": 0.9, "health": 0.005, "foodcategory": "Fruit"}
+		"strongwineportion-*": {"saturation": 0.9, "health": 0.005, "foodcategory": "Fruit"}
 	},
 	"guiTransform": {
 		"rotation": { "x": 128, "y": 40, "z": 7 },

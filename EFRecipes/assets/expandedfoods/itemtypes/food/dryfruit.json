@@ -19,7 +19,7 @@
 				"*-cherry":  60,
 				"*-lychee":  60, 
 				"*-breadfruit": 250,
-				"*":  120 
+				"dryfruit-*":  120 
 			},
 			"healthByType":  { "*-saguaro": 0.5 },
 			"foodcategory": "Fruit" 
@@ -36,7 +36,7 @@
 			"*-pinkapple": { "texture": "game:block/food/pie/fill-apple", "partType": "Filling" },
 			"*-redapple": { "texture": "game:block/food/pie/fill-apple", "partType": "Filling" },
 			"*-yellowapple": { "texture": "game:block/food/pie/fill-apple", "partType": "Filling" },
-			"*": { "texture": "game:block/food/pie/fill-{fruit}", "partType": "Filling" }
+			"dryfruit-*": { "texture": "game:block/food/pie/fill-{fruit}", "partType": "Filling" }
 		},
 		"onDisplayTransformByType": {
 			"@*-(redcurrant|whitecurrant|blackcurrant|blueberry|cranberry)": {
@@ -75,7 +75,7 @@
 				"rotation": { "x": 0, "y": 45, "z": 0 },
 				"scale": 0.8
 			},
-			"*": {
+			"dryfruit-*": {
 				"translation": { "x": 0.0, "y": -0.1, "z": 0.05 },
 				"scale": 0.8
 			}
@@ -121,7 +121,7 @@
 		"*-cherry": { "satiety": 35, "foodcategory": "Fruit" },
 		"*-lychee": { "satiety": 35, "foodcategory": "Fruit" },
 		"*-breadfruit": { "satiety": 175, "foodcategory": "Fruit" },
-		"*": { "satiety": 70, "foodcategory": "Fruit" }
+		"dryfruit-*": { "satiety": 70, "foodcategory": "Fruit" }
 	},
 	"transitionablePropsByType": {
 		"*-cranberry": [{
@@ -145,7 +145,7 @@
             "transitionedStack": { "type": "item", "code": "game:rot" },
             "transitionRatio": 0.25
         }],
-		"*": [{
+		"dryfruit-*": [{
 			"type": "Perish",
 			"freshHours": { "avg": 480 },
 			"transitionHours": { "avg": 12 },
@@ -326,7 +326,7 @@
 			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 			"scale": 2.3
 		},
-		"*": { 
+		"dryfruit-*": { 
 			"scale": 2.3
 		}
 	}

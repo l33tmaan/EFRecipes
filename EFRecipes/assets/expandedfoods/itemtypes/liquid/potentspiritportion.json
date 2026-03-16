@@ -33,7 +33,7 @@
 				"*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
 				"*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
 				"*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
-				"*": { "base": "game:block/food/pie/fill-{type}", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] }
+				"potentspiritportion-*": { "base": "game:block/food/pie/fill-{type}", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] }
 			},
 			"allowSpill": true,
 			"whenSpilled": {
@@ -60,7 +60,7 @@
 		"*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
 		"*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
 		"*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] },
-		"*": { "base": "game:block/food/pie/fill-{type}", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] }
+		"potentspiritportion-*": { "base": "game:block/food/pie/fill-{type}", "alpha": 140, "overlays": ["game:item/liquid/potentwine"] }
 	},
 	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:potentspiritportion-{type}", "makefull": true } ] } } ] } ],
 	"maxstacksize": 5000,

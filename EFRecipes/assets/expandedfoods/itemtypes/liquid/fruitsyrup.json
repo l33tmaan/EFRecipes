@@ -19,10 +19,10 @@
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"nutritionPropsWhenInMealByType": { 
 			"*-saguaro": { "satiety": 120, "health": 2, "foodcategory": "Fruit" },
-			"*": { "satiety": 120, "health": 1, "foodcategory": "Fruit" }
+			"fruitsyrupportion-*": { "satiety": 120, "health": 1, "foodcategory": "Fruit" }
 		},
 		"inPiePropertiesByType": { 
-			"*": {
+			"fruitsyrupportion-*": {
 				"texture": "game:block/food/pie/fill-{type}",
 				"partType": "Filling"
 			}
@@ -42,7 +42,7 @@
 	},
 	"shape": { "base": "game:item/liquid" },
 	"texturebytype": {
-		"*": { "base": "game:block/food/pie/fill-{type}", "overlays": ["game:item/liquid/syrup"] }
+		"fruitsyrupportion-*": { "base": "game:block/food/pie/fill-{type}", "overlays": ["game:item/liquid/syrup"] }
 	},
 	"transitionableProps": [{
     	"type": "Perish",
