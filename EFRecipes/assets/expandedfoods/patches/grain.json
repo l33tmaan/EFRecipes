@@ -7,59 +7,23 @@
         "satiety": 240,
         "foodcategory": "Grain"
       },
-      "juiceableProperties": {
-        "litresPerItem": 0.078125,
-        "liquidStack": {
-          "type": "item",
-          "code": "expandedfoods:foodoilportion-sunflower",
-          "stacksize": 1
-        },
-        "pressedStack": {
-          "type": "item",
-          "code": "game:pressedmash-sunflower",
-          "stacksize": 1
-        }
+      "juiceablePropertiesByType": {
+         "@*-(flax|sunflower|rice)": {
+            "litresPerItem": 0.078125,
+            "liquidStack": {
+              "type": "item",
+              "code": "expandedfoods:foodoilportion-{type}",
+              "stacksize": 1
+            },
+            "pressedStack": {
+              "type": "item",
+              "code": "game:pressedmash-{type}",
+              "stacksize": 1
+            }
+         }
       }
     },
     "side": "server",
-    "file": "game:blocktypes/plant/crop/sunflower.json"
-  },
-  {
-    "op": "addmerge",
-    "path": "/attributes/juiceableProperties",
-    "value": {
-      "litresPerItem": 0.078125,
-      "liquidStack": {
-        "type": "item",
-        "code": "expandedfoods:foodoilportion-flax",
-        "stacksize": 1
-      },
-      "pressedStack": {
-        "type": "item",
-        "code": "game:pressedmash-flax",
-        "stacksize": 1
-      }
-    },
-    "side": "server",
-    "file": "game:blocktypes/plant/crop/flax.json"
-  },
-  {
-    "op": "addmerge",
-    "path": "/attributes/juiceableProperties",
-    "value": {
-      "litresPerItem": 0.078125,
-      "liquidStack": {
-        "type": "item",
-        "code": "expandedfoods:foodoilportion-rice",
-        "stacksize": 1
-      },
-      "pressedStack": {
-        "type": "item",
-        "code": "game:pressedmash-rice",
-        "stacksize": 1
-      }
-    },
-    "side": "server",
-    "file": "game:blocktypes/plant/crop/rice.json"
+    "file": "game:itemtypes/food/grain.json"
   }
 ]
