@@ -4,26 +4,30 @@
     "path": "/variantgroups/1/states/-",
     "value": "boiled",
     "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
+    "file": "moreanimals:itemtypes/egg.json",
+    "dependsOn": [ { "modid": "moreanimals" } ]
   },
   {
     "op": "addmerge",
     "path": "/variantgroups/1/states/-",
     "value": "pickled",
     "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
+    "file": "moreanimals:itemtypes/egg.json",
+    "dependsOn": [ { "modid": "moreanimals" } ]
   },
   {
     "op": "remove",
     "path": "/texturesByType",
     "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
+    "file": "moreanimals:itemtypes/egg.json",
+    "dependsOn": [ { "modid": "moreanimals" } ]
   },
   {
     "op": "remove",
     "path": "/transitionableProps",
     "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
+    "file": "moreanimals:itemtypes/egg.json",
+    "dependsOn": [ { "modid": "moreanimals" } ]
   },
   {
     "op": "addmerge",
@@ -43,7 +47,8 @@
       "*-wildturkey-raw": { "hay-egg": { "base": "game:block/wood/henbox/hay-egg", "blendedOverlays": [ { "base": "item/egg/turkey-speckles", "blendMode": "Normal" } ] }}
     },
     "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
+    "file": "moreanimals:itemtypes/egg.json",
+    "dependsOn": [ { "modid": "moreanimals" } ]
   },
   {
     "op": "addmerge",
@@ -69,13 +74,15 @@
       ]
     },
     "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
+    "file": "moreanimals:itemtypes/egg.json",
+    "dependsOn": [ { "modid": "moreanimals" } ]
   },
   {
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
     "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
+    "file": "moreanimals:itemtypes/egg.json",
+    "dependsOn": [ { "modid": "moreanimals" } ]
   },
   {
     "op": "addmerge",
@@ -85,14 +92,16 @@
       "*": { "saturation": 280, "foodcategory": "Protein" }
     },
     "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
+    "file": "moreanimals:itemtypes/egg.json",
+    "dependsOn": [ { "modid": "moreanimals" } ]
   },
   {
     "op": "addmerge",
     "path": "/nutritionPropsByType/*-pickled",
     "value": { "saturation": 215, "foodcategory": "Protein" },
     "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
+    "file": "moreanimals:itemtypes/egg.json",
+    "dependsOn": [ { "modid": "moreanimals" } ]
   },
   {
     "op": "addmerge",
@@ -102,6 +111,7 @@
       "*-boiled": { "texture": "game:block/food/pie/fill-egg", "partType": "Filling" }
     },
     "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
+    "file": "moreanimals:itemtypes/egg.json",
+    "dependsOn": [ { "modid": "moreanimals" } ]
   }
 ]

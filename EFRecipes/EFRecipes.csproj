@@ -2,7 +2,6 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <LangVersion>9</LangVersion>
-    <VINTAGE_STORY>/home/deck/vintagestory</VINTAGE_STORY>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
       <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
@@ -44,7 +43,7 @@
       <Private>false</Private>
     </Reference>
     <Reference Include="ACulinaryArtillery">
-        <HintPath>/home/deck/repos/ACulinaryArtillery---.NET7/bin/Debug/Mods/mod/ACulinaryArtillery.dll</HintPath>
+        <HintPath>$(REPOS)/ACulinaryArtillery---.NET7/bin/Debug/Mods/mod/ACulinaryArtillery.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="cairo-sharp">

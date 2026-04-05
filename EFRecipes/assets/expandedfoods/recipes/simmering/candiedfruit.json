@@ -1,8 +1,8 @@
 ﻿[
 	{
 		"Ingredients": [
-			{ "type": "item", "code": "expandedfoods:fruitsyrupportion-*", "name": "fruit", "skipVariants": ["apple"], "quantity": 10 },
-			{ "type": "item", "code": "game:fruit-*", "name": "fruit", "skipVariants": ["pinkapple", "yellowapple", "redapple"], "quantity": 1 }
+			{ "type": "item", "code": "expandedfoods:fruitsyrupportion-*", "name": "fruit", "allowedVariants": ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "blackberry", "beautyberry", "cloudberry", "cactusfruit", "gooseberry", "guava", "kumquat", "plumnatal", "raspberry", "strawberry"], "quantity": 10 },
+			{ "type": "item", "code": "game:fruit-*", "name": "fruit", "allowedVariants": ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "blackberry", "beautyberry", "cloudberry", "cactusfruit", "gooseberry", "guava", "kumquat", "plumnatal", "raspberry", "strawberry"], "quantity": 1 }
 		],
 		"Simmering": {
 			"meltingPoint": 200,

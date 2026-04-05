@@ -1,66 +1,42 @@
 ﻿[
  {
-    "file": "expandedfoods:itemtypes/food/acorns/mixing/acornpasta.json",
-    "op": "addmerge", 
-    "path": "/enabled", 
-    "value": "false",
-    "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/grid/acorns/acornpastaprep.json",
+   "file": "expandedfoods:recipes/simmering/acorns/acornpasta.json",
     "op": "addmerge", 
     "path": "/0/enabled", 
     "value": "false",
     "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }]
+    "dependsOn": [{ "modid": "acorns", "invert": true}]
  },
  {
-    "file": "expandedfoods:recipes/grid/acorns/acornpastaprep.json",
+   "file": "expandedfoods:recipes/simmering/acorns/acornpasta.json",
     "op": "addmerge", 
     "path": "/1/enabled", 
     "value": "false",
     "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }]
+    "dependsOn": [{ "modid": "acorns", "invert": true}]
  },
  {
-    "file": "expandedfoods:recipes/grid/acorns/acornpastaprep.json",
+   "file": "expandedfoods:recipes/simmering/acorns/acornpasta.json",
     "op": "addmerge", 
     "path": "/2/enabled", 
     "value": "false",
     "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }]
+    "dependsOn": [{ "modid": "acorns", "invert": true}]
  },
  {
-    "file": "expandedfoods:recipes/grid/acorns/acornpastaprep.json",
-    "op": "addmerge", 
-    "path": "/3/enabled", 
-    "value": "false",
-    "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }]
+     "file": "expandedfoods:recipes/kneading/acorns/acornpasta.json",
+     "op": "addmerge",
+     "path": "/0/enabled",
+     "value": "false",
+     "side": "server",
+    "dependsOn": [{ "modid": "acorns", "invert": true}]
  },
  {
-    "file": "expandedfoods:recipes/grid/acorns/acornpastaprep.json",
-    "op": "addmerge", 
-    "path": "/4/enabled", 
-    "value": "false",
-    "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/grid/acorns/acornpastaprep.json",
-    "op": "addmerge", 
-    "path": "/5/enabled", 
-    "value": "false",
-    "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornpasta.json",
-    "op": "addmerge", 
-    "path": "/0/enabled", 
-    "value": "false",
-    "side": "server",
-    "dependsOn": [{ "modid": "acorns", "invert": true }]
+     "file": "expandedfoods:recipes/grid/acorns/acornpastaprep.json",
+     "op": "addmerge",
+     "path": "/4/enabled",
+     "value": "false",
+     "side": "server",
+    "dependsOn": [{ "modid": "acorns", "invert": true}]
  }
 ]

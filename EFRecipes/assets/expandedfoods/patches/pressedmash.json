@@ -3,7 +3,7 @@
     "op": "addeach",
     "side": "server",
     "path": "/variantgroups/0/states/-",
-    "value": [ "flax", "rice", "sunflower", "seed", "honey", "soybean", "peanut", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bellpepper", "cassava", "soyslurry", "soyblend", "olive", "fish"],
+    "value": [ "flax", "rice", "sunflower", "seed", "honey", "soybean", "peanut", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bellpepper", "cassava", "soyslurry", "soyblend", "fish"],
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
@@ -108,24 +108,6 @@
       "pressedStack": {
         "type": "item",
         "code": "game:pressedmash-{fruit}",
-        "stacksize": 1
-      }
-    },
-    "side": "server",
-    "file": "game:itemtypes/resource/pressedmash.json"
-  },
-  {
-    "op": "replace",
-    "path": "/attributes/juiceablePropertiesByType/*-olive",
-    "value": {
-      "liquidStack": {
-        "type": "item",
-        "code": "expandedfoods:foodoilportion-olive",
-        "stacksize": 1
-      },
-      "pressedStack": {
-        "type": "item",
-        "code": "pressedmash-olive",
         "stacksize": 1
       }
     },
