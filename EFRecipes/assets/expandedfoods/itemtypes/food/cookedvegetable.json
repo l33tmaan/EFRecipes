@@ -13,7 +13,7 @@
 		"*-pickledpumpkin-*": {"base": "item/food/veggies/pumpkin"},
 		"*-cattailroot-*": {"base": "game:item/food/vegetable/cattailsroot-cooked"},
 		"*-papyrusroot-*": {"base": "game:item/food/vegetable/papyrusroot-cooked"},
-		"*": { "base": "item/food/veggies/{type}"}
+		"cookedveggie-*": { "base": "item/food/veggies/{type}"}
 	},
 	"textures": {
 		"cabbage": {"base": "item/food/veggie/{state}/cabbage/cabbage"},
@@ -70,7 +70,7 @@
           "rotation": { "x": 0, "y": 135, "z": 90 },
           "scale": 0.75
         },
-        "*": {
+        "cookedveggie-*": {
           "translation": { "x": 0, "y": 0, "z": 0 },
           "scale": 1
         }
@@ -203,17 +203,17 @@
 		"*-cabbage-partbaked": { "satiety": 325, "foodcategory": "Vegetable" },
 		"*-pumpkin-partbaked": { "satiety": 150, "foodcategory": "Vegetable" },
 		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
-		"*-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
+		"cookedveggie-*-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
 
 		"*-cabbage-perfect": { "satiety": 400, "foodcategory": "Vegetable" },
 		"*-pumpkin-perfect": { "satiety": 200, "foodcategory": "Vegetable" },
 		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)-perfect": { "satiety": 120, "foodcategory": "Vegetable" },
-		"*-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
+		"cookedveggie-*-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
 
 		"*-cabbage-charred": { "satiety": 350, "foodcategory": "Vegetable" },
 		"*-pumpkin-charred": { "satiety": 175, "foodcategory": "Vegetable" },
 		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin)-charred": { "satiety": 100, "foodcategory": "Vegetable" },
-		"*-charred": { "satiety": 125, "foodcategory": "Vegetable" }
+		"cookedveggie-*-charred": { "satiety": 125, "foodcategory": "Vegetable" }
 	},
 	"guiTransformByType": {
 		"*-cabbage-*": {
@@ -512,7 +512,7 @@
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 0.5
 		}],
-		"@*-(partbaked|perfect)": [{
+		"@cookedveggie-*-(partbaked|perfect)": [{
 			"type": "Perish",
 			"freshHours": { "avg": 504 },
 			"transitionHours": { "avg": 96 },
@@ -547,7 +547,7 @@
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 0.5
 		}],
-		"*-charred": [{
+		"cookedveggie-*-charred": [{
 			"type": "Perish",
 			"freshHours": { "avg": 1764 },
 			"transitionHours": { "avg": 160 },

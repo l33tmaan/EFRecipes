@@ -17,7 +17,7 @@
     		"stipefly": {"base": "item/food/mushroom/{state}/flyagaric/stipe"},
     		"poresfly": {"base": "item/food/mushroom/{state}/flyagaric/pores"}
 		},
-		"*": {
+		"cookedchoppedmushroom-*": {
     		"almondmushroom": {"base": "item/food/mushroom/{state}/{type}"},
     		"beardedtooth": {"base": "item/food/mushroom/{state}/{type}"},
     		"bitterbolete": {"base": "item/food/mushroom/{state}/{type}"},
@@ -125,7 +125,7 @@
 		"*-golddropmilkcap-partbaked": { "saturation": 90, "health": -1.875, "foodcategory": "Vegetable" },
 		"*-funeralbell-partbaked": { "saturation": 90, "health": -30, "foodcategory": "Vegetable" },
 		"*-pinkbonnet-partbaked": { "saturation": 90, "health": -7.5, "foodcategory": "Vegetable" },
-		"*-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
+		"cookedchoppedmushroom-*-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
 		
 		"*-earthball-perfect": { "saturation": 110, "health": -4, "foodcategory": "Vegetable" },
 		"*-deathcap-perfect": { "saturation": 110, "health": -25, "foodcategory": "Vegetable" },
@@ -138,7 +138,7 @@
 		"*-golddropmilkcap-perfect": { "saturation": 110, "health": -1.25, "foodcategory": "Vegetable" },
 		"*-funeralbell-perfect": { "saturation": 110, "health": -20, "foodcategory": "Vegetable" },
 		"*-pinkbonnet-perfect": { "saturation": 110, "health": -5, "foodcategory": "Vegetable" },
-		"*-perfect": { "satiety": 110, "foodcategory": "Vegetable" },
+		"cookedchoppedmushroom-*-perfect": { "satiety": 110, "foodcategory": "Vegetable" },
 
 		"*-earthball-charred": { "saturation": 100, "health": -2, "foodcategory": "Vegetable" },
 		"*-deathcap-charred": { "saturation": 100, "health": -12.25, "foodcategory": "Vegetable" },
@@ -151,7 +151,7 @@
 		"*-golddropmilkcap-charred": { "saturation": 100, "health": -0.625, "foodcategory": "Vegetable" },
 		"*-funeralbell-charred": { "saturation": 100, "health": -10, "foodcategory": "Vegetable" },
 		"*-pinkbonnet-charred": { "saturation": 100, "health": -2.5, "foodcategory": "Vegetable" },
-		"*-charred": { "satiety": 100, "foodcategory": "Vegetable" }
+		"cookedchoppedmushroom-*-charred": { "satiety": 100, "foodcategory": "Vegetable" }
 	},
 	"transitionablePropsByType": {
     	"@*-(partbaked|perfect)": [{
@@ -213,7 +213,7 @@
 			"scale": 2.25,
 			"rotate":  true
 		},
-		"*": {
+		"cookedchoppedmushroom-*": {
 			"translation": { "x": 3, "y": 0, "z": 0 },
 			"rotation": { "x": -44, "y": 180, "z": 2 },
 			"origin": { "x": 0.5, "y": 0.05, "z": 0.5 },

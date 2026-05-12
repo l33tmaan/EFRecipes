@@ -88,27 +88,9 @@
     "file": "recipes/cooking/porridge.json"
   },
   {
-    "op": "remove",
-    "path": "/ingredients/3",
-    "side": "server",
-    "file": "recipes/cooking/porridge.json"
-  },
-  {
-    "op": "replace",
-    "path": "/ingredients/3",
-    "value": {
-      "code": "vegetable-extra",
-      "validStacks": [
-        { "type": "item", "code": "vegetable-cabbage", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-carrot", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-onion", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-parsnip", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-turnip", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-pumpkin", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-bellpepper", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "vegetable-cassava", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "mushroom-*", "shapeElement": "bowl/vegetable 1/*" },
-        { "type": "item", "code": "pickledvegetable-*", "shapeElement": "bowl/vegetable 1/*" },
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [
         { "type": "item", "code": "expandedfoods:choppedmushroom-almondmushroom", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group3" ] },
         { "type": "item", "code": "expandedfoods:choppedmushroom-beardedtooth", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group7" ] },
         { "type": "item", "code": "expandedfoods:choppedmushroom-bitterbolete", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group3" ] },
@@ -163,29 +145,13 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group11" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-bellpepper", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "fruit", "group8" ] }
       ],
-      "minQuantity": 0,
-      "maxQuantity": 1,
-      "typeName": "vegetable"
-    },
     "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
   {
-    "op": "addmerge",
-    "path": "/ingredients/4",
-    "value": {
-      "code": "vegetable-extra-2",
-      "validStacks": [
-        { "type": "item", "code": "vegetable-cabbage", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-carrot", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-onion", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-parsnip", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-turnip", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-pumpkin", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-bellpepper", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "vegetable-cassava", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "mushroom-*", "shapeElement": "bowl/vegetable 2/*" },
-        { "type": "item", "code": "pickledvegetable-*", "shapeElement": "bowl/vegetable 2/*" },
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
         { "type": "item", "code": "expandedfoods:choppedmushroom-almondmushroom", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group3" ] },
         { "type": "item", "code": "expandedfoods:choppedmushroom-beardedtooth", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group7" ] },
         { "type": "item", "code": "expandedfoods:choppedmushroom-bitterbolete", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group3" ] },
@@ -240,10 +206,6 @@
         { "type": "item", "code": "expandedfoods:choppedvegetable-papyrusroot", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group11" ] },
         { "type": "item", "code": "expandedfoods:choppedvegetable-bellpepper", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "fruit", "group8" ] }
       ],
-      "minQuantity": 0,
-      "maxQuantity": 1,
-      "typeName": "vegetable"
-    },
     "side": "server",
     "file": "recipes/cooking/porridge.json"
   },
@@ -447,7 +409,6 @@
     "op": "addeach",
     "path": "/ingredients/8/validStacks/-",
     "value": [
-        {"type": "item", "code": "primitivesurvival:fishfillet-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
         {"type": "item", "code": "primitivesurvival:crabmeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
         {"type": "item", "code": "primitivesurvival:snakemeat-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
         {"type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},

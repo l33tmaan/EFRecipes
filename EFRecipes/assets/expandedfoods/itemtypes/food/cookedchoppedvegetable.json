@@ -129,17 +129,17 @@
 		"*-cabbage-partbaked": { "satiety": 325, "foodcategory": "Vegetable" },
 		"*-pumpkin-partbaked": { "satiety": 150, "foodcategory": "Vegetable" },
 		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-partbaked": { "saturation": 90, "foodcategory": "Vegetable" },
-		"*-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
+		"cookedchoppedvegetable-*-partbaked": { "satiety": 110, "foodcategory": "Vegetable" },
 
 		"*-cabbage-perfect": { "satiety": 400, "foodcategory": "Vegetable" },
 		"*-pumpkin-perfect": { "satiety": 200, "foodcategory": "Vegetable" },
 		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-perfect": { "saturation": 120, "foodcategory": "Vegetable" },
-		"*-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
+		"cookedchoppedvegetable-*-perfect": { "satiety": 140, "foodcategory": "Vegetable" },
 
 		"*-cabbage-charred": { "satiety": 350, "foodcategory": "Vegetable" },
 		"*-pumpkin-charred": { "satiety": 175, "foodcategory": "Vegetable" },
 		"@*-(pickledcarrot|pickledonion|pickledparsnip|pickledturnip|pickledpumpkin|pickledbellpepper)-charred": { "saturation": 100, "foodcategory": "Vegetable" },
-		"*-charred": { "satiety": 125, "foodcategory": "Vegetable" }
+		"cookedchoppedvegetable-*-charred": { "satiety": 125, "foodcategory": "Vegetable" }
 	},
 	"transitionablePropsByType": {
     	"@*-pumpkin-(partbaked|perfect)": [{
@@ -163,7 +163,7 @@
     		"transitionedStack": { "type": "item", "code": "game:rot" },
     		"transitionRatio": 1
     	}],
-    	"@*-(partbaked|perfect)": [{
+    	"@cookedchoppedvegetable-*-(partbaked|perfect)": [{
     		"type": "Perish",
     		"freshHours": { "avg":  504 },
     		"transitionHours": { "avg": 96 },
@@ -191,7 +191,7 @@
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 1
 		}],
-		"*-charred": [{
+		"cookedchoppedvegetable-*-charred": [{
 			"type": "Perish",
 			"freshHours": { "avg":  1764 },
 			"transitionHours": { "avg": 160 },
@@ -320,7 +320,7 @@
 			"scale": 2.5,
 			"rotate":  true
 		},
-		"*": {
+		"cookedchoppedvegetable-*": {
 			"translation": { "x": 3, "y": 4, "z": 0 },
 			"rotation": { "x": -44, "y": 180, "z": 2 },
 			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
@@ -429,7 +429,7 @@
 			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
 			"scale": 0.5
 		},
-		"*": {
+		"cookedchoppedvegetable-*": {
 			"translation": { "x": -1.73, "y": -0.42, "z": -2 },
 			"rotation": { "x": 1, "y": -10, "z": 0 },
 			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
@@ -539,7 +539,7 @@
 			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
 			"scale": 3
 		},
-		"*": {
+		"cookedchoppedvegetable-*": {
 			"translation": { "x": 0, "y": 0, "z": 0 },
 			"rotation": { "x": 0, "y": 0, "z": 0 },
 			"origin": { "x": 0.5, "y": 0, "z": 0.5 },

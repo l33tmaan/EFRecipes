@@ -29,7 +29,7 @@
 		"*-cherry": { "satiety": 160, "health": 1, "foodcategory": "Fruit" },
 		"*-lychee": { "satiety": 160, "health": 1, "foodcategory": "Fruit" },
 		"*-breadfruit": { "satiety": 320, "health": 1, "foodcategory": "Fruit" },
-		"*": { "satiety": 200, "health": 1, "foodcategory": "Fruit" }
+		"candiedfruit-*": { "satiety": 200, "health": 1, "foodcategory": "Fruit" }
 	},
 	"transitionablePropsByType": {
 		"*-cranberry": [{
@@ -53,7 +53,7 @@
             "transitionedStack": { "type": "item", "code": "game:rot" },
             "transitionRatio": 0.25
         }],
-		"*": [{
+		"candiedfruit-*": [{
 			"type": "Perish",
 			"freshHours": { "avg": 720 },
 			"transitionHours": { "avg": 12 },
@@ -234,7 +234,7 @@
 			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
 			"scale": 2.3
 		},
-		"*": { 
+		"candiedfruit-*": { 
 			"scale": 2.3
 		}
 	}
