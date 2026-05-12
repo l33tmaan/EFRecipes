@@ -88,6 +88,7 @@ On hiatus until Wildcraft Herbs & Spices is updated
 - Irontack can be thrown as a rock/used as sling ammo
 - Meal text updated to be more like vanilla
 - Variant groups removed from various foods to reduce bloat
+- Porridge recipe patch streamlined to use proper patch methods
 
 HANDBOOK THINGS:
 - Muffins and fruit bread have default visuals in the handbook
@@ -111,6 +112,7 @@ BUG FIXES:
 - WHY ARE FRIED BALLS DOING IT TOO????
 - Peanut butter fixed so it gives nutrients when in bowl/bucket
 - Acorn muffin recipe fixed so it stops crashing in handbook
+- Fish gelatin can go into pies - DONE!!!
 
 NEW FOOD:
 - added meatloaf?
@@ -132,7 +134,22 @@ MISC:
 - Pickled cabbage transform reviewed
 - Aged spirit/cider text and visuals revised and updated
 - Superfuels Resumed compatibility actually works now - DONE!!!
+- Latin American Spanish translation added (thanks to Gloo_57) - DONE!!!
+- Soymilk description updated (thanks to origami79) - DONE!!!
 
+Whiskey Sunshine updates:
+- Fix outdated patching method to fix modded ingredients being invalid in porridge recipe when EF is installed, removed duplicate vanilla ingredient entries from patches
+- Removed color typed candied apple entries from yogurt meal and replaced with single candiedfruit-apple entry
+- Appended itemcodes to various wildcard entries to make inheritFrom functionality valid going forward, matching vanilla practices
+- Vanilla fish file was renamed causing missing items, from fish.json to fishfillet.json. Change in target fixes issues related to multiplayer crafting grid crashing
+- Added vanilla dead fish to fermented fish slop barrel recipe, removed all references to primitive survival fish fillets, renamed and retargeted fish.json to fishfillet.json to match vanilla fish > fishfillet change
+- Added new fruit variants to gelatin and yogurt (missing shapes/textures)
+- Added missing dependsOn conditions to several compat patches to correctly enable/disable recipes
+- Added new enable/disable patches to cover acorn pasta recipes
+- Fixed grain patch targets
+- Removed EF olive mash (now returns vanilla olive mash)
+- Fixed bad patches due to vanilla structure changes
+- Added correct side to some trough patches to clean up client-debug logs, other small assorted things
 
 
 2.0.0-dev.7
