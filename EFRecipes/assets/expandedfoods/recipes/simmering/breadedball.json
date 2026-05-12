@@ -1,8 +1,11 @@
 ﻿[
 {
+
 	"Ingredients": [
 		{ "type": "item", "code": "expandedfoods:foodoilportion-*", "quantity": 10 },
-		{ "type": "item", "code": "expandedfoods:breadedball-*-raw", "quantity": 1, "name": "grain" }
+		{ "type": "item", "code": "expandedfoods:breadedball-*-raw", "quantity": 1, "name": "grain", 
+            "allowedVariants":["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"] 
+        }
 	],
 	"Simmering": {
 		"meltingPoint": 150,
@@ -16,7 +19,9 @@
 {
 	"Ingredients": [
 		{ "type": "item", "code": "expandedfoods:lard", "quantity": 10 },
-		{ "type": "item", "code": "expandedfoods:breadedball-*-raw", "quantity": 1, "name": "grain" }
+		{ "type": "item", "code": "expandedfoods:breadedball-*-raw", "quantity": 1, "name": "grain",
+            "allowedVariants":["flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"] 
+        }
 	],
 	"Simmering": {
 		"meltingPoint": 150,
