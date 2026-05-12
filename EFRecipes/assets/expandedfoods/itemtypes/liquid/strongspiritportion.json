@@ -33,7 +33,7 @@
 				"*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
 				"*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
 				"*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-				"*": { "base": "game:block/food/pie/fill-{type}", "alpha": 120, "overlays": ["game:item/liquid/syrup"] }
+				"strongspiritportion-*": { "base": "game:block/food/pie/fill-{type}", "alpha": 120, "overlays": ["game:item/liquid/syrup"] }
 			},
 			"allowSpill": true,
 			"whenSpilled": {
@@ -64,7 +64,7 @@
 		"*-amaranth": { "base": "game:block/food/pie/fill-poultry", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
 		"*-cassava": { "base": "game:block/food/pie/fill-cassava", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
 		"*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 120, "overlays": ["game:item/liquid/syrup"] },
-		"*": { "base": "game:block/food/pie/fill-{type}", "alpha": 120, "overlays": ["game:item/liquid/syrup"] }
+		"strongspiritportion-*": { "base": "game:block/food/pie/fill-{type}", "alpha": 120, "overlays": ["game:item/liquid/syrup"] }
 	},
 	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "expandedfoods"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "expandedfoods:strongspiritportion-{type}", "makefull": true } ] } } ] } ],
 	"maxstacksize": 5000,

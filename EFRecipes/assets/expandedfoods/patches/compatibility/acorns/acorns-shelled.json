@@ -13,7 +13,8 @@
       }
     },
     "side": "server",
-    "file": "acorns:itemtypes/resource/acorns-shelled.json"
+    "file": "acorns:itemtypes/resource/acorns-shelled.json",
+    "dependsOn": [{"modid": "acorns"}]
   },
   {
     "op": "addmerge",
@@ -27,6 +28,7 @@
       "resultCode": "expandedfoods:acorns-roasted"
     },
     "side": "server",
-    "file": "acorns:itemtypes/resource/acorns-shelled.json"
+    "file": "acorns:itemtypes/resource/acorns-shelled.json",
+    "dependsOn": [{"modid": "acorns"}]
   }
 ]
