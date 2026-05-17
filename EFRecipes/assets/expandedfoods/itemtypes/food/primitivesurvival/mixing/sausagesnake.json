@@ -183,7 +183,7 @@
 		}],
 		"@*-(charred|driedcharred)": [{
 			"type": "Perish",
-			"freshHours": { "avg": 1344 },
+			"freshHours": { "avg": 432 },
 			"transitionHours": { "avg": 216 },
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 1
@@ -203,14 +203,14 @@
       	}],
 		"*-cured": [{
         	"type": "Perish",
-			"freshHours": { "avg": 13440 },
-			"transitionHours": { "avg": 8640 },
+			"freshHours": { "avg": 3888 },
+			"transitionHours": { "avg": 648 },
        		"transitionedStack": { "type": "item", "code": "game:rot" },
        		"transitionRatio": 1
       	}],
 		"*": [{
 			"type": "Perish",
-			"freshHours": { "avg": 672 },
+			"freshHours": { "avg": 216 },
 			"transitionHours": { "avg": 108 },
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 1

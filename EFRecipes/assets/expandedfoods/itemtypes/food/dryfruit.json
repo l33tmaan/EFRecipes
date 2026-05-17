@@ -133,14 +133,14 @@
 		}],
         "@*-(orange|mango|lychee|pomegranate)": [{
             "type": "Perish",
-            "freshHours": { "avg": 3600 },
+            "freshHours": { "avg": 2700 },
             "transitionHours": { "avg": 48 },
             "transitionedStack": { "type": "item", "code": "game:rot" },
             "transitionRatio": 0.25
         }],
         "@*-(pinkapple|redapple|yellowapple|pear|breadfruit)": [{
             "type": "Perish",
-            "freshHours": { "avg": 9600 },
+            "freshHours": { "avg": 4800 },
             "transitionHours": { "avg": 48 },
             "transitionedStack": { "type": "item", "code": "game:rot" },
             "transitionRatio": 0.25
