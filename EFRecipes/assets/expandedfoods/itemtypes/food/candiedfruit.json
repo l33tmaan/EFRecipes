@@ -31,36 +31,13 @@
 		"*-breadfruit": { "satiety": 320, "health": 1, "foodcategory": "Fruit" },
 		"candiedfruit-*": { "satiety": 200, "health": 1, "foodcategory": "Fruit" }
 	},
-	"transitionablePropsByType": {
-		"*-cranberry": [{
-			"type": "Perish",
-			"freshHours": { "avg": 1440 },
-			"transitionHours": { "avg": 12 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
-			"transitionRatio": 0.25
-		}],
-        "@*-(orange|mango|lychee|pomegranate)": [{
-            "type": "Perish",
-            "freshHours": { "avg": 5400 },
-            "transitionHours": { "avg": 48 },
-            "transitionedStack": { "type": "item", "code": "game:rot" },
-            "transitionRatio": 0.25
-        }],
-        "@*-(apple|pear|breadfruit)": [{
-            "type": "Perish",
-            "freshHours": { "avg": 9600 },
-            "transitionHours": { "avg": 48 },
-            "transitionedStack": { "type": "item", "code": "game:rot" },
-            "transitionRatio": 0.25
-        }],
-		"candiedfruit-*": [{
+	"transitionableProps": [{
 			"type": "Perish",
 			"freshHours": { "avg": 720 },
 			"transitionHours": { "avg": 12 },
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 0.25
-		}]
-	},
+	}],
 	"guiTransformByType": {
 		"*-pomegranate": {
 			"rotation": { "x": 180, "y": -86, "z": 36 },
